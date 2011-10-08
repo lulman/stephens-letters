@@ -21,8 +21,7 @@
               The "level" attribute "indicates whether this is the title of an article, book, journal, 
               series, or unpublished material, indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).
             -->
-            <title>My changes to line 24</title>
-            <title>To infinity ... and beyond!</title>
+            <title>NEED EDITION TITLE HERE</title>
             
             <author>xxx</author>
             
