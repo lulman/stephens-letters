@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../../../../../Applications/oxygen/frameworks/tei/xml/tei/css/tei_oxygen.css"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+  <!-- First, we provide a teiHeader element for the corpus, encoding descriptive and administrative
+  metadata that applies to the project as a whole.-->
+  <teiHeader type="corpus">
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        
+        <biblFull>
+          <titleStmt>
+            
+            <!--
+              The "level" attribute "indicates whether this is the title of an article, book, journal, 
+              series, or unpublished material, indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).
+            -->
+            <title level="u">xxx</title>
+            
+            <author>xxx</author>
+            
+          </titleStmt>
+          
+          <!-- 
+            The <extent> element indicates the size of your source document(s), in whatever 
+            units are appropriate. In this case, number of letters?
+          -->
+          <extent>00 autograph letters.</extent>
+          
+          <publicationStmt>
+            <p>Pulbication statement from the library.</p>
+          </publicationStmt>
+          
+          <!-- 
+            TAKE NOTE: Your entire header should answer the following questions about your 
+            source document. At this point in your header, you should discuss anything in 
+            this list not mentioned elsewhere in the header.
+            
+            1. What is the document (letter, will, etc.)?
+            2. What does it say about itself (titles, descriptive notes, etc.)?
+            3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+            4. How is it put together (folded sheets, binding, etc.)?
+            5. What is it made of (paper, vellum, etc.)?
+            6. What is its size (i.e., physical dimensions)?
+            7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+            8. How is it related to other versions (original, copy, print history)?
+            
+            You can use more than one paragraph (tagged <p> </p>).
+          -->
+          <notesStmt>
+            
+            <note type="descriptive" resp="ed">
+              <p>Bibliographic description here</p>                  
+            </note>
+            
+            <note type="introductory" resp="ed">
+              <p>Introductory note text here.</p>
+            </note> 
+            
+          </notesStmt>
+        </biblFull>
+        
+        <listPlace>
+          <head>Places Mentioned in the Text</head>
+          <place type="city" xml:id="Seattle" source="#TGN">
+            <placeName>Seattle</placeName>
+            <desc>Gladys Stephens attends the 1909 Seattle World's Fair.</desc>
+            <country>United States</country>
+            <region type="state">Washington</region>
+            <region type="county">King</region>
+            <location>
+              <geo>47.6000 -122.3167</geo>
+            </location>
+          </place>
+          <place type="sound" xml:id="Puget" source="#TGN">
+            <geogName>Puget Sound</geogName>
+            <desc>In her letter of 9 July 1909, Gladys Stephens anticipates visiting Puget Sound.</desc>
+            <country>United States</country>
+            <region type="state">Washington</region>
+            <location>
+              <geo>47.8333 -122.4333</geo>
+            </location>
+          </place>
+        </listPlace>
+        
+        <list type="gloss">
+          <!-- Here's an example from another edition. -->
+          <head>List of Nautical Terms</head>
+          <item xml:id="Mate">
+            <term>Mate</term>
+            <gloss>Mates on merchant ships would take command in the captain's stead in the absence
+              of the master. The number of mates depended on the size of the ship's company</gloss>
+            <bibl><ref target="#Falconers">Falconer's</ref></bibl>
+          </item>
+        </list>
+        
+        <list>
+           <head>List of Ships Mentioned in Stephens Family Letters</head>
+          <item xml:id="Northwestern">
+            <name type="passenger" subtype="steamer">S. S. Northwestern</name>
+            <country>USA</country>
+            <date type="launched" when="1889-11-23"/>
+            <date type="destroyed" when="1942-06-04"></date>
+            <orgName type="owner" when="1908-01-14">Alaska Steamship Company</orgName>
+            <desc>Name changed from Orizaba to Northwestern 7 August 1906. </desc>
+            <bibl><ref target="#MEA #Burwell"/></bibl>
+          </item>
+        </list>
+        
+        <listOrg>
+          <!-- Here's an example from another edition. -->
+          <head>List of Organizations</head>
+          <org xml:id="FN">
+            <orgName>Fosters and Nickerson</orgName>
+            <state type="partners">
+              <desc><persName ref="FrederickNickerson">Frederick Nickerson</persName>
+                <persName ref="WHF">W.H. Foster</persName></desc>
+            </state>
+            <region>Boston, MA</region>
+            <desc>Most likely, Louisa is referring to the parternship between the shipbuilding
+              company Foster and Co. and merchant company Nickerson and Co.</desc>
+          </org>
+          <org xml:id="HowAsp" source="#ANB-WHA">
+            <orgName> Howland and Aspinwall</orgName>
+            <state type="Owners">
+              <desc>
+                <persName ref="WHA" notBefore="1834" notAfter="1856">William Henry
+                  Aspinwall</persName>
+                <persName ref="JLA" notBefore="1850">John Lloyd Aspinwall</persName>
+                <persName ref="WEH" notBefore="1834">William Edgar Howland</persName>
+              </desc>
+            </state>
+          </org>
+        </listOrg>
+        
+        <listBibl>
+          <head>Works Cited</head>
+          <!-- Though TEI provides for more fine-grained encoding, we will enter bibliography items
+            as we would expect them to be displayed, ecept for noting text that requires special
+            formatting (e.g., titles). -->
+          <bibl xml:id="MEA" n="Marine">"S.S. Northwestern. <title level="m">Marine Exchange of
+          Alaska</title>. N.p., n.d. Web. 24 Sept. 2011.</bibl>
+          <bibl xml:id="Burwell" n="Burwell">Burwell, Michael. <title level="a">The SS <name
+            type="ship">Northwestern</name>: The Final Return of 'The Ship that Always Came
+            Back.</title> <title level="m">Alaska at War, 1941–1945: The Forgotten War
+            Remembered</title>. Ed. Fern Chandonnet. Fairbanks: U of Alaska P, 2008. Print. 219–226.</bibl>         
+        </listBibl>
+        
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <rendition xml:id="ot1">text written on an approximately 45-degree angle to the surrounding
+          line(s) of text, slanting downward left to right</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <!-- The text-profile description "provides a detailed description of non-bibliographic aspects of a text, 
+        specifically the languages and sublanguages used, the situation in which it was produced, 
+        the participants and their setting" (TEI P5 - 2.4 The Profile Description). -->
+
+      <creation>
+        <date>2011-12-6</date>
+      </creation>
+
+      <particDesc>
+        <listPerson type="mentioned">
+          <person xml:id="GMS">
+            <persName>Stephens, Gladys M.</persName>
+          </person>
+          <person xml:id="JJM">
+            <persName>McIntyre, James J.</persName>
+          </person>
+          <person xml:id="ACS">
+            <persName>Stephens, Alex C.</persName>
+          </person>
+          <person xml:id="ATS">
+            <persName>Stephens, A. T.</persName>
+          </person>
+          <person xml:id="MATS">
+            <persName>Stephens, Mrs. A. T.</persName>
+          </person>
+        </listPerson>
+        
+        <listPerson type="editors">
+          <person xml:id="HLU">
+            <persName>Ulman, H. Lewis</persName>
+            <birth when="1952">
+              <placeName>Williamsport, PA</placeName>
+            </birth>
+            <education>BA, Lycoming College (1974)</education>
+            <education>MA, The Pennsylvania State University (1980)</education>
+            <education>PhD, The Pennsylvania State University (1985)</education>
+            <occupation>College Professor</occupation>
+            <nationality>U.S.A.</nationality> 
+            <note type="biographical">Biographical note about H. Lewis Ulman</note>
+          </person>
+        </listPerson>
+      </particDesc>
+
+      <!-- Note any languages that appear in your document (use multiple tags, if necessary). -->
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+
+      <!-- Identify and describe any hands (i.e., individuals' handwriting) that appear in your document. -->
+      <handNotes>
+        <handNote xml:id="GMSHand" medium="brown-ink">Round, clear, nearly vertical handwriting.</handNote>
+        <handNote xml:id="Stationery" medium="print">Miscellaneous printed text on stationery.</handNote>
+        <handNote xml:id="Unknown" medium="pencil">Miscellaneous handwritten notes on stationery or
+          envelopes.</handNote>
+      </handNotes>
+
+      <textClass>
+        <!-- Supply a list of keywords for your document from the Library of Congress Subject Headings -->
+        <keywords scheme="#LCSH">
+          <term>Alaska-Yukon-Pacific Exposition (1909: Seattle, Wash.)</term>
+        </keywords>
+
+      </textClass>
+
+    </profileDesc>
+  </teiHeader>
+  <!-- The encoded transcription of the first letter in our edition begins here. -->
+  <TEI>
+    <!-- First, we provide descriptive information about this particular letter and any 
+        accompanying materials (e.g., an envelope or enclosure) in this teiHeader element 
+        for the letter. -->
+    <teiHeader type="text">
+      <fileDesc>
+        <titleStmt>
+          <title>Gladys M. Stephens to Mrs. A. T. Stephens, 9 July 1909</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
+                1834-1949 1909-1917</collection>
+              <idno>SPEC.RARE.CMS.327</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                <!-- Describe contents briefly (these notes need to be revised and cast in prose). -->
+                Flower exposition; Yellowstone Park; Japanese tea; fair; population increase. </p>
+            </msContents>
+            <physDesc>
+              <!-- 
+              TAKE NOTE: Your entire header should answer the following questions about your 
+              source document. At this point in your header, you should discuss anything in 
+              this list not mentioned elsewhere in the header.
+              
+              1. What is the document (letter, will, etc.)?
+              2. What does it say about itself (titles, descriptive notes, etc.)?
+              3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+              4. How is it put together (folded sheets, binding, etc.)?
+              5. What is it made of (paper, vellum, etc.)?
+              6. What is its size (i.e., physical dimensions)?
+              7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+              8. How is it related to other versions (original, copy, print history)?
+              
+              You can use more than one paragraph (tagged <p> </p>).
+            -->
+              <p> ALS. Four loose sheets of cream-colored Hotel Georgian letterhead stationery
+                measuring 6 x 9.5 inches. The front side contains a 2.5-inch letterhead, a 6.75-inch
+                body with blue lines spaced at .375-inch intervals, and a .25-inch bottom margin.
+                The back side contains a .75-inch unlined head, with the body lined as on the front
+                side. An oval watermark, variably placed on each sheet and measuring approximately
+                2.375 x 2.625 inches when entirely visible, reads, in outline letters, "MERCHANTS |
+                PRT'G CO | LURIE &amp; LURIE." The letterhead contains, in the upper left-hand
+                corner, a 1.375 x 2.4375-inch halftone image of the Hotel Georgian facade. </p>
+              <accMat corresp="#GS19090706env">
+                <!-- Note whether an envelope or enclosure accomplanies the letter --> Accompanied
+                by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
+                measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch halftone image of the Hotel
+                Georgian facade is printed on the left-hand side of the envelope above the hotel's
+                address. </accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Box and folder number from the finding aid -->
+                <note>Box 3, Folder 16</note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <!-- Now we transcribe and encode the text of the letter and accompanying materials. -->
+    <text>
+      <body>
+        <!-- First, the envelope. -->
+        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
+          <pb facs="/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71"/>
+          <ab type="returnAddress">
+            <handShift new="#Stationery"/>
+            <address>
+            <addrLine>Hotel Georgian</addrLine>
+            <addrLine>Fourth Avenue</addrLine>
+            <addrLine>Pike &amp; Union</addrLine>
+            <addrLine>Seattle, U. S. A.</addrLine>
+            </address>
+          </ab>
+          <ab type="postalAddress">
+            <handShift new="#GMSHand"/>
+            <persName>Mrs. A. T. Stephens</persName>
+            <address>
+            <addrLine>26 Emerson street</addrLine>
+            <addrLine>Newton</addrLine>
+            <addrLine>Massachusetts</addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+            <handShift new="Unknown"/> 94<ptr type="NoteAnchor" target="Endorsements"/>
+            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
+              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
+              number is circled.</note>
+          </ab>
+          <ab>
+            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
+            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
+          </ab>
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
+              vertically; Design A139]</figDesc>
+          </figure>
+          <!-- See http://www.jamesdire.net/W-F.html -->
+        </div>
+        <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
+         Or perhaps we should us forme work <fw>. But I think not. -->
+        <div type="letter" xml:id="GS19090706let01" corresp="#GS19090706env01">
+          <pb facs="/a/a5207bda-367a-4e66-983f-2effd11922bf"/>
+          <head type="letterhead">
+            <figure rend="link">
+              <head>Photograph of the Hotel Georgian</head>
+              <graphic
+                url="https://images.asc.ohio-state.edu/is/image/englishdocs/a/a5207bda-367a-4e66-983f-2effd11922bf.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
+              <figDesc>Photograph of the facade of the Hotel Georgian.</figDesc>
+            </figure>
+            <lb/>Rates $1.00 up <lb/>Hotel Georgian <lb/>European Plan
+              <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
+          <opener>
+            <handShift new="#GMSHand"/>
+            <dateline><date when="1909-07-06">7/6 9</date></dateline>
+            <lb/><salute>Dear <rs ref="#MATS">Mama</rs>,</salute>
+          </opener>
+          <p>
+            <lb/>I have made my 
+            <!-- Is "Exposition Grounds" a place, a referring string, or an event? -->
+            <lb/>first trip to the <placeName>Exposition 
+            <lb/>Grounds</placeName>. They are simply
+            <lb/>dreams of beauty. Such 
+            <lb/>flowers—and such 
+            <lb/>quantities of them! There 
+            <lb/>is one place where there 
+            <lb/>are thousands <seg type="obliqueText" rendition="#ot1">and</seg> 
+            <lb/>thousands of white, 
+            <lb/>lavender <seg type="obliqueText" rendition="#ot1">and</seg> pure yellow 
+            <lb/>pansies. In one place 
+            <lb/>there are veritable terraces 
+            <lb/>of water with a falls between 
+            <lb/>This expanse is surrounded 
+            <lb/>by the most beautiful
+            <lb/>display of poppies I ever 
+            <pb facs="/e/e6df1e7d-279b-4a55-bf88-bf0a842a41a1"/>
+            <!-- Note that the paragraph continues on the following page. -->
+            <lb/>saw. Then there are
+            <lb/>flowers like those I brought
+            <lb/>home from Senior Prom.—
+            <!-- Is that really an "h" in the middle of "geraniums"? -->
+            <lb/>gerhaniums—<hi rend="underlined">dwarf</hi>
+            <lb/>sweet peas—every kind
+            <lb/>of flowers imaginable.
+            <lb/>Talk abut roses, there
+            <lb/>are so many here that
+            <lb/>I can't think what
+            <lb/>California will be like.
+            <lb/>I went today with
+            <lb/>the <rs>Virginians</rs>. The men
+            <lb/>were hunting up old
+            <lb/>friends here in the
+            <lb/>city. I have a lot of
+            <lb/>truck, which I am going
+            <lb/>to send by mail. There
+            <lb/>are four pictures of
+            <lb/><placeName>Yellowstone</placeName> which are
+            <lb/>exquisite—they are
+            <lb/>as natural as pictures
+            <lb/>can be. My <rs>Princetonian</rs>
+            <!-- Is "and" written at an angle a form of highlighting? -->
+            <lb/>got them for me, and
+            <pb facs="/0/080321f8-ac6c-4871-8a4c-ab55b041faa8"/>
+            <!-- What do I do about the repeated letterhead? -->
+            <lb/>paid a dollar for
+            <lb/>them. The packages of tea
+            <lb/>I got at the Japanese
+            <lb/>tea garden from the
+            <lb/><rs>little Japanese girl</rs>. I
+            <!-- Is "Hayden" a person or a company? -->
+            <lb/>ordered (through Hayden)
+            <lb/>a 5 cent can of condense
+            <lb/>milk.
+          </p>
+          <!-- Marking a paragraph break because she stops the previous line part way across the
+            page. -->
+          <p>
+            <lb/>The buildings are <unclear>fine</unclear>
+            <lb/>at the fair. One of the
+            <lb/>Virginian ladies said
+            <lb/>this fair is much superior
+            <!-- A rs for an event? Or an abbreviation? -->
+            <lb/>to <rs>the St. Louis</rs> and others
+            <lb/>because of its compactness
+            <lb/>as well as its beauty.
+            <lb/>The buildings will be
+            <lb/>used later as college <choice><abbr >b'l'd'gs</abbr><expan>buildings</expan></choice>.
+            <lb/>Today we only visited
+            <pb facs="/4/40002978-5147-4e7f-98f2-506f8b3cc762"/>
+            <lb/>those in the inner circle.
+            <lb/>The place is laid out in
+            <lb/>this way
+            <!-- How to encode the labels "Entrance" and "etc." on the diagram? -->
+            <figure rend="embed">               
+              <head>Layout of the fairgrounds.</head>
+              <graphic
+                url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/40002978-5147-4e7f-98f2-506f8b3cc762.jpg?scale=0.2&amp;rgn=235,110,200,200&amp;fmt=png"/>
+                <figDesc>A freehand sketch of the layout of the fairgrounds.</figDesc>
+            </figure>
+            <lb/>The amusement street
+            <lb/>is called pay streak—a
+            <lb/>mining term. 
+          </p>
+          <p>
+            <lb/>The city has several
+            <lb/>skyscrapers.
+          </p>
+          <p>
+            <lb/>There is a Hawaiian
+            <lb/>village with real bare
+            <lb/>natives. We are going to
+            <lb/>visit it later. There also
+            <lb/>Esquimos and a village.
+            <lb/>I am sending you
+            <lb/>also the daily program.
+            <lb/>Have not found the
+            <lb/>Goulds yet.            
+          </p>
+          <p>
+            <lb/>This morning it was
+            <lb/>raining and I slept until
+            <pb facs="/f/f26773c4-a97e-4e7d-8b0d-b5df9e883867"/>
+            <!-- Again the letterhead. And note that she has been numbering sheets, not pages. -->
+            <lb/><hi rend="underlined">3</hi>
+            <lb/>8.25. We went to
+            <lb/>the Expo. at 10.30—got
+            <lb/>back at 4.40. Some day
+            <lb/>we are going up <geogName>Puget
+            <lb/><geogFeat>Sound</geogFeat></geogName>. I can do quite
+            <lb/>a stunt at eating now—
+            <lb/>devoured a small steak for
+            <lb/>my breakfast—a dish of
+            <lb/>strawberries, one of oatmeal,
+            <lb/>two muffins and three
+            <lb/>pancakes—and a cup of
+            <lb/>coffee. Sunburn is wearing
+            <lb/>off a trifle since I have
+            <lb/>left <rs>the park</rs>. They have a
+            <lb/>line of cable cars here, and
+            <lb/>some odd big ones. The
+            <lb/>population has increased
+            <lb/>150,000 in 2 years.
+            <pb facs="/9/9b9f204a-187f-493f-9a9a-36423233ddad"/>
+            <lb/>I am getting to be
+            <lb/>quite a critic on buildings
+            <lb/>with two builders.
+          </p>
+          <p>
+            <lb/>Havent done much on
+            <lb/>the writing stunt. I
+            <lb/>wrote Miss Childs a
+            <lb/>steamer letter, one to
+            <lb/>Gus, I think I wrote
+            <lb/>one to Roswel, and a
+            <lb/>dozen lines to Nat
+            <lb/>telling him that I
+            <lb/>was having a dandy
+            <lb/>time—never knew
+            <lb/>where I was going next
+            <lb/>and did not know
+            <lb/>when I'd be home;
+            <lb/>and hoped that he'd
+            <lb/>have as pleasant a
+            <lb/>summer as I was
+            <lb/>having. Found nothing
+            <lb/>at the P.O. Gee! but
+            <lb/>I'd like to hear. Will
+            <lb/>probably be here until
+            <pb facs="/d/d97efed8-2bbd-48b7-b078-2ce806fdaa8c"/>
+            <lb/>the 20<hi rend="superscripted and underlined">th</hi> perhaps
+            <lb/>the 24<hi rend="superscripted and underlined">th</hi>. Am not sure
+            <lb/>as they don't say.
+          </p>
+          <p>
+            <lb/>Hope you—all are well.
+          </p>
+          <closer>
+            <lb/><salute>Love and kisses</salute>
+            <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
+          </closer>
+          <!-- If there were a <postscript>, we have a tag for that. -->
+        </div>
+        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
+      </body>
+    </text>
+  </TEI>
+  <!-- The encoded transcription of the first letter in our edition ends here; the second
+  begins with the next <TEI> element. -->
+  <TEI>
+    <teiHeader type="text">
+      <fileDesc>
+        <titleStmt>
+          <title>Title</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc corresp="#GS19090706let01">
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
+                1834-1949 1909-1917</collection>
+              <idno>SPEC.RARE.CMS.327</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                <!-- Describe contents briefly. -->
+              </p>
+            </msContents>
+            <physDesc>
+              <!-- 
+                TAKE NOTE: Your entire header should answer the following questions about your 
+                source document. At this point in your header, you should discuss anything in 
+                this list not mentioned elsewhere in the header.
+                
+                1. What is the document (letter, will, etc.)?
+                2. What does it say about itself (titles, descriptive notes, etc.)?
+                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+                4. How is it put together (folded sheets, binding, etc.)?
+                5. What is it made of (paper, vellum, etc.)?
+                6. What is its size (i.e., physical dimensions)?
+                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+                8. How is it related to other versions (original, copy, print history)?
+                
+                You can use more than one paragraph (tagged <p> </p>).
+              -->
+              <p>  </p>
+              <accMat corresp="#GS19090706env">
+                <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
+                describe the envelope and enclosure as above, and include an @corresp attribute whose value
+                is the xml:id of the <div> in the text corresponding to the envelope. -->  
+              </accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <note><!-- Box and folder number from the finding aid (e.g., Box 3, folder 16). --></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div></div>
+      </body>
+    </text>
+  </TEI>
+</teiCorpus>
