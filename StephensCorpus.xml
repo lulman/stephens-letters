@@ -21,9 +21,7 @@
               The "level" attribute "indicates whether this is the title of an article, book, journal, 
               series, or unpublished material, indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).
             -->
-            <title level="u">another random test change</title>
-            <title level="u">blah</title>
-            <title level="a">another title</title>
+            <title></title>
             
             <author>xxx</author>
             
