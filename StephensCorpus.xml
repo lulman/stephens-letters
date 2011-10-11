@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-stylesheet type="text/css" href="../../../../../../Applications/oxygen/frameworks/tei/xml/tei/css/tei_oxygen.css"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
   <!-- First, we provide a teiHeader element for the corpus, encoding descriptive and administrative
   metadata that applies to the project as a whole.-->
@@ -21,7 +20,7 @@
               The "level" attribute "indicates whether this is the title of an article, book, journal, 
               series, or unpublished material, indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).
             -->
-            <title>NEED EDITION TITLE HERE</title>
+            <title level="u">xxx</title>
             
             <author>xxx</author>
             
@@ -154,12 +153,6 @@
         
       </sourceDesc>
     </fileDesc>
-    <encodingDesc>
-      <tagsDecl>
-        <rendition xml:id="ot1">text written on an approximately 45-degree angle to the surrounding
-          line(s) of text, slanting downward left to right</rendition>
-      </tagsDecl>
-    </encodingDesc>
     <profileDesc>
       <!-- The text-profile description "provides a detailed description of non-bibliographic aspects of a text, 
         specifically the languages and sublanguages used, the situation in which it was produced, 
@@ -314,8 +307,8 @@
           </ab>
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
-            <persName>Mrs. A. T. Stephens</persName>
             <address>
+            <addrLine>Mrs. A. T. Stephens</addrLine>
             <addrLine>26 Emerson street</addrLine>
             <addrLine>Newton</addrLine>
             <addrLine>Massachusetts</addrLine>
@@ -328,14 +321,14 @@
               number is circled.</note>
           </ab>
           <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
+            <stamp type="postmark"> SEATTLE, WASH. / JUL 6 / 9 - PM / 1909 </stamp>
             <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
           </ab>
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
               url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
+            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
           <!-- See http://www.jamesdire.net/W-F.html -->
@@ -343,7 +336,7 @@
         <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
          Or perhaps we should us forme work <fw>. But I think not. -->
         <div type="letter" xml:id="GS19090706let01" corresp="#GS19090706env01">
-          <pb facs="/a/a5207bda-367a-4e66-983f-2effd11922bf"/>
+          <pb facs="/2/27454eee-f99f-4502-a34c-db65724726d5"/>
           <head type="letterhead">
             <figure rend="link">
               <head>Photograph of the Hotel Georgian</head>
@@ -355,173 +348,194 @@
               <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
           <opener>
             <handShift new="#GMSHand"/>
-            <dateline><date when="1909-07-06">7/6 9</date></dateline>
-            <lb/><salute>Dear <rs ref="#MATS">Mama</rs>,</salute>
+            <dateline><date when="1909-07-06">7/10/ 9</date></dateline>
+            <lb/><salute>Dear <persName ref="#MATS">Pa</persName>,</salute>
           </opener>
           <p>
-            <lb/>I have made my 
-            <!-- Is "Exposition Grounds" a place, a referring string, or an event? -->
+            <lb/>I do not know
+            <lb/>what day we will leave
+            <lb/>here, but we'll leave soon.
+            <lb/>Will return to <placeName>El Paso</placeName>
+            <lb/>by way of <placeName>California</placeName>.
+            <!--Next line very difficult to read.  Not convinced that I transcribed first or third word correctly-->
+            <lb/>Have decidedly <unclear cert="high">tanned</unclear>
+            <lb/>from riding up on the
+            <lb/>top seat with the driver
+            <lb/>in <placeName>Yellowstone Park</placeName>.
+            <lb/>I drove the coach 3
+            <lb/>days. There were 4
+            <lb/>horses and the coach
+            <lb/>weighs 2400 lbs. It was
+            <lb/>against the rules, but
+            <lb/>the driver let me! When
+            <lb/>we met another coach
+            <pb/>
+            <pb facs="/2/27454eee-f99f-4502-a34c-db65724726d5"/>
+            <!--BE SURE TO MARK THE FACS NUMBER AS A VALUE IN PB ABOVE.  Also, notice the paragrap continues across the page change.-->
+            <lb/>or any soldiers the
+            <lb/>driver took the reins.
+            <lb/>Talk about sore arms!
+            <lb/>And my nose, oh my
+            <lb/>nose! It was terribly
+            <lb/>burned, looked just
+            <lb/>like a beet. It has
+            <lb/>sealed now and begins
+            <lb/>to look more respectable.
+            <lb/>With us are some
+            <!--Is there some special code for Virginians!? -->
+            <lb/>charming Virginians
+            <lb/>and some Germans. We
+            <lb/>certainly have good
+            <lb/>times. They are all
+            <lb/>jolly.
+            <!--New paragraph here -->
+            <lb/>The Exposition is fine
+            <lb/>In the Forestry <choice><abbr >b'l'd'g</abbr><expan>buildings</expan></choice>
+            <lb/>are some pretty big
+            <lb/>"sticks." One is 74 ft long
+            <!--How to code the 1/2 in this line?-->
+            <lb/>and 4 1/2 ft sq. There is
+            <lb/>a cross section of a tree
+            <lb/>which is 9 ft. in diam.
+            <lb/>There is a hollow tree
+            <pb/>
+            <pb facs="/2/27454eee-f99f-4502-a34c-db65724726d5"/>
+            <!--BE SURE TO MARK THE FACS NUMBER AS A VALUE IN PB ABOVE.  Also, notice the paragrap continues across the page change.-->
+            <lb/>trunk which will
+            <!-- Note: sic situation where she means people but it is spelled peopl.  What to do? -->
+            <lb/>hold 50 peopl. The
+            <lb/>building is really
+            <!--Need to find pictures of this Forestry Bldg and especially the columns on it! -->
+            <lb/>mammoth. The columns are huge
+            <lb/>trees. I got
+            <lb/>what I hope will be
+            <lb/>a good picture of it.
+            <!--Any chance we can get our hands on her picture?  Or other references to her camera?-->
+            <lb/>All the <choice><abbr >b'l'd'gs</abbr><expan>buildings</expan></choice> are fine.
+            <!--Do I code these special, angled ANDs -->
+            <lb/>and will be used by
+            <lb/><placeName>Seattle College</placeName>later.
+            <lb/>Every one who has
+            <lb/>been to the other
+            <lb/>Expositions say that
+            <lb/>This is the best yet.
+            <lb/>The city is large and
+            <lb/>steadily increasing but
+            <lb/>looks very new. There
+            <!--Okay, this is the second time she's done this BLDG thing with the little ink marks.  Again, how do I code it?-->
+            <!--Special code for the dash?  yes or no? -->
+            <lb/>are lots of large bldgs--
+            <pb/>
+            <!--BE SURE TO MARK THE FACS NUMBER AS A VALUE IN PB ABOVE.  Also, notice the paragrap continues across the page change.-->
+            <!--sideways and -->
+            <lb/>plenty of 12 stories and
+            <lb/>several 14. There are 
+            <lb/>some dandy hotels.
+            <!--New paragraph-->
+            <lb/>Will Ma be home
+            soon?
+            <!--New paragraph-->
+            <lb/>You had best not ans.
+            <lb/>This as I will have left
+            <lb/>before an ans could
+            <lb/>come.
+            <!--New paragraph/salutation ends-->
+            <lb/>Love
+            <lb/>Gladys
+            <!--How do I code this thing?  DO I code this thing!? -->
+            <lb/>7/10/109
+            
+            <!-- OTHER LETTER -->
+            <!--BE SURE TO MARK THE FACS NUMBER AS A VALUE IN PB ABOVE.  Also, notice the paragrap continues across the page change.-->
+            <lb/>Dear mother,
+            <lb/>Was awfully
+            <lb/>glad to hear from you.
+            <lb/>Doubt if we can go to
+            <!-- Stuff -->
+            <lb/>Alaska -- can't get stateroom
+            <lb/>so many are going.
+            <lb/>Have located the Goulds,
+            <lb/>I telephoned today but she
+            <lb/>was at the Expo. Got
+            <lb/>him <unclear cert="high">on</unclear> the phone and I
+            <lb/>will call later.
+            <!--new paragraph-->
+            <lb/>Mrs. Hughes (the Virginian)
+            <lb/>is a cousin of Mrs. <unclear cert="medium">Dana</unclear>
+            <lb/>Gibson and Mrs. Waldorf
+            <lb/>Astor (in England) I guess
+            <lb/>I'll try and visit their
+            <lb/>Uncle wants me to visit
+            <!--So she repeats the word visit.  Do I need to code anythign special for that?-->
+            <!-- Page break here -->
+            <lb/>visit them. Mrs. Jordon
+            <lb/>(Mrs. H's cousin) has lots of
+            <lb/>money. Her husband died
+            <lb/>5 yrs. ago and left a large
+            <lb/>estate. One of the sons
+            <lb/>"blew in" $40,000 in 2 yrs.
+            <lb/><unclear cert="high">They</unclear> could buy ranch
+            <lb/>for $12,000 and pay $25,000
+            <lb/>for improvements. The girl
+            <lb/>has her money too. Her
+            <lb/>mink coat only cost $600.
+            <lb/>I might do worse than
+            <lb/>to visit the family don't
+            <lb/>you think. They tried to
+            <lb/>have me promise to visit
+            <lb/>them.
+            <lb/>Not much to write
+            <lb/>about now so I guess
+            <!-- Page break -->
+            <lb/>that I'll stop.
+            <lb/><unclear cert="high">Now</unclear> Judy dear do take
+            <lb/>things easy.
+            <!-- Closing salutation  -->
+            <lb/>Heaps of love
+            <lb/>Gladys
+            
+            <!--  -->
+            
             <lb/>first trip to the <placeName>Exposition 
             <lb/>Grounds</placeName>. They are simply
-            <lb/>dreams of beauty. Such 
-            <lb/>flowers—and such 
-            <lb/>quantities of them! There 
-            <lb/>is one place where there 
-            <lb/>are thousands <seg type="obliqueText" rendition="#ot1">and</seg> 
-            <lb/>thousands of white, 
-            <lb/>lavender <seg type="obliqueText" rendition="#ot1">and</seg> pure yellow 
-            <lb/>pansies. In one place 
-            <lb/>there are veritable terraces 
-            <lb/>of water with a falls between 
-            <lb/>This expanse is surrounded 
-            <lb/>by the most beautiful
-            <lb/>display of poppies I ever 
-            <pb facs="/e/e6df1e7d-279b-4a55-bf88-bf0a842a41a1"/>
-            <!-- Note that the paragraph continues on the following page. -->
-            <lb/>saw. Then there are
-            <lb/>flowers like those I brought
-            <lb/>home from Senior Prom.—
-            <!-- Is that really an "h" in the middle of "geraniums"? -->
+           
             <lb/>gerhaniums—<hi rend="underlined">dwarf</hi>
-            <lb/>sweet peas—every kind
-            <lb/>of flowers imaginable.
-            <lb/>Talk abut roses, there
-            <lb/>are so many here that
-            <lb/>I can't think what
-            <lb/>California will be like.
-            <lb/>I went today with
+            
             <lb/>the <rs>Virginians</rs>. The men
-            <lb/>were hunting up old
-            <lb/>friends here in the
-            <lb/>city. I have a lot of
-            <lb/>truck, which I am going
-            <lb/>to send by mail. There
-            <lb/>are four pictures of
+            
             <lb/><placeName>Yellowstone</placeName> which are
-            <lb/>exquisite—they are
-            <lb/>as natural as pictures
+            
+            
             <lb/>can be. My <rs>Princetonian</rs>
-            <!-- Is "and" written at an angle a form of highlighting? -->
-            <lb/>got them for me, and
+            
             <pb facs="/0/080321f8-ac6c-4871-8a4c-ab55b041faa8"/>
             <!-- What do I do about the repeated letterhead? -->
-            <lb/>paid a dollar for
-            <lb/>them. The packages of tea
-            <lb/>I got at the Japanese
-            <lb/>tea garden from the
-            <lb/><rs>little Japanese girl</rs>. I
-            <!-- Is "Hayden" a person or a company? -->
-            <lb/>ordered (through Hayden)
-            <lb/>a 5 cent can of condense
-            <lb/>milk.
-          </p>
-          <!-- Marking a paragraph break because she stops the previous line part way across the
-            page. -->
-          <p>
-            <lb/>The buildings are <unclear>fine</unclear>
-            <lb/>at the fair. One of the
-            <lb/>Virginian ladies said
-            <lb/>this fair is much superior
+            
             <!-- A rs for an event? Or an abbreviation? -->
             <lb/>to <rs>the St. Louis</rs> and others
-            <lb/>because of its compactness
-            <lb/>as well as its beauty.
-            <lb/>The buildings will be
+            
             <lb/>used later as college <choice><abbr >b'l'd'gs</abbr><expan>buildings</expan></choice>.
-            <lb/>Today we only visited
-            <pb facs="/4/40002978-5147-4e7f-98f2-506f8b3cc762"/>
-            <lb/>those in the inner circle.
-            <lb/>The place is laid out in
-            <lb/>this way
+            
             <!-- How to encode the labels "Entrance" and "etc." on the diagram? -->
             <figure rend="embed">               
               <head>Layout of the fairgrounds.</head>
-              <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/40002978-5147-4e7f-98f2-506f8b3cc762.jpg?scale=0.2&amp;rgn=235,110,200,200&amp;fmt=png"/>
+              <graphic url="http:www.osu.edu"/>
                 <figDesc>A freehand sketch of the layout of the fairgrounds.</figDesc>
             </figure>
-            <lb/>The amusement street
-            <lb/>is called pay streak—a
-            <lb/>mining term. 
-          </p>
-          <p>
-            <lb/>The city has several
-            <lb/>skyscrapers.
-          </p>
-          <p>
-            <lb/>There is a Hawaiian
-            <lb/>village with real bare
-            <lb/>natives. We are going to
-            <lb/>visit it later. There also
-            <lb/>Esquimos and a village.
-            <lb/>I am sending you
-            <lb/>also the daily program.
-            <lb/>Have not found the
-            <lb/>Goulds yet.            
-          </p>
-          <p>
-            <lb/>This morning it was
-            <lb/>raining and I slept until
-            <pb facs="/f/f26773c4-a97e-4e7d-8b0d-b5df9e883867"/>
-            <!-- Again the letterhead. And note that she has been numbering sheets, not pages. -->
+            
             <lb/><hi rend="underlined">3</hi>
             <lb/>8.25. We went to
             <lb/>the Expo. at 10.30—got
-            <lb/>back at 4.40. Some day
             <lb/>we are going up <geogName>Puget
             <lb/><geogFeat>Sound</geogFeat></geogName>. I can do quite
-            <lb/>a stunt at eating now—
-            <lb/>devoured a small steak for
-            <lb/>my breakfast—a dish of
-            <lb/>strawberries, one of oatmeal,
-            <lb/>two muffins and three
-            <lb/>pancakes—and a cup of
-            <lb/>coffee. Sunburn is wearing
-            <lb/>off a trifle since I have
+            
             <lb/>left <rs>the park</rs>. They have a
-            <lb/>line of cable cars here, and
-            <lb/>some odd big ones. The
-            <lb/>population has increased
-            <lb/>150,000 in 2 years.
-            <pb facs="/9/9b9f204a-187f-493f-9a9a-36423233ddad"/>
-            <lb/>I am getting to be
-            <lb/>quite a critic on buildings
-            <lb/>with two builders.
-          </p>
-          <p>
-            <lb/>Havent done much on
-            <lb/>the writing stunt. I
-            <lb/>wrote Miss Childs a
-            <lb/>steamer letter, one to
-            <lb/>Gus, I think I wrote
-            <lb/>one to Roswel, and a
-            <lb/>dozen lines to Nat
-            <lb/>telling him that I
-            <lb/>was having a dandy
-            <lb/>time—never knew
-            <lb/>where I was going next
-            <lb/>and did not know
-            <lb/>when I'd be home;
-            <lb/>and hoped that he'd
-            <lb/>have as pleasant a
-            <lb/>summer as I was
-            <lb/>having. Found nothing
-            <lb/>at the P.O. Gee! but
-            <lb/>I'd like to hear. Will
-            <lb/>probably be here until
-            <pb facs="/d/d97efed8-2bbd-48b7-b078-2ce806fdaa8c"/>
             <lb/>the 20<hi rend="superscripted and underlined">th</hi> perhaps
             <lb/>the 24<hi rend="superscripted and underlined">th</hi>. Am not sure
-            <lb/>as they don't say.
-          </p>
-          <p>
-            <lb/>Hope you—all are well.
-          </p>
-          <closer>
-            <lb/><salute>Love and kisses</salute>
-            <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
-          </closer>
+            <lb/>Love and kisses
+            <lb/>Gladys
           <!-- If there were a <postscript>, we have a tag for that. -->
+          </p>
         </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
       </body>
