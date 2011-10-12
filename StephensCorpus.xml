@@ -875,4 +875,217 @@
       </body>
     </text>
   </TEI>
+  <TEI>
+    <teiHeader type="text">
+      <fileDesc>
+        <titleStmt>
+          <title>Title</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc corresp="#GS19090706let01">
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
+                1834-1949 1909-1917</collection>
+              <idno>SPEC.RARE.CMS.327</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                <!-- Describe contents briefly. -->
+              </p>
+            </msContents>
+            <physDesc>
+              <!-- 
+                TAKE NOTE: Your entire header should answer the following questions about your 
+                source document. At this point in your header, you should discuss anything in 
+                this list not mentioned elsewhere in the header.
+                
+                1. What is the document (letter, will, etc.)?
+                2. What does it say about itself (titles, descriptive notes, etc.)?
+                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+                4. How is it put together (folded sheets, binding, etc.)?
+                5. What is it made of (paper, vellum, etc.)?
+                6. What is its size (i.e., physical dimensions)?
+                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+                8. How is it related to other versions (original, copy, print history)?
+                
+                You can use more than one paragraph (tagged <p> </p>).
+              -->
+              <p>  </p>
+              <accMat corresp="#GS19090706env">
+                <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
+                  describe the envelope and enclosure as above, and include an @corresp attribute whose value
+                  is the xml:id of the <div> in the text corresponding to the envelope. -->  
+              </accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <note><!-- Box and folder number from the finding aid (e.g., Box 3, folder 16). --></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="envelope">
+          <ab type="returnAddress">
+            <handShift new="Stationery"/>
+            <address>
+              <addrLine>Mrs. A.T. Stephens
+              </addrLine>
+             
+            </address>          
+          </ab>
+          <ab type="postalAddress">
+            
+          </ab>
+        </div>
+        <div type= "letter">
+          <opener>
+            <handShift new="GMSHand"/>
+            <dateline><date>08-08-1909</date></dateline>
+            <salute><persName>Mother Dear</persName></salute>,</opener>
+          <p>
+            <lb/>We arrived in Seattle
+            <lb/>at 7:20 this morning.  It was
+            <lb/>rather rough last night, but
+            <lb/>it was just from the wind.
+            <lb/>It was the only rough place we
+            <lb/>had coming back.  We had a 
+            <lb/>dandy time coming back.
+          </p>
+          <p>
+            <lb/>As a souvenir I have the
+            <lb/>official list of the passangers
+            <lb/>who sailed from Seattle.  It
+            <lb/>was posted by the Purser, and
+            he gave it to me.
+          </p>
+          <p>
+            <lb/>I'd like to know what is
+            <lb/>the matter with auntie.  I
+            <lb/>sent her cards from Yellowstone
+            <lb/>and some from here — among 
+            <lb/>them a leather A.Y.P. card.
+            <lb/>I sent her some from Alaska .
+            <lb/>also. Almost every time I
+            <lb/>sent you one I sent her one.
+          </p>
+          <pb/>
+          <p>
+            <lb/>I was not sick once while I
+            <lb/>was gone.  I am enough fatter
+            <lb/>so that the people here at the 
+            <lb/>hotel spoof of it.  I'm more
+            <lb/>tanned also.
+          </p>
+          <p>
+            <lb/>A <placeName>Texas</placeName>judge who is worth
+            <lb/>3 million was on the ship coming
+            <lb/>back with his wife, two daughters
+            <lb/>and 2 grandsons.  He owns a ranch
+            <lb/>in <placeName>Texas</placeName>which is about 12
+            <lb/>miles square.  They have invited
+            <lb/>me to visit them, and <persName>Uncle
+              <lb/>Alex</persName>wants me <unclear reason="homophone confusion">too</unclear>.  He may
+            <lb/>have a business motive. I
+            <lb/>will likely stop there for 2 or 3
+            <lb/>days.  He wants to take me to
+            <lb/>a real southern hunt.  I can
+            <lb/>have a pony all for myself he
+            <lb/>said.  It is an opportunity not
+            <lb/>to be lost, don't you agree?
+          </p>
+          <pb/>
+          <p>
+            <lb/>We had a great time last night- 
+            <lb/>our last on board.  No one turned
+            <lb/>in before 12 some not until
+            <lb/>2.  I did at 12.  It seems awfully
+            <lb/>funny to be on land again.
+            <lb/>They certainly were glad to see
+            <lb/>us here at the hotel.
+          </p>
+          <p>
+            <lb/>Well you never can tell what
+            people will do.  <persName>Walt</persName>certainly
+            <lb/>seems to be the limit.  As for
+            <lb/>his mother <del rend="overstrike">they are</del>she is the
+            <lb/>limit.
+          </p>
+          <p>
+            <lb/>So you like the Thomases?
+            <lb/>What is that about <persName>Berenice</persName>? Do
+            <lb/>you believe it?         
+          </p>
+          <p>
+            <lb/>I fail to see the point of Mrs.           
+            <lb/>Rich's joke.  So the tree didn't
+            <lb/>bloom.
+          </p>
+          <p>
+            <lb/>I did <hi rend="underlined several times">not</hi>send a card to
+            <lb/> <persName>Will Ward</persName>. I sent
+            <lb/>it to his <hi rend="underlined several times">mother</hi> !
+          </p>
+          <pb/>
+          <p>
+            <lb/>He is a cheerful <del rend="overstrike">lyer</del>lier.  I
+            <lb/>have not sent any more to the 
+            <lb/><persName>Dotens</persName>.  Do not worry.  I got a 
+            <lb/>letter from <persName>Walt</persName>which I will
+            <lb/>enclose.  In it he acknowledges
+            <lb/> <hi rend="underlined">one letter.</hi>
+          </p>
+          <p>
+            <lb/>I did not have any hat on
+            <lb/>while I was gone. I'm sending
+            <lb/>a large envelope with one or
+            <lb/>too things I do not want lost.
+          </p>
+          <p>
+            <lb/>I got your five letters this
+            <lb/>morning, and one from <persName>Walt</persName>,
+            <lb/>and one from <persName>Adelaide</persName>.  I'm not
+            <lb/>sure whether Adelaide is going 
+            <lb/>to <placeName>Mexico</placeName> or not.
+          </p>
+          <p>
+            <lb/>The <placeName>Mexican</placeName>trip is all planned
+            <lb/>and I start home immediately
+            <lb/>on getting back.  I'll be about
+            <lb/>one week late.  <persName><abbr>U.A.</abbr><expan>Uncle Alex</expan></persName>has the day
+            <lb/>set for us to start to <placeName>Mexico</placeName>and
+            <lb/>all plans <unclear reason="underline or random mark at end of page?"><hi rend="underlined">O.K.</hi></unclear>
+          </p>
+          <pb/>
+          <p>
+            <lb/>He wants me to see all the 
+            <lb/>people whom he knows.  He has
+            <lb/>told them about my coming for
+            <lb/>so long.  I'm doing my best I
+            <lb/>assure you.  I guess I'm
+            <lb/>succeeding fairly well.  He is
+            <lb/>so tickled he does not know
+            <lb/>what to do.  He is starting plans
+            <lb/>for next summer already.
+            <lb/><add place="below">We are "on" for the pictures.</add>
+            <lb/><add place="below">Heaps of love</add>
+            <lb/><persName type="nickname"></persName>Neddy
+          </p>
+          <postscript rendition="#ot1"><p><lb/>Address next letters to
+            <lb/><placeName>Los Angeles</placeName>
+            <lb/>General Delivery</p></postscript>
+          <postscript><p>Thanks for addresses.</p></postscript>
+        </div>      
+      </body>
+    </text>
+  </TEI>
  </teiCorpus>
