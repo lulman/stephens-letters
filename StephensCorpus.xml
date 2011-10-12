@@ -798,51 +798,8 @@
             <!-- Closing salutation  -->
             <lb/>Heaps of love
             <lb/>Gladys
-            
-            <!--  -->
-            
-            <lb/>first trip to the <placeName>Exposition 
-            <lb/>Grounds</placeName>. They are simply
-           
-            <lb/>gerhaniums—<hi rend="underlined">dwarf</hi>
-            
-            <lb/>the <rs>Virginians</rs>. The men
-            
-            <lb/><placeName>Yellowstone</placeName> which are
-            
-            
-            <lb/>can be. My <rs>Princetonian</rs>
-            
-            <pb facs="/0/080321f8-ac6c-4871-8a4c-ab55b041faa8"/>
-            <!-- What do I do about the repeated letterhead? -->
-            
-            <!-- A rs for an event? Or an abbreviation? -->
-            <lb/>to <rs>the St. Louis</rs> and others
-            
-            <lb/>used later as college <choice><abbr >b'l'd'gs</abbr><expan>buildings</expan></choice>.
-            
-            <!-- How to encode the labels "Entrance" and "etc." on the diagram? -->
-            <figure rend="embed">               
-              <head>Layout of the fairgrounds.</head>
-              <graphic url="http:www.osu.edu"/>
-                <figDesc>A freehand sketch of the layout of the fairgrounds.</figDesc>
-            </figure>
-            
-            <lb/><hi rend="underlined">3</hi>
-            <lb/>8.25. We went to
-            <lb/>the Expo. at 10.30—got
-            <lb/>we are going up <geogName>Puget
-            <lb/><geogFeat>Sound</geogFeat></geogName>. I can do quite
-            
-            <lb/>left <rs>the park</rs>. They have a
-            <lb/>the 20<hi rend="superscripted and underlined">th</hi> perhaps
-            <lb/>the 24<hi rend="superscripted and underlined">th</hi>. Am not sure
-            <lb/>Love and kisses
-            <lb/>Gladys
-          <!-- If there were a <postscript>, we have a tag for that. -->
           </p>
         </div>
-        <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
       </body>
     </text>
   </TEI>
