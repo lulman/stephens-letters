@@ -938,22 +938,30 @@
           <ab type="returnAddress">
             <handShift new="Stationery"/>
             <address>
-              <addrLine>Mrs. A.T. Stephens
-              </addrLine>
-             
+              <addrLine>HOTEL GEORGIAN</addrLine>
+              <addrLine>FOURTH AVENUE</addrLine>
+             <addrLine>Pike &amp; Union</addrLine>
+              <addrLine>SEATTLE, U.S.A.</addrLine>
             </address>          
           </ab>
-          <ab type="postalAddress">
-            
-          </ab>
-        </div>
+          <ab>
+          <handShift new="#GMSHand"></handShift>
+          <persName>Mrs. A.T. Stephens</persName>
+          <address>
+            <addrLine>26 Emerson street</addrLine>
+            <addrLine>Newton</addrLine>
+            <addrLine>Massachusetts</addrLine>
+          </address>
+            </ab>
+       </div>
         <div type= "letter">
           <opener>
             <handShift new="GMSHand"/>
             <dateline><date>08-08-1909</date></dateline>
-            <salute><persName>Mother Dear</persName></salute>,</opener>
+            <lb/><salute><persName>Mother Dear</persName></salute>,
+          </opener>
           <p>
-            <lb/>We arrived in Seattle
+            <lb/>We arrived in <placeName>Seattle</placeName>
             <lb/>at 7:20 this morning.  It was
             <lb/>rather rough last night, but
             <lb/>it was just from the wind.
@@ -964,17 +972,17 @@
           <p>
             <lb/>As a souvenir I have the
             <lb/>official list of the passangers
-            <lb/>who sailed from Seattle.  It
+            <lb/>who sailed from <placeName>Seattle</placeName>.  It
             <lb/>was posted by the Purser, and
             he gave it to me.
           </p>
           <p>
             <lb/>I'd like to know what is
-            <lb/>the matter with auntie.  I
-            <lb/>sent her cards from Yellowstone
+            <lb/>the matter with <persName>auntie</persName>.  I
+            <lb/>sent her cards from <placeName>Yellowstone</placeName>
             <lb/>and some from here — among 
-            <lb/>them a leather A.Y.P. card.
-            <lb/>I sent her some from Alaska .
+            <lb/>them a leather <rs> <abbr>A.Y.P.</abbr>card</rs>.
+            <lb/>I sent her some from <placeName>Alaska</placeName>.
             <lb/>also. Almost every time I
             <lb/>sent you one I sent her one.
           </p>
@@ -1021,13 +1029,13 @@
             <lb/>limit.
           </p>
           <p>
-            <lb/>So you like the Thomases?
+            <lb/>So you like the <persName>Thomases</persName>?
             <lb/>What is that about <persName>Berenice</persName>? Do
             <lb/>you believe it?         
           </p>
           <p>
-            <lb/>I fail to see the point of Mrs.           
-            <lb/>Rich's joke.  So the tree didn't
+            <lb/>I fail to see the point of <persName>Mrs.           
+            <lb/>Rich's</persName>joke.  So the tree didn't
             <lb/>bloom.
           </p>
           <p>
@@ -1083,7 +1091,8 @@
           <postscript rendition="#ot1"><p><lb/>Address next letters to
             <lb/><placeName>Los Angeles</placeName>
             <lb/>General Delivery</p></postscript>
-          <postscript><p>Thanks for addresses.</p></postscript>
+          <postscript><p><lb/>Thanks for 
+            <lb/>addresses.</p></postscript>
         </div>      
       </body>
     </text>
