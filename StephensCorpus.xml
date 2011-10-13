@@ -934,7 +934,8 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope">
+        <div type="envelope" xml:id="GS19090808env01" corresp="#GS19090808let01">
+          <pb facs="/c/c5c2e502-6284-4b15-b668-f478cb917a62"/>
           <ab type="returnAddress">
             <handShift new="Stationery"/>
             <address>
@@ -954,7 +955,8 @@
           </address>
             </ab>
        </div>
-        <div type= "letter">
+        <div type= "letter" xml:id="GS19090808let1">
+          <pb facs="/4/42022a1e-2001-4124-ba14-eb5d4e54539e"/>
           <opener>
             <handShift new="GMSHand"/>
             <dateline><date>08-08-1909</date></dateline>
@@ -986,7 +988,7 @@
             <lb/>also. Almost every time I
             <lb/>sent you one I sent her one.
           </p>
-          <pb/>
+          <pb facs="/3/3cc0e241-bb96-47b4-896b-f73f70f0cc77"/>
           <p>
             <lb/>I was not sick once while I
             <lb/>was gone.  I am enough fatter
@@ -1011,7 +1013,7 @@
             <lb/>said.  It is an opportunity not
             <lb/>to be lost, don't you agree?
           </p>
-          <pb/>
+          <pb facs="/a/a46fb808-2066-47a3-8b80-18e63b09802a"/>
           <p>
             <lb/>We had a great time last night- 
             <lb/>our last on board.  No one turned
@@ -1043,7 +1045,7 @@
             <lb/> <persName>Will Ward</persName>. I sent
             <lb/>it to his <hi rend="underlined several times">mother</hi> !
           </p>
-          <pb/>
+          <pb facs="/7/7adada92-2f50-4872-ad95-b301d92ce2cc"/>
           <p>
             <lb/>He is a cheerful <del rend="overstrike">lyer</del>lier.  I
             <lb/>have not sent any more to the 
@@ -1073,7 +1075,7 @@
             <lb/>set for us to start to <placeName>Mexico</placeName>and
             <lb/>all plans <unclear reason="underline or random mark at end of page?"><hi rend="underlined">O.K.</hi></unclear>
           </p>
-          <pb/>
+          <pb facs="/a/ab431cb7-b61d-440d-8c55-c68b485c42a3"/>
           <p>
             <lb/>He wants me to see all the 
             <lb/>people whom he knows.  He has
