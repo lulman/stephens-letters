@@ -1542,7 +1542,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="#JM19090814env01" corresp="#JM19090813let01">
+        <div type="envelope" xml:id="JM19090814env01" corresp="JM19090813let01">
           <pb facs="/0/05d946d6-d917-4ea6-9f89-588209756900
             "/>
           <ab type="postalAddress">
@@ -2901,7 +2901,7 @@
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#GS19090706let01">
+          <msDesc corresp="#GS19090927let01">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
@@ -2933,7 +2933,7 @@
                 You can use more than one paragraph (tagged <p> </p>).
               -->
               <p>  </p>
-              <accMat corresp="#GS19090706env">
+              <accMat corresp="#GS19090927env">
                 Accompanied by a stamped, cancelled, cream-colored envelope on unknown stationery measuring
                 6 x 3.5-inch.  A 2.5 x 2-inch halftone image of Oregon Timber is printed on the left-hand side
                 of the envelope.
@@ -2953,7 +2953,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="GS19092709env01" corresp="#GS19090706let01">
+        <div type="envelope" xml:id="GS19090927env01" corresp="#GS19090927let01">
           <pb facs="/3/389e4759-1e88-4e46-abab-a552ed4c0e69"/>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
