@@ -234,6 +234,17 @@
             <occupation>College Professor</occupation>
             <nationality>U.S.A.</nationality> 
             <note type="biographical">Biographical note about H. Lewis Ulman</note>
+            </person>
+            <person xml:id="MAW">
+              <persName>Wolfe, Marion Aikens</persName>
+              <birth when="1982">
+                <placeName>Pittsburgh, PA</placeName>
+              </birth>
+              <education>BA, Kenyon College (2004)</education>
+              <education>MA, The Ohio State University (2010)</education>
+              <occupation>PhD Student</occupation>
+              <nationality>U.S.A.</nationality> 
+              <note type="biographical">Biographical note about Marion A. Wolfe</note>
           </person>
         </listPerson>
       </particDesc>
@@ -2755,7 +2766,7 @@
             <lb/>any way but most every one that comes to the
             <lb/>house takes Something away and sometimes I
             <lb/>do not like it for some of the things has a
-            <lb/>history that is Interesting for me anyway 
+            <lb/>history that is Interesting for me anyway
           </p>
           <pb facs="/b/b7747dd0-76d3-425a-b250-23172cf7db41"/>
           <p>
