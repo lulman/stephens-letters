@@ -635,14 +635,14 @@
       </body>
     </text>
   </TEI>
-  <TEI>
+  <TEI xml:id="JLM1">
     <!-- First, we provide descriptive information about this particular letter and any 
-        accompanying materials (e.g., an envelope or enclosure) in this teiHeader element 
-        for the letter. -->
+      accompanying materials (e.g., an envelope or enclosure) in this teiHeader element 
+      for the letter. -->
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>Gladys M. Stephens to Mrs. A. T. Stephens, 9 July 1909</title>
+          <title>Gladys M. Stephens to Mr. A. T. Stephens, 10 July 1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
@@ -660,26 +660,27 @@
             <msContents>
               <p>
                 <!-- Describe contents briefly (these notes need to be revised and cast in prose). -->
-                Flower exposition; Yellowstone Park; Japanese tea; fair; population increase. </p>
+                Gladys Stephens describes a multi-day visit to Yellowstone Park where she drove a coach of four horses for 3 days. She mentions her travel companions "the Virginians" and "some Germans."  She describes the exhibits in the Forestry Building at the 1909 Seattle World's Fair. She describes the Forestry Building and comments that the Seattle World's Fair buildings will later be used by Seattle College.  She also remarks on Seattle, which she describes as looking "new" but having a number of 12- and 14-story buildings.
+              </p>
             </msContents>
             <physDesc>
               <!-- 
-              TAKE NOTE: Your entire header should answer the following questions about your 
-              source document. At this point in your header, you should discuss anything in 
-              this list not mentioned elsewhere in the header.
-              
-              1. What is the document (letter, will, etc.)?
-              2. What does it say about itself (titles, descriptive notes, etc.)?
-              3. What does it contain (no. of pages/sheets, enclosures, etc.)?
-              4. How is it put together (folded sheets, binding, etc.)?
-              5. What is it made of (paper, vellum, etc.)?
-              6. What is its size (i.e., physical dimensions)?
-              7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
-              8. How is it related to other versions (original, copy, print history)?
-              
-              You can use more than one paragraph (tagged <p> </p>).
-            -->
-              <p> ALS. Four loose sheets of cream-colored Hotel Georgian letterhead stationery
+                TAKE NOTE: Your entire header should answer the following questions about your 
+                source document. At this point in your header, you should discuss anything in 
+                this list not mentioned elsewhere in the header.
+                
+                1. What is the document (letter, will, etc.)?
+                2. What does it say about itself (titles, descriptive notes, etc.)?
+                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+                4. How is it put together (folded sheets, binding, etc.)?
+                5. What is it made of (paper, vellum, etc.)?
+                6. What is its size (i.e., physical dimensions)?
+                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+                8. How is it related to other versions (original, copy, print history)?
+                
+                You can use more than one paragraph (tagged <p> </p>).
+              -->
+              <p> ALS. Three loose sheets of cream-colored Hotel Georgian letterhead stationery
                 measuring 6 x 9.5 inches. The front side contains a 2.5-inch letterhead, a 6.75-inch
                 body with blue lines spaced at .375-inch intervals, and a .25-inch bottom margin.
                 The back side contains a .75-inch unlined head, with the body lined as on the front
@@ -692,7 +693,7 @@
                 by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
                 measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch halftone image of the Hotel
                 Georgian facade is printed on the left-hand side of the envelope above the hotel's
-                address. </accMat>
+                address. The envelope's stamp cancellation reads "WORLD'S FAIR SEATTLE 1909."</accMat>
             </physDesc>
             <additional>
               <adminInfo>
@@ -708,8 +709,9 @@
     <text>
       <body>
         <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090709env01" corresp="#GS19090709let01">
-          <pb facs="/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71"/>
+        <!-- JLM: Question for Louie: In the markup guidelines, there is ambiguity about whether the xml:id should have three initials in the name or just two (aka GS or GMS for Gladys Stephens).  Which do you prefer? -->
+        <div type="envelope" xml:id="GS19090710env01" corresp="#GS19090710let01">
+          <pb facs="/2/27454eee-f99f-4502-a34c-db65724726d5"/>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
@@ -721,49 +723,50 @@
           </ab>
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
-            <persName>Mrs. A. T. Stephens</persName>
             <address>
-            <addrLine>26 Emerson street</addrLine>
+            <addrLine>Mr. A. T. Stephens</addrLine>
+            <addrLine>26 Emerson St.</addrLine>
             <addrLine>Newton</addrLine>
             <addrLine>Massachusetts</addrLine>
             </address>
           </ab>
           <ab type="endorsement">
-            <handShift new="Unknown"/> 94<ptr type="NoteAnchor" target="Endorsement94"/>
-            <note resp="ed" xml:id="Endorsement94">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
+            <handShift new="Unknown"/> 95<ptr type="NoteAnchor" target="Endorsements1"/>
+            <note resp="ed" xml:id="Endorsements1">Similar numbers are pencilled under the cancelled
+              postage stamp on several envelopes in the collection.  The second
+              number is circled.  For example, the letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
           </ab>
           <ab>
-            <stamp type="postmark"> SEATTLE, WASH. / JUL 6 / 9 - PM / 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
+            <stamp type="postmark"> SEATTLE, WASH. / JUL 10 / 1030 - PM / 1909 </stamp>
+            <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909</stamp>
           </ab>
+          <!-- JLM: My graphic URLS always show the entire envelope regardless of how I've asked them to show a specific region.  So annoying.  Happens with the stamp and with the letterhead. -->
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/2/27454eee-f99f-4502-a34c-db65724726d5.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
           <!-- See http://www.jamesdire.net/W-F.html -->
         </div>
         <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
-         Or perhaps we should us forme work <fw>. But I think not. -->
-        <div type="letter" xml:id="GS19090709let01" corresp="#GS19090709env01">
-          <pb facs="/2/27454eee-f99f-4502-a34c-db65724726d5"/>
+          Or perhaps we should us forme work <fw>. But I think not. -->
+        <div type="letter" xml:id="GS19090710let01" corresp="#GS19090710env01">
+          <pb facs="/d/dbb842ca-5860-4bee-af90-2064f686d7a4"/>
           <head type="letterhead">
             <figure rend="link">
               <head>Photograph of the Hotel Georgian</head>
               <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs/a/a5207bda-367a-4e66-983f-2effd11922bf.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
+                url="https://images.asc.ohio-state.edu/is/image/englishdocs//d/dbb842ca-5860-4bee-af90-2064f686d7a4.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
               <figDesc>Photograph of the facade of the Hotel Georgian.</figDesc>
             </figure>
             <lb/>Rates $1.00 up <lb/>Hotel Georgian <lb/>European Plan
-              <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
+            <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
           <opener>
             <handShift new="#GMSHand"/>
             <dateline><date when="1909-07-06">7/10/ 9</date></dateline>
-            <lb/><salute>Dear <persName ref="#MATS">Pa</persName>,</salute>
+            <lb/><salute>Dear <persName ref="#ATS">Pa</persName>,</salute>
           </opener>
           <p>
             <lb/>I do not know
@@ -771,21 +774,19 @@
             <lb/>here, but we'll leave soon.
             <lb/>Will return to <placeName>El Paso</placeName>
             <lb/>by way of <placeName>California</placeName>.
-            <!--Next line very difficult to read.  Not convinced that I transcribed first or third word correctly-->
             <lb/>Have decidedly <unclear cert="high">tanned</unclear>
             <lb/>from riding up on the
             <lb/>top seat with the driver
             <lb/>in <placeName>Yellowstone Park</placeName>.
             <lb/>I drove the coach 3
             <lb/>days. There were 4
-            <lb/>horses and the coach
+            <lb/>horses <seg type="obliqueText" rendition="#ot1">and</seg> the coach
             <lb/>weighs 2400 lbs. It was
             <lb/>against the rules, but
             <lb/>the driver let me! When
             <lb/>we met another coach
             <pb/>
-            <pb facs="/2/27454eee-f99f-4502-a34c-db65724726d5"/>
-            <!--BE SURE TO MARK THE FACS NUMBER AS A VALUE IN PB ABOVE.  Also, notice the paragrap continues across the page change.-->
+            <pb facs="/a/a0b024c6-9808-4260-98b6-a1a6a645dac2"/>
             <lb/>or any soldiers the
             <lb/>driver took the reins.
             <lb/>Talk about sore arms!
@@ -795,94 +796,235 @@
             <lb/>like a beet. It has
             <lb/>sealed now and begins
             <lb/>to look more respectable.
+          </p>
+          <p>
             <lb/>With us are some
-            <!--Is there some special code for Virginians!? -->
+            <!-- As we have no further information about who the "Virginians" or the "Germans" are, I have not coded these as referring strings.  But I'm leaving this comment here in case we yield additional information in group research regarding their identity. -->
             <lb/>charming Virginians
             <lb/>and some Germans. We
             <lb/>certainly have good
             <lb/>times. They are all
             <lb/>jolly.
-            <!--New paragraph here -->
+          </p>
+          <p>
             <lb/>The Exposition is fine
-            <lb/>In the Forestry <choice><abbr >b'l'd'g</abbr><expan>buildings</expan></choice>
+            <lb/>In the Forestry <choice><abbr >b'l'd'g</abbr><expan>building</expan></choice>
             <lb/>are some pretty big
+            <!-- JLM: I've not nested this word "sticks" in the seg element with q quotation mark specifications because it is not, in any sense, a speech act.  Not indirect or direct, spoken or unspoken.  But do I need to add any code for the quotation marks? -->
             <lb/>"sticks." One is 74 ft long
-            <!--How to code the 1/2 in this line?-->
+            <!--JLM: Do I need special code for this 1/2 fraction?-->
             <lb/>and 4 1/2 ft sq. There is
             <lb/>a cross section of a tree
             <lb/>which is 9 ft. in diam.
             <lb/>There is a hollow tree
-            <pb/>
-            <pb facs="/2/27454eee-f99f-4502-a34c-db65724726d5"/>
-            <!--BE SURE TO MARK THE FACS NUMBER AS A VALUE IN PB ABOVE.  Also, notice the paragrap continues across the page change.-->
+            <pb facs="/8/81d0dd7f-8548-43c8-85fa-2213b003881c"/>
             <lb/>trunk which will
-            <!-- Note: sic situation where she means people but it is spelled peopl.  What to do? -->
-            <lb/>hold 50 peopl. The
+            <lb/>hold 50 <choice><sic>peopl</sic><corr>people</corr></choice>. The
             <lb/>building is really
-            <!--Need to find pictures of this Forestry Bldg and especially the columns on it! -->
+            <!--JLM: Need to find pictures of this Forestry Bldg and especially the columns on it! -->
             <lb/>mammoth. The columns are huge
             <lb/>trees. I got
             <lb/>what I hope will be
+            <!--JLM: Any chance we can get our hands on the pictures she mentions in this next line? Or other references to her camera in other letters?-->                
             <lb/>a good picture of it.
-            <!--Any chance we can get our hands on her picture?  Or other references to her camera?-->
             <lb/>All the <choice><abbr >b'l'd'gs</abbr><expan>buildings</expan></choice> are fine.
-            <!--Do I code these special, angled ANDs -->
-            <lb/>and will be used by
-            <lb/><placeName>Seattle College</placeName>later.
+            <lb/><seg type="obliqueText" rendition="#ot1">and</seg> will be used by
+            <!--JLM: I've coded Seattle college under the placeName Seattle, but should I have added Seattle College itself to the listPlace header?-->
+            <lb/><placeName>Seattle</placeName> College later.
             <lb/>Every one who has
             <lb/>been to the other
             <lb/>Expositions say that
             <lb/>This is the best yet.
-            <lb/>The city is large and
+            <lb/>The city is large <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>steadily increasing but
             <lb/>looks very new. There
-            <!--Okay, this is the second time she's done this BLDG thing with the little ink marks.  Again, how do I code it?-->
-            <!--Special code for the dash?  yes or no? -->
-            <lb/>are lots of large bldgs--
-            <pb/>
-            <!--BE SURE TO MARK THE FACS NUMBER AS A VALUE IN PB ABOVE.  Also, notice the paragrap continues across the page change.-->
-            <!--sideways and -->
-            <lb/>plenty of 12 stories and
+            <lb/>are lots of large <choice><abbr >b'l'd'gs</abbr><expan>buildings</expan></choice>&#x2014;
+            <pb facs="/f/f3b897bb-4680-40dc-af3f-e0743d8e56f2"/>
+            <lb/>plenty of 12 stories <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>several 14. There are 
             <lb/>some dandy hotels.
-            <!--New paragraph-->
-            <lb/>Will Ma be home
+          </p>
+          <p>
+            <lb/>Will <persName ref="#MATS">Ma</persName> be home
             soon?
-            <!--New paragraph-->
-            <lb/>You had best not ans.
+          </p>
+          <p>
+            <lb/>You had best not <choice><abbr>ans.</abbr><expan>answer</expan></choice>
             <lb/>This as I will have left
-            <lb/>before an ans could
+            <lb/>before an <choice><abbr>ans</abbr><expan>answer</expan></choice> could
             <lb/>come.
-            <!--New paragraph/salutation ends-->
-            <lb/>Love
-            <lb/>Gladys
-            <!--How do I code this thing?  DO I code this thing!? -->
+          </p>
+          <closer>
+            <lb/><salute>Love</salute>
+            <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
+            <!-- JLM Had to put the hand-shifted 7/10/109 business in this closer section because Oxygen wouldn't read it outside the context of the closer tag.-->            
+            <handShift new="#Unknown"/>
             <lb/>7/10/109
-            
-            <!-- OTHER LETTER -->
-            <!--BE SURE TO MARK THE FACS NUMBER AS A VALUE IN PB ABOVE.  Also, notice the paragrap continues across the page change.-->
-            <lb/>Dear mother,
+          </closer>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="JLM2">
+    <teiHeader type="text">
+      <fileDesc>
+        <titleStmt>
+          <title>Gladys M. Stephens to Mrs. A. T. Stephens, 14 July 1909</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc>
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
+                1834-1949 1909-1917</collection>
+              <idno>SPEC.RARE.CMS.327</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                <!-- Describe contents briefly (these notes need to be revised and cast in prose). -->
+                
+              </p>
+            </msContents>
+            <physDesc>
+              <!-- 
+                TAKE NOTE: Your entire header should answer the following questions about your 
+                source document. At this point in your header, you should discuss anything in 
+                this list not mentioned elsewhere in the header.
+                
+                1. What is the document (letter, will, etc.)?
+                2. What does it say about itself (titles, descriptive notes, etc.)?
+                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+                4. How is it put together (folded sheets, binding, etc.)?
+                5. What is it made of (paper, vellum, etc.)?
+                6. What is its size (i.e., physical dimensions)?
+                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+                8. How is it related to other versions (original, copy, print history)?
+                
+                You can use more than one paragraph (tagged <p> </p>).
+              -->
+              <p> ALS. Three loose sheets of cream-colored Hotel Georgian letterhead stationery
+                measuring 6 x 9.5 inches. The front side contains a 2.5-inch letterhead, a 6.75-inch
+                body with blue lines spaced at .375-inch intervals, and a .25-inch bottom margin.
+                The back side contains a .75-inch unlined head, with the body lined as on the front
+                side. An oval watermark, variably placed on each sheet and measuring approximately
+                2.375 x 2.625 inches when entirely visible, reads, in outline letters, "MERCHANTS |
+                PRT'G CO | LURIE &amp; LURIE." The letterhead contains, in the upper left-hand
+                corner, a 1.375 x 2.4375-inch halftone image of the Hotel Georgian facade. </p>
+              <accMat corresp="#GS19090706env">
+                <!-- Note whether an envelope or enclosure accomplanies the letter --> Accompanied
+                by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
+                measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch halftone image of the Hotel
+                Georgian facade is printed on the left-hand side of the envelope above the hotel's
+                address. The envelope's stamp cancellation reads "WORLD'S FAIR SEATTLE 1909."</accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <!-- Box and folder number from the finding aid -->
+                <note>Box 3, Folder 16</note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <!-- Now we transcribe and encode the text of the letter and accompanying materials. -->
+    <text>
+      <body>
+        <!-- First, the envelope. -->
+        <div type="envelope" xml:id="GS19090714env01" corresp="#GS19090714let01">
+          <pb facs="/4/45c83c28-1496-4f31-85b8-a16c686553bf"/>
+          <ab type="returnAddress">
+            <handShift new="#Stationery"/>
+            <address>
+            <addrLine>Hotel Georgian</addrLine>
+            <addrLine>Fourth Avenue</addrLine>
+            <addrLine>Pike &amp; Union</addrLine>
+            <addrLine>Seattle, U. S. A.</addrLine>
+            </address>
+          </ab>
+          <ab type="postalAddress">
+            <handShift new="#GMSHand"/>
+            <address>
+            <addrLine>Mrs. A. T. Stephens</addrLine>
+            <addrLine>26 Emerson St.</addrLine>
+            <addrLine>Newton</addrLine>
+            <addrLine>Massachusetts</addrLine>
+            </address>
+          </ab>
+          <!--Pretty sure this is an endorsement but should double-check with Louie, especially since it technically looks like it's in Gladys' handwriting  -->
+          <ab type="endorsement">
+            <handShift new="#GMSHand"/>please do not forward<ptr type="NoteAnchor" target="Endorsements"/>
+          </ab>
+          <ab type="endorsement">
+            <handShift new="Unknown"/>96<ptr type="NoteAnchor" target="Endorsements"/>
+            <note resp="ed" xml:id="endorsements">Similar numbers are penciled under the cancelled
+              postage stamp on several envelopes in the collection.  The second
+              number is circled.  The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
+          </ab>
+          <ab>
+            <stamp type="postmark"> SEATTLE, WASH. / JUL 14 / 7 - PM / 1909 </stamp>
+            <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909</stamp>
+          </ab>
+          <!-- My graphic URLS always show the entire envelope regardless of how I've asked them to show a specific region.  So annoying.  Happens with the stamp and with the letterhead. -->
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/45c83c28-1496-4f31-85b8-a16c686553bf.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
+              vertically; Design A139]</figDesc>
+          </figure>
+          <!-- See http://www.jamesdire.net/W-F.html -->
+        </div>
+        <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
+          Or perhaps we should us forme work <fw>. But I think not. -->
+        <div type="letter" xml:id="GS19090714let01" corresp="#GS19090714env01">
+          <pb facs="/3/3857bb19-ff8e-44e4-b6fb-094dd9efccba"/>
+          <head type="letterhead">
+            <figure rend="link">
+              <head>Photograph of the Hotel Georgian</head>
+              <graphic
+                url="https://images.asc.ohio-state.edu/is/image/englishdocs//3/3857bb19-ff8e-44e4-b6fb-094dd9efccba.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
+              <figDesc>Photograph of the facade of the Hotel Georgian.</figDesc>
+            </figure>
+            <lb/>Rates $1.00 up 
+            <lb/>Hotel Georgian 
+            <lb/>European Plan
+            <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
+          <opener>
+            <handShift new="#GMSHand"/>
+            <!--There is no dateline in this letter, but in case I need to add it back later I've put it here in a comment <dateline><date when="1909-07-14">7/14/ 9</date></dateline> -->
+            <lb/><salute>Dear <persName ref="#MATS">mother</persName>,</salute>
+          </opener>
+          <p>
             <lb/>Was awfully
             <lb/>glad to hear from you.
             <lb/>Doubt if we can go to
-            <!-- Stuff -->
-            <lb/>Alaska -- can't get stateroom
+            <lb/><placeName>Alaska</placeName>&#x2014; can't get stateroom
             <lb/>so many are going.
+            <!-- Have not coded the Goulds with a referring string because we don't have additional info about them (yet). -->
             <lb/>Have located the Goulds,
             <lb/>I telephoned today but she
             <lb/>was at the Expo. Got
             <lb/>him <unclear cert="high">on</unclear> the phone and I
             <lb/>will call later.
-            <!--new paragraph-->
+          </p>
+          <p>
+            <!-- Need to look up these people.  They will probably become referring strings and/or proper names as we learn more about them. -->
             <lb/>Mrs. Hughes (the Virginian)
             <lb/>is a cousin of Mrs. <unclear cert="medium">Dana</unclear>
             <lb/>Gibson and Mrs. Waldorf
             <lb/>Astor (in England) I guess
             <lb/>I'll try and visit their
             <lb/>Uncle wants me to visit
-            <!--So she repeats the word visit.  Do I need to code anythign special for that?-->
-            <!-- Page break here -->
-            <lb/>visit them. Mrs. Jordon
+            <!--Gladys repeats the word "visit" here before and after the page break.  I have corrected it with a sic + an empty <corr> element since the correction is literally nothing.-->
+            <pb facs="/a/a244ada2-8ce4-4bc4-80e9-da8a673bfd55"/>             
+            <!-- More people who could become referring strings but aren't yet because we don't know enough about them -->
+            <lb/><choice><sic>visit</sic><corr></corr></choice> them. Mrs. Jordon
             <lb/>(Mrs. H's cousin) has lots of
             <lb/>money. Her husband died
             <lb/>5 yrs. ago and left a large
@@ -898,21 +1040,28 @@
             <lb/>you think. They tried to
             <lb/>have me promise to visit
             <lb/>them.
+          </p>
+          <p>
             <lb/>Not much to write
             <lb/>about now so I guess
-            <!-- Page break -->
+            <pb facs="/6/6567a384-bcbf-4394-8e32-4f66c0a7752a"/>
             <lb/>that I'll stop.
+            <!-- Yet another person mentioned who might become a referring string soon. -->
             <lb/><unclear cert="high">Now</unclear> Judy dear do take
             <lb/>things easy.
-            <!-- Closing salutation  -->
-            <lb/>Heaps of love
-            <lb/>Gladys
           </p>
+          <closer>
+            <lb/><salute>Heaps of love</salute>
+            <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
+            <!-- Had to put the hand-shifted 7/14/109 business in the closer section because Oxygen wouldn't read it otherwise.-->            
+            <handShift new="#Unknown"/>
+            <lb/>7/14/109
+          </closer>
         </div>
       </body>
     </text>
   </TEI>
-  <TEI>
+  <TEI xml:id="ACO">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -1136,7 +1285,7 @@
       </body>
     </text>
   </TEI>
-  <TEI>
+  <TEI xml:id="JHH">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -1391,7 +1540,7 @@
       </body>
     </text>
   </TEI>
-  <TEI>
+  <TEI xml:id="MAW1">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -1516,7 +1665,307 @@
       </body>
     </text>
   </TEI>
-  <TEI>
+  <TEI xml:id="CMM">
+    <teiHeader type="text">
+      <fileDesc>
+        <titleStmt>
+          <title>Title</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc corresp="#GS19090706let01">
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
+                1834-1949 1909-1917</collection>
+              <idno>SPEC.RARE.CMS.327</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                <!-- Describe contents briefly. -->
+              </p>
+            </msContents>
+            <physDesc>
+              <!-- 
+                TAKE NOTE: Your entire header should answer the following questions about your 
+                source document. At this point in your header, you should discuss anything in 
+                this list not mentioned elsewhere in the header.
+                
+                1. What is the document (letter, will, etc.)?
+                2. What does it say about itself (titles, descriptive notes, etc.)?
+                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+                4. How is it put together (folded sheets, binding, etc.)?
+                5. What is it made of (paper, vellum, etc.)?
+                6. What is its size (i.e., physical dimensions)?
+                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+                8. How is it related to other versions (original, copy, print history)?
+                
+                You can use more than one paragraph (tagged <p> </p>).
+              -->
+              <p>  </p>
+              <accMat corresp="#GS19090706env">
+                <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
+                  describe the envelope and enclosure as above, and include an @corresp attribute whose value
+                  is the xml:id of the <div> in the text corresponding to the envelope. -->  
+              </accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <note><!-- Box and folder number from the finding aid (e.g., Box 3, folder 16). --></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="envelope" xml:id="JJM19090821env01" corresp="#JJM19090821let01">
+          <pb facs="/f/f3c39277-3661-46e3-8002-a9a616109a98"/>
+          <ab type="postalAddress">
+            <!--make sure to put handshift later-->
+            <address>
+            <addrLine>Miss. Gladys M. Stephens</addrLine>
+            <addrLine>Los Angeles</addrLine>
+            <addrLine>California</addrLine>
+            <addrLine>General Delivery</addrLine>
+          </address> 
+          </ab>
+          <ab>
+            <stamp type="postmark"> Juneau, Alaska. / Aug 21 / 11 - AM / 1909 </stamp>
+          </ab>
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs//f/f3c39277-3661-46e3-8002-a9a616109a98?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE / TWO CENTS [Color-Red and Upside down]</figDesc>
+          </figure>
+          <!--Chosen to code general delievery as an addressline--> 
+        </div>
+        <div type="letter" xml:id="JJM19090821let01" corresp="#JJM19090821let01">
+          <pb facs="/c/c9330555-86d9-4008-9bbb-e6b89b76ac84"/>
+          <opener>
+            <lb/><salute><rs ref="#GMS">Dear Little Girl</rs></salute>
+          </opener>
+          <p>
+            <lb/> As I am now standing my last
+            <lb/> watch before arriving at <placeName>Juneau</placeName>
+            <lb/> and I am still a wondering
+            <lb/> and lonesome as usual I thought
+            <lb/> I would write a <unclear cert="medium">friend</unclear>
+            <lb/> which will probably be the
+            <lb/> last chance to mail unless they
+            <lb/> is a <unclear cert="unknown"></unclear> farther north than
+            <lb/> <unclear cert="unknown"></unclear> which <choice><sic>seldome</sic><corr>seldom</corr></choice> happiness 
+            <lb/> It is now 1:30 a.m. as I am
+            <lb/> still on the same 12/4 as I was 
+            <lb/> on <placeName>Santa Clara</placeName> and we should
+            <pb facs="/8/82c2767c-ecf4-47ed-821e-7cc9945f6fdd"/>
+            <!-- Note that the paragraph continues on the following page. -->
+            <lb/> arrive in <unclear cert="low">Juneau</unclear> about noon and 
+            <lb/> I do not know how long we will 
+            <lb/> be there and <unclear cert="unknown"></unclear> cannot say if I 
+            <lb/> can get up to see about the pictures
+            <lb/> but will try.
+          </p>
+          <p> 
+            <lb/> As I said before <persName ref="#GMS">Neddy</persName> dear I am writing
+            <lb/> on watch so please excuse pencil and a 
+            <lb/> few finger marks you will <unclear cert="low">I</unclear> <unclear cert="low">know</unclear>
+            <lb/> tell <unclear cert="low">Uncle</unclear> <unclear cert="low">a</unclear>that we have <unclear cert="low">good</unclear>
+            <lb/> school teachers aboard this time and 
+            <lb/> I think he could enjoy him self
+            <lb/> and <persName ref="#GMS">Neddy</persName> I have found a sweet
+            <lb/> little girl aboard and her name
+            <pb facs="/a/a0d19058-77d6-48b2-87ef-ab26bc7ce76e"/>
+            <!-- Note that the paragraph continues on the following page. -->
+            <lb/> is <persName ref="#GMS">Gladys</persName> So you know she must
+            <lb/> be Ok. She seames very fond of me
+            <lb/> and gave me a kiss the first time I
+            <lb/> saw her but honey the poor little 
+            <lb/> thing is only 2 years old So don't know
+            <lb/> any better. we are having very smooth
+            <lb/> weather so far but plenty of rain 
+            <lb/> we crossed <placeName>Mill bank</placeName> sound yesterday
+            <!-- HLU: "Mill bank sound" is a place name, though I suspect he has misspelled it. You
+              will need to do some sleuthing. -->
+            <lb/> do you remember that place I 
+            <lb/> <unclear cert="unknown"></unclear> do that so the first time
+            <lb/> I ever had the pleasure of speaking
+            <lb/> to you and how bad you felt I think
+            <lb/> I could have a little more sympathy
+            <lb/> if we ever have the pleasure of 
+            <lb/> crossing there together again
+            <lb/> don't you honey?
+            <pb facs="/1/1e6f7ae6-47bf-494b-88b1-df9d3d7be5ea"/>
+            <lb/> which I hope will be no later than
+            <lb/> the spring of 1910 do <hi rend="underlined">you</hi>? Tell me <unclear cert="unknown"></unclear>
+            <lb/> this is the first time in a long time
+            <lb/> that I hated to leave <placeName ref="#Seattle">Seattle</placeName> on account
+            <lb/> of not being there when my letter
+            <lb/> arrived and again when I am at sea
+            <lb/> well I know where I am at
+            <lb/> least. I had two letters before sailing
+            <lb/> this time one Sunday and one Monday
+            <lb/> at <unclear cert="low">6 p.m.</unclear> from a passenger that
+            <lb/> went north on this boat last
+            <lb/> spring but which I did not talk
+            <lb/> to but twice but she had a <unclear cert="low">notion</unclear>
+            <lb/> <unclear cert="low">or</unclear> fancy but <persName ref="#GMS">Neddie</persName> dear the 
+            <lb/> answers to both were the same
+            <lb/> and was this&#x2014;<hi rend="underlined">Impossible</hi>
+            <pb facs="/b/bc7afc0a-0631-4a57-b872-fda7beb07774"/>
+            <!-- Note that the paragraph continues on the following page. -->
+            <lb/> to see you am <choice><sic>to</sic><corr>too</corr></choice> busy that's all
+            <lb/> and the season. <persName ref="#GMS">Neddy</persName> would not like
+            <lb/> it and what a different feeling
+            <lb/> comes over one when they have done
+            <lb/> what they know to be <choice><sic>wright</sic><corr>right</corr></choice> Indeed
+            <lb/> it is a pleasure.
+          </p>
+          <p> 
+            <lb/> you said <choice><sic>two</sic><corr>to</corr></choice> always remember and
+            <lb/> do nothing for which your mother
+            <lb/> would be ashamed of you.
+          </p>
+          <p>
+            <lb/> well <rs ref="#GMS">little girl</rs> well do I remember 
+            <lb/> the talkings I used to get as a young
+            <lb/> fellow when going out with the boys
+            <pb facs="/8/8a7be673-5199-4b09-b859-d29600b98d7e"/>
+            <!-- Note that the paragraph continues on the following page. -->
+            <lb/> as it were or to a party or dance
+            <lb/> how well do I remember in late years
+            <lb/> how she has talked to me by the hour
+            <lb/> to be a better boy one for a mother
+            <lb/> to be proud of in her old age and
+            <lb/> the last words I hear on leaving 
+            <lb/> home dear is this remember mother 
+            <lb/> prays for her boy every night do
+            <lb/> you wonder <persName ref="#GMS">Neddy</persName> how a boy or
+            <lb/> man could <unclear cert="unknown"></unclear> thing to be
+            <lb/> ashamed of <said><q>"But honey I have"</q></said>
+            <!--the markup rules say to specificy between vocalized or signed, but I don't think it applies here--> 
+            <lb/> but did not realize it <choice><sic>untill</sic><corr>until</corr></choice> I met
+            <lb/> you honey what a differene between
+            <lb/> a mothers affections <unclear cert="unknown"></unclear> <unclear cert="unknown"></unclear>and the
+            <lb/> one girl or the only boy which we
+            <lb/> are bound to meet some day I do not
+            <lb/> know if you can understand
+            <pb facs="/1/1d84b1b3-e961-456d-9c66-4eda4dede246"/>
+            <lb/> my feelings in this or not but 
+            <lb/> please tell me will you dear <hi rend="underlined">please</hi>
+            <lb/> if you only knew with what pleasure 
+            <lb/> I read your letters and watch for 
+            <lb/> any little words that will lead me
+            <lb/> to think of <unclear cert="unknown"></unclear> <unclear cert="low">heape</unclear>improving
+            <lb/> how I wonder what your mother 
+            <lb/> would think of me if she saw me 
+            <lb/> how I wonder what you think of
+            <lb/> these letters of mine with us being
+            <lb/> of quite a different desposition in 
+            <lb/> a way. Me of a very affectionate 
+            <lb/> turn of mind and you not so much
+            <lb/> so but every thing has <choice><sic>bin</sic><corr>been</corr></choice> so 
+            <lb/> <choice><sic>unusal</sic><corr>unusual</corr></choice> and out of the ordinary
+            <lb/> that I sometimes wonder how 
+            <lb/> it all happened do you honey
+            <pb facs="/c/c94e4f05-91bb-4e8e-818e-a64f8d1ee446"/>
+            <lb/> be <choice><sic>shore</sic><corr>sure</corr></choice> and tell me what you
+            <lb/> think honey of these <hi rend="underlined">please</hi> do
+            <lb/> I wonder if you knew how I 
+            <lb/> <unclear cert="unknown"></unclear> Uncle a two little good
+            <lb/> night kisses which I saw him
+            <lb/> yet But enough of this for envy
+            <lb/> is the habit of extracting misery
+            <lb/> from other peoples happiness. 
+            <lb/> I wonder what influence it 
+            <lb/> would have on you to have some 
+            <lb/> one put up an <unclear cert="low">argument</unclear> against
+            <lb/> me for instance <unclear cert="unknown"></unclear> <unclear cert="unknown"></unclear>
+            <lb/> passing fancy and a hundred
+            <lb/> others but I will trust my 
+            <lb/> <persName ref="GMS">little girl</persName> <choice><sic>untill</sic><corr>until</corr></choice> she tells me 
+            <lb/> <choice><sic>diffarante</sic><corr>different</corr></choice> than what I now believe.
+          </p>
+          <pb facs="/1/12faecb4-fadc-4231-ba1e-a5395fc13502"/> 
+          <p>
+            <lb/> You asked me if I knew the story 
+            <lb/> of the red rose <said><q>"remember how dense
+              <lb/> at times"</q></said> but I can tell you the future
+            <lb/> of one little rose if you wish
+            <lb/> be <choice><sic>shore</sic><corr>sure</corr></choice> and tell me of your trip
+            <lb/> and how you are enjoying your self
+            <lb/> be <choice><sic>shore</sic><corr>sure</corr></choice> and ask as many questions 
+            <lb/> as you like do not be afraid honey
+            <lb/> for I will understand.
+          </p>
+          <p>
+            <lb/> Oh how much I would give
+            <lb/> for one or two more nights
+            <lb/> on <placeName>Santa Clara</placeName> with you now 
+            <lb/> how much could be said
+            <pb facs="/e/e9f54935-558f-40f6-951e-f079183e96bc"/>
+            <!-- Note that the paragraph continues on the following page. -->
+            <lb/> and how much better we could 
+            <lb/> understand but here we are
+            <lb/> Dear me plowing along miles
+            <lb/> farther away every day when it 
+            <lb/> is my desire to be with you 
+            <lb/> do you know the other day well it
+            <lb/> was after I finished reading the 
+            <lb/> first little letter I was talking to 
+            <lb/> the <persName ref="#End">Chief</persName> <said><q>"he calls me his boy also"</q></said>
+            <lb/> all at once he grabbed me by
+            <lb/> the arm and <choice><sic>shooked</sic><corr>shook</corr></choice> me an said
+            <lb/> wake up boy what's the matter
+            <lb/> can you think where my mind
+            <pb facs="/7/7c13091c-3773-4214-9981-b1995181be52"/>
+            <lb/> was. <persName>Ms Hollinds</persName> remark does not
+            <lb/> surprise me much honey I am getting 
+            <lb/> <unclear cert="unknown"></unclear> them now every day while 
+            <lb/> I was around the docks it was
+            <lb/> Hellow Mack you look <unclear cert="medium">lonesome</unclear> 
+            <lb/> this with a knowing smile.
+            <lb/> They say absence makes <choice><sic>thee</sic><corr>the</corr></choice> heart
+            <lb/> grow fonder I do not <choice><sic>haf</sic><corr>have</corr></choice> to
+            <lb/> worry about mine I have none
+            <lb/> I wonder where it went it
+            <lb/> I sent in the room honest Dear
+            <lb/> tell me if you know <hi rend="underlined">please</hi>
+            <pb facs="/8/80015065-8495-4250-8ad4-362953505abd"/> 
+            <lb/> well <persName ref="#GMS">Neddy</persName> dear it is <unclear cert="high">nearing</unclear> 
+            <lb/> <unclear cert="high">4 a.m.</unclear> I but you are glad for I 
+            <lb/> will <choice><sic>haf</sic><corr>have</corr></choice> to close
+          </p>
+          <p>
+            <lb/> but be <choice><sic>shore</sic><corr>sure</corr></choice> and tell me all the 
+            <lb/> news from home tell me if I am 
+            <lb/> asking <choice><sic>to</sic><corr>too</corr></choice> much well <unclear cert="unknown"></unclear>
+            <lb/> <unclear cert="medium">honey</unclear> tell me <hi rend="underlined">everything</hi> 
+            <lb/> that isnt asking much is it
+            <lb/> give my best to Uncle <unclear cert="low">a</unclear>
+          </p>
+          <p>
+            <lb/> and
+          </p>
+          <p>
+            <lb/> now I will bid you Goodnight
+            <lb/> or rather good morning
+          </p>
+          <closer>
+            <lb/><salute> With heaps of <hi rend="underlined">love</hi></salute>
+            <lb/><signed><persName ref="#JJM">x J.J.Mc</persName></signed>
+          </closer>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="MAW2">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
