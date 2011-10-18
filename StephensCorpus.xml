@@ -1140,13 +1140,13 @@
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>Title</title>
+          <title>Cora L. Anderson to Mrs. A. T. Stephens, 19 August 1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#GS19090706let01">
+          <msDesc corresp="#CLA19090820let01">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
@@ -1178,7 +1178,7 @@
                 You can use more than one paragraph (tagged <p> </p>).
               -->
               <p>  </p>
-              <accMat corresp="#GS19090706env">
+              <accMat corresp="#CLA19090821env01">
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
                   describe the envelope and enclosure as above, and include an @corresp attribute whose value
                   is the xml:id of the <div> in the text corresponding to the envelope. -->  
@@ -1454,10 +1454,10 @@
           <pb facs="/1/10e1050e-1f2b-43c5-b52f-bf55d6cb3c41"/>
           <ab type="postalAddress">
             <address>
-            <addrLine>Mrs. A. T. Stephens</addrLine>
-            <addrLine>26 Emerson St.</addrLine>
-            <addrLine>Newton</addrLine>
-            <addrLine>Mass.</addrLine>
+            <persName>Mrs. A. T. Stephens </persName>
+            <addrLine>26 Emerson St. </addrLine>
+            <addrLine>Newton </addrLine>
+            <addrLine>Mass. </addrLine>
             </address>
           </ab>
           <ab>
@@ -1474,7 +1474,7 @@
           <opener> <dateline> <address> <addrLine> Sherborn, Mass. </addrLine></address></dateline>
             <lb/> <salute>My dear Aunt: </salute>
           </opener>
-          <p><lb/>Please dont
+          <p><lb/>Please <choice><sic>dont</sic><corr>don't</corr></choice>
             <lb/>feel that I have neglected 
             <lb/>you more than others for 
             <lb/>we have had so much on our 
@@ -1483,7 +1483,7 @@
             <lb/>almost everyone else out. 
             <lb/>We have a nice baby boy. A 
             <lb/>good big baby not, not a little 
-            <lb/>teeny weeny. <!-- colon? -->You know I 
+            <lb/>teeny weeny. You know I 
             <lb/>wished for a small baby, but 
             <lb/>now that he is here I am glad 
             <lb/>he is strong and perfect. If 
@@ -1492,10 +1492,10 @@
             <lb/>strong yet but am gaining 
             <pb facs="/1/1931af01-c4d5-4237-942d-ce2790310029"/>
             <lb/>every day a little, but I shall have to be 
-            <lb/>careful for awhile yet. Gladys is pleased 
-            <lb/>with her little brother and Willis is pleased 
+            <lb/>careful for awhile yet. <persName>Gladys</persName> is pleased 
+            <lb/>with her little brother and <persName>Willis</persName> is pleased 
             <lb/>with his little son. I have only heard from 
-            <lb/>Gladys Stevens once. She was then in Colorado.
+            <lb/><persName>Gladys Stevens</persName> once. She was then in <placeName>Colorado</placeName>.
             <lb/>I had hoped she would keep me posetd as to 
             <lb/>her travels. I supposed she will be home before 
             <lb/>a great while now with many, many entertaining 
@@ -1509,8 +1509,8 @@
           </p>
           <closer>
             <lb/><salute>Your affectionate niece </salute>
-            <signed>Cora L. Anderson. </signed>
-            <dateline> <date>1909-08-19</date><hi rend="underlined">Aug. 19th. '09</hi></dateline>
+            <signed><persName>Cora L. Anderson</persName>. </signed>
+            <dateline> <date>1909-08-19</date><hi rend="underlined">Aug. 19th. '09.</hi></dateline>
           </closer>
         </div>
       </body>
@@ -1520,13 +1520,13 @@
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>Title</title>
+          <title>Gladys M. Stephens to Mrs. A. T. Stephens, 5 October 1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#GS19090706let01">
+          <msDesc corresp="#GS19091005let01">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
@@ -1558,7 +1558,7 @@
                 You can use more than one paragraph (tagged <p> </p>).
               -->
               <p>  </p>
-              <accMat corresp="#GS19090706env">
+              <accMat corresp="#GS19091006env01">
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
                   describe the envelope and enclosure as above, and include an @corresp attribute whose value
                   is the xml:id of the <div> in the text corresponding to the envelope. -->  
@@ -1579,7 +1579,7 @@
           <pb facs="/0/03089ec3-d8d7-4b39-8e25-9fd16419aecc"/>
           <ab type="postalAddress">
             <address>
-              <addrLine> Mrs. A. J. Stephens </addrLine>
+              <persName>Mrs. A. J. Stephens </persName>
               <addrLine> 26 Emerson street </addrLine>
               <addrLine> Newton </addrLine>
               <addrLine> Massachusetts </addrLine>
@@ -1601,7 +1601,7 @@
           <pb facs="/e/e040faea-be8c-4fb6-bcc3-eb4132850b07"/>
           <opener>
             <dateline> <address> <addrLine>609 N. El Paso St. </addrLine> </address> </dateline> 
-            <lb/> <salute> Mother dear, </salute>
+            <lb/><salute>Mother dear, </salute>
           </opener>
           <p> <lb/>Have just  
             <lb/>returned from a 
@@ -1619,7 +1619,7 @@
           </p>
           <p> <lb/>I am as well as 
             <lb/>ever. </p>
-          <p> <lb/>Adelaide is 
+          <p> <lb/> <persName>Adelaide</persName> is 
             <lb/>getting along  
             <lb/>finely with her  
             <lb/>shopping. Her 
@@ -1654,13 +1654,13 @@
           </p>
           <p> <lb/>Here they're all 
             <lb/>talking about 
-            <lb/>my <hi rend="underlined">return </hi>&#x2014; and 
+            <lb/>my <hi rend="underlined">return </hi>&#x2014;and 
             <lb/>I haven't left yet. 
             <lb/>What do you think 
             <lb/>of that? 
           </p>
           <p> <lb/>Just wrote to  
-            <lb/>Pauline. Will 
+            <lb/><persName>Pauline</persName>. Will 
             <lb/>mail it when I 
             <lb/>get time. 
           </p>
@@ -1669,7 +1669,7 @@
           </p>
           <closer>
             <lb/> <salute>Love </salute>
-            <lb/> <signed>Gladys </signed>
+            <lb/> <signed><persName>Gladys</persName></signed>
             <lb/> <dateline> <date when="1909-10-05"></date>10/5/09 </dateline>
           </closer>
         </div>
