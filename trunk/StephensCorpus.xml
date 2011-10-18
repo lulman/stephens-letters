@@ -1409,17 +1409,17 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="JHH">
+  <TEI xml:id="JHH_JJM2GMS_1909-08-13">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title></title>
+          <title>J.J. McIntyre to Gladys M. Stevens 8-13-1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#">
+          <msDesc corresp="#JM19090813let01">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
@@ -1429,7 +1429,7 @@
               <idno>SPEC.RARE.CMS.327</idno>
             </msIdentifier>
             <msContents>
-              <p>
+              <p>An eight page love letter plus envelope
                 <!-- Describe contents briefly. -->
               </p>
             </msContents>
@@ -1451,7 +1451,7 @@
                 You can use more than one paragraph (tagged <p> </p>).
               -->
               <p>  </p>
-              <accMat corresp="#">
+              <accMat corresp="#JM19090814env01">
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
                   describe the envelope and enclosure as above, and include an @corresp attribute whose value
                   is the xml:id of the <div> in the text corresponding to the envelope. -->  
@@ -1468,7 +1468,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="JM19090814env01" corresp="#JM19090813let01">
+        <div type="envelope" xml:id="#JM19090814env01" corresp="#JM19090813let01">
           <pb facs="/0/05d946d6-d917-4ea6-9f89-588209756900
             "/>
           <ab type="postalAddress">
@@ -1653,8 +1653,8 @@
           </p>
           <closer>
             <lb/><salute>I Remain as Ever Yours in big 
-            <!-- Oxygen won't let me use q tags for a quotation inside of a salutation -->
-            <lb/>"Heaps"</salute><signed><persName ref="#JJM">J McIntyre</persName></signed>
+              <!-- Oxygen won't let me use q tags for a quotation inside of a salutation -->
+              <lb/>"Heaps"</salute><signed><persName ref="#JJM">J McIntyre</persName></signed>
             <!-- What the hell is "lightboat"? -->
             <lb/>+ lightboat
             <lb/>"Note Date"
