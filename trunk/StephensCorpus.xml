@@ -68,6 +68,7 @@
         
         <listPlace>
           <head>Places Mentioned in the Text</head>
+          <!-- Lewis Ulman's places entries begin here. -->
           <place type="city" xml:id="Seattle" source="#TGN">
             <placeName>Seattle</placeName>
             <desc>Gladys Stephens attends the 1909 Seattle World's Fair.</desc>
@@ -90,8 +91,9 @@
         </listPlace>
         
         <list type="gloss">
+          <head>Glossary</head>
+          <!-- Lewis Ulman's glossary entries begin here. -->
           <!-- Here's an example from another edition. -->
-          <head>List of Nautical Terms</head>
           <item xml:id="Mate">
             <term>Mate</term>
             <gloss>Mates on merchant ships would take command in the captain's stead in the absence
@@ -102,6 +104,7 @@
         
         <list>
           <head>List of Ships Mentioned in Stephens Family Letters</head>
+          <!-- Lewis Ulman's ship entries begin here. -->
           <item xml:id="Northwestern">
             <name type="passenger" subtype="steamer">S. S. Northwestern</name>
             <country>USA</country>
@@ -114,8 +117,9 @@
         </list>
         
         <listOrg>
-          <!-- Here's an example from another edition. -->
           <head>List of Organizations</head>
+          <!-- Lewis Ulman's organization entries begin here. -->
+          <!-- Here's an example from another edition. -->
           <org xml:id="FN">
             <orgName>Fosters and Nickerson</orgName>
             <state type="partners">
@@ -141,9 +145,12 @@
         
         <listBibl>
           <head>Works Cited</head>
+          <!-- Lewis Ulman's works cited entries begin here. -->
+          
           <!-- Though TEI provides for more fine-grained encoding, we will enter bibliography items
             as we would expect them to be displayed, ecept for noting text that requires special
             formatting (e.g., titles). -->
+
           <bibl xml:id="BUYB1907" n="Boston1907">
             <title level="m">Boston University Year Book</title>. Ed. The University Council. Series
             4 Vol. 34. Boston, MA: University Offices, 1907. Print.
@@ -169,6 +176,7 @@
       </tagsDecl>
     </encodingDesc>
     <profileDesc>
+      
       <!-- The text-profile description "provides a detailed description of non-bibliographic aspects of a text, 
         specifically the languages and sublanguages used, the situation in which it was produced, 
         the participants and their setting" (TEI P5 - 2.4 The Profile Description). -->
@@ -179,6 +187,8 @@
       
       <particDesc>
         <listPerson type="mentioned">
+         <head>Persons Mentioned in the Text</head>
+          <!-- Lewis Ulman's biographical entries begin here. -->
           <person xml:id="GMS">
             <persName>Stephens, Gladys Mary</persName>
             <education>A Gladys Mary Stephens from Newton, MA appears in lists of "Special Students"
@@ -212,6 +222,7 @@
         </listPerson>
         
         <listPerson type="editors">
+          <head>Editors</head>
           <person xml:id="HLU">
             <persName>Ulman, H. Lewis</persName>
             <birth when="1952">
@@ -243,6 +254,7 @@
       <textClass>
         <!-- Supply a list of keywords for your document from the Library of Congress Subject Headings -->
         <keywords scheme="#LCSH">
+          <!-- Lewis Ulman's list of terms begins here. -->
           <term>Alaska-Yukon-Pacific Exposition (1909: Seattle, Wash.)</term>
         </keywords>
         
@@ -319,6 +331,7 @@
   </TEI>
   
   <TEI xml:id="HLU_GMS2MAT_1909-07-06">
+
   <!-- The encoded transcription of the first letter in our edition (chronologically) begins here.
        It's the one on which I am working, so you can consult it as a model, as long as you
        remember that I may have to revise my encoding as the process of discovery proceeds -->
