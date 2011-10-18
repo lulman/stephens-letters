@@ -1173,6 +1173,246 @@
             </physDesc>
             <additional>
               <adminInfo>
+                <note>Box 1, Folder 2</note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        <div type="envelope" xml:id="JM19090814env01" corresp="#JM19090813let01">
+          <pb facs="/0/05d946d6-d917-4ea6-9f89-588209756900
+            "/>
+          <ab>
+            <address>
+              <addrLine>Miss. Gladys. M. Stephens.</addrLine>
+              <addrLine>San Francisco</addrLine>
+              <addrLine>California</addrLine>
+            </address>
+          </ab>
+          <ab>
+            <stamp type="postmark"> SEATTLE, WASH. / AUG 14 / 130 PM / 1909 </stamp>
+            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
+          </ab>
+          <ab>
+            <lb/>(General Delivery)
+          </ab>
+        </div>
+        <div type="letter" xml:id="JM19090813let01" corresp="#JM19090814env01">
+          <pb facs="/e/e342cb79-e993-4f0c-8714-5851dda7b007
+            "/>
+          <opener>
+            <salute>My Dear little girl</salute>
+          </opener>
+          <p>
+            <lb/>It was with pleasure that 
+            <lb/>I received your Cards + letter 
+            <lb/>this P.M. but Sorry that 
+            <lb/>you did not enjoy your trip 
+            <lb/>And got Such a disagreable place 
+            <lb/>to Stop and I don't like <persName>Mr 
+              <lb/>Holland</persName> a bit for taking you 
+            <lb/>there and if your feelings at 
+            <lb/>the Depot was any thing like 
+            <lb/>mine you <unclear cert="low">Cercetaly</unclear> have my 
+            <lb/>Sympathy for dear I did not 
+            <lb/><choice><sic>eaven</sic><corr>even</corr></choice> wait untill the train pulled 
+            <lb/>out
+            <pb facs="/8/800f977d-0656-4371-87fe-bf5d2a236e1d
+              "/>
+            <lb/>I knowed that you were not feeling 
+            <lb/>your best So I did not tell you 
+            <lb/>the promise that I wished from 
+            <lb/>you but Asked in last letter?
+            <lb/>And when <persName>Mr Holland</persName> asked you 
+            <lb/>if they was any tears "<unclear cert="low">shed</unclear>"
+            <lb/>And always remember honey I 
+            <lb/>have two <choice><sic>Sholders</sic><corr>shoulders</corr></choice> a right + also a left 
+            <lb/>one And you can have your choice
+            <lb/>or both? by the -- way how is
+            <lb/>our (I was going to say little) <choice><sic>unkle</sic><corr>uncle</corr></choice>
+            <lb/>getting along better I hope?
+          </p>
+          <p>
+            <lb/>I dare not express my feelings
+            <lb/>in regards to the place where <persName>Holland</persName> 
+            <lb/>recommended but honey I said
+            <pb facs="/6/657652de-d6f1-45e8-8d8d-922be44d93c5
+              "/>
+            <!-- Is what looks like "ossle" actually offle, a mispelling of awfully? -->
+            <lb/>Something <unclear cert="low">offle</unclear> naughty ---
+          </p>
+          <p>
+            <lb/>I don't Care I was mad to think
+            <lb/>of my little girl being in Such
+            <lb/>a place If I Could only <choice><sic>bin</sic><corr>been</corr></choice> there
+            <lb/>but dear I can never wait 2 years
+            <lb/>before I see you I simply cant
+            <lb/>It <choice><sic>Seams</sic><corr>seems</corr></choice> almost a year now
+            <!-- the Santa Clara is another ship I'll have to research -->
+            <lb/>And the good old Santa Clara She
+            <lb/>or <q>he</q> (as it is a <choice><sic>mail</sic><corr>male</corr></choice> boat) is a friend
+            <lb/>of mine And I may Soon be back 
+            <lb/>again the Chief was down to See me
+            <lb/>last night and he don't want me
+            <lb/>to make this trip So I Saw the <unclear>???</unclear>
+            <lb/><unclear>???</unclear>to day and he transferred me to 
+            <lb/>the North Western <del rend="overstrike">She</del> he Sails
+            <pb facs="/f/fe83c5c8-21a3-4819-9cfc-5f5cae2bca37
+              "/>
+            <lb/><date>Monday #16</date> And he Said If he got
+            <lb/>Any <del rend="overstrike">more</del> news from Santa Clara
+            <lb/>he would hold me over untill <del rend="overstrike">She</del> he
+            <lb/>Sails and that means <unclear>$</unclear>1200 per year
+            <lb/>+ expenses I didn't mind before
+          </p>
+          <p>
+            <lb/>But now -- Neddie
+            <lb/>I have not <choice><sic>bin</sic><corr>been</corr></choice> over to See my mother
+            <lb/>Since you left for the <unclear>moniux</unclear> She
+            <lb/>Saw me She would want to know the
+            <lb/>trouble And the memory of last 
+            <lb/><choice><sic>Voige</sic><corr>voyage</corr></choice> is <choice><sic>to</sic><corr>too</corr></choice> 
+            Sweet to Share with <choice><sic>eaven</sic><corr>even</corr></choice>
+            <lb/>my Mother as yet but I am gradually
+            <lb/>Coming back to Earth &amp; I only hope
+            <lb/>I recieve your letter before I go North
+            <lb/>again I hate to leave at all but
+            <lb/>I must &amp; I was very much pleased 
+            <lb/>to hear <persName>Uncle A's</persName> opinion of me
+            <pb facs="/f/fb22e957-125d-4287-8b68-27e3dbe0293a
+              "/>
+            <lb/>And I hope it will allways be the
+            <lb/>Same or Improve if any thing?
+            <lb/>"And the Small heap grows to an
+            <lb/>Enormous Size? (this to you <unclear>pat</unclear>)
+            <lb/>for I will watch every little
+            <lb/>word for <choice><sic>Simptoms</sic><corr>symptoms</corr></choice> of the heap.
+            <lb/>improving for the better
+            <lb/>And honey tell me all the troubles
+            <lb/>as well as pleasures So I may share 
+            <lb/>them with you as I really feel
+            <lb/>As I am reading your letter that
+            <lb/>I am with you I was up town
+            <lb/>this afternoon and Saw a few
+            <pb facs="/2/2d47fc66-d1a5-4611-a3d9-da91eb08fb13
+              "/>
+            <lb/>Texas hats but not the right one
+            <lb/>or the right face but I did not 
+            <lb/>stay long and am staying aboard
+            <lb/>to night I have not <choice><sic>bin</sic><corr>been</corr></choice> to the fair
+            <lb/>Since and do not think I will go again
+            <lb/>I can <choice><sic>safly</sic><corr>safely</corr></choice> make the promise never
+            <lb/>to Smoke cigaretts again and regards
+            <lb/>to Drink It will be a better <unclear>dissaperiture</unclear>
+            <lb/>that will ever Start me again it <unclear>folly</unclear>
+            <lb/>makes me Shudder to think of you being
+            <lb/>Any where near that Class in <placeName>portland</placeName>
+            <lb/>And I hope you will have a better
+            <lb/>time in <placeName>San francisco</placeName>?
+          </p>
+          <p>
+            <lb/>if we only had had a little time to
+            <lb/>ourselves the night before on the
+            <pb facs="/a/ac97c0ba-0255-4072-ae61-b69750337149
+              "/>
+            <lb/>morning you Sailed how much
+            <lb/>better I would have felt for I
+            <lb/>Cannot make my Self believe
+            <lb/>but what Something will happen
+            <lb/>Forgive me dear if that <choice><sic>Seames</sic><corr>seems</corr></choice>
+            <lb/>unjust but It <choice><sic>Seames</sic><corr>seems</corr></choice> <choice><sic>to</sic><corr>too</corr></choice> good to last
+            <lb/>but will live in hopes?
+          </p>
+          <p>
+            <lb/>Mr Jones was <choice><sic>enquiring</sic><corr>inquiring</corr></choice> about today
+            <lb/>And he told me if I heard from you
+            <lb/>to remind you of the picture you
+            <lb/>know which one.
+          </p>
+          <p>
+            <lb/>well <persName>neddy</persName> the lights will be
+            <lb/>agoing out Soon as it is nearing 10 P.M.
+            <lb/>gove my very best regards to <persName>uncle E</persName>
+            <lb/>And Some to <persName>Mr Holland</persName> and remember
+            <lb/>I am anxiously awaiting a reply
+            <pb facs="/7/7c5f0e65-7f34-49d5-859c-9d7f67dfa7e6
+              "/>
+            <lb/>to last letter which is on the
+            <lb/>road before this And I hope to
+            <lb/>have Heaps of letters with heaps
+            <lb/>of love on my return from
+            <lb/>this <choice><sic>Voige</sic><corr>voyage</corr></choice> I will write again
+            <lb/>before Sailing so you will know
+            <lb/>how + where I am
+          </p>
+          <p>
+            <lb/>Good By little girl
+          </p>
+          <closer>
+            <lb/><salute>I Remain as Ever Yours in big
+              <lb/>"Heaps"</salute><signed><persName ref="#JJM">J McIntyre</persName></signed>
+            <!-- What the hell is "lightboat"? -->
+            <lb/>+ lightboat
+            <lb/>"Note Date"
+            <lb/><dateline>Friday 13th / 09</dateline>
+          </closer>
+        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI>
+    <teiHeader type="text">
+      <fileDesc>
+        <titleStmt>
+          <title>Title</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc corresp="#GS19090706let01">
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
+                1834-1949 1909-1917</collection>
+              <idno>SPEC.RARE.CMS.327</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                <!-- Describe contents briefly. -->
+              </p>
+            </msContents>
+            <physDesc>
+              <!-- 
+                TAKE NOTE: Your entire header should answer the following questions about your 
+                source document. At this point in your header, you should discuss anything in 
+                this list not mentioned elsewhere in the header.
+                
+                1. What is the document (letter, will, etc.)?
+                2. What does it say about itself (titles, descriptive notes, etc.)?
+                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+                4. How is it put together (folded sheets, binding, etc.)?
+                5. What is it made of (paper, vellum, etc.)?
+                6. What is its size (i.e., physical dimensions)?
+                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+                8. How is it related to other versions (original, copy, print history)?
+                
+                You can use more than one paragraph (tagged <p> </p>).
+              -->
+              <p>  </p>
+              <accMat corresp="#GS19090706env">
+                <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
+                  describe the envelope and enclosure as above, and include an @corresp attribute whose value
+                  is the xml:id of the <div> in the text corresponding to the envelope. -->  
+              </accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
                 <note><!-- Box and folder number from the finding aid (e.g., Box 3, folder 16). --></note>
               </adminInfo>
             </additional>
