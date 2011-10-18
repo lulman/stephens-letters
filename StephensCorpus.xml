@@ -1413,13 +1413,13 @@
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>Cora L. Anderson to Mrs. A. T. Stephens, 19 August 1909</title>
+          <title></title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#CLA19090820let01">
+          <msDesc corresp="#">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
@@ -1451,7 +1451,7 @@
                 You can use more than one paragraph (tagged <p> </p>).
               -->
               <p>  </p>
-              <accMat corresp="#CLA19090821env01">
+              <accMat corresp="#">
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
                   describe the envelope and enclosure as above, and include an @corresp attribute whose value
                   is the xml:id of the <div> in the text corresponding to the envelope. -->  
@@ -1664,17 +1664,17 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="MAW1">
+  <TEI xml:id="MAW_CLA2ATS_1909-08-19">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>Title</title>
+          <title>Cora L. Anderson to Mrs. A. T. Stephens, 19 August 1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#GS19090706let01">
+          <msDesc corresp="#CLA19090820let01">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
@@ -1706,7 +1706,7 @@
                 You can use more than one paragraph (tagged <p> </p>).
               -->
               <p>  </p>
-              <accMat corresp="#GS19090706env">
+              <accMat corresp="#CLA19090821env01">
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
                   describe the envelope and enclosure as above, and include an @corresp attribute whose value
                   is the xml:id of the <div> in the text corresponding to the envelope. -->  
@@ -2236,7 +2236,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="MAW2">
+  <TEI xml:id="MAW_GMS2ATS_1909-10-05">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -2827,7 +2827,7 @@
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#GS19090927et01">
+          <msDesc corresp="#GS19090706let01">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
