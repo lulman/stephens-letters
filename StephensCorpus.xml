@@ -245,6 +245,17 @@
               <occupation>PhD Student</occupation>
               <nationality>U.S.A.</nationality> 
               <note type="biographical">Biographical note about Marion A. Wolfe</note>
+            </person>
+          <person xml:id="JPLS">
+            <persName>Leidheiser-Stoddard, Jonathan Paul</persName>
+            <birth when="1982">
+              <placeName>Worthington, OH</placeName>
+            </birth>
+            <education>BA, University of Washington (2005)</education>
+            <education>MTS, Pacific School of Religion (2007)</education>
+            <education>MA, Wake Forest University (2009)</education>
+            <occupation>Graduate Student</occupation>
+            <nationality>U.S.A.</nationality>
           </person>
         </listPerson>
       </particDesc>
