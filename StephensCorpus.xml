@@ -1198,14 +1198,23 @@
         <div type="envelope" xml:id="JM19090814env01" corresp="#JM19090813let01">
           <pb facs="/0/05d946d6-d917-4ea6-9f89-588209756900
             "/>
-          <ab>
+          <ab type="postalAddress">
             <address>
               <addrLine>Miss. Gladys. M. Stephens.</addrLine>
+              <delSpan rend="strikethrough" hand="#Unknown"/>
               <addrLine>San Francisco</addrLine>
               <addrLine>California</addrLine>
             </address>
           </ab>
+          <addSpan hand="#Unknown" place="below"/>
+          <ab type="forwardingAddress">
+            <address>
+            <addrLine>LOS ANGELES.</addrLine>
+            <addrLine>CAL.</addrLine>
+            </address>
+          </ab>
           <ab>
+            <stamp type="date">SEP 6 - 1909</stamp>
             <stamp type="postmark"> SEATTLE, WASH. / AUG 14 / 130 PM / 1909 </stamp>
             <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
           </ab>
@@ -1225,27 +1234,28 @@
             <lb/>this P.M. but Sorry that 
             <lb/>you did not enjoy your trip 
             <lb/>And got Such a disagreable place 
-            <lb/>to Stop and I don't like <persName>Mr 
+            <lb/>to Stop <seg type="obliqueText" rendition="#ot1">and</seg> I don't like <persName>Mr 
               <lb/>Holland</persName> a bit for taking you 
-            <lb/>there and if your feelings at 
+            <lb/>there <seg type="obliqueText" rendition="#ot1">and</seg> if your feelings at 
             <lb/>the Depot was any thing like 
-            <lb/>mine you <unclear cert="low">Cercetaly</unclear> have my 
+            <lb/>mine you <unclear cert="low">Certainly</unclear> have my 
             <lb/>Sympathy for dear I did not 
-            <lb/><choice><sic>eaven</sic><corr>even</corr></choice> wait untill the train pulled 
+            <lb/><choice><sic>eaven</sic><corr>even</corr></choice> wait <choice><sic>untill</sic><corr>until</corr></choice> the train pulled 
             <lb/>out
             <pb facs="/8/800f977d-0656-4371-87fe-bf5d2a236e1d
               "/>
             <lb/>I knowed that you were not feeling 
             <lb/>your best So I did not tell you 
             <lb/>the promise that I wished from 
+            <!-- the question mark seems to be the only punctuation that JJM uses, but does it always mark a question? -->
             <lb/>you but Asked in last letter?
             <lb/>And when <persName>Mr Holland</persName> asked you 
-            <lb/>if they was any tears "<unclear cert="low">shed</unclear>"
-            <lb/>And always remember honey I 
-            <lb/>have two <choice><sic>Sholders</sic><corr>shoulders</corr></choice> a right + also a left 
+            <lb/>if they was any tears <q><unclear cert="low">shed</unclear></q>
+            <lb/><seg type="obliqueText" rendition="#ot1">And</seg> <choice><sic>allways</sic><corr>always</corr></choice> remember honey I 
+            <lb/>have two <choice><sic>Sholders</sic><corr>shoulders</corr></choice> a right + also <add place="above">a</add> left 
             <lb/>one And you can have your choice
             <lb/>or both? by the -- way how is
-            <lb/>our (I was going to say little) <choice><sic>unkle</sic><corr>uncle</corr></choice>
+            <lb/>our (I was going to Say little) <choice><sic>unkle</sic><corr>uncle</corr></choice>
             <lb/>getting along better I hope?
           </p>
           <p>
@@ -1255,7 +1265,7 @@
             <pb facs="/6/657652de-d6f1-45e8-8d8d-922be44d93c5
               "/>
             <!-- Is what looks like "ossle" actually offle, a mispelling of awfully? -->
-            <lb/>Something <unclear cert="low">offle</unclear> naughty ---
+            <lb/>Something <unclear cert="low">else</unclear> naughty --
           </p>
           <p>
             <lb/>I don't Care I was mad to think
@@ -1270,8 +1280,9 @@
             <lb/>of mine And I may Soon be back 
             <lb/>again the Chief was down to See me
             <lb/>last night and he don't want me
-            <lb/>to make this trip So I Saw the <unclear>???</unclear>
-            <lb/><unclear>???</unclear>to day and he transferred me to 
+            <lb/>to make this trip So I Saw the <unclear cert="low">Ships</unclear>
+            <!-- While trying to research the second of the two unclear words, I came across "aluguel," which is a Spanish word that has something to do with ship repairs -->
+            <lb/><unclear cert="low">aluguel</unclear>to day and he transferred me to 
             <lb/>the North Western <del rend="overstrike">She</del> he Sails
             <pb facs="/f/fe83c5c8-21a3-4819-9cfc-5f5cae2bca37
               "/>
@@ -1282,32 +1293,36 @@
             <lb/>+ expenses I didn't mind before
           </p>
           <p>
-            <lb/>But now -- Neddie
+            <lb/>But now -- <persName>Neddie</persName>
             <lb/>I have not <choice><sic>bin</sic><corr>been</corr></choice> over to See my mother
-            <lb/>Since you left for the <unclear>moniux</unclear> She
+            <!-- is monoux another boat or a reference to Sir George Monoux College in London? -->
+            <lb/>Since you left for the <unclear cert="medium">monoux</unclear> She
             <lb/>Saw me She would want to know the
             <lb/>trouble And the memory of last 
             <lb/><choice><sic>Voige</sic><corr>voyage</corr></choice> is <choice><sic>to</sic><corr>too</corr></choice> 
             Sweet to Share with <choice><sic>eaven</sic><corr>even</corr></choice>
             <lb/>my Mother as yet but I am gradually
-            <lb/>Coming back to Earth &amp; I only hope
+            <!-- The next two question marks seem like they are intended to be exclamation points -->
+            <lb/>Coming back to Earth! I only hope
             <lb/>I recieve your letter before I go North
             <lb/>again I hate to leave at all but
-            <lb/>I must &amp; I was very much pleased 
+            <lb/>I must! I was very much pleased 
             <lb/>to hear <persName>Uncle A's</persName> opinion of me
             <pb facs="/f/fb22e957-125d-4287-8b68-27e3dbe0293a
               "/>
-            <lb/>And I hope it will allways be the
-            <lb/>Same or Improve if any thing?
+            <lb/>And I hope it will <choice><sic>allways</sic><corr>always</corr></choice> be the
+            <!-- This question mark could be either a question mark or an exclamaition point -->
+            <lb/>Same or Improve if any thing!
+            <!-- Here's an opening quotation mark with no closing -->
             <lb/>"And the Small heap grows to an
-            <lb/>Enormous Size? (this to you <unclear>pat</unclear>)
+            <lb/>Enormous Size! (this to you <unclear>pet</unclear>)
             <lb/>for I will watch every little
             <lb/>word for <choice><sic>Simptoms</sic><corr>symptoms</corr></choice> of the heap.
             <lb/>improving for the better
             <lb/>And honey tell me all the troubles
             <lb/>as well as pleasures So I may share 
             <lb/>them with you as I really feel
-            <lb/>As I am reading your letter that
+            <lb/>As I am reading your letters that
             <lb/>I am with you I was up town
             <lb/>this afternoon and Saw a few
             <pb facs="/2/2d47fc66-d1a5-4611-a3d9-da91eb08fb13
@@ -1319,16 +1334,15 @@
             <lb/>Since and do not think I will go again
             <lb/>I can <choice><sic>safly</sic><corr>safely</corr></choice> make the promise never
             <lb/>to Smoke cigaretts again and regards
-            <lb/>to Drink It will be a better <unclear>dissaperiture</unclear>
-            <lb/>that will ever Start me again it <unclear>folly</unclear>
+            <lb/>to Drink It will be a bitter <unclear cert="medium">dissaperiture</unclear>
+            <lb/>that will ever Start me again it <unclear cert="low">fully</unclear>
             <lb/>makes me Shudder to think of you being
             <lb/>Any where near that Class in <placeName>portland</placeName>
             <lb/>And I hope you will have a better
-            <lb/>time in <placeName>San francisco</placeName>?
-          </p>
+            <lb/>time in <placeName>San francisco</placeName>!          </p>
           <p>
             <lb/>if we only had had a little time to
-            <lb/>ourselves the night before on the
+            <lb/>ourSelves the night before on the
             <pb facs="/a/ac97c0ba-0255-4072-ae61-b69750337149
               "/>
             <lb/>morning you Sailed how much
@@ -1337,7 +1351,7 @@
             <lb/>but what Something will happen
             <lb/>Forgive me dear if that <choice><sic>Seames</sic><corr>seems</corr></choice>
             <lb/>unjust but It <choice><sic>Seames</sic><corr>seems</corr></choice> <choice><sic>to</sic><corr>too</corr></choice> good to last
-            <lb/>but will live in hopes?
+            <lb/>but will live in hopes!
           </p>
           <p>
             <lb/>Mr Jones was <choice><sic>enquiring</sic><corr>inquiring</corr></choice> about today
@@ -1348,7 +1362,7 @@
           <p>
             <lb/>well <persName>neddy</persName> the lights will be
             <lb/>agoing out Soon as it is nearing 10 P.M.
-            <lb/>gove my very best regards to <persName>uncle E</persName>
+            <lb/>give my very best regards to <persName>uncle E</persName>
             <lb/>And Some to <persName>Mr Holland</persName> and remember
             <lb/>I am anxiously awaiting a reply
             <pb facs="/7/7c5f0e65-7f34-49d5-859c-9d7f67dfa7e6
@@ -1362,11 +1376,12 @@
             <lb/>how + where I am
           </p>
           <p>
-            <lb/>Good By little girl
+            <lb/><choice><sic>Good By</sic><corr>Goodbye</corr></choice> little girl
           </p>
           <closer>
-            <lb/><salute>I Remain as Ever Yours in big
-              <lb/>"Heaps"</salute><signed><persName ref="#JJM">J McIntyre</persName></signed>
+            <lb/><salute>I Remain as Ever Yours in big 
+            <!-- Oxygen won't let me use q tags for a quotation inside of a salutation -->
+            <lb/>"Heaps"</salute><signed><persName ref="#JJM">J McIntyre</persName></signed>
             <!-- What the hell is "lightboat"? -->
             <lb/>+ lightboat
             <lb/>"Note Date"
