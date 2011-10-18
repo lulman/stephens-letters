@@ -88,6 +88,50 @@
               <geo>47.8333 -122.4333</geo>
             </location>
           </place>
+          <place type="city" xml:id="Boston" source="TGN">
+            <placeName>Boston</placeName>
+            <desc>Gladys Stephens mentions a correspondence occurring in Boston</desc>
+            <country>United States</country>
+            <region type="state">Massachusetts</region>
+            <location>
+              <geo>42.3500 --71.0500</geo>
+            </location>
+          </place>
+          <place type="nation" xml:id="Mexico" source="TGN">
+            <placeName>Mexico</placeName>
+            <desc>Gladys Stephens reminisces about her time in Mexico</desc>
+            <country>Mexico</country>
+            <location>
+              <geo>23.0000 -102.0000</geo>
+            </location>
+          </place>
+          <place type="city" xml:id="Portland" source="TGN">
+            <placeName>Portland</placeName>
+            <desc>Gladys Stephens mentions as a site of a known house</desc>
+            <country>United States</country>
+            <region type="state">Maine</region>
+            <location>
+              <geo>43.6500 -70.2500</geo>
+            </location>
+          </place>
+          <place type="city" xml:id="Maine" source="TGN">
+            <placeName>Maine</placeName>
+            <desc>Gladys Stephens notes an acquaintance residing in Maine</desc>
+            <country>United States</country>
+            <region type="state">Maine</region>
+            <location>
+              <geo>45.0000 -69.0000</geo>
+            </location>
+          </place>
+          <place type="state" xml:id="California" source="TGN">
+            <placeName>California</placeName>
+            <desc>Gladys has visited California recently</desc>
+            <country>United State</country>
+            <region type="state">California</region>
+            <location>
+              <geo>37.0000 -119.0000</geo>
+            </location>
+          </place>  
         </listPlace>
         
         <list type="gloss">
