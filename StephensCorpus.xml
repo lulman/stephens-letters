@@ -257,6 +257,14 @@
             <occupation>Graduate Student</occupation>
             <nationality>U.S.A.</nationality>
           </person>
+          <person xml:id="EBT">
+            <persName>Thomas, Evan B.</persName>
+            <birth when="1987">
+             <placeName>Dayton, OH</placeName>
+            </birth>
+            <education>BA, Ohio State (2009)</education>
+            <education>MA, Ohio State (2011)</education>
+          </person>
         </listPerson>
       </particDesc>
       
@@ -2653,7 +2661,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="EBT">
+  <TEI xml:id="EBT_HHM2GMS1909-09-13">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
