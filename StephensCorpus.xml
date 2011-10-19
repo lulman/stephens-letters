@@ -309,6 +309,18 @@
             <education>BA, Ohio State (2009)</education>
             <education>MA, Ohio State (2011)</education>
           </person>
+          <person xml:id="REC">
+            <persName>Conatser, Robert Eugene</persName>
+            <birth when="1985">
+              <placeName>Tulsa, OK</placeName>
+            </birth>
+            <education>BA, University of Texas at Arlington (2006)</education>
+            <education>MA, University of Nebraska (2008)</education>
+            <education>PhD, The Ohio State University (expected 2016)</education>
+            <occupation>Graduate Student</occupation>
+            <nationality>U.S.A.</nationality>
+            <note type="biographical">Biographical note about Robert Conatser</note>
+          </person>
         </listPerson>
       </particDesc>
       
@@ -3148,17 +3160,17 @@
       </body> 
     </text>
   </TEI>
-  <TEI xml:id="REC">
+  <TEI xml:id="REC_JJM2GMS_1909-10-04">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>Title</title>
+          <title>James J. Mcintyre to Gladys M. Stephens, 04 October 1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#GS19090706let01">
+          <msDesc corresp="#JJM19091004let01">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
