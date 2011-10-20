@@ -321,6 +321,17 @@
             <nationality>U.S.A.</nationality>
             <note type="biographical">Biographical note about Robert Conatser</note>
           </person>
+          <person xml:id="JHH">
+            <persName>Holmes, Jonathan H.</persName>
+            <birth when="1982">
+              <placeName>Coshocton, OH</placeName>
+            </birth>
+            <education>BA, The Ohio State University (2009)</education>
+            <education>MA, Ohio University (2011)</education>
+            <education>PhD, The Ohio State University (expected 2016)</education>
+            <occupation>Graduate Student</occupation>
+            <nationality>U.S.A.</nationality>
+          </person>
           <person xml:id="WCK">
             <persName>Kurlinkus, William C.</persName>
             <birth when="1986">
@@ -3171,7 +3182,7 @@
       </body> 
     </text>
   </TEI>
-  <TEI xml:id="REC">
+  <TEI xml:id="REC_JJM">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
