@@ -309,7 +309,18 @@
             <education>BA, Ohio State (2009)</education>
             <education>MA, Ohio State (2011)</education>
           </person>
-          <person xml:id="REC">
+          <person xml:id="CMM">
+            <persName> Meza, C. Marie</persName>
+            <birth when="1989">
+              <placeName>Del Rio, TX</placeName>
+            </birth>
+            <education>BA, University of Texas at El Paso (2010)</education>
+            <education>MA, The Ohio State University expected(2012)</education>
+            <occupation> Graduate Teaching Associate</occupation>
+            <nationality>U.S.A</nationality>
+            <note type="biographical">Biographical note about C. Marie Meza</note>
+          </person>
+        <person xml:id="REC">
             <persName>Conatser, Robert Eugene</persName>
             <birth when="1985">
               <placeName>Tulsa, OK</placeName>
