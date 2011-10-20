@@ -309,6 +309,20 @@
             <education>BA, Ohio State (2009)</education>
             <education>MA, Ohio State (2011)</education>
           </person>
+<<<<<<< .mine
+          <person xml:id="VMM">
+            <persName>Victoria M. Munoz</persName>
+            <birth when="1989">
+              <placeName>New York, NY</placeName>
+            </birth>
+            <education>BA, The State University of New York at Stony Brook (2010)</education>
+            <education>MA, The Ohio State University (2012 Expected)</education>
+            <occupation>Graduate Teaching Assistant</occupation>
+            <nationality>U.S.A.</nationality> 
+            <note type="biographical">Biographical note about Victoria M. Munoz</note>
+          </person>
+          <person xml:id="REC">
+=======
           <person xml:id="CMM">
             <persName> Meza, C. Marie</persName>
             <birth when="1989">
@@ -321,6 +335,7 @@
             <note type="biographical">Biographical note about C. Marie Meza</note>
           </person>
         <person xml:id="REC">
+>>>>>>> .r48
             <persName>Conatser, Robert Eugene</persName>
             <birth when="1985">
               <placeName>Tulsa, OK</placeName>
@@ -2526,7 +2541,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="VMM">
+  <TEI xml:id="VMM_JJM2GSS_1909-08-23">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -2754,8 +2769,8 @@
             <lb/>I must write up my log so once more
             <lb/><rs ref="#GMS">little girl</rs> I will bid you good night</p>
           <closer> 
-            <lb/><salute>wif a heaps of love</salute>
-            <signed><persName ref="#JJM"> X J.J.Mc</persName></signed>
+            <lb/><salute>wif a heaps of love X<unclear>X</unclear></salute>
+            <signed><persName ref="#JJM">J.J.Mc</persName></signed>
           </closer>
         </div>
       </body>
