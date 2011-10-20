@@ -3613,15 +3613,16 @@
             <lb/>than that If I could have the opportunity again : well <persName ref="#GMS">dear</persName>
             <lb/>So Long x
           </p>
-          <!--
-            <p>
-            I remain "<choice><abbr>wif</abbr><expan>with</expan></choice> heaps" and then <choice><abbr>sum</abbr>
-            <expan>some</expan></choice> 
-            <lb/>I would like to Say as I feel but <unclear cert="medium">Sesent nice It sis nice</unclear>
-            <lb/>I <unclear cert="medium">fink</unclear> So long—yes—<persName ref="#GMS">Sweet heart</persName>
-            <lb/><signed><persName ref="#JJM">JJ McIntyre</persName></signed> 
-            </p>
-          -->
+          
+            <postscript>
+              <p>I remain "<choice><abbr>wif</abbr><expan>with</expan></choice> heaps" and then <choice><abbr>sum</abbr>
+                <expan>some</expan></choice>  
+                <lb/>I would like to Say as I feel but <unclear cert="medium">Sesent nice It sis nice</unclear>
+                <lb/>I <unclear cert="medium">fink</unclear> So long—yes—<persName ref="#GMS">Sweet heart</persName>
+               </p>
+            </postscript>
+          
+          <signed><persName ref="#JJM">JJ McIntyre</persName></signed>
           
         </div>
       </body>
