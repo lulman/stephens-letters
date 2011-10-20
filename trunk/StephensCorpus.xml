@@ -1863,8 +1863,8 @@
         </div>
         <div type="letter" xml:id="CLA19090820let01" corresp="#CLA19090821env01">
           <pb facs="/8/808bb4bd-8140-4897-b707-cc3af5930e28"/>
-          <opener> <dateline> <address> <addrLine> Sherborn, Mass. </addrLine></address></dateline>
-            <lb/> <salute>My dear Aunt: </salute>
+          <opener> <dateline> <address> <addrLine> <placeName>Sherborn, Mass.</placeName> </addrLine></address></dateline>
+            <lb/> <salute><rs ref="#MATS">My dear Aunt:</rs></salute>
           </opener>
           <p><lb/>Please <choice><sic>dont</sic><corr>don't</corr></choice>
             <lb/>feel that I have neglected 
@@ -2440,7 +2440,7 @@
           <pb facs="/e/e040faea-be8c-4fb6-bcc3-eb4132850b07"/>
           <opener>
             <dateline> <address> <addrLine>609 N. El Paso St. </addrLine> </address> </dateline> 
-            <lb/><salute>Mother dear, </salute>
+            <lb/><salute><rs ref="#MATS">Mother dear, </rs></salute>
           </opener>
           <p> <lb/>Have just  
             <lb/>returned from a 
@@ -2452,7 +2452,7 @@
           </p>
           <p> <lb/>It is as warm 
             <lb/>today as a July 
-            <lb/>day at home. It 
+            <lb/>day <placeName>at home</placeName>. It 
             <lb/>will be cool this 
             <pb facs="/a/abcb7505-b573-47fe-9f87-9d457cda0c26"/>evening however. 
           </p>
