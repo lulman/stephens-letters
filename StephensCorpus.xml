@@ -1147,7 +1147,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="WCK1">
+  <TEI xml:id="WCK_GMS2MAT_1909-09-06">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -3160,17 +3160,17 @@
       </body> 
     </text>
   </TEI>
-  <TEI xml:id="REC_JJM2GMS_1909-10-04">
+  <TEI xml:id="REC">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>James J. Mcintyre to Gladys M. Stephens, 04 October 1909</title>
+          <title>Title</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#JJM19091004let01">
+          <msDesc corresp="#GS19090706let01">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
@@ -3462,7 +3462,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="WCK2">
+  <TEI xml:id="WCK_JJMS2GMS_1909-10-11">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
