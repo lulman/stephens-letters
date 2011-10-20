@@ -321,17 +321,17 @@
             <nationality>U.S.A.</nationality>
             <note type="biographical">Biographical note about Robert Conatser</note>
           </person>
-          <person xml:id="JHH">
-            <persName>Holmes, Jonathan H.</persName>
-            <birth when="1982">
-              <placeName>Coshocton, OH</placeName>
+          <person xml:id="WCK">
+            <persName>Kurlinkus, William C.</persName>
+            <birth when="1986">
+              <placeName>Rockford, IL</placeName>
             </birth>
-            <education>BA, The Ohio State University (2009)</education>
-            <education>MA, Ohio University (2011)</education>
+            <education>BA, University of Illinois Urbana-Champaign (2008)</education>
+            <education>MA, THe Pennsylvania State University (2010)</education>
             <education>PhD, The Ohio State University (expected 2016)</education>
             <occupation>Graduate Student</occupation>
-            <nationality>U.S.A.</nationality>
-          </person>
+            <nationality>U.S.A</nationality>
+            </person>
         </listPerson>
       </particDesc>
       
