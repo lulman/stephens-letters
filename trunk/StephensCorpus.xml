@@ -309,7 +309,6 @@
             <education>BA, Ohio State (2009)</education>
             <education>MA, Ohio State (2011)</education>
           </person>
-<<<<<<< .mine
           <person xml:id="VMM">
             <persName>Victoria M. Munoz</persName>
             <birth when="1989">
@@ -321,8 +320,6 @@
             <nationality>U.S.A.</nationality> 
             <note type="biographical">Biographical note about Victoria M. Munoz</note>
           </person>
-          <person xml:id="REC">
-=======
           <person xml:id="CMM">
             <persName> Meza, C. Marie</persName>
             <birth when="1989">
@@ -335,7 +332,6 @@
             <note type="biographical">Biographical note about C. Marie Meza</note>
           </person>
         <person xml:id="REC">
->>>>>>> .r48
             <persName>Conatser, Robert Eugene</persName>
             <birth when="1985">
               <placeName>Tulsa, OK</placeName>
@@ -1934,7 +1930,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="CMM">
+  <TEI xml:id="CMM_JJM2GMS_1909-08-21">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
