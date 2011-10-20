@@ -342,7 +342,18 @@
             <education>PhD, The Ohio State University (expected 2016)</education>
             <occupation>Graduate Student</occupation>
             <nationality>U.S.A</nationality>
-            </person>
+          </person>
+          <person xml:id="RMW">
+            <persName>Waymel, Rachel M.</persName>
+            <birth when="1986">
+              <placeName>Springfield, MI</placeName>
+            </birth>
+            <education>BA, St. Norbert College (2008)</education>
+            <education>MA, Ohio University (2011)</education>
+            <education>PhD, The Ohio State University (expected 2016)</education>
+            <occupation>Graduate Student</occupation>
+            <nationality>U.S.A.</nationality>
+          </person>
         </listPerson>
       </particDesc>
       
@@ -2197,7 +2208,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="RMW">
+  <TEI xml:id="RMW_GMS2AJS_1909-09-24">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
