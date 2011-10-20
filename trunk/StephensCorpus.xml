@@ -1846,7 +1846,7 @@
           <pb facs="/1/10e1050e-1f2b-43c5-b52f-bf55d6cb3c41"/>
           <ab type="postalAddress">
             <address>
-            <persName>Mrs. A. T. Stephens </persName>
+            <persName ref="#MATS">Mrs. A. T. Stephens </persName>
             <addrLine>26 Emerson St. </addrLine>
             <addrLine>Newton </addrLine>
             <addrLine>Mass. </addrLine>
@@ -1887,7 +1887,7 @@
             <lb/>careful for awhile yet. <persName>Gladys</persName> is pleased 
             <lb/>with her little brother and <persName>Willis</persName> is pleased 
             <lb/>with his little son. I have only heard from 
-            <lb/><persName>Gladys Stevens</persName> once. She was then in <placeName>Colorado</placeName>.
+            <lb/><persName ref="#GMS">Gladys Stevens</persName> once. She was then in <placeName>Colorado</placeName>.
             <lb/>I had hoped she would keep me posetd as to 
             <lb/>her travels. I supposed she will be home before 
             <lb/>a great while now with many, many entertaining 
@@ -2418,7 +2418,7 @@
           <pb facs="/0/03089ec3-d8d7-4b39-8e25-9fd16419aecc"/>
           <ab type="postalAddress">
             <address>
-              <persName>Mrs. A. J. Stephens </persName>
+              <persName ref="#MATS">Mrs. A. J. Stephens </persName>
               <addrLine> 26 Emerson street </addrLine>
               <addrLine> Newton </addrLine>
               <addrLine> Massachusetts </addrLine>
@@ -2508,7 +2508,7 @@
           </p>
           <closer>
             <lb/> <salute>Love </salute>
-            <lb/> <signed><persName>Gladys</persName></signed>
+            <lb/> <signed><persName ref="#GMS">Gladys</persName></signed>
             <lb/> <dateline> <date when="1909-10-05"></date>10/5/09 </dateline>
           </closer>
         </div>
