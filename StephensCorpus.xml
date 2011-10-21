@@ -203,12 +203,18 @@
             <title level="m">Boston University Year Book</title>. Ed. The University Council. Series
             4 Vol. 36. Boston, MA: University Offices, 1909. Print.
           </bibl>
-          <bibl xml:id="MEA" n="Marine">"S.S. Northwestern. <title level="m">Marine Exchange of
+          <bibl xml:id="MEA" n="Marine">S.S. Northwestern.<title level="m">Marine Exchange of
             Alaska</title>. N.p., n.d. Web. 24 Sept. 2011.</bibl>
           <bibl xml:id="Burwell" n="Burwell">Burwell, Michael. <title level="a">The SS <name
             type="ship">Northwestern</name>: The Final Return of 'The Ship that Always Came
             Back.</title> <title level="m">Alaska at War, 1941–1945: The Forgotten War
-              Remembered</title>. Ed. Fern Chandonnet. Fairbanks: U of Alaska P, 2008. Print. 219–226.</bibl>         
+            Remembered</title>. Ed. Fern Chandonnet. Fairbanks: U of Alaska P, 2008. Print. 219–226.
+          </bibl>
+         <bibl xml:id="Census1920GSM" n="United States">
+           <title level="a">United States Census, 1920 for Gladys Stephens.</title> <title
+             level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
+           Web. 21 Oct. 2011.
+         </bibl>
         </listBibl>
         
       </sourceDesc>
@@ -235,6 +241,11 @@
           <!-- Lewis Ulman's biographical entries begin here. -->
           <person xml:id="GMS">
             <persName>Stephens, Gladys Mary</persName>
+            <birth>
+              <date when="1892" source="#Census1920GSM">est. 1892</date>
+              <placeName>Massachusetts</placeName>
+            </birth>
+            <residence when="1920" source="#Census1920GSM">Newton, MA</residence>
             <education>A Gladys Mary Stephens from Newton, MA appears in lists of "Special Students"
               in the <title level="m">Boston University Yeark Book</title> for 1907 and 1909, but
               not for 1908. According to the <title level="m">Year Book</title> for 1907, students
@@ -248,7 +259,7 @@
               University.</education>
             <bibl><ref target="#BUYB1907"><title level="m">Year Book</title> 1907:
             43, 55, 158</ref>; <ref target="#BUYB1909"><title level="m">Year Book</title>
-              1909: 44</ref></bibl>
+              1909: 44</ref>; <ref target="#Census1920GSM">United States Census, 1920</ref></bibl>
             <!-- Add definition of special student (52-53). -->
           </person>
           <person xml:id="JJM">
@@ -258,10 +269,20 @@
             <persName>Stephens, Alex C.</persName>
           </person>
           <person xml:id="ATS">
-            <persName>Stephens, A. T.</persName>
+            <persName source="#Census1920GSM">Stephens, Albert T.</persName>
+            <birth>
+              <date when="1856" source="#Census1920GSM">est. 1856</date>
+              <placeName source="#Census1920GSM">Canada</placeName>
+            </birth>
+            <residence when="1920" source="#Census1920GSM">Newton, MA</residence>
           </person>
-          <person xml:id="MATS">
-            <persName>Stephens, Mrs. A. T.</persName>
+          <person xml:id="JMS">
+            <persName source="#Census1920GSM">Stephens, Jennie M. (Mrs. Albert T. Stephens)</persName>
+            <birth>
+              <date when="1862" source="#Census1920GSM">est. 1862</date>
+              <placeName source="#Census1920GSM">Canada</placeName>
+            </birth>
+            <residence when="1920" source="#Census1920GSM">Newton, MA</residence>
           </person>
         </listPerson>
         
