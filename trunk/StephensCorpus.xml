@@ -210,7 +210,7 @@
             <orgName type="owner" when="1869-03-05">North Pacific Steamship Company</orgName>
             <desc>Launched as the John S. Kimball in 1900, later renamed James Dollar and 
             later Santa Clara. Ran aground on 2 November 1909 in Coos Bay, Oregon.</desc>
-            <bibl><ref></ref></bibl> <!-- Add bibliography entries -->
+            <bibl><ref target="#NYT #Koppy"></ref></bibl>
           </item>
         </list>
         
@@ -268,6 +268,14 @@
            <title level="a">United States Census, 1920 for Gladys Stephens.</title> <title
              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
            Web. 21 Oct. 2011.
+         </bibl>
+         <bibl xml:id="NYT" n="NYT1869-03-07">
+           <title level="a">The North Pacific Steamship Company Chartered.</title> <title
+             level="m">New York Times</title>. 07 March 1869. Web. 22 Oct. 2011.
+         </bibl>
+         <bibl xml:id="Koppy" n="Koppy">Koppy, Ann. <title level="a">The Wreck of the 
+           <hi rend="italics">Santa Clara</hi></title>. <title level="m">The Whole Shebang</title>.  
+           The Whole Shebang Mag., n.d. Web. 22 Oct. 2011.
          </bibl>
         </listBibl>
         
