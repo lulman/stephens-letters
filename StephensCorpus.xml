@@ -71,7 +71,8 @@
           <!-- Lewis Ulman's places entries begin here. -->
           <place type="city" xml:id="Seattle" source="#TGN">
             <placeName>Seattle</placeName>
-            <desc>Gladys Stephens attends the 1909 Seattle World's Fair.</desc>
+            <desc>Gladys Stephens attends the 1909 Seattle World's Fair and 
+              John J. Macintyre is in Seattle in early October 1909.</desc>
             <country>United States</country>
             <region type="state">Washington</region>
             <region type="county">King</region>
@@ -131,7 +132,17 @@
             <location>
               <geo>37.0000 -119.0000</geo>
             </location>
-          </place>  
+          </place>
+          <place type="city" xml:id="ElPaso" source="TGN">
+            <placeName>El Paso</placeName>
+            <desc>Gladys lives in El Paso.</desc>
+            <country>U.S.A.</country>
+            <region type="state">Texas</region>
+            <region type="county">El Paso</region>
+            <location>
+              <geo>31.7500 -106.4833</geo>
+            </location>
+          </place>
         </listPlace>
         
         <list type="gloss">
@@ -3236,17 +3247,17 @@
       </body> 
     </text>
   </TEI>
-  <TEI xml:id="REC_JJM">
+  <TEI xml:id="REC_JJM2GMS_1909-10-04">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>Title</title>
+          <title>John J. Macintyre to Gladys M. Stephens, 04 October 1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#GS19090706let01">
+          <msDesc corresp="#JJM19091004let01">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
