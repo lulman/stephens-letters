@@ -89,7 +89,7 @@
               <geo>47.8333 -122.4333</geo>
             </location>
           </place>
-          <place type="narrows" xml:id="Seymour" source="#BCGN">
+          <place type="narrows" xml:id="Seymour" source="#GBC">
             <geogName>Seymour Narrows</geogName>
             <desc>In his letter of 04 Oct. 1909, John J. Macintyre explains that he was delayed 
             in Seymour Narrows due to missing the tide.</desc>
@@ -286,6 +286,9 @@
          <bibl xml:id="Koppy" n="Koppy">Koppy, Ann. <title level="a">The Wreck of the 
            <hi rend="italics">Santa Clara</hi></title>. <title level="m">The Whole Shebang</title>.  
            The Whole Shebang Mag., n.d. Web. 22 Oct. 2011.
+         </bibl>
+         <bibl xml:id="GBC" n="GBC">
+           <title level="m">GeoBC</title>. British Columbia, n.d. Web. 22 Oct. 2011.
          </bibl>
         </listBibl>
         
