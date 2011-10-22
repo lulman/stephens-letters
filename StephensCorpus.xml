@@ -136,7 +136,7 @@
           <place type="city" xml:id="ElPaso" source="TGN">
             <placeName>El Paso</placeName>
             <desc>Gladys lives in El Paso.</desc>
-            <country>U.S.A.</country>
+            <country>USA</country>
             <region type="state">Texas</region>
             <region type="county">El Paso</region>
             <location>
@@ -146,7 +146,7 @@
           <place type="city" xml:id="Klawock" source="TGN">
             <placeName>Klawock</placeName>
             <desc>John J. Macintyre picks up a cannery crew in Klawock.</desc>
-            <country>U.S.A.</country>
+            <country>USA</country>
             <region type="state">Alaska</region>
             <region type="county">Prince of Wales-Outer Ketchikan</region>
             <location>
@@ -157,7 +157,7 @@
             <placeName>Ketchikan</placeName>
             <desc>John J. Macintyre stops briefly in Ketchikan and spends some 
               time with <persName ref="#IP">Irene Palmer</persName>.</desc>
-            <country>U.S.A.</country>
+            <country>USA</country>
             <region type="state">Alaska</region>
             <region type="county">Ketchikan Gateway</region>
             <location>
@@ -168,7 +168,7 @@
             <placeName>Georgetown</placeName>
             <desc>John J. Macintyre recounts an accident involving an 
             automobile coming from Georgetown.</desc>
-            <country>U.S.A.</country>
+            <country>USA</country>
             <region type="state">Washington</region>
             <region type="county">King</region>
             <region type="city">Seattle</region>
