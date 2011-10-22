@@ -153,6 +153,17 @@
               <geo>55.5500 -133.0833</geo>
             </location>
           </place>
+          <place type="city" xml:id="Ketchikan" source="TGN">
+            <placeName>Ketchikan</placeName>
+            <desc>John J. Macintyre stops briefly in Ketchikan and spends some 
+              time with <persName ref="#IP">Irene Palmer</persName>.</desc>
+            <country>U.S.A.</country>
+            <region type="state">Alaska</region>
+            <region type="county">Ketchikan Gateway</region>
+            <location>
+              <geo>55.3333 -131.6333</geo>
+            </location>
+          </place>
         </listPlace>
         
         <list type="gloss">
