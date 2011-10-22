@@ -89,7 +89,17 @@
               <geo>47.8333 -122.4333</geo>
             </location>
           </place>
-          <place type="city" xml:id="Boston" source="TGN">
+          <place type="narrows" xml:id="Seymour" source="#BCGN">
+            <geogName>Seymour Narrows</geogName>
+            <desc>In his letter of 04 Oct. 1909, John J. Macintyre explains that he was delayed 
+            in Seymour Narrows due to missing the tide.</desc>
+            <country>Canada</country>
+            <region type="province">British Columbia</region>
+            <location>
+              <geo>50.1500 -125.3500</geo>
+            </location>
+          </place>
+          <place type="city" xml:id="Boston" source="#TGN">
             <placeName>Boston</placeName>
             <desc>Gladys Stephens mentions a correspondence occurring in Boston</desc>
             <country>United States</country>
@@ -98,7 +108,7 @@
               <geo>42.3500 --71.0500</geo>
             </location>
           </place>
-          <place type="nation" xml:id="Mexico" source="TGN">
+          <place type="nation" xml:id="Mexico" source="#TGN">
             <placeName>Mexico</placeName>
             <desc>Gladys Stephens reminisces about her time in Mexico</desc>
             <country>Mexico</country>
@@ -106,7 +116,7 @@
               <geo>23.0000 -102.0000</geo>
             </location>
           </place>
-          <place type="city" xml:id="Portland" source="TGN">
+          <place type="city" xml:id="Portland" source="#TGN">
             <placeName>Portland</placeName>
             <desc>Gladys Stephens mentions as a site of a known house</desc>
             <country>United States</country>
@@ -115,7 +125,7 @@
               <geo>43.6500 -70.2500</geo>
             </location>
           </place>
-          <place type="city" xml:id="Maine" source="TGN">
+          <place type="city" xml:id="Maine" source="#TGN">
             <placeName>Maine</placeName>
             <desc>Gladys Stephens notes an acquaintance residing in Maine</desc>
             <country>United States</country>
@@ -124,7 +134,7 @@
               <geo>45.0000 -69.0000</geo>
             </location>
           </place>
-          <place type="state" xml:id="California" source="TGN">
+          <place type="state" xml:id="California" source="#TGN">
             <placeName>California</placeName>
             <desc>Gladys has visited California recently</desc>
             <country>United State</country>
@@ -133,7 +143,7 @@
               <geo>37.0000 -119.0000</geo>
             </location>
           </place>
-          <place type="city" xml:id="ElPaso" source="TGN">
+          <place type="city" xml:id="ElPaso" source="#TGN">
             <placeName>El Paso</placeName>
             <desc>Gladys lives in El Paso.</desc>
             <country>USA</country>
@@ -143,7 +153,7 @@
               <geo>31.7500 -106.4833</geo>
             </location>
           </place>
-          <place type="city" xml:id="Klawock" source="TGN">
+          <place type="city" xml:id="Klawock" source="#TGN">
             <placeName>Klawock</placeName>
             <desc>John J. Macintyre picks up a cannery crew in Klawock.</desc>
             <country>USA</country>
@@ -153,7 +163,7 @@
               <geo>55.5500 -133.0833</geo>
             </location>
           </place>
-          <place type="city" xml:id="Ketchikan" source="TGN">
+          <place type="city" xml:id="Ketchikan" source="#TGN">
             <placeName>Ketchikan</placeName>
             <desc>John J. Macintyre stops briefly in Ketchikan and spends some 
               time with <persName ref="#IP">Irene Palmer</persName>.</desc>
@@ -164,7 +174,7 @@
               <geo>55.3333 -131.6333</geo>
             </location>
           </place>
-          <place type="neighborhood" xml:id="Georgetown" source="TGN">
+          <place type="neighborhood" xml:id="Georgetown" source="#TGN">
             <placeName>Georgetown</placeName>
             <desc>John J. Macintyre recounts an accident involving an 
             automobile coming from Georgetown.</desc>
@@ -173,7 +183,7 @@
             <region type="county">King</region>
             <region type="city">Seattle</region>
             <location>
-              <geo></geo>
+              <geo><!-- TGN does not provide latitude and longitude for this --></geo>
             </location>
           </place>
         </listPlace>
@@ -3430,8 +3440,9 @@
             <choice><sic>fink</sic><corr>think</corr></choice><unclear cert="medium">!</unclear> 
             That's bad for I cannot get my mail 
             <lb/><choice><sic>untill</sic><corr>until</corr></choice>tomorrow, we 
-            <del rend="overwritten">b</del>missed the tide in <geogName ref="#Seymor">Seymor 
-            <lb/>narrows</geogName> and had to Anchor for 4 hours and that's 
+            <del rend="overwritten">b</del>missed the tide in <geogName ref="#Seymour"><choice><sic>
+              Seymor</sic><corr>Seymour</corr></choice> 
+            <lb/><geogFeat>narrows</geogFeat></geogName> and had to Anchor for 4 hours and that's 
             <lb/>the reason why. I <hi rend="underlined">do</hi> hope I will have a letter 
             <lb/>from <placeName ref="#ElPaso">El Paso</placeName> Saying you got there all O.K. but 
             <lb/>I am afraid I will <choice><sic>hafto</sic><corr>have to</corr></choice> wait another day 
