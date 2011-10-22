@@ -186,6 +186,45 @@
               <geo><!-- TGN does not provide latitude and longitude for this --></geo>
             </location>
           </place>
+          <place type="city" xml:id="Newton" source="#TGN">
+            <placeName>Newton</placeName>
+            <desc>Mrs. A.J. Stephens lives in Newton.</desc>
+            <country>USA</country>
+            <region type="state">Massachusetts</region>
+            <region type="county">Middlesex</region>
+            <location>
+              <geo>42.3333 -71.2000</geo>
+            </location>
+          </place>
+          <place type="city" xml:id="Sherborn" source="#TGN">
+            <placeName>Sherborn</placeName>
+            <desc>Cora L. Anderson writes to Mrs. A.J. Stephens from Sherborn.</desc>
+            <country>USA</country>
+            <region type="state">Massachusetts</region>
+            <region type="county">Middlesex</region>
+            <location>
+              <geo>42.2333 -71.3667</geo>
+            </location>
+          </place>
+          <place type="state" xml:id="Colorado" source="#TGN">
+            <placeName>Colorado</placeName>
+            <desc>Cora mentions that Gladys sent her a letter from Colorado</desc>
+            <country>United State</country>
+            <region type="state">Colorado</region>
+            <location>
+              <geo>39.0000 -105.0000</geo>
+            </location>
+          </place>
+          <place type="city" xml:id="SanDiego" source="#TGN">
+            <placeName>San Diego</placeName>
+            <desc>Gladys sends her mother a picture taken in San Diego.</desc>
+            <country>USA</country>
+            <region type="state">California</region>
+            <region type="county">San Diego</region>
+            <location>
+              <geo>32.7000 -117.1500</geo>
+            </location>
+          </place>
         </listPlace>
         
         <list type="gloss">
@@ -1971,7 +2010,7 @@
             </address>
           </ab>
           <ab>
-            <stamp type="postmark"> SHERBORN, MASS. / AUG 20 / A. M / 1909 </stamp>
+            <stamp type="postmark"> <placeName ref="#Sherborn">SHERBORN, MASS.</placeName> / <date when="1909-08-20"></date>AUG 20 / A. M / 1909 </stamp>
           </ab>
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
@@ -1981,7 +2020,7 @@
         </div>
         <div type="letter" xml:id="CLA19090820let01" corresp="#CLA19090821env01">
           <pb facs="/8/808bb4bd-8140-4897-b707-cc3af5930e28"/>
-          <opener> <dateline> <address> <addrLine> <placeName>Sherborn, Mass.</placeName> </addrLine></address></dateline>
+          <opener> <dateline> <address> <addrLine> <placeName ref="#Sherborn">Sherborn, Mass.</placeName> </addrLine></address></dateline>
             <lb/> <salute><rs ref="#MATS">My dear Aunt:</rs></salute>
           </opener>
           <p><lb/>Please <choice><sic>dont</sic><corr>don't</corr></choice>
@@ -2005,7 +2044,7 @@
             <lb/>careful for awhile yet. <persName>Gladys</persName> is pleased 
             <lb/>with her little brother and <persName>Willis</persName> is pleased 
             <lb/>with his little son. I have only heard from 
-            <lb/><persName ref="#GMS">Gladys Stevens</persName> once. She was then in <placeName>Colorado</placeName>.
+            <lb/><persName ref="#GMS">Gladys Stevens</persName> once. She was then in <placeName ref="#Colorado">Colorado</placeName>.
             <lb/>I had hoped she would keep me posetd as to 
             <lb/>her travels. I supposed she will be home before 
             <lb/>a great while now with many, many entertaining 
@@ -2020,7 +2059,7 @@
           <closer>
             <lb/><salute>Your affectionate niece </salute>
             <signed><persName>Cora L. Anderson</persName>. </signed>
-            <dateline> <date>1909-08-19</date><hi rend="underlined">Aug. 19th. '09.</hi></dateline>
+            <dateline><date when="1909-08-19"><hi rend="underlined">Aug. 19th. '09.</hi></date></dateline>
           </closer>
         </div>
       </body>
@@ -2538,12 +2577,12 @@
             <address>
               <persName ref="#MATS">Mrs. A. J. Stephens </persName>
               <addrLine> 26 Emerson street </addrLine>
-              <addrLine> Newton </addrLine>
+              <addrLine> <placeName ref="#Newton">Newton </placeName></addrLine>
               <addrLine> Massachusetts </addrLine>
             </address>
           </ab>
           <ab>
-            <stamp type="postmark"> El PASO, TEXAS. / OCT 6 / 4 - PM / 1909 </stamp>
+            <stamp type="postmark"> <placeName ref="#ElPaso">El PASO, TEXAS.</placeName> / <date when="1909-10-06">OCT 6</date> / 4 - PM / 1909 </stamp>
             <stamp type="cancellation"> <!-- wavy lines --> </stamp>
           </ab>
           <figure rend="link">
@@ -2570,7 +2609,7 @@
           </p>
           <p> <lb/>It is as warm 
             <lb/>today as a July 
-            <lb/>day <placeName>at home</placeName>. It 
+            <lb/>day <placeName ref="#Newton">at home</placeName>. It 
             <lb/>will be cool this 
             <pb facs="/a/abcb7505-b573-47fe-9f87-9d457cda0c26"/>evening however. 
           </p>
@@ -2591,7 +2630,7 @@
             <lb/>of the pictures. 
             <pb facs="/0/07e40899-fe32-422f-9c09-8b59fc634787"/> 
             <lb/>They were taken 
-            <lb/>in <placeName>San Diego </placeName>
+            <lb/>in <placeName ref="#SanDiego">San Diego </placeName>
             <lb/>and that dress 
             <lb/>was all I could 
             <lb/>wear. There was 
