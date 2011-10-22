@@ -164,6 +164,18 @@
               <geo>55.3333 -131.6333</geo>
             </location>
           </place>
+          <place type="neighborhood" xml:id="Georgetown" source="TGN">
+            <placeName>Georgetown</placeName>
+            <desc>John J. Macintyre recounts an accident involving an 
+            automobile coming from Georgetown.</desc>
+            <country>U.S.A.</country>
+            <region type="state">Washington</region>
+            <region type="county">King</region>
+            <region type="city">Seattle</region>
+            <location>
+              <geo></geo>
+            </location>
+          </place>
         </listPlace>
         
         <list type="gloss">
