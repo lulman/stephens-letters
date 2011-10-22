@@ -143,6 +143,16 @@
               <geo>31.7500 -106.4833</geo>
             </location>
           </place>
+          <place type="city" xml:id="Klawock" source="TGN">
+            <placeName>Klawock</placeName>
+            <desc>John J. Macintyre picks up a cannery crew in Klawock.</desc>
+            <country>U.S.A.</country>
+            <region type="state">Alaska</region>
+            <region type="county">Prince of Wales-Outer Ketchikan</region>
+            <location>
+              <geo>55.5500 -133.0833</geo>
+            </location>
+          </place>
         </listPlace>
         
         <list type="gloss">
