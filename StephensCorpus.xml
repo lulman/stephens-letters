@@ -188,7 +188,7 @@
           </place>
           <place type="city" xml:id="Newton" source="#TGN">
             <placeName>Newton</placeName>
-            <desc>Mrs. A.J. Stephens lives in Newton.</desc>
+            <desc>Mrs. A. T. Stephens lives in Newton.</desc>
             <country>USA</country>
             <region type="state">Massachusetts</region>
             <region type="county">Middlesex</region>
@@ -397,6 +397,9 @@
               <placeName source="#Census1920GSM">Canada</placeName>
             </birth>
             <residence when="1920" source="#Census1920GSM">Newton, MA</residence>
+          </person>
+          <person xml:id="CLA">
+            <persName>Anderson, Cora L.</persName>
           </person>
         </listPerson>
         
@@ -2058,7 +2061,7 @@
           </p>
           <closer>
             <lb/><salute>Your affectionate niece </salute>
-            <signed><persName>Cora L. Anderson</persName>. </signed>
+            <signed><persName ref="#CLA">Cora L. Anderson</persName>. </signed>
             <dateline><date when="1909-08-19"><hi rend="underlined">Aug. 19th. '09.</hi></date></dateline>
           </closer>
         </div>
