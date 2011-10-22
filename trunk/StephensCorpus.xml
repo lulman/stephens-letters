@@ -202,6 +202,16 @@
             <desc>Name changed from Orizaba to Northwestern 7 August 1906. </desc>
             <bibl><ref target="#MEA #Burwell"/></bibl>
           </item>
+          <item xml:id="SantaClara">
+            <name type="passenger" subtype="steamer">S. S. Santa Clara</name>
+            <country>USA</country>
+            <date type="launched" when="1900"/>
+            <date type="destroyed" when="1915-11-02"/>
+            <orgName type="owner" when="1869-03-05">North Pacific Steamship Company</orgName>
+            <desc>Launched as the John S. Kimball in 1900, later renamed James Dollar and 
+            later Santa Clara. Ran aground on 2 November 1909 in Coos Bay, Oregon.</desc>
+            <bibl><ref></ref></bibl> <!-- Add bibliography entries -->
+          </item>
         </list>
         
         <listOrg>
