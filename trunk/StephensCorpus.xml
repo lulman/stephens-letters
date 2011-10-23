@@ -2434,12 +2434,12 @@
             <lb/><salute><persName ref="#MATS">Mother</persName>dear,</salute>
           </opener>
           <p>
-            <lb/>Adelaide is getting some lovely
+            <lb/><persName>Adelaide</persName> is getting some lovely
             <lb/>things to be married in. She is having
             <lb/>a pale blue broadcloth dress made. She
             <lb/>has a handsome brown suit. Things are 
             <lb/>getting quite interesting I can tell
-            <lb/>you. Just between you and I "the man"
+            <lb/>you. Just between you and I "the <rs>man</rs>"
             <lb/>has one bad feature. He takes a cocktail
             <lb/>now and then. No one here seems to
             <lb/>mind it. And of course I have said
@@ -2449,7 +2449,7 @@
             <lb/>vicinity of $50 a week. Well all's
             <lb/>well that end's well. $50 a week
             <lb/>and all I would not marry him.
-            <lb/>Of course he belongs to the club here and
+            <lb/>Of course he belongs to the <rs>club</rs> here and
             <lb/>the club's favorite drink is cocktail. I've 
             <lb/>noticed the odor about everytime I've 
             <lb/>seen him.
@@ -2458,14 +2458,14 @@
             <lb/>I have found out some startling
             <pb/>
             <lb/>information today. I went to the
-            <lb/>hairdressers to have a shampoo.
+            <lb/><rs>hairdressers</rs> to have a shampoo.
             <lb/>On account of the amount of alkali
             <lb/>in the water people can not wash
-            <lb/>their hair with it themselves. Adelaide
+            <lb/>their hair with it themselves. <persName>Adelaide</persName>
             <lb/>and I made arrangements to go together
             <lb/>this morning. What do you suppose
             <lb/>the woman found--bugs in
-            <lb/>my head! I got them in Mexico.
+            <lb/>my head! I got them in <placeName ref="#Mexico">Mexico</placeName>.
             <lb/>They all told me I'd be apt
             <lb/>to get them. I thought I'd escaped
             <lb/>however. Now what do you think
@@ -2482,18 +2482,18 @@
             <lb/>of it all soon.
           </p>
           <p>
-            <lb/>Uncle says I must stay to
-            <lb/>see the Presidents meet and then I
+            <lb/><rs>Uncle</rs> says I must stay to
+            <lb/>see the <rs>Presidents</rs> meet and then I
             <lb/>can go home immediately after
             <pb/>
-            <lb/>that. He says Dias is so old (79) that
+            <lb/>that. He says <persName>Dias</persName> is so old (79) that
             <lb/>I probably will never get another
             <lb/>chance to see anything of the kind
-            <lb/>again. A revolution in Mexico is 
-            <lb/>imminent if Dias dies. The Vice
+            <lb/>again. A revolution in <placeName ref="#Mexico">Mexico</placeName> is 
+            <lb/>imminent if <persName>Dias</persName> dies. The Vice
             <lb/>Pres. Reyes wants to be Pres. and 
-            <lb/>the people hate him terribly. They
-            <lb/>have to have Rurales every where to
+            <lb/><rs>the people</rs> hate him terribly. They
+            <lb/>have to have <rs>Rurales</rs> every where to
             <lb/>keep them quiet now even. He
             <lb/>simply will not hear of my going
             <lb/>before they meet. He said that he
@@ -2501,7 +2501,7 @@
             <lb/>I explained the situation to you. I
             <lb/>shall have every thing ready to go as
             <lb/>soon as I can leave after it's over.
-            <lb/>The old citizens are going to have a
+            <lb/>The <rs>old citizens</rs> are going to have a
             <lb/>big time and he wants me to be
             <lb/>with him. Lots better today. Slept 12 hrs.
           </p>
