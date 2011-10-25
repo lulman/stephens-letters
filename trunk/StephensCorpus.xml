@@ -198,7 +198,7 @@
           </place>
           <place type="city" xml:id="Sherborn" source="#TGN">
             <placeName>Sherborn</placeName>
-            <desc>Cora L. Anderson writes to Mrs. A.J. Stephens from Sherborn.</desc>
+            <desc>Cora L. Anderson writes to Mrs. A.T. Stephens from Sherborn.</desc>
             <country>USA</country>
             <region type="state">Massachusetts</region>
             <region type="county">Middlesex</region>
@@ -1956,7 +1956,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="MAW_CLA2ATS_1909-08-19">
+  <TEI xml:id="MAW_CLA2MATS_1909-08-19">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -2061,7 +2061,7 @@
             <lb/>with her little brother and <persName>Willis</persName> is pleased 
             <lb/>with his little son. I have only heard from 
             <lb/><persName ref="#GMS">Gladys Stevens</persName> once. She was then in <placeName ref="#Colorado">Colorado</placeName>.
-            <lb/>I had hoped she would keep me posetd as to 
+            <lb/>I had hoped she would keep me posted as to 
             <lb/>her travels. I supposed she will be home before 
             <lb/>a great while now with many, many entertaining 
             <lb/>things to tell you. I have thought of her very 
@@ -2528,7 +2528,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="MAW_GMS2ATS_1909-10-05">
+  <TEI xml:id="MAW_GMS2MATS_1909-10-05">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -2612,7 +2612,7 @@
         <div type="letter" xml:id="GS19091005let01" corresp="#GS19091006env01">
           <pb facs="/e/e040faea-be8c-4fb6-bcc3-eb4132850b07"/>
           <opener>
-            <dateline> <address> <addrLine>609 N. El Paso St. </addrLine> </address> </dateline> 
+            <lb/><dateline> <address><addrLine>609 N. El Paso St.</addrLine> </address> </dateline> 
             <lb/><salute><rs ref="#MATS">Mother dear, </rs></salute>
           </opener>
           <p> <lb/>Have just  
@@ -2627,7 +2627,8 @@
             <lb/>today as a July 
             <lb/>day <placeName ref="#Newton">at home</placeName>. It 
             <lb/>will be cool this 
-            <pb facs="/a/abcb7505-b573-47fe-9f87-9d457cda0c26"/>evening however. 
+            <pb facs="/a/abcb7505-b573-47fe-9f87-9d457cda0c26"/>
+            <lb/>evening however. 
           </p>
           <p> <lb/>I am as well as 
             <lb/>ever. </p>
