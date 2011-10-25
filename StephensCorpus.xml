@@ -433,9 +433,9 @@
             <persName>McIntyre, James J.</persName>
           </person>
           <person xml:id="ACS">
-            <persName>Stephens, Alex C.<desc>In the letter dated August 8, 1909, Gladys 
+            <persName>Stephens, Alex C.In the letter dated August 8, 1909, Gladys 
             mentions her "Uncle Alex" a number of times.  It is apparent that he is facilitating
-            social connections for her in Texas, prior to her arrival, so we can assume he lives in El Paso.</desc></persName>
+            social connections for her in Texas, prior to her arrival, so we can assume he lives in El Paso.</persName>
           </person>
           <person xml:id="ATS">
             <persName source="#Census1920GSM">Stephens, Albert T.</persName>
@@ -1535,7 +1535,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="ACO">
+  <TEI xml:id="ACO1">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
