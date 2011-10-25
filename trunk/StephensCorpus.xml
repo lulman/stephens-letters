@@ -490,9 +490,10 @@
             <persName>McIntyre, James J.</persName>
           </person>
           <person xml:id="ACS">
-            <persName>Stephens, Alex C.In the letter dated August 8, 1909, Gladys 
-            mentions her "Uncle Alex" a number of times.  It is apparent that he is facilitating
-            social connections for her in Texas, prior to her arrival, so we can assume he lives in El Paso.</persName>
+            <persName>Stephens, Alex C.</persName>
+            <note type="biographical">In the letter dated August 8, 1909, Gladys 
+              mentions her "Uncle Alex" a number of times.  It is apparent that he is facilitating
+              social connections for her in Texas, prior to her arrival, so we can assume he lives in El Paso.</note>
           </person>
           <person xml:id="ATS">
             <persName source="#Census1920GSM">Stephens, Albert T.</persName>
