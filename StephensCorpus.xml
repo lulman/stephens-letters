@@ -928,7 +928,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="JLM1">
+  <TEI xml:id="JLM1_GMS2AJS_1909_07_10">
     <!-- First, we provide descriptive information about this particular letter and any 
       accompanying materials (e.g., an envelope or enclosure) in this teiHeader element 
       for the letter. -->
@@ -1158,7 +1158,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="JLM2">
+  <TEI xml:id="JLM2_GMS2MATS_1909_07_14">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
