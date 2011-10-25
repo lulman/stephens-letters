@@ -89,17 +89,22 @@
               <geo>47.8333 -122.4333</geo>
             </location>
           </place>
-          <place type="narrows" xml:id="Seymour" source="#GBC">
-            <geogName>Seymour Narrows</geogName>
-            <desc>In his letter of 04 Oct. 1909, John J. Macintyre explains that he was delayed 
-            in Seymour Narrows due to missing the tide.</desc>
-            <country>Canada</country>
-            <region type="province">British Columbia</region>
-            <location>
-              <geo>50.1500 -125.3500</geo>
-            </location>
+          <place type="country"><geogName>Mexico</geogName>
+            <desc>In her letter dated August 8, 1909, Gladys is planning a visit to Mexico.</desc>
           </place>
-          <place type="city" xml:id="Boston" source="#TGN">
+          <place type="hotel"><placeName>Hotel Georgian</placeName><location><address><addrLine>1420 4th Ave
+          </addrLine>
+          <addrLine>Seattle, WA</addrLine>
+          </address>
+          </location>
+            <desc>The Hotel Georgian was built in 1908 and had seven floors and 108 rooms.
+            It was demolished in 1971.</desc>
+            <desc>Gladys stayed at the Hotel Georgian during her visit to Seattle in August of 1909.  It 
+            seems that she made repeated visits to the Georgian both before and after her excursion to
+            Alaska. </desc>
+          </place>
+          
+          <place type="city" xml:id="Boston" source="TGN">
             <placeName>Boston</placeName>
             <desc>Gladys Stephens mentions a correspondence occurring in Boston</desc>
             <country>United States</country>
@@ -108,6 +113,7 @@
               <geo>42.3500 --71.0500</geo>
             </location>
           </place>
+          
           <place type="nation" xml:id="Mexico" source="#TGN">
             <placeName>Mexico</placeName>
             <desc>Gladys Stephens reminisces about her time in Mexico</desc>
@@ -427,7 +433,9 @@
             <persName>McIntyre, James J.</persName>
           </person>
           <person xml:id="ACS">
-            <persName>Stephens, Alex C.</persName>
+            <persName>Stephens, Alex C.<desc>In the letter dated August 8, 1909, Gladys 
+            mentions her "Uncle Alex" a number of times.  It is apparent that he is facilitating
+            social connections for her in Texas, prior to her arrival, so we can assume he lives in El Paso.</desc></persName>
           </person>
           <person xml:id="ATS">
             <persName source="#Census1920GSM">Stephens, Albert T.</persName>
@@ -445,6 +453,10 @@
             </birth>
             <residence when="1920" source="#Census1920GSM">Newton, MA</residence>
           </person>
+          <person><persName>Adelaide</persName>
+          </person>
+          <person><persName>Will Ward</persName></person>
+          <person><persName>Berenice</persName></person>
           <person xml:id="CLA">
             <persName>Anderson, Cora L.</persName>
           </person>
@@ -466,8 +478,17 @@
             <occupation>College Professor</occupation>
             <nationality>U.S.A.</nationality> 
             <note type="biographical">Biographical note about H. Lewis Ulman</note>
-            </person>
-            <person xml:id="MAW">
+          </person>
+          <person xml:id="ACO">
+            <persName>Owens, Ashley Cole</persName>
+            <birth when="1984">
+              <placeName>Henderson, KY</placeName>   
+            </birth>
+            <education>BA, Vanderbilt University (2007)</education>
+            <education>MA, Ohio State University (2010)</education>
+            <education>PhD, Ohio State University (expected 2014)</education>
+          </person>
+          <person xml:id="MAW">
               <persName>Wolfe, Marion Aikens</persName>
               <birth when="1982">
                 <placeName>Pittsburgh, PA</placeName>
@@ -496,7 +517,7 @@
             </birth>
             <education>BA, Ohio State (2009)</education>
             <education>MA, Ohio State (2011)</education>
-          </person>
+        </person>
           <person xml:id="VMM">
             <persName>Victoria M. Munoz</persName>
             <birth when="1989">
