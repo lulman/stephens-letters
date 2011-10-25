@@ -225,6 +225,17 @@
               <geo>32.7000 -117.1500</geo>
             </location>
           </place>
+          <place type="city" xml:id="SanFrancisco" source="#TGN">
+            <placeName>San Francisco</placeName>
+            <desc>John J. Macintyre addresses his 8-13-1909 letter to Gladys Stephens in San Francisco, 
+              and the letter mentions it as the next location on her trip.</desc>
+            <country>United States</country>
+            <region type="state">California</region>
+            <region type="county">San Francisco</region>
+            <location>
+              <geo>37.7667 -122.4167</geo>
+            </location>
+          </place>
         </listPlace>
         
         <list type="gloss">
@@ -400,6 +411,9 @@
           </person>
           <person xml:id="CLA">
             <persName>Anderson, Cora L.</persName>
+          </person>
+          <person xml:id="MrH">
+            <persName>Mr. Holland</persName>
           </person>
         </listPerson>
         
@@ -1692,7 +1706,7 @@
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>J.J. McIntyre to Gladys M. Stevens 8-13-1909</title>
+          <title>J.J. McIntyre to Gladys M. Stevens, 8-13-1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
@@ -1752,7 +1766,7 @@
             "/>
           <ab type="postalAddress">
             <address>
-              <addrLine>Miss. Gladys. M. Stephens.</addrLine>
+              <addrLine>Miss. <persName>Gladys. M. Stephens</persName>.</addrLine>
               <delSpan rend="strikethrough" hand="#Unknown"/>
               <addrLine>San Francisco</addrLine>
               <addrLine>California</addrLine>
@@ -1778,7 +1792,7 @@
           <pb facs="/e/e342cb79-e993-4f0c-8714-5851dda7b007
             "/>
           <opener>
-            <salute>My Dear little girl</salute>
+            <salute>My Dear <persName ref="#GMS"><addName type="endearment">little girl</addName></persName></salute>
           </opener>
           <p>
             <lb/>It was with pleasure that 
@@ -1786,7 +1800,7 @@
             <lb/>this P.M. but Sorry that 
             <lb/>you did not enjoy your trip 
             <lb/>And got Such a disagreable place 
-            <lb/>to Stop <seg type="obliqueText" rendition="#ot1">and</seg> I don't like <persName>Mr 
+            <lb/>to Stop <seg type="obliqueText" rendition="#ot1">and</seg> I don't like <persName ref="#MrH">Mr 
               <lb/>Holland</persName> a bit for taking you 
             <lb/>there <seg type="obliqueText" rendition="#ot1">and</seg> if your feelings at 
             <lb/>the Depot was any thing like 
@@ -1801,7 +1815,7 @@
             <lb/>the promise that I wished from 
             <!-- the question mark seems to be the only punctuation that JJM uses, but does it always mark a question? -->
             <lb/>you but Asked in last letter?
-            <lb/>And when <persName>Mr Holland</persName> asked you 
+            <lb/>And when <persName ref="#MrH">Mr Holland</persName> asked you 
             <lb/>if they was any tears <q><unclear cert="low">shed</unclear></q>
             <lb/><seg type="obliqueText" rendition="#ot1">And</seg> <choice><sic>allways</sic><corr>always</corr></choice> remember honey I 
             <lb/>have two <choice><sic>Sholders</sic><corr>shoulders</corr></choice> a right + also <add place="above">a</add> left 
@@ -1812,7 +1826,7 @@
           </p>
           <p>
             <lb/>I dare not express my feelings
-            <lb/>in regards to the place where <persName>Holland</persName> 
+            <lb/>in regards to the place where <persName ref="#MrH">Holland</persName> 
             <lb/>recommended but honey I said
             <pb facs="/6/657652de-d6f1-45e8-8d8d-922be44d93c5
               "/>
@@ -1826,8 +1840,7 @@
             <lb/>but dear I can never wait 2 years
             <lb/>before I see you I simply cant
             <lb/>It <choice><sic>Seams</sic><corr>seems</corr></choice> almost a year now
-            <!-- the Santa Clara is another ship I'll have to research -->
-            <lb/>And the good old Santa Clara She
+            <lb/>And the good old <placeName ref="#SantaClara">Santa Clara</placeName> She
             <lb/>or <q>he</q> (as it is a <choice><sic>mail</sic><corr>male</corr></choice> boat) is a friend
             <lb/>of mine And I may Soon be back 
             <lb/>again the Chief was down to See me
@@ -1835,17 +1848,17 @@
             <lb/>to make this trip So I Saw the <unclear cert="low">Ships</unclear>
             <!-- While trying to research the second of the two unclear words, I came across "aluguel," which is a Spanish word that has something to do with ship repairs -->
             <lb/><unclear cert="low">aluguel</unclear>to day and he transferred me to 
-            <lb/>the North Western <del rend="overstrike">She</del> he Sails
+            <lb/>the <placeName ref="#Northwestern">North Western</placeName> <del rend="overstrike">She</del> he Sails
             <pb facs="/f/fe83c5c8-21a3-4819-9cfc-5f5cae2bca37
               "/>
             <lb/><date>Monday #16</date> And he Said If he got
-            <lb/>Any <del rend="overstrike">more</del> news from Santa Clara
+            <lb/>Any <del rend="overstrike">more</del> news from <placeName ref="#SantaClara">Santa Clara</placeName>
             <lb/>he would hold me over untill <del rend="overstrike">She</del> he
             <lb/>Sails and that means <unclear>$</unclear>1200 per year
             <lb/>+ expenses I didn't mind before
           </p>
           <p>
-            <lb/>But now -- <persName>Neddie</persName>
+            <lb/>But now -- <persName ref="#GMS">Neddie</persName>
             <lb/>I have not <choice><sic>bin</sic><corr>been</corr></choice> over to See my mother
             <!-- is monoux another boat or a reference to Sir George Monoux College in London? -->
             <lb/>Since you left for the <unclear cert="medium">monoux</unclear> She
@@ -1889,9 +1902,9 @@
             <lb/>to Drink It will be a bitter <unclear cert="medium">dissaperiture</unclear>
             <lb/>that will ever Start me again it <unclear cert="low">fully</unclear>
             <lb/>makes me Shudder to think of you being
-            <lb/>Any where near that Class in <placeName>portland</placeName>
+            <lb/>Any where near that Class in <placeName ref="#Portland">portland</placeName>
             <lb/>And I hope you will have a better
-            <lb/>time in <placeName>San francisco</placeName>!          </p>
+            <lb/>time in <placeName ref="#SanFrancisco">San francisco</placeName>!          </p>
           <p>
             <lb/>if we only had had a little time to
             <lb/>ourSelves the night before on the
@@ -1912,10 +1925,10 @@
             <lb/>know which one.
           </p>
           <p>
-            <lb/>well <persName>neddy</persName> the lights will be
+            <lb/>well <persName ref="#GMS">neddy</persName> the lights will be
             <lb/>agoing out Soon as it is nearing 10 P.M.
             <lb/>give my very best regards to <persName>uncle E</persName>
-            <lb/>And Some to <persName>Mr Holland</persName> and remember
+            <lb/>And Some to <persName ref="#MrH">Mr Holland</persName> and remember
             <lb/>I am anxiously awaiting a reply
             <pb facs="/7/7c5f0e65-7f34-49d5-859c-9d7f67dfa7e6
               "/>
