@@ -236,6 +236,42 @@
               <geo>37.7667 -122.4167</geo>
             </location>
           </place>
+          <place type="city" xml:id="LosAngeles" source="#TGN">
+            <placeName>Los Angeles</placeName>
+            <desc>Gladys spends some time in Los Angeles before leaving to El Paso.</desc>
+            <country>United States</country>
+            <region type="state">California</region>
+            <location>
+              <geo>34.0308 -118.1437</geo>
+            </location>
+            <region type="county">Los Angeles</region>
+          </place>
+            <place type="city" xml:id="Valdez" source="#TGN">
+            <placeName>Valdez</placeName>
+            <desc>John J. Macintyre mentions that he will travel to Valdez in his 8-23-1909 letter to Gladys Stephens.</desc>
+              <country>United States</country>
+              <region type="state">Alaska</region>
+              <location>
+                <geo>61.0751 -146.2054</geo>
+              </location>
+            </place>
+          <place type="cape" xml:id="CapeSt.Elias" source="#TGN">
+            <placeName>Cape St. Elias</placeName>
+            <desc>In his 8-23-1909 letter to Gladys Stephens, John J. Macintyre mentions that he and his crew are looking for Cape St. Elias.</desc>
+            <country>United States</country>
+            <region type="state">Alaska</region>
+            <location>
+              <geo>59.4827 -144.3511</geo>
+            </location>
+          </place>
+          <place type="city" xml:id="Juneau" source="#TGN">
+            <placeName>Juneau</placeName>
+            <desc>In his 8-23-1909 letter to Gladys Stephens, John J. Macintyre mentions that he will shortly be arriving in Juneau.</desc>
+            <country>United States</country>
+            <region type="state">Alaska</region>
+            <location>
+              <geo>58.1807 -134.2511</geo></location>
+          </place>
         </listPlace>
         
         <list type="gloss">
@@ -2739,14 +2775,14 @@
             <persName>Miss. Gladys. M. Stephens
             </persName>.
             <address>
-            <addrLine>Los Angeles.</addrLine>
+            <addrLine><placeName ref="LosAngeles">Los Angeles.</placeName></addrLine>
                 <delSpan rend="strikethrough" spanTo="#city01" hand="#Unknown"/>
             <addrLine>California</addrLine>
                 <postCode> (General Delivery) </postCode>
               </address>
             <address>
               <addrLine> 126 Leon St.</addrLine>
-                <addrLine>El Paso Tex</addrLine>
+                <addrLine><placeName ref="El Paso">El Paso Tex</placeName></addrLine>
               </address>
           </ab>
           <ab>
@@ -2779,8 +2815,8 @@
             <lb/>time and not write so much but it
             <lb/>promises to be a long watch for
             <lb/>we are running dead slow looking
-            <lb/>for a prominent <geogFeat>Cape</geogFeat>! <geogName><geogFeat>Cape</geogFeat> St
-              <lb/>Elias</geogName> by name. and a watch under
+            <lb/>for a prominent <geogFeat>Cape</geogFeat>! <placeName ref="CapeSt.Elias">Cape St
+              <lb/>Elias</placeName> by name. and a watch under
             <lb/>a slow Bell is always a long one
             <lb/>for me. I was just <hi rend="underline">up stairs</hi>
             <lb/>and it is a nasty rainy night
@@ -2789,7 +2825,7 @@
             <pb facs="/e/e9269572-e28c-4911-8402-38b1ead57c8b"/>
             <lb/>I wonder how you would <choice><sic>fell</sic><corr>feel</corr></choice>
             <lb/>better I hope. we are agoing
-            <lb/>to <placeName><settlement><choice><sic>Valdese</sic><corr>Valdese</corr></choice></settlement></placeName> first the mail <choice><sic>hasto</sic><corr>has to</corr></choice> be
+            <lb/>to <placeName ref="Valdez"><choice><sic>Valdese</sic><corr>Valdese</corr></choice></placeName> first the mail <choice><sic>hasto</sic><corr>has to</corr></choice> be
             <lb/>delivered at a certain time and we
             <lb/>are behind but what's the odds no
             <lb/>mail for me and a dozen or two
@@ -2815,7 +2851,7 @@
             <lb/>sailing vessels and all <choice><sic>deap</sic><corr>deep</corr></choice> water crafts
             <lb/>mostly foreigner's and <persName ref="#GMS"><addName type="endearment">dear</addName></persName> I hope <choice><sic>too</sic><corr>to</corr></choice>
             <lb/>be through with this in the near
-            <lb/> future hence them long 2 years if
+            <lb/>future hence them long 2 years if
             <lb/>you can call that near future.
             <lb/>and again <persName><surname>Burns</surname></persName> says a man's
             <lb/>a man for all <unclear reason="illegible" cert="low">o</unclear> that <q>"and that"</q>!
@@ -2830,10 +2866,9 @@
             <lb/>you asked about my father he was
             doing nicely when I <unclear reason="illegible" cert="high">lift</unclear> <hi rend="underline">thank</hi>
             you <persName ref="#GMS"><addName type="nickname">neddy</addName></persName></p>
-          <p>we arrived in <placeName>
-            <settlement>Juneau</settlement></placeName> @ 11 <hi rend="underline">40</hi> and left 12 <hi rend="underline">40</hi>
-            <lb/>So did not have a chance to see about <placeName><settlement>Santa
-              <lb/>Clara's</settlement></placeName> pictures but may next time I
+          <p>we arrived in <placeName ref="Juneau">Juneau</placeName> @ 11 <hi rend="underline">40</hi> and left 12 <hi rend="underline">40</hi>
+            <lb/>So did not have a chance to see about <name ref="#Santa_Clara">Santa
+              <lb/>Clara's</name> pictures but may next time I
             <lb/>will not forget them any way when
             <lb/>I have the time to get up town
             <lb/>I have no pictures of my self but
@@ -2870,7 +2905,7 @@
           <p>I had a great romp with <persName>little
             <lb/> Gladys</persName> tonight her mother fetched
             <lb/>her to my window (I have a room
-            <lb/>same as the chiefs on <placeName><settlement>Santa Clara</settlement></placeName> only
+            <lb/>same as the chiefs on <name ref="#Santa_Clara">Santa Clara</name> only
             <lb/>the door opens in engine room instead
             <lb/>of deck) and she hollered for uncle that's
             <lb/>what she calls me and I and I took her
