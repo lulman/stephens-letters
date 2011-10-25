@@ -278,6 +278,62 @@
             <location>
               <geo>58.1807 -134.2511</geo></location>
           </place>
+       
+          <place type="bay" xml:id="Taku" source="#TGN">
+            <geogName>Taku</geogName>
+            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <country>United States</country>
+            <region type="state">Alaska</region>
+            <location>
+              <geo>58.0667 -134.0167</geo>
+            </location>
+          </place>
+       
+          <place type="city" xml:id="Skagway" source="#TGN">
+            <geogName>Skagway</geogName>
+            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <country>United States</country>
+            <region type="state">Alaska</region>
+            <location>
+              <geo>59.4500 -135.3000</geo>
+            </location>
+          </place>
+          <place type="bay" xml:id="Chilkoot" source="#TGN">
+            <geogName>Chilkoot</geogName>
+            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <country>United States</country>
+            <region type="state">Alaska</region>
+            <location>
+              <geo>59.2167 -135.4333</geo>
+            </location>
+          </place>
+          <place type="creek" xml:id="Gypsum" source="#TGN">
+            <geogName>Gypsum</geogName>
+            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <country>United States</country>
+            <region type="state">Alaska</region>
+            <location>
+              <geo>57.9333 -135.1000</geo>
+            </location>
+          </place>
+   
+          <place type="city" xml:id="Tacoma" source="#TGN">
+            <geogName>Tacoma</geogName>
+            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <country>United States</country>
+            <region type="state">Alaska</region>
+            <location>
+              <geo>47.2500 -122.4333</geo>
+            </location>
+          </place>
+          <place type="city" xml:id="Sitka" source="#TGN">
+            <geogName>Sitka</geogName>
+            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <country>United States</country>
+            <region type="state">Alaska</region>
+            <location>
+              <geo>57.0500 -135.3167</geo>
+            </location>
         </listPlace>
         
         <list type="gloss">
