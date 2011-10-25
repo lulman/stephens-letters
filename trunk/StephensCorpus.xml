@@ -110,7 +110,7 @@
             <country>United States</country>
             <region type="state">Massachusetts</region>
             <location>
-              <geo>42.3500 --71.0500</geo>
+              <geo>42.3500 -71.0500</geo>
             </location>
           </place>
           
@@ -453,10 +453,20 @@
             </birth>
             <residence when="1920" source="#Census1920GSM">Newton, MA</residence>
           </person>
-          <person><persName>Adelaide</persName>
-          </person>
+          <person><persName>Adelaide</persName></person>
+          <person><persName>the Wards</persName></person>
           <person><persName>Will Ward</persName></person>
+          <person><persName>Jack Ward</persName></person>
           <person><persName>Berenice</persName></person>
+          <person><persName>Alice Wunner</persName></person>
+          <person><persName>Ivalor</persName></person>
+          <person><persName>Maynard</persName></person>
+          <person><persName>Mrs. Duff</persName></person>
+          <person><persName>Miss Camys</persName></person>
+          <person><persName>Rosinel</persName></person>
+          <person><persName>the Jays</persName></person>
+          <person><persName>the Thomases</persName></person>
+          
           <person xml:id="CLA">
             <persName>Anderson, Cora L.</persName>
           </person>
@@ -3166,7 +3176,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="JPL">
+  <TEI xml:id="JPL_GMS2MATS_1909_09_27">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -3345,7 +3355,7 @@
             <lb/>are they living?
           </p>
           <p>
-            <lb/>I got a card from <persName>Bernice</persName>.
+            <lb/>I got a card from <persName>Berenice</persName>.
           </p>
           <p>
             <lb/>Yes, <persName>Alice <unclear cert="low" reason="unknown last name">Wunner</unclear></persName> would
@@ -3361,7 +3371,7 @@
             <lb/><persName>Florence</persName> carrying sail?
           </p>
           <p>
-            <lb/>How on Earth could the Riches go to <placeName ref="#Maine">
+            <lb/>How on Earth could <persName>the Riches</persName> go to <placeName ref="#Maine">
               <choice>
                 <abbr>Me.</abbr>
                 <expan>Maine</expan>
@@ -3372,7 +3382,7 @@
             <lb/>from <placeName ref="#Mexico">Mexico</placeName>
           </p>
           <p>
-            <lb/>Who is in the <persName>Ward's</persName> 
+            <lb/>Who is in <persName>the Ward's</persName> 
             <placeName ref="Portland"><choice>
               <abbr>Pd.</abbr>
               <expan>Portland</expan>
@@ -3382,7 +3392,7 @@
             <lb/>along.
           </p>
           <p>
-            <lb/>How are the <persName>Thomases</persName> by
+            <lb/>How are <persName> the Thomases</persName> by
             <pb facs="/a/a476a258-61a6-4286-94ee-ab2563776cae"/> 
             <lb/>this time?
           </p>
@@ -3400,7 +3410,7 @@
             <lb/><persName>Rosinel</persName> lately
           </p>
           <p>
-            <lb/>Got a letter from <persName>Tho
+            <lb/>Got a letter from <persName>the
               <lb/>Jays</persName> giving me his
             <lb/>address, but had mailed
             <lb/>a note the night before
