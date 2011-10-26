@@ -528,6 +528,12 @@
           <person xml:id="CLA">
             <persName>Anderson, Cora L.</persName>
           </person>
+          <person xml:id="WA">
+            <persName>Anderson, Willis</persName>
+          </person>
+          <person xml:id="GA">
+            <persName>Anderson, Gladys</persName>
+          </person>
           <person xml:id="MrH">
             <persName>Mr. Holland</persName>
           </person>
@@ -2188,8 +2194,8 @@
             <lb/>strong yet but am gaining 
             <pb facs="/1/1931af01-c4d5-4237-942d-ce2790310029"/>
             <lb/>every day a little, but I shall have to be 
-            <lb/>careful for awhile yet. <persName>Gladys</persName> is pleased 
-            <lb/>with her little brother and <persName>Willis</persName> is pleased 
+            <lb/>careful for awhile yet. <persName ref="#GA">Gladys</persName> is pleased 
+            <lb/>with her little brother and <persName ref="#WA">Willis</persName> is pleased 
             <lb/>with his little son. I have only heard from 
             <lb/><persName ref="#GMS">Gladys Stevens</persName> once. She was then in <placeName ref="#Colorado">Colorado</placeName>.
             <lb/>I had hoped she would keep me posted as to 
