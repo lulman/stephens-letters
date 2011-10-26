@@ -1603,7 +1603,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="ACO1">
+  <TEI xml:id="ACO_GMS2MATS_1909-08-08">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -1613,7 +1613,7 @@
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc corresp="#GS19090706let01">
+          <msDesc corresp="#GS19090808let01">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
@@ -1624,36 +1624,42 @@
             </msIdentifier>
             <msContents>
               <p>
-                <!-- Describe contents briefly. -->
+                Gladys tells her mother of the group's return to Seattle; anticipates a visit to
+                a wealthy Texan's ranch; makes ambiguous references to what we would assume is news or gossip 
+                of friends and acquaintances from home; mentions correspondence with a few other individuals; 
+                and brags about being shown around by Uncle Alex and the "plans for next summer" already in the works.
               </p>
             </msContents>
             <physDesc>
-              <!-- 
-                TAKE NOTE: Your entire header should answer the following questions about your 
-                source document. At this point in your header, you should discuss anything in 
-                this list not mentioned elsewhere in the header.
-                
-                1. What is the document (letter, will, etc.)?
-                2. What does it say about itself (titles, descriptive notes, etc.)?
-                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
-                4. How is it put together (folded sheets, binding, etc.)?
-                5. What is it made of (paper, vellum, etc.)?
-                6. What is its size (i.e., physical dimensions)?
-                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
-                8. How is it related to other versions (original, copy, print history)?
-                
-                You can use more than one paragraph (tagged <p> </p>).
-              -->
-              <p>  </p>
-              <accMat corresp="#GS19090706env">
-                <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
-                  describe the envelope and enclosure as above, and include an @corresp attribute whose value
-                  is the xml:id of the <div> in the text corresponding to the envelope. -->  
-              </accMat>
-            </physDesc>
+              <p>This original letter contains five loose sheets of cream-colored Hotel Georgian letterhead stationery
+                measuring 6 x 9.5 inches. They have been folded in half and folded together.  The front side contains a 2.5-inch letterhead, a 6.75-inch
+                body with blue lines spaced at .375-inch intervals, and a .25-inch bottom margin.
+                The back side is unlined.  An oval watermark, variably placed on each sheet and measuring approximately
+                2.375 x 2.625 inches when entirely visible, reads, in outline letters, "MERCHANTS |
+                PRT'G CO | LURIE &amp; LURIE." The letterhead contains, in the upper left-hand
+                corner, a 1.375 x 2.4375-inch image of the Hotel Georgian facade.  It should be noted that other letters
+                in the collection, even as recently as the letters written by Gladys in July from the same hotel, are 
+                likewise composed on Hotel Georgian stationery, but some time in the interim of Gladys's excursion to Alaska,
+                the Hotel Georgian modified its stationery slightly.  The image is now an illustration rather than a photo, and depicts
+                the hotel facade from a more diagonal angle (we see proportionally more of the side of the building. 
+                The font of the letterhead has also changed (tending toward more of a block style than the slanted script)
+                and minor additions have been made.  Near the top border of the paper, the hotel owner's names are printed
+                ("D. Swinehart" and "Fred G. Caldwell"), and new qualifiers have been added under the "Hotel Georgian" moniker.
+                The hotel stationery no longer includes a partially printed dateline ("Seattle, ________190____"), and so
+                Gladys has handwritten the date ("8/8/.09") near the bottom, and slightly left of center, inside the
+                bounded letterhead.  On subsequent pages, she numbers the pages by hand, again within the boundaries of the 
+                letterhead, and in virtually the same place each time but not always in the same style (some page numbers are followed
+                by periods, some by nothing, and one is underlined).</p>
+              <accMat corresp="#GS19090808env">Accompanied by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
+                measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch photographed image of the Hotel
+                Georgian facade is printed on the left-hand side of the envelope above the hotel's
+                address.  Incidentally, the image of the hotel on the envelope corresponds with the 
+                image of the hotel facade on the outdated Hotel Georgian stationery.  The stamp is
+                also upside down.</accMat>
+             </physDesc>
             <additional>
               <adminInfo>
-                <note><!-- Box and folder number from the finding aid (e.g., Box 3, folder 16). --></note>
+                <note>Box 3, Folder 16</note>
               </adminInfo>
             </additional>
           </msDesc>
