@@ -528,8 +528,11 @@
           <person xml:id="CLA">
             <persName>Anderson, Cora L.</persName>
           </person>
-          <person xml:id="WA">
-            <persName>Anderson, Willis</persName>
+          <person xml:id="WDA">
+            <persName>Anderson, Willis D.</persName>
+          </person>
+          <person xml:id="WGA">
+            <persName>Anderson, Willis Goodwin</persName>
           </person>
           <person xml:id="GA">
             <persName>Anderson, Gladys</persName>
@@ -2183,8 +2186,8 @@
             <lb/>minds and hands for the last
             <lb/>few weeks that we have left 
             <lb/>almost everyone else out. 
-            <lb/>We have a nice baby boy. A 
-            <lb/>good big baby not, not a little 
+            <lb/>We have <rs ref="WGA">a nice baby boy</rs>. A 
+            <lb/>good big baby, not a little 
             <lb/>teeny weeny. You know I 
             <lb/>wished for a small baby, but 
             <lb/>now that he is here I am glad 
@@ -2195,7 +2198,7 @@
             <pb facs="/1/1931af01-c4d5-4237-942d-ce2790310029"/>
             <lb/>every day a little, but I shall have to be 
             <lb/>careful for awhile yet. <persName ref="#GA">Gladys</persName> is pleased 
-            <lb/>with her little brother and <persName ref="#WA">Willis</persName> is pleased 
+            <lb/>with her little brother and <persName ref="#WDA">Willis</persName> is pleased 
             <lb/>with his little son. I have only heard from 
             <lb/><persName ref="#GMS">Gladys Stevens</persName> once. She was then in <placeName ref="#Colorado">Colorado</placeName>.
             <lb/>I had hoped she would keep me posted as to 
