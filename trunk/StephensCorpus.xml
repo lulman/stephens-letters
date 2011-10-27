@@ -2166,6 +2166,10 @@
             <addrLine>Mass. </addrLine>
             </address>
           </ab>
+          <ab type="endorsement">
+            <handShift new="Unknown"/>new baby <lb/>by neice <lb/>9&#x2014;F <ptr type="NoteAnchor" target="Endorse"/>
+            <note resp="ed" xml:id="Endorse">The penciled number here doesn't seem to match the pattern on the other envelopes since the second digit is a letter rather than a number. This endorsement also includes a description of the contents of the letter.</note>
+          </ab>
           <ab>
             <stamp type="postmark"> <placeName ref="#Sherborn">SHERBORN, MASS.</placeName> / <date when="1909-08-20"></date>AUG 20 / A. M / 1909 </stamp>
           </ab>
