@@ -3669,11 +3669,11 @@
             <handShift new="#JJMHand"/>
             <dateline><date when="1909-10-04">10/4 1909 
             </date><lb/><time when="05:00:00">5 A.M. </time></dateline>
-            <lb/><salute>Dear <persName ref="#GMS">Girl</persName></salute>
+            <lb/><salute>Dear <persName ref="#GMS"><addName type="endearment">Girl</addName></persName></salute>
           </opener>
           <p>
-            <lb/>well honey I will be In <placeName ref="#Seattle">Seattle
-            </placeName> <date when="1909-10-04">tonight</date> about 
+            <lb/>well <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
+            I will be In <placeName ref="#Seattle">Seattle</placeName> <date when="1909-10-04">tonight</date> about 
             <lb/><time when="23:32:00">11<hi rend="superscripted and underlined">32</hi></time> I 
             <distinct type="juvenile">fink</distinct><unclear cert="medium">!</unclear> 
             That's bad for I cannot get my mail 
@@ -3684,11 +3684,12 @@
             <lb/>the reason why. I <hi rend="underlined">do</hi> hope I will have a letter 
             <lb/>from <placeName ref="#ElPaso">El Paso</placeName> Saying you got there all O.K. but 
             <lb/>I am afraid I will <choice><sic>hafto</sic><corr>have to</corr></choice> wait another day 
-            <lb/>At least<unclear cert="medium">!</unclear> how I would like to See you dear 
+            <lb/>At least<unclear cert="medium">!</unclear> how I would like to See you 
+            <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             (<unclear cert="high" reason="penstroke and blot following word">how</unclear> I 
             <lb/>would) And See if <choice><sic>they</sic><corr>there</corr></choice> is any Change in my 
-            <rs ref="#GMS">little 
-              <lb/>girl</rs> with all her travels I don't <distinct type="juvenile">fink</distinct> 
+            <persName ref="#GMS"><addName type="endearment">little 
+              <lb/>girl</addName></persName> with all her travels I don't <distinct type="juvenile">fink</distinct> 
             So&#x2014;hope not 
             <lb/>any way<unclear cert="medium">!</unclear> we are a day ahead of time on the time 
             <lb/>I Set as we only have a half a cargo It looks bad 
@@ -3703,7 +3704,8 @@
               <unclear cert="high" reason="no dot over i">i</unclear>nt</sic><corr>didn't</corr></choice> 
             <lb/>even have Sense enough to rain only once we have 
             <lb/>the Crew the Cannery crew from <placeName ref="#Klawock">Klawock</placeName>(this is 
-            <lb/>the way it is <placeName ref="#Klawock">Klaw-wock</placeName>) and no Totem yet honey 
+            <lb/>the way it is <placeName ref="#Klawock">Klaw-wock</placeName>) and no Totem yet 
+            <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             <pb facs="/d/d2d63fa4-8f27-45dd-857f-56d69e377a32"/>
             we arrived at <placeName ref="#Klawock">Klawock</placeName> at <time>
               9<hi rend="superscripted and underlined"><del rend="overwritten">38</del>28</hi>
@@ -3718,7 +3720,8 @@
             Ketchikan</placeName> about 2 hours coming 
             <lb/>home the <rs ref="#IP"><choice><sic>Pursers</sic><corr>Purser's</corr>
             </choice> Sister</rs> and I went up to the 
-            <lb/>falls the lower ones honey not way up <del rend="strikethrough">the</del> where 
+            <lb/>falls the lower ones <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
+            not way up <del rend="strikethrough">the</del> where 
             <lb/>we went She got Some Pictures<unclear cert="medium">!</unclear> 
             It was a fine day <seg type="obliqueText" rendition="#ot1">and</seg>  
             <lb/>She is good Company&#x2014;But&#x2014;what a <choice><sic>differance</sic><corr>
@@ -3747,26 +3750,30 @@
               <corr>little</corr></choice> 
             <lb/>bit but had to listen all the Same<unclear cert="medium">!</unclear> 
             I have not <choice><sic>Saw</sic><corr>Seen</corr></choice> her Since 
-            <lb/>yes all right (<persName ref="#IP">Irene Palmer</persName>) speaking of pictures dear 
+            <lb/>yes all right (<persName ref="#IP">Irene Palmer</persName>) speaking of pictures 
+            <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <lb/>I <distinct type="juvenile">fink</distinct> the world of that one you sent me, 
-            but honey <choice><sic>havent</sic><corr>haven't</corr></choice> 
+            but <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
+            <choice><sic>havent</sic><corr>haven't</corr></choice> 
             <lb/>you got your <del rend="strikethrough"><unclear cert="medium" 
               reason="strikethrough obscures letters">
               hare</unclear></del><add place="above">hair</add> <choice><sic>Comed</sic>
                 <corr>Combed</corr></choice>
             <choice><sic>differant</sic><corr>differently</corr></choice> than when you were 
-            <lb/>here! I <distinct type="juvenile">fink</distinct> So and listen dear did you know that you 
+            <lb/>here! I <distinct type="juvenile">fink</distinct> So and listen 
+            <persName ref="#GMS"><addName type="endearment">dear</addName></persName> did you know that you 
             <lb/><choice><sic>was</sic><corr>were</corr></choice> <choice>
               <sic>agetting</sic><corr>getting</corr></choice> 
             a <choice><sic>lttle</sic><corr>little</corr></choice> kiss every night about 
             <time when="21:30:00">9<hi rend="spercripted and underlined">30</hi></time> well you 
             <lb/>are&#x2014;See how I take advantage of you when you are not here 
-            <lb/>take notice tonight honey at that time and see if you Can Catch me 
+            <lb/>take notice tonight <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
+            at that time and see if you Can Catch me 
             <lb/>at It&#x2014;I wonder <del rend="overwritten">o</del>if you will be So Economical with 
             <lb/>then when I See you again  <hi rend="underlined">hope not</hi> 
             <distinct type="juvenile">S<unclear cert="high" reason="no dot over i">i</unclear>
               sent</distinct> nice of you I <distinct type="juvenile">fink</distinct> 
-            <lb/>tell me dear 
+            <lb/>tell me <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <pb facs="/8/89dc1d77-e539-4ca6-b7b7-26f005889808"/>
             I do not know if I told you about the <name ref="#Northwestern">Northwestern</name> 
             <lb/>or not<unclear cert="medium">!</unclear> Yes <rs ref="#Northwestern">She</rs> 
@@ -3798,7 +3805,8 @@
             <lb/>them <choice><sic>has</sic><corr>have</corr></choice> died Since we 
             <choice><sic>Cam</sic><corr>Came</corr></choice> away the driver is in Jail 
             <lb/>that was my old <choice><sic>Corse</sic><corr>Course</corr></choice> but 
-            <hi rend="underlined">no</hi> more dear <hi rend="underline">no more</hi> 
+            <hi rend="underlined">no</hi> more <persName ref="#GMS"><addName type="endearment">dear
+              </addName></persName><hi rend="underline">no more</hi> 
             <lb/>for me! <choice><sic>they</sic><corr>there</corr></choice> was also a
             <add place="above">Street</add> Car Accident at the fair grounds 
             <lb/>1 killed and 50 wounded but none Seriously! little 
@@ -3813,23 +3821,25 @@
             <persName ref="#ACS">Uncle A</persName> thinks I wonder 
             <lb/>Sometimes what I think<unclear cert="medium">!</unclear> I Suppose you will be 
             <lb/>getting ready for home in a Short time now<unclear cert="medium">!</unclear> will you 
-            <lb/>be glad to get home honey I <distinct type="juvenile">fink</distinct> 
-            So<unclear cert="medium">!</unclear> 
+            <lb/>be glad to get home <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
+            I <distinct type="juvenile">fink</distinct> So<unclear cert="medium">!</unclear> 
             you have <choice><sic>bin</sic><corr>been</corr></choice> gone from 
             <lb/>home quite a while haven<supplied reason="omitted" resp="ed">'</supplied>t you? 
             In another year you will be gone 2 months from here! that's the way the time 
-            <lb/>goes to me well honey I <distinct type="juvenile">fink</distinct> I had better 
+            <lb/>goes to me well <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
+            I <distinct type="juvenile">fink</distinct> I had better 
             <choice><sic>sing</sic><corr>sign</corr></choice> off I do 
-            <lb/>not want to take up all of you time&#x2014;yes I do 
+            <lb/>not want to take up all of you<!-- spelling? --> time&#x2014;yes I do 
             <choice><sic>to</sic><corr>too</corr></choice>&#x2014;
             <lb/>but I must not be <choice><sic>to</sic><corr>too</corr></choice> Selfish 
-            <distinct type="juvenile">Sisent</distinct> nice<unclear cert="medium">!</unclear> tell me dear 
+            <distinct type="juvenile">Sisent</distinct> nice<unclear cert="medium">!</unclear> tell me 
+            <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <lb/>about writing <del rend="strikethrough"><unclear cert="medium" 
               reason="strikethrough">or where to</unclear></del> As you will be on your way 
             <lb/>home before we finish another <choice><sic>Voige</sic><corr>Voyage</corr></choice>
             and tell me about 
             <lb/>writing to your home (&amp;tc) <hi rend="underlined">how</hi> I would like to see you 
-            <lb/>this A.M. So long honey
+            <lb/>this A.M. So long <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
           </p>
           <closer>
             <lb/><salute>"<gap reason="illegible" unit="characters" quantity="2"/>if" a 
