@@ -3716,8 +3716,7 @@
             <lb/>Village is <choice><sic>acrost</sic><corr>across</corr>
             </choice> the bay from the Cannery <seg type="obliqueText" rendition="#ot1">and</seg> that's 
             <lb/>why<unclear cert="medium">!</unclear> we <choice><sic>was</sic><corr>were</corr></choice> 
-            in <placeName ref="#Ketchikan">
-            Ketchikan</placeName> about 2 hours coming 
+            in <placeName ref="#Ketchikan">Ketchikan</placeName> about 2 hours coming 
             <lb/>home the <rs ref="#IP"><choice><sic>Pursers</sic><corr>Purser's</corr>
             </choice> Sister</rs> and I went up to the 
             <lb/>falls the lower ones <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
@@ -3816,7 +3815,7 @@
             I Suppose you have <choice><sic>bin</sic><corr>been</corr></choice> through most of
             <choice><sic>them</sic><corr>the</corr></choice> 
             <lb/>letters by this time <choice><sic>hasent</sic><corr>haven't</corr></choice>, 
-            <choice><sic>U.</sic><corr>you</corr></choice> and I wonder what you 
+            <choice><abbr>U.</abbr><expan>you</expan></choice> and I wonder what you 
             <lb/>think! yes I do&#x2014;I wonder what <del rend="overwritten">u</del>
             <persName ref="#ACS">Uncle A</persName> thinks I wonder 
             <lb/>Sometimes what I think<unclear cert="medium">!</unclear> I Suppose you will be 
