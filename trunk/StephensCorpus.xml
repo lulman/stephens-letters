@@ -3732,7 +3732,7 @@
               anticipate here <bibl><ref target="#VI">"Visitor Information"</ref></bibl>. The preservation 
               effort doesn't seem to be isolated, as a 1927 <hi rend="italics">New York Times</hi> 
               article laments the Alaskan Indians' "scant regard for the ritual of the old tradition" of 
-              totem-making and relates the need for "funds for the preservations of these monuments" 
+              totem-making and relates the need for "funds for the preservation of these monuments" 
               <bibl><ref target="#NYT2">"Deserted Totems of Alaska"</ref></bibl>.
             </note>
             yet <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
@@ -3744,11 +3744,11 @@
             </time>-<date when="1909-09-20">9-30</date> 
             <lb/>and I expected to be there at least 24 hours and the <placeName ref="#Tuxekan">Indian 
             <lb/>Village</placeName> is <choice><sic>acrost</sic><corr>across</corr>
-            </choice> the bay from the Cannery<ptr type="noteAnchor" target="JJM19091004note2"/>
+            </choice> the <geogFeat>bay</geogFeat> from the Cannery<ptr type="noteAnchor" target="JJM19091004note2"/>
             <note resp="ed" xml:id="JJM19091004note2">
               "[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878." 
-              Until 1920, it remained the only salmon cannery in the state. 
-              <bibl><ref target="#VI">"Visitor Information"</ref></bibl></note> 
+              Until 1920, it remained the only salmon cannery in the state 
+              <bibl><ref target="#VI">"Visitor Information"</ref></bibl>.</note> 
             <seg type="obliqueText" rendition="#ot1">and</seg> that's 
             <lb/>why<unclear cert="medium">!</unclear> we <choice><sic>was</sic><corr>were</corr></choice> 
             in <placeName ref="#Ketchikan">Ketchikan</placeName> about 2 hours coming 
