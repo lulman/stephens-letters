@@ -79,6 +79,9 @@
             <location>
               <geo>47.6000 -122.3167</geo>
             </location>
+            <event type="fair" when="1909">
+              <label>1909 Seattle World's Fair</label>
+            </event>
           </place>
           <place type="sound" xml:id="Puget" source="#TGN">
             <geogName>Puget Sound</geogName>
