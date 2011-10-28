@@ -368,7 +368,7 @@
             <date type="destroyed" when="1915-11-02"/>
             <orgName type="owner" when="1869-03-05">North Pacific Steamship Company</orgName>
             <desc>Launched as the John S. Kimball in 1900, later renamed James Dollar and 
-            later Santa Clara. Ran aground on 2 November 1909 in Coos Bay, Oregon.</desc>
+            later Santa Clara. Ran aground on 2 November 1915 in Coos Bay, Oregon.</desc>
             <bibl><ref target="#NYT #Koppy"></ref></bibl>
           </item>
         </list>
@@ -3624,14 +3624,15 @@
           <ab type="postalAddress">
             <handShift new="#JJMHand"/>
             <address>
-            <addrLine>Miss. Gladys M. Stephens</addrLine>
+            <addrLine><persName ref="#GMS">Miss. Gladys M. Stephens</persName></addrLine>
             <addrLine>#126 Leon Street</addrLine>
-            <addrLine>El Paso Texas</addrLine>
+            <addrLine><placeName ref="#ElPaso">El Paso Texas</placeName></addrLine>
             </address>
           </ab>
           <ab>
-            <stamp type="postmark"> SEATTLE, WASH. / OCT 5 / 2 - 
-              <gap reason="invisible" unit="characters" quantity="1"/>M / 1909 </stamp>
+            <stamp type="postmark"> <placeName ref="#Seattle">SEATTLE, WASH.</placeName> / 
+              <date when="1909-10-05">OCT 5 / 2 - 
+              <gap reason="invisible" unit="characters" quantity="1"/>M / 1909</date> </stamp>
             <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
           </ab>
           <figure rend="link">
@@ -3664,7 +3665,7 @@
             <lb/>well honey I will be In <placeName ref="#Seattle">Seattle
             </placeName> <date when="1909-10-04">tonight</date> about 
             <lb/><time when="23:32:00">11<hi rend="superscripted and underlined">32</hi></time> I 
-            <choice><sic>fink</sic><corr>think</corr></choice><unclear cert="medium">!</unclear> 
+            <distinct type="juvenile">fink</distinct><unclear cert="medium">!</unclear> 
             That's bad for I cannot get my mail 
             <lb/><choice><sic>untill</sic><corr>until</corr></choice>tomorrow, we 
             <del rend="overwritten">b</del>missed the tide in <geogName ref="#Seymour"><choice><sic>
@@ -3677,7 +3678,7 @@
             (<unclear cert="high" reason="penstroke and blot following word">how</unclear> I 
             <lb/>would) And See if <choice><sic>they</sic><corr>there</corr></choice> is any Change in my 
             <rs ref="#GMS">little 
-            <lb/>girl</rs> with all her travels I don't <choice><sic>fink</sic><corr>think</corr></choice> 
+              <lb/>girl</rs> with all her travels I don't <distinct type="juvenile">fink</distinct> 
             So&#x2014;hope not 
             <lb/>any way<unclear cert="medium">!</unclear> we are a day ahead of time on the time 
             <lb/>I Set as we only have a half a cargo It looks bad 
@@ -3708,8 +3709,8 @@
             <lb/>home the <rs ref="#IP"><choice><sic>Pursers</sic><corr>Purser's</corr>
             </choice> Sister</rs> and I went up to the 
             <lb/>falls the lower ones honey not way up <del rend="strikethrough">the</del> where 
-            <lb/>we went She got Some Pictures<unclear cert="medium">!</unclear> It was a fine day 
-            <seg type="obliqueText" rendition="#ot1">and</seg>  
+            <lb/>we went She got Some Pictures<unclear cert="medium">!</unclear> 
+            It was a fine day <seg type="obliqueText" rendition="#ot1">and</seg>  
             <lb/>She is good Company&#x2014;But&#x2014;what a <choice><sic>differance</sic><corr>
               difference</corr></choice> from 
             <lb/>the last time I was there<unclear cert="medium">!</unclear> She is only 17 years of age 
@@ -3737,15 +3738,14 @@
             <lb/>bit but had to listen all the Same<unclear cert="medium">!</unclear> 
             I have not <choice><sic>Saw</sic><corr>Seen</corr></choice> her Since 
             <lb/>yes all right (<persName ref="#IP">Irene Palmer</persName>) speaking of pictures dear 
-            <lb/>I <choice><sic>fink</sic><corr>think</corr></choice> the world of that one you sent me, 
+            <lb/>I <distinct type="juvenile">fink</distinct> the world of that one you sent me, 
             but honey <choice><sic>havent</sic><corr>haven't</corr></choice> 
             <lb/>you got your <del rend="strikethrough"><unclear cert="medium" 
               reason="strikethrough obscures letters">
               hare</unclear></del><add place="above">hair</add> <choice><sic>Comed</sic>
                 <corr>Combed</corr></choice>
             <choice><sic>differant</sic><corr>differently</corr></choice> than when you were 
-            <lb/>here! I <choice><sic>fink</sic><corr>think</corr>
-            </choice> So and listen dear did you know that you 
+            <lb/>here! I <distinct type="juvenile">fink</distinct> So and listen dear did you know that you 
             <lb/><choice><sic>was</sic><corr>were</corr></choice> <choice>
               <sic>agetting</sic><corr>getting</corr></choice> 
             a <choice><sic>lttle</sic><corr>little</corr></choice> kiss every night about 
@@ -3754,10 +3754,8 @@
             <lb/>take notice tonight honey at that time and see if you Can Catch me 
             <lb/>at It&#x2014;I wonder <del rend="overwritten">o</del>if you will be So Economical with 
             <lb/>then when I See you again  <hi rend="underlined">hope not</hi> 
-            <choice><sic><unclear cert="medium" reason="coined word?">S
-              <unclear cert="high" reason="no dot over i">i</unclear>
-              sent</unclear></sic><corr>it isn't</corr></choice> nice of you I <choice>
-                <sic>fink</sic><corr>think</corr></choice> 
+            <distinct type="juvenile">S<unclear cert="high" reason="no dot over i">i</unclear>
+              sent</distinct> nice of you I <distinct type="juvenile">fink</distinct> 
             <lb/>tell me dear 
             <pb facs="/8/89dc1d77-e539-4ca6-b7b7-26f005889808"/>
             I do not know if I told you about the <name ref="#Northwestern">Northwestern</name> 
@@ -3800,30 +3798,27 @@
             I Suppose you have <choice><sic>bin</sic><corr>been</corr></choice> through most of
             <choice><sic>them</sic><corr>the</corr></choice> 
             <lb/>letters by this time <choice><sic>hasent</sic><corr>haven't</corr></choice>, 
-            <choice><sic>U.</sic><corr>you</corr></choice> and I wonder want you 
+            <choice><sic>U.</sic><corr>you</corr></choice> and I wonder what you 
             <lb/>think! yes I do&#x2014;I wonder what <del rend="overwritten">u</del>
-            <persName ref="#ATS">Uncle A</persName> thinks I wonder 
+            <persName ref="#ATS"><!-- ATS??? -->Uncle A</persName> thinks I wonder 
             <lb/>Sometimes what I think<unclear cert="medium">!</unclear> I Suppose you will be 
             <lb/>getting ready for home in a Short time now<unclear cert="medium">!</unclear> will you 
-            <lb/>be glad to get home honey I <choice><sic>fink</sic><corr>think</corr></choice> 
+            <lb/>be glad to get home honey I <distinct type="juvenile">fink</distinct> 
             So<unclear cert="medium">!</unclear> 
             you have <choice><sic>bin</sic><corr>been</corr></choice> gone from 
             <lb/>home quite a while haven<supplied reason="omitted" resp="ed">'</supplied>t you? 
             In another year you will be gone 2 months from here! that's the way the time 
-            <lb/>goes to me well honey I <choice><sic>fink</sic><corr>think</corr></choice> I had better 
+            <lb/>goes to me well honey I <distinct type="juvenile">fink</distinct> I had better 
             <choice><sic>sing</sic><corr>sign</corr></choice> off I do 
             <lb/>not want to take up all of you time&#x2014;yes I do 
             <choice><sic>to</sic><corr>too</corr></choice>&#x2014;
             <lb/>but I must not be <choice><sic>to</sic><corr>too</corr></choice> Selfish 
-            <choice><sic><unclear cert="medium" reason="coined word?">Sisent</unclear></sic>
-              <corr>it isn't</corr></choice> nice<unclear cert="medium">!</unclear> tell me dear 
+            <distinct type="juvenile">Sisent</distinct> nice<unclear cert="medium">!</unclear> tell me dear 
             <lb/>about writing <del rend="strikethrough"><unclear cert="medium" 
-              reason="strikethrough">or where to
-            </unclear></del> As you will be on your way 
+              reason="strikethrough">or where to</unclear></del> As you will be on your way 
             <lb/>home before we finish another <choice><sic>Voige</sic><corr>Voyage</corr></choice>
             and tell me about 
-            <lb/>writing to your home <gap reason="illegible" unit="characters" quantity="4"/> 
-            <hi rend="underlined">how</hi> I would like to see you 
+            <lb/>writing to your home (&amp;tc) <hi rend="underlined">how</hi> I would like to see you 
             <lb/>this A.M. So long honey
           </p>
           <closer>
