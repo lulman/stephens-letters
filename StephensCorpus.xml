@@ -381,7 +381,7 @@
             <orgName type="owner" when="1869-03-05">North Pacific Steamship Company</orgName>
             <desc>Launched as the John S. Kimball in 1900, later renamed James Dollar and 
             later Santa Clara. Ran aground on 2 November 1915 in Coos Bay, Oregon.</desc>
-            <bibl><ref target="#NYT #Koppy"></ref></bibl>
+            <bibl><ref target="#NYT1 #Koppy"></ref></bibl>
           </item>
         </list>
         
@@ -451,9 +451,14 @@
              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
            Web. 21 Oct. 2011.
          </bibl>
-         <bibl xml:id="NYT" n="NYT1869-03-07">
+         <bibl xml:id="NYT1" n="NYT1869-03-07">
            <title level="a">The North Pacific Steamship Company Chartered.</title> <title
              level="m">New York Times</title>. 07 March 1869. Web. 22 Oct. 2011.
+         </bibl>
+         <bibl xml:id="NYT2" n="NYT1927-10-02">
+           <title level="a">Deserted Totems of Alaska: Traditional Symbols of Tribal Power Yield to 
+           the White Man's Progress</title>. <title level="m">New York Times</title>. 02 October 1927. 
+           <title level="m">Proquest Historical Newspapers</title>. Web. 28 Oct. 2011.
          </bibl>
          <bibl xml:id="Koppy" n="Koppy">Koppy, Ann. <title level="a">The Wreck of the 
            <hi rend="italics">Santa Clara</hi></title>. <title level="m">The Whole Shebang</title>.  
@@ -3724,8 +3729,12 @@
             <ptr type="noteAnchor" target="JJM19091004note1"/><note resp="ed" xml:id="JJM19091004note1">
               <placeName ref="#Tuxekan">Tuxekan</placeName> was renowned for its totem poles, and Klawock 
               created a Totem Park to display authentic and replica totem poles, which Macintyre seems to 
-              anticipate here.
-            <bibl><ref target="#VI">"Visitor Information"</ref></bibl></note>
+              anticipate here <bibl><ref target="#VI">"Visitor Information"</ref></bibl>. The preservation 
+              effort doesn't seem to be isolated, as a 1927 <hi rend="italics">New York Times</hi> 
+              article laments the Alaskan Indians' "scant regard for the ritual of the old tradition" of 
+              totem-making and relates the need for "funds for the preservations of these monuments" 
+              <bibl><ref target="#NYT2">"Deserted Totems of Alaska"</ref></bibl>.
+            </note>
             yet <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             <pb facs="/d/d2d63fa4-8f27-45dd-857f-56d69e377a32"/>
             we arrived at <placeName ref="#Klawock">Klawock</placeName> at <time>
