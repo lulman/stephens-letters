@@ -398,14 +398,14 @@
               </desc>
             </state>
           </org>
-          <org xml:id="ASC">
+          <org xml:id="ASC" source="#TSL">
             <orgName>Alaska Steamship Company</orgName>
             <state type="company">
               <desc>
                 John J. Macintyre sails on and uses stationery from the S.S. Northwestern, which was 
                 acquired by the Alaska Steamship Company when it merged with the Northwest (Northern) 
-                Steamship Company in 1909. The Alaska Steamship Company was founded in 1895 and 
-                disbanded in 1971.
+                Steamship Company in 1909. Based in Seattle, the Alaska Steamship Company was founded 
+                in 1895 and disbanded in 1971.
               </desc>
             </state>
           </org>
@@ -449,6 +449,9 @@
          </bibl>
          <bibl xml:id="GBC" n="GBC">
            <title level="m">GeoBC</title>. British Columbia, n.d. Web. 22 Oct. 2011.
+         </bibl>
+         <bibl xml:id="TSL" n="TSL">
+           <title level="m">TheShipsList</title>. n.d. Web. 28 Oct. 2011.
          </bibl>
         </listBibl>
         
