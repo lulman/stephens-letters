@@ -357,7 +357,7 @@
             <country>USA</country>
             <date type="launched" when="1889-11-23"/>
             <date type="destroyed" when="1942-06-04"></date>
-            <orgName type="owner" when="1908-01-14">Alaska Steamship Company</orgName>
+            <orgName type="owner" when="1908-01-14" ref="#ASC">Alaska Steamship Company</orgName>
             <desc>Name changed from Orizaba to Northwestern 7 August 1906. </desc>
             <bibl><ref target="#MEA #Burwell"/></bibl>
           </item>
@@ -388,13 +388,24 @@
               company Foster and Co. and merchant company Nickerson and Co.</desc>
           </org>
           <org xml:id="HowAsp" source="#ANB-WHA">
-            <orgName> Howland and Aspinwall</orgName>
+            <orgName>Howland and Aspinwall</orgName>
             <state type="Owners">
               <desc>
                 <persName ref="WHA" notBefore="1834" notAfter="1856">William Henry
                   Aspinwall</persName>
                 <persName ref="JLA" notBefore="1850">John Lloyd Aspinwall</persName>
                 <persName ref="WEH" notBefore="1834">William Edgar Howland</persName>
+              </desc>
+            </state>
+          </org>
+          <org xml:id="ASC">
+            <orgName>Alaska Steamship Company</orgName>
+            <state type="company">
+              <desc>
+                John J. Macintyre sails on and uses stationery from the S.S. Northwestern, which was 
+                acquired by the Alaska Steamship Company when it merged with the Northwest (Northern) 
+                Steamship Company in 1909. The Alaska Steamship Company was founded in 1895 and 
+                disbanded in 1971.
               </desc>
             </state>
           </org>
@@ -3557,9 +3568,8 @@
             <msContents>
               <p>
                 <!-- Describe contents briefly. -->
-                Ship schedule and route; spending time with the <rs ref="#IP">Purser's sister</rs>
-                ; pictures received; specifications of the <name ref="#Northwestern">Northwestern</name> 
-                compared to the <name ref="#Santa_Clara">Santa Clara</name>; auto accidents.
+                Ship schedule and route; spending time with the Purser's sister; pictures received; 
+                specifications of the Northwestern compared to the Santa Clara; auto accidents.
               </p>
             </msContents>
             <physDesc>
@@ -3580,7 +3590,7 @@
                 You can use more than one paragraph (tagged <p> </p>).
               -->
               <p>
-                Two loose sheets of dirty white Alaska Steamship company letterhead stationery 
+                Two loose sheets of dirty white Alaska Steamship Company letterhead stationery 
                 measuring 10.875 inches by 8.5 inches, with light blue horizontal lining on the recto 
                 beginning 2.75 inches from the top and spaced .375 inches apart. Above the 
                 lining, centered at the top of the page, and measuring 4.25 inches by .25 inches is 
@@ -3596,10 +3606,7 @@
                 horizontally and would measure 1 inch vertically if the letters were not truncated. 
                 "Mills" measures roughly 3 inches by 1 inch.
               </p>
-              <accMat corresp="#JJM19091005env01">
-                <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
-                describe the envelope and enclosure as above, and include an @corresp attribute whose value
-                is the xml:id of the <div> in the text corresponding to the envelope. -->  
+              <accMat corresp="#JJM19091005env01">  
                 Accompanied by a cream colored envelope measuring 5.4375 inches by 3.125 inches, 
                 postmarked for Seattle, Wash. on Oct 5, 1909. The postmarked time of day is only 
                 partially legible. The cancellation reads "World's | Fair | Seattle | 1909" in a 
@@ -3631,8 +3638,8 @@
           </ab>
           <ab>
             <stamp type="postmark"> <placeName ref="#Seattle">SEATTLE, WASH.</placeName> / 
-              <date when="1909-10-05">OCT 5 / 2 - 
-              <gap reason="invisible" unit="characters" quantity="1"/>M / 1909</date> </stamp>
+              <date when="1909-10-05">OCT 5 / <time>2 - 
+              <gap reason="invisible" unit="characters" quantity="1"/>M</time> / 1909</date> </stamp>
             <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
           </ab>
           <figure rend="link">
@@ -3648,11 +3655,11 @@
           <head type="letterhead">
             <lb/>Form 1 10m 8-09 <lb/>
             <figure rend="link">
-              <head>Logo of the Alaska Steamship Company</head>
+              <head>Logo of the <orgName ref="#ASC">Alaska Steamship Company</orgName></head>
               <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/f/f635d67f-a719-4f7f-ba63-4f930eddabfd.jpg?scale=0.3&amp;rgn=60,45,240,240&amp;fmt=png"/>
-              <figDesc>Logo of the Alaska Steamship Company Black Ball Line</figDesc>
+              <figDesc>Logo of the <orgName ref="#ASC">Alaska Steamship Company</orgName> Black Ball Line</figDesc>
             </figure>
-            <lb/>Alaska Steamship Company 
+            <lb/><orgName ref="#ASC">Alaska Steamship Company</orgName> 
             <lb/>_______190___ 
           </head>
           <opener>
@@ -3667,8 +3674,8 @@
             <lb/><time when="23:32:00">11<hi rend="superscripted and underlined">32</hi></time> I 
             <distinct type="juvenile">fink</distinct><unclear cert="medium">!</unclear> 
             That's bad for I cannot get my mail 
-            <lb/><choice><sic>untill</sic><corr>until</corr></choice>tomorrow, we 
-            <del rend="overwritten">b</del>missed the tide in <geogName ref="#Seymour"><choice><sic>
+            <lb/><choice><sic>untill</sic><corr>until</corr></choice><date when="1909-10-05">tomorrow</date>,  
+            we <del rend="overwritten">b</del>missed the tide in <geogName ref="#Seymour"><choice><sic>
               Seymor</sic><corr>Seymour</corr></choice> 
             <lb/><geogFeat>narrows</geogFeat></geogName> and had to Anchor for 4 hours and that's 
             <lb/>the reason why. I <hi rend="underlined">do</hi> hope I will have a letter 
@@ -3800,7 +3807,7 @@
             <lb/>letters by this time <choice><sic>hasent</sic><corr>haven't</corr></choice>, 
             <choice><sic>U.</sic><corr>you</corr></choice> and I wonder what you 
             <lb/>think! yes I do&#x2014;I wonder what <del rend="overwritten">u</del>
-            <persName ref="#ATS"><!-- ATS??? -->Uncle A</persName> thinks I wonder 
+            <persName ref="#ACS">Uncle A</persName> thinks I wonder 
             <lb/>Sometimes what I think<unclear cert="medium">!</unclear> I Suppose you will be 
             <lb/>getting ready for home in a Short time now<unclear cert="medium">!</unclear> will you 
             <lb/>be glad to get home honey I <distinct type="juvenile">fink</distinct> 
