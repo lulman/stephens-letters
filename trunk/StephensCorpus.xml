@@ -511,7 +511,9 @@
             </birth>
             <residence when="1920" source="#Census1920GSM">Newton, MA</residence>
           </person>
-          <person><persName>Adelaide</persName></person>
+          <person xml:id="AMM">
+            <persName>Macphearson, Adelaid M.</persName>
+          </person>
           <person><persName>the Wards</persName></person>
           <person><persName>Will Ward</persName></person>
           <person><persName>Jack Ward</persName></person>
@@ -525,7 +527,13 @@
           <person><persName>the Jays</persName></person>
           <person><persName>the Thomases</persName></person>
           <person><persName>little Gladys</persName></person>
-          
+          <person xml:id="THM">
+            <persName>"the man"</persName>
+            <note type="biographical">Adelaide's fiance. Gladys never refers to 
+              him by name, but tells her mother about his income ($50 per week) 
+              and drinking habits ("the man" prefers a good cocktail at his club)
+              in her letter postmarked September 24, 1909.</note>
+          </person>          
           <person xml:id="CLA">
             <persName>Anderson, Cora L.</persName>
           </person>
@@ -540,6 +548,22 @@
           </person>
           <person xml:id="MrH">
             <persName>Mr. Holland</persName>
+          </person>
+          <person xml:id="PrD">
+            <persName>Diaz, Jose de la Cruz Porfirio</persName>
+            <note type="biographical">In her letter to her mother postmarked
+              September 24, 1909, Gladys discusses the political tension in 
+              Mexico due to Pres. Diaz' advanced age and the upcoming election. 
+              Gladys spells "Diaz" as "Dias." President Diaz was exiled from 
+              Mexico in 1911, not long after the start of the Mexican Revolution 
+              in 1910, the year following Gladys's visit.
+            </note>
+          </person>
+          <person xml:id="VPR">
+            <persName>Reyes, Bernardo</persName>
+            <note type="biographical">In Gladys's letter to her mother postmarked 
+              September 24, 1909, she mentions the Mexican people's opposition 
+              towards Vice-President Reyes.</note>
           </person>
         </listPerson>
         
@@ -2592,12 +2616,12 @@
             <lb/><salute><persName ref="#MATS">Mother</persName>dear,</salute>
           </opener>
           <p>
-            <lb/><persName>Adelaide</persName> is getting some lovely
+            <lb/><persName ref="AMM">Adelaide</persName> is getting some lovely
             <lb/>things to be married in. She is having
             <lb/>a pale blue broadcloth dress made. She
             <lb/>has a handsome brown suit. Things are 
             <lb/>getting quite interesting I can tell
-            <lb/>you. Just between you and I "the <rs>man</rs>"
+            <lb/>you. Just between you and I <persName ref="#THM">"the man"</persName>"the man"
             <lb/>has one bad feature. He takes a cocktail
             <lb/>now and then. No one here seems to
             <lb/>mind it. And of course I have said
@@ -2619,7 +2643,7 @@
             <lb/><rs>hairdressers</rs> to have a shampoo.
             <lb/>On account of the amount of alkali
             <lb/>in the water people can not wash
-            <lb/>their hair with it themselves. <persName>Adelaide</persName>
+            <lb/>their hair with it themselves. <persName ref="#AMM">Adelaide</persName>
             <lb/>and I made arrangements to go together
             <lb/>this morning. What do you suppose
             <lb/>the woman found--bugs in
@@ -2640,16 +2664,16 @@
             <lb/>of it all soon.
           </p>
           <p>
-            <lb/><rs>Uncle</rs> says I must stay to
+            <lb/><rs ref="#ACS">Uncle</rs>says I must stay to
             <lb/>see the <rs>Presidents</rs> meet and then I
             <lb/>can go home immediately after
             <pb/>
-            <lb/>that. He says <persName>Dias</persName> is so old (79) that
+            <lb/>that. He says <persName ref="#PrD">Dias</persName> is so old (79) that
             <lb/>I probably will never get another
             <lb/>chance to see anything of the kind
             <lb/>again. A revolution in <placeName ref="#Mexico">Mexico</placeName> is 
-            <lb/>imminent if <persName>Dias</persName> dies. The Vice
-            <lb/>Pres. Reyes wants to be Pres. and 
+            <lb/>imminent if <persName ref="#PrD">Dias</persName> dies. The Vice
+            <lb/><persName ref="#VPR"><roleName>Pres.</roleName>Reyes</persName>Pres. Reyes wants to be Pres. and 
             <lb/><rs>the people</rs> hate him terribly. They
             <lb/>have to have <rs>Rurales</rs> every where to
             <lb/>keep them quiet now even. He
