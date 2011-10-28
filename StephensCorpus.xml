@@ -161,7 +161,7 @@
           </place>
           <place type="city" xml:id="Klawock" source="#TGN">
             <placeName>Klawock</placeName>
-            <desc>John J. Macintyre picks up a cannery crew in Klawock.</desc>
+            <desc>The Northwestern picks up a cannery crew in Klawock.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <region type="county">Prince of Wales-Outer Ketchikan</region>
@@ -171,9 +171,7 @@
           </place>
           <place type="village" xml:id="Tuxekan" source="TGN">
             <placeName>Tuxekan</placeName>
-            <desc>John J. Macintyre writes to Gladys about the totems of Tuxekan. The longitude 
-            and latitude designate the geographic center of Tuxekan Island, where the village 
-            was located.</desc>
+            <desc>John J. Macintyre writes to Gladys about the totems of Tuxekan, a Tlingit village.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <region type="county">Prince of Wales-Outer Ketchikan</region>
@@ -202,7 +200,7 @@
             <region type="county">King</region>
             <region type="city">Seattle</region>
             <location>
-              <geo><!-- TGN does not provide latitude and longitude for this --></geo>
+              <geo>47.54641 -122.32590</geo>
             </location>
           </place>
           <place type="city" xml:id="Newton" source="#TGN">
