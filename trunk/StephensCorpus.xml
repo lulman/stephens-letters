@@ -2034,7 +2034,7 @@
             <pb facs="/6/657652de-d6f1-45e8-8d8d-922be44d93c5
               "/>
             <!-- Is what looks like "ossle" actually offle, a mispelling of awfully? -->
-            <lb/>Something <unclear cert="low">else</unclear> naughty --
+            <lb/><distinct type="babyTalk">Somefing ossle</distinct> naughty --
           </p>
           <p>
             <lb/>I don't Care I was mad to think
@@ -2075,7 +2075,7 @@
             <lb/>I recieve your letter before I go North
             <lb/>again I hate to leave at all but
             <lb/>I must! I was very much pleased 
-            <lb/>to hear <persName>Uncle A's</persName> opinion of me
+            <lb/>to hear <persName ref="#ACS"><addName type="nickname">Uncle A's</addName></persName> opinion of me
             <pb facs="/f/fb22e957-125d-4287-8b68-27e3dbe0293a
               "/>
             <lb/>And I hope it will <choice><sic>allways</sic><corr>always</corr></choice> be the
