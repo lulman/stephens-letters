@@ -755,74 +755,10 @@
       </textClass>
       
     </profileDesc>
+    <revisionDesc>
+      <change when="2011-10-29" who="#HLU">Initiated revision history.</change>
+    </revisionDesc>
   </teiHeader>
-  <TEI xml:id="SampleTextStructure">
-  <!-- Here's a sample encoding of the text structure for each letter.
-       I've provided some generic material in the header, but the <div> 
-       That would contain the actual letter is empty so that you can
-       see the basic struture. -->
-    <teiHeader type="text">
-      <fileDesc>
-        <titleStmt>
-          <title>Title</title>
-        </titleStmt>
-        <publicationStmt>
-          <p>Publication Information from the library</p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc corresp="#GS19090706let01">
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
-                1834-1949 1909-1917</collection>
-              <idno>SPEC.RARE.CMS.327</idno>
-            </msIdentifier>
-            <msContents>
-              <p>
-                <!-- Describe contents briefly. -->
-              </p>
-            </msContents>
-            <physDesc>
-              <!-- 
-                TAKE NOTE: Your entire header should answer the following questions about your 
-                source document. At this point in your header, you should discuss anything in 
-                this list not mentioned elsewhere in the header.
-                
-                1. What is the document (letter, will, etc.)?
-                2. What does it say about itself (titles, descriptive notes, etc.)?
-                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
-                4. How is it put together (folded sheets, binding, etc.)?
-                5. What is it made of (paper, vellum, etc.)?
-                6. What is its size (i.e., physical dimensions)?
-                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
-                8. How is it related to other versions (original, copy, print history)?
-                
-                You can use more than one paragraph (tagged <p> </p>).
-              -->
-              <p>  </p>
-              <accMat corresp="#GS19090706env">
-                <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
-                  describe the envelope and enclosure as above, and include an @corresp attribute whose value
-                  is the xml:id of the <div> in the text corresponding to the envelope. -->  
-              </accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <note><!-- Box and folder number from the finding aid (e.g., Box 3, folder 16). --></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    <text>
-      <body>
-        <div></div>
-      </body>
-    </text>
-  </TEI>
   
   <TEI xml:id="HLU_GMS2MAT_1909-07-06">
 
