@@ -477,6 +477,10 @@
            <title level="a">Visitor Information</title>. <title level="m">City of Klawock</title>. 
            Klawock, n. d. Web. 28 Oct. 2011.
          </bibl>
+          <bibl xml:id="threeWeeks" n="Glyn">
+            Glyn, Elinor. <title level="m">Three Weeks</title>. Collection of British Authors 3978. Copyright edition. Leipzig: Bernhard
+            Tauchnitz, 1907. Print.
+          </bibl>
         </listBibl>
         
       </sourceDesc>
@@ -3288,13 +3292,16 @@
             <lb/>Depot if our faces will be as large as last time
             <lb/>I don't fink so do you honey does not? I wonder how
             <lb/>this fellow knew how I was a going to feel?
+            <quote type="block">
             <lb/> " 'Tell her, tell I see
             <lb/>Those eyes, I do not live--that Rome to me
             <lb/>Is hatefull--tell her--oh!--I know not what--
             <lb/>That ever thought and feeling, space and spot,
             <lb/>Is like an ugly dream where she is not;
             <lb/>All persons plagues; all living wearysome;
-            <lb/>All talking empty . . .
+            <lb/>All talking empty . . .<ptr type="noteAnchor" target="thatRome"/><note
+              xml:id="thatRome" resp="ed">Explain reference here<bibl><ref target="#threeWeeks">(Glyn 178)</ref></bibl></note>
+            </quote>
             <lb/>There Goes the whistle and So long for a ittle minnit
             <lb/>well dear I hope you get Some letters before you go to Mexico
             <lb/>City or You will not know what to think has happened
