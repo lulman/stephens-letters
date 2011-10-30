@@ -776,6 +776,7 @@
           </person>
         <person xml:id="REC">
             <persName>Conatser, Robert Eugene</persName>
+            <persName><addName type="nickname">Conatser, Trey</addName></persName>
             <birth when="1985">
               <placeName>Tulsa, OK</placeName>
             </birth>
@@ -784,7 +785,19 @@
             <education>PhD, The Ohio State University (expected 2016)</education>
             <occupation>Graduate Student</occupation>
             <nationality>U.S.A.</nationality>
-            <note type="biographical">Biographical note about Robert Conatser</note>
+            <note type="biographical">Trey Conatser is a doctoral student specializing in British 
+            Romantic literature in the Department of English at The Ohio State University. His 
+            research interests include the poetry and poetics of the Romantic period, the Romantic 
+            response to the French Revolution, women's writing of the Romantic period, and Romantic 
+            long poems by women. Additionally, Trey is interested in digital humanities and editorial 
+            and archival work, especially with regard to access, architecture, canonicty, and periodicity. 
+            Trey's scholarly work has been published in <title level="j">New Media &amp; Society</title> 
+            and <title level="j">CEA Critic</title>, and his poetry and other writing has appeared in 
+            journals such as <title level="j">Seneca Review</title>, <title level="j">New York Quarterly</title>, 
+            <title level="j">Copper Nickel</title>, <title level="j">Mid-American Review</title>, and
+            <title level="j">Prairie Schooner</title>. Between his MA and PhD programs, he taught composition, 
+            research and argumentative writing, creative writing, and technical writing at Ivy Tech 
+            Community College of Indiana in Indianapolis.</note>
           </person>
           <person xml:id="JHH">
             <persName>Holmes, Jonathan H.</persName>
