@@ -740,6 +740,7 @@
       <!-- Identify and describe any hands (i.e., individuals' handwriting) that appear in your document. -->
       <handNotes>
         <handNote xml:id="GMSHand" medium="brown-ink">Round, clear, nearly vertical handwriting.</handNote>
+        <handNote xml:id="JJMHand" medium="black-ink">Cursive handwriting with idiosyncratic orthography.</handNote>
         <handNote xml:id="Stationery" medium="print">Miscellaneous printed text on stationery.</handNote>
         <handNote xml:id="Unknown" medium="pencil">Miscellaneous handwritten notes on stationery or
           envelopes.</handNote>
