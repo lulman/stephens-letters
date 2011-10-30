@@ -767,12 +767,12 @@
               Palmer. In fact, a Herbert E. Palmer corresponding with the relevant genealogical data 
               does not appear at all on the 1910 Census, but this is not surprising if we consider that 
               the itinerant nature of his duties on the Northwestern could have prevented his being 
-              recorded for the 1910 Census. It is likely that he didn't die during this gap, as a Herbert 
+              recorded for the 1910 Census. It's likely that he didn't die during this gap, as a Herbert 
               E. Palmer matching the relevant genealogical data is recorded in the 1920 Census. At this 
               point, he had married Mary Palmer, a first generation Bohemian-American whose parents 
               emigrated from Bohemia, and the two lived in Pierce County, WA, which includes the greater 
               Tacoma area. The 1930 Census shows that Mary had died and Herbert had moved to Richmond, 
-              NY, though it also incorrectly records his birth year as 1877. It's likely that even though 
+              NY, though it also incorrectly estimates his birth year as 1877. It's likely that even though 
               Macintyre refers to Herbert as Irene Palmer's brother, he was in fact her half-brother. 
               The 1930 Census indicates that both of Herbert's parents were born in Massachusetts, while 
               the head of the Palmer household, Gustavus Palmer, was born in Maine. Herbert's mother, 
@@ -888,7 +888,7 @@
             long poems by women. Additionally, Trey is interested in digital humanities and editorial 
             and archival work, especially with regard to access, architecture, canonicty, and periodicity. 
             Trey's scholarly writing has been published in <title level="j">New Media &amp; Society</title> 
-            and <title level="j">CEA Critic</title>, and his poetry and other writing has appeared in 
+            and <title level="j">The CEA Critic</title>, and his poetry and other writing has appeared in 
             journals such as <title level="j">Seneca Review</title>, <title level="j">New York Quarterly</title>, 
             <title level="j">Copper Nickel</title>, <title level="j">Mid-American Review</title>, and
             <title level="j">Prairie Schooner</title>. Between his MA and PhD programs, he taught composition, 
@@ -3926,8 +3926,7 @@
             <choice><sic>differant</sic><corr>differently</corr></choice> than when you were 
             <lb/>here! I <distinct type="juvenile">fink</distinct> So and listen 
             <persName ref="#GMS"><addName type="endearment">dear</addName></persName> did you know that you 
-            <lb/><choice><sic>was</sic><corr>were</corr></choice> <choice>
-              <sic>agetting</sic><corr>getting</corr></choice> 
+            <lb/><choice><sic>was</sic><corr>were</corr></choice> <distinct type="dialect">agetting</distinct> 
             a <choice><sic>lttle</sic><corr>little</corr></choice> kiss every night about 
             <time when="21:30:00">9<hi rend="spercripted and underlined">30</hi></time> well you 
             <lb/>are&#x2014;See how I take advantage of you when you are not here 
