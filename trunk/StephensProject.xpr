@@ -10,6 +10,7 @@
         <file name="Stephens-CommonCSS.css"/>
         <file name="StephensCorpus.xml"/>
         <file name="Stephens-Diplomatic.xsl"/>
+        <file name="Stephens-Edintro.xsl"/>
         <file name="Stephens-Reading.xsl"/>
     </projectTree>
 </project>
