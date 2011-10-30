@@ -13,7 +13,6 @@
     </xd:doc>
     
     <!-- Include common style sheet for Stephens family letters. -->
-    
     <xsl:include href="Stephens-Common.xsl"/>
     
     <!-- Define templates required for the reading view. -->
