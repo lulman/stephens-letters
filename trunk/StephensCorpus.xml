@@ -783,7 +783,15 @@
             <education>BA, University of Texas at Arlington (2006)</education>
             <education>MA, University of Nebraska (2008)</education>
             <education>PhD, The Ohio State University (expected 2016)</education>
-            <occupation>Graduate Student</occupation>
+            <occupation>
+              <date type="start" when="2008-08-23"/>
+              <date type="end" when="2011-05-09"/>
+              Adjunct College English Instructor
+            </occupation>
+            <occupation>
+              <date type="start" when="2011-09-21"/>
+              Graduate Student: University Fellow and Graduate Teaching Associate
+            </occupation>
             <nationality>U.S.A.</nationality>
             <note type="biographical">Trey Conatser is a doctoral student specializing in British 
             Romantic literature in the Department of English at The Ohio State University. His 
