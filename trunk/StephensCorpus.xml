@@ -860,7 +860,7 @@
             </address>
           </ab>
           <ab type="endorsement">
-            <handShift new="Unknown"/> 94<ptr type="NoteAnchor" target="Endorsements"/>
+            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
             <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
               postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
               number is circled.</note>
