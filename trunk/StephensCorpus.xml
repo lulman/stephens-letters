@@ -527,6 +527,16 @@
              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
            Web. 21 Oct. 2011.
          </bibl>
+         <bibl xml:id="Census1900IP" n="United States">
+            <title level="a">United States Census 1900, for Irene Palmer.</title> <title 
+              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
+            Web. 30 October 2011.
+         </bibl>
+         <bibl xml:id="Census1910IP" n="United States">
+            <title level="a">United States Census 1910, for Irene Palmer.</title> <title 
+              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
+            Web. 30 October 2011.
+         </bibl>
          <bibl xml:id="NYT1" n="NYT1869-03-07">
            <title level="a">The North Pacific Steamship Company Chartered.</title> <title
              level="m">New York Times</title>. 07 March 1869. Web. 22 Oct. 2011.
@@ -691,10 +701,24 @@
           </person>
           <person xml:id="IP">
             <persName>Palmer, Irene</persName>
+            <birth>
+              <date when="1892" source="#Census1900IP">September 1892</date>
+              <placeName>Washington</placeName>
+            </birth>
+            <residence when="1910" source="#Census1910IP">Tacoma, WA</residence>
             <note type="biographical">
               In his letter to Gladys Stephens of 4 October 1909, John J. Macintyre identifies 
               Irene Palmer as the sister of the Purser on the S.S. Northwestern, and indicates 
-              that she is 17 years old at the time of the letter.
+              that she is 17 years old at the time of the letter. The 1900 U.S. Census records 
+              that an Irene Palmer was born in September 1892 in Anderson Island, Washington, 
+              which would corroroborate her age in Macintyre's letter. The 1910 U.S. Census 
+              records Irene Palmer's city of residence as Tacoma, which would likely be her city 
+              of residence a year earlier at the time of Macintyre's letter dated 04 October 1909. 
+              Tacoma's proximity to the Alaska Steamship Company's headquarters in Seattle argues 
+              for the plausibility of Irene Palmer hitching a ride to spend time with her brother 
+              and to see the landscape of the Pacific Northwest.
+              <bibl><ref target="#Census1900IP">United States Census, 1900</ref>; 
+              <ref target="#Census1910IP">United States Census, 1910</ref></bibl>
             </note>
           </person>
         </listPerson>
@@ -799,7 +823,7 @@
             response to the French Revolution, women's writing of the Romantic period, and Romantic 
             long poems by women. Additionally, Trey is interested in digital humanities and editorial 
             and archival work, especially with regard to access, architecture, canonicty, and periodicity. 
-            Trey's scholarly work has been published in <title level="j">New Media &amp; Society</title> 
+            Trey's scholarly writing has been published in <title level="j">New Media &amp; Society</title> 
             and <title level="j">CEA Critic</title>, and his poetry and other writing has appeared in 
             journals such as <title level="j">Seneca Review</title>, <title level="j">New York Quarterly</title>, 
             <title level="j">Copper Nickel</title>, <title level="j">Mid-American Review</title>, and
