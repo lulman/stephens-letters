@@ -589,6 +589,12 @@
             Glyn, Elinor. <title level="m">Three Weeks</title>. Collection of British Authors 3978. Copyright edition. Leipzig: Bernhard
             Tauchnitz, 1907. Print.
           </bibl>
+          <bibl xml:id="AJS" n="AJS">
+            Stein, Alan J. <title level="a">Streetcar crashes at the entrance of Seattle's A-Y-P Exposition, 
+            killing one and injuring 55, on September 24, 1909.</title> <title level="m">History Link: The 
+            Free Online Encyclopedia of Washington State History</title>. HistoryLink.org, 2007. Web. 30 
+            October 2011.
+          </bibl>
         </listBibl>
         
       </sourceDesc>
@@ -3978,7 +3984,14 @@
               </addName></persName><hi rend="underline">no more</hi> 
             <lb/>for me! <choice><sic>they</sic><corr>there</corr></choice> was also a
             <add place="above">Street</add> Car Accident at the fair grounds 
-            <lb/>1 killed and 50 wounded but none Seriously! little 
+            <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note4"/>
+            <note resp="ed" xml:id="JJM19091004note4">
+              "On September 24, 1909, a Seattle Electric Company streetcar jumps the track at the 
+              corner of E 40th Street and 14th Avenue NE (later University Way). The streetcar crashes 
+              into three concession buildings across the street from the main entrance of the 
+              Alaska-Yukon-Pacific Exposition. One passenger, Frank Hull of Tacoma, is killed, 
+              and 55 men, women, and children are injured" <bibl><ref target="#AJS">Stein</ref></bibl>.
+            </note> little 
             <lb/>do we know how Soon we will be blotted out 
             <lb/>of this world the best we Can do is to always be ready 
             <pb facs="/2/225a8af1-9a76-4245-bd1b-0de460e87b87"/>
