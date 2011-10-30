@@ -6,10 +6,87 @@
   <teiHeader type="corpus">
     <fileDesc>
       <titleStmt>
-        <title>Title</title>
+        <title>Selected Letters from the Ivan S. Gilbert Collection of Stephens Family Travel 
+        Letters and Ephemera</title>
+        
+        <editor><persName ref="#REC">Robert Eugene Conaster</persName></editor>
+        <editor><persName ref="#JHH">Jonathan H. Holmes</persName></editor>
+        <editor><persName ref="#WCK">William C. Kurlinkus</persName></editor>
+        <editor><persName ref="#JPLS">Jonathan Paul Leidheiser-Stoddard</persName></editor>
+        <editor><persName ref="#CMM">C. Marie Meza</persName></editor>
+        <editor><persName ref="#VMM">Victoria M. Munoz</persName></editor>
+        <editor><persName ref="#ACO">Ashley Cole Owens</persName></editor>
+        <editor><persName ref="#EBT">Evan B. Thomas</persName></editor>
+        <editor><persName ref="#MAW">Marion Aikens Wolfe</persName></editor>
+        <editor role="Principal-editor"><persName ref="#HLU">H. Lewis Ulman</persName></editor>
+        <editor><persName ref="#RMW">Rachel M. Waymel</persName></editor>
+        
+        <respStmt>
+          <resp>Creation of digital scans of manuscript pages: </resp>
+          <persName>Lisa Iacobellis, Ohio State University Libraries</persName>
+        </respStmt>
+        
+        <respStmt>
+          <resp>Creation of initial machine-readable transcript: </resp>
+          <persName ref="#REC">Robert Eugene Conaster</persName>
+          <persName ref="#JHH">Jonathan H. Holmes</persName>
+          <persName ref="#WCK">William C. Kurlinkus</persName>
+          <persName ref="#JPLS">Jonathan Paul Leidheiser-Stoddard</persName>
+          <persName ref="#CMM">C. Marie Meza</persName>
+          <persName ref="#VMM">Victoria M. Munoz</persName>
+          <persName ref="#ACO">Ashley Cole Owens</persName>
+          <persName ref="#EBT">Evan B. Thomas</persName>
+          <persName ref="#MAW">Marion Aikens Wolfe</persName>
+          <persName ref="#HLU">H. Lewis Ulman</persName>
+          <persName ref="#RMW">Rachel M. Waymel</persName>
+        </respStmt>
+        
+        <respStmt>
+          <resp>Conversion to TEI.2-conformant markup: </resp>
+          <persName ref="#REC">Robert Eugene Conaster</persName>
+          <persName ref="#JHH">Jonathan H. Holmes</persName>
+          <persName ref="#WCK">William C. Kurlinkus</persName>
+          <persName ref="#JPLS">Jonathan Paul Leidheiser-Stoddard</persName>
+          <persName ref="#CMM">C. Marie Meza</persName>
+          <persName ref="#VMM">Victoria M. Munoz</persName>
+          <persName ref="#ACO">Ashley Cole Owens</persName>
+          <persName ref="#EBT">Evan B. Thomas</persName>
+          <persName ref="#MAW">Marion Aikens Wolfe</persName>
+          <persName ref="#HLU">H. Lewis Ulman</persName>
+          <persName ref="#RMW">Rachel M. Waymel</persName>
+        </respStmt>
+        
+        
       </titleStmt>
       <publicationStmt>
-        <p>Publication Information</p>
+        <publisher>The Ohio State University Library.
+          <address>
+                  <addrLine n="1">Rare Books and Manuscripts Library</addrLine>
+                  <addrLine n="2">327 Main Library</addrLine>
+                  <addrLine n="3">1858 Neil Avenue Mall</addrLine>
+                  <addrLine n="4">Columbus, OH 43210</addrLine>
+               </address>
+        </publisher>
+        
+        <pubPlace>Columbus, OH</pubPlace>
+        
+        <!-- 
+          The <idno> element is only required for documents with a standard id number
+          such as a library call number.. 
+        -->
+        <idno type="CallNumber">G226_D6_A3_1852</idno>
+        
+        <availability>
+          <p>The Stephens family travel letters are the property of the Rare Books and Manuscripts
+            Library of The Ohio State University Libraries. Any use of the material should
+            acknowledge such ownership.</p>
+          <p xml:id="CreativeCommons">
+            <![CDATA[<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://creativecommons.org/images/public/somerights20.png"/></a><br/>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-Noncommercial-Share Alike 3.0  License</a>.<br/>
+                  This license does not transfer any rights regarding material used in the edition by permission of a third party.]]>
+          </p>
+        </availability>
+        
+        <date>2010-03-11</date>
       </publicationStmt>
       <sourceDesc>
         
@@ -20,10 +97,7 @@
               The "level" attribute "indicates whether this is the title of an article, book, journal, 
               series, or unpublished material, indicated as a, b, j, s, or u" (TEI P4X, ch. 5.2.1).
             -->
-            <title>Selected Letters from the Ivan S. Gilbert Collection of Stephens Family Travel 
-              Letters and Ephemera</title>
-            
-            <author>xxx</author>
+            <title>The Ivan S. Gilbert Collection of Stephens Family Travel Letters and Ephemera</title>
             
           </titleStmt>
           
@@ -490,6 +564,15 @@
         <rendition xml:id="ot1">text written on an approximately 45-degree angle to the surrounding
           line(s) of text, slanting downward left to right</rendition>
       </tagsDecl>
+      <projectDesc>
+        <p>Project description goes here.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p>Editorial declaration goes here.</p>
+      </editorialDecl>
+      <refsDecl>
+        <p>Refs declaration goes here.</p>
+      </refsDecl>
     </encodingDesc>
     <profileDesc>
       
@@ -757,7 +840,7 @@
       
     </profileDesc>
     <revisionDesc>
-      <change when="2011-10-29" who="#HLU">Initiated revision history.</change>
+      <change when="2011-10-29" who="#HLU">Initiated revision history.<roleName>Principal editor</roleName></change>
     </revisionDesc>
   </teiHeader>
   
