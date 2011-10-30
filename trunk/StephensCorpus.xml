@@ -532,10 +532,35 @@
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
             Web. 30 October 2011.
          </bibl>
+         <bibl xml:id="Census1900MTP" n="United States">
+            <title level="a">United States Census 1900, for Minnie T. Palmer.</title> <title 
+              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
+            Web. 30 October 2011.
+         </bibl>
+         <bibl xml:id="Census1900HEP" n="United States">
+            <title level="a">United States Census 1900, for Herbert E. Palmer.</title> <title 
+              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
+            Web. 30 October 2011.
+         </bibl>
          <bibl xml:id="Census1910IP" n="United States">
             <title level="a">United States Census 1910, for Irene Palmer.</title> <title 
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
             Web. 30 October 2011.
+         </bibl>
+         <bibl xml:id="Census1920HEP" n="United States">
+            <title level="a">United States Census 1920, for Herbert E. Palmer.</title> <title 
+              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
+            Web. 30 October 2011.
+         </bibl>
+         <bibl xml:id="Census1920MP" n="United States">
+            <title level="a">United States Census 1920, for Mary Palmer.</title> <title 
+              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
+            Web. 30 October 2011.
+         </bibl>
+         <bibl xml:id="Census1930HEP" n="United States">
+             <title level="a">United States Census 1930, for Herbert E. Palmer.</title> <title 
+               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
+             Web. 30 October 2011.
          </bibl>
          <bibl xml:id="NYT1" n="NYT1869-03-07">
            <title level="a">The North Pacific Steamship Company Chartered.</title> <title
@@ -703,7 +728,7 @@
             <persName>Palmer, Irene</persName>
             <birth>
               <date when="1892" source="#Census1900IP">September 1892</date>
-              <placeName>Washington</placeName>
+              <placeName>Anderson Island, WA</placeName>
             </birth>
             <residence when="1910" source="#Census1910IP">Tacoma, WA</residence>
             <note type="biographical">
@@ -711,14 +736,53 @@
               Irene Palmer as the sister of the Purser on the S.S. Northwestern, and indicates 
               that she is 17 years old at the time of the letter. The 1900 U.S. Census records 
               that an Irene Palmer was born in September 1892 in Anderson Island, Washington, 
-              which would corroroborate her age in Macintyre's letter. The 1910 U.S. Census 
-              records Irene Palmer's city of residence as Tacoma, which would likely be her city 
-              of residence a year earlier at the time of Macintyre's letter dated 04 October 1909. 
-              Tacoma's proximity to the Alaska Steamship Company's headquarters in Seattle argues 
-              for the plausibility of Irene Palmer hitching a ride to spend time with her brother 
-              and to see the landscape of the Pacific Northwest.
+              which corroroborates her age in Macintyre's letter. The 1900 Census also shows 
+              that Irene had two older brothers, which corroborates Macintyre's description of her 
+              as the only girl in her family. The 1910 U.S. Census records Irene Palmer's city of 
+              residence as Tacoma, which would likely be her city of residence a year earlier at 
+              the time of Macintyre's letter dated 04 October 1909. Tacoma's proximity to the Alaska 
+              Steamship Company's headquarters in Seattle argues for the plausibility of Irene Palmer 
+              hitching a ride to spend time with her brother and to see the landscape of the Pacific 
+              Northwest.
               <bibl><ref target="#Census1900IP">United States Census, 1900</ref>; 
               <ref target="#Census1910IP">United States Census, 1910</ref></bibl>
+            </note>
+          </person>
+          <person xml:id="HEP">
+            <persName>Palmer, Herbert E.</persName>
+            <birth> 
+              <date when="1876" source="#Census1900HEP">June 1876</date>
+              <placeName>Massachusetts</placeName>
+            </birth>
+            <residence when="1900" source="#Census1900HEP">Anderson Island, WA</residence>
+            <residence when="1920" source="#Census1920HEP">Pierce County, WA</residence>
+            <residence when="1930" source="#Census1930HEP">Richmond, NY</residence>
+            <note type="biographical">
+              In his letter to Gladys Stephens of 4 October 1909, John J. Macintyre speaks of spending 
+              time with the S.S. Northwestern's purser's sister, whom he identifies as Irene Palmer. 
+              Though Macintyre never mentions the purser by name, the 1900 U.S. Census shows that Irene 
+              Palmer lived with two older brothers: Gilbert S. and Herbert E. Palmer. The 1910 Census 
+              indicates that Gilbert S. Palmer was still a member of the family household, while Herbert 
+              E. Palmer is not listed, suggesting that the purser of whom Macintyre speaks is Herbert E. 
+              Palmer. In fact, a Herbert E. Palmer corresponding with the relevant genealogical data 
+              does not appear at all on the 1910 Census, but this is not surprising if we consider that 
+              the itinerant nature of his duties on the Northwestern could have prevented his being 
+              recorded for the 1910 Census. It is likely that he didn't die during this gap, as a Herbert 
+              E. Palmer matching the relevant genealogical data is recorded in the 1920 Census. At this 
+              point, he had married Mary Palmer, a first generation Bohemian-American whose parents 
+              emigrated from Bohemia, and the two lived in Pierce County, WA, which includes the greater 
+              Tacoma area. The 1930 Census shows that Mary had died and Herbert had moved to Richmond, 
+              NY, though it also incorrectly records his birth year as 1877. It's likely that even though 
+              Macintyre refers to Herbert as Irene Palmer's brother, he was in fact her half-brother. 
+              The 1930 Census indicates that both of Herbert's parents were born in Massachusetts, while 
+              the head of the Palmer household, Gustavus Palmer, was born in Maine. Herbert's mother, 
+              Minnie T. Palmer, was born in Massachusetts, and didn't marry Gustavus until 1882, 
+              approximately 6 years after Herbert's birth. 
+              <bibl><ref target="#Census1900HEP">United States Census, 1900</ref>; 
+              <ref target="#Census1900MTP">United States Census, 1900</ref>; <ref target="#Census1910IP">
+              United States Census, 1910</ref>; <ref target="#Census1920MP">United States Census, 1920</ref>; 
+              <ref target="#Census1920HEP">United States Census, 1920</ref>;<ref target="#Census1930HEP">
+              United States Census, 1930</ref></bibl>
             </note>
           </person>
         </listPerson>
@@ -3831,13 +3895,13 @@
             you Can See She has <choice>
               <sic>bin</sic><corr>been</corr></choice> 
             <lb/>in the ha<del rend="overwritten">v</del>bit of having her own way and She Is quite a little 
-            <lb/>flirt&#x2014;but a nice girl. She Cannot understand me at all, as the 
-            <lb/>Purser and <choice><sic>my self</sic><corr>I</corr></choice> <choice><sic>is</sic>
+            <lb/>flirt&#x2014;but a nice girl. She Cannot understand me at all, as <rs ref="#HEP">the 
+            <lb/>Purser</rs> and <choice><sic>my self</sic><corr>I</corr></choice> <choice><sic>is</sic>
               <corr>are</corr></choice> the only two on the <rs ref="#Northwestern">Ship</rs> that 
             <lb/><choice><sic>hasent</sic><corr>haven't</corr>
             </choice> a little wife and large family (the Chief's #2 20) 
             <lb/>and <rs ref="#Northwestern">this Ship</rs> Carries no freight C
-            <del rend="overwritten">r</del>lerk the purser has that 
+            <del rend="overwritten">r</del>lerk <rs ref="#HEP">the purser</rs> has that 
             <lb/>work to look after <seg type="obliqueText" rendition="#ot1">and</seg> 
             So It has <choice><sic>bin</sic><corr>been</corr></choice>
             up to me to show her around<unclear cert="medium">!</unclear> 
