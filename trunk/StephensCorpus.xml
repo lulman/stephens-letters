@@ -279,6 +279,19 @@
               <geo>47.54641 -122.32590</geo>
             </location>
           </place>
+          <place type="fairgrounds" xml:id="AYPE">
+            <placeName>Alaska-Yukon Pacific Exposition</placeName>
+            <desc>In his letter of 04 October 1909, John J. Macintyre recounts an accident 
+            involving an electric street car derailing at the entrance to the Alaska-Yukon 
+            Pacific Exposition, which later became the campus for the University of Washington.</desc>
+            <country>USA</country>
+            <region type="state">Washington</region>
+            <region type="county">King</region>
+            <region type="city">Seattle</region>
+            <location>
+              <geo>47.657338 -122.310705</geo>
+            </location>
+          </place>
           <place type="city" xml:id="Newton" source="#TGN">
             <placeName>Newton</placeName>
             <desc>Mrs. A. T. Stephens lives in Newton.</desc>
@@ -3983,7 +3996,7 @@
             <hi rend="underlined">no</hi> more <persName ref="#GMS"><addName type="endearment">dear
               </addName></persName><hi rend="underline">no more</hi> 
             <lb/>for me! <choice><sic>they</sic><corr>there</corr></choice> was also a
-            <add place="above">Street</add> Car Accident at the fair grounds 
+            <add place="above">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 
             <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note4"/>
             <note resp="ed" xml:id="JJM19091004note4">
               "On September 24, 1909, a Seattle Electric Company streetcar jumps the track at the 
