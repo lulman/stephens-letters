@@ -259,8 +259,7 @@
           </place>
           <place type="city" xml:id="Ketchikan" source="#TGN">
             <placeName>Ketchikan</placeName>
-            <desc>John J. Macintyre stops briefly in Ketchikan and spends some 
-              time with <persName ref="#IP">Irene Palmer</persName>.</desc>
+            <desc>John J. Macintyre stops briefly in Ketchikan and spends some time with Irene Palmer.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <region type="county">Ketchikan Gateway</region>
@@ -3621,28 +3620,12 @@
             </msIdentifier>
             <msContents>
               <p>
-                <!-- Describe contents briefly. -->
-                Ship schedule and route; spending time with the Purser's sister; pictures received; 
-                specifications of the Northwestern compared to the Santa Clara; auto accidents.
+                Ship schedule and route for the S.S. Northwestern; spending time with the Purser's 
+                sister; pictures received from Gladys; specifications of the Northwestern compared 
+                to the Santa Clara; auto accidents.
               </p>
             </msContents>
             <physDesc>
-              <!-- 
-                TAKE NOTE: Your entire header should answer the following questions about your 
-                source document. At this point in your header, you should discuss anything in 
-                this list not mentioned elsewhere in the header.
-                
-                1. What is the document (letter, will, etc.)?
-                2. What does it say about itself (titles, descriptive notes, etc.)?
-                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
-                4. How is it put together (folded sheets, binding, etc.)?
-                5. What is it made of (paper, vellum, etc.)?
-                6. What is its size (i.e., physical dimensions)?
-                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
-                8. How is it related to other versions (original, copy, print history)?
-                
-                You can use more than one paragraph (tagged <p> </p>).
-              -->
               <p>
                 Two loose sheets of dirty white Alaska Steamship Company letterhead stationery 
                 measuring 10.875 inches by 8.5 inches, with light blue horizontal lining on the recto 
@@ -3726,7 +3709,7 @@
             <lb/>well <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
             I will be In <placeName ref="#Seattle">Seattle</placeName> <date when="1909-10-04">tonight</date> about 
             <lb/><time when="23:32:00">11<hi rend="superscripted and underlined">32</hi></time> I 
-            <distinct type="juvenile">fink</distinct><unclear cert="medium">!</unclear> 
+            <distinct type="babyTalk">fink</distinct><unclear cert="medium">!</unclear> 
             That's bad for I cannot get my mail 
             <lb/><choice><sic>untill</sic><corr>until</corr></choice><date when="1909-10-05">tomorrow</date>,  
             we <del rend="overwritten">b</del>missed the tide in <geogName ref="#Seymour"><choice><sic>
@@ -3740,7 +3723,7 @@
             (<unclear cert="high" reason="penstroke and blot following word">how</unclear> I 
             <lb/>would) And See if <choice><sic>they</sic><corr>there</corr></choice> is any Change in my 
             <persName ref="#GMS"><addName type="endearment">little 
-              <lb/>girl</addName></persName> with all her travels I don't <distinct type="juvenile">fink</distinct> 
+              <lb/>girl</addName></persName> with all her travels I don't <distinct type="babyTalk">fink</distinct> 
             So&#x2014;hope not 
             <lb/>any way<unclear cert="medium">!</unclear> we are a day ahead of time on the time 
             <lb/>I Set as we only have a half a cargo It looks bad 
@@ -3816,7 +3799,7 @@
             I have not <choice><sic>Saw</sic><corr>Seen</corr></choice> her Since 
             <lb/>yes all right (<persName ref="#IP">Irene Palmer</persName>) speaking of pictures 
             <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
-            <lb/>I <distinct type="juvenile">fink</distinct> the world of that one you sent me, 
+            <lb/>I <distinct type="babyTalk">fink</distinct> the world of that one you sent me, 
             but <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             <choice><sic>havent</sic><corr>haven't</corr></choice> 
             <lb/>you got your <del rend="strikethrough"><unclear cert="medium" 
@@ -3835,8 +3818,8 @@
             at that time and see if you Can Catch me 
             <lb/>at It&#x2014;I wonder <del rend="overwritten">o</del>if you will be So Economical with 
             <lb/>then when I See you again  <hi rend="underlined">hope not</hi> 
-            <distinct type="juvenile">S<unclear cert="high" reason="no dot over i">i</unclear>
-              sent</distinct> nice of you I <distinct type="juvenile">fink</distinct> 
+            <distinct type="babyTalk">S<unclear cert="high" reason="no dot over i">i</unclear>
+              sent</distinct> nice of you I <distinct type="babyTalk">fink</distinct> 
             <lb/>tell me <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <pb facs="/8/89dc1d77-e539-4ca6-b7b7-26f005889808"/>
             I do not know if I told you about the <name ref="#Northwestern">Northwestern</name> 
@@ -3886,24 +3869,25 @@
             <lb/>Sometimes what I think<unclear cert="medium">!</unclear> I Suppose you will be 
             <lb/>getting ready for home in a Short time now<unclear cert="medium">!</unclear> will you 
             <lb/>be glad to get home <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
-            I <distinct type="juvenile">fink</distinct> So<unclear cert="medium">!</unclear> 
+            I <distinct type="babyTalk">fink</distinct> So<unclear cert="medium">!</unclear> 
             you have <choice><sic>bin</sic><corr>been</corr></choice> gone from 
             <lb/>home quite a while haven<supplied reason="omitted" resp="ed">'</supplied>t you? 
             In another year you will be gone 2 months from here! that's the way the time 
             <lb/>goes to me well <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
-            I <distinct type="juvenile">fink</distinct> I had better 
+            I <distinct type="babyTalk">fink</distinct> I had better 
             <choice><sic>sing</sic><corr>sign</corr></choice> off I do 
-            <lb/>not want to take up all of you<!-- spelling? --> time&#x2014;yes I do 
+            <lb/>not want to take up all of your time&#x2014;yes I do 
             <choice><sic>to</sic><corr>too</corr></choice>&#x2014;
             <lb/>but I must not be <choice><sic>to</sic><corr>too</corr></choice> Selfish 
-            <distinct type="juvenile">Sisent</distinct> nice<unclear cert="medium">!</unclear> tell me 
+            <distinct type="babyTalk">Sisent</distinct> nice<unclear cert="medium">!</unclear> tell me 
             <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <lb/>about writing <del rend="strikethrough"><unclear cert="medium" 
               reason="strikethrough">or where to</unclear></del> As you will be on your way 
             <lb/>home before we finish another <choice><sic>Voige</sic><corr>Voyage</corr></choice>
             and tell me about 
             <lb/>writing to your home (&amp;tc) <hi rend="underlined">how</hi> I would like to see you 
-            <lb/>this A.M. So long <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
+            <lb/>this <choice><abbr>A.M.</abbr><expan>morning</expan></choice> So long <persName ref="#GMS">
+              <addName type="endearment">honey</addName></persName> 
           </p>
           <closer>
             <lb/><salute>"<gap reason="illegible" unit="characters" quantity="2"/>if" a 
