@@ -166,10 +166,7 @@
               <geo>47.8333 -122.4333</geo>
             </location>
           </place>
-          <place type="country"><geogName>Mexico</geogName>
-            <desc>In her letter dated August 8, 1909, Gladys is planning a visit to Mexico.</desc>
-          </place>
-          <place type="hotel"><placeName>Hotel Georgian</placeName><location><address><addrLine>1420 4th Ave
+          <place type="hotel" xml:id="Georgian" source="#TGN"><placeName>Hotel Georgian</placeName><location><address><addrLine>1420 4th Ave
           </addrLine>
           <addrLine>Seattle, WA</addrLine>
           </address>
@@ -193,7 +190,9 @@
           
           <place type="nation" xml:id="Mexico" source="#TGN">
             <placeName>Mexico</placeName>
-            <desc>Gladys Stephens reminisces about her time in Mexico</desc>
+            <desc>Gladys Stephens reminisces about her time in Mexico.</desc>
+            <desc>In her letter dated August 8, 1909, Gladys tells her mother
+            about plans for an upcoming excursion to Mexico.</desc>
             <country>Mexico</country>
             <location>
               <geo>23.0000 -102.0000</geo>
@@ -224,6 +223,17 @@
             <region type="state">California</region>
             <location>
               <geo>37.0000 -119.0000</geo>
+            </location>
+          </place>
+          <place type="state" xml:id="Texas" source="#TGN"><placeName>Texas</placeName>
+            <desc>In her letter dated August 8, 1909, Gladys mentions meeting a wealthy
+            judge who owns a large ranch in Texas.  It is also clear that this judge is an 
+            acquaintance of Gladys's Uncle Alex.  She has been invited to visit them, although
+            the exact location of their ranch within the state of Texas is not specified.</desc>
+          <country>USA</country>
+          <region>Texas</region>
+            <location>
+              <geo>30.0000 -100.0000</geo>
             </location>
           </place>
           <place type="city" xml:id="ElPaso" source="#TGN">
@@ -446,7 +456,10 @@
               <geo>44.4620852 -110.6424411</geo>
             </location>
             <desc>In her letters of July 6 and 10, 1909, Stephens refers to a three-day trip through
-              Yellowstone National Park on her way to Seattle.</desc>
+            Yellowstone National Park on her way to Seattle.</desc>
+            <desc>In her letter dated August 8, 1909, Gladys Stephens mentions having sent postcards 
+              from Yellowstone to her Aunt, which she likely purchased on her three-day excursion
+              prior to returning to Seattle.</desc>
           </place>
           <place type="city" xml:id="StLouis" source="#TGN">
             <placeName>Saint Louis</placeName>
@@ -613,6 +626,8 @@
             Zwiefelhofer, David B. <title level="m">Find Latitude and Longitude</title>. 2011. Web.
             31 Oct. 2011.
           </bibl>
+          <bibl xml:id="RS" n="RS">Shannon, Robin.  <title level="m">Seattle's Historic Hotels</title>. 2010. <title>Google Books</title>.
+          Web. 23 October 2011.</bibl>
         </listBibl>
         
         <listEvent>
@@ -838,6 +853,9 @@
           <person><persName>the Jays</persName></person>
           <person><persName>the Thomases</persName></person>
           <person><persName>little Gladys</persName></person>
+          <person><persName>Walt</persName></person>
+          <person><persName>Mrs. Rich</persName></person>
+          <person><persName>the Dotens</persName></person> 
           <person xml:id="THM">
             <persName>"the man"</persName>
             <note type="biographical">Adelaide's fiance. Gladys never refers to 
