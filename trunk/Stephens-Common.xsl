@@ -49,13 +49,7 @@
                   select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>
             </title>
             <style type="text/css">
-              <!-- Remove width rule for combined view. -->
-              body {
-                   margin: 30px;
-                   background-color: #FFFFFF;
-                   font-family: Verdana, Arial, Helvetica, sans-serif;
-                   width: 40em;
-               }                             
+              <xsl:value-of select="$bodyRule"/>
                div.pagebreak {
                    margin-top : 25px;
                    margin-bottom : 0px;
@@ -135,20 +129,34 @@
             </p>
             <hr/>
             <p align="center">
-               <a
-                  href="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm"
-                  target="self">Project Web Site</a> | <a href="DoaneJournal-EdIntro.html"
-                  target="self"> Ed. Intro</a> || <strong>Views</strong>: Reading (current/<a
-                  href="#view">about</a>) | <a href="DoaneJournal-Diplomatic.html" target="self">
-                  Diplomatic</a> | <a href="DoaneJournal-Splitview.html" target="self"> MS
-                  Image/Text</a>
+               <xsl:element name="a">
+                  <xsl:attribute name="href">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm</xsl:attribute>
+                  <xsl:attribute name="target">self</xsl:attribute>Project Web Site</xsl:element> | 
+               <xsl:element name="a">
+                  <xsl:attribute name="href">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensLetters-EdIntro.htm</xsl:attribute>
+                  <xsl:attribute name="target">self</xsl:attribute>Ed. Intro
+               </xsl:element> || <strong>Views</strong>: Reading (current/<xsl:element name="a"><xsl:attribute name="href">#view</xsl:attribute><xsl:attribute name="target">self</xsl:attribute>about</xsl:element>) | 
+               <xsl:element name="a">
+                  <xsl:attribute name="href">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensLetters-Diplomatic.html</xsl:attribute>
+                  <xsl:attribute name="target">self</xsl:attribute>
+                  Diplomatic
+               </xsl:element> | 
+               <xsl:element name="a">
+                  <xsl:attribute name="href">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensLetters-Diplomatic.html</xsl:attribute>
+                  <xsl:attribute name="target">self</xsl:attribute>
+                  MS Image/Text
+               </xsl:element>               
                <br/><br/><strong>This edition is still being developed. Please do not cite until
                   this notice is removed.</strong>
             </p>
-            <!-- Insert information from teiHeader for the corpus and invoke apply-templates for TEI
-            elements. -->
-            <!--<xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader[@type='corpus']"/>-->
-            <xsl:apply-templates select="//tei:teiCorpus/tei:TEI/tei:text"/>
+            
+            <!-- Insert information from the <text> of each TEI element, wrapping each <text> in a div 
+             of class "correspondence." -->
+            <xsl:for-each select="/tei:teiCorpus/tei:TEI/tei:text">
+               <div class="correspondence">
+                  <xsl:apply-templates/>
+               </div>
+            </xsl:for-each>
             
             <!-- Insert, count, encode by cardinal position, and link the explanatory annotations. -->
             <hr/>
@@ -192,19 +200,7 @@
             <p>
                <strong>About this View of the Journal</strong>
             </p>
-            <p><a name="view"/>The text of the journal is organized by daily entries. Line breaks in
-               the manuscript are not reported; rather, lines wrap in the browser's window. Page
-               breaks are not reported. Paragraph breaks follow those in the manuscript. Spelling,
-               punctuation, capitalization, and abbreviations are reported as they appear in the
-               manuscript. Text highlighted by Doane with an underscore is underscored in this view.
-               Text canceled by Doane is suppressed. Text added by Doane between lines or in the
-               margins is silently incorporated into the text. All material added by the editor is
-               surrounded by square brackets: uncertain readings are enclosed in square brackets and
-               followed by a question mark, and text supplied by the editor for clarity is set in
-               italics and surrounded by square brackets. Gaps in the manuscript (e.g., from tears)
-               are indicated by elipses enclosed by square brackets. Links to notes and external
-               materials are colored and underlined. Finally, the background consists of a tiled
-               detail from a page of Doane's journal.</p>
+            <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
             <hr/>
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
@@ -235,6 +231,7 @@
       <xsl:apply-templates select="tei:div[@type='envelope']"/>
    </xsl:template>
    <xsl:template match="tei:div[@type='envelope']">
+      <div class="envelope">
       Envelope. <xsl:apply-templates
          select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:accMat"></xsl:apply-templates>
       <p>Return Address:
@@ -243,6 +240,7 @@
       <p>Postmark: <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark']"/></p>      
       <p>Cancellation: <xsl:apply-templates select="tei:ab/tei:stamp[@type='cancellation']"/></p>      
       <p>Endorsement: <xsl:apply-templates select="tei:ab[@type='endorsement']"/></p>      
+      </div>
    </xsl:template>
    <xsl:template match="tei:div[@type='enclosure']"/>
    <xsl:template match="tei:div[@type='letter']">
