@@ -947,6 +947,17 @@
             <occupation>Graduate Student</occupation>
             <nationality>U.S.A.</nationality>
           </person>
+          <person xml:id="JHH">
+            <persName>Holmes, Jonathan H.</persName>
+            <birth when="1982">
+              <placeName>Coshocton, OH</placeName>
+            </birth>
+            <education>BA, The Ohio State University (2009)</education>
+            <education>MA, Ohio University (2011)</education>
+            <education>PhD, The Ohio State University (expected 2016)</education>
+            <occupation>Graduate Student</occupation>
+            <nationality>U.S.A.</nationality>
+          </person>
         </listPerson>
       </particDesc>
       
@@ -1766,7 +1777,7 @@
             <address>
           <addrLine><persName ref="ATS">Mrs. A.T. Stevens</persName></addrLine>
           <addrLine>26 Emerson street</addrLine>
-          <addrLine>Newton</addrLine>
+          <addrLine><placeName ref="#Newton">Newton</placeName></addrLine>
           <addrLine>Massachusetts</addrLine>  
           </address>
           </ab>
@@ -1774,15 +1785,16 @@
             <handShift new="Unknown"/> Hold 9-10-09
           </ab>
           <ab>
-            <stamp type="postmark">El PASO,TEXAS. / SEP 6 / 430 PM / 1909 </stamp>
+            <stamp type="postmark"><placeName ref="#ElPaso">El PASO,TEXAS.</placeName> / SEP 6 / 430 PM / 1909 </stamp>
             <stamp type="cancellation">U.S. POSTAGE / [Portrait of George Washington; perforated
               on three edges; upside down; Design A139] / TWO CENTS</stamp>
           </ab>
         </div>
         <div type="letter" xml:id="GS19090906let1" corresp="GS19090906env01">
+          <lb/>
           <opener>
             <handShift new="#GMSHand"/>
-            <lb/><salute><persName ref="#MATS">Mother dear </persName></salute>
+            <lb/><salute><persName ref="#MATS"><addName type="endearment">Mother dear</addName></persName></salute>
           </opener>
           <p>
             <lb/>What is
