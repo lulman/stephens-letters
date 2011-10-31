@@ -631,18 +631,133 @@
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
+      <!--
+        In addition to prose description, the Editorial Practices Declaration may contain 
+        specialized elements concerned with correction, normalization, quotation, hyphenation, 
+        segmentation, date and number format, and interpretive apparatus (TEI P4X, ch. 5.3.3).
+      -->      
       <tagsDecl>
         <rendition xml:id="ot1">text written on an approximately 45-degree angle to the surrounding
           line(s) of text, slanting downward left to right</rendition>
       </tagsDecl>
       <projectDesc>
-        <p>Project description goes here.</p>
+          <p> This edition is the latest in a series of collaboratively produced electronic
+            editions of previously unpublished nineteenth-century American manuscripts held in
+            the Rare Books and Manuscripts Library at The Ohio State University. Previous
+            editions include "My Dear Elizabeth," five letters written by Sophia Peabody
+            Hawthorne to her sister Elizabeth Palmer Peabody between ca. 1837 and 1868 (currently
+            being revised), "Dear Wife," twenty-one letters written by riverboat captain
+            William B. Anderson to his wife Louisa while he plied the Ohio river during the
+            height of the American Civil War, 1862–1864, and "Journal of a Tour to Europe," by
+            Samuel Sullivan Cox. These documentary editions are intended
+            to provide wide exposure and access to manuscripts that might otherwise be difficult
+            for scholars to discover and consult, and to provide users with a variety of tools
+            for studying those texts. </p>
+          <p> Each text was edited in connection with a graduate course offered
+            by H. Lewis Ulman, Associate Professor of English at The Ohio State University. The
+            courses aim to provide students with an opportunity to explore issues of textuality
+            and mediation that arise when our cultural archives spread from page to screen and
+            from library shelves to networked databases. Electronic textual editing is our
+            vehicle for examining what happens—and envisioning what might happen—when artifacts
+            in one medium are represented in another medium, especially with regard to the
+            interpretive work of reading. Electronic textual editions also provide a contact zone
+            that can help us reflect on what manuscript, print, and "born digital" artifacts can
+            tell us about their unique properties and their relationships to one another.</p>
+          <p> While providing a reliable textual edition is a <foreign xml:lang="lat">sine qua
+            non</foreign>, the Doane edition also explores ways of telling four stories
+            inextricably woven into our work: the lives and historical milieu evoked by the
+            texts, the history of the physical journal (including its recent restoration), the
+            editorial process that gave rise to this particular interpretation of the text, and
+            the mediation of our electronic delivery system. </p>
       </projectDesc>
       <editorialDecl>
-        <p>Editorial declaration goes here.</p>
+        <!-- TAKE NOTE: Explain your editorial method:
+          
+          •	If you employ image files, describe how they were produced and note where they are stored.
+          •	Describe any editorial guidelines you followed (e.g., how you treated hyphenation, whether 
+          you corrected apparent errors, and any other decisions about how to treat recurrent features).
+          •	Describe any special symbols that you use in your text to indicate additions, corrections, 
+          cancellations, and so on. This important explanation provides a reader's guide to the text.
+          
+          You can use more than one paragraph (tagged <p> </p>).
+          
+          We might include a system diagram, showing where all of the assets are stored
+          and how the systems interact. We might include a database of assets. And we
+          might include screen shots of the edition running on various systems as a step
+          toward a descriptive bibliography of an online edition.
+        -->
+        <p>
+          <emph rend="bold">Scanning</emph>. The manuscript pages were scanned as 24-bit TIFF
+          images at 400 dots per inch (dpi), then coverted to 8-bit JPEG images at 400 dpi and
+          full quality before being loaded into an image server that provides zoomable views of the
+          production images. All edges of manuscript pages were
+          overscanned by at least 1/4 inch. No color correction was used at any stage of image
+          preparation, but a scan of a photographer's 18% grey card on the same scanner
+          produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur in
+          Adobe Photoshop to average color values. Thus, a properly configured monitor should
+          provide a reasonable approximation of colors on the manuscript pages.
+        </p>
+        <p>
+          <emph rend="bold">Production Location of Digital Assets</emph>. The TEI XML-compliant
+          transcription of the Doane journal, along with five XSL style sheets used to provide
+          variant "views" of the edition, are stored on a server hosted by College of
+          Arts and Sciences at The Ohio State University. High resolution scans of the manuscript
+          pages, scans of plates from contemporary sources, and photographs of the journal are
+          stored in the Media Manager application hosted by the College of Arts and Science at
+          The Ohio State University. The files constituting the project's Web site are
+          stored on a Web server hosted by the College.</p>
+        <p>
+          <emph rend="bold">Archiving of Digital Assets</emph>. Once the edition is complete,
+          its digital assets will be archived in The Ohio State University
+          https://kb.osu.edu/dspace/index.jsp Knowledge Bank. </p>
+        
       </editorialDecl>
       <refsDecl>
-        <p>Refs declaration goes here.</p>
+        <p>
+          <emph rend="bold">Markup of Physical Structure and Page Layout</emph>. The manuscript
+          <emph rend="bold">pages</emph>, encoded by the empty page break or &lt;pb/&gt;
+          element, are the primary physical structures represented in the markup. Each
+          &lt;pb&gt; element includes an &quot;mmid&quot; attribute identifying the unique ID
+          of a high-resolution scan of that image in the Media Manager application, as well as
+          &quot;audiostart&quot; and &quot;audioend&quot; attributes that identify the section
+          of the audio edition that corresponds to that page. <emph rend="bold">Line
+            breaks</emph> (i.e., lineation determined or influenced by the physical
+          constraints of the page rather than compositional choices by the author) are encoded
+          with the empty &lt;lb/&gt; element. No attributes are included in the &lt;lb&gt;
+          element. </p>
+        <p>
+          <emph rend="bold">Markup of Textual Structure</emph>. The <emph rend="bold">journal
+            entry</emph>, encoded by a &lt;div1&gt; element with the attribute-value pair
+          &quot;type='Entry'&quot;, constitutes the primary textual structure represented in
+          the markup. Each entry contains an &lt;opener&gt; element—which in turn contains a
+          &lt;dateline&gt; element—and one or more paragraphs. Each dateline may include a
+          &lt;name&gt; element with (optionally) a &quot;type&quot; attribute containing one of
+          the following values: city, region; and a &lt;date&gt; element with a
+          &quot;value&quot; attribute whose value is in the form YYYY-MM-DD. The &lt;div1&gt;
+          elements also contain &quot;audiostart&quot; and &quot;audioend&quot; elements that
+          identify the section of the audio edition that corresponds to that entry. </p>
+        <p>Entries consist of a series of <emph rend="bold">paragraphs</emph>. Where indicated
+          by indentation of a line from the left margin of a page, line breaks part-way across
+          a page, or additional white space between lines, paragraphs are encoded with the
+          &lt;p&gt; element and no attributes. </p>
+        <p>If present, any prefatory text preceding the dateline may be encoded as a
+          &lt;head&gt; element at the beginning of the entry (i.e., within the
+          &lt;div&gt;element and before the &lt;opener&gt;). </p>
+        <p>
+          <emph rend="bold">Level of Transcription/Encoding</emph>. This markup scheme supports
+          a modest range of presentations, from semi-modernized/corrected to semi-diplomatic.
+          The basic transcription follows the manuscript verbatim. Various manuscript features
+          (e.g., cancellations, interlinear or marginal additions, tears in pages) are encoded,
+          as are regularized versions of proper names and dates and standard versions of
+          nonstandard spellings and expansions of abbreviations. </p>
+        <p>
+          <emph rend="bold">Extensions to the TEI P5 Schema</emph>. The project's Web site contain full details of the markup
+          guidelines:
+          <figure rend="link">
+            <head>http://people.cohums.ohio-state.edu/ulman1/LADoaneJournal/DoaneJournalMarkup.cfm</head>
+            <graphic url="http://people.cohums.ohio-state.edu/ulman1/LADoaneJournal/DoaneJournalMarkup.cfm"/>
+            <figDesc>Link to the Doane journal markup guidelines.</figDesc>
+          </figure>.</p>
       </refsDecl>
     </encodingDesc>
     <profileDesc>
@@ -3470,13 +3585,15 @@
             <lb/>I don't fink so do you honey does not? I wonder how
             <lb/>this fellow knew how I was a going to feel?
             <quote type="block">
-            <lb/> " 'Tell her, tell I see
-            <lb/>Those eyes, I do not live--that Rome to me
-            <lb/>Is hatefull--tell her--oh!--I know not what--
-            <lb/>That ever thought and feeling, space and spot,
-            <lb/>Is like an ugly dream where she is not;
-            <lb/>All persons plagues; all living wearysome;
-            <lb/>All talking empty . . .<ptr type="noteAnchor" target="thatRome"/><note
+            <lg>
+              <l>" 'Tell her, tell I see</l>
+              <l>Those eyes, I do not live--that Rome to me</l>
+              <l>Is hatefull--tell her--oh!--I know not what--</l>
+              <l>That ever thought and feeling, space and spot,</l>
+              <l>Is like an ugly dream where she is not;</l>
+              <l>All persons plagues; all living wearysome;</l>
+              <l>All talking empty . . .</l>
+            </lg><ptr type="noteAnchor" target="thatRome"/><note
               xml:id="thatRome" resp="ed">Explain reference here<bibl><ref target="#threeWeeks">(Glyn 178)</ref></bibl></note>
             </quote>
             <lb/>There Goes the whistle and So long for a ittle minnit
