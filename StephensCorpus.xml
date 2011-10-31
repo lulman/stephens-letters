@@ -435,7 +435,27 @@
             <location>
               <geo>57.0500 -135.3167</geo>
             </location>
-            </place>
+          </place>
+          <place type="nationalPark" xml:id="Yellowstone" source="#TGN">
+            <placeName>Yellowstone National Park</placeName>
+            <country>United States</country>
+            <region>Wyoming</region>
+            <region>Montana</region>
+            <region>Idado</region>
+            <location source="#FLL">
+              <geo>44.4620852 -110.6424411</geo>
+            </location>
+            <desc>In her letters of July 6 and 10, 1909, Stephens refers to a three-day trip through
+              Yellowstone National Park on her way to Seattle.</desc>
+          </place>
+          <place type="city" xml:id="StLouis" source="#TGN">
+            <placeName>Saint Louis</placeName>
+            <country>United States</country>
+            <region type="state">Missouri</region>
+            <location>
+              <geo>38.6167 -90.1833</geo>
+            </location>
+          </place>
         </listPlace>
         
         <list type="gloss">
@@ -476,29 +496,6 @@
         
         <listOrg>
           <head>List of Organizations</head>
-          <!-- Lewis Ulman's organization entries begin here. -->
-          <!-- Here's an example from another edition. -->
-          <org xml:id="FN">
-            <orgName>Fosters and Nickerson</orgName>
-            <state type="partners">
-              <desc><persName ref="FrederickNickerson">Frederick Nickerson</persName>
-                <persName ref="WHF">W.H. Foster</persName></desc>
-            </state>
-            <region>Boston, MA</region>
-            <desc>Most likely, Louisa is referring to the parternship between the shipbuilding
-              company Foster and Co. and merchant company Nickerson and Co.</desc>
-          </org>
-          <org xml:id="HowAsp" source="#ANB-WHA">
-            <orgName>Howland and Aspinwall</orgName>
-            <state type="Owners">
-              <desc>
-                <persName ref="WHA" notBefore="1834" notAfter="1856">William Henry
-                  Aspinwall</persName>
-                <persName ref="JLA" notBefore="1850">John Lloyd Aspinwall</persName>
-                <persName ref="WEH" notBefore="1834">William Edgar Howland</persName>
-              </desc>
-            </state>
-          </org>
           <org xml:id="ASC" source="#TSL">
             <orgName>Alaska Steamship Company</orgName>
             <state type="company">
@@ -612,8 +609,25 @@
             Loyd, I. C. <title level="a">The Tramp Engineer.</title> <title level="j">The Engineers' 
             Review</title> 16 (August 1905): 18-19. <title level="m">Google Books</title>. Web. 31 Oct. 2011.
           </bibl>
+          <bibl xml:id="FLL" n="Zwiefelhofer">
+            Zwiefelhofer, David B. <title level="m">Find Latitude and Longitude</title>. 2011. Web.
+            31 Oct. 2011.
+          </bibl>
         </listBibl>
         
+        <listEvent>
+          <event when="1904" notBefore="1904-04-30" notAfter="1904-12-01" where="#StLouis" xml:id="LPE">
+            <label>Louisiana Purchase Exposition</label>
+            <desc>In her letter of 6 July 1909, Stephens relates a traveling companion's
+              comparison between the Alaska-Yukon-Pacific Exposition and the Louisian Purchase
+              Exposition held in St. Louis in 1904.</desc>
+          </event>
+          <event when="1909" notBefore="1909-06-01" notAfter="1909-10-16" where="#Seattle" xml:id="AYP">
+            <label>Alaska-Yukon-Pacific Exposition</label>
+            <desc>Stephens attends the Alaska-Yukon-Pacific Exposition in July 1909.</desc>
+          </event>
+        </listEvent>
+      
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -1014,7 +1028,9 @@
             <msContents>
               <p>
                 <!-- Describe contents briefly (these notes need to be revised and cast in prose). -->
-                Flower exposition; Yellowstone Park; Japanese tea; fair; population increase. </p>
+                Stephens describes the Alaska-Yukon-Pacific Exposition and the city of Seattle, then
+                reviews her correspondence with friends and family and lists the contents of a
+                package she plans to send to her mother. </p>
             </msContents>
             <physDesc>
               <!-- 
@@ -1116,7 +1132,7 @@
             <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
           <opener>
             <handShift new="#GMSHand"/>
-            <dateline><date when="1909-07-06">7/6 9</date></dateline>
+            <lb/><dateline><date when="1909-07-06">7/6 9</date></dateline>
             <lb/><salute>Dear <rs ref="#MATS">Mama</rs>,</salute>
           </opener>
           <p>
@@ -1149,7 +1165,7 @@
             <lb/>Talk abut roses, there
             <lb/>are so many here that
             <lb/>I can't think what
-            <lb/>California will be like.
+            <lb/><placeName ref="#California">California</placeName> will be like.
             <lb/>I went today with
             <lb/>the <rs>Virginians</rs>. The men
             <lb/>were hunting up old
@@ -1158,7 +1174,7 @@
             <lb/>truck, which I am going
             <lb/>to send by mail. There
             <lb/>are four pictures of
-            <lb/><placeName>Yellowstone</placeName> which are
+            <lb/><placeName ref="#Yellowstone">Yellowstone</placeName> which are
             <lb/>exquisite—they are
             <lb/>as natural as pictures
             <lb/>can be. My <rs>Princetonian</rs>
@@ -1181,7 +1197,7 @@
           <p>
             <lb/>The buildings are <unclear>fine</unclear>
             <lb/>at the fair. One of the
-            <lb/>Virginian ladies said
+            <lb/><rs>Virginian ladies</rs> said
             <lb/>this fair is much superior
             <!-- A rs for an event? Or an abbreviation? -->
             <lb/>to <rs>the St. Louis</rs> and others
@@ -1206,7 +1222,7 @@
             <lb/>mining term. 
           </p>
           <p>
-            <lb/>The city has several
+            <lb/><rs ref="#Seattle">The city</rs> has several
             <lb/>skyscrapers.
           </p>
           <p>
@@ -1218,7 +1234,7 @@
             <lb/>I am sending you
             <lb/>also the daily program.
             <lb/>Have not found the
-            <lb/>Goulds yet.            
+            <lb/><persName>Goulds</persName> yet.            
           </p>
           <p>
             <lb/>This morning it was
@@ -1227,9 +1243,9 @@
             <!-- Again the letterhead. And note that she has been numbering sheets, not pages. -->
             <lb/><hi rend="underlined">3</hi>
             <lb/>8.25. We went to
-            <lb/>the Expo. at 10.30—got
+            <lb/><rs ref="#AYPE">the Expo</rs>. at 10.30—got
             <lb/>back at 4.40. Some day
-            <lb/>we are going up <geogName>Puget
+            <lb/>we are going up <geogName ref="#Puget">Puget
               <lb/><geogFeat>Sound</geogFeat></geogName>. I can do quite
             <lb/>a stunt at eating now—
             <lb/>devoured a small steak for
@@ -1239,7 +1255,7 @@
             <lb/>pancakes—and a cup of
             <lb/>coffee. Sunburn is wearing
             <lb/>off a trifle since I have
-            <lb/>left <rs>the park</rs>. They have a
+            <lb/>left <rs ref="#Yellowstone">the park</rs>. They have a
             <lb/>line of cable cars here, and
             <lb/>some odd big ones. The
             <lb/>population has increased
@@ -1252,11 +1268,11 @@
           <p>
             <lb/>Havent done much on
             <lb/>the writing stunt. I
-            <lb/>wrote Miss Childs a
+            <lb/>wrote <persName>Miss Childs</persName> a
             <lb/>steamer letter, one to
-            <lb/>Gus, I think I wrote
-            <lb/>one to Roswel, and a
-            <lb/>dozen lines to Nat
+            <lb/><persName>Gus</persName>, I think I wrote
+            <lb/>one to <persName>Roswel</persName>, and a
+            <lb/>dozen lines to <persName>Nat</persName>
             <lb/>telling him that I
             <lb/>was having a dandy
             <lb/>time—never knew
@@ -4211,7 +4227,7 @@
             <lb/><choice><abbr>yought</abbr><corr>you ought</corr></choice>  to have Saw her In the Car her little arms a round
             <lb/>my neck all the time and when I kissed her good by she cried
             <lb/>like her little heart was broke and made me <choice><sic>prommise</sic><corr>promise</corr></choice>  to come
-            <lb/>over again : O <persName ref="#GMS"><addName type="endearment">dear</addName> how I would like you to know them 
+            <lb/>over again : O <persName ref="#GMS"><addName type="endearment">dear</addName></persName> how I would like you to know them 
             <lb/>how proud I would be to <choice><sic>heave</sic><corr>have</corr></choice>  the opportunity to take you to
             <lb/>them and I <hi rend="multiplyUnderlined">do</hi> hope I will have that please—Can I—
               <lb/>well <persName ref="#GMS"><addName type="endearment">dear</addName></persName> I only have 35 min for the boat and have a little
