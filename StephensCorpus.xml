@@ -1791,6 +1791,7 @@
           </ab>
         </div>
         <div type="letter" xml:id="GS19090906let1" corresp="GS19090906env01">
+          <pb facs="/b/baae0bd3-70e4-4091-bccf-407097bd5f8c"/>
           <lb/>
           <opener>
             <handShift new="#GMSHand"/>
@@ -1805,7 +1806,7 @@
             <lb/>came. I declare
             <lb/>if I don't get
             <lb/>one tomorrow I
-            <pb/>
+          <pb facs="/d/d91c6f4c-014a-4aeb-a8a4-f69981ad88ca"/>
             <lb/>will send a
             <lb/>telegram to
             <lb/>to <persName>Berenice Smith.</persName> 
@@ -1817,7 +1818,7 @@
           <p>
             <lb/>My Alaska
             <lb/>ring came here
-            <pb/>
+          <pb facs="/3/3d8386d6-f77c-49d2-906c-be5fde450e0d"/>
             <lb/>the <date when="1909-08-23">23 of Aug.</date>. I
             <lb/>got it this morning. It is
             <lb/>a beauty.
@@ -1830,7 +1831,7 @@
             <lb/>it handsome and
             <lb/>it is in the
             <lb/>parlour.
-            <pb/>
+          <pb facs="/1/159f86b0-ff1d-437a-98b5-69781cf59e77"/>
           </p>
           <p>
             <lb/>I do hope that
@@ -4089,7 +4090,7 @@
               
               <p> Two loose sheets of cream-colored Tourist Hotel letterhead stationery measuring 8.33 x 10.88 inches.
                 The front side contains a 2.77-inch letterhead, a 8.1-inch body with blue lines spaced .444-inch intervals. 
-                Watermark... The letterhead contains, in the upper left-hand corner, a 2.5 x 2 inch
+                The letterhead contains, in the upper left-hand corner, a 2.5 x 2 inch
                 halftone image of the hotel facade</p>
               <accMat corresp="#GS19091011env">
                 Accompanied by a stamped, cancelled, cream-colored envelope of Tourist Hotel stationery
@@ -4119,7 +4120,7 @@
             <addrLine><persName>D.P. FOLEY</persName>, PROP'R AND MGR.</addrLine>
             <addrLine>FIRST CLASS RESTAURANT IN CONNECTION</addrLine>
             <addrLine>1009, 1011, 1010 PACIFIC AVE.</addrLine>
-            <addrLine>TACOMA, WASHINGTON</addrLine>
+            <addrLine><placeName ref="#Tacoma">TACOMA, WASHINGTON</placeName></addrLine>
             </address>
           </ab>
           <ab type="postalAddress">
@@ -4127,7 +4128,7 @@
             <address>
             <addrLine><persName ref="GMS">Miss Gladys M. Stephens</persName></addrLine>
             <addrLine># 126 Leon St</addrLine>
-            <addrLine>El Paso</addrLine>
+            <addrLine><placeName ref="#ElPaso">El Paso</placeName></addrLine>
             <addrLine>Texas</addrLine>
             </address>
           </ab>
@@ -4157,8 +4158,9 @@
             <lb/><placeName ref="#Tacoma">Tacoma, Wash.,</placeName>,_______190___ </head>
           <opener>
             <handShift new="#JJM"/>
-            <dateline><date when="1909-10-11">10/11 9</date></dateline>
-            <lb/><salute>Dear <persName ref="#GMS">girl</persName>,</salute>
+            <lb/><dateline><date when="1909-10-11">10/11 9</date></dateline>
+            <lb/><salute>Dear <persName ref="#GMS"><addName type="endearment">girl</addName>
+            </persName>,</salute>
           </opener>
           <p>
             <lb/>well I missed my boat this a.m. and cannot get away
@@ -4168,56 +4170,61 @@
             <lb/>how I would like to have had you with me last night
             <lb/><persName>mother</persName> and I talked <choice><sic>untill</sic><corr>until</corr></choice>
             2 am Such a fine
-            <lb/>talk we had and my <persName ref="#GMS">little girl</persName> was the Subject 
-            <persName ref="#GMS">honey</persName>
+            <lb/>talk we had and my <persName ref="#GMS"><addName type="endearment">little girl</addName>
+            </persName> was the Subject 
+            <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
             <lb/>you Cannot <choice><sic>emagine</sic><corr>imagine</corr></choice> how much She likes you when
             <lb/>I told her what you was doing for me how much
             <lb/>better I felt and how determined I was to do better
             <lb/>I told her about what you Said about what <unclear cert="unknown" reason="first letter is
               illegible. according to context might be a person's name.">keen</unclear> 
             <lb/>was to Send me : well sometimes she was laughing and  
-            <lb/>Sometimes crying and <persName ref="#GMS">dear</persName> if you could only have heard
+            <lb/>Sometimes crying and <persName ref="#GMS"><addName type="endearment">dear</addName>
+            </persName> if you could only have heard
             <lb/>what She Said about you well It could not please you
             <lb/>half as much as me I had to tell her all about you how 
             <lb/>you <choice><sic>comed</sic><corr>combed</corr></choice> 
             your hair about your eyes well and <unclear cert="medium" reason="final letter illegible">even</unclear>
-            <lb/>sing and <persName ref="#GMS">dear</persName> you may hear from her to thank you I told
+            <lb/>sing and <persName ref="#GMS"><addName type="endearment">dear</addName>
+            </persName> you may hear from her to thank you I told
             <lb/>her about you praying for me and to be a little mean, I Said
             <lb/>I did not know if It was doing any good or not well
             <lb/>you ought to have <choice><sic>herd</sic><corr>heard</corr></choice> 
             what she said you cannot <choice><sic>emagine</sic><corr>imagine</corr></choice>
             <lb/>how much she thinks of you and how good it makes me
-            <lb/>feel <persName ref="#GMS"> honey </persName> <unclear cert="low" reason="final letter illegible">deed</unclear>
+            <lb/>feel <persName ref="#GMS"><addName type="endearment">honey</addName></persName> <unclear cert="low" reason="final letter illegible">deed</unclear>
             it does : my <rs>sister</rs> was there and <unclear cert="low" reason="final letter illegible">cons
             </unclear> the
           </p>
           <pb facs="/7/79720d47-f795-40d4-8562-ec2df2293109"/>
           <!-- A roman numeral II is written at the top of the second sheet.-->
           <p>
-            <lb/>girl : Say <persName ref="#GMS">honey </persName> She <choice><sic>certanolly</sic><corr>certainly</corr></choice>  
+            <lb/>girl : Say <persName ref="#GMS"><addName type="endearment">honey</addName></persName> She <choice><sic>certanolly</sic><corr>certainly</corr></choice>  
             Is a peach I missed my
             <lb/>boat as I told you before why I took them <choice><sic>two</sic><corr>to</corr></choice>  
             their boat this a.m.
             <lb/><choice><abbr>yought</abbr><corr>you ought</corr></choice>  to have Saw her In the Car her little arms a round
             <lb/>my neck all the time and when I kissed her good by she cried
             <lb/>like her little heart was broke and made me <choice><sic>prommise</sic><corr>promise</corr></choice>  to come
-            <lb/>over again : O dear how I would like you to know them 
+            <lb/>over again : O <persName ref="#GMS"><addName type="endearment">dear</addName> how I would like you to know them 
             <lb/>how proud I would be to <choice><sic>heave</sic><corr>have</corr></choice>  the opportunity to take you to
             <lb/>them and I <hi rend="multiplyUnderlined">do</hi> hope I will have that please—Can I—
-            <lb/>well <persName ref="#GMS">dear</persName> I only have 35 min for the boat and have a little
+              <lb/>well <persName ref="#GMS"><addName type="endearment">dear</addName></persName> I only have 35 min for the boat and have a little
             <lb/>way to go will write tomorrow and tell you the Steamboat news
-            <lb/>this has bin <unclear cert="medium">nutter</unclear> with a bum pen : you <subst>
+              <lb/>this has <choice><sic>bin</sic><corr>been</corr></choice> <unclear cert="medium">nutter</unclear> with a bum pen : you <subst>
               <del rend="overstrike">remeember</del><add place="above">remember</add></subst> the
             <lb/>pen I got you at the <placeName ref="Georgean">Georgean</placeName> well I would go farther
-            <lb/>than that If I could have the opportunity again : well <persName ref="#GMS">dear</persName>
+              <lb/>than that If I could have the opportunity again : well <persName ref="#GMS">
+                <addName type="endearment">dear</addName></persName>
             <lb/>So Long x
           </p>
           
             <postscript>
-              <p>I remain "<choice><abbr>wif</abbr><expan>with</expan></choice> heaps" and then <choice><abbr>sum</abbr>
+              <p>I remain <distinct type="babyTalk">"wif"</distinct> heaps and then <choice><abbr>sum</abbr>
                 <expan>some</expan></choice>  
                 <lb/>I would like to Say as I feel but <unclear cert="medium">Sesent nice It sis nice</unclear>
-                <lb/>I <unclear cert="medium">fink</unclear> So long—yes—<persName ref="#GMS">Sweet heart</persName>
+                <lb/>I <unclear cert="medium">fink</unclear> So long—yes—<persName ref="#GMS"><addName type="endearment">
+                  Sweet heart</addName></persName>
                </p>
             </postscript>
           
