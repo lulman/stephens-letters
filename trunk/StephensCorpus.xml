@@ -608,6 +608,10 @@
             Free Online Encyclopedia of Washington State History</title>. HistoryLink.org, 2007. Web. 30 
             October 2011.
           </bibl>
+          <bibl xml:id="ICL" n="ICL">
+            Loyd, I. C. <title level="a">The Tramp Engineer.</title> <title level="j">The Engineers' 
+            Review</title> 16 (August 1905): 18-19. <title level="m">Google Books</title>. Web. 31 Oct. 2011.
+          </bibl>
         </listBibl>
         
       </sourceDesc>
@@ -3870,7 +3874,19 @@
             <choice><sic>untill</sic><corr>until</corr></choice> 
             <lb/>we get home, I hope we do not lay up as 
             <lb/>I have quite enough changes for one year let's 
-            <lb/>See 5 Ships all the Same tramp Engineer we have had 
+            <lb/>See 5 Ships all the Same tramp Engineer<ptr type="noteAnchor" target="JJM19091004note0"/>
+            <note resp="ed" xml:id="JJM19091004note0">
+              A "tramp engineer" designates an engineer who has little formal training and learns on the job. 
+              Additionally, this kind of engineer is an interloper of sorts, frequently moving from job to job. 
+              In <title level="j">The Engineers' Review</title> volume 16 (1905), I. C. Loyd defends the tramp 
+              engineer as competent compared to the the traditional worker allied to one or two jobs, even 
+              though the tramp engineer also "won't work in a place long enough to get married to the job. 
+              They like new scenes and experiences and won't take back talk from anybody" <bibl>
+              <ref target="#ICL">Loyd</ref></bibl>. It's unclear if Macintyre is stating that he has 
+              worked with literally the same person on five different ships, or that he has found all 
+              the tramp engineers to be frustratingly similar. The latter seems more likely considering 
+              the pervasive negativity towards tramp engineers.
+            </note> we have had 
             <lb/>exceedingly fine weather this <choice><sic>Vo<unclear cert="high" reason="no dot over i">
             i</unclear>ge</sic><corr>Voyage</corr></choice> It <choice><sic>did
               <unclear cert="high" reason="no dot over i">i</unclear>nt</sic><corr>didn't</corr></choice> 
