@@ -978,10 +978,6 @@
           <note>Gladys remarks on his marriage in her September 27, 1909 letter to Mrs A.T. Stephens and asks
             where Jack Ward is living.</note>
           </person>
-          <person xml:id="Berenice"><persName>Berenice</persName>
-          <note>In Gladys' September 27, 1909 letter to Mrs A.T. Stephens she notes that she recently got a 
-          card from Berenice.</note>
-          </person>
           <person xml:id="AW"><persName>Alice Wunner</persName>
           <note>Gladys remarks in her September 27, 1909 letter to Mrs. A.T. Stephens that Alice would have a 
           way of tiring Mrs. Stephens out.</note>
@@ -1008,10 +1004,6 @@
           </person>
           <person xml:id="Thomases"><persName>the Thomases</persName>
           <note>In Gladys' September 27, 1909 letter to Mrs. A.T. Stephens she asks how the Thomases are.</note>
-          </person>
-          <person xml:id="MrsL"><persName>Mrs. L.</persName>
-          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that she plans to show Mrs. L. 
-          how to cook Boston Baked Beans.</note>
           </person>
           <person xml:id="Florence"><persName>Florence</persName>
           <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys asks how Florence is carrying sail.</note>
@@ -4032,7 +4024,7 @@
             <lb/>afternoon or in the morning.
           </p>
           <p>
-            <lb/>I'm going to show <persName ref="MrsL">Mrs L.</persName>
+            <lb/>I'm going to show <persName ref="ML">Mrs L.</persName>
             <lb/>how to cook Boston Baked
             <lb/>Beans some day this week.
             <lb/>It is to be a surprise for
@@ -4078,7 +4070,7 @@
           <p>
             <lb/><quote>All roads lead back to
               <lb/><placeName ref="#Rome">Rome</placeName></quote> - <seg type="obliqueText" rendition="#ot1">and</seg>
-            with <persName>Adelaide</persName>
+            with <persName ref="AMM">Adelaide</persName>
             <lb/>all talk turns to "the West."
           </p>
           <pb facs="/d/dbd77e73-82da-4df9-95fc-b7eda643a5b6"/>
@@ -4088,7 +4080,7 @@
             <lb/>are they living?
           </p>
           <p>
-            <lb/>I got a card from <persName ref="Berenice">Berenice</persName>.
+            <lb/>I got a card from <persName ref="BS">Berenice</persName>.
           </p>
           <p>
             <lb/>Yes, <persName ref="AW">Alice <unclear cert="low" reason="unknown last name">Wunner</unclear></persName> would
