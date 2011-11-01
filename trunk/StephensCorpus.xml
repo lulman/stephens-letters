@@ -1027,6 +1027,15 @@
               United States Census, 1930</ref></bibl>
             </note>
           </person>
+          <person xml:id="HH">
+            <persName>Hiser, Henry</persName>
+            <note type="biographical">
+              After a night of drinking, Henry Hiser crashed an automobile carrying approximately seven 
+              passengers and fled the scene <bibl><ref target="#SS19090923">"Two Girls Burned and Crushed 
+              Beyond HUman Resemblance"</ref></bibl>. John J. Macintyre refers to this accident in his letter 
+              to Gladys M. Stephens of 04 October 1909, and insists that he has moved on from such a lifestyle.
+            </note>
+          </person>
         </listPerson>
         
         <listPerson type="editors">
@@ -4237,7 +4246,7 @@
             <choice><sic>tresle</sic><corr>trestle</corr></choice> and turned 
             <lb/>Completely over 1 killed and 4 Seriously In<del rend="overwritten">g</del>jured 3 of 
             <lb/>them <choice><sic>has</sic><corr>have</corr></choice> died Since we 
-            <choice><sic>Cam</sic><corr>Came</corr></choice> away the driver is in Jail 
+            <choice><sic>Cam</sic><corr>Came</corr></choice> away <rs ref="#HH">the driver</rs> is in Jail 
             <lb/>that was my old <choice><sic>Corse</sic><corr>Course</corr></choice> but 
             <hi rend="underlined">no</hi> more <persName ref="#GMS"><addName type="endearment">dear
               </addName></persName><hi rend="underline">no more</hi> 
