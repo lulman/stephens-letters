@@ -687,6 +687,11 @@
               The Seattle Star</title> 23 September 1909: n.p. <title level="m">Chronicling America (The Library 
               of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
+          <bibl xml:id="LE19091001" n="LeavenworthEcho">
+            <title level="a">News of Pacific Northwest</title>. <title level="j">The Leavenworth Echo</title> 
+            01 October 1909: n.p. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 
+            01 Nov. 2011.
+          </bibl>
         </listBibl>
         
         <listEvent>
@@ -4268,7 +4273,13 @@
             <add place="above">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 
             <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note6"/>
             <note resp="ed" xml:id="JJM19091004note6">
-              "On September 24, 1909, a Seattle Electric Company streetcar jumps the track at the 
+              The <date when="1909-10-01">October 1</date> issue of <title level="j">The Leavenworth Echo</title> 
+              reports that "a Wallingford Avenue street car in Seattle jumped the track on a curve near the main 
+              gate of the [Alaska-Yukon Pacific] exposition. One man was killed, fifty five injured. It was the 
+              first serious street car accident since the exposition opened" <bibl><ref target="#LE19091001">
+              "News of Pacific Northwest"</ref></bibl>. Drawing from contemporary articles in <title level="j">
+              The Seattle Times</title> and <title level="j">The Seattle Post-Intelligencer</title>, Stein corroborates that 
+              "[o]n September 24, 1909, a Seattle Electric Company streetcar jumps the track at the 
               corner of E 40th Street and 14th Avenue NE (later University Way). The streetcar crashes 
               into three concession buildings across the street from the main entrance of the 
               Alaska-Yukon-Pacific Exposition. One passenger, Frank Hull of Tacoma, is killed, 
