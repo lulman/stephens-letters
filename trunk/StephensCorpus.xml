@@ -1053,6 +1053,14 @@
               to Gladys M. Stephens of 04 October 1909, and insists that he has moved on from such a lifestyle.
             </note>
           </person>
+          <person xml:id="BS">
+            <persName>Smith, Berenice</persName>
+            <note type="biographical">
+              A Mutual friend of Gladys and Adelaide, Berenice Smith is mentioned as being a person that Gladys
+              might get to check in on her mother if she doesn't write back on 1909-09-06. So Berenice Smith presumably
+              lives in Newton near ATS.
+            </note>
+          </person>
         </listPerson>
         
         <listPerson type="editors">
@@ -4394,7 +4402,7 @@
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
-            <addrLine>TOURIST HOTEL</addrLine>
+            <addrLine><placeName ref="#Tourist">TOURIST HOTEL</placeName></addrLine>
             <addrLine><persName>D.P. FOLEY</persName>, PROP'R AND MGR.</addrLine>
             <addrLine>FIRST CLASS RESTAURANT IN CONNECTION</addrLine>
             <addrLine>1009, 1011, 1010 PACIFIC AVE.</addrLine>
