@@ -666,6 +666,21 @@
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
             Web. 30 October 2011.
          </bibl>
+          <bibl xml:id="Census1910CA" n="United States">
+            <title level="a">United States Census, 1910 for Cora Anderson.</title> <title
+              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
+            Web. 1 Nov. 2011.
+          </bibl>
+          <bibl xml:id="Census1910WDA" n="United States">
+            <title level="a">United States Census 1910, for Willis D. Anderson.</title> <title
+              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
+            Web. 27 Oct. 2011.
+          </bibl>
+          <bibl xml:id="MABirthsWGA" n="United States">
+            <title level="a">Massachusetts Births, 1841-1915 for Willis Goodwin Anderson.</title> <title
+              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
+            Web. 27 Oct. 2011.
+          </bibl>
          <bibl xml:id="Census1920HEP" n="United States">
             <title level="a">United States Census 1920, for Herbert E. Palmer.</title> <title 
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
@@ -951,7 +966,7 @@
           </person>
           <person xml:id="AMM">
             <persName>Macphearson, Adelaide M.</persName>
-            <note>In Gladys' September 27, 1909 letter to Mrs. A.T. Stephens she mentions that Adelaide has taken up dress 
+            <note>Gladys writes several letters to her mother about Adelaide's preparations for her wedding, including October 5, 1909. In Gladys' September 27, 1909 letter to Mrs. A.T. Stephens she mentions that Adelaide has taken up dress 
               making and has all her attention turned to "the West"</note>
           </person>
           <person xml:id="Wards"><persName>the Wards</persName>
@@ -1035,15 +1050,40 @@
           </person>          
           <person xml:id="CLA">
             <persName>Anderson, Cora L.</persName>
+            <birth>
+              <date when="1877" source="#Census1910CA">1877</date>
+              <placeName source="#Census1910CA">Canada</placeName>
+            </birth>
+            <residence when="1910" source="#Census1910CA">Sherborn, Middlesex, Massachusetts</residence>
+          <note>Cora writes to Mrs. A.T. Stephens, her aunt, on August 19, 1909, to tell her about the birth of her son. She also inquires about Gladys Stephens' travels.</note>
           </person>
           <person xml:id="WDA">
-            <persName>Anderson, Willis D.</persName>
+            <persName source="#Census1910WDA">Anderson, Willis D.</persName>
+            <birth>
+              <date when="1876" source="#Census1910WDA">1876</date>
+              <placeName source="#Census1910WDA">Canada</placeName>
+            </birth>
+            <residence when="1910" source="#Census1910WDA">Sherborn, Middlesex, Massachusetts</residence>
+            <note>Willis Anderson is Cora Anderson's husband. He's mentioned in her letter to Mrs. A. T. Stephens on August 19, 1909.</note>
           </person>
           <person xml:id="WGA">
-            <persName>Anderson, Willis Goodwin</persName>
+            <persName source="#MABirthsWGA">Anderson, Willis Goodwin</persName>
+              <birth>
+                <date when="1909-08-04" source="#MABirthsWGA">Aug. 4</date>
+                <placeName source="#MABirthsWGA">Sherborn</placeName>
+              </birth>
+            <note>Willis Goodwin Anderson is Cora Anderson's son, both in August of 1909. Cora writes to Mrs. A. T. Stephens on August 19, 1909 to tell her about Willis' birth, although his name is not mentioned in the letter..</note>
           </person>
           <person xml:id="GA">
-            <persName>Anderson, Gladys</persName>
+            <persName source="#Census1910WDA">Anderson, Gladys</persName>
+            <birth>
+              <date when="1903" source="#Census1910WDA">1903</date>
+            </birth>
+            <note>Gladys Anderson is Cora Anderson's daughter. She's mentioned in Cora's letter to Mrs. A. T. Stephens on August 19, 1909.</note>
+          </person>
+          <person xml:id="Pauline">
+            <persName>Pauline</persName>
+            <note>In her letter to her mother on October 5, 1909, Gladys mentions that she has written to Pauline but still needs to mail the letter.</note>
           </person>
           <person xml:id="MrH">
             <persName>Mr. Holland</persName>
@@ -1224,6 +1264,7 @@
               </birth>
               <education>BA, Kenyon College (2004)</education>
               <education>MA, The Ohio State University (2010)</education>
+            <education>PhD, The Ohio State University (expected 2014)</education>
               <occupation>PhD Student</occupation>
               <nationality>U.S.A.</nationality> 
               <note type="biographical">Biographical note about Marion A. Wolfe</note>
@@ -1882,7 +1923,7 @@
             <lb/>some dandy hotels.
           </p>
           <p>
-            <lb/>Will <persName ref="#MATS">Ma</persName> be home
+            <lb/>Will <persName ref="#JMS">Ma</persName> be home
             soon?
           </p>
           <p>
@@ -1902,7 +1943,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="JLM2_GMS2MATS_1909_07_14">
+  <TEI xml:id="JLM2_GMS2JMS_1909_07_14">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -2035,7 +2076,7 @@
           <opener>
             <handShift new="#GMSHand"/>
             <!--There is no dateline in this letter, but in case I need to add it back later I've put it here in a comment <dateline><date when="1909-07-14">7/14/ 9</date></dateline> -->
-            <lb/><salute>Dear <persName ref="#MATS">mother</persName>,</salute>
+            <lb/><salute>Dear <persName ref="#JMS">mother</persName>,</salute>
           </opener>
           <p>
             <lb/>Was awfully
@@ -2706,7 +2747,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="MAW_CLA2MATS_1909-08-19">
+  <TEI xml:id="MAW_CLA2JMS_1909-08-19">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -2769,7 +2810,7 @@
           <pb facs="/1/10e1050e-1f2b-43c5-b52f-bf55d6cb3c41"/>
           <ab type="postalAddress">
             <address>
-            <persName ref="#MATS">Mrs. A. T. Stephens </persName>
+            <persName ref="#JMS">Mrs. A. T. Stephens </persName>
             <addrLine>26 Emerson St. </addrLine>
             <addrLine>Newton </addrLine>
             <addrLine>Mass. </addrLine>
@@ -2791,7 +2832,7 @@
         <div type="letter" xml:id="CLA19090820let01" corresp="#CLA19090821env01">
           <pb facs="/8/808bb4bd-8140-4897-b707-cc3af5930e28"/>
           <opener> <dateline> <address> <addrLine> <placeName ref="#Sherborn">Sherborn, Mass.</placeName> </addrLine></address></dateline>
-            <lb/> <salute><rs ref="#MATS">My dear Aunt:</rs></salute>
+            <lb/> <salute><rs ref="#JMS">My dear Aunt:</rs></salute>
           </opener>
           <p><lb/>Please <choice><sic>dont</sic><corr>don't</corr></choice>
             <lb/>feel that I have neglected 
@@ -3198,7 +3239,7 @@
           <opener>
             <handShift new="#GMSHand"/>
             <dateline><date when="1909-09-22">9/22 9</date></dateline>
-            <lb/><salute><persName ref="#MATS">Mother</persName>dear,</salute>
+            <lb/><salute><persName ref="#JMS">Mother</persName>dear,</salute>
           </opener>
           <p>
             <lb/><persName ref="AMM">Adelaide</persName> is getting some lovely
@@ -3386,7 +3427,7 @@
           </p>
           <p> <lb/>I am as well as 
             <lb/>ever. </p>
-          <p> <lb/> <persName>Adelaide</persName> is 
+          <p> <lb/> <persName ref="#AMM">Adelaide</persName> is 
             <lb/>getting along  
             <lb/>finely with her  
             <lb/>shopping. Her 
@@ -3427,7 +3468,7 @@
             <lb/>of that? 
           </p>
           <p> <lb/>Just wrote to  
-            <lb/><persName>Pauline</persName>. Will 
+            <lb/><persName ref="#Pauline">Pauline</persName>. Will 
             <lb/>mail it when I 
             <lb/>get time. 
           </p>
