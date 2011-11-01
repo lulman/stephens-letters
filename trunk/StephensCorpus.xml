@@ -330,6 +330,15 @@
             <location>
               <geo>39.0000 -105.0000</geo>
             </location>
+            
+          </place>
+          <place type="state" xml:id="Montana">
+            <placeName>Montana</placeName>
+          <desc>JJM mentions some passengers are from here.</desc>
+          <country>USA</country>
+            <location>
+              <geo>47.0000 -110.0000</geo>
+            </location>
           </place>
           <place type="city" xml:id="SanDiego" source="#TGN">
             <placeName>San Diego</placeName>
@@ -515,7 +524,7 @@
           </item>
           <item xml:id="Ohio">
             <name type="passenger" subtype="steamer">S. S. Ohio</name>
-            <country>USA</country>
+            <country>USA</country></item>
         </list>
         
         <listOrg>
@@ -3599,7 +3608,7 @@
             <lb/>might as well be kids as long as possible and
             <lb/>there is only one little Cloud and that is I cannot See
             <lb/>you as often as I wish; But "Patience"It may not
-            <lb/>allways be this way I don't  <distinct type="babyTalk">fink</distinct><corr>think</corr> so any way do you
+            <lb/>allways<sic><corr>always</corr> be this way I don't  <distinct type="babyTalk">fink</distinct><corr>think</corr> so any way do you
             (<hi>NO</hi>)you needn't answer that honey Those about
             <lb/>that #110 did you make it while resting up at El Paso
             <lb/>hope So well your last letters was in <placeName ref="Ketchikan">Ketchikan</placeName> only
@@ -3632,7 +3641,7 @@
             <lb/>There Goes the whistle and So long for a ittle minnit
             <lb/>well dear I hope you get Some letters before you go to Mexico
             <lb/>City or You will not know what to think has happened
-            <lb/>to me; But when you get back to El Paso or home
+            <lb/>to me; But when you get back to <placename ref="El Paso">El Paso</placename> or home
             <lb/>they will not be So much delay and I also hope that I
             <lb/>will have "heaps" of letters when I get home the 22nd or 23rd
             <lb/>well dear ittle I must Say So long and will write again
