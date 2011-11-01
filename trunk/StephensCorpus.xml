@@ -3563,7 +3563,7 @@
           <opener>
             <handShift new="JJMHand"/>
             <lb/><dateline><date when="1909-08-23"><seg type="obliqueText" rendition="#ot1">8/23/09</seg></date></dateline>
-            <lb/><salute>Dear<rs ref="#GMS">little Girl</rs>,</salute>
+            <lb/><salute>Dear <persName ref="#GMS"><addName type="nickname">little girl</addName></persName>,</salute>
           </opener>
           <p> 
             <lb/>once more I am writing on the last
@@ -3574,7 +3574,7 @@
             <lb/>promises to be a long watch for
             <lb/>we are running dead slow looking
             <lb/>for a prominent <geogFeat>Cape</geogFeat>! <placeName ref="#CapeSt.Elias">Cape St
-              <lb/>Elias</placeName> by name. and a watch under
+            <lb/>Elias</placeName> by name. and a watch under
             <lb/>a slow Bell is always a long one
             <lb/>for me. I was just <hi rend="underline">up stairs</hi>
             <lb/>and it is a nasty rainy night
@@ -3593,7 +3593,7 @@
             <lb/>called <title level="a" ref="#THC">the Holy City</title> and It promises
             <lb/>to be good. A few lines which I gave
             <lb/>special attention to were these</p>
-          <p><lb/><q><unclear reason="illegible" cert="low">O</unclear> "hail is Love"</q></p>
+          <p><lb/><q>"<unclear reason="illegible" cert="low">of</unclear> hail is Love"</q></p>
           <p><lb/>A certain boy and a certain girl <choice><sic>aggreed</sic><corr>agreed</corr></choice>
             <lb/>to go <del rend="overstrike" cert="high">to go</del>to the same place in the same
             <lb/>boat and they both <hi rend="underline">pulled together</hi> So
@@ -3601,8 +3601,8 @@
             <lb/>do <hi rend="underline">you</hi> <choice><sic>aggree</sic><corr>agree</corr></choice>with them.
             <pb facs="/a/ab2d3387-c62a-4f61-9c05-34f24ae62dd9"/>
             <lb/>One <choice><sic>off</sic><corr>of</corr></choice> the many things that
-            <lb/>you will be told is this <persName ref="#GMS"><addName type="endearment">honey</addName></persName> He's
-            <lb/>only a seafaring man. and <hi rend="underline">I</hi> will
+            <lb/>you will be told is this <persName ref="#GMS"><addName type="endearment">honey</addName></persName> <q>He's
+              <lb/>only a seafaring man.</q> and <hi rend="underline">I</hi> will
             <lb/>will admit that their <choice><abbr type="suspension">Rep.</abbr><expan cert="high">reputation</expan></choice>is none
             <lb/>too good but that comes more from 
             <lb/>the sailor class on war ships and
@@ -3611,12 +3611,12 @@
             <lb/>be through with this in the near
             <lb/>future hence them long 2 years if
             <lb/>you can call that near future.
-            <lb/>and again <persName><surname>Burns</surname></persName> says a man's
+            <lb/>and again <rs ref="#Burns">Burns</rs> says a man's
             <lb/>a man for all <unclear reason="illegible" cert="low">o</unclear> that <q>"and that"</q>!
             <lb/>By the way how is <rs ref="THM">the Scotchman</rs>
             <lb/>getting along not <q><choice><sic>"brooke"</sic><corr>"broke"</corr></choice></q> I hope I
             <lb/>must laugh when I think of the
-            <lb/>lookson <persName ref="#ACS"><addName type="nickname">ouncle A's</addName></persName> face the day you
+            <lb/>lookson <persName ref="#ACS"><addName type="nickname">ouncle <hi rend="underline">A's</hi></addName></persName> face the day you
             <pb facs="/e/e1c9c876-b418-422a-a05d-3e16f40c91d9"/>
             <lb/>were In the Engine room I didn't
             <lb/>think you noticed. but you afterwards
@@ -3640,7 +3640,7 @@
             <pb facs="/b/bb5bb078-b2fc-460f-bce8-4d729f6409b7"/>
             <lb/>Never satisfied am I <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
             <lb/>but hope to be some day live in
-            <lb/>hopes and - I know <choice><sic>sisint</sic><corr>it isn't</corr></choice>
+            <lb/>hopes and - I know <distinct type="babyTalk">sisint</distinct>
             <lb/>nice to be so selfish but it would
             <lb/>be <distinct type="babyTalk">ossle</distinct> nice to see you tonight or any
             <lb/>other time the sooner the quicker
@@ -3654,14 +3654,14 @@
             <lb/>any way it makes me seem closer
             <lb/>to you anyway to be writing
             <pb facs="/2/2502d308-1d03-4cf7-9ff1-91b6de9658f6"/>
-            <lb/>away and at the sam time going
+            <lb/>away and at the same time going
             <lb/>farther &amp; farther away take notice
             <lb/>I am always looking out for my own
             <lb/>pleasure when at the same time I may
-            <lb/>be trying your patiences surely
+            <lb/>be trying your patience surely
             <lb/>hope not <persName ref="#GMS"><addName type="endearment">honey</addName></persName> deed I do</p>
-            <lb/><p>I had a great romp with <persName ref="#LGS">little
-            <lb/> Gladys</persName> tonight her mother fetched
+            <lb/><p>I had a great romp with <rs ref="#LGS">little
+            <lb/> Gladys</rs> tonight her mother fetched
             <lb/>her to my window (I have a room
             <lb/>same as the chiefs on <name ref="#Santa_Clara">Santa Clara</name> only
             <lb/>the door opens in engine room instead
@@ -3670,7 +3670,7 @@
             <lb/>in side gave her an orange <unclear reason="illegible" cert="medium">door</unclear>
             <lb/>to the engine room and she wasn't
             <lb/>a bit afraid and it was a pleasure
-            <lb/><choice><sic>two</sic><corr>to</corr></choice> have only a wee <persName>Gladys</persName>
+            <lb/><choice><sic>two</sic><corr>to</corr></choice> have only a wee <rs ref="LGS">Gladys</rs>
             <pb facs="/c/c1fd1ea5-32d5-467d-99f5-2b0949e83ed9"/>
             <lb/>to talk to and I said lots
             <lb/>of things to her about -O well-
@@ -3708,7 +3708,7 @@
             <lb/>So <choice><sic>they</sic><corr>there</corr></choice> will be something doing in
             <lb/>a short time and the time is 3 <hi rend="underline">40</hi> and
             <lb/>I must write up my log so once more
-            <lb/><rs ref="#GMS">little girl</rs> I will bid you good night</p>
+              <lb/><persName ref="#GMS"><addName type="nickname">little girl</addName></persName> I will bid you good night</p>
           <closer> 
             <lb/><salute>wif a heaps of love X<unclear>X</unclear></salute>
             <signed><persName ref="#JJM">J.J.Mc</persName></signed>
