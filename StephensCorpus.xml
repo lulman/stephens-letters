@@ -4021,7 +4021,7 @@
             <stamp type="postmark"> <placeName ref="#Seattle">SEATTLE, WASH.</placeName> / 
               <date when="1909-10-05">OCT 5 / <time>2 - 
               <gap reason="invisible" unit="characters" quantity="1"/>M</time> / 1909</date> </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
+            <stamp type="cancellation"> <event ref="#AYP">WORLD'S FAIR<event/> <placeName ref="#Seattle">SEATTLE<placeName/> </stamp>
           </ab>
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
@@ -4086,8 +4086,7 @@
               They like new scenes and experiences and won't take back talk from anybody" <bibl>
               <ref target="#ICL">Loyd</ref></bibl>. It's unclear if Macintyre is stating that he has 
               worked with literally the same person on five different ships, or that he has found all 
-              the tramp engineers to be frustratingly similar. The latter seems more likely considering 
-              the pervasive negativity towards tramp engineers.
+              the tramp engineers to be similar.
             </note> we have had 
             <lb/>exceedingly fine weather this <choice><sic>Vo<unclear cert="high" reason="no dot over i">
             i</unclear>ge</sic><corr>Voyage</corr></choice> It <choice><sic>did
@@ -4099,7 +4098,7 @@
               <placeName ref="#Tuxekan">Tuxekan</placeName> was renowned for its totem poles, and Klawock 
               created a Totem Park to display authentic and replica totem poles, which Macintyre seems to 
               anticipate here <bibl><ref target="#VI">"Visitor Information"</ref></bibl>. The preservation 
-              effort doesn't seem to be isolated, as a 1927 <hi rend="italics">New York Times</hi> 
+              effort doesn't seem to be isolated, as a 1927 <title level="j">New York Times<title/> 
               article laments the Alaskan Indians' "scant regard for the ritual of the old tradition" of 
               totem-making and relates the need for "funds for the preservation of these monuments" 
               <bibl><ref target="#NYT2">"Deserted Totems of Alaska"</ref></bibl>.
@@ -4122,8 +4121,14 @@
             <lb/>why<unclear cert="medium">!</unclear> we <choice><sic>was</sic><corr>were</corr></choice> 
             in <placeName ref="#Ketchikan">Ketchikan</placeName> about 2 hours coming 
             <lb/>home the <rs ref="#IP"><choice><sic>Pursers</sic><corr>Purser's</corr>
-            </choice> Sister</rs> and I went up to the <!-- Can I find out about the falls? -->
-            <lb/>falls the lower ones <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
+            </choice> Sister</rs> and I went up to the 
+            <lb/><geogFeat>falls</geogFeat> the lower ones<ptr type="noteAnchor" target="JJM19091004note3"/>
+            <note resp="ed" xml:id="JJM19091004note3">
+              It's unclear which waterfall Macintyre references here, as the two hour window that 
+              he indicates would not give him and Irene Palmer time to hike to and back from any of the 
+              major, named waterfalls in the Ketchikan area, assuming that he and Palmer hiked from 
+              the location of the current city of Ketchikan.
+            </note> <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             not way up <del rend="strikethrough">the</del> where 
             <lb/>we went She got Some Pictures<unclear cert="medium">!</unclear> 
             It was a fine day <seg type="obliqueText" rendition="#ot1">and</seg>  
@@ -4186,7 +4191,7 @@
             <lb/>know&#x2014;no&#x2014;well perhaps you Can get a better Idea 
             <lb/>this way Engine room Crews <name ref="#Northwestern">Northwestern</name> 25 men 
             <lb/><name ref="#SantaClara">Santa Clara</name> 13&#x2014;and this Soap box
-            <ptr type="NoteAnchor" target="JJM19091004note3"/><note resp="ed" xml:id="JJM19091004note3">
+            <ptr type="NoteAnchor" target="JJM19091004note4"/><note resp="ed" xml:id="JJM19091004note4">
               Here Macintyre seems to be referring to the boat on which he's currently sailing to catch up 
               with the Northwestern. The diminutive connotation fits with the boastful tone that he has 
               assumed to impress Gladys with the size and power of the Northwestern. Interestingly, the 
@@ -4217,8 +4222,8 @@
               </addName></persName><hi rend="underline">no more</hi> 
             <lb/>for me! <choice><sic>they</sic><corr>there</corr></choice> was also a
             <add place="above">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 
-            <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note4"/>
-            <note resp="ed" xml:id="JJM19091004note4">
+            <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note5"/>
+            <note resp="ed" xml:id="JJM19091004note5">
               "On September 24, 1909, a Seattle Electric Company streetcar jumps the track at the 
               corner of E 40th Street and 14th Avenue NE (later University Way). The streetcar crashes 
               into three concession buildings across the street from the main entrance of the 
