@@ -4168,7 +4168,7 @@
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>John J. Macintyre to Gladys M. Stephens, 04 October 1909</title>
+          <title>James J. Macintyre to Gladys M. Stephens, 04 October 1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
@@ -4192,7 +4192,7 @@
             </msContents>
             <physDesc>
               <p>
-                Two loose sheets of dirty white Alaska Steamship Company letterhead stationery 
+                ALS. Two loose sheets of dirty white Alaska Steamship Company letterhead stationery 
                 measuring 10.875 inches by 8.5 inches, with light blue horizontal lining on the recto 
                 beginning 2.75 inches from the top and spaced .375 inches apart. Above the 
                 lining, centered at the top of the page, and measuring 4.25 inches by .25 inches is 
@@ -4305,8 +4305,9 @@
               though the tramp engineer also "won't work in a place long enough to get married to the job. 
               They like new scenes and experiences and won't take back talk from anybody" <bibl>
               <ref target="#ICL">Loyd</ref></bibl>. It's unclear if Macintyre is stating that he has 
-              worked with literally the same person on five different ships, or that he has found all 
-              the tramp engineers to be similar.
+              worked with literally the same person on five different ships, but the historical context 
+              suggests that he is stating that the tramp engineers with whom he has worked all have exhibited 
+              similar personalities and professional habits.
             </note> we have had 
             <lb/>exceedingly fine weather this <choice><sic>Vo<unclear cert="high" reason="no dot over i">
             i</unclear>ge</sic><corr>Voyage</corr></choice> It <choice><sic>did
@@ -4321,7 +4322,11 @@
               effort doesn't seem to be isolated, as a 1927 <title level="j">New York Times</title> 
               article laments the Alaskan Indians' "scant regard for the ritual of the old tradition" of 
               totem-making and relates the need for "funds for the preservation of these monuments" 
-              <bibl><ref target="#NYT2">"Deserted Totems of Alaska"</ref></bibl>.
+              <bibl><ref target="#NYT2">"Deserted Totems of Alaska"</ref></bibl>. <figure rend="link">
+                <head>Totems at old Tuxekan</head>
+                <graphic url="http://vilda.alaska.edu/cdm4/item_viewer.php?CISOROOT=/cdmg21&amp;CISOPTR=9786&amp;REC=1"></graphic>
+                <figDesc>Photograph of totems at old Tuxekan, Alaska's Digital Archives and Alaska State Library</figDesc>
+              </figure>
             </note>
             yet <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             <pb facs="/d/d2d63fa4-8f27-45dd-857f-56d69e377a32"/>
@@ -4335,8 +4340,13 @@
             </choice> the <geogFeat>bay</geogFeat> from the Cannery<ptr type="noteAnchor" target="JJM19091004note2"/>
             <note resp="ed" xml:id="JJM19091004note2">
               "[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878." 
-              Until 1920, it remained the only salmon cannery in the state 
-              <bibl><ref target="#VI">"Visitor Information"</ref></bibl>.</note> 
+              Until 1920, it remained the only salmon cannery in the state <bibl><ref target="#VI">
+              "Visitor Information"</ref></bibl>. <figure rend="link">
+                <head>The Cannery at Klawock</head>
+                <graphic url="http://vilda.alaska.edu/cdm4/item_viewer.php?CISOROOT=/cdmg21&amp;CISOPTR=13554&amp;REC=7"></graphic>
+                <figDesc>Photograph of the Klawock cannery, Alaska's Digital Archies and Alaska State Library</figDesc>
+              </figure>
+            </note> 
             <seg type="obliqueText" rendition="#ot1">and</seg> that's 
             <lb/>why<unclear cert="medium">!</unclear> we <choice><sic>was</sic><corr>were</corr></choice> 
             in <placeName ref="#Ketchikan">Ketchikan</placeName> about 2 hours coming 
