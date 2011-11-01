@@ -2321,7 +2321,7 @@
               <lb/>Holland</persName> a bit for taking you 
             <lb/>there <seg type="obliqueText" rendition="#ot1">and</seg> if your feelings at 
             <lb/>the Depot was any thing like 
-            <lb/>mine you <unclear cert="low">Certainly</unclear> have my 
+            <lb/>mine you <unclear cert="low" reason="illegible">Certainly</unclear> have my 
             <lb/>Sympathy for dear I did not 
             <lb/><choice><sic>eaven</sic><corr>even</corr></choice> wait <choice><sic>untill</sic><corr>until</corr></choice> the train pulled 
             <lb/>out
@@ -2331,9 +2331,9 @@
             <lb/>your best So I did not tell you 
             <lb/>the promise that I wished from 
             <!-- the question mark seems to be the only punctuation that JJM uses, but does it always mark a question? -->
-            <lb/>you but Asked in last letter?
+            <lb/>you but asked in last letter?
             <lb/>And when <persName ref="#MrH">Mr Holland</persName> asked you 
-            <lb/>if they was any tears <q><unclear cert="low">shed</unclear></q>
+            <lb/>if they was any tears <q><unclear reason="illegible" cert="low">shed</unclear></q>
             <lb/><seg type="obliqueText" rendition="#ot1">And</seg> <choice><sic>allways</sic><corr>always</corr></choice> remember honey I 
             <lb/>have two <choice><sic>Sholders</sic><corr>shoulders</corr></choice> a right + also <add place="above">a</add> left 
             <lb/>one And you can have your choice
@@ -2347,38 +2347,36 @@
             <lb/>recommended but honey I said
             <pb facs="/6/657652de-d6f1-45e8-8d8d-922be44d93c5
               "/>
-            <!-- Is what looks like "ossle" actually offle, a mispelling of awfully? -->
             <lb/><distinct type="babyTalk">Somefing ossle</distinct> naughty --
           </p>
           <p>
             <lb/>I don't Care I was mad to think
-            <lb/>of my little girl being in Such
+            <lb/>of my <persName ref="#GMS"><addName type="endearment">little girl</addName></persName> being in Such
             <lb/>a place If I Could only <choice><sic>bin</sic><corr>been</corr></choice> there
-            <lb/>but dear I can never wait 2 years
+            <lb/>but <persName ref="#GMS"><addName type="endearment">dear</addName></persName> I can never wait 2 years
             <lb/>before I see you I simply cant
             <lb/>It <choice><sic>Seams</sic><corr>seems</corr></choice> almost a year now
-            <lb/>And the good old <placeName ref="#SantaClara">Santa Clara</placeName> She
-            <lb/>or <q>he</q> (as it is a <choice><sic>mail</sic><corr>male</corr></choice> boat) is a friend
+            <lb/>And the good old <name type="ship" ref="#SantaClara">Santa Clara</name> She
+            <lb/>or <q>he</q> (as it is a mail boat) is a friend
             <lb/>of mine And I may Soon be back 
             <lb/>again the Chief was down to See me
             <lb/>last night and he don't want me
-            <lb/>to make this trip So I Saw the <unclear cert="low">Ships</unclear>
+            <lb/>to make this trip So I Saw the <unclear reason="illegible" cert="low">Supt</unclear>
             <!-- While trying to research the second of the two unclear words, I came across "aluguel," which is a Spanish word that has something to do with ship repairs -->
-            <lb/><unclear cert="low">aluguel</unclear>to day and he transferred me to 
-            <lb/>the <placeName ref="#Northwestern">North Western</placeName> <del rend="overstrike">She</del> he Sails
+            <lb/><unclear reason="illegible" cert="low">engr</unclear>to day and he transferred me to 
+            <lb/>the <name type="ship" ref="#Northwestern">North Western</name> <del rend="overstrike">She</del> he Sails
             <pb facs="/f/fe83c5c8-21a3-4819-9cfc-5f5cae2bca37
               "/>
-            <lb/><date>Monday #16</date> And he Said If he got
-            <lb/>Any <del rend="overstrike">more</del> news from <placeName ref="#SantaClara">Santa Clara</placeName>
+            <lb/><date when="08-16-1909">Monday #16</date> And he Said If he got
+            <lb/>Any <del rend="overstrike">more</del> news from <name type="ship" ref="#SantaClara">Santa Clara</name>
             <lb/>he would hold me over untill <del rend="overstrike">She</del> he
-            <lb/>Sails and that means <unclear>$</unclear>1200 per year
-            <lb/>+ expenses I didn't mind before
+            <lb/>Sails and that means <unclear reason="illegible" cert="high">$</unclear>1200 per year
+            <lb/>&amp;expenses I didn't mind before
           </p>
           <p>
-            <lb/>But now -- <persName ref="#GMS">Neddie</persName>
+            <lb/>But now -- <persName ref="#GMS"><addName type="nickname">Neddie</addName></persName>
             <lb/>I have not <choice><sic>bin</sic><corr>been</corr></choice> over to See my mother
-            <!-- is monoux another boat or a reference to Sir George Monoux College in London? -->
-            <lb/>Since you left for the <unclear cert="medium">monoux</unclear> She
+            <lb/>Since you left for the <unclear reason="illegible" cert="medium">moment</unclear> She
             <lb/>Saw me She would want to know the
             <lb/>trouble And the memory of last 
             <lb/><choice><sic>Voige</sic><corr>voyage</corr></choice> is <choice><sic>to</sic><corr>too</corr></choice> 
@@ -2397,11 +2395,11 @@
             <lb/>Same or Improve if any thing!
             <!-- Here's an opening quotation mark with no closing -->
             <lb/>"And the Small heap grows to an
-            <lb/>Enormous Size! (this to you <unclear>pet</unclear>)
+            <lb/>enormous Size! (this to you <unclear reason="illegible" cert="high">pet</unclear>)
             <lb/>for I will watch every little
             <lb/>word for <choice><sic>Simptoms</sic><corr>symptoms</corr></choice> of the heap.
             <lb/>improving for the better
-            <lb/>And honey tell me all the troubles
+            <lb/>And <persName ref="#GMS"><addName type="endearment">honey</addName></persName> tell me all the troubles
             <lb/>as well as pleasures So I may share 
             <lb/>them with you as I really feel
             <lb/>As I am reading your letters that
@@ -2409,6 +2407,7 @@
             <lb/>this afternoon and Saw a few
             <pb facs="/2/2d47fc66-d1a5-4611-a3d9-da91eb08fb13
               "/>
+            <!-- Are "Texas hats" what we now refer to as cowboy hats? -->
             <lb/>Texas hats but not the right one
             <lb/>or the right face but I did not 
             <lb/>stay long and am staying aboard
@@ -2416,8 +2415,8 @@
             <lb/>Since and do not think I will go again
             <lb/>I can <choice><sic>safly</sic><corr>safely</corr></choice> make the promise never
             <lb/>to Smoke cigaretts again and regards
-            <lb/>to Drink It will be a bitter <unclear cert="medium">dissaperiture</unclear>
-            <lb/>that will ever Start me again it <unclear cert="low">fully</unclear>
+            <lb/>to Drink It will be a bitter <unclear reason="illegible" cert="medium">dissaperiture</unclear>
+            <lb/>that will ever Start me again it <unclear reason="illegible" cert="low">fully</unclear>
             <lb/>makes me Shudder to think of you being
             <lb/>Any where near that Class in <placeName ref="#Portland">portland</placeName>
             <lb/>And I hope you will have a better
@@ -2431,18 +2430,18 @@
             <lb/>better I would have felt for I
             <lb/>Cannot make my Self believe
             <lb/>but what Something will happen
-            <lb/>Forgive me dear if that <choice><sic>Seames</sic><corr>seems</corr></choice>
+            <lb/>Forgive me <persName ref="#GMS"><addName type="endearment">dear</addName></persName> if that <choice><sic>Seames</sic><corr>seems</corr></choice>
             <lb/>unjust but It <choice><sic>Seames</sic><corr>seems</corr></choice> <choice><sic>to</sic><corr>too</corr></choice> good to last
             <lb/>but will live in hopes!
           </p>
           <p>
-            <lb/>Mr Jones was <choice><sic>enquiring</sic><corr>inquiring</corr></choice> about today
+            <lb/><persName>Mr Jones</persName> was <choice><sic>enquiring</sic><corr>inquiring</corr></choice> about today
             <lb/>And he told me if I heard from you
             <lb/>to remind you of the picture you
             <lb/>know which one.
           </p>
           <p>
-            <lb/>well <persName ref="#GMS">neddy</persName> the lights will be
+            <lb/>well <persName ref="#GMS"><addName type="nickname">neddy</addName></persName> the lights will be
             <lb/>agoing out Soon as it is nearing 10 P.M.
             <lb/>give my very best regards to <persName>uncle E</persName>
             <lb/>And Some to <persName ref="#MrH">Mr Holland</persName> and remember
