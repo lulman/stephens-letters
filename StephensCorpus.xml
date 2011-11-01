@@ -1119,9 +1119,19 @@
           <person xml:id="BS">
             <persName>Smith, Berenice</persName>
             <note type="biographical">
-              A Mutual friend of Gladys and Adelaide, Berenice Smith is mentioned as being a person that Gladys
+              A Mutual friend of Gladys and her mother, Berenice Smith is mentioned as being a person that Gladys
               might get to check in on her mother if she doesn't write back on 1909-09-06. So Berenice Smith presumably
               lives in Newton near ATS.
+            </note>
+          </person>
+         
+          <person xml:id="ML">
+            <persName>Mrs. L</persName>
+            <note type="biographical">
+              A Mutual friend of Gladys and her mother, Mrs. L lives in El Paso presumably near Gladys.
+              In one letter 1909-09-06, ATS has made a pillow and sent it to Gladys to give to Mrs. L.
+              In another letter,(27 September, 1909) Gladys comments to her mother that she is teaching Mrs. L. to make 
+              Boston Baked Beans.
             </note>
           </person>
         </listPerson>
@@ -2120,7 +2130,7 @@
           <pb facs="/d/d91c6f4c-014a-4aeb-a8a4-f69981ad88ca"/>
             <lb/>will send a
             <lb/>telegram to
-            <lb/>to <persName>Berenice Smith.</persName> 
+            <lb/>to <persName ref="BS">Berenice Smith.</persName> 
             <lb/>It is pretty warm
             <lb/>here now, yet
             <lb/>there was a big
@@ -2136,7 +2146,7 @@
           </p>
           <p>
             <lb/>Oh about the
-            <lb/>pillow. <persName>Mrs. L. </persName> was 
+            <lb/>pillow. <persName ref="#ML">Mrs. L. </persName> was 
             <lb/>much pleased
             <lb/>with it and thought
             <lb/>it handsome and
