@@ -180,6 +180,16 @@
             Alaska. </desc>
           </place>
           
+          <place type="hotel" xml:id="Tourist" source="#TGN"><placeName> Tourist Hotel </placeName>
+            <location> <address>           
+            <addrLine>1009, 1011, 1010 Pacific Ave.</addrLine>            
+            <addrLine>Tacoma, WA</addrLine>
+            </address>
+            </location>
+            <desc>JJM stayed at the Tourist Hotel on Oct. 11 1909. According to the stationary it was run 
+          by D.P. Foley</desc>
+              </place>
+            
           <place type="city" xml:id="Boston" source="TGN">
             <placeName>Boston</placeName>
             <desc>Gladys Stephens mentions a correspondence occurring in Boston</desc>
@@ -693,10 +703,6 @@
             <title level="a">News of Pacific Northwest</title>. <title level="j">The Leavenworth Echo</title> 
             01 October 1909: n.p. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 
             01 Nov. 2011.
-          </bibl>
-          <bibl xml:id="MC18901005" n="MorningCall">
-            <title level="a">Sea and Shore</title>. <title level="j">The Morning Call</title> 15 October 
-            1890: 3. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 01 Nov. 2011.
           </bibl>
         </listBibl>
         
@@ -3064,17 +3070,17 @@
             <lb/>a pale blue broadcloth dress made. She
             <lb/>has a handsome brown suit. Things are 
             <lb/>getting quite interesting I can tell
-            <lb/>you. Just between you <seg type="obliqueText" rendition="#ot1">and</seg> I <persName ref="#THM">"the man"</persName>"the man"
+            <lb/>you. Just between you and I <persName ref="#THM">"the man"</persName>"the man"
             <lb/>has one bad feature. He takes a cocktail
-            <lb/>now <seg type="obliqueText" rendition="#ot1">and</seg> then. No one here seems to
-            <lb/>mind it <seg type="obliqueText" rendition="#ot1">and</seg> of course I have said
-            <lb/>nothing. He seems nice other ways <seg type="obliqueText" rendition="#ot1">and</seg>
+            <lb/>now and then. No one here seems to
+            <lb/>mind it. And of course I have said
+            <lb/>nothing. He seems nice other ways and
             <lb/>every one speaks well of him. He has
-            <lb/>a good position <seg type="obliqueText" rendition="#ot1">and</seg> makes in the
+            <lb/>a good position and makes in the
             <lb/>vicinity of $50 a week. Well all's
             <lb/>well that end's well. $50 a week
-            <lb/><seg type="obliqueText" rendition="#ot1">and</seg> all I would not marry him.
-            <lb/>Of course he belongs to the <rs>club</rs> here <seg type="obliqueText" rendition="#ot1">and</seg>
+            <lb/>and all I would not marry him.
+            <lb/>Of course he belongs to the <rs>club</rs> here and
             <lb/>the club's favorite drink is cocktail. I've 
             <lb/>noticed the odor about everytime I've 
             <lb/>seen him.
@@ -3095,7 +3101,7 @@
             <lb/>to get them. I thought I'd escaped
             <lb/>however. Now what do you think
             <lb/>of that. Well she worked good
-            <lb/>and hard <seg type="obliqueText" rendition="#ot1">and</seg> dosed my head <seg type="obliqueText" rendition="#ot1">and</seg>
+            <lb/>and hard and dosed my head and
             <lb/>I have to go again Sat. morning.
             <lb/>Their deposit was not large and
             <lb/>so we have hopes of soon cleaning
@@ -3108,7 +3114,7 @@
           </p>
           <p>
             <lb/><rs ref="#ACS">Uncle</rs>says I must stay to
-            <lb/>see the <rs>Presidents</rs> meet <seg type="obliqueText" rendition="#ot1">and</seg> then I
+            <lb/>see the <rs>Presidents</rs> meet and then I
             <lb/>can go home immediately after
             <pb/>
             <lb/>that. He says <persName ref="#PrD">Dias</persName> is so old (79) that
@@ -3116,7 +3122,7 @@
             <lb/>chance to see anything of the kind
             <lb/>again. A revolution in <placeName ref="#Mexico">Mexico</placeName> is 
             <lb/>imminent if <persName ref="#PrD">Dias</persName> dies. The Vice
-            <lb/><persName ref="#VPR"><roleName><choice><abbr>Pres.</abbr><expan>President</expan></choice></roleName>Reyes</persName> wants to be <choice><abbr>Pres.</abbr><expan>President</expan></choice> <seg type="obliqueText" rendition="#ot1">and</seg> 
+            <lb/><persName ref="#VPR"><roleName>Pres.</roleName>Reyes</persName>Pres. Reyes wants to be Pres. and 
             <lb/><rs>the people</rs> hate him terribly. They
             <lb/>have to have <rs>Rurales</rs> every where to
             <lb/>keep them quiet now even. He
@@ -3127,7 +3133,7 @@
             <lb/>shall have every thing ready to go as
             <lb/>soon as I can leave after it's over.
             <lb/>The <rs>old citizens</rs> are going to have a
-            <lb/>big time <seg type="obliqueText" rendition="#ot1">and</seg> he wants me to be
+            <lb/>big time and he wants me to be
             <lb/>with him. Lots better today. Slept 12 hrs.
           </p>
           <p>
@@ -3653,7 +3659,7 @@
             <lb/>way! but never mind dear If every thing goes all
             <lb/>I wish (I don't want much do Honey) we will have
             <lb/>the trip of your life Some day and will be to <placeName ref="China">China</placeName>
-            <lb/>&amp; <placeName ref="Japan">Japan</placeName> and on down to <placeName ref="Manila">Manila</placeName>; <placename ref="Manila">Manila</placename> is a very
+            <lb/>&amp; <placeName ref="Japan">Japan</placename> and on down to <placename ref="Manila">Manila</placename>; <placename ref="Manila">Manila</placename> is a very
             <lb/>Interesting place the old walled City for Instance
             <lb/>I have some Souvenirs from there or did have
             <lb/>any way but most every one that comes to the
@@ -4156,11 +4162,8 @@
             </choice> the <geogFeat>bay</geogFeat> from the Cannery<ptr type="noteAnchor" target="JJM19091004note2"/>
             <note resp="ed" xml:id="JJM19091004note2">
               "[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878." 
-              Until 1920, it remained the only salmon cannery in the state <bibl><ref target="#VI">
-              "Visitor Information"</ref></bibl>. An <date when="1890-10-05">1890</date> issue of the 
-              <title level="j">The Morning Call</title>, a San Francisco newspaper, identifies this 
-              firm as the North Pacific Trading and Packing Company <bibl><ref target="#MC18901005">
-              "Sea and Shore"</ref></bibl>.</note> 
+              Until 1920, it remained the only salmon cannery in the state 
+              <bibl><ref target="#VI">"Visitor Information"</ref></bibl>.</note> 
             <seg type="obliqueText" rendition="#ot1">and</seg> that's 
             <lb/>why<unclear cert="medium">!</unclear> we <choice><sic>was</sic><corr>were</corr></choice> 
             in <placeName ref="#Ketchikan">Ketchikan</placeName> about 2 hours coming 
@@ -4270,7 +4273,7 @@
               reports that "a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. 
               and Lane st. shortly before <time when="06:00:00">6 o'clock</time> this morning." It "crashed to 
               the tideflats below" and "turned turtle, pinning its occupants beneath." The auxiliary gas tank 
-              caught fire upon the vehicle's impact. The driver, Henry Hiser, "managed to extricate himself" and 
+              caught fire upon the vehicle's crash. The driver, Henry Hiser, "managed to extricate himself" and 
               another passenger, but he "scurried from the scene and was later placed under arrest" <bibl>
               <ref target="#SS19090923">"Two Girls Burned and Crushed Beyond Human Resemblance"</ref></bibl>. 
               The <date when="1909-10-01">October 1</date> issue of <title level="j">The Seattle Republican</title> 
@@ -4444,7 +4447,7 @@
             <subst><del rend="overstrike">10</del><add place="above">11</add></subst> 
             So I must write a few lines as <choice><sic>promise</sic><corr>promised</corr></choice>
             <lb/>how I would like to have had you with me last night
-            <lb/><persName>mother</persName> and I talked <choice><sic>untill</sic><corr>until</corr></choice>
+            <lb/><rs>mother</rs> and I talked <choice><sic>untill</sic><corr>until</corr></choice>
             2 am Such a fine
             <lb/>talk we had and my <persName ref="#GMS"><addName type="endearment">little girl</addName>
             </persName> was the Subject 
@@ -4489,7 +4492,7 @@
             <lb/>way to go will write tomorrow and tell you the Steamboat news
               <lb/>this has <choice><sic>bin</sic><corr>been</corr></choice> <unclear cert="medium">nutter</unclear> with a bum pen : you <subst>
               <del rend="overstrike">remeember</del><add place="above">remember</add></subst> the
-            <lb/>pen I got you at the <placeName ref="Georgean">Georgean</placeName> well I would go farther
+            <lb/>pen I got you at the <choice><sic>Georgean</sic><corr><placeName ref="#Georgian">Georgian</placeName></corr> well I would go farther
               <lb/>than that If I could have the opportunity again : well <persName ref="#GMS">
                 <addName type="endearment">dear</addName></persName>
             <lb/>So Long x
