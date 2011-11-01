@@ -3373,12 +3373,11 @@
             <stamp type="dateline">SEP 27 1909 </stamp>
             <stamp type="dateline"> SEP 27 1909 </stamp>
           </ab>
-          <figure rend="link">
+          <figure rend="embed">
             <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="http://www.needaurlhere.com"/>
+            <graphic url="www.needaurlhere.com"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of William Seward; perforated horizontally and
-              vertically; U.S. #370] Upside down </figDesc>
+            vertically; U.S. #370] Upside down </figDesc>
           </figure>
         </div>
         <div type="letter" xml:id="JJM19090823let01" corresp="JJM19090823env01"> </div>
@@ -3386,7 +3385,7 @@
           <pb facs="/2/2edb5373-006c-49cd-bb10-39e021006dcb"/>
           <opener>
             <handShift new="JJMHand"/>
-            <dateline><date when="1909-08-23"><seg type="obliqueText" rendition="#ot1">8/23/09</seg></date></dateline>
+            <lb/><dateline><date when="1909-08-23"><seg type="obliqueText" rendition="#ot1">8/23/09</seg></date></dateline>
             <lb/><salute>Dear<rs ref="#GMS">little Girl</rs>,</salute>
           </opener>
           <p> 
@@ -3403,7 +3402,7 @@
             <lb/>for me. I was just <hi rend="underline">up stairs</hi>
             <lb/>and it is a nasty rainy night
             <lb/>and the ship is <unclear reason="illegible" cert="medium">roaling</unclear> heavy. you
-            <lb/>should ought to see my pose in writing this the Kangaroo is not in it.
+            <lb/>should ought to see my pose in writing this <subst><del rend="overtyped"><unclear reason="illegible" cert="high">a</unclear></del><add place="over">the</add></subst> Kangaroo is not in it.
             <pb facs="/e/e9269572-e28c-4911-8402-38b1ead57c8b"/>
             <lb/>I wonder how you would <choice><sic>fell</sic><corr>feel</corr></choice>
             <lb/>better I hope. we are agoing
@@ -3414,7 +3413,7 @@
             <lb/>letters would be very nice to me but
             <lb/>nothing doing <choice><sic>untill</sic><corr>until</corr></choice> <placeName ref="#Seattle">Seattle</placeName> again!
             <lb/>I started to read a story last night
-            <lb/>called <title>the Holy City</title> and It promises
+            <lb/>called <title level="a">the Holy City</title> and It promises
             <lb/>to be good. A few lines which I gave
             <lb/>special attention to were these</p>
           <p><lb/><q><unclear reason="illegible" cert="low">O</unclear> "hail is Love"</q></p>
@@ -3427,7 +3426,7 @@
             <lb/>One <choice><sic>off</sic><corr>of</corr></choice> the many things that
             <lb/>you will be told is this <persName ref="#GMS"><addName type="endearment">honey</addName></persName> He's
             <lb/>only a seafaring man. and <hi rend="underline">I</hi> will
-            <lb/>will admit that their Rep. is none
+            <lb/>will admit that their <choice><abbr type="suspension">Rep.</abbr><expan cert="high">reputation</expan></choice>is none
             <lb/>too good but that comes more from 
             <lb/>the sailor class on war ships and
             <lb/>sailing vessels and all <choice><sic>deap</sic><corr>deep</corr></choice> water crafts
@@ -3466,7 +3465,7 @@
             <lb/>but hope to be some day live in
             <lb/>hopes and - I know <choice><sic>sisint</sic><corr>it isn't</corr></choice>
             <lb/>nice to be so selfish but it would
-            <lb/>be <choice><sic>ossle</sic><corr>also</corr></choice> nice to see you tonight or any
+            <lb/>be <distinct type="babyTalk">ossle</distinct> nice to see you tonight or any
             <lb/>other time the sooner the quicker
             <lb/>It is now 3 a.m. and still running
             <lb/>slow. I suppose you are having a nice
@@ -3479,12 +3478,12 @@
             <lb/>to you anyway to be writing
             <pb facs="/2/2502d308-1d03-4cf7-9ff1-91b6de9658f6"/>
             <lb/>away and at the sam time going
-            <lb/>farther + farther away take notice
+            <lb/>farther &amp; farther away take notice
             <lb/>I am always looking out for my own
             <lb/>pleasure when at the same time I may
             <lb/>be trying your patiences surely
             <lb/>hope not <persName ref="#GMS"><addName type="endearment">honey</addName></persName> deed I do</p>
-          <p>I had a great romp with <persName>little
+            <lb/><p>I had a great romp with <persName>little
             <lb/> Gladys</persName> tonight her mother fetched
             <lb/>her to my window (I have a room
             <lb/>same as the chiefs on <name ref="#Santa_Clara">Santa Clara</name> only
@@ -3501,8 +3500,8 @@
             <lb/>well she laughed and seemed to
             <lb/>enjoy it any way although
             <lb/>could not understand
-          </p>
-          <p>I almost believe <persName ref="#GMS"><addName type="endearment">honey</addName></persName> that I 
+            </p>
+            <lb/><p>I almost believe <persName ref="#GMS"><addName type="endearment">honey</addName></persName> that I 
             <lb/>could carry you the same if
             <lb/>the opportunity could be and your
             <lb/>permission <hi rend="underline">do you</hi>
@@ -3528,7 +3527,7 @@
             <lb/>my room in <placeName ref="#Seattle">Seattle</placeName> also my friend
             <lb/>or at least he was supposed to be
             <lb/>They have just whistled down from
-            <lb/>the bridge for 5 more <unclear reason="illegible" cert="low">Reverlitions</unclear>
+              <lb/>the bridge for 5 more <choice><sic><unclear reason="illegible" cert="medium">Reverlitions</unclear></sic><corr>revolutions</corr></choice>
             <lb/>So <choice><sic>they</sic><corr>there</corr></choice> will be something doing in
             <lb/>a short time and the time is 3 <hi rend="underline">40</hi> and
             <lb/>I must write up my log so once more
