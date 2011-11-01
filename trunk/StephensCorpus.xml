@@ -2430,7 +2430,7 @@
           <p>
             <lb/>I dare not express my feelings
             <lb/>in regards to the place where <persName ref="#MrH">Holland</persName> 
-            <lb/>recommended but honey I said
+            <lb/>recommended but <persName ref="#GMS"><addName type="endearment">honey</addName></persName> I said
             <pb facs="/6/657652de-d6f1-45e8-8d8d-922be44d93c5
               "/>
             <lb/><distinct type="babyTalk">Somefing ossle</distinct> naughty --
@@ -2549,10 +2549,10 @@
             <lb/><salute>I Remain as Ever Yours in big 
               <!-- Oxygen won't let me use q tags for a quotation inside of a salutation -->
               <lb/>"Heaps"</salute><signed><persName ref="#JJM">J McIntyre</persName></signed>
-            <!-- What the hell is "lightboat"? -->
-            <lb/>+ lightboat
+            <!-- annotate "lightboat" -->
+            <lb/>&amp; lightboat
             <lb/>"Note Date"
-            <lb/><dateline>Friday 13th / 09</dateline>
+            <lb/><dateline><date when="1909-08-13">Friday 13th / 09</date></dateline>
           </closer>
         </div>
       </body>
