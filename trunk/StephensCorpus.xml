@@ -227,7 +227,8 @@
           </place>
           <place type="city" xml:id="Portland" source="#TGN">
             <placeName>Portland</placeName>
-            <desc>Gladys Stephens mentions as a site of a known house</desc>
+            <desc>Gladys Stephens mentions as a site of a known house. 
+              JJM also talks about it as one of Gladys's destinations in his letter to her on 8-13-1909.</desc>
             <country>United States</country>
             <region type="state">Maine</region>
             <location>
@@ -318,7 +319,7 @@
           </place>
           <place type="fairgrounds" xml:id="AYPE">
             <placeName>Alaska-Yukon Pacific Exposition</placeName>
-            <desc>In his letter of 04 October 1909, John J. Macintyre recounts an accident 
+            <desc>In his letter of 04 October 1909, John J. McIntyre recounts an accident 
             involving an electric street car derailing at the entrance to the Alaska-Yukon 
             Pacific Exposition, which later became the campus for the University of Washington.</desc>
             <country>USA</country>
@@ -915,6 +916,11 @@
           <person><persName>Mrs. Rich</persName></person>
           <person><persName>the Dotens</persName></person> 
           <person><persName>Burns</persName></person>
+          <person xml:id="MrJ">
+            <persName>Mr. Jones</persName>
+            <note>JJM's letter on 8-13-1909 mentions Mr. Jones as an acquaintance of Gladys's from 
+            back home. JJM passes on an ambiguous message about a picture to Gladys from Mr. Jones.</note>
+          </person>
           <person xml:id="THM">
             <persName>"the man"</persName>
             <note type="biographical">Adelaide's fiance. Gladys never refers to 
@@ -938,6 +944,11 @@
           </person>
           <person xml:id="MrH">
             <persName>Mr. Holland</persName>
+            <note>JJM's letter to GMS on 8-13-1909 repeatedly mentions Mr. Holland as someone who 
+            served as a kind of guide to Gladys while she was in Portland. JJM was apparently very unhappy with 
+            Holland for taking Gladys to someplace where she encountered "that class" of people, and where 
+            she did not enjoy herself.
+            </note>
           </person>
           <person xml:id="PrD">
             <persName>Diaz, Jose de la Cruz Porfirio</persName>
@@ -2374,7 +2385,7 @@
           </opener>
           <p>
             <lb/>It was with pleasure that 
-            <lb/>I received your Cards + letter 
+            <lb/>I received your Cards &amp; letter 
             <lb/>this P.M. but Sorry that 
             <lb/>you did not enjoy your trip 
             <lb/>And got Such a disagreable place 
@@ -2396,7 +2407,7 @@
             <lb/>And when <persName ref="#MrH">Mr Holland</persName> asked you 
             <lb/>if they was any tears <q><unclear reason="illegible" cert="low">shed</unclear></q>
             <lb/><seg type="obliqueText" rendition="#ot1">And</seg> <choice><sic>allways</sic><corr>always</corr></choice> remember honey I 
-            <lb/>have two <choice><sic>Sholders</sic><corr>shoulders</corr></choice> a right + also <add place="above">a</add> left 
+            <lb/>have two <choice><sic>Sholders</sic><corr>shoulders</corr></choice> a right &amp; also <add place="above">a</add> left 
             <lb/>one And you can have your choice
             <lb/>or both? by the -- way how is
             <lb/>our (I was going to Say little) <choice><sic>unkle</sic><corr>uncle</corr></choice>
@@ -2496,7 +2507,7 @@
             <lb/>but will live in hopes!
           </p>
           <p>
-            <lb/><persName>Mr Jones</persName> was <choice><sic>enquiring</sic><corr>inquiring</corr></choice> about today
+            <lb/><persName ref="#MrJ">Mr Jones</persName> was <choice><sic>enquiring</sic><corr>inquiring</corr></choice> about today
             <lb/>And he told me if I heard from you
             <lb/>to remind you of the picture you
             <lb/>know which one.
@@ -2515,7 +2526,7 @@
             <lb/>of love on my return from
             <lb/>this <choice><sic>Voige</sic><corr>voyage</corr></choice> I will write again
             <lb/>before Sailing so you will know
-            <lb/>how + where I am
+            <lb/>how &amp; where I am
           </p>
           <p>
             <lb/><choice><sic>Good By</sic><corr>Goodbye</corr></choice> little girl
