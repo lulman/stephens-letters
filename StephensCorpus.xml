@@ -168,9 +168,12 @@
               <geo>47.8333 -122.4333</geo>
             </location>
           </place>
-          <place type="hotel" xml:id="Georgian" source="#TGN"><placeName>Hotel Georgian</placeName><location><address><addrLine>1420 4th Ave
-          </addrLine>
-          <addrLine>Seattle, WA</addrLine>
+          <place type="hotel" xml:id="Georgian" source="#TGN">
+            <placeName>Hotel Georgian</placeName>
+            <location>
+              <address>
+                <addrLine>1420 4th Ave</addrLine>
+                <addrLine>Seattle, WA</addrLine>
           </address>
           </location>
             <desc>The Hotel Georgian was built in 1908 and had seven floors and 108 rooms.
@@ -179,7 +182,25 @@
             seems that she made repeated visits to the Georgian both before and after her excursion to
             Alaska. </desc>
           </place>
-          
+          <place type="college" xml:id="SeattleCollege" source="#TGN">
+            <placeName>Seattle College</placeName>
+            <location>
+              <address>
+                <addrLine>Seattle, WA</addrLine>
+          </address>
+            </location>
+            <desc>In her letter dated July 10, 1909, Gladys mentions that the buildings at the 1909 Seattle World's Fair will be used later by Seattle College.  By this, she almost certainly means the University of Washington, on whose grounds the Alaska-Yukon-Pacific Exposition (aka the 1909 Seattle World's Fair) was built.</desc>
+          </place>
+          <place type="building" xml:id="ForestryBuilding" source="#TGN">
+            <placeName>Forestry Building</placeName>
+            <location>
+              <address>
+                <addrLine>Boundary Rd.</addrLine>
+                <addrLine>Seattle, WA</addrLine>
+          </address>
+            </location>
+            <desc>In her letter dated July 10, 1909, Gladys describes the Forestry Building at the 1909 Seattle World's Fair.</desc>
+          </place>
           <place type="hotel" xml:id="Tourist" source="#TGN"><placeName> Tourist Hotel </placeName>
             <location> <address>           
             <addrLine>1009, 1011, 1010 Pacific Ave.</addrLine>            
