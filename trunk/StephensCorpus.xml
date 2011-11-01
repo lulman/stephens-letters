@@ -676,6 +676,16 @@
           <bibl xml:id="RS" n="RS">Shannon, Robin.  <title level="m">Seattle's Historic Hotels</title>. 2010. <title>Google Books</title>.
           Web. 23 October 2011.</bibl>
           <bibl xml:id="THC" n="THC"> <title level="a">The Holy City</title></bibl>
+          <bibl xml:id="SR19091001" n="SeattleRepublican">
+            <title level="a">Henry Hiser, of joy riding fame</title>. <title level="j">The Seattle 
+            Republican</title> 01 October 1909: 2. <title level="m">Chronicling America (The Library 
+            of Congress</title>. Web. 1 Nov. 2011.
+          </bibl>
+          <bibl xml:id="SS19090923" n="SeattleStar">
+            <title level="a">Two Girls Burned and Crushed Beyond Human Resemblance</title>. <title level="j">
+              The Seattle Star</title> 23 September 1909: n.p. <title level="m">Chronicling America (The Library 
+              of Congress</title>. Web. 1 Nov. 2011.
+          </bibl>
         </listBibl>
         
         <listEvent>
@@ -4220,10 +4230,24 @@
             <lb/>that was my old <choice><sic>Corse</sic><corr>Course</corr></choice> but 
             <hi rend="underlined">no</hi> more <persName ref="#GMS"><addName type="endearment">dear
               </addName></persName><hi rend="underline">no more</hi> 
-            <lb/>for me! <choice><sic>they</sic><corr>there</corr></choice> was also a
-            <add place="above">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 
-            <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note5"/>
+            <lb/>for me!<ptr type="noteAnchor" target="JJM19091004note5"/>
             <note resp="ed" xml:id="JJM19091004note5">
+              The <date when="1909-09-23">September 23 issue of </date><title type="j">The Seattle Star</title> 
+              reports that "a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. 
+              and Lane st. shortly before <time when="06:00:00">6 o'clock</time> this morning." It "crashed to 
+              the tideflats below" and "turned turtle, pinning its occupants beneath." The auxiliary gas tank 
+              caught fire upon the vehicle's crash. The driver, Henry Hiser, "managed to extricate himself" and 
+              another passenger, but he "scurried from the scene and was later placed under arrest" <bibl>
+              <ref target="#SS19090923">"Two Girls Burned and Crushed Beyond Human Resemblance"</ref></bibl>. 
+              The <date when="1909-10-01">October 1</date> issue of <title level="j">The Seattle Republican</title> 
+              further explains that Hiser "hauled a seventeen-year-old girl from saloon to saloon all night long" 
+              and "drank until he was almost beastly drunk and then started over a dangerous road to the city at 
+              a speed of a mile a minute" <bibl><ref target="#SR19091001">"Henry Hiser"</ref></bibl>. Macintyre 
+              seems to admit here that he used to practice a similar lifestyle.
+            </note> <choice><sic>they</sic><corr>there</corr></choice> was also a
+            <add place="above">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 
+            <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note6"/>
+            <note resp="ed" xml:id="JJM19091004note6">
               "On September 24, 1909, a Seattle Electric Company streetcar jumps the track at the 
               corner of E 40th Street and 14th Avenue NE (later University Way). The streetcar crashes 
               into three concession buildings across the street from the main entrance of the 
