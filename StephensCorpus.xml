@@ -755,6 +755,10 @@
             01 October 1909: n.p. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 
             01 Nov. 2011.
           </bibl>
+          <bibl xml:id="Locomotive" n="Locomotive">
+            <title level="a">March, 1909</title>. <title level="j">The Locomotive</title> 27: 169-171. 
+            <title level="m">Google Books</title>. Web. 01 Nov. 2011.
+          </bibl>
         </listBibl>
         
         <listEvent>
@@ -4435,7 +4439,14 @@
             <lb/>of trouble with her boilers they are in a dangerous 
             <lb/>Condition but I like her just the Same If Someone 
             <lb/><choice><sic>don't</sic><corr>doesn't</corr></choice> 
-            get badly burnt It will be a wonder<unclear cert="medium">!</unclear> 
+            get badly burnt It will be a wonder<unclear cert="medium">!</unclear><ptr type="noteAnchor" 
+              target="JJM19091004note5"/><note resp="ed" xml:id="JJM19091004note5">
+                <title level="j">The Locomotive</title> reports that on <date when="1909-03-11">11 March 
+                1909</date>, "[a] boiler exploded...on the steamer <hi rend="italics">Weitchpec</hi>...
+                Fireman Elmer Dennis was fatally scalded" <bibl><ref target="#Locomotive">"March, 1909" 
+                171</ref></bibl>. The volume contains lists of boiler accidents and injuries sustained, 
+                often serious or fatal.
+              </note> 
           </p>
           <p>
             <lb/>while we were in last trip <choice><sic>they</sic><corr>there</corr>
@@ -4450,8 +4461,8 @@
             <lb/>that was my old <choice><sic>Corse</sic><corr>Course</corr></choice> but 
             <hi rend="underlined">no</hi> more <persName ref="#GMS"><addName type="endearment">dear
               </addName></persName><hi rend="underline">no more</hi> 
-            <lb/>for me!<ptr type="noteAnchor" target="JJM19091004note5"/>
-            <note resp="ed" xml:id="JJM19091004note5">
+            <lb/>for me!<ptr type="noteAnchor" target="JJM19091004note6"/>
+            <note resp="ed" xml:id="JJM19091004note6">
               The <date when="1909-09-23">September 23 issue of </date><title type="j">The Seattle Star</title> 
               reports that "a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. 
               and Lane st. shortly before <time when="06:00:00">6 o'clock</time> this morning." It "crashed to 
@@ -4466,8 +4477,8 @@
               seems to admit here that he used to practice a similar lifestyle.
             </note> <choice><sic>they</sic><corr>there</corr></choice> was also a
             <add place="above">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 
-            <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note6"/>
-            <note resp="ed" xml:id="JJM19091004note6">
+            <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note7"/>
+            <note resp="ed" xml:id="JJM19091004note7">
               The <date when="1909-10-01">October 1</date> issue of <title level="j">The Leavenworth Echo</title> 
               reports that "a Wallingford Avenue street car in Seattle jumped the track on a curve near the main 
               gate of the [Alaska-Yukon Pacific] exposition. One man was killed, fifty five injured. It was the 
