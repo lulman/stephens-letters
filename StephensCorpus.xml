@@ -2964,7 +2964,7 @@
           </opener>
           <p>
             <lb/> As I am now standing my last
-            <lb/> watch before arriving at <placeName>Juneau</placeName>
+            <lb/> watch before arriving at <placeName ref="#Juneau">Juneau</placeName>
             <lb/> and I am still a wondering
             <lb/> and lonesome as usual I thought
             <lb/> I would write a <unclear cert="medium">friend</unclear>
