@@ -127,6 +127,10 @@
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
+            <xsl:apply-templates
+               select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
+            <xsl:apply-templates
+               select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:revisionDesc"/>
             <hr/>
             <p>
@@ -141,13 +145,13 @@
       </html>
    </xsl:template>
    
-   <!-- Add the introductory notes. -->
+   <!-- Format the introductory notes. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']">
          <h2>Introduction</h2>
       <xsl:apply-templates/>
    </xsl:template>
    
-   <!-- Add information about your source document. -->
+   <!-- Format information about your source document. -->
    <xsl:template
       match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']">
       <hr/>
@@ -176,7 +180,7 @@
       </p>
    </xsl:template>
 
-   <!-- Add information about your electronic document. -->
+   <!-- Format information about your electronic document. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc">
       <h3>Project Description</h3>
       <p>
@@ -214,8 +218,41 @@
       <h3>Editorial Method</h3>
       <xsl:apply-templates/>
    </xsl:template>
+   
+   <!-- SORTING AND FORMATTING LISTS OF WORKS CITED, PLACES, ORGANIZATIONS, AND SO ON. -->
+   
+   <xsl:template match="tei:listBibl">
+      <hr/>
+      <h2>Appendices</h2>
+      <h3>List of Works Cited</h3>
+      <xsl:for-each select="tei:bibl">
+         <xsl:sort select="@n"/>
+         <p class="hang25"><a>
+            <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute></a>
+            <xsl:apply-templates/></p>
+      </xsl:for-each>
+   </xsl:template>
+   
+   <xsl:template match="tei:listPlace">
+      <h3>List of Places Mentioned in the Letters</h3>
+      <xsl:for-each select="tei:place">
+         <xsl:sort select="tei:geogName"/>
+         <xsl:sort select="tei:placeName"/>
+         <p>
+            <xsl:if test="tei:geogName[1]"><strong><xsl:value-of select="tei:geogName[1]"/></strong></xsl:if>
+            <xsl:if test="tei:geogName[2]"> (<xsl:value-of select="tei:geogName[2]"/>)</xsl:if>
+            <xsl:if test="tei:placeName[1]"><strong><xsl:value-of select="tei:placeName[1]"/></strong></xsl:if>
+            <xsl:if test="tei:placeName[2]"> (<xsl:value-of select="tei:placeName[2]"/>)</xsl:if>.
+            <xsl:value-of select="tei:country"/> 
+            <xsl:if test="tei:region">; <xsl:value-of select="tei:region"/></xsl:if>
+            <xsl:if test="tei:location/tei:geo"> (Lat/Long: 
+               <xsl:value-of select="tei:location/tei:geo"/>)</xsl:if>. 
+            <xsl:value-of select="tei:desc"/>
+         </p>
+      </xsl:for-each>
+   </xsl:template>
 
-   <!-- Add information about the revision history of your document. -->
+   <!-- Format information about the revision history of your document. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:revisionDesc">
          <p align="center">
             <xsl:value-of
