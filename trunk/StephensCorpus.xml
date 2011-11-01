@@ -692,6 +692,10 @@
             01 October 1909: n.p. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 
             01 Nov. 2011.
           </bibl>
+          <bibl xml:id="MC18901005" n="MorningCall">
+            <title level="a">Sea and Shore</title>. <title level="j">The Morning Call</title> 15 October 
+            1890: 3. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 01 Nov. 2011.
+          </bibl>
         </listBibl>
         
         <listEvent>
@@ -4150,8 +4154,11 @@
             </choice> the <geogFeat>bay</geogFeat> from the Cannery<ptr type="noteAnchor" target="JJM19091004note2"/>
             <note resp="ed" xml:id="JJM19091004note2">
               "[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878." 
-              Until 1920, it remained the only salmon cannery in the state 
-              <bibl><ref target="#VI">"Visitor Information"</ref></bibl>.</note> 
+              Until 1920, it remained the only salmon cannery in the state <bibl><ref target="#VI">
+              "Visitor Information"</ref></bibl>. An <date when="1890-10-05">1890</date> issue of the 
+              <title level="j">The Morning Call</title>, a San Francisco newspaper, identifies this 
+              firm as the North Pacific Trading and Packing Company <bibl><ref target="#MC18901005">
+              "Sea and Shore"</ref></bibl>.</note> 
             <seg type="obliqueText" rendition="#ot1">and</seg> that's 
             <lb/>why<unclear cert="medium">!</unclear> we <choice><sic>was</sic><corr>were</corr></choice> 
             in <placeName ref="#Ketchikan">Ketchikan</placeName> about 2 hours coming 
@@ -4261,7 +4268,7 @@
               reports that "a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. 
               and Lane st. shortly before <time when="06:00:00">6 o'clock</time> this morning." It "crashed to 
               the tideflats below" and "turned turtle, pinning its occupants beneath." The auxiliary gas tank 
-              caught fire upon the vehicle's crash. The driver, Henry Hiser, "managed to extricate himself" and 
+              caught fire upon the vehicle's impact. The driver, Henry Hiser, "managed to extricate himself" and 
               another passenger, but he "scurried from the scene and was later placed under arrest" <bibl>
               <ref target="#SS19090923">"Two Girls Burned and Crushed Beyond Human Resemblance"</ref></bibl>. 
               The <date when="1909-10-01">October 1</date> issue of <title level="j">The Seattle Republican</title> 
