@@ -205,6 +205,16 @@
               <geo>23.0000 -102.0000</geo>
             </location>
           </place>
+          <place type="nation" xml:id="Mexico" source="#TGN">
+            <placeName>China</placeName>
+            <desc>JJM mentions this to Gladys in a letter on Sept. 13 1909.</desc>
+            <country>China</country>
+            <location>
+              <geo>
+                35.0000 105.0000
+              </geo>
+            </location>
+          </place>
           <place type="city" xml:id="Manila">
             <placeName>Manila</placeName>
             <desc>JJM mentions this to Gladys Stephens in a letter on Sept. 13 1909</desc>
@@ -3589,7 +3599,7 @@
             <lb/>he is the Chief from <name ref="Ohio">S.S. Ohio</name> and as I said before an auld
             <lb/>acquantance of mine; well honey I've bin<sic><corr>been</corr></sic> after sending that postal
             <lb/>Carrier down to see how the knife is getting along; Yes I heard the
-            <lb/>name of one of the passengers who Seames to be a little bolder
+            <lb/>name of one of the passengers who Seames<sic><corr>seems</corr> to be a little bolder
             <lb/>than the rest and her name is Maud 126 head of cattle 
             <lb/>and 3 mules and they all seem to be enjoying the trip and getting
             <lb/>along nicely; well we are getting along better than I thought;
@@ -3601,7 +3611,7 @@
             <lb/>very interesting places doon there, I hope. So any
             <lb/>way! but never mind dear If every thing goes all
             <lb/>I wish (I don't want much do Honey) we will have
-            <lb/>the trip of your life Some day and will be to China
+            <lb/>the trip of your life Some day and will be to <placeName ref="China">China</placeName>
             <lb/>&amp; <placeName ref="Japan">Japan</placename> and on down to <placename ref="Manila">Manila</placename>; <placename ref="Manila">Manila</placename> is a very
             <lb/>Interesting place the old walled City for Instance
             <lb/>I have some Souvenirs from there or did have
@@ -3627,7 +3637,7 @@
             <lb/>you as often as I wish; But "Patience"It may not
             <lb/>allways<sic><corr>always</corr> be this way I don't  <distinct type="babyTalk">fink</distinct><corr>think</corr> so any way do you
             (<hi>NO</hi>)you needn't answer that honey Those about
-            <lb/>that #110 did you make it while resting up at El Paso
+            <lb/>that #110 did you make it while resting up at <placeName ref="El Paso">El Paso</placeName>
             <lb/>hope So well your last letters was in <placeName ref="Ketchikan">Ketchikan</placeName> only
             <lb/>about 3 hours lucky wasnt I but dont Know how
             <lb/>long this one will be in <placeName ref="Juneau">Juneau</placeName> when the Postman
@@ -3663,7 +3673,7 @@
             <lb/>will have "heaps" of letters when I get home the 22nd or 23rd
             <lb/>well dear ittle I must Say So long and will write again
             <lb/>from <placeName ref="Skagway">Skaguay</placeName> give my very best regards to uncle alex
-            <lb/>and Love to ned I Remain The Same
+            <lb/>and Love to ned<sec> I Remain The Same
           </p>
           <closer>
             <lb/><salute>"Jef" heaps &amp;heaps of love</salute>
