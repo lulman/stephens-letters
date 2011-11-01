@@ -437,7 +437,7 @@
           </place>
             <place type="city" xml:id="Valdez" source="#TGN">
             <placeName>Valdez</placeName>
-            <desc>John J. Macintyre mentions that he will travel to Valdez in his 8-23-1909 letter to Gladys Stephens.</desc>
+            <desc>J.J. Macintyre mentions that he will travel to Valdez in his 8-23-1909 letter to Gladys Stephens.</desc>
               <country>United States</country>
               <region type="state">Alaska</region>
               <location>
@@ -446,7 +446,7 @@
             </place>
           <place type="cape" xml:id="CapeSt.Elias" source="#TGN">
             <placeName>Cape St. Elias</placeName>
-            <desc>In his 8-23-1909 letter to Gladys Stephens, John J. Macintyre mentions that he and his crew are looking for Cape St. Elias.</desc>
+            <desc>In his 8-23-1909 letter to Gladys Stephens, J.J. Macintyre mentions that he and his crew are looking for Cape St. Elias.</desc>
             <country>United States</country>
             <region type="state">Alaska</region>
             <location>
@@ -456,7 +456,7 @@
           
           <place type="city" xml:id="Juneau" source="#TGN">
             <placeName>Juneau</placeName>
-            <desc>In his 8-23-1909 letter to Gladys Stephens, John J. Macintyre mentions that he will shortly be arriving in Juneau.</desc>
+            <desc>In his 8-23-1909 letter to Gladys Stephens, J.J. Macintyre mentions that he will shortly be arriving in Juneau.</desc>
             <country>United States</country>
             <region type="state">Alaska</region>
             <location>
@@ -724,7 +724,7 @@
           </bibl>
           <bibl xml:id="RS" n="RS">Shannon, Robin.  <title level="m">Seattle's Historic Hotels</title>. 2010. <title>Google Books</title>.
           Web. 23 October 2011.</bibl>
-          <bibl xml:id="THC" n="THC"> <title level="a">The Holy City</title></bibl>
+          <bibl xml:id="THC" n="THC"> <title level="a">The Holy City</title>No information available for this item.</bibl>
           <bibl xml:id="SR19091001" n="SeattleRepublican">
             <title level="a">Henry Hiser, of joy riding fame</title>. <title level="j">The Seattle 
             Republican</title> 01 October 1909: 2. <title level="m">Chronicling America (The Library 
@@ -1012,11 +1012,13 @@
           <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys asks if Mrs. Stephens has heard from the Macas
           lately, and wonders what the madam think now.</note>
           </person>
-          <person><persName>little Gladys</persName></person>
           <person><persName>Walt</persName></person>
           <person><persName>Mrs. Rich</persName></person>
           <person><persName>the Dotens</persName></person> 
-          <person><persName>Burns</persName></person>
+          <person xml:id="LGS"><persName>little Gladys</persName></person>
+          <person xml:id="Burns"><persName>Burns</persName></person>
+          <person xml:id="MsM"><persName>J.J. McIntyre's father</persName></person>
+          <person xml:id="MrM"><persName>J.J. McIntyre's mother</persName></person>
           <person xml:id="MrJ">
             <persName>Mr. Jones</persName>
             <note>JJM's letter on 8-13-1909 mentions Mr. Jones as an acquaintance of Gladys's from 
@@ -3515,7 +3517,7 @@
             <lb/>letters would be very nice to me but
             <lb/>nothing doing <choice><sic>untill</sic><corr>until</corr></choice> <placeName ref="#Seattle">Seattle</placeName> again!
             <lb/>I started to read a story last night
-            <lb/>called <title level="a">the Holy City</title> and It promises
+            <lb/>called <title level="a" ref="#THC">the Holy City</title> and It promises
             <lb/>to be good. A few lines which I gave
             <lb/>special attention to were these</p>
           <p><lb/><q><unclear reason="illegible" cert="low">O</unclear> "hail is Love"</q></p>
@@ -3538,15 +3540,15 @@
             <lb/>you can call that near future.
             <lb/>and again <persName><surname>Burns</surname></persName> says a man's
             <lb/>a man for all <unclear reason="illegible" cert="low">o</unclear> that <q>"and that"</q>!
-            <lb/>By the way how is <rs ref="TSM">the Scotchman</rs>
-            <lb/>getting along not <choice><sic><q>"brooke"</q></sic><corr>"broke"</corr></choice> I hope I
+            <lb/>By the way how is <rs ref="THM">the Scotchman</rs>
+            <lb/>getting along not <q><choice><sic>"brooke"</sic><corr>"broke"</corr></choice></q> I hope I
             <lb/>must laugh when I think of the
             <lb/>lookson <persName ref="#ACS"><addName type="nickname">ouncle A's</addName></persName> face the day you
             <pb facs="/e/e1c9c876-b418-422a-a05d-3e16f40c91d9"/>
             <lb/>were In the Engine room I didn't
             <lb/>think you noticed. but you afterwards
             <lb/>spoke about it no harm for me
-            <lb/>you asked about my father he was
+            <lb/>you asked about <rs ref="#MrM">my father</rs> he was
             doing nicely when I <unclear reason="illegible" cert="high">lift</unclear> <hi rend="underline">thank</hi>
             you <persName ref="#GMS"><addName type="nickname">neddy</addName></persName></p>
           <p>we arrived in <placeName ref="#Juneau">Juneau</placeName> @ 11 <hi rend="underline">40</hi> and left 12 <hi rend="underline">40</hi>
@@ -3585,7 +3587,7 @@
             <lb/>pleasure when at the same time I may
             <lb/>be trying your patiences surely
             <lb/>hope not <persName ref="#GMS"><addName type="endearment">honey</addName></persName> deed I do</p>
-            <lb/><p>I had a great romp with <persName>little
+            <lb/><p>I had a great romp with <persName ref="#LGS">little
             <lb/> Gladys</persName> tonight her mother fetched
             <lb/>her to my window (I have a room
             <lb/>same as the chiefs on <name ref="#Santa_Clara">Santa Clara</name> only
@@ -3621,7 +3623,7 @@
             <lb/>to get my letters so much seems to
             <lb/>depend on them how I wished I
             <lb/>knew what your <rs ref="#MATS">mother</rs> said
-            <lb/>for I want to tell my mother
+              <lb/>for I want to tell my <rs ref="MsM">mother</rs>
             <lb/>all about you on my return
             <lb/>but nothing to do but wait and
             <lb/>wish for the best is they <persName ref="#GMS"><addName type="endearment">dear</addName></persName>
