@@ -3594,9 +3594,9 @@
             <lb/>we make 3 stops So I do not know how we will
             <lb/>make out but are doing our best the worst of it is I
             <lb/>was abooard of <name ref="SantaAnna">S.S. Santa Anna</name> Sailing night and was
-            <lb/>Joshing the Chief about the old freight boat that was on and
+            <lb/>Joshing the <persName ref="#End">Chief</persName> about the old freight boat that was on and
             <lb/>if they beat us to <placeName ref="Skaguay">Skag</placeName> I will never hear the last of it
-            <lb/>he is the Chief from <name ref="Ohio">S.S. Ohio</name> and as I said before an auld
+            <lb/>he is the <persName ref="#End">Chief</persName> from <name ref="Ohio">S.S. Ohio</name> and as I said before an auld
             <lb/>acquantance of mine; well honey I've bin<sic><corr>been</corr></sic> after sending that postal
             <lb/>Carrier down to see how the knife is getting along; Yes I heard the
             <lb/>name of one of the passengers who Seames<sic><corr>seems</corr> to be a little bolder
@@ -3626,7 +3626,7 @@
             <lb/>in Some of the Silk and Curioe Shops you would
             <lb/>Certainlly do Some talking with those brown eyes
             <lb/>I know: "what <hi>I</hi>  <distinct type="babyTalk">fink</distinct><corr>think</corr>" how I would like to
-            <lb/>see you this morning or tonight ore anytime and
+            <lb/>see you this morning or tonight ore<sic><corr>or</corr> anytime and
             <lb/>all times; I wished you knew how I have felt
             <lb/>since I got your last letters every thing looks brighter
             <lb/>and I am as happy as a kid you call me big boy
@@ -3665,7 +3665,7 @@
               xml:id="thatRome" resp="ed">Quotation from Elanor Glyn's novel Three Weeks, set in Rome and Venice.
               <bibl><ref target="#threeWeeks">(Glyn 178)</ref></bibl></note>
             </quote>
-            <lb/>There Goes the whistle and So long for a ittle minnit
+            <lb/>There Goes the whistle and So long for a <distinct type="babyTalk">ittle<corr>little</corr> minnit<sic><corr>minute</corr></distinct>
             <lb/>well dear I hope you get Some letters before you go to Mexico
             <lb/>City or You will not know what to think has happened
             <lb/>to me; But when you get back to <placename ref="El Paso">El Paso</placename> or home
