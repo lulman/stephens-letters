@@ -3062,17 +3062,17 @@
             <lb/>a pale blue broadcloth dress made. She
             <lb/>has a handsome brown suit. Things are 
             <lb/>getting quite interesting I can tell
-            <lb/>you. Just between you and I <persName ref="#THM">"the man"</persName>"the man"
+            <lb/>you. Just between you <seg type="obliqueText" rendition="#ot1">and</seg> I <persName ref="#THM">"the man"</persName>"the man"
             <lb/>has one bad feature. He takes a cocktail
-            <lb/>now and then. No one here seems to
-            <lb/>mind it. And of course I have said
-            <lb/>nothing. He seems nice other ways and
+            <lb/>now <seg type="obliqueText" rendition="#ot1">and</seg> then. No one here seems to
+            <lb/>mind it <seg type="obliqueText" rendition="#ot1">and</seg> of course I have said
+            <lb/>nothing. He seems nice other ways <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>every one speaks well of him. He has
-            <lb/>a good position and makes in the
+            <lb/>a good position <seg type="obliqueText" rendition="#ot1">and</seg> makes in the
             <lb/>vicinity of $50 a week. Well all's
             <lb/>well that end's well. $50 a week
-            <lb/>and all I would not marry him.
-            <lb/>Of course he belongs to the <rs>club</rs> here and
+            <lb/><seg type="obliqueText" rendition="#ot1">and</seg> all I would not marry him.
+            <lb/>Of course he belongs to the <rs>club</rs> here <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>the club's favorite drink is cocktail. I've 
             <lb/>noticed the odor about everytime I've 
             <lb/>seen him.
@@ -3093,7 +3093,7 @@
             <lb/>to get them. I thought I'd escaped
             <lb/>however. Now what do you think
             <lb/>of that. Well she worked good
-            <lb/>and hard and dosed my head and
+            <lb/>and hard <seg type="obliqueText" rendition="#ot1">and</seg> dosed my head <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>I have to go again Sat. morning.
             <lb/>Their deposit was not large and
             <lb/>so we have hopes of soon cleaning
@@ -3106,7 +3106,7 @@
           </p>
           <p>
             <lb/><rs ref="#ACS">Uncle</rs>says I must stay to
-            <lb/>see the <rs>Presidents</rs> meet and then I
+            <lb/>see the <rs>Presidents</rs> meet <seg type="obliqueText" rendition="#ot1">and</seg> then I
             <lb/>can go home immediately after
             <pb/>
             <lb/>that. He says <persName ref="#PrD">Dias</persName> is so old (79) that
@@ -3114,7 +3114,7 @@
             <lb/>chance to see anything of the kind
             <lb/>again. A revolution in <placeName ref="#Mexico">Mexico</placeName> is 
             <lb/>imminent if <persName ref="#PrD">Dias</persName> dies. The Vice
-            <lb/><persName ref="#VPR"><roleName>Pres.</roleName>Reyes</persName>Pres. Reyes wants to be Pres. and 
+            <lb/><persName ref="#VPR"><roleName><choice><abbr>Pres.</abbr><expan>President</expan></choice></roleName>Reyes</persName> wants to be <choice><abbr>Pres.</abbr><expan>President</expan></choice> <seg type="obliqueText" rendition="#ot1">and</seg> 
             <lb/><rs>the people</rs> hate him terribly. They
             <lb/>have to have <rs>Rurales</rs> every where to
             <lb/>keep them quiet now even. He
@@ -3125,7 +3125,7 @@
             <lb/>shall have every thing ready to go as
             <lb/>soon as I can leave after it's over.
             <lb/>The <rs>old citizens</rs> are going to have a
-            <lb/>big time and he wants me to be
+            <lb/>big time <seg type="obliqueText" rendition="#ot1">and</seg> he wants me to be
             <lb/>with him. Lots better today. Slept 12 hrs.
           </p>
           <p>
@@ -3651,7 +3651,7 @@
             <lb/>way! but never mind dear If every thing goes all
             <lb/>I wish (I don't want much do Honey) we will have
             <lb/>the trip of your life Some day and will be to <placeName ref="China">China</placeName>
-            <lb/>&amp; <placeName ref="Japan">Japan</placename> and on down to <placename ref="Manila">Manila</placename>; <placename ref="Manila">Manila</placename> is a very
+            <lb/>&amp; <placeName ref="Japan">Japan</placeName> and on down to <placeName ref="Manila">Manila</placeName>; <placename ref="Manila">Manila</placename> is a very
             <lb/>Interesting place the old walled City for Instance
             <lb/>I have some Souvenirs from there or did have
             <lb/>any way but most every one that comes to the
