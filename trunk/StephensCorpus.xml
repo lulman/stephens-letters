@@ -192,7 +192,8 @@
             
           <place type="city" xml:id="Boston" source="TGN">
             <placeName>Boston</placeName>
-            <desc>Gladys Stephens mentions a correspondence occurring in Boston</desc>
+            <desc>Gladys Stephens mentions a correspondence occurring in Boston in her Sept. 27, 1909 lettter to
+            Mrs. A.T. Stephens.  She also mentions making Boston Baked Beans in the same lettter.</desc>
             <country>United States</country>
             <region type="state">Massachusetts</region>
             <location>
@@ -211,7 +212,8 @@
             <placeName>Mexico</placeName>
             <desc>Gladys Stephens reminisces about her time in Mexico.</desc>
             <desc>In her letter dated August 8, 1909, Gladys tells her mother
-            about plans for an upcoming excursion to Mexico.</desc>
+            about plans for an upcoming excursion to Mexico.  In her Sept. 27, 1909 letter Gladys describes her
+            state following her return from Mexico.</desc>
             <country>Mexico</country>
             <location>
               <geo>23.0000 -102.0000</geo>
@@ -239,7 +241,7 @@
           </place>
           <place type="city" xml:id="Portland" source="#TGN">
             <placeName>Portland</placeName>
-            <desc>Gladys Stephens mentions as a site of a known house. 
+            <desc>Gladys Stephens mentions as a site of a known house to Mrs. A.T. Stephens on Sept. 27, 1909. 
               JJM also talks about it as one of Gladys's destinations in his letter to her on 8-13-1909.</desc>
             <country>United States</country>
             <region type="state">Maine</region>
@@ -258,7 +260,8 @@
           </place>
           <place type="state" xml:id="California" source="#TGN">
             <placeName>California</placeName>
-            <desc>Gladys has visited California recently</desc>
+            <desc>Gladys has visited California recently and describes her visit in her Sept. 27 letter
+            to Mrs. A.T. Stephens.</desc>
             <country>United State</country>
             <region type="state">California</region>
             <location>
@@ -429,6 +432,7 @@
               <geo>59.4827 -144.3511</geo>
             </location>
           </place>
+          
           <place type="city" xml:id="Juneau" source="#TGN">
             <placeName>Juneau</placeName>
             <desc>In his 8-23-1909 letter to Gladys Stephens, John J. Macintyre mentions that he will shortly be arriving in Juneau.</desc>
@@ -517,6 +521,17 @@
             <location>
               <geo>38.6167 -90.1833</geo>
             </location>
+          </place>
+          <place type="city" xml:id="Rome" source="#TGN">
+            <placeName>Rome</placeName>
+            <country>Italy</country>
+            <location>
+              <geo>41.9000 -12.4833</geo>
+            </location>
+          </place>
+          <place type="city" xml:id="CityofMexico">
+            <placeName>City of Mexico</placeName>
+            <country>Mexico</country>
           </place>
         </listPlace>
         
@@ -914,20 +929,68 @@
             <residence when="1920" source="#Census1920GSM">Newton, MA</residence>
           </person>
           <person xml:id="AMM">
-            <persName>Macphearson, Adelaid M.</persName>
+            <persName>Macphearson, Adelaide M.</persName>
+            <note>In Gladys' September 27, 1909 letter to Mrs. A.T. Stephens she mentions that Adelaide has taken up dress 
+              making and has all her attention turned to "the West"</note>
           </person>
-          <person><persName>the Wards</persName></person>
+          <person xml:id="Wards"><persName>the Wards</persName>
+          <note>The Wards are a family that includes both Will Ward and Jack Ward.  Gladys writes in her September 27, 1909
+          letter to Mrs. A.T. Stephens wondering who is in the Ward's Portland house.</note>
+          </person>
           <person><persName>Will Ward</persName></person>
-          <person><persName>Jack Ward</persName></person>
-          <person><persName>Berenice</persName></person>
-          <person><persName>Alice Wunner</persName></person>
-          <person><persName>Ivalor</persName></person>
-          <person><persName>Maynard</persName></person>
-          <person><persName>Mrs. Duff</persName></person>
-          <person><persName>Miss Camys</persName></person>
-          <person><persName>Rosinel</persName></person>
-          <person><persName>the Jays</persName></person>
-          <person><persName>the Thomases</persName></person>
+          <person xml:id="JW"><persName>Jack Ward</persName>
+          <note>Gladys remarks on his marriage in her September 27, 1909 letter to Mrs A.T. Stephens and asks
+            where Jack Ward is living.</note>
+          </person>
+          <person xml:id="Berenice"><persName>Berenice</persName>
+          <note>In Gladys' September 27, 1909 letter to Mrs A.T. Stephens she notes that she recently got a 
+          card from Berenice.</note>
+          </person>
+          <person xml:id="AW"><persName>Alice Wunner</persName>
+          <note>Gladys remarks in her September 27, 1909 letter to Mrs. A.T. Stephens that Alice would have a 
+          way of tiring Mrs. Stephens out.</note>
+          </person>
+          <person xml:id="Ivalor"><persName>Ivalor</persName>
+          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that she had just written to Ivalor.</note>
+          </person>
+          <person xml:id="Maynard"><persName>Maynard</persName>
+          <note>In Gladys' September 27, 1909 letter to Mrs. A.T. Stephens she asks if Mrs. Stephens has heard anything of Maynard
+          and notes that he'd be there sometime.</note>
+          </person>
+          <person xml:id="MrsD"><persName>Mrs. Duff</persName>
+          <note>Gladys notes in her September 27, 1909 letter to Mrs. A.T. Stephens that she send a card from Mexico to Mrs. Duff</note>
+          </person>
+          <person xml:id="MissC"><persName>Miss Campbell</persName>
+          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that Miss Campbell is still switching along.</note>
+          </person>
+          <person xml:id="Rosinel"><persName>Rosinel</persName>
+          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes she hasn't heard from Rosinel lately.</note>
+          </person>
+          <person xml:id="Jays"><persName>the Jays</persName>
+          <note>Gladys mentions that the Jays supplied her with the address for Rosinel a night after mailing him a note in her
+          September 27, 1909 letter to Mrs. A.T. Stephens.</note>
+          </person>
+          <person xml:id="Thomases"><persName>the Thomases</persName>
+          <note>In Gladys' September 27, 1909 letter to Mrs. A.T. Stephens she asks how the Thomases are.</note>
+          </person>
+          <person xml:id="MrsL"><persName>Mrs. L.</persName>
+          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that she plans to show Mrs. L. 
+          how to cook Boston Baked Beans.</note>
+          </person>
+          <person xml:id="Florence"><persName>Florence</persName>
+          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys asks how Florence is carrying sail.</note>
+          </person>
+          <person xml:id="Philys"><persName>Philys</persName>
+          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that she never heard from Philys.</note>
+          </person>
+          <person xml:id="MN"><persName>Mabel Nims</persName>
+          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that the last letter she wrote to Mabel Nims
+          was so long ago that she's forgotten when it was.</note>
+          </person>
+          <person xml:id="Macas"><persName>the Macas</persName>
+          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys asks if Mrs. Stephens has heard from the Macas
+          lately, and wonders what the madam think now.</note>
+          </person>
           <person><persName>little Gladys</persName></person>
           <person><persName>Walt</persName></person>
           <person><persName>Mrs. Rich</persName></person>
@@ -3666,7 +3729,7 @@
             <lb/>way! but never mind dear If every thing goes all
             <lb/>I wish (I don't want much do Honey) we will have
             <lb/>the trip of your life Some day and will be to <placeName ref="China">China</placeName>
-            <lb/>&amp; <placeName ref="Japan">Japan</placename> and on down to <placename ref="Manila">Manila</placename>; <placename ref="Manila">Manila</placename> is a very
+            <lb/>&amp; <placeName ref="Japan">Japan</placeName> and on down to <placeName ref="Manila">Manila</placeName>; <placeName ref="Manila">Manila</placeName> is a very
             <lb/>Interesting place the old walled City for Instance
             <lb/>I have some Souvenirs from there or did have
             <lb/>any way but most every one that comes to the
@@ -3696,7 +3759,7 @@
             <lb/>about 3 hours lucky wasnt I but dont Know how
             <lb/>long this one will be in <placeName ref="Juneau">Juneau</placeName> when the Postman
             <lb/>Comes along with Some of these letters dear you will
-            <lb/>be looking out for the if poessman<sic><corr>postman</corr> to see if my honk
+            <lb/>be looking out for the if poessman<sic><corr>postman</corr></sic> to see if my honk
             <lb/>is coming next I'm afraid
           </p>
           <pb facs="/5/567bdbfa-d0a6-4bb7-85ac-32e9edb0c3b6"/>
@@ -3719,15 +3782,15 @@
               xml:id="thatRome" resp="ed">Quotation from Elanor Glyn's novel Three Weeks, set in Rome and Venice.
               <bibl><ref target="#threeWeeks">(Glyn 178)</ref></bibl></note>
             </quote>
-            <lb/>There Goes the whistle and So long for a <distinct type="babyTalk">ittle<corr>little</corr> minnit<sic><corr>minute</corr></distinct>
+            <lb/>There Goes the whistle and So long for a <distinct type="babyTalk">ittle<corr>little</corr> minnit<sic><corr>minute</corr></sic></distinct>
             <lb/>well dear I hope you get Some letters before you go to Mexico
             <lb/>City or You will not know what to think has happened
-            <lb/>to me; But when you get back to <placename ref="El Paso">El Paso</placename> or home
+            <lb/>to me; But when you get back to <placeName ref="El Paso">El Paso</placeName> or home
             <lb/>they will not be So much delay and I also hope that I
             <lb/>will have "heaps" of letters when I get home the 22nd or 23rd
             <lb/>well dear ittle I must Say So long and will write again
             <lb/>from <placeName ref="Skagway">Skaguay</placeName> give my very best regards to uncle alex
-            <lb/>and Love to ned<sec> I Remain The Same
+            <lb/>and Love to ned<sic></sic> I Remain The Same
           </p>
           <closer>
             <lb/><salute>"Jef" heaps &amp;heaps of love</salute>
@@ -3846,39 +3909,40 @@
           
           <p>
             <lb/>I have just written
-            <lb/>to <unclear cert="medium" reason="unknown personal name"><persName>Ivalor</persName></unclear> and will send her
+            <lb/>to <unclear cert="medium" reason="unknown personal name"><persName ref="Ivalor">Ivalor</persName></unclear> 
+            <seg type="obliqueText" rendition="#ot1">and</seg> will send her
             <lb/>little box this afternoon by
-            <lb/>registered mail
+            <lb/>registered mail.
           </p>
           <p>
             <lb/>I'm feeling lots better
             <lb/>than when I came up
             <lb/>from <placeName ref="#Mexico">Mexico</placeName>, I am also look-
-            <lb/>ing better and have begun
+            <lb/>ing better <seg type="obliqueText" rendition="#ot1">and</seg> have begun
             <lb/>to gain back some of what
             <lb/>I lost in the City.  As to the
-            <lb/>"bugs" we'll I'm progressing
+            <lb/>"bugs" <sic>we'll</sic> I'm progressing
             <lb/>with them too.  Fortunately
             <lb/>I didn't get many.  I'm
             <lb/>going to the hair dresser this
             <lb/>afternoon or in the morning.
           </p>
           <p>
-            <lb/>I'm going to show Mrs. L.
+            <lb/>I'm going to show <persName ref="MrsL">Mrs L.</persName>
             <lb/>how to cook Boston Baked
             <lb/>Beans some day this week.
             <lb/>It is to be a surprise for
-            <lb/>the men text&#x2014; if they come out.
+            <lb/>the men text&#x2014; if they come out
             <lb/>well.
           </p>
           <pb facs="/9/97b9259e-402e-44b1-b6f0-e4815f8ccdc2" />
           <p>
             <lb/>She will show me how to
-            <lb/>make tamalies and also how
+            <lb/>make tamalies <seg type="obliqueText" rendition="#ot1">and</seg> also how
             <lb/>to eat them so she says. 
           </p>
           <p>
-            <lb/><persName>Adelaide</persName> is head over
+            <lb/><persName ref="AMM">Adelaide</persName> is head over
             <lb/>heels in dressmaking.
             <lb/>She isn't doing it though.
             <lb/>The day is not settled
@@ -3896,7 +3960,7 @@
               <choice>
                 <abbr>Calif.</abbr>
                 <expan>California</expan></choice>
-            </placeName>for ostrich plumes
+            </placeName>for <note></note>ostrich plumes
             <lb/>for her.
           </p>
           <p>
@@ -3908,73 +3972,74 @@
             <lb/>I am.
           </p>
           <p>
-            <lb/>All roads lead back to
-            <lb/><placeName ref="#Rome">Rome</placeName> - amd with <persName>Adelaide</persName>
+            <lb/><quote>All roads lead back to
+              <lb/><placeName ref="#Rome">Rome</placeName></quote> - <seg type="obliqueText" rendition="#ot1">and</seg>
+            with <persName>Adelaide</persName>
             <lb/>all talk turns to "the West."
           </p>
           <pb facs="/d/dbd77e73-82da-4df9-95fc-b7eda643a5b6"/>
           <p>
-            <lb/>So <persName>Jack Ward</persName> is married.  He
+            <lb/>So <persName ref="JW">Jack Ward</persName> is married.  He
             <lb/>deserves all he may get.  Where
             <lb/>are they living?
           </p>
           <p>
-            <lb/>I got a card from <persName>Berenice</persName>.
+            <lb/>I got a card from <persName ref="Berenice">Berenice</persName>.
           </p>
           <p>
-            <lb/>Yes, <persName>Alice <unclear cert="low" reason="unknown last name">Wunner</unclear></persName> would
+            <lb/>Yes, <persName ref="AW">Alice <unclear cert="low" reason="unknown last name">Wunner</unclear></persName> would
             <lb/>make you tired, but that
             <lb/>was always the way.  The
             <lb/>last word I sent her was
-            <lb/>from the <placeName>City of Mexico</placeName>.
+            <lb/>from <placeName ref="Mexico City">the City of Mexico</placeName>.
           </p>
           <p>
             <lb/>Have you seen anything
-            <lb/>of <persName>Maynard</persName>?  If <unclear cert="low">wirsed</unclear> he'd
+            <lb/>of <persName ref="Maynard">Maynard</persName>?  Of <unclear cert="high">course</unclear> he'd
             <lb/>be there sometime.  How is
-            <lb/><persName>Florence</persName> carrying sail?
+            <lb/><persName ref="Florence">Florence</persName> carrying sail?
           </p>
           <p>
-            <lb/>How on Earth could <persName>the Riches</persName> go to <placeName ref="#Maine">
+            <lb/>How on Earth could <persName ref="Riches">the Riches</persName> go to <placeName ref="#Maine">
               <choice>
                 <abbr>Me.</abbr>
                 <expan>Maine</expan>
               </choice></placeName>?
           </p>
           <p>
-            <lb/>I sent <persName>Mrs. Duff</persName> a card
+            <lb/>I sent <persName ref="MrsD">Mrs. Duff</persName> a card
             <lb/>from <placeName ref="#Mexico">Mexico</placeName>
           </p>
           <p>
-            <lb/>Who is in <persName>the Ward's</persName> 
+            <lb/>Who is in <persName ref="Wards">the Ward's</persName> 
             <placeName ref="Portland"><choice>
               <abbr>Pd.</abbr>
               <expan>Portland</expan>
             </choice></placeName>
-            <lb/>house?  I suppose <persName>Miss
-              <lb/>Camys</persName> bell is still <unclear cert="low">scirtching</unclear>
+            <lb/>house?  I suppose <persName ref="MissCampbell">Miss
+              <lb/>Campbell</persName> is still <unclear cert="medium">switching</unclear>
             <lb/>along.
           </p>
           <p>
-            <lb/>How are <persName> the Thomases</persName> by
+            <lb/>How are <persName ref="Thomases"> the Thomases</persName> by
             <pb facs="/a/a476a258-61a6-4286-94ee-ab2563776cae"/> 
             <lb/>this time?
           </p>
           <p>
-            <lb/>Never heard from <persName>Philys</persName>.
+            <lb/>Never heard from <persName ref="Philys">Philys</persName>.
           </p>
           <p>
             <lb/>The last card I sent to
-            <lb/><persName>Mabel Nims</persName> was so long
+            <lb/><persName ref="MN">Mabel Nims</persName> was so long
             <lb/>ago that I've forgotten
             <lb/>when it was.
           </p>
           <p>
             <lb/>Haven't heard from
-            <lb/><persName>Rosinel</persName> lately
+            <lb/><persName ref="Rosinel">Rosinel</persName> lately
           </p>
           <p>
-            <lb/>Got a letter from <persName>the
+            <lb/>Got a letter from <persName ref="Jays">the
               <lb/>Jays</persName> giving me his
             <lb/>address, but had mailed
             <lb/>a note the night before
@@ -3982,19 +4047,21 @@
           </p>
           <p>
             <lb/>Have you heard from the
-            <lb/><unclear cert="low" reason="unknown personal name"><persName>Maca</persName></unclear>'s lately.  I wonder
+            <lb/><unclear cert="low" reason="unknown personal name"><persName ref="Macas">Maca</persName></unclear>'s lately.  I wonder
             <lb/>what the madam thinks
             <lb/>now?
           </p>
-          <p>
+       
+      
+      <closer>
             <lb/>Hope you are well.
             <lb/>So long for now
-            <lb/>Love
+            <lb/><salute>Love</salute>
             <lb/><persName ref="GMS">Gladys</persName>
             <lb/><date>9/27/09</date>
-          </p>  
+        </closer>
         </div>
-      </body> 
+      </body>
     </text>
   </TEI>
   <TEI xml:id="REC_JJM2GMS_1909-10-04">
@@ -4075,8 +4142,7 @@
             <stamp type="postmark"> <placeName ref="#Seattle">SEATTLE, WASH.</placeName> / 
               <date when="1909-10-05">OCT 5 / <time>2 - 
               <gap reason="invisible" unit="characters" quantity="1"/>M</time> / 1909</date> </stamp>
-            <stamp type="cancellation"> <event ref="#AYP">WORLD'S FAIR<event/> <placeName ref="#Seattle">SEATTLE<placeName/> </stamp>
-          </ab>
+              </ab>
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
