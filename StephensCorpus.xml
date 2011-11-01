@@ -3350,7 +3350,7 @@
             <lb/>time and not write so much but it
             <lb/>promises to be a long watch for
             <lb/>we are running dead slow looking
-            <lb/>for a prominent <geogFeat>Cape</geogFeat>! <placeName ref="CapeSt.Elias">Cape St
+            <lb/>for a prominent <geogFeat>Cape</geogFeat>! <placeName ref="#CapeSt.Elias">Cape St
               <lb/>Elias</placeName> by name. and a watch under
             <lb/>a slow Bell is always a long one
             <lb/>for me. I was just <hi rend="underline">up stairs</hi>
@@ -3360,12 +3360,12 @@
             <pb facs="/e/e9269572-e28c-4911-8402-38b1ead57c8b"/>
             <lb/>I wonder how you would <choice><sic>fell</sic><corr>feel</corr></choice>
             <lb/>better I hope. we are agoing
-            <lb/>to <placeName ref="Valdez"><choice><sic>Valdese</sic><corr>Valdese</corr></choice></placeName> first the mail <choice><sic>hasto</sic><corr>has to</corr></choice> be
+            <lb/>to <placeName ref="#Valdez"><choice><sic>Valdese</sic><corr>Valdese</corr></choice></placeName> first the mail <choice><sic>hasto</sic><corr>has to</corr></choice> be
             <lb/>delivered at a certain time and we
             <lb/>are behind but what's the odds no
             <lb/>mail for me and a dozen or two
             <lb/>letters would be very nice to me but
-            <lb/>nothing doing <choice><sic>untill</sic><corr>until</corr></choice> <placeName ref="Seattle">Seattle</placeName> again!
+            <lb/>nothing doing <choice><sic>untill</sic><corr>until</corr></choice> <placeName ref="#Seattle">Seattle</placeName> again!
             <lb/>I started to read a story last night
             <lb/>called <title>the Holy City</title> and It promises
             <lb/>to be good. A few lines which I gave
@@ -3393,7 +3393,7 @@
             <lb/>By the way how is <rs ref="TSM">the Scotchman</rs>
             <lb/>getting along not <choice><sic><q>"brooke"</q></sic><corr>"broke"</corr></choice> I hope I
             <lb/>must laugh when I think of the
-            <lb/>lookson <persName ref="#ACS"><addName>ouncle A's</addName></persName> face the day you
+            <lb/>lookson <persName ref="#ACS"><addName type="nickname">ouncle A's</addName></persName> face the day you
             <pb facs="/e/e1c9c876-b418-422a-a05d-3e16f40c91d9"/>
             <lb/>were In the Engine room I didn't
             <lb/>think you noticed. but you afterwards
@@ -3401,8 +3401,8 @@
             <lb/>you asked about my father he was
             doing nicely when I <unclear reason="illegible" cert="high">lift</unclear> <hi rend="underline">thank</hi>
             you <persName ref="#GMS"><addName type="nickname">neddy</addName></persName></p>
-          <p>we arrived in <placeName ref="Juneau">Juneau</placeName> @ 11 <hi rend="underline">40</hi> and left 12 <hi rend="underline">40</hi>
-            <lb/>So did not have a chance to see about <name ref="#Santa_Clara">Santa
+          <p>we arrived in <placeName ref="#Juneau">Juneau</placeName> @ 11 <hi rend="underline">40</hi> and left 12 <hi rend="underline">40</hi>
+            <lb/>So did not have a chance to see about <name type="ship" ref="#Santa_Clara">Santa
               <lb/>Clara's</name> pictures but may next time I
             <lb/>will not forget them any way when
             <lb/>I have the time to get up town
@@ -3469,7 +3469,7 @@
             <pb facs="/a/a6851f42-20e7-440c-b656-1fae43e1fdb8"/>
             <lb/>is not altogether unpleasant for
             <lb/><persName ref="#GMS"><addName type="nickname">neddy</addName></persName> they are always <unclear reason="illegible">of</unclear> you how
-            <lb/>glad I will be to get back to <placeName ref="Seattle">Seattle</placeName>
+            <lb/>glad I will be to get back to <placeName ref="#Seattle">Seattle</placeName>
             <lb/>to get my letters so much seems to
             <lb/>depend on them how I wished I
             <lb/>knew what your <rs ref="#MATS">mother</rs> said
@@ -3478,7 +3478,7 @@
             <lb/>but nothing to do but wait and
             <lb/>wish for the best is they <persName ref="#GMS"><addName type="endearment">dear</addName></persName>
             <lb/>I forgot to tell you I gave up
-            <lb/>my room in <placeName ref="Seattle">Seattle</placeName> also my friend
+            <lb/>my room in <placeName ref="#Seattle">Seattle</placeName> also my friend
             <lb/>or at least he was supposed to be
             <lb/>They have just whistled down from
             <lb/>the bridge for 5 more <unclear reason="illegible" cert="low">Reverlitions</unclear>
@@ -3583,7 +3583,7 @@
             <lb/>they are all <placeName ref="Montana">Montana </placeName>and are agoing<sic><corr>going</corr></sic> to Skaguay
             <lb/>well we beat to <placeName ref="Ketchikan">Ketchkan</placeName> about 3/4 of a hour but they
             <lb/>had no Cargo for there So left ahead of us but they
-            <lb/>mit <name ref="Dolphin">S.S. Dolphin</name> and had to change Peluts<sic><corr>pallets</corr> So we
+            <lb/>mit <name ref="Dolphin">S.S. Dolphin</name> and had to change Peluts<sic><corr>pallets</corr></sic> So we
             <lb/>caught up with them and at it again we were
           </p>
           <pb facs="4/4975992d-6296-4cf6-80b7-22f1ad07ec7e"/>
