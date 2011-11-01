@@ -2974,7 +2974,7 @@
             <lb/> <unclear cert="unknown"></unclear> which <choice><sic>seldome</sic><corr>seldom</corr></choice> happiness 
             <lb/> It is now 1:30 a.m. as I am
             <lb/> still on the same 12/4 as I was 
-            <lb/> on <placeName>Santa Clara</placeName> and we should
+            <lb/> on <placeName ref="#SantaClara">Santa Clara</placeName> and we should
             <pb facs="/8/82c2767c-ecf4-47ed-821e-7cc9945f6fdd"/>
             <!-- Note that the paragraph continues on the following page. -->
             <lb/> arrive in <unclear cert="low">Juneau</unclear> about noon and 
