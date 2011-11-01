@@ -2967,7 +2967,7 @@
             <lb/> watch before arriving at <placeName ref="#Juneau">Juneau</placeName>
             <lb/> and I am still a wondering
             <lb/> and lonesome as usual I thought
-            <lb/> I would write a <unclear cert="medium">friend</unclear>
+            <lb/> I would write a friend
             <lb/> which will probably be the
             <lb/> last chance to mail unless they
             <lb/> is a <unclear cert="unknown"></unclear> farther north than
@@ -2977,33 +2977,31 @@
             <lb/> on <placeName ref="#SantaClara">Santa Clara</placeName> and we should
             <pb facs="/8/82c2767c-ecf4-47ed-821e-7cc9945f6fdd"/>
             <!-- Note that the paragraph continues on the following page. -->
-            <lb/> arrive in <unclear cert="low">Juneau</unclear> about noon and 
+            <lb/> arrive in <unclear cert="low"><placeName ref="#Juneau">Juneau</placeName></unclear> about noon and 
             <lb/> I do not know how long we will 
             <lb/> be there and <unclear cert="unknown"></unclear> cannot say if I 
             <lb/> can get up to see about the pictures
             <lb/> but will try.
           </p>
           <p> 
-            <lb/> As I said before <persName ref="#GMS">Neddy</persName> dear I am writing
+            <lb/> As I said before <persName ref="#GMS"><addName type="nickname"></addName>Neddy</persName> <addName type="endearment">dear</addName> I am writing
             <lb/> on watch so please excuse pencil and a 
             <lb/> few finger marks you will <unclear cert="low">I</unclear> <unclear cert="low">know</unclear>
-            <lb/> tell <unclear cert="low">Uncle</unclear> <unclear cert="low">a</unclear>that we have <unclear cert="low">good</unclear>
+            <lb/> tell <persName ref="#ACS">Uncle a</persName> that we have <unclear cert="low">good</unclear>
             <lb/> school teachers aboard this time and 
             <lb/> I think he could enjoy him self
-            <lb/> and <persName ref="#GMS">Neddy</persName> I have found a sweet
+            <lb/> and <persName ref="#GMS"><addName type="nickname"></addName>Neddy</persName> I have found a sweet
             <lb/> little girl aboard and her name
             <pb facs="/a/a0d19058-77d6-48b2-87ef-ab26bc7ce76e"/>
             <!-- Note that the paragraph continues on the following page. -->
             <lb/> is <persName ref="#GMS">Gladys</persName> So you know she must
             <lb/> be Ok. She seames very fond of me
             <lb/> and gave me a kiss the first time I
-            <lb/> saw her but honey the poor little 
+            <lb/> saw her but <persName ref="#GMS"><addName type="endearment">honey</addName></persName> the poor little 
             <lb/> thing is only 2 years old So don't know
             <lb/> any better. we are having very smooth
             <lb/> weather so far but plenty of rain 
-            <lb/> we crossed <placeName>Mill bank</placeName> sound yesterday
-            <!-- HLU: "Mill bank sound" is a place name, though I suspect he has misspelled it. You
-              will need to do some sleuthing. -->
+            <lb/> we crossed <placeName>Mill bank sound</placeName>  yesterday
             <lb/> do you remember that place I 
             <lb/> <unclear cert="unknown"></unclear> do that so the first time
             <lb/> I ever had the pleasure of speaking
@@ -3011,7 +3009,7 @@
             <lb/> I could have a little more sympathy
             <lb/> if we ever have the pleasure of 
             <lb/> crossing there together again
-            <lb/> don't you honey?
+            <lb/> don't you <persName ref="#GMS"><addName type="endearment">honey</addName></persName>?
             <pb facs="/1/1e6f7ae6-47bf-494b-88b1-df9d3d7be5ea"/>
             <lb/> which I hope will be no later than
             <lb/> the spring of 1910 do <hi rend="underlined">you</hi>? Tell me <unclear cert="unknown"></unclear>
@@ -3022,17 +3020,17 @@
             <lb/> well I know where I am at
             <lb/> least. I had two letters before sailing
             <lb/> this time one Sunday and one Monday
-            <lb/> at <unclear cert="low">6 p.m.</unclear> from a passenger that
+            <lb/> at <unclear cert="low">6 p.m.</unclear> from <rs>a passanger</rs> that
             <lb/> went north on this boat last
             <lb/> spring but which I did not talk
             <lb/> to but twice but she had a <unclear cert="low">notion</unclear>
-            <lb/> <unclear cert="low">or</unclear> fancy but <persName ref="#GMS">Neddie</persName> dear the 
+            <lb/> <unclear cert="low">or</unclear> fancy but <persName ref="#GMS"><addName type="nickname"></addName>Neddie</persName> <addName type="endearment">dear</addName> the 
             <lb/> answers to both were the same
             <lb/> and was this&#x2014;<hi rend="underlined">Impossible</hi>
             <pb facs="/b/bc7afc0a-0631-4a57-b872-fda7beb07774"/>
             <!-- Note that the paragraph continues on the following page. -->
             <lb/> to see you am <choice><sic>to</sic><corr>too</corr></choice> busy that's all
-            <lb/> and the season. <persName ref="#GMS">Neddy</persName> would not like
+            <lb/> and the season. <persName ref="#GMS"><addName type="nickname">Neddy</addName></persName> would not like
             <lb/> it and what a different feeling
             <lb/> comes over one when they have done
             <lb/> what they know to be <choice><sic>wright</sic><corr>right</corr></choice> Indeed
@@ -3044,7 +3042,7 @@
             <lb/> would be ashamed of you.
           </p>
           <p>
-            <lb/> well <rs ref="#GMS">little girl</rs> well do I remember 
+            <lb/> well <rs ref="#GMS"><addName type="endearment">little girl</addName></rs> well do I remember 
             <lb/> the talkings I used to get as a young
             <lb/> fellow when going out with the boys
             <pb facs="/8/8a7be673-5199-4b09-b859-d29600b98d7e"/>
@@ -3055,9 +3053,9 @@
             <lb/> to be a better boy one for a mother
             <lb/> to be proud of in her old age and
             <lb/> the last words I hear on leaving 
-            <lb/> home dear is this remember mother 
+            <lb/> home <addName type="endearment">dear</addName>is this remember mother 
             <lb/> prays for her boy every night do
-            <lb/> you wonder <persName ref="#GMS">Neddy</persName> how a boy or
+            <lb/> you wonder <persName ref="#GMS"><addName type="nickname">Neddy</addName></persName> how a boy or
             <lb/> man could <unclear cert="unknown"></unclear> thing to be
             <lb/> ashamed of <said><q>"But honey I have"</q></said>
             <!--the markup rules say to specificy between vocalized or signed, but I don't think it applies here--> 
@@ -3069,7 +3067,7 @@
             <lb/> know if you can understand
             <pb facs="/1/1d84b1b3-e961-456d-9c66-4eda4dede246"/>
             <lb/> my feelings in this or not but 
-            <lb/> please tell me will you dear <hi rend="underlined">please</hi>
+            <lb/> please tell me will you <persName ref="#GMS"><addName type="endearment">dear</addName></persName> <hi rend="underlined">please</hi>
             <lb/> if you only knew with what pleasure 
             <lb/> I read your letters and watch for 
             <lb/> any little words that will lead me
@@ -3084,12 +3082,12 @@
             <lb/> so but every thing has <choice><sic>bin</sic><corr>been</corr></choice> so 
             <lb/> <choice><sic>unusal</sic><corr>unusual</corr></choice> and out of the ordinary
             <lb/> that I sometimes wonder how 
-            <lb/> it all happened do you honey
+            <lb/> it all happened do you <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
             <pb facs="/c/c94e4f05-91bb-4e8e-818e-a64f8d1ee446"/>
             <lb/> be <choice><sic>shore</sic><corr>sure</corr></choice> and tell me what you
             <lb/> think honey of these <hi rend="underlined">please</hi> do
             <lb/> I wonder if you knew how I 
-            <lb/> <unclear cert="unknown"></unclear> Uncle a two little good
+            <lb/> <unclear cert="unknown"></unclear> <persName ref="#ACS">Uncle a</persName> two little good
             <lb/> night kisses which I saw him
             <lb/> yet But enough of this for envy
             <lb/> is the habit of extracting misery
@@ -3100,7 +3098,7 @@
             <lb/> me for instance <unclear cert="unknown"></unclear> <unclear cert="unknown"></unclear>
             <lb/> passing fancy and a hundred
             <lb/> others but I will trust my 
-            <lb/> <persName ref="GMS">little girl</persName> <choice><sic>untill</sic><corr>until</corr></choice> she tells me 
+            <lb/> <persName ref="GMS"><addName type="endearment">little girl</addName></persName> <choice><sic>untill</sic><corr>until</corr></choice> she tells me 
             <lb/> <choice><sic>diffarante</sic><corr>different</corr></choice> than what I now believe.
           </p>
           <pb facs="/1/12faecb4-fadc-4231-ba1e-a5395fc13502"/> 
@@ -3118,13 +3116,13 @@
           <p>
             <lb/> Oh how much I would give
             <lb/> for one or two more nights
-            <lb/> on <placeName>Santa Clara</placeName> with you now 
+            <lb/> on <placeName ref="#SantaClara">Santa Clara</placeName> with you now 
             <lb/> how much could be said
             <pb facs="/e/e9f54935-558f-40f6-951e-f079183e96bc"/>
             <!-- Note that the paragraph continues on the following page. -->
             <lb/> and how much better we could 
             <lb/> understand but here we are
-            <lb/> Dear me plowing along miles
+            <lb/> <persName ref="#GMS"><addName type="endearment"></addName>Dear</persName> me plowing along miles
             <lb/> farther away every day when it 
             <lb/> is my desire to be with you 
             <lb/> do you know the other day well it
@@ -3136,20 +3134,20 @@
             <lb/> wake up boy what's the matter
             <lb/> can you think where my mind
             <pb facs="/7/7c13091c-3773-4214-9981-b1995181be52"/>
-            <lb/> was. <persName>Ms Hollinds</persName> remark does not
-            <lb/> surprise me much honey I am getting 
+            <lb/> was. <persName ref="#MsH">Ms Hollinds</persName> remark does not
+            <lb/> surprise me much <persName ref="#GMS"><addName type="endearment">honey</addName></persName> I am getting 
             <lb/> <unclear cert="unknown"></unclear> them now every day while 
             <lb/> I was around the docks it was
-            <lb/> Hellow Mack you look <unclear cert="medium">lonesome</unclear> 
+            <lb/> <rs ref="#JJM"><choice><sic>Hellow</sic><corr>Hello</corr></choice> Mack</rs> you look <unclear cert="medium">lonesome</unclear> 
             <lb/> this with a knowing smile.
             <lb/> They say absence makes <choice><sic>thee</sic><corr>the</corr></choice> heart
             <lb/> grow fonder I do not <choice><sic>haf</sic><corr>have</corr></choice> to
             <lb/> worry about mine I have none
             <lb/> I wonder where it went it
-            <lb/> I sent in the room honest Dear
+            <lb/> I sent in the room honest <persName ref="#GMS"><addName type="endearment">Dear</addName></persName>
             <lb/> tell me if you know <hi rend="underlined">please</hi>
             <pb facs="/8/80015065-8495-4250-8ad4-362953505abd"/> 
-            <lb/> well <persName ref="#GMS">Neddy</persName> dear it is <unclear cert="high">nearing</unclear> 
+            <lb/> well <persName ref="#GMS"><addName type="nickname">Neddy</addName></persName> <addName type="endearment">dear</addName> it is <unclear cert="high">nearing</unclear> 
             <lb/> <unclear cert="high">4 a.m.</unclear> I but you are glad for I 
             <lb/> will <choice><sic>haf</sic><corr>have</corr></choice> to close
           </p>
