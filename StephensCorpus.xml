@@ -1157,6 +1157,12 @@
               Boston Baked Beans.
             </note>
           </person>
+          <person xml:id="Virginians">
+            <persName>The Virginians</persName>
+            <note type="biographical">
+              In a letter dated July 14, 1909, Gladys describes travelling with a group of Virginians.  She describes them as "jolly."  The only Virginian described in detail is Mrs. Hughes; she is described as the cousin of Mrs. Dana Gibson and Mrs. Waldorf Astor as well as the cousin of a Mrs. Jordon who has two sons.
+            </note>
+          </person>
           
           <person xml:id="Hughes">
             <persName>Mrs. Hughes</persName>
@@ -1164,7 +1170,6 @@
               In a letter dated July 14, 1909, Gladys describes travelling with a Virginian named Mrs. Hughes.  Mrs. Hughes is described as the cousin of Mrs. Dana Gibson and Mrs. Waldorf Astor as well as the cousin of a Mrs. Jordon who has two sons.
             </note>
           </person>
-        </listPerson>
 
         <person xml:id="MDG">
           <persName>Mrs. Dana Gibson</persName>
@@ -1172,7 +1177,6 @@
             In a letter dated July 14, 1909, Gladys describes travelling with a Virginian named Mrs. Hughes who is the cousin of Mrs. Dana Gibson and Mrs. Waldorf Astor.  Mrs. Dana Gibson is likely a reference to Irene Langhorne, originally of Danville, Virginia.  She married graphic artist Charles Dana Gibson in 1895.  Charles Dana Gibson was the creator of the iconic Gibson Girl sketches.  Popular history suggests that Irene Langhorne (wife of Charles Dana Gibson) and her sister (Nancy Astor nee Langhorne, married to British politician Waldorf Astor) were the inspirations for the Gibson Girl.
           </note>
         </person>
-        </listPerson>
         
         <person xml:id="MWA">
           <persName>Mrs. Waldorf Astor</persName>
@@ -1180,7 +1184,16 @@
             In a letter dated July 14, 1909, Gladys describes travelling with a Virginian named Mrs. Hughes who is the cousin of Mrs. Dana Gibson and Mrs. Waldorf Astor.  "Mrs. Waldorf Astor" likely refers to Nancy Astor, wife of British Member of Parliament for Plymouth Sutton, Waldorf Astor.  Nancy Astor became the first female Member of Parliament when she succeeded her husband as MP for Plymouth Sutton in 1919; she served until 1945.  Along with her sister, Mrs. Dana Gibson (nee Irene Langhorne), Nancy Astor served as inspiration for the iconic Gibson Girl sketches penned by her brother in law, Charles Dana Gibson.
           </note>
         </person>
-        </listPerson>
+          
+          <person xml:id="MJ">
+            <persName>Mrs. Jordon</persName>
+            <note type="biographical">
+              In a letter dated July 14, 1909, Gladys describes Mrs. Jordon as a cousin of Mrs. Hughes (one of Gladys' travelling companions, a Virginian.)  Mrs. Jordon is described as having two sons and a dead husband.
+            </note>
+          </person>
+          
+      </listPerson>
+          
         <listPerson type="editors">
           <head>Editors</head>
           <person xml:id="HLU">
@@ -1798,13 +1811,12 @@
             <lb/>I do not know
             <lb/>what day we will leave
             <lb/>here, but we'll leave soon.
-            <lb/>Will return to <placeName>El Paso</placeName>
-            <lb/>by way of <placeName>California</placeName>.
+            <lb/>Will return to <placeName ref="ElPaso">El Paso</placeName>
+            <lb/>by way of <placeName ref="California">California</placeName>.
             <lb/>Have decidedly <unclear cert="high">tanned</unclear>
             <lb/>from riding up on the
             <lb/>top seat with the driver
-            <!-- JLM: Coded Yellowstone as a place name but not Park.  This was to create uniformity with other codes in other letters where Gladys simply calls it "Yellowstone." -->
-            <lb/>in <placeName>Yellowstone</placeName> Park.
+            <lb/>in <placeName ref="Yellowstone">Yellowstone Park</placeName> .
             <lb/>I drove the coach 3
             <lb/>days. There were 4
             <lb/>horses <seg type="obliqueText" rendition="#ot1">and</seg> the coach
@@ -1827,7 +1839,7 @@
           <p>
             <lb/>With us are some
             <!-- As we have no further information about who the "Virginians" or the "Germans" are, I have not coded these as referring strings.  But I'm leaving this comment here in case we yield additional information in group research regarding their identity. -->
-            <lb/>charming <rs>Virginians</rs>
+            <lb/>charming <rs ref="#Virginians">Virginians</rs>
             <lb/>and some Germans. We
             <lb/>certainly have good
             <lb/>times. They are all
@@ -1835,7 +1847,7 @@
           </p>
           <p>
             <lb/>The Exposition is fine
-            <lb/>In the <placeName>Forestry <choice><abbr >b'l'd'g</abbr><expan>building</expan></choice></placeName>
+            <lb/>In the <placeName ref="ForestryBuilding">Forestry <choice><abbr >b'l'd'g</abbr><expan>building</expan></choice></placeName>
             <lb/>are some pretty big
             <lb/><q>sticks.</q> One is 74 ft long
             <!--JLM: Do I need special code for this 1/2 fraction?-->
@@ -1855,7 +1867,7 @@
             <lb/>a good picture of it.
             <lb/>All the <choice><abbr >b'l'd'gs</abbr><expan>buildings</expan></choice> are fine.
             <lb/><seg type="obliqueText" rendition="#ot1">and</seg> will be used by
-            <lb/><placeName>Seattle College</placeName> later.
+            <lb/><placeName ref="SeattleCollege">Seattle College</placeName> later.
             <lb/>Every one who has
             <lb/>been to the other
             <lb/>Expositions say that
@@ -2039,17 +2051,17 @@
             <lb/>will call later.
           </p>
           <p>
-            <lb/><persName>Mrs. Hughes</persName> (the Virginian)
-            <lb/>is a cousin of <persName>Mrs. <unclear cert="medium">Dana</unclear>
-              <lb/>Gibson</persName> and <persName>Mrs. Waldorf
+            <lb/><persName ref="#Hughes">Mrs. Hughes</persName> (the Virginian)
+            <lb/>is a cousin of <persName ref="#MDG">Mrs. <unclear cert="medium">Dana</unclear>
+              <lb/>Gibson</persName> and <persName ref="#MWA">Mrs. Waldorf
                 <lb/>Astor</persName> (in England) I guess
             <lb/>I'll try and visit them.
             <lb/>Uncle wants me to visit
             <!--Gladys repeats the word "visit" here before and after the page break.  I have corrected it with a sic + an empty <corr> element since the correction is literally nothing.-->
             <pb facs="/a/a244ada2-8ce4-4bc4-80e9-da8a673bfd55"/>             
             <!-- More people who could become referring strings but aren't yet because we don't know enough about them -->
-            <lb/><choice><sic>visit</sic><corr></corr></choice> them. Mrs. Jordon
-            <lb/>(Mrs. H's cousin) has lots of
+            <lb/><choice><sic>visit</sic><corr></corr></choice> them. <rs ref="#Hughes"><persName ref="#MJ">Mrs. Jordon</persName>
+              <lb/>(Mrs. H's cousin) has lots of
             <lb/>money. Her husband died
             <lb/>5 yrs. ago and left a large
             <lb/>estate. One of the sons
@@ -2058,7 +2070,7 @@
             <lb/>for $12,000 and pay $25,000
             <lb/>for improvements. The girl
             <lb/>has her money too. Her
-            <lb/>mink coat only cost $600.
+              <lb/>mink coat only cost $600.</rs>
             <lb/>I might do worse than
             <lb/>to visit the family don't
             <lb/>you think. They tried to
