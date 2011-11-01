@@ -205,7 +205,7 @@
               <geo>23.0000 -102.0000</geo>
             </location>
           </place>
-          <place type="nation" xml:id="Mexico" source="#TGN">
+          <place type="nation" xml:id="China" source="#TGN">
             <placeName>China</placeName>
             <desc>JJM mentions this to Gladys in a letter on Sept. 13 1909.</desc>
             <country>China</country>
@@ -2418,7 +2418,7 @@
             <lb/>the <name type="ship" ref="#Northwestern">North Western</name> <del rend="overstrike">She</del> he Sails
             <pb facs="/f/fe83c5c8-21a3-4819-9cfc-5f5cae2bca37
               "/>
-            <lb/><date when="08-16-1909">Monday #16</date> And he Said If he got
+            <lb/><date when="1909-08-16">Monday #16</date> And he Said If he got
             <lb/>Any <del rend="overstrike">more</del> news from <name type="ship" ref="#SantaClara">Santa Clara</name>
             <lb/>he would hold me over untill <del rend="overstrike">She</del> he
             <lb/>Sails and that means <unclear reason="illegible" cert="high">$</unclear>1200 per year
