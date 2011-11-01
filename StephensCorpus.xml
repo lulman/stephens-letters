@@ -628,6 +628,7 @@
           </bibl>
           <bibl xml:id="RS" n="RS">Shannon, Robin.  <title level="m">Seattle's Historic Hotels</title>. 2010. <title>Google Books</title>.
           Web. 23 October 2011.</bibl>
+          <bibl xml:id="THC" n="THC"> <title level="a">The Holy City</title></bibl>
         </listBibl>
         
         <listEvent>
@@ -856,12 +857,15 @@
           <person><persName>Walt</persName></person>
           <person><persName>Mrs. Rich</persName></person>
           <person><persName>the Dotens</persName></person> 
+          <person><persName>Burns</persName></person>
           <person xml:id="THM">
             <persName>"the man"</persName>
             <note type="biographical">Adelaide's fiance. Gladys never refers to 
               him by name, but tells her mother about his income ($50 per week) 
               and drinking habits ("the man" prefers a good cocktail at his club)
-              in her letter postmarked September 24, 1909.</note>
+              in her letter postmarked September 24, 1909. He may also be known as 
+              "the Scotchman." In his 8/23/1909 letter to Gladys Stephens, J.J. McIntyre 
+              asks about "the Scotchman" and wonders whether this man is "brooke."</note>
           </person>          
           <person xml:id="CLA">
             <persName>Anderson, Cora L.</persName>
@@ -3339,10 +3343,10 @@
             <lb/>you can call that near future.
             <lb/>and again <persName><surname>Burns</surname></persName> says a man's
             <lb/>a man for all <unclear reason="illegible" cert="low">o</unclear> that <q>"and that"</q>!
-            <lb/>By the way how is the Scotchman
+            <lb/>By the way how is <rs ref="TSM">the Scotchman</rs>
             <lb/>getting along not <choice><sic><q>"brooke"</q></sic><corr>"broke"</corr></choice> I hope I
             <lb/>must laugh when I think of the
-            <lb/>lookson <persName><addName>ouncle A's</addName></persName> face the day you
+            <lb/>lookson <persName ref="#ACS"><addName>ouncle A's</addName></persName> face the day you
             <pb facs="/e/e1c9c876-b418-422a-a05d-3e16f40c91d9"/>
             <lb/>were In the Engine room I didn't
             <lb/>think you noticed. but you afterwards
@@ -3421,7 +3425,7 @@
             <lb/>glad I will be to get back to <placeName ref="Seattle">Seattle</placeName>
             <lb/>to get my letters so much seems to
             <lb/>depend on them how I wished I
-            <lb/>knew what your mother said
+            <lb/>knew what your <rs ref="#MATS">mother</rs> said
             <lb/>for I want to tell my mother
             <lb/>all about you on my return
             <lb/>but nothing to do but wait and
