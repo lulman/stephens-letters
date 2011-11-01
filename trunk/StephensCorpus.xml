@@ -505,6 +505,10 @@
             later Santa Clara. Ran aground on 2 November 1915 in Coos Bay, Oregon.</desc>
             <bibl><ref target="#NYT1 #Koppy"></ref></bibl>
           </item>
+          <item xml:id="SantaAnna">
+          <name type="passenger" subtype="steamer">S. S. Santa Anna</name>
+          <country>USA</country>
+           </item>
         </list>
         
         <listOrg>
@@ -3546,7 +3550,7 @@
             <lb/>45 or 50 miles farter than the way we are going but
             <lb/>we make 3 stops So I do not know how we will
             <lb/>make out but are doing our best the worst of it is I
-            <lb/>was abooard of S.S. Santa Anna Sailing night and was
+            <lb/>was abooard of <name ref="SantaAnna">.S. Santa Anna</name>S Sailing night and was
             <lb/>Joshing the Chief about the old freight boat that was on and
             <lb/>if they beat us to Skag I will never hear the last of it
             <lb/>he is the Chief from S.S. Ohio and as I said before an auld
