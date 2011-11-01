@@ -189,7 +189,7 @@
                 <addrLine>Seattle, WA</addrLine>
           </address>
             </location>
-            <desc>In her letter dated July 10, 1909, Gladys mentions that the buildings at the 1909 Seattle World's Fair will be used later by Seattle College.  By this, she almost certainly means the University of Washington, on whose grounds the Alaska-Yukon-Pacific Exposition (aka the 1909 Seattle World's Fair) was built.</desc>
+            <desc>In her letter dated July 10, 1909, Gladys Stephens mentions that the buildings at the 1909 Seattle World's Fair will be used later by Seattle College.  By this, she almost certainly means the University of Washington, on whose grounds the Alaska-Yukon-Pacific Exposition (aka the 1909 Seattle World's Fair) was built.</desc>
           </place>
           <place type="building" xml:id="ForestryBuilding" source="#TGN">
             <placeName>Forestry Building</placeName>
@@ -199,7 +199,7 @@
                 <addrLine>Seattle, WA</addrLine>
           </address>
             </location>
-            <desc>In her letter dated July 10, 1909, Gladys describes the Forestry Building at the 1909 Seattle World's Fair.</desc>
+            <desc>In her letter dated July 10, 1909, Gladys Stephens describes the Forestry Building at the 1909 Seattle World's Fair.</desc>
           </place>
           <place type="hotel" xml:id="Tourist" source="#TGN"><placeName> Tourist Hotel </placeName>
             <location> <address>           
@@ -1157,8 +1157,30 @@
               Boston Baked Beans.
             </note>
           </person>
+          
+          <person xml:id="Hughes">
+            <persName>Mrs. Hughes</persName>
+            <note type="biographical">
+              In a letter dated July 14, 1909, Gladys describes travelling with a Virginian named Mrs. Hughes.  Mrs. Hughes is described as the cousin of Mrs. Dana Gibson and Mrs. Waldorf Astor as well as the cousin of a Mrs. Jordon who has two sons.
+            </note>
+          </person>
+        </listPerson>
+
+        <person xml:id="MDG">
+          <persName>Mrs. Dana Gibson</persName>
+          <note type="biographical">
+            In a letter dated July 14, 1909, Gladys describes travelling with a Virginian named Mrs. Hughes who is the cousin of Mrs. Dana Gibson and Mrs. Waldorf Astor.  Mrs. Dana Gibson is likely a reference to Irene Langhorne, originally of Danville, Virginia.  She married graphic artist Charles Dana Gibson in 1895.  Charles Dana Gibson was the creator of the iconic Gibson Girl sketches.  Popular history suggests that Irene Langhorne (wife of Charles Dana Gibson) and her sister (Nancy Astor nee Langhorne, married to British politician Waldorf Astor) were the inspirations for the Gibson Girl.
+          </note>
+        </person>
         </listPerson>
         
+        <person xml:id="MWA">
+          <persName>Mrs. Waldorf Astor</persName>
+          <note type="biographical">
+            In a letter dated July 14, 1909, Gladys describes travelling with a Virginian named Mrs. Hughes who is the cousin of Mrs. Dana Gibson and Mrs. Waldorf Astor.  "Mrs. Waldorf Astor" likely refers to Nancy Astor, wife of British Member of Parliament for Plymouth Sutton, Waldorf Astor.  Nancy Astor became the first female Member of Parliament when she succeeded her husband as MP for Plymouth Sutton in 1919; she served until 1945.  Along with her sister, Mrs. Dana Gibson (nee Irene Langhorne), Nancy Astor served as inspiration for the iconic Gibson Girl sketches penned by her brother in law, Charles Dana Gibson.
+          </note>
+        </person>
+        </listPerson>
         <listPerson type="editors">
           <head>Editors</head>
           <person xml:id="HLU">
@@ -1781,7 +1803,8 @@
             <lb/>Have decidedly <unclear cert="high">tanned</unclear>
             <lb/>from riding up on the
             <lb/>top seat with the driver
-            <lb/>in <placeName>Yellowstone Park</placeName>.
+            <!-- JLM: Coded Yellowstone as a place name but not Park.  This was to create uniformity with other codes in other letters where Gladys simply calls it "Yellowstone." -->
+            <lb/>in <placeName>Yellowstone</placeName> Park.
             <lb/>I drove the coach 3
             <lb/>days. There were 4
             <lb/>horses <seg type="obliqueText" rendition="#ot1">and</seg> the coach
@@ -1804,7 +1827,7 @@
           <p>
             <lb/>With us are some
             <!-- As we have no further information about who the "Virginians" or the "Germans" are, I have not coded these as referring strings.  But I'm leaving this comment here in case we yield additional information in group research regarding their identity. -->
-            <lb/>charming Virginians
+            <lb/>charming <rs>Virginians</rs>
             <lb/>and some Germans. We
             <lb/>certainly have good
             <lb/>times. They are all
@@ -1812,10 +1835,9 @@
           </p>
           <p>
             <lb/>The Exposition is fine
-            <lb/>In the Forestry <choice><abbr >b'l'd'g</abbr><expan>building</expan></choice>
+            <lb/>In the <placeName>Forestry <choice><abbr >b'l'd'g</abbr><expan>building</expan></choice></placeName>
             <lb/>are some pretty big
-            <!-- JLM: I've not nested this word "sticks" in the seg element with q quotation mark specifications because it is not, in any sense, a speech act.  Not indirect or direct, spoken or unspoken.  But do I need to add any code for the quotation marks? -->
-            <lb/>"sticks." One is 74 ft long
+            <lb/><q>sticks.</q> One is 74 ft long
             <!--JLM: Do I need special code for this 1/2 fraction?-->
             <lb/>and 4 1/2 ft sq. There is
             <lb/>a cross section of a tree
@@ -1833,8 +1855,7 @@
             <lb/>a good picture of it.
             <lb/>All the <choice><abbr >b'l'd'gs</abbr><expan>buildings</expan></choice> are fine.
             <lb/><seg type="obliqueText" rendition="#ot1">and</seg> will be used by
-            <!--JLM: I've coded Seattle college under the placeName Seattle, but should I have added Seattle College itself to the listPlace header?-->
-            <lb/><placeName>Seattle</placeName> College later.
+            <lb/><placeName>Seattle College</placeName> later.
             <lb/>Every one who has
             <lb/>been to the other
             <lb/>Expositions say that
@@ -2011,18 +2032,17 @@
             <lb/><placeName>Alaska</placeName>&#x2014; can't get stateroom
             <lb/>so many are going.
             <!-- Have not coded the Goulds with a referring string because we don't have additional info about them (yet). -->
-            <lb/>Have located the Goulds,
+            <lb/>Have located the <rs>Goulds</rs>,
             <lb/>I telephoned today but she
             <lb/>was at the Expo. Got
             <lb/>him <unclear cert="high">on</unclear> the phone and I
             <lb/>will call later.
           </p>
           <p>
-            <!-- Need to look up these people.  They will probably become referring strings and/or proper names as we learn more about them. -->
-            <lb/>Mrs. Hughes (the Virginian)
-            <lb/>is a cousin of Mrs. <unclear cert="medium">Dana</unclear>
-            <lb/>Gibson and Mrs. Waldorf
-            <lb/>Astor (in England) I guess
+            <lb/><persName>Mrs. Hughes</persName> (the Virginian)
+            <lb/>is a cousin of <persName>Mrs. <unclear cert="medium">Dana</unclear>
+              <lb/>Gibson</persName> and <persName>Mrs. Waldorf
+                <lb/>Astor</persName> (in England) I guess
             <lb/>I'll try and visit them.
             <lb/>Uncle wants me to visit
             <!--Gladys repeats the word "visit" here before and after the page break.  I have corrected it with a sic + an empty <corr> element since the correction is literally nothing.-->
