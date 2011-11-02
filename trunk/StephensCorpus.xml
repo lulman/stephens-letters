@@ -233,7 +233,10 @@
             <placeName>Mexico</placeName>
             <desc>Gladys Stephens reminisces about her time in Mexico.</desc>
             <desc>In her letter dated August 8, 1909, Gladys tells her mother
-            about plans for an upcoming excursion to Mexico.  In her Sept. 27, 1909 letter Gladys describes her
+            about plans for an upcoming excursion to Mexico. She reports to 
+            her mother in her Sept. 22, 1909 letter that while in Mexico she 
+            caught head lice. She also comments on the rising political tensions
+            between President Diaz and the general populace. In her Sept. 27, 1909 letter Gladys describes her
             state following her return from Mexico.</desc>
             <country>Mexico</country>
             <location>
@@ -302,7 +305,7 @@
           </place>
           <place type="city" xml:id="ElPaso" source="#TGN">
             <placeName>El Paso</placeName>
-            <desc>Gladys lives in El Paso.</desc>
+            <desc>Gladys visits her Uncle Alex and her friend Adelaid Macphearson in El Paso.</desc>
             <country>USA</country>
             <region type="state">Texas</region>
             <region type="county">El Paso</region>
@@ -566,6 +569,13 @@
               of the master. The number of mates depended on the size of the ship's company</gloss>
             <bibl><ref target="#Falconers">Falconer's</ref></bibl>
           </item>
+          <item xml:id="alk">
+            <term>alkali</term>
+            <gloss>A substance having the characteristics exemplified by soda, i.e. a caustic or 
+              acrid taste, the power of neutralizing or effervecing with acids, and of forming soaps
+              with oils.</gloss>
+            <bibl><ref target="#OEDalkali">OED "alkali"</ref></bibl>
+          </item>
         </list>
         
         <list>
@@ -626,6 +636,10 @@
             as we would expect them to be displayed, ecept for noting text that requires special
             formatting (e.g., titles). -->
 
+          <bibl xml:id="OEDalkali">
+            <title level="a">alkali</title><title level="m">The Oxford English Dictionary Online</title> OED. 
+            September 2011. Web. 1 Nov. 11
+          </bibl>
           <bibl xml:id="BUYB1907" n="Boston1907">
             <title level="m">Boston University Year Book</title>. Ed. The University Council. Series
             4 Vol. 34. Boston, MA: University Offices, 1907. Print.
