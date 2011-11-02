@@ -576,6 +576,10 @@
               with oils.</gloss>
             <bibl><ref target="#OEDalkali">OED "alkali"</ref></bibl>
           </item>
+          <item xml:id="Rur">
+            <term>Rurales</term>
+            <gloss></gloss>
+          </item>
         </list>
         
         <list>
@@ -3247,7 +3251,9 @@
     </teiHeader>
     <text>
       <body>
-        <div>
+        <div type="letter">
+          <pb facs="/5/525b5c97-d537-482f-9392-0577b377cc5e"/>
+          <head type="letterhead"></head>
           <opener>
             <handShift new="#GMSHand"/>
             <dateline><date when="1909-09-22">9/22 9</date></dateline>
@@ -3276,7 +3282,7 @@
           </p>
           <p>
             <lb/>I have found out some startling
-            <pb/>
+            <pb facs="/7/7f432e2c-dc9e-4588-872c-228dd260a737"/>
             <lb/>information today. I went to the
             <lb/><rs>hairdressers</rs> to have a shampoo.
             <lb/>On account of the amount of alkali
@@ -3284,11 +3290,11 @@
             <lb/>their hair with it themselves. <persName ref="#AMM">Adelaide</persName>
             <lb/>and I made arrangements to go together
             <lb/>this morning. What do you suppose
-            <lb/>the woman found--bugs in
+            <lb/>the woman found--<hi rend="underlined">bugs</hi> in
             <lb/>my head! I got them in <placeName ref="#Mexico">Mexico</placeName>.
             <lb/>They all told me I'd be apt
             <lb/>to get them. I thought I'd escaped
-            <lb/>however. Now what do you think
+            <lb/>however. Now what <hi rend="underlined">do</hi> you think
             <lb/>of that. Well she worked good
             <lb/>and hard <seg type="obliqueText" rendition="#ot1">and</seg> dosed my head <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>I have to go again Sat. morning.
@@ -3302,10 +3308,10 @@
             <lb/>of it all soon.
           </p>
           <p>
-            <lb/><rs ref="#ACS">Uncle</rs>says I must stay to
+            <lb/><rs ref="#ACS">Uncle</rs>says I <hi rend="underlined">must</hi> stay to
             <lb/>see the <rs>Presidents</rs> meet <seg type="obliqueText" rendition="#ot1">and</seg> then I
             <lb/>can go home immediately after
-            <pb/>
+            <pb facs="/2/24ce202a-ee9f-4674-8111-674e80d869d7"/>
             <lb/>that. He says <persName ref="#PrD">Dias</persName> is so old (79) that
             <lb/>I probably will never get another
             <lb/>chance to see anything of the kind
