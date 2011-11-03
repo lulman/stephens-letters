@@ -236,7 +236,8 @@
             about plans for an upcoming excursion to Mexico. She reports to 
             her mother in her Sept. 22, 1909 letter that while in Mexico she 
             caught head lice. She also comments on the rising political tensions
-            between President Diaz and the general populace. In her Sept. 27, 1909 letter Gladys describes her
+            between President Diaz and the general populace, and discusses the 
+            upcoming 1909 meeting between Presidents Taft and Diaz. In her Sept. 27, 1909 letter Gladys describes her
             state following her return from Mexico.</desc>
             <country>Mexico</country>
             <location>
@@ -779,6 +780,10 @@
             <title level="a">March, 1909</title>. <title level="j">The Locomotive</title> 27: 169-171. 
             <title level="m">Google Books</title>. Web. 01 Nov. 2011.
           </bibl>
+          <bibl xml:id="TexasHist" n="TaftDiaz">
+            <title level="a">Taft-Diaz Meeting</title>. <title level="m">Texas State Historical Association</title>
+            n.d. Web. 03 NOv. 2011.
+          </bibl>
         </listBibl>
         
         <listEvent>
@@ -791,6 +796,18 @@
           <event when="1909" notBefore="1909-06-01" notAfter="1909-10-16" where="#Seattle" xml:id="AYP">
             <label>Alaska-Yukon-Pacific Exposition</label>
             <desc>Stephens attends the Alaska-Yukon-Pacific Exposition in July 1909.</desc>
+          </event>
+          <event when="1909" notBefore="1909-10-15" notAfter="1909-10-17" where="#ElPaso" xml:id="TDM">
+            <label>Taft-Diaz Meeting</label>
+            <desc>In her 1909-09-22 letter to her mother, Gladys says that her Uncle wants her to stay in El Paso
+            for the upcoming Taft-Diaz Meeting. On October 15, 1909, President Taft of the United States and President 
+            Diaz of Mexico met in El Paso and Ciudad Juarez. This was the first official meeting between the Presidents
+            of Mexico and the United States. Local news sources commented on American and Mexican displays of wealth 
+            and pagentry. The U.S. State Department retains a copy of the protocol for the event as well as drafts of 
+            President Diaz's proposed toast. The State Department does not record the content of Taft and Diaz's 
+            conversations, but they may have discussed U.S. support of Diaz's increasingly threatened regime or the 
+            territorial dispute over the Chamizal area along the Rio Grande just south of El Paso.</desc>
+            <bibl><ref target="#TexasHist">Taft-Diaz Meeting</ref></bibl>
           </event>
         </listEvent>
       
@@ -3267,17 +3284,17 @@
             <lb/>a pale blue broadcloth dress made. She
             <lb/>has a handsome brown suit. Things are 
             <lb/>getting quite interesting I can tell
-            <lb/>you. Just between you and I <persName ref="#THM">"the man"</persName>
+            <lb/>you. Just between you <seg type="obliqueText" rendition="#ot1">and</seg> I <persName ref="#THM">"the man"</persName>
             <lb/>has one bad feature. He takes a cocktail
-            <lb/>now and then. No one here seems to
-            <lb/>mind it and of course I have said
-            <lb/>nothing. He seems nice other ways and
+            <lb/>now <seg type="obliqueText" rendition="#ot1">and</seg> then. No one here seems to
+            <lb/>mind it <seg type="obliqueText" rendition="#ot1">and</seg> of course I have said
+            <lb/>nothing. He seems nice other ways <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>every one speaks well of him. He has
-            <lb/>a good position and makes in the
+            <lb/>a good position <seg type="obliqueText" rendition="#ot1">and</seg> makes in the
             <lb/>vicinity of $50 a week. Well all's
             <lb/>well that <choice><sic>end's</sic><corr>ends</corr></choice> well. $50 a week
-            <lb/>and all I would not marry him.
-            <lb/>Of course he belongs to the <rs>club</rs> here and
+            <lb/><seg type="obliqueText" rendition="#ot1">and</seg> all I would not marry him.
+            <lb/>Of course he belongs to the <rs>club</rs> here <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>the club's favorite drink is cocktail. I've 
             <lb/>noticed the odor about <choice><sic>everytime</sic><corr>every time</corr></choice> I've 
             <lb/>seen him.
