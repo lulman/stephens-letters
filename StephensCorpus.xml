@@ -757,7 +757,9 @@
           </bibl>
           <bibl xml:id="RS" n="RS">Shannon, Robin.  <title level="m">Seattle's Historic Hotels</title>. 2010. <title>Google Books</title>.
           Web. 23 October 2011.</bibl>
-          <bibl xml:id="THC" n="THC"> <title level="a">The Holy City</title>No information available for this item.</bibl>
+          <bibl xml:id="THC" n="THC"> <title level="a">The Holy City</title><note>J.J.McIntyre mentions that he is reading this work in his
+          8/23/1909 letter to Gladys Stephens. Although definite bibliographical information is not available for this title, J.J.McIntyre may
+          be referring to a fiction piece known as <title level="m">The Holy Land,</title> which was published in 1909. (The Library of Congress)</note></bibl>
           <bibl xml:id="SR19091001" n="SeattleRepublican">
             <title level="a">Henry Hiser, of joy riding fame</title>. <title level="j">The Seattle 
             Republican</title> 01 October 1909: 2. <title level="m">Chronicling America (The Library 
@@ -3568,11 +3570,12 @@
             <stamp type="dateline">SEP 27 1909 </stamp>
             <stamp type="dateline"> SEP 27 1909 </stamp>
           </ab>
-          <figure rend="embed">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic url="www.needaurlhere.com"/>
-            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of William Seward; perforated horizontally and
-            vertically; U.S. #370] Upside down </figDesc>
+          <figure rend="link">
+            <head>Caption</head>
+            <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=460,480&amp;layer=1&amp;src=is{mediamanager/1/1a088fc4-6962-4826-812b-8f4a29a15c26.jpg?scale=0.2&amp;rgn=0,0,460,320&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=460,320&amp;text=\vertalt\cf1\qc\fs15\%20Caption&amp;posN=0,.5"/>
+            <figDesc>
+              Manuscript detail
+            </figDesc>
           </figure>
         </div>
         <div type="letter" xml:id="JJM19090823let01" corresp="JJM19090823env01"> </div>
