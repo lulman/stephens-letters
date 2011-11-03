@@ -2894,7 +2894,7 @@
             <lb/>with his little son. I have only heard from 
             <lb/><persName ref="#GMS">Gladys Stevens</persName> once. She was then in <placeName ref="#Colorado">Colorado</placeName>.
             <lb/>I had hoped she would keep me posted as to 
-            <lb/>her travels. I supposed she will be home before 
+            <lb/>her travels. I suppose she will be home before 
             <lb/>a great while now with many, many entertaining 
             <lb/>things to tell you. I have thought of her very 
             <lb/>often. Give my love to her when you see or write 
@@ -2906,8 +2906,8 @@
           </p>
           <closer>
             <lb/><salute>Your affectionate niece </salute>
-            <signed><persName ref="#CLA">Cora L. Anderson</persName>. </signed>
-            <dateline><date when="1909-08-19"><hi rend="underlined">Aug. 19th. '09.</hi></date></dateline>
+            <lb/><signed><persName ref="#CLA">Cora L. Anderson</persName>. </signed>
+            <lb/><dateline><date when="1909-08-19"><hi rend="underlined">Aug. 19th. '09.</hi></date></dateline>
           </closer>
         </div>
       </body>
