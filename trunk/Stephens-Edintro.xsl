@@ -45,17 +45,18 @@
                     
                }
                h1 {
-                   font-size: 1em;
+                   font-size: 1.5em;
                    font-weight: bold;
                     
                }
                h2 {
-                   font-size: 1.25em;
+                   font-size: 1.5em;
                    font-weight: bold;
                     
                }
                h3 {
-                   font-size: 1em;
+                   margin-top: 2em;
+                   font-size: 1.25em;
                    font-style: italic;                    
                }
                p {
@@ -127,8 +128,14 @@
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
+            <hr/>
+            <h2>List of Works Cited</h2>
             <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
+            <hr/>
+            <h2>Appendices</h2>            
+            <xsl:apply-templates
+               select="/tei:teiCorpus/tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson"/>
             <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:revisionDesc"/>
@@ -222,9 +229,6 @@
    <!-- SORTING AND FORMATTING LISTS OF WORKS CITED, PLACES, ORGANIZATIONS, AND SO ON. -->
    
    <xsl:template match="tei:listBibl">
-      <hr/>
-      <h2>Appendices</h2>
-      <h3>List of Works Cited</h3>
       <xsl:for-each select="tei:bibl">
          <xsl:sort select="@n"/>
          <p class="hang25"><a>
@@ -232,6 +236,24 @@
             <xsl:apply-templates/></p>
       </xsl:for-each>
    </xsl:template>
+   
+   <xsl:template match="tei:listPerson[@type='mentioned']">
+      <h3>List of People Mentioned in the Letters</h3>
+      <xsl:for-each select="tei:person">
+         <xsl:sort select="tei:persName"/>
+         <p>
+            <strong><xsl:value-of select="tei:persName"/></strong>
+         <xsl:if test="tei:birth">
+            <xsl:text> (b. </xsl:text><xsl:value-of
+            select="tei:birth/tei:date[@when]"/><xsl:if test="tei:death"> - d. <xsl:value-of
+               select="tei:death/tei:date[@when]"></xsl:value-of></xsl:if>)</xsl:if>.
+          <xsl:value-of select="tei:note[@type='biographical']"/>.
+         </p>
+      </xsl:for-each>
+   </xsl:template>
+   <xsl:template match="tei:listPerson[@type='editors']"/>
+         
+   
    
    <xsl:template match="tei:listPlace">
       <h3>List of Places Mentioned in the Letters</h3>
