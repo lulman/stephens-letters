@@ -661,66 +661,66 @@
             Back.</title> <title level="m">Alaska at War, 1941–1945: The Forgotten War
             Remembered</title>. Ed. Fern Chandonnet. Fairbanks: U of Alaska P, 2008. Print. 219–226.
           </bibl>
-         <bibl xml:id="Census1920GSM" n="United States">
+         <bibl xml:id="Census1920GSM" n="United States 1920 Gladys">
            <title level="a">United States Census, 1920 for Gladys Stephens.</title> <title
              level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
            Web. 21 Oct. 2011.
          </bibl>
-         <bibl xml:id="Census1900IP" n="United States">
+         <bibl xml:id="Census1900IP" n="United States 1900 Irene">
             <title level="a">United States Census 1900, for Irene Palmer.</title> <title 
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
             Web. 30 October 2011.
          </bibl>
-         <bibl xml:id="Census1900MTP" n="United States">
+         <bibl xml:id="Census1900MTP" n="United States 1900 Minnie">
             <title level="a">United States Census 1900, for Minnie T. Palmer.</title> <title 
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
             Web. 30 October 2011.
          </bibl>
-         <bibl xml:id="Census1900HEP" n="United States">
+         <bibl xml:id="Census1900HEP" n="United States 1900 Herbert">
             <title level="a">United States Census 1900, for Herbert E. Palmer.</title> <title 
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
             Web. 30 October 2011.
          </bibl>
-         <bibl xml:id="Census1910IP" n="United States">
+         <bibl xml:id="Census1910IP" n="United States 1910 Irene">
             <title level="a">United States Census 1910, for Irene Palmer.</title> <title 
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
             Web. 30 October 2011.
          </bibl>
-          <bibl xml:id="Census1910CA" n="United States">
+          <bibl xml:id="Census1910CA" n="United States 1910 Cora">
             <title level="a">United States Census, 1910 for Cora Anderson.</title> <title
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
             Web. 1 Nov. 2011.
           </bibl>
-          <bibl xml:id="Census1910WDA" n="United States">
+          <bibl xml:id="Census1910WDA" n="United States 1910 Willis">
             <title level="a">United States Census 1910, for Willis D. Anderson.</title> <title
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
             Web. 27 Oct. 2011.
           </bibl>
-          <bibl xml:id="MABirthsWGA" n="United States">
+          <bibl xml:id="MABirthsWGA" n="Massachusetts">
             <title level="a">Massachusetts Births, 1841-1915 for Willis Goodwin Anderson.</title> <title
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
             Web. 27 Oct. 2011.
           </bibl>
-         <bibl xml:id="Census1920HEP" n="United States">
+         <bibl xml:id="Census1920HEP" n="United States 1920 Herbert">
             <title level="a">United States Census 1920, for Herbert E. Palmer.</title> <title 
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
             Web. 30 October 2011.
          </bibl>
-         <bibl xml:id="Census1920MP" n="United States">
+         <bibl xml:id="Census1920MP" n="United States 1920 Mary">
             <title level="a">United States Census 1920, for Mary Palmer.</title> <title 
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
             Web. 30 October 2011.
          </bibl>
-         <bibl xml:id="Census1930HEP" n="United States">
+         <bibl xml:id="Census1930HEP" n="United States 1930 Herbert">
              <title level="a">United States Census 1930, for Herbert E. Palmer.</title> <title 
                level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011. 
              Web. 30 October 2011.
          </bibl>
-         <bibl xml:id="NYT1" n="NYT1869-03-07">
+         <bibl xml:id="NYT1" n="North Pacific">
            <title level="a">The North Pacific Steamship Company Chartered.</title> <title
              level="m">New York Times</title>. 07 March 1869. Web. 22 Oct. 2011.
          </bibl>
-         <bibl xml:id="NYT2" n="NYT1927-10-02">
+         <bibl xml:id="NYT2" n="Deserted">
            <title level="a">Deserted Totems of Alaska: Traditional Symbols of Tribal Power Yield to 
            the White Man's Progress</title>. <title level="m">New York Times</title>. 02 October 1927. 
            <title level="m">Proquest Historical Newspapers</title>. Web. 28 Oct. 2011.
@@ -729,13 +729,13 @@
            <hi rend="italics">Santa Clara</hi></title>. <title level="m">The Whole Shebang</title>.  
            The Whole Shebang Mag., n.d. Web. 22 Oct. 2011.
          </bibl>
-         <bibl xml:id="GBC" n="GBC">
+         <bibl xml:id="GBC" n="GeoBC">
            <title level="m">GeoBC</title>. British Columbia, n.d. Web. 22 Oct. 2011.
          </bibl>
-         <bibl xml:id="TSL" n="TSL">
+         <bibl xml:id="TSL" n="TheShipsList">
            <title level="m">TheShipsList</title>. n.d. Web. 28 Oct. 2011.
          </bibl>
-         <bibl xml:id="VI" n="VI">
+         <bibl xml:id="VI" n="Visitor">
            <title level="a">Visitor Information</title>. <title level="m">City of Klawock</title>. 
            Klawock, n. d. Web. 28 Oct. 2011.
          </bibl>
@@ -749,35 +749,35 @@
             Free Online Encyclopedia of Washington State History</title>. HistoryLink.org, 2007. Web. 30 
             October 2011.
           </bibl>
-          <bibl xml:id="ICL" n="ICL">
-            Loyd, I. C. <title level="a">The Tramp Engineer.</title> <title level="j">The Engineers' 
+          <bibl xml:id="ICL" n="Lloyd">
+            Lloyd, I. C. <title level="a">The Tramp Engineer.</title> <title level="j">The Engineers' 
             Review</title> 16 (August 1905): 18-19. <title level="m">Google Books</title>. Web. 31 Oct. 2011.
           </bibl>
           <bibl xml:id="FLL" n="Zwiefelhofer">
             Zwiefelhofer, David B. <title level="m">Find Latitude and Longitude</title>. 2011. Web.
             31 Oct. 2011.
           </bibl>
-          <bibl xml:id="RS" n="RS">Shannon, Robin.  <title level="m">Seattle's Historic Hotels</title>. 2010. <title>Google Books</title>.
+          <bibl xml:id="RS" n="Shannon">Shannon, Robin.  <title level="m">Seattle's Historic Hotels</title>. 2010. <title>Google Books</title>.
           Web. 23 October 2011.</bibl>
           <bibl xml:id="THC" n="THC"> <title level="a">The Holy City</title><note>J.J.McIntyre mentions that he is reading this work in his
           8/23/1909 letter to Gladys Stephens. Although definite bibliographical information is not available for this title, J.J.McIntyre may
           be referring to a fiction piece known as <title level="m">The Holy Land,</title> which was published in 1909. (The Library of Congress)</note></bibl>
-          <bibl xml:id="SR19091001" n="SeattleRepublican">
+          <bibl xml:id="SR19091001" n="Henry">
             <title level="a">Henry Hiser, of joy riding fame</title>. <title level="j">The Seattle 
             Republican</title> 01 October 1909: 2. <title level="m">Chronicling America (The Library 
             of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
-          <bibl xml:id="SS19090923" n="SeattleStar">
+          <bibl xml:id="SS19090923" n="Two">
             <title level="a">Two Girls Burned and Crushed Beyond Human Resemblance</title>. <title level="j">
               The Seattle Star</title> 23 September 1909: n.p. <title level="m">Chronicling America (The Library 
               of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
-          <bibl xml:id="LE19091001" n="LeavenworthEcho">
+          <bibl xml:id="LE19091001" n="News">
             <title level="a">News of Pacific Northwest</title>. <title level="j">The Leavenworth Echo</title> 
             01 October 1909: n.p. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 
             01 Nov. 2011.
           </bibl>
-          <bibl xml:id="Locomotive" n="Locomotive">
+          <bibl xml:id="Locomotive" n="March">
             <title level="a">March, 1909</title>. <title level="j">The Locomotive</title> 27: 169-171. 
             <title level="m">Google Books</title>. Web. 01 Nov. 2011.
           </bibl>
