@@ -4416,10 +4416,10 @@
             <lb/>in the ha<del rend="overwritten">v</del>bit of having her own way and She Is quite a little 
             <lb/>flirt&#x2014;but a nice girl. She Cannot understand me at all, as <rs ref="#HEP">the 
             <lb/>Purser</rs> and <choice><sic>my self</sic><corr>I</corr></choice> <choice><sic>is</sic>
-              <corr>are</corr></choice> the only two on the <rs ref="#Northwestern">Ship</rs> that 
+              <corr>are</corr></choice> the only two on the <rs type="ship" ref="#Northwestern">Ship</rs> that 
             <lb/><choice><sic>hasent</sic><corr>haven't</corr>
             </choice> a little wife and large family (the Chief's #2 20)<!-- Can I find out who this is? --> 
-            <lb/>and <rs ref="#Northwestern">this Ship</rs> Carries no freight C
+            <lb/>and <rs type="ship" ref="#Northwestern">this Ship</rs> Carries no freight C
             <del rend="overwritten">r</del>lerk <rs ref="#HEP">the purser</rs> has that 
             <lb/>work to look after <seg type="obliqueText" rendition="#ot1">and</seg> 
             So It has <choice><sic>bin</sic><corr>been</corr></choice>
@@ -4457,25 +4457,25 @@
               sent</distinct> nice of you I <distinct type="babyTalk">fink</distinct> 
             <lb/>tell me <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <pb facs="/8/89dc1d77-e539-4ca6-b7b7-26f005889808"/>
-            I do not know if I told you about the <name ref="#Northwestern">Northwestern</name> 
-            <lb/>or not<unclear cert="medium">!</unclear> Yes <rs ref="#Northwestern">She</rs> 
+            I do not know if I told you about the <name type="ship" ref="#Northwestern">Northwestern</name> 
+            <lb/>or not<unclear cert="medium">!</unclear> Yes <rs type="ship" ref="#Northwestern">She</rs> 
             Is a big Ship about 3 times<add place="above">more</add> the power 
-            <lb/><del rend="overwritten">of</del>than <name ref="#SantaClara">Santa Clara</name>. 
-            She had about 3000 <choice><sic>hors</sic><corr>horse</corr></choice> 
+            <lb/><del rend="overwritten">of</del>than <name type="ship" ref="#SantaClara">Santa Clara</name>. 
+            <rs type="ship" ref="#Northwestern">She</rs> had about 3000 <choice><sic>hors</sic><corr>horse</corr></choice> 
             <choice><sic>pow</sic><corr>power</corr></choice> (now do you 
             <lb/>know&#x2014;no&#x2014;well perhaps you Can get a better Idea 
-            <lb/>this way Engine room Crews <name ref="#Northwestern">Northwestern</name> 25 men 
-            <lb/><name ref="#SantaClara">Santa Clara</name> 13&#x2014;and this Soap box
+            <lb/>this way Engine room Crews <name type="ship" ref="#Northwestern">Northwestern</name> 25 men 
+            <lb/><name type="ship" ref="#SantaClara">Santa Clara</name> 13&#x2014;and this Soap box
             <ptr type="NoteAnchor" target="JJM19091004note4"/><note resp="ed" xml:id="JJM19091004note4">
               Here Macintyre seems to be referring to the boat on which he's currently sailing to catch up 
               with the Northwestern. The diminutive connotation fits with the boastful tone that he has 
               assumed to impress Gladys with the size and power of the Northwestern. Interestingly, the 
               term "soap box" hasn't yet entered common usage as a way of designating a smaller, unpowered 
               or low-power vehicle.
-            </note>8 &#x2014; <name ref="#Northwestern">Northwestern</name> 6 boilers 
-            <lb/><name ref="#SantaClara">Clara</name> 2 <name ref="#Northwestern">Northwestern</name>
-            burns 70 tons coal in 24 hours <name ref="#SantaClara">Clara</name> 
-            <lb/>28 or 30 the <name ref="#Northwestern">Northwestern</name> is only a day ahead of us now 
+            </note>8 &#x2014; <name type="ship" ref="#Northwestern">Northwestern</name> 6 boilers 
+            <lb/><name type="ship" ref="#SantaClara">Clara</name> 2 <name type="ship" ref="#Northwestern">Northwestern</name>
+            burns 70 tons coal in 24 hours <name type="ship" ref="#SantaClara">Clara</name> 
+            <lb/>28 or 30 the <name type="ship" ref="#Northwestern">Northwestern</name> is only a day ahead of us now 
             <lb/>and She is 11 or 12 days behind time must have had all kinds 
             <lb/>of trouble with her boilers they are in a dangerous 
             <lb/>Condition but I like her just the Same If Someone 
