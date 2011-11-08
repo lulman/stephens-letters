@@ -203,13 +203,16 @@
           </place>
           <place type="hotel" xml:id="Tourist" source="#TGN">
             <placeName>Tourist Hotel</placeName>
+            <desc>JJM stayed at the Tourist Hotel on Oct. 11 1909. According to the stationary it was run 
+              by D.P. Foley</desc>
+            <country>United States</country>
+            <region type="state">Washington</region>
             <location> <address>           
             <addrLine>1009, 1011, 1010 Pacific Ave.</addrLine>            
             <addrLine>Tacoma, WA</addrLine>
             </address>
+            <geo>47.254679, -122.438915</geo>
             </location>
-            <desc>JJM stayed at the Tourist Hotel on Oct. 11 1909. According to the stationary it was run 
-          by D.P. Foley</desc>
               </place>
             
           <place type="city" xml:id="Boston" source="TGN">
