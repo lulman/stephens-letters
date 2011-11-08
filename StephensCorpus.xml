@@ -1098,6 +1098,7 @@
           <person><persName>the Dotens</persName></person> 
           <person xml:id="LGS"><persName>little Gladys</persName></person>
           <person xml:id="Burns"><persName>Burns</persName></person>
+          <person xml:id="Scotchman"><persName>the Scotchman</persName></person>
           <person xml:id="MsM"><persName>J.J. McIntyre's father</persName></person>
           <person xml:id="MrM"><persName>J.J. McIntyre's mother</persName></person>
           <person xml:id="MrJ">
@@ -1115,7 +1116,9 @@
               and drinking habits ("the man" prefers a good cocktail at his club)
               in her letter postmarked September 24, 1909. He may also be known as 
               "the Scotchman." In his 8/23/1909 letter to Gladys Stephens, J.J. McIntyre 
-              asks about "the Scotchman" and wonders whether this man is "brooke."</note>
+              asks about "the Scotchman" and wonders whether this man is "brooke." If the
+              Scotchman is indeed Adelaide's fiance, this question could be a joke about recent 
+              wedding costs.</note>
           </person>          
           <person xml:id="CLA">
             <persName>Anderson, Cora L.</persName>
@@ -3660,7 +3663,7 @@
             <lb/>called <title level="a" ref="#THC">the Holy City</title> and It promises
             <lb/>to be good. A few lines which I gave
             <lb/>special attention to were these</p>
-          <p><lb/><q>"<unclear reason="illegible" cert="low">of</unclear> hail is Love"</q></p>
+          <p><lb/><q>"what is Love"</q></p>
           <p><lb/>A certain boy and a certain girl <choice><sic>aggreed</sic><corr>agreed</corr></choice>
             <lb/>to go <del rend="overstrike" cert="high">to go</del>to the same place in the same
             <lb/>boat and they both <hi rend="underline">pulled together</hi> So
@@ -3680,7 +3683,7 @@
             <lb/>you can call that near future.
             <lb/>and again <rs ref="#Burns">Burns</rs> says a man's
             <lb/>a man for all <unclear reason="illegible" cert="low">o</unclear> that <q>"and that"</q>!
-            <lb/>By the way how is <rs ref="THM">the Scotchman</rs>
+            <lb/>By the way how is <rs ref="#Scotchman">the Scotchman</rs>
             <lb/>getting along not <q><choice><sic>"brooke"</sic><corr>"broke"</corr></choice></q> I hope I
             <lb/>must laugh when I think of the
             <lb/>lookson <persName ref="#ACS"><addName type="nickname">ouncle <hi rend="underline">A's</hi></addName></persName> face the day you
@@ -3777,7 +3780,7 @@
             <lb/>I must write up my log so once more
               <lb/><persName ref="#GMS"><addName type="nickname">little girl</addName></persName> I will bid you good night</p>
           <closer> 
-            <lb/><salute>wif a heaps of love X<unclear>X</unclear></salute>
+            <lb/><salute><distinct type="babyTalk">wif a heaps of love</distinct> X X</salute>
             <signed><persName ref="#JJM">J.J.Mc</persName></signed>
           </closer>
         </div>
