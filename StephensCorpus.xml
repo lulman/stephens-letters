@@ -1029,12 +1029,12 @@
           <note>The Wards are a family that includes both Will Ward and Jack Ward.  Gladys writes in her September 27, 1909
           letter to Mrs. A.T. Stephens wondering who is in the Ward's Portland house.</note>
           </person>
-          <person><persName>Will Ward</persName></person>
-          <person xml:id="JW"><persName>Jack Ward</persName>
+          <person><persName>Ward, Will</persName></person>
+          <person xml:id="JW"><persName>Ward, Will</persName>
           <note>Gladys remarks on his marriage in her September 27, 1909 letter to Mrs A.T. Stephens and asks
             where Jack Ward is living.</note>
           </person>
-          <person xml:id="AW"><persName>Alice Wunner</persName>
+          <person xml:id="AW"><persName>Wunner, Alice</persName>
           <note>Gladys remarks in her September 27, 1909 letter to Mrs. A.T. Stephens that Alice would have a 
           way of tiring Mrs. Stephens out.</note>
           </person>
@@ -1067,7 +1067,7 @@
           <person xml:id="Philys"><persName>Philys</persName>
           <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that she never heard from Philys.</note>
           </person>
-          <person xml:id="MN"><persName>Mabel Nims</persName>
+          <person xml:id="MN"><persName>Nims, Mabel</persName>
           <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that the last letter she wrote to Mabel Nims
           was so long ago that she's forgotten when it was.</note>
           </person>
@@ -1076,7 +1076,7 @@
           lately, and wonders what the madam think now.</note>
           </person>
           <person><persName>Walt</persName></person>
-          <person><persName>Mrs. Rich</persName></person>
+          <person><persName>Rich. Mrs.</persName></person>
           <person><persName>the Dotens</persName></person> 
           <person xml:id="LGS"><persName>little Gladys</persName></person>
           <person xml:id="Burns"><persName>Burns</persName></person>
@@ -4146,7 +4146,7 @@
             <lb/>make you tired, but that
             <lb/>was always the way.  The
             <lb/>last word I sent her was
-            <lb/>from <placeName ref="Mexico City">the City of Mexico</placeName>.
+            <lb/>from <placeName ref="#Mexico City">the City of Mexico</placeName>.
           </p>
           <p>
             <lb/>Have you seen anything
@@ -4167,7 +4167,7 @@
           </p>
           <p>
             <lb/>Who is in <persName ref="Wards">the Ward's</persName> 
-            <placeName ref="Portland"><choice>
+            <placeName ref="#Portland"><choice>
               <abbr>Pd.</abbr>
               <expan>Portland</expan>
             </choice></placeName>
@@ -4198,7 +4198,7 @@
               <lb/>Jays</persName> giving me his
             <lb/>address, but had mailed
             <lb/>a note the night before
-            <lb/>to <placeName ref="Boston">Boston</placeName>.
+            <lb/>to <placeName ref="#Boston">Boston</placeName>.
           </p>
           <p>
             <lb/>Have you heard from the
