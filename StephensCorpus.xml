@@ -1052,7 +1052,7 @@
           <note>Gladys remarks on his marriage in her September 27, 1909 letter to Mrs A.T. Stephens and asks
             where Jack Ward is living.</note>
           </person>
-          <person xml:id="AW"><persName>Wunner, Alice</persName>
+          <person xml:id="AD"><persName>Dunne, Alice</persName>
           <note>Gladys remarks in her September 27, 1909 letter to Mrs. A.T. Stephens that Alice would have a 
           way of tiring Mrs. Stephens out.</note>
           </person>
@@ -4133,7 +4133,8 @@
               <choice>
                 <abbr>Calif.</abbr>
                 <expan>California</expan></choice>
-            </placeName>for <note></note>ostrich plumes
+            </placeName>for <note></note>ostrich plumes <note>Ostriches and ostrich plumes were the height
+            fashion for this period, and continued until the market notably collapsed following the first World War.</note>
             <lb/>for her.
           </p>
           <p>
@@ -4148,7 +4149,7 @@
             <lb/><quote>All roads lead back to
               <lb/><placeName ref="#Rome">Rome</placeName></quote> - <seg type="obliqueText" rendition="#ot1">and</seg>
             with <persName ref="AMM">Adelaide</persName>
-            <lb/>all talk turns to "the West."
+            <lb/>all talk turns to <q>"the West."</q>
           </p>
           <pb facs="/d/dbd77e73-82da-4df9-95fc-b7eda643a5b6"/>
           <p>
@@ -4160,7 +4161,7 @@
             <lb/>I got a card from <persName ref="BS">Berenice</persName>.
           </p>
           <p>
-            <lb/>Yes, <persName ref="AW">Alice <unclear cert="low" reason="unknown last name">Wunner</unclear></persName> would
+            <lb/>Yes, <persName ref="AD">Alice <unclear cert="medium" reason="unknown last name">Dunne</unclear></persName> would
             <lb/>make you tired, but that
             <lb/>was always the way.  The
             <lb/>last word I sent her was
