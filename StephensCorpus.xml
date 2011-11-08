@@ -583,7 +583,10 @@
           </item>
           <item xml:id="Rur">
             <term>Rurales</term>
-            <gloss></gloss>
+            <gloss>Rurales were the rural militia and government forces drawn from farmers. In the 
+            latter years of President Diaz's presidency, he used the Rurales to censor the press and 
+            enforce his dominance through rural areas of Mexico.</gloss>
+            <bibl><ref target="#MexCS">Mexico, A Country Study</ref></bibl>
           </item>
           <item xml:id="Ckl">
             <term>cocktail</term>
@@ -591,7 +594,14 @@
               smelling of cocktail. Though Gladys uses the term "cocktail" as a particular drink, by
             1909 the term "cocktail" referred to a variety of drinks made from bitters and brandy, 
             gin, or whiskey.</gloss>
-            <bibl><ref target="#Thomas">Bon Vivant's Companion</ref></bibl>
+            <bibl><ref target="#PJThomas">Bon Vivant's Companion</ref></bibl>
+          </item>
+          <item xml:id="money">
+            <term>$50</term>
+            <gloss>According to the U.S. Bureau of Labor, $50 in 1913 is roughly equivalent to $1,101.29 
+              in 2010. In Gladys's Sept. 22, 1909 letter to her mother she mentions that Adelaide's fiance 
+              ("the man") who makes approximately $50 per week.</gloss>
+            <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>
           </item>
         </list>
         
@@ -655,9 +665,13 @@
 
           <bibl xml:id="OEDalkali" n="alkali">
             <title level="a">alkali</title><title level="m">The Oxford English Dictionary Online</title> OED. 
-            September 2011. Web. 1 Nov. 11
+            September 2011. Web. 1 Nov. 2011
           </bibl>
-          <bibl xml:id="Thomas" n="Thomas">Thomas, Jerry. <title level="m">The Bon Vivant's Companion, or How to Mix Drinks</title>.
+          <bibl xml:id="USLab" n="CPI">
+            <title level="a">CPI Inflation Calculator</title><title level="m">United States Department of Labor</title>.
+            n.d. Web. 8 Nov. 2011
+          </bibl>
+          <bibl xml:id="PJThomas" n="Thomas">Thomas, Jerry. <title level="m"><hi rend="italics">The Bon Vivant's Companion, or How to Mix Drinks</hi></title>.
             Ed. Herbert Asbury. 2nd ed. New York: Knopf, 1928. Print.
           </bibl>
           <bibl xml:id="BUYB1907" n="Boston1907">
@@ -738,6 +752,10 @@
            <title level="a">Deserted Totems of Alaska: Traditional Symbols of Tribal Power Yield to 
            the White Man's Progress</title>. <title level="m">New York Times</title>. 02 October 1927. 
            <title level="m">Proquest Historical Newspapers</title>. Web. 28 Oct. 2011.
+         </bibl>
+         <bibl xml:id="MexCS" n="Merrill">Merrill, Tim L. and Ramon Miro eds. 
+           <title level="m"><hi rend="italics">Mexico, A Country Study</hi></title>.
+           Library of Congress, n.d. Web. 8 Nov. 2011.
          </bibl>
          <bibl xml:id="Koppy" n="Koppy">Koppy, Ann. <title level="a">The Wreck of the 
            <hi rend="italics">Santa Clara</hi></title>. <title level="m">The Whole Shebang</title>.  
@@ -3296,17 +3314,17 @@
             <lb/>has a handsome brown suit. Things are 
             <lb/>getting quite interesting I can tell
             <lb/>you. Just between you <seg type="obliqueText" rendition="#ot1">and</seg> I <persName ref="#THM">"the man"</persName>
-            <lb/>has one bad feature. He takes a cocktail
+            <lb/>has one bad feature. He takes a <term ref="#Ckl">cocktail</term>
             <lb/>now <seg type="obliqueText" rendition="#ot1">and</seg> then. No one here seems to
             <lb/>mind it <seg type="obliqueText" rendition="#ot1">and</seg> of course I have said
             <lb/>nothing. He seems nice other ways <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>every one speaks well of him. He has
             <lb/>a good position <seg type="obliqueText" rendition="#ot1">and</seg> makes in the
-            <lb/>vicinity of $50 a week. Well all's
+            <lb/>vicinity of <term ref="#money">$50</term> a week. Well all's
             <lb/>well that <choice><sic>end's</sic><corr>ends</corr></choice> well. $50 a week
             <lb/><seg type="obliqueText" rendition="#ot1">and</seg> all I would not marry him.
             <lb/>Of course he belongs to the <rs>club</rs> here <seg type="obliqueText" rendition="#ot1">and</seg>
-            <lb/>the club's favorite drink is cocktail. I've 
+            <lb/>the club's favorite drink is <term ref="Ckl">cocktail</term>. I've 
             <lb/>noticed the odor about <choice><sic>everytime</sic><corr>every time</corr></choice> I've 
             <lb/>seen him.
           </p>
@@ -3315,7 +3333,7 @@
             <pb facs="/7/7f432e2c-dc9e-4588-872c-228dd260a737"/>
             <lb/>information today. I went to the
             <lb/><rs>hairdressers</rs> to have a shampoo.
-            <lb/>On account of the amount of alkali
+            <lb/>On account of the amount of <term ref="#alk">alkali</term>
             <lb/>in the water people <choice><sic>can not</sic><corr>cannot</corr></choice> wash
             <lb/>their hair with it themselves. <persName ref="#AMM">Adelaide</persName>
             <lb/>and I made arrangements to go together
@@ -3349,7 +3367,7 @@
             <lb/>imminent if <persName ref="#PrD">Dias</persName> dies. The Vice
             <lb/><persName ref="#VPR"><roleName><abbr>Pres.</abbr><expan>President</expan></roleName>Reyes</persName> wants to be <abbr>Pres.</abbr><expan>President</expan> and 
             <lb/><rs>the people</rs> hate him terribly. They
-            <lb/>have to have <rs>Rurales</rs> <choice><sic>every where</sic><corr>everywhere</corr></choice> to
+            <lb/>have to have <rs ref="#Rur">Rurales</rs> <choice><sic>every where</sic><corr>everywhere</corr></choice> to
             <lb/>keep them quiet now even. He
             <lb/>simply will not hear of my going
             <lb/>before they meet. He said that he
