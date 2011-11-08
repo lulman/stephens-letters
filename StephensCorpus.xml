@@ -202,7 +202,7 @@
             <desc>In her letter dated July 10, 1909, Gladys Stephens describes the Forestry Building at the 1909 Seattle World's Fair.</desc>
           </place>
           <place type="hotel" xml:id="Tourist" source="#TGN">
-            <placeName> Tourist Hotel </placeName>
+            <placeName>Tourist Hotel</placeName>
             <location> <address>           
             <addrLine>1009, 1011, 1010 Pacific Ave.</addrLine>            
             <addrLine>Tacoma, WA</addrLine>
