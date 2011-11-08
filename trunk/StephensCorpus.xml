@@ -1080,12 +1080,12 @@
           <person xml:id="MsM"><persName>J.J. McIntyre's father</persName></person>
           <person xml:id="MrM"><persName>J.J. McIntyre's mother</persName></person>
           <person xml:id="MrJ">
-            <persName>Mr. Jones</persName>
+            <persName>Jones, Mr.</persName>
             <note type="biographical">JJM's letter on 8-13-1909 mentions Mr. Jones as an acquaintance of Gladys's from 
-            back home. JJM passes on an ambiguous message about a picture to Gladys from Mr. Jones.</note>
+            back home.</note>
           </person>
           <person xml:id="UnE">
-            <persName>Uncle E</persName>
+            <persName>E, Uncle</persName>
           </person>
           <person xml:id="THM">
             <persName>"the man"</persName>
@@ -1134,12 +1134,9 @@
             <note>In her letter to her mother on October 5, 1909, Gladys mentions that she has written to Pauline but still needs to mail the letter.</note>
           </person>
           <person xml:id="MrH">
-            <persName>Mr. Holland</persName>
-            <note>JJM's letter to GMS on 8-13-1909 repeatedly mentions Mr. Holland as someone who 
-            served as a kind of guide to Gladys while she was in Portland. JJM was apparently very unhappy with 
-            Holland for taking Gladys to someplace where she encountered "that class" of people, and where 
-            she did not enjoy herself.
-            </note>
+            <persName>Holland, Mr.</persName>
+            <note type="biographical">JJM's letter to GMS on 8-13-1909 repeatedly mentions Mr. Holland as someone who 
+            served as a kind of guide to Gladys while she was in Portland.</note>
           </person>
           <person xml:id="PrD">
             <persName>Diaz, Jose de la Cruz Porfirio</persName>
