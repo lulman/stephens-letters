@@ -1103,7 +1103,7 @@
               <placeName source="#Census1910CA">Canada</placeName>
             </birth>
             <residence when="1910" source="#Census1910CA">Sherborn, Middlesex, Massachusetts</residence>
-          <note>Cora writes to Mrs. A.T. Stephens, her aunt, on August 19, 1909, to tell her about the birth of her son. She also inquires about Gladys Stephens' travels.</note>
+          <note type="biographical">Cora writes to Mrs. A.T. Stephens, her aunt, on August 19, 1909, to tell her about the birth of her son. She also inquires about Gladys Stephens' travels.</note>
           </person>
           <person xml:id="WDA">
             <persName source="#Census1910WDA">Anderson, Willis D.</persName>
@@ -1112,7 +1112,7 @@
               <placeName source="#Census1910WDA">Canada</placeName>
             </birth>
             <residence when="1910" source="#Census1910WDA">Sherborn, Middlesex, Massachusetts</residence>
-            <note>Willis Anderson is Cora Anderson's husband. He's mentioned in her letter to Mrs. A. T. Stephens on August 19, 1909.</note>
+            <note type="biographical">Willis Anderson is Cora Anderson's husband. He's mentioned in her letter to Mrs. A. T. Stephens on August 19, 1909.</note>
           </person>
           <person xml:id="WGA">
             <persName source="#MABirthsWGA">Anderson, Willis Goodwin</persName>
@@ -1120,18 +1120,18 @@
                 <date when="1909-08-04" source="#MABirthsWGA">Aug. 4</date>
                 <placeName source="#MABirthsWGA">Sherborn</placeName>
               </birth>
-            <note>Willis Goodwin Anderson is Cora Anderson's son, both in August of 1909. Cora writes to Mrs. A. T. Stephens on August 19, 1909 to tell her about Willis' birth, although his name is not mentioned in the letter..</note>
+            <note type="biographical">Willis Goodwin Anderson is Cora Anderson's son, both in August of 1909. Cora writes to Mrs. A. T. Stephens on August 19, 1909 to tell her about Willis' birth, although his name is not mentioned in the letter..</note>
           </person>
           <person xml:id="GA">
             <persName source="#Census1910WDA">Anderson, Gladys</persName>
             <birth>
               <date when="1903" source="#Census1910WDA">1903</date>
             </birth>
-            <note>Gladys Anderson is Cora Anderson's daughter. She's mentioned in Cora's letter to Mrs. A. T. Stephens on August 19, 1909.</note>
+            <note type="biographical">Gladys Anderson is Cora Anderson's daughter. She's mentioned in Cora's letter to Mrs. A. T. Stephens on August 19, 1909.</note>
           </person>
           <person xml:id="Pauline">
             <persName>Pauline</persName>
-            <note>In her letter to her mother on October 5, 1909, Gladys mentions that she has written to Pauline but still needs to mail the letter.</note>
+            <note type="biographical">In her letter to her mother on October 5, 1909, Gladys mentions that she has written to Pauline but still needs to mail the letter.</note>
           </person>
           <person xml:id="MrH">
             <persName>Holland, Mr.</persName>
@@ -2858,7 +2858,7 @@
             <address>
             <persName ref="#JMS">Mrs. A. T. Stephens </persName>
             <addrLine>26 Emerson St. </addrLine>
-            <addrLine>Newton </addrLine>
+            <addrLine><placeName ref="#Newton">Newton </placeName></addrLine>
             <addrLine>Mass. </addrLine>
             </address>
           </ab>
@@ -2887,7 +2887,7 @@
             <lb/>minds and hands for the last
             <lb/>few weeks that we have left 
             <lb/>almost everyone else out. 
-            <lb/>We have <rs ref="WGA">a nice baby boy</rs>. A 
+            <lb/>We have <rs ref="#WGA">a nice baby boy</rs>. A 
             <lb/>good big baby, not a little 
             <lb/>teeny weeny. You know I 
             <lb/>wished for a small baby, but 
@@ -3432,7 +3432,7 @@
           <pb facs="/0/03089ec3-d8d7-4b39-8e25-9fd16419aecc"/>
           <ab type="postalAddress">
             <address>
-              <persName ref="#MATS">Mrs. A. J. Stephens </persName>
+              <persName ref="#JMS">Mrs. A. J. Stephens </persName>
               <addrLine> 26 Emerson street </addrLine>
               <addrLine> <placeName ref="#Newton">Newton </placeName></addrLine>
               <addrLine> Massachusetts </addrLine>
@@ -3454,7 +3454,7 @@
           <pb facs="/e/e040faea-be8c-4fb6-bcc3-eb4132850b07"/>
           <opener>
             <lb/><dateline> <address><addrLine>609 N. El Paso St.</addrLine> </address> </dateline> 
-            <lb/><salute><rs ref="#MATS">Mother dear, </rs></salute>
+            <lb/><salute><rs ref="#JMS">Mother dear, </rs></salute>
           </opener>
           <p> <lb/>Have just  
             <lb/>returned from a 
