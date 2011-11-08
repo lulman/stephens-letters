@@ -2255,7 +2255,6 @@
         </div>
         <div type="letter" xml:id="GS19090906let1" corresp="GS19090906env01">
           <pb facs="/b/baae0bd3-70e4-4091-bccf-407097bd5f8c"/>
-          <lb/>
           <opener>
             <handShift new="#GMSHand"/>
             <lb/><salute><persName ref="#MATS"><addName type="endearment">Mother dear</addName></persName></salute>
@@ -2269,7 +2268,7 @@
             <lb/>came. I declare
             <lb/>if I don't get
             <lb/>one tomorrow I
-          <pb facs="/d/d91c6f4c-014a-4aeb-a8a4-f69981ad88ca"/>
+            <pb facs="/3/3d8386d6-f77c-49d2-906c-be5fde450e0d"/>
             <lb/>will send a
             <lb/>telegram to
             <lb/>to <persName ref="#BS">Berenice Smith.</persName> 
@@ -2281,8 +2280,8 @@
           <p>
             <lb/>My Alaska
             <lb/>ring came here
-          <pb facs="/3/3d8386d6-f77c-49d2-906c-be5fde450e0d"/>
-            <lb/>the <date when="1909-08-23">23 of Aug.</date>. I
+            <pb facs="/d/d91c6f4c-014a-4aeb-a8a4-f69981ad88ca"/>
+            <lb/>the <date when="1909-08-23">23 of Aug.</date> I
             <lb/>got it this morning. It is
             <lb/>a beauty.
           </p>
