@@ -582,6 +582,14 @@
             <term>Rurales</term>
             <gloss></gloss>
           </item>
+          <item xml:id="Ckl">
+            <term>cocktail</term>
+            <gloss>In her September 22, 1909 letter to her mother, Gladys complains about "the man" 
+              smelling of cocktail. Though Gladys uses the term "cocktail" as a particular drink, by
+            1909 the term "cocktail" referred to a variety of drinks made from bitters and brandy, 
+            gin, or whiskey.</gloss>
+            <bibl><ref target="#Thomas">Bon Vivant's Companion</ref></bibl>
+          </item>
         </list>
         
         <list>
@@ -645,6 +653,9 @@
           <bibl xml:id="OEDalkali" n="alkali">
             <title level="a">alkali</title><title level="m">The Oxford English Dictionary Online</title> OED. 
             September 2011. Web. 1 Nov. 11
+          </bibl>
+          <bibl xml:id="Thomas" n="Thomas">Thomas, Jerry. <title level="m">The Bon Vivant's Companion, or How to Mix Drinks</title>.
+            Ed. Herbert Asbury. 2nd ed. New York: Knopf, 1928. Print.
           </bibl>
           <bibl xml:id="BUYB1907" n="Boston1907">
             <title level="m">Boston University Year Book</title>. Ed. The University Council. Series
