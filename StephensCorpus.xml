@@ -2238,7 +2238,7 @@
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
             <address>
-          <addrLine><persName ref="ATS">Mrs. A.T. Stevens</persName></addrLine>
+          <addrLine><persName ref="#ATS">Mrs. A.T. Stevens</persName></addrLine>
           <addrLine>26 Emerson street</addrLine>
           <addrLine><placeName ref="#Newton">Newton</placeName></addrLine>
           <addrLine>Massachusetts</addrLine>  
@@ -2272,7 +2272,7 @@
           <pb facs="/d/d91c6f4c-014a-4aeb-a8a4-f69981ad88ca"/>
             <lb/>will send a
             <lb/>telegram to
-            <lb/>to <persName ref="BS">Berenice Smith.</persName> 
+            <lb/>to <persName ref="#BS">Berenice Smith.</persName> 
             <lb/>It is pretty warm
             <lb/>here now, yet
             <lb/>there was a big
@@ -4650,7 +4650,7 @@
           <ab type="postalAddress">
             <handShift new="#JJM"/>
             <address>
-            <addrLine><persName ref="GMS">Miss Gladys M. Stephens</persName></addrLine>
+            <addrLine><persName ref="#GMS">Miss Gladys M. Stephens</persName></addrLine>
             <addrLine># 126 Leon St</addrLine>
             <addrLine><placeName ref="#ElPaso">El Paso</placeName></addrLine>
             <addrLine>Texas</addrLine>
@@ -4679,7 +4679,7 @@
             <lb/>1009-1011-1013 PACIFIC AVE. / TEL. MAIN 349 <lb/>Elegantly Furnished / Suites
             <lb/>RATES, 50 CENTS TO $1.50 / PER DAY <lb/>Tourist Hotel <lb/> D.P. Foley. Proprietor
             and Manager <lb/> FIRST-CLASS RESTAURANT AND / BARBER SHOP IN CONNECTION
-            <lb/><placeName ref="#Tacoma">Tacoma, Wash.,</placeName>,_______190___ </head>
+            <lb/><placeName ref="#Tacoma">Tacoma, Wash.,</placeName>_______190___ </head>
           <opener>
             <handShift new="#JJM"/>
             <lb/><dateline><date when="1909-10-11">10/11 9</date></dateline>
