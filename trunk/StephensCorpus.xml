@@ -3173,7 +3173,7 @@
           <pb facs="/1/12faecb4-fadc-4231-ba1e-a5395fc13502"/> 
           <p>
             <lb/> You asked me if I knew the story 
-            <lb/> of the red rose <said><q>"remember how dense
+            <lb/> of the red rose <ptr type="noteAnchor" target="RedR"/><note resp="ed" xml:id="RedR">Text goes here</note><said><q>"remember how dense
               <lb/> at times"</q></said> but I can tell you the future
             <lb/> of one little rose if you wish
             <lb/> be <choice><sic>shore</sic><corr>sure</corr></choice> and tell me of your trip
