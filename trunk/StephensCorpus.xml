@@ -574,35 +574,6 @@
               of the master. The number of mates depended on the size of the ship's company</gloss>
             <bibl><ref target="#Falconers">Falconer's</ref></bibl>
           </item>
-          <item xml:id="alk">
-            <term>alkali</term>
-            <gloss>A substance having the characteristics exemplified by soda, i.e. a caustic or 
-              acrid taste, the power of neutralizing or effervecing with acids, and of forming soaps
-              with oils.</gloss>
-            <bibl><ref target="#OEDalkali">OED "alkali"</ref></bibl>
-          </item>
-          <item xml:id="Rur">
-            <term>Rurales</term>
-            <gloss>Rurales were the rural militia and government forces drawn from farmers. In the 
-            latter years of President Diaz's presidency, he used the Rurales to censor the press and 
-            enforce his dominance through rural areas of Mexico.</gloss>
-            <bibl><ref target="#MexCS">Mexico, A Country Study</ref></bibl>
-          </item>
-          <item xml:id="Ckl">
-            <term>cocktail</term>
-            <gloss>In her September 22, 1909 letter to her mother, Gladys complains about "the man" 
-              smelling of cocktail. Though Gladys uses the term "cocktail" as a particular drink, by
-            1909 the term "cocktail" referred to a variety of drinks made from bitters and brandy, 
-            gin, or whiskey.</gloss>
-            <bibl><ref target="#PJThomas">Bon Vivant's Companion</ref></bibl>
-          </item>
-          <item xml:id="money">
-            <term>$50</term>
-            <gloss>According to the U.S. Bureau of Labor, $50 in 1913 is roughly equivalent to $1,101.29 
-              in 2010. In Gladys's Sept. 22, 1909 letter to her mother she mentions that Adelaide's fiance 
-              ("the man") who makes approximately $50 per week.</gloss>
-            <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>
-          </item>
         </list>
         
         <list>
@@ -3317,17 +3288,21 @@
             <lb/>has a handsome brown suit. Things are 
             <lb/>getting quite interesting I can tell
             <lb/>you. Just between you <seg type="obliqueText" rendition="#ot1">and</seg> I <persName ref="#THM">"the man"</persName>
-            <lb/>has one bad feature. He takes a <term ref="#Ckl">cocktail</term>
+            <lb/>has one bad feature. He takes a cocktail<ptr type="NoteAnchor" target="Cocktail"/><note resp="ed" xml:id="Cocktail">In her September 22, 1909 letter to her mother, Gladys complains about "the man" 
+              smelling of cocktail. Though Gladys uses the term "cocktail" as a particular drink, by
+              1909 the term "cocktail" referred to a variety of drinks made from bitters and brandy, 
+              gin, or whiskey.<bibl><ref target="#PJThomas">Bon Vivant's Companion</ref></bibl></note>
             <lb/>now <seg type="obliqueText" rendition="#ot1">and</seg> then. No one here seems to
             <lb/>mind it <seg type="obliqueText" rendition="#ot1">and</seg> of course I have said
             <lb/>nothing. He seems nice other ways <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>every one speaks well of him. He has
             <lb/>a good position <seg type="obliqueText" rendition="#ot1">and</seg> makes in the
-            <lb/>vicinity of <term ref="#money">$50</term> a week. Well all's
+            <lb/>vicinity of $50<ptr type="noteAnchor" target="#money"/><note resp="ed" xml:id="money">According to the U.S. Bureau of Labor, $50 in 1913 is roughly equivalent to $1,101.29 
+              in 2010.<bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl></note> a week. Well all's
             <lb/>well that <choice><sic>end's</sic><corr>ends</corr></choice> well. $50 a week
             <lb/><seg type="obliqueText" rendition="#ot1">and</seg> all I would not marry him.
             <lb/>Of course he belongs to the <rs>club</rs> here <seg type="obliqueText" rendition="#ot1">and</seg>
-            <lb/>the club's favorite drink is <term ref="Ckl">cocktail</term>. I've 
+            <lb/>the club's favorite drink is cocktail. I've 
             <lb/>noticed the odor about <choice><sic>everytime</sic><corr>every time</corr></choice> I've 
             <lb/>seen him.
           </p>
@@ -3336,7 +3311,9 @@
             <pb facs="/7/7f432e2c-dc9e-4588-872c-228dd260a737"/>
             <lb/>information today. I went to the
             <lb/><rs>hairdressers</rs> to have a shampoo.
-            <lb/>On account of the amount of <term ref="#alk">alkali</term>
+            <lb/>On account of the amount of alkali<ptr type="NoteAnchor" target="#alkali"/><note resp="ed" xml:id="alkali">A substance having the characteristics exemplified by soda, i.e. a caustic or 
+              acrid taste, the power of neutralizing or effervecing with acids, and of forming soaps
+              with oils.<bibl><ref target="#OEDalkali">OED "alkali"</ref></bibl></note>
             <lb/>in the water people <choice><sic>can not</sic><corr>cannot</corr></choice> wash
             <lb/>their hair with it themselves. <persName ref="#AMM">Adelaide</persName>
             <lb/>and I made arrangements to go together
@@ -3370,7 +3347,9 @@
             <lb/>imminent if <persName ref="#PrD">Dias</persName> dies. The Vice
             <lb/><persName ref="#VPR"><roleName><abbr>Pres.</abbr><expan>President</expan></roleName>Reyes</persName> wants to be <abbr>Pres.</abbr><expan>President</expan> and 
             <lb/><rs>the people</rs> hate him terribly. They
-            <lb/>have to have <rs ref="#Rur">Rurales</rs> <choice><sic>every where</sic><corr>everywhere</corr></choice> to
+            <lb/>have to have Rurales<ptr type="noteAnchor" target="#Rurales"/><note resp="ed" xml:id="Rurales">Rurales were the rural militia and government forces drawn from farmers. In the 
+              latter years of President Diaz's presidency, he used the Rurales to censor the press and 
+              enforce his dominance through rural areas of Mexico.<bibl><ref target="#MexCS">Mexico, A Country Study</ref></bibl></note> <choice><sic>every where</sic><corr>everywhere</corr></choice> to
             <lb/>keep them quiet now even. He
             <lb/>simply will not hear of my going
             <lb/>before they meet. He said that he
