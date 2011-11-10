@@ -225,6 +225,15 @@
               <geo>42.3500 -71.0500</geo>
             </location>
           </place>
+          <place type="city" xml:id="SantaCruz" source="TGN">
+            <placeName>Santa Cruz</placeName>
+            <desc>Gladys Stevens uses stationary from the Office of the Treasurer of Santa Cruz County, California for her letter dated Sept. 22, 1909.</desc>
+            <country>United States</country>
+            <region type="state">California</region>
+            <location>
+              <geo>36.978504 -122.0925021</geo>
+            </location>
+          </place>
           <place type="nation" xml:id="Japan" source ="#TGN">
             <placeName>Japan</placeName>
             <desc>JJM mentions Japan to Gladys on Sept 13 1909.</desc>
@@ -1471,7 +1480,7 @@
           <p>Publication Information</p>
         </publicationStmt>
         <sourceDesc>
-          <msDesc>
+          <msDesc corresp="#GS19092209le">
             <msIdentifier>
               <country>USA</country>
               <settlement>Columbus, OH</settlement>
@@ -3230,11 +3239,11 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="RMW_GMS2AJS_1909-09-24">
+  <TEI xml:id="RMW_GMS2AJS_1909-09-22">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>Gladys M. Stephens to Mrs. A. T. Stephens, 22 July 1909</title>
+          <title>[Gladys M. Stephens to Mrs. A. T. Stephens, 22 September 1909]</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
@@ -3251,7 +3260,20 @@
             </msIdentifier>
             <msContents>
               <p>
-                This letter details Gladys's evaluation of Adelaide's wedding purchases and fiance, as well as Gladys's experience with head lice, which she picked up in Mexico. Gladys also explains to her mother that she is staying in Mexico longer than she originally planned so she can see the President before he dies. She briefly explains the political tension in Mexico between Vice-President Reyes and the general populace.
+                Writing from El Paso, Gladys evaluates Adelaide's wedding purchases 
+                and fiance, as well as Gladys's experience with head lice, which she 
+                picked up in Mexico. Gladys also explains to her mother that she is 
+                staying in El Paso longer than she originally planned so she can 
+                witness the Taft-Diaz meeting on October 16th, 1909. She briefly 
+                explains the political tension in Mexico between President Diaz, 
+                Vice-President Reyes, and the general populace. Though Gladys is 
+                definitely writing from El Paso, her exact location within the city 
+                is unknown. Her letter is on stationary from the Office of the Treasurer
+                in Santa Cruz, California, but the postmark indicates she mailed the 
+                letter from El Paso. In her letter, she mentions how her Uncle wants
+                her to extend her stay in El Paso, which suggests she might be staying
+                with him, but then she discusses her extensive time spent with Adelaide,
+                which suggests she is staying with her. 
               </p>
             </msContents>
             <physDesc>
@@ -3271,16 +3293,40 @@
                 
                 You can use more than one paragraph (tagged <p> </p>).
               -->
-              <p>  </p>
+              <p> ALS. Two loose sheets of cream-colored Office of the Treasurer, Santa Cruz County, California
+                 letterhead stationary measuring 8.56 x 11 inches. The front of each sheet of letterhead contains
+                 a 2.125 x 2 inch black and white image of a building in the upper left corner of the page and 
+                 an image of flowers with a scroll bearing the words "SANTA CRUZ COUNTY, CALIFORNIA," along with
+                 a medallion emblazoned with the words "Office of Treasurer." The combined image of the scroll, 
+                 flowers, and medallion measures 2.125 x 4.25 inches. Underneath the image is text that reads 
+                 "W.H. BIAS Treasurer" and "R.W. BIAS Deputy Treas.," followed by a line for the date partially
+                 pre-printed as "________ / 1___." The edges of the paper are cleanly cut, though there is some
+                 reddish-brown residue at the top of each sheet, which is possibly from an adhesive. The paper has 
+                 light blue lines that extend to the ends of the sheet on the right and left sides and which are 
+                 0.375 inches apart. On the front of each sheet there are 21 lines, the first one starting 3.063 inches
+                 from the top of the sheet and the last one 0.1875 inches from the bottom of the sheet. On the 
+                 back of the sheet the lines begin 1.125 inches from the top of the sheet and continue until 0.1875 inches
+                 from the bottom. The lines are identical on the first and second sheets. Both sheets were placed 
+                 together and then folded into thirds to fit into the envelope. The paper is thin, but not overly
+                 fragile. There is a watermark in the lower half of each sheet that reads "AGAWAM BOND." When viewing 
+                 the front of the sheet, the watermark is upside down and backwards.</p>
               <accMat corresp="#GS19090706env">
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
                   describe the envelope and enclosure as above, and include an @corresp attribute whose value
-                  is the xml:id of the <div> in the text corresponding to the envelope. -->  
+                  is the xml:id of the <div> in the text corresponding to the envelope. --> Accompanied
+                  by a stamped, cancelled, dark cream-colored envelope made from heavy paper and measuring
+                  5.875 x 3.5 inches.There is a printed black and white image measuring 2.75 x 1.875 inches 
+                  of a log raft on the Columbia River. The text corrosponding with the image reads "LOG RAFT 
+                  COLUMBIA RIVER 8 MILLION FT." The stamp is a red 2 cent Washington stamp and the postmark is
+                  from El Paso, Texas. The envelope is addressed in a neat cursive script to "Mrs. A. T. Stephens, 
+                  26 Emerson Street, Newton, Massachusets." There is an additional endorsement on the envelop in a different
+                  hand than the written address of a circled 10, then a 9/25. The 25 is also circled. The envelope
+                  is cleanly slit along the right edge.
               </accMat>
             </physDesc>
             <additional>
               <adminInfo>
-                <note><!-- Box and folder number from the finding aid (e.g., Box 3, folder 16). --></note>
+                <note>Box 3, Folder 16<!-- Box and folder number from the finding aid (e.g., Box 3, folder 16). --></note>
               </adminInfo>
             </additional>
           </msDesc>
@@ -3289,13 +3335,40 @@
     </teiHeader>
     <text>
       <body>
-        <div type="letter">
+        <div type="envelope" xml:id="GS19090924env01" corresp="#GS19090922let01">
+          <pb facs="/3/3f65827d-8dd2-413c-8a9a-511881f4df0e"/>
+          <ab type="postalAddress">
+            <handShift new="#GMSHand"/>
+            <persName>Mrs. A. T. Stephens</persName>
+            <address>
+              <addrLine>26 Emerson street</addrLine>
+              <addrLine>Newton</addrLine>
+              <addrLine>Massachusetts</addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+            <handShift new="Unkown"/> 10 9/25<ptr type="noteAnchor" target="MysteriousEndorsements"/>
+            <note resp="ed" xml:id="MysteriousEndorsements">Similar numbers are penciled on several envelopes in the connection.</note>
+          </ab>
+          <ab>
+            <stamp type="postmark">El Paso, Texas | Sept. 24 | 7:30 AM | 1909 </stamp>
+            <stamp type="cancellation">[seven wavy lines]</stamp>
+          </ab>
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic 
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/3/3f65827d-8dd2-413c-8a9a-511881f4df0e.jpg?scale=0.4&amp;rgn=0,0,4000,4000&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE | TWO CENTS [profile of Washington; perforated along the top and sides Design A139] </figDesc>
+          </figure>
+        </div>
+        <div type="letter" xml:id="GS19090922let01" corresp="#GS19090924env01">
           <pb facs="/5/525b5c97-d537-482f-9392-0577b377cc5e"/>
-          <head type="letterhead"></head>
+          <head type="letterhead">
+            <lb/><placeName ref="#SantaCruz">Santa Cruz, Cal.</placeName>,_______1___</head>
           <opener>
             <handShift new="#GMSHand"/>
             <dateline><date when="1909-09-22">9/22 9</date></dateline>
-            <lb/><salute><persName ref="#JMS">Mother</persName>dear,</salute>
+            <lb/><salute><persName ref="#MATS">Mother</persName>dear,</salute>
           </opener>
           <p>
             <lb/><persName ref="#AMM">Adelaide</persName> is getting some lovely
