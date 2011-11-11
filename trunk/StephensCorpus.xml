@@ -215,7 +215,7 @@
             </location>
               </place>
             
-          <place type="city" xml:id="Boston" source="TGN">
+          <place type="city" xml:id="Boston" source="#TGN">
             <placeName>Boston</placeName>
             <desc>Gladys Stephens mentions a correspondence occurring in Boston in her Sept. 27, 1909 lettter to
             Mrs. A.T. Stephens.  She also mentions making Boston Baked Beans in the same lettter.</desc>
@@ -225,7 +225,7 @@
               <geo>42.3500 -71.0500</geo>
             </location>
           </place>
-          <place type="city" xml:id="SantaCruz" source="TGN">
+          <place type="city" xml:id="SantaCruz" source="#TGN">
             <placeName>Santa Cruz</placeName>
             <desc>Gladys Stevens uses stationary from the Office of the Treasurer of Santa Cruz County, California for her letter dated Sept. 22, 1909.</desc>
             <country>United States</country>
@@ -337,7 +337,7 @@
               <geo>55.5500 -133.0833</geo>
             </location>
           </place>
-          <place type="village" xml:id="Tuxekan" source="TGN">
+          <place type="village" xml:id="Tuxekan" source="#TGN">
             <placeName>Tuxekan</placeName>
             <desc>John J. Macintyre writes to Gladys about the totems of Tuxekan, a Tlingit village.</desc>
             <country>USA</country>
@@ -644,11 +644,11 @@
             formatting (e.g., titles). -->
 
           <bibl xml:id="OEDalkali" n="alkali">
-            <title level="a">alkali</title><title level="m">The Oxford English Dictionary Online</title> OED. 
+            <title level="a">alkali.</title> <title level="m">The Oxford English Dictionary Online</title> OED. 
             September 2011. Web. 1 Nov. 2011
           </bibl>
           <bibl xml:id="USLab" n="CPI">
-            <title level="a">CPI Inflation Calculator</title><title level="m">United States Department of Labor</title>.
+            <title level="a">CPI Inflation Calculator.</title> <title level="m">United States Department of Labor</title>.
             n.d. Web. 8 Nov. 2011
           </bibl>
           <bibl xml:id="PJThomas" n="Thomas">Thomas, Jerry. <title level="m"><hi rend="italics">The Bon Vivant's Companion, or How to Mix Drinks</hi></title>.
@@ -662,7 +662,7 @@
             <title level="m">Boston University Year Book</title>. Ed. The University Council. Series
             4 Vol. 36. Boston, MA: University Offices, 1909. Print.
           </bibl>
-          <bibl xml:id="MEA" n="Marine">S.S. Northwestern.<title level="m">Marine Exchange of
+          <bibl xml:id="MEA" n="Marine">S.S. Northwestern. <title level="m">Marine Exchange of
             Alaska</title>. N.p., n.d. Web. 24 Sept. 2011.</bibl>
           <bibl xml:id="Burwell" n="Burwell">Burwell, Michael. <title level="a">The SS <name
             type="ship">Northwestern</name>: The Final Return of 'The Ship that Always Came
@@ -730,7 +730,7 @@
          </bibl>
          <bibl xml:id="NYT2" n="Deserted">
            <title level="a">Deserted Totems of Alaska: Traditional Symbols of Tribal Power Yield to 
-           the White Man's Progress</title>. <title level="m">New York Times</title>. 02 October 1927. 
+           the White Man's Progress.</title> <title level="m">New York Times</title>. 02 October 1927. 
            <title level="m">Proquest Historical Newspapers</title>. Web. 28 Oct. 2011.
          </bibl>
          <bibl xml:id="MexCS" n="Merrill">Merrill, Tim L. and Ramon Miro eds. 
@@ -738,7 +738,7 @@
            Library of Congress, n.d. Web. 8 Nov. 2011.
          </bibl>
          <bibl xml:id="Koppy" n="Koppy">Koppy, Ann. <title level="a">The Wreck of the 
-           <hi rend="italics">Santa Clara</hi></title>. <title level="m">The Whole Shebang</title>.  
+           <hi rend="italics">Santa Clara.</hi></title> <title level="m">The Whole Shebang</title>.  
            The Whole Shebang Mag., n.d. Web. 22 Oct. 2011.
          </bibl>
          <bibl xml:id="GBC" n="GeoBC">
@@ -748,7 +748,7 @@
            <title level="m">TheShipsList</title>. n.d. Web. 28 Oct. 2011.
          </bibl>
          <bibl xml:id="VI" n="Visitor">
-           <title level="a">Visitor Information</title>. <title level="m">City of Klawock</title>. 
+           <title level="a">Visitor Information.</title> <title level="m">City of Klawock</title>. 
            Klawock, n. d. Web. 28 Oct. 2011.
          </bibl>
           <bibl xml:id="threeWeeks" n="Glyn">
@@ -769,9 +769,9 @@
             Zwiefelhofer, David B. <title level="m">Find Latitude and Longitude</title>. 2011. Web.
             31 Oct. 2011.
           </bibl>
-          <bibl xml:id="RS" n="Shannon">Shannon, Robin.  <title level="m">Seattle's Historic Hotels</title>. 2010. <title>Google Books</title>.
+          <bibl xml:id="RS" n="Shannon">Shannon, Robin. <title level="m">Seattle's Historic Hotels</title>. 2010. <title>Google Books</title>.
           Web. 23 October 2011.</bibl>
-          <bibl xml:id="THC" n="THC"> <title level="a">The Holy City</title><note>J.J.McIntyre mentions that he is reading this work in his
+          <bibl xml:id="THC" n="THC"> <title level="a">The Holy City.</title> <note>J.J.McIntyre mentions that he is reading this work in his
           8/23/1909 letter to Gladys Stephens. Although definite bibliographical information is not available for this title, J.J.McIntyre may
           be referring to a fiction piece known as <title level="m">The Holy Land,</title> which was published in 1909. (The Library of Congress)</note></bibl>
           <bibl xml:id="SR19091001" n="Henry">
@@ -780,13 +780,13 @@
             of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
           <bibl xml:id="SS19090923" n="Two">
-            <title level="a">Two Girls Burned and Crushed Beyond Human Resemblance</title>. <title level="j">
-              The Seattle Star</title> 23 September 1909: n.p. <title level="m">Chronicling America (The Library 
+            <title level="a">Two Girls Burned and Crushed Beyond Human Resemblance.</title> <title level="j">
+              The Seattle Star</title> 23 September 1909: n.pag. <title level="m">Chronicling America (The Library 
               of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
           <bibl xml:id="LE19091001" n="News">
-            <title level="a">News of Pacific Northwest</title>. <title level="j">The Leavenworth Echo</title> 
-            01 October 1909: n.p. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 
+            <title level="a">News of Pacific Northwest.</title> <title level="j">The Leavenworth Echo</title> 
+            01 October 1909: n.pag. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 
             01 Nov. 2011.
           </bibl>
           <bibl xml:id="Locomotive" n="March">
@@ -794,11 +794,11 @@
             <title level="m">Google Books</title>. Web. 01 Nov. 2011.
           </bibl>
           <bibl xml:id="TexasHist" n="Taft">
-            <title level="a">Taft-Diaz Meeting</title>. <title level="m">Texas State Historical Association</title>
+            <title level="a">Taft-Diaz Meeting.</title> <title level="m">Texas State Historical Association</title>
             n.d. Web. 03 NOv. 2011.
           </bibl>
           <bibl xml:id="Childbirth" n="Employment">
-            <title level="a">Employment of Women After Childbirth</title>. <title level="j">
+            <title level="a">Employment of Women After Childbirth.</title> <title level="j">
               The British Medical Journal</title> 24 October 1908: 1297. Web. 10 Nov. 2011.
           </bibl>
         </listBibl>
