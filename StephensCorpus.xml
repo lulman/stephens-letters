@@ -4319,7 +4319,7 @@
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>James J. Macintyre to Gladys M. Stephens, 04 October 1909</title>
+          <title>[James J. Macintyre to Gladys M. Stephens, 04 October 1909]</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
@@ -4336,9 +4336,9 @@
             </msIdentifier>
             <msContents>
               <p>
-                Ship schedule and route for the S.S. Northwestern; spending time with the Purser's 
-                sister; pictures received from Gladys; specifications of the Northwestern compared 
-                to the Santa Clara; auto accidents.
+                Macintyre relates the ship schedule and route for the S.S. Northwestern and spending time with the Purser's 
+                sister in the Ketchikan area. He discusses pictures received from Gladys, and details specifications of the Northwestern compared 
+                to the Santa Clara. Macintyre recounts two auto accidents in the Seattle area and reflects on their meaning for him.
               </p>
             </msContents>
             <physDesc>
@@ -4360,7 +4360,7 @@
                 "Mills" measures roughly 3 inches by 1 inch.
               </p>
               <accMat corresp="#JJM19091005env01">  
-                Accompanied by a cream colored envelope measuring 5.4375 inches by 3.125 inches, 
+                Envelope. Accompanied by a cream colored envelope measuring 5.4375 inches by 3.125 inches, 
                 postmarked for Seattle, Wash. on Oct 5, 1909. The postmarked time of day is only 
                 partially legible. The cancellation reads "World's | Fair | Seattle | 1909" in a 
                 sected compartment. A comma-like marking in a circle is inscribed in pencil on the 
@@ -4393,7 +4393,12 @@
             <stamp type="postmark"> <placeName ref="#Seattle">SEATTLE, WASH.</placeName> / 
               <date when="1909-10-05">OCT 5 / <time>2 - 
               <gap reason="invisible" unit="characters" quantity="1"/>M</time> / 1909</date> </stamp>
-              </ab>
+          </ab>
+          <ab>
+            <stamp type="cancellation">
+              World's / Fair / <placeName ref="#Seattle">Seattle</placeName> / <date when="1909">1909</date>
+            </stamp>
+          </ab>
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
@@ -4416,7 +4421,7 @@
           </head>
           <opener>
             <handShift new="#JJMHand"/>
-            <dateline><date when="1909-10-04">10/4 1909 
+            <lb/><dateline><date when="1909-10-04">10/4 1909 
             </date><lb/><time when="05:00:00">5 A.M. </time></dateline>
             <lb/><salute>Dear <persName ref="#GMS"><addName type="endearment">Girl</addName></persName></salute>
           </opener>
@@ -4673,12 +4678,10 @@
               <addName type="endearment">honey</addName></persName> 
           </p>
           <closer>
-            <lb/><salute>"<gap reason="illegible" unit="characters" quantity="2"/>if" a 
-              <add place="above" rend="down arrow"><seg type="obliqueText" rendition="#ot1">
-                B<unclear cert="medium">i</unclear>g</seg></add> heaps</salute>
+            <lb/><salute><distinct type="babyTalk">"Wif" a <add place="above" rend="down arrow">
+              <seg type="obliqueText" rendition="#ot1">Big</seg></add> heaps</distinct></salute> 
             <lb/><date when="1909-10-04">10/4/09</date>
-            <lb/><signed rendition="#ot1"><persName ref="#JJM">JJ<hi rend="underlined">M
-              <unclear cert="medium">c</unclear></hi></persName></signed>
+            <lb/><signed rendition="#ot1"><persName ref="#JJM">JJ<hi rend="underlined">Mc</hi></persName></signed>
           </closer>
         </div>
       </body>
