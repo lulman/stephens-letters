@@ -306,6 +306,11 @@
          <xsl:apply-templates/>
       </cite>
    </xsl:template>
+   <xsl:template match="tei:title[@level='j']">
+      <cite>
+         <xsl:apply-templates/>
+      </cite>
+   </xsl:template>
    <xsl:template match="tei:listPlace">
       <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
