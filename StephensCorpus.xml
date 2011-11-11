@@ -1385,8 +1385,8 @@
             <note type="biographical">Trey Conatser is a doctoral student specializing in British 
             Romantic literature in the Department of English at The Ohio State University. His 
             research interests include the poetry and poetics of the Romantic period, the Romantic 
-            response to the French Revolution, women's writing of the Romantic period, and Romantic 
-            long poems by women. Additionally, Trey is interested in digital humanities and editorial 
+            response to the French Revolution, and women's writing of the Romantic period. Additionally, 
+            Trey is interested in digital humanities and editorial 
             and archival work, especially with regard to access, architecture, canonicty, and periodicity. 
             Trey's scholarly writing has been published in <title level="j">New Media &amp; Society</title> 
             and <title level="j">The CEA Critic</title>, and his poetry and other writing has appeared in 
@@ -4428,7 +4428,7 @@
           <p>
             <lb/>well <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
             I will be In <placeName ref="#Seattle">Seattle</placeName> <date when="1909-10-04">tonight</date> about 
-            <lb/><time when="23:32:00">11<hi rend="superscripted and underlined">32</hi></time> I 
+            <lb/><time when="23:32:00">11<hi rend="superscripted"><hi rend="underlined">32</hi></hi></time> I 
             <distinct type="babyTalk">fink</distinct><unclear cert="medium">!</unclear> 
             That's bad for I cannot get my mail 
             <lb/><choice><sic>untill</sic><corr>until</corr></choice><date when="1909-10-05">tomorrow</date>,  
@@ -4489,7 +4489,7 @@
             we arrived at <placeName ref="#Klawock">Klawock</placeName> at <time>
               9<hi rend="superscripted and underlined"><del rend="overwritten">38</del>28</hi>
             </time>-<date when="1909-09-29">9<del rend="overwritten">-</del>/29</date>
-            &#x2014;and left <time when="12:30:00">12<hi rend="superscripted and underlined">30</hi>
+            &#x2014;and left <time when="12:30:00">12<hi rend="superscripted"><hi rend="underlined">30</hi></hi>
             </time>-<date when="1909-09-20">9-30</date> 
             <lb/>and I expected to be there at least 24 hours and the <placeName ref="#Tuxekan">Indian 
             <lb/>Village</placeName> is <choice><sic>acrost</sic><corr>across</corr>
@@ -4508,13 +4508,7 @@
             in <placeName ref="#Ketchikan">Ketchikan</placeName> about 2 hours coming 
             <lb/>home the <rs ref="#IP"><choice><sic>Pursers</sic><corr>Purser's</corr>
             </choice> Sister</rs> and I went up to the 
-            <lb/><geogFeat>falls</geogFeat> the lower ones<ptr type="noteAnchor" target="JJM19091004note3"/>
-            <note resp="ed" xml:id="JJM19091004note3">
-              It's unclear which waterfall Macintyre references here, as the two hour window that 
-              he indicates would not give him and Irene Palmer time to hike to and back from any of the 
-              major, named waterfalls in the Ketchikan area, assuming that he and Palmer hiked from 
-              the location of the current city of Ketchikan.
-            </note> <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
+            <lb/><geogFeat>falls</geogFeat> the lower ones <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             not way up <del rend="strikethrough">the</del> where 
             <lb/>we went She got Some Pictures<unclear cert="medium">!</unclear> 
             It was a fine day <seg type="obliqueText" rendition="#ot1">and</seg>  
@@ -4558,7 +4552,7 @@
             <persName ref="#GMS"><addName type="endearment">dear</addName></persName> did you know that you 
             <lb/><choice><sic>was</sic><corr>were</corr></choice> <distinct type="dialect">agetting</distinct> 
             a <choice><sic>lttle</sic><corr>little</corr></choice> kiss every night about 
-            <time when="21:30:00">9<hi rend="spercripted and underlined">30</hi></time> well you 
+            <time when="21:30:00">9<hi rend="spercripted"><hi rend="underlined">30</hi></hi></time> well you 
             <lb/>are&#x2014;See how I take advantage of you when you are not here 
             <lb/>take notice tonight <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             at that time and see if you Can Catch me 
