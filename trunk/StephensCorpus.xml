@@ -636,8 +636,7 @@
         </listOrg>
         
         <listBibl>
-          <head>Works Cited</head>
-          <!-- Lewis Ulman's works cited entries begin here. -->
+          <head></head>
           
           <!-- Though TEI provides for more fine-grained encoding, we will enter bibliography items
             as we would expect them to be displayed, ecept for noting text that requires special
@@ -704,6 +703,10 @@
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
             Web. 27 Oct. 2011.
           </bibl>
+          <bibl xml:id="Dance" n="Dance">
+            <title level="a">Encouraging Male Participation in Dance</title> <title>
+              Journal of Physical Education, Recreation, and Dance</title> Web. 12 Nov. 2011.
+            </bibl>
           <bibl xml:id="MABirthsWGA" n="Massachusetts">
             <title level="a">Massachusetts Births, 1841-1915 for Willis Goodwin Anderson.</title> <title
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
@@ -1452,7 +1455,7 @@
           <!-- Lewis Ulman's list of terms begins here. -->
           <term>Alaska-Yukon-Pacific Exposition (1909: Seattle, Wash.)</term>
         </keywords>
-        
+   
       </textClass>
       
     </profileDesc>
@@ -3114,7 +3117,14 @@
             <lb/> fellow when going out with the boys
             <pb facs="/8/8a7be673-5199-4b09-b859-d29600b98d7e"/>
             <!-- Note that the paragraph continues on the following page. -->
-            <lb/> as it were or to a party or dance
+            <lb/> as it were or to a party or dance <ptr type="noteAnchor" target="Dance"/><note resp="ed" xml:id="DA">
+              Since the French Revolution in the 1700's, men who participated in dance through theatre were considered effiminate.
+              Though JJM is referring to dance as a social practice with his friends, we can see how the dominant culture found dancing
+              in general as a gender specific female acivity. When men participated, it was alongside women through ballroom dancing. We 
+              do not know if he only attended these gathering with his male friends or if women would join their group, but in the following 
+              lines of JJM's letter, he mentions that his mother would have long talks with him about being a "better boy". He seems to be 
+              referring to the idea that he would get into trouble after coming home from a party or dance. 
+              <bibl><ref target="#Dance">Encouraging Male Participation in Dance </ref></bibl></note>
             <lb/> how well do I remember in late years
             <lb/> how she has talked to me by the hour
             <lb/> to be a better boy one for a mother
