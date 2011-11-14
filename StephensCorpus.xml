@@ -703,14 +703,17 @@
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
             Web. 27 Oct. 2011.
           </bibl>
-          <bibl xml:id="Dance" n="Dance">
+          <bibl xml:id="Dance" n="Dancing">
             <title level="a">Encouraging Male Participation in Dance</title> <title>
-              Journal of Physical Education, Recreation, and Dance</title> Web. 12 Nov. 2011.
+              Journal of Physical Education, Recreation, and Dance</title>. Web. 12 Nov. 2011.
             </bibl>
           <bibl xml:id="MABirthsWGA" n="Massachusetts">
             <title level="a">Massachusetts Births, 1841-1915 for Willis Goodwin Anderson.</title> <title
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
             Web. 27 Oct. 2011.
+          </bibl>
+          <bibl xml:id="MarineWatch" n="MaWatch">
+            <title level="m">Nautical Dictionary</title> <title level="m">Google Books</title> Web. 13 Nov. 2011.
           </bibl>
          <bibl xml:id="Census1920HEP" n="United States 1920 Herbert">
             <title level="a">United States Census 1920, for Herbert E. Palmer.</title> <title 
@@ -3035,6 +3038,11 @@
           <p>
             <lb/> As I am now standing my last
             <lb/> watch before arriving at <placeName ref="#Juneau">Juneau</placeName>
+            <ptr type="noteAnchor" target="Watch"/><note resp="ed" xml:id="Watch">
+                Typically a Marine watch is divided into two parts: a afternoon watch (noon-4:00pm)and a late 
+                evening watch (8:00pm-12:00am). Given that at the end of his letter JJM writes that he will 
+                bid Gladys <q>"goodnight"</q> and then immediately switches to <q>"or rather good morning"</q> he was likely on duty
+                for the latter assignment at the time this letter was written. <bibl><ref target="#MarineWatch">Nautical Dictionary</ref></bibl></note> 
             <lb/> and I am still a wondering
             <lb/> and lonesome as usual I thought
             <lb/> I would write a friend
@@ -3117,14 +3125,14 @@
             <lb/> fellow when going out with the boys
             <pb facs="/8/8a7be673-5199-4b09-b859-d29600b98d7e"/>
             <!-- Note that the paragraph continues on the following page. -->
-            <lb/> as it were or to a party or dance <ptr type="noteAnchor" target="Dance"/><note resp="ed" xml:id="DA">
-              Since the French Revolution in the 1700's, men who participated in dance through theatre were considered effiminate.
+            <lb/> as it were or to a party or dance <ptr type="noteAnchor" target="DA"/><note resp="ed" xml:id="DA">
+              Since the French Revolution in the 1700's, male theatre dancers were considered effiminate.
               Though JJM is referring to dance as a social practice with his friends, we can see how the dominant culture would have found dancing
               in general as a gender specific female acivity. When men participated, it was alongside women through ballroom dancing. We 
               do not know if he only attended these gatherings with his male friends or if women would join their group, but in the following 
-              lines of JJM's letter, he mentions that his mother would have long talks with him about being a "better boy". He seems to be 
+              lines of JJM's letter, he mentions that his mother would have long talks with him about being a <q>"better boy"</q>. He seems to be 
               referring to the idea that he would get into trouble after coming home from a party or dance. 
-              <bibl><ref target="#Dance">Encouraging Male Participation in Dance </ref></bibl></note>
+              <bibl><ref target="#Dance">Encouraging Male Participation in Dance</ref></bibl></note>
             <lb/> how well do I remember in late years
             <lb/> how she has talked to me by the hour
             <lb/> to be a better boy one for a mother
@@ -3241,7 +3249,7 @@
           </p>
           <p>
             <lb/> now I will bid you Goodnight
-            <lb/> or rather good morning
+            <lb/> or rather good morning 
           </p>
           <closer>
             <lb/><salute> With heaps of <hi rend="underlined">love</hi></salute>
