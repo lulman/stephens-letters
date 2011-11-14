@@ -807,6 +807,10 @@
             <title level="a">Employment of Women After Childbirth.</title> <title level="j">
               The British Medical Journal</title> 24 October 1908: 1297. Web. 10 Nov. 2011.
           </bibl>
+          <bibl xml:id="SR1909" n="Employment">
+            Olian, JoAnne, ed. <title level="m">Everyday Fashions, 1909-1920: As Pictured in Sears Catalogs</title> 
+            Mineola, NY: Dover Publications, 1995. <title level="m">Google Books</title>. Web. 14 Nov. 2011.
+          </bibl>
         </listBibl>
         
         <listEvent>
@@ -3598,8 +3602,9 @@
             <lb/>shopping. Her 
             <lb/>evening hat will  
             <lb/>cost $52.95. <ptr type="noteAnchor" target="#hat"/><note resp="ed" xml:id="hat">According to the U.S. Bureau of Labor, $52.95 in 1913 is roughly equivalent to $1,213.51 
-              in 2011. This is a sizable sum considering that, as mentioned in Gladys' letter on September 24, 
-              Adelaide's fiance made $50 a week. <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl></note>How's that?
+              in 2011 <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>. This is a sizable sum considering that, as mentioned in Gladys' September 24 letter, 
+              Adelaide's fiance made $50 a week. By comparison, hats advertised in a 1909 Sears Roebuck catalog ranged in price
+              from $2.38 to $13.50<bibl><ref target="SR1909">Olian 1</ref></bibl>.</note>How's that?
             <lb/>Everything else 
             <lb/>accordingly.
           </p>
