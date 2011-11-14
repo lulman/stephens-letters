@@ -1096,9 +1096,6 @@
             <note type="biographical">JJM's letter on 8-13-1909 mentions Mr. Jones as an acquaintance of Gladys's from 
             back home.</note>
           </person>
-          <person xml:id="UnE">
-            <persName>E, Uncle</persName>
-          </person>
           <person xml:id="THM">
             <persName>"the man"</persName>
             <note type="biographical">Adelaide's fiance. Gladys never refers to 
@@ -2600,11 +2597,11 @@
                 
                 You can use more than one paragraph (tagged <p> </p>).
               -->
-              <p>  </p>
+              <p>ALS. Four loose sheets of unlined, cream-colored paper measuring 10.25 x 6.4375 inches. 
+                Each sheet has been folded in half, but not gathered, to create two leaves, each measuring 5.125 inches wide.
+              </p>
               <accMat corresp="#JM19090814env01">
-                <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
-                  describe the envelope and enclosure as above, and include an @corresp attribute whose value
-                  is the xml:id of the <div> in the text corresponding to the envelope. -->  
+                Accompanied by a stamped, cancelled, cream-colored envelope measuring 5.25 x 3.75 inches.
               </accMat>
             </physDesc>
             <additional>
@@ -2710,7 +2707,10 @@
             <lb/><date when="1909-08-16">Monday #16</date> And he Said If he got
             <lb/>Any <del rend="overstrike">more</del> news from <name type="ship" ref="#SantaClara">Santa Clara</name>
             <lb/>he would hold me over untill <del rend="overstrike">She</del> he
-            <lb/>Sails and that means <unclear reason="illegible" cert="high">$</unclear>1200 per year
+            <lb/>Sails and that means <unclear reason="illegible" cert="high">$</unclear>
+            1200 per year<ptr type="noteAnchor" target="TPA"/>
+            <note resp="ed" xml:id="TPA">Adjusted for inflation, McIntyre's annual salary of $1200 in 1909 
+            would be approximately equal to $28,700 in 2010.</note>
             <lb/>&amp;expenses I didn't mind before
           </p>
           <p>
@@ -2783,7 +2783,7 @@
           <p>
             <lb/>well <persName ref="#GMS"><addName type="nickname">neddy</addName></persName> the lights will be
             <lb/>agoing out Soon as it is nearing 10 P.M.
-            <lb/>give my very best regards to <persName ref="#UnE">uncle E</persName>
+            <lb/>give my very best regards to <persName ref="#ACS"><addName type="nickname">Uncle A</addName></persName>
             <lb/>And Some to <persName ref="#MrH">Mr Holland</persName> and remember
             <lb/>I am anxiously awaiting a reply
             <pb facs="/7/7c5f0e65-7f34-49d5-859c-9d7f67dfa7e6
