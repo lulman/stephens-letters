@@ -2961,9 +2961,9 @@
             <lb/>we have had so much on our 
             <lb/>minds and hands for the last
             <lb/>few weeks that we have left 
-            <lb/>almost everyone else out. <ptr type="noteAnchor" target="BabyWillis"/><note resp="ed" xml:id="BabyWillis">
+            <lb/>almost everyone else out. <ptr type="noteAnchor" target="#BabyWillis"/><note resp="ed" xml:id="BabyWillis">
               According to Massachusetts birth records, Cora's son Willis Goodwin Anderson was born August 4, 1909, 
-              so at the time this letter was written, he was about two weeks old. <bibl><ref target="#MABirthsWGA">Massachusetts Births, 1841-1915</ref></bibl></note> 
+              so at the time this letter was written, he was about two weeks old. <bibl><ref target="#MABirthsWGA">Massachusetts Births</ref></bibl></note> 
             <lb/>We have <rs ref="#WGA">a nice baby boy</rs>. A 
             <lb/>good big baby, not a little 
             <lb/>teeny weeny. You know I 
@@ -2986,9 +2986,9 @@
             <lb/>often. Give my love to her when you see or write 
             <lb/>her and tell her about my baby boy. You must 
             <lb/>have missed her a very great deal. I hope you 
-            <lb/>are well. I am not able to do any house work yet. <ptr type="noteAnchor" target="Work"/><note resp="ed" xml:id="Work">
-              According to a 1908 study, the majority of women engaged in house work resumed work ten to fourteen days after childbirth,
-              so Cora is taking longer than the average amount of time to return to household duties. <bibl><ref target="#Childbirth">Employment of Women</ref></bibl></note>
+            <lb/>are well. I am not able to do any house work yet. <ptr type="noteAnchor" target="#Work"/><note resp="ed" xml:id="Work">
+              According to a 1908 study, the majority of women engaged in house work resumed work ten to fourteen days after childbirth.
+              <bibl><ref target="#Childbirth">Employment of Women</ref></bibl></note>
             <lb/>Must not write any more this time. With love 
             <lb/>I remain
           </p>
@@ -3647,10 +3647,11 @@
             <lb/>finely with her  
             <lb/>shopping. Her 
             <lb/>evening hat will  
-            <lb/>cost $52.95. <ptr type="noteAnchor" target="#hat"/><note resp="ed" xml:id="hat">According to the U.S. Bureau of Labor, $52.95 in 1913 is roughly equivalent to $1,213.51 
-              in 2011 <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>. This is a sizable sum considering that, as mentioned in Gladys' September 24 letter, 
-              Adelaide's fiance made $50 a week. By comparison, hats advertised in a 1909 Sears Roebuck catalog ranged in price
-              from $2.38 to $13.50<bibl><ref target="SR1909">Olian 1</ref></bibl>.</note>How's that?
+            <lb/>cost $52.95. <ptr type="noteAnchor" target="#hat"/><note resp="ed" xml:id="hat">According to the U.S. Bureau of Labor, $52.95 in 1913 
+              would be roughly equivalent to $1,213.51 in 2011 <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>. 
+              This is a sizable sum considering that, as mentioned in Gladys' September 24 letter, 
+              Adelaide's fiance made $50 a week. By comparison, hats advertised in a 1909 Sears Roebuck 
+              catalog ranged in price from $2.38 to $13.50<bibl><ref target="#SR1909">Olian 1</ref></bibl>.</note>How's that?
             <lb/>Everything else 
             <lb/>accordingly.
           </p>
