@@ -1390,6 +1390,18 @@
             <nationality>U.S.A</nationality>
             <note type="biographical">Biographical note about C. Marie Meza</note>
           </person>
+          <person xml:id="JLM">
+            <persName>Michaels, Jennifer L.</persName>
+            <birth when="1982">
+              <placeName>Honolulu, HI</placeName>
+            </birth>
+            <education>BA, University of Virginia (2004)</education>
+            <education>MFA, University of Michigan-Ann Arbor (2006)</education>
+            <education>MA, The Ohio State Unviersity (2011)</education>
+            <education>PhD, The Ohio State University (expected 2014)</education>
+            <occupation>Graduate Student</occupation>
+            <nationality>U.S.A.</nationality>
+          </person>
         <person xml:id="REC">
             <persName>Conatser, Robert Eugene</persName>
             <persName><addName type="nickname">Conatser, Trey</addName></persName>
