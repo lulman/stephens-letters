@@ -590,6 +590,10 @@
             <item xml:id="rolling">
               <gloss>The swaying or rocking of a vessel from side to side.</gloss>
               <bibl><ref target="#OED">Oxford English Dictionary</ref></bibl>
+              </item>
+             <item xml:id="running">
+               <gloss>The action of sailing before the wind.</gloss>
+               <bibl><ref target="#OED">Oxford English Dictionary</ref></bibl>
           </item>
         </list>
         
@@ -3864,8 +3868,8 @@
             <lb/>be through with this in the near
             <lb/>future hence them long 2 years if
             <lb/>you can call that near future.
-            <lb/>and again <rs ref="#Burns">Burns</rs> says a man's
-            <lb/>a man for all <unclear reason="illegible" cert="low">o</unclear> that <q>"and that"</q>!
+            <lb/>and again <rs ref="#Burns">Burns</rs> says <said direct="true">a man's
+              <lb/>a man for all <unclear reason="illegible" cert="low">o</unclear> that <q>"and that"</q></said>!
             <lb/>By the way how is <rs ref="#Scotchman">the Scotchman</rs>
             <lb/>getting along not <q><choice><sic>"brooke"</sic><corr>"broke"</corr></choice></q> I hope I
             <lb/>must laugh when I think of the
@@ -3897,7 +3901,7 @@
             <lb/>nice to be so selfish but it would
             <lb/>be <distinct type="babyTalk">ossle</distinct> nice to see you tonight or any
             <lb/>other time the sooner the quicker
-            <lb/>It is now 3 a.m. and still running
+            <lb/>It is now 3 a.m. and still <term ref="#running">running</term>
             <lb/>slow. I suppose you are having a nice
             <lb/>quiet sleep long <unclear reason="illegible" cert="medium">one this</unclear> I hope so
             <lb/>I also hope you are having a nice time
