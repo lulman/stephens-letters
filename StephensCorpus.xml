@@ -585,7 +585,11 @@
           </item>
           <item xml:id="revolutions">
             <gloss>Whenever the Commander-in-Chief of a ship desired to increase speed, the crew would cause
-              the engines of the vessel to increase their revolutions.</gloss>
+            the engines of the vessel to increase their revolutions.</gloss>
+            <bibl><ref target="#OED">Oxford English Dictionary</ref></bibl></item>
+            <item xml:id="rolling">
+              <gloss>The swaying or rocking of a vessel from side to side.</gloss>
+              <bibl><ref target="#OED">Oxford English Dictionary</ref></bibl>
           </item>
         </list>
         
@@ -3806,7 +3810,7 @@
             <lb/>a slow Bell is always a long one
             <lb/>for me. I was just <hi rend="underline">up stairs</hi>
             <lb/>and it is a nasty rainy night
-            <lb/>and the ship is <unclear reason="illegible" cert="medium">roaling</unclear> heavy. you
+            <lb/>and the ship is <choice><sic><unclear reason="illegible" cert="medium">roaling</unclear></sic><corr><term ref="#rolling">rolling</term></corr></choice> heavy. you
             <lb/>should ought to see my pose in writing this <subst><del rend="overtyped"><unclear reason="illegible" cert="high">a</unclear></del><add place="over">the</add></subst> Kangaroo is not in it.
             <pb facs="/e/e9269572-e28c-4911-8402-38b1ead57c8b"/>
             <lb/>I wonder how you would <choice><sic>fell</sic><corr>feel</corr></choice>
@@ -3818,7 +3822,7 @@
             <lb/>letters would be very nice to me but
             <lb/>nothing doing <choice><sic>untill</sic><corr>until</corr></choice> <placeName ref="#Seattle">Seattle</placeName> again!
             <lb/>I started to read a story last night
-            <lb/>called <bibl><ref target="#THC">the Holy City</ref></bibl> and It promises
+            <lb/>called <title ref="#THC" level="a">the Holy City</title> and It promises
             <lb/>to be good. A few lines which I gave
             <lb/>special attention to were these</p>
           <p><lb/><q>"what is Love"</q></p>
