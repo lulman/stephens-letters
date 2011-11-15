@@ -1099,11 +1099,24 @@
           <person><persName>Walt</persName></person>
           <person><persName>Rich. Mrs.</persName></person>
           <person><persName>the Dotens</persName></person> 
-          <person xml:id="LGS"><persName>little Gladys</persName></person>
+          <person xml:id="LGS"><persName>little Gladys</persName>
+          <note> Little Gladys appears to be a young girl on the S.S. Northwestern and of whom J.J.McIntyre seems to be fond. 
+            It is unclear whether her name is actually Gladys or if J.J. McIntyre refers to her in this way because the girl 
+            reminds him of his love interest, Gladys Stephens.</note>
+          </person>
           <person xml:id="Burns"><persName>Burns</persName></person>
-          <person xml:id="Scotchman"><persName>the Scotchman</persName></person>
-          <person xml:id="MsM"><persName>J.J. McIntyre's father</persName></person>
-          <person xml:id="MrM"><persName>J.J. McIntyre's mother</persName></person>
+          <person xml:id="Scotchman"><persName>the Scotchman</persName>
+          <note>The identity of the Scotchman is unknown. However, he may be Adelaide's fiance, as indicated by the evidence 
+          found in the correspondance between Gladys Stephens and J.J. McIntyre in the late summer and early autumn of 1909.</note>
+          </person>
+          <person xml:id="MsM"><persName>J.J. McIntyre's father</persName>
+          <note>In his 8/23/1909 letter to Gladys Stephens, J.J. McIntyre thanks Gladys for inquiring about his father and then 
+            notes that his father is doing well.</note>
+          </person>
+          <person xml:id="MrM"><persName>J.J. McIntyre's mother</persName>
+          <note>In his 8/23/1909 letter to Gladys Stephens, J.J. McIntyre expresses his eagerness to tell his mother about his 
+            relationship with Gladys.</note>
+          </person>
           <person xml:id="MrJ">
             <persName>Jones, Mr.</persName>
             <note type="biographical">JJM's letter on 8-13-1909 mentions Mr. Jones as an acquaintance of Gladys's from 
@@ -1365,8 +1378,6 @@
             <education>BA, The State University of New York at Stony Brook (2010)</education>
             <education>MA, The Ohio State University (2012 Expected)</education>
             <occupation>Graduate Teaching Assistant</occupation>
-            <nationality>U.S.A.</nationality> 
-            <note type="biographical">Biographical note about Victoria M. Munoz</note>
           </person>
           <person xml:id="CMM">
             <persName> Meza, C. Marie</persName>
