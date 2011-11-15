@@ -785,6 +785,10 @@
             Republican</title> 01 October 1909: 2. <title level="m">Chronicling America (The Library 
             of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
+          <bibl xml:id="MHP" n="Maritime">
+            Maritime Heritage Program, National Park Service. <title level="a">Lightships of the U.S.</title>.
+            <title level="m">Lighthouse Heritage</title>. National Park Service, 18 Apr. 2002. Web. 10 Nov. 2011.
+          </bibl>
           <bibl xml:id="SS19090923" n="Two">
             <title level="a">Two Girls Burned and Crushed Beyond Human Resemblance.</title> <title level="j">
               The Seattle Star</title> 23 September 1909: n.pag. <title level="m">Chronicling America (The Library 
@@ -2807,8 +2811,14 @@
             <lb/><salute>I Remain as Ever Yours in big 
               <!-- Oxygen won't let me use q tags for a quotation inside of a salutation -->
               <lb/>"Heaps"</salute><signed><persName ref="#JJM">J McIntyre</persName></signed>
-            <!-- annotate "lightboat" -->
-            <lb/>&amp; lightboat
+            <lb/>&amp; lightboat<ptr type="noteAnchor" target="LB"/>
+            <note resp="ed" xml:id="LB">"Lightboat" commonly refers to "lightship," a term used to describe 
+            the ships used by the federal government in tandem with lighthouses to help keep American coasts safe. 
+            According to the National Park Service, <q>In all, 179 lightships were built between 1820 and the 1952 
+              and in 1909, the heyday of the United States Lighthouse Service, there were 51 lightships 
+              (46 on the eastern seaboard and five on the Pacific Coast) on station in the United States.</q> 
+              <bibl><ref target="#MHP">Maritime Heritage Program</ref></bibl>
+            McIntyre apparently worked on one of the five lightships stationed on the Pacific coast.</note>
             <lb/>"Note Date"
             <lb/><dateline><date when="1909-08-13">Friday 13th / 09</date></dateline>
           </closer>
