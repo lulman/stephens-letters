@@ -148,7 +148,7 @@
           <place type="city" xml:id="Seattle" source="#TGN">
             <placeName>Seattle</placeName>
             <desc>Gladys Stephens attends the 1909 Seattle World's Fair and 
-              John J. Macintyre is in Seattle in early October 1909.</desc>
+              James J. McIntyre is in Seattle in early October 1909.</desc>
             <country>United States</country>
             <region type="state">Washington</region>
             <region type="county">King</region>
@@ -203,7 +203,7 @@
           </place>
           <place type="hotel" xml:id="Tourist" source="#TGN">
             <placeName>Tourist Hotel</placeName>
-            <desc>JJM stayed at the Tourist Hotel on Oct. 11 1909. According to the stationary it was run 
+            <desc>James J. McIntyre stayed at the Tourist Hotel on Oct. 11 1909. According to the stationary it was run 
               by D.P. Foley</desc>
             <country>United States</country>
             <region type="state">Washington</region>
@@ -236,7 +236,7 @@
           </place>
           <place type="nation" xml:id="Japan" source ="#TGN">
             <placeName>Japan</placeName>
-            <desc>JJM mentions Japan to Gladys on Sept 13 1909.</desc>
+            <desc>James J. McIntyre mentions Japan to Gladys on Sept 13 1909.</desc>
             <country>Japan</country>
             <location>
              <geo>36.0000 138.0000</geo> 
@@ -259,7 +259,7 @@
           </place>
           <place type="nation" xml:id="China" source="#TGN">
             <placeName>China</placeName>
-            <desc>JJM mentions this to Gladys in a letter on Sept. 13 1909.</desc>
+            <desc>James J. McIntyre mentions this to Gladys in a letter on Sept. 13 1909.</desc>
             <country>China</country>
             <location>
               <geo>
@@ -269,7 +269,7 @@
           </place>
           <place type="city" xml:id="Manila">
             <placeName>Manila</placeName>
-            <desc>JJM mentions this to Gladys Stephens in a letter on Sept. 13 1909</desc>
+            <desc>James J. McIntyre mentions this to Gladys Stephens in a letter on Sept. 13 1909</desc>
             <country>Philippines</country>
             <location>
               <geo>
@@ -280,7 +280,7 @@
           <place type="city" xml:id="Portland" source="#TGN">
             <placeName>Portland</placeName>
             <desc>Gladys Stephens mentions as a site of a known house to Mrs. A.T. Stephens on Sept. 27, 1909. 
-              JJM also talks about it as one of Gladys's destinations in his letter to her on 8-13-1909.</desc>
+              James J. McIntyre also talks about it as one of Gladys's destinations in his letter to her on 8-13-1909.</desc>
             <country>United States</country>
             <region type="state">Maine</region>
             <location>
@@ -339,7 +339,7 @@
           </place>
           <place type="village" xml:id="Tuxekan" source="#TGN">
             <placeName>Tuxekan</placeName>
-            <desc>John J. Macintyre writes to Gladys about the totems of Tuxekan, a Tlingit village.</desc>
+            <desc>James J. McIntyre writes to Gladys about the totems of Tuxekan, a Tlingit village.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <region type="county">Prince of Wales-Outer Ketchikan</region>
@@ -350,7 +350,7 @@
           </place>
           <place type="city" xml:id="Ketchikan" source="#TGN">
             <placeName>Ketchikan</placeName>
-            <desc>John J. Macintyre stops briefly in Ketchikan and spends some time with Irene Palmer.</desc>
+            <desc>James J. McIntyre stops briefly in Ketchikan and spends some time with Irene Palmer.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <region type="county">Ketchikan Gateway</region>
@@ -360,7 +360,7 @@
           </place>
           <place type="neighborhood" xml:id="Georgetown" source="#TGN">
             <placeName>Georgetown</placeName>
-            <desc>John J. Macintyre recounts an accident involving an 
+            <desc>James J. McIntyre recounts an accident involving an 
             automobile coming from Georgetown.</desc>
             <country>USA</country>
             <region type="state">Washington</region>
@@ -372,7 +372,7 @@
           </place>
           <place type="fairgrounds" xml:id="AYPE">
             <placeName>Alaska-Yukon Pacific Exposition</placeName>
-            <desc>In his letter of 04 October 1909, John J. McIntyre recounts an accident 
+            <desc>In his letter of 04 October 1909, James J. McIntyre recounts an accident 
             involving an electric street car derailing at the entrance to the Alaska-Yukon 
             Pacific Exposition, which later became the campus for the University of Washington.</desc>
             <country>USA</country>
@@ -415,7 +415,7 @@
           </place>
           <place type="state" xml:id="Montana">
             <placeName>Montana</placeName>
-          <desc>JJM mentions some passengers are from here.</desc>
+          <desc>James J. McIntyre mentions some passengers are from here.</desc>
           <country>USA</country>
             <location>
               <geo>47.0000 -110.0000</geo>
@@ -433,7 +433,7 @@
           </place>
           <place type="city" xml:id="SanFrancisco" source="#TGN">
             <placeName>San Francisco</placeName>
-            <desc>John J. Macintyre addresses his 8-13-1909 letter to Gladys Stephens in San Francisco, 
+            <desc>James J. McIntyre addresses his 8-13-1909 letter to Gladys Stephens in San Francisco, 
               and the letter mentions it as the next location on her trip.</desc>
             <country>United States</country>
             <region type="state">California</region>
@@ -454,7 +454,7 @@
           </place>
             <place type="city" xml:id="Valdez" source="#TGN">
             <placeName>Valdez</placeName>
-            <desc>J.J. Macintyre mentions that he will travel to Valdez in his 8-23-1909 letter to Gladys Stephens.</desc>
+            <desc>James J. McIntyre mentions that he will travel to Valdez in his 8-23-1909 letter to Gladys Stephens.</desc>
               <country>United States</country>
               <region type="state">Alaska</region>
               <location>
@@ -463,7 +463,7 @@
             </place>
           <place type="cape" xml:id="CapeSt.Elias" source="#TGN">
             <placeName>Cape St. Elias</placeName>
-            <desc>In his 8-23-1909 letter to Gladys Stephens, J.J. Macintyre mentions that he and his crew are looking for Cape St. Elias.</desc>
+            <desc>In his 8-23-1909 letter to Gladys Stephens, James J. McIntyre mentions that he and his crew are looking for Cape St. Elias.</desc>
             <country>United States</country>
             <region type="state">Alaska</region>
             <location>
@@ -473,7 +473,7 @@
           
           <place type="city" xml:id="Juneau" source="#TGN">
             <placeName>Juneau</placeName>
-            <desc>In his 8-23-1909 letter to Gladys Stephens, J.J. Macintyre mentions that he will shortly be arriving in Juneau.</desc>
+            <desc>In his 8-23-1909 letter to Gladys Stephens, James J. McIntyre mentions that he will shortly be arriving in Juneau.</desc>
             <country>United States</country>
             <region type="state">Alaska</region>
             <location>
@@ -482,7 +482,7 @@
        
           <place type="bay" xml:id="Taku" source="#TGN">
             <geogName>Taku</geogName>
-            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
             <country>United States</country>
             <region type="state">Alaska</region>
             <location>
@@ -492,7 +492,7 @@
        
           <place type="city" xml:id="Skagway" source="#TGN">
             <geogName>Skagway</geogName>
-            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
             <country>United States</country>
             <region type="state">Alaska</region>
             <location>
@@ -501,7 +501,7 @@
           </place>
           <place type="bay" xml:id="Chilkoot" source="#TGN">
             <geogName>Chilkoot</geogName>
-            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
             <country>United States</country>
             <region type="state">Alaska</region>
             <location>
@@ -510,7 +510,7 @@
           </place>
           <place type="creek" xml:id="Gypsum" source="#TGN">
             <geogName>Gypsum</geogName>
-            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
             <country>United States</country>
             <region type="state">Alaska</region>
             <location>
@@ -520,7 +520,7 @@
    
           <place type="city" xml:id="Tacoma" source="#TGN">
             <geogName>Tacoma</geogName>
-            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
             <country>United States</country>
             <region type="state">Alaska</region>
             <!-- Tacoma, Alaska? not Washington? -->
@@ -530,7 +530,7 @@
           </place>
           <place type="city" xml:id="Sitka" source="#TGN">
             <geogName>Sitka</geogName>
-            <desc>In his letter of 13 September 1909, JJM refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
             <country>United States</country>
             <region type="state">Alaska</region>
             <location>
@@ -626,7 +626,7 @@
             <orgName>Alaska Steamship Company</orgName>
             <state type="company">
               <desc>
-                John J. Macintyre sails on and uses stationery from the S.S. Northwestern, which was 
+                James J. McIntyre sails on and uses stationery from the S.S. Northwestern, which was 
                 acquired by the Alaska Steamship Company when it merged with the Northwest (Northern) 
                 Steamship Company in 1909. Based in Seattle, the Alaska Steamship Company was founded 
                 in 1895 and disbanded in 1971.
@@ -1100,26 +1100,26 @@
           <person><persName>Rich. Mrs.</persName></person>
           <person><persName>the Dotens</persName></person> 
           <person xml:id="LGS"><persName>little Gladys</persName>
-          <note> Little Gladys appears to be a young girl on the S.S. Northwestern and of whom J.J.McIntyre seems to be fond. 
-            It is unclear whether her name is actually Gladys or if J.J. McIntyre refers to her in this way because the girl 
+            <note> Little Gladys appears to be a young girl on the S.S. Northwestern and of whom James J. McIntyre seems to be fond. 
+              It is unclear whether her name is actually Gladys or if James J. McIntyre refers to her in this way because the girl 
             reminds him of his love interest, Gladys Stephens.</note>
           </person>
           <person xml:id="Burns"><persName>Burns</persName></person>
           <person xml:id="Scotchman"><persName>the Scotchman</persName>
           <note>The identity of the Scotchman is unknown. However, he may be Adelaide's fiance, as indicated by the evidence 
-          found in the correspondance between Gladys Stephens and J.J. McIntyre in the late summer and early autumn of 1909.</note>
+          found in the correspondance between Gladys Stephens and James J. McIntyre in the late summer and early autumn of 1909.</note>
           </person>
           <person xml:id="MsM"><persName>J.J. McIntyre's father</persName>
-          <note>In his 8/23/1909 letter to Gladys Stephens, J.J. McIntyre thanks Gladys for inquiring about his father and then 
+          <note>In his 8/23/1909 letter to Gladys Stephens, James J. McIntyre thanks Gladys for inquiring about his father and then 
             notes that his father is doing well.</note>
           </person>
           <person xml:id="MrM"><persName>J.J. McIntyre's mother</persName>
-          <note>In his 8/23/1909 letter to Gladys Stephens, J.J. McIntyre expresses his eagerness to tell his mother about his 
+          <note>In his 8/23/1909 letter to Gladys Stephens, James J. McIntyre expresses his eagerness to tell his mother about his 
             relationship with Gladys.</note>
           </person>
           <person xml:id="MrJ">
             <persName>Jones, Mr.</persName>
-            <note type="biographical">JJM's letter on 8-13-1909 mentions Mr. Jones as an acquaintance of Gladys's from 
+            <note type="biographical">James J. McIntyre's letter on 8-13-1909 mentions Mr. Jones as an acquaintance of Gladys's from 
             back home.</note>
           </person>
           <person xml:id="THM">
@@ -1199,7 +1199,7 @@
             </birth>
             <residence when="1910" source="#Census1910IP">Tacoma, WA</residence>
             <note type="biographical">
-              In his letter to Gladys Stephens of 4 October 1909, John J. Macintyre identifies 
+              In his letter to Gladys Stephens of 4 October 1909, James J. McIntyre identifies 
               Irene Palmer as the sister of the Purser on the S.S. Northwestern, and indicates 
               that she is 17 years old at the time of the letter. The 1900 U.S. Census records 
               that an Irene Palmer was born in September 1892 in Anderson Island, Washington, 
@@ -1225,9 +1225,9 @@
             <residence when="1920" source="#Census1920HEP">Pierce County, WA</residence>
             <residence when="1930" source="#Census1930HEP">Richmond, NY</residence>
             <note type="biographical">
-              In his letter to Gladys Stephens of 4 October 1909, John J. Macintyre speaks of spending 
+              In his letter to Gladys Stephens of 4 October 1909, James J. McIntyre speaks of spending 
               time with the S.S. Northwestern's purser's sister, whom he identifies as Irene Palmer. 
-              Though Macintyre never mentions the purser by name, the 1900 U.S. Census shows that Irene 
+              Though McIntyre never mentions the purser by name, the 1900 U.S. Census shows that Irene 
               Palmer lived with two older brothers: Gilbert S. and Herbert E. Palmer. The 1910 Census 
               indicates that Gilbert S. Palmer was still a member of the family household, while Herbert 
               E. Palmer is not listed, suggesting that the purser of whom Macintyre speaks is Herbert E. 
@@ -1257,7 +1257,7 @@
             <note type="biographical">
               After a night of drinking, Henry Hiser crashed an automobile carrying approximately seven 
               passengers and fled the scene <bibl><ref target="#SS19090923">"Two Girls Burned and Crushed 
-              Beyond HUman Resemblance"</ref></bibl>. John J. Macintyre refers to this accident in his letter 
+              Beyond Human Resemblance"</ref></bibl>. James J. McIntyre refers to this accident in his letter 
               to Gladys M. Stephens of 04 October 1909, and insists that he has moved on from such a lifestyle.
             </note>
           </person>
@@ -4382,7 +4382,7 @@
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>[James J. Macintyre to Gladys M. Stephens, 04 October 1909]</title>
+          <title>[James J. McIntyre to Gladys M. Stephens, 04 October 1909]</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
@@ -4399,9 +4399,9 @@
             </msIdentifier>
             <msContents>
               <p>
-                Macintyre relates the ship schedule and route for the S.S. Northwestern and spending time with the Purser's 
+                McIntyre relates the ship schedule and route for the S.S. Northwestern and spending time with the Purser's 
                 sister in the Ketchikan area. He discusses pictures received from Gladys, and details specifications of the Northwestern compared 
-                to the Santa Clara. Macintyre recounts two auto accidents in the Seattle area and reflects on their meaning for him.
+                to the Santa Clara. McIntyre recounts two auto accidents in the Seattle area and reflects on their meaning for him.
               </p>
             </msContents>
             <physDesc>
@@ -4521,9 +4521,9 @@
               Additionally, this kind of engineer is an interloper of sorts, frequently moving from job to job. 
               In <title level="j">The Engineers' Review</title> volume 16 (1905), I. C. Lloyd defends the tramp 
               engineer as competent compared to the the traditional worker allied to one or two jobs, even 
-              though the tramp engineer also "won't work in a place long enough to get married to the job. 
-              They like new scenes and experiences and won't take back talk from anybody" <bibl>
-              <ref target="#ICL">Lloyd</ref> 18</bibl>. It's unclear if Macintyre is stating that he has 
+              though the tramp engineer also <quote>won't work in a place long enough to get married to the job. 
+              They like new scenes and experiences and won't take back talk from anybody</quote> <bibl>
+              <ref target="#ICL">Lloyd</ref> 18</bibl>. It's unclear if McIntyre is stating that he has 
               worked with literally the same person on five different ships, but the historical context 
               suggests that he is stating that the tramp engineers with whom he has worked all have exhibited 
               similar personalities and professional habits.
@@ -4536,11 +4536,11 @@
             <lb/>the way it is <placeName ref="#Klawock">Klaw-wock</placeName>) and no Totem 
             <ptr type="noteAnchor" target="JJM19091004note1"/><note resp="ed" xml:id="JJM19091004note1">
               <placeName ref="#Tuxekan">Tuxekan</placeName> was renowned for its totem poles, and Klawock 
-              created a Totem Park to display authentic and replica totem poles, which Macintyre seems to 
+              created a Totem Park to display authentic and replica totem poles, which McIntyre seems to 
               anticipate here <bibl><ref target="#VI">"Visitor Information"</ref></bibl>. The preservation 
               effort doesn't seem to be isolated, as a 1927 <title level="j">New York Times</title> 
-              article laments the Alaskan Indians' "scant regard for the ritual of the old tradition" of 
-              totem-making and relates the need for "funds for the preservation of these monuments" 
+              article laments the Alaskan Indians' <quote>scant regard for the ritual of the old tradition</quote> of 
+              totem-making and relates the need for <quote>funds for the preservation of these monuments</quote> 
               <bibl><ref target="#NYT2">"Deserted Totems of Alaska"</ref></bibl>. <figure rend="link">
                 <head>Totems at old Tuxekan</head>
                 <graphic url="http://vilda.alaska.edu/cdm4/item_viewer.php?CISOROOT=/cdmg21&amp;CISOPTR=9786&amp;REC=1"></graphic>
@@ -4558,9 +4558,11 @@
             <lb/>Village</placeName> is <choice><sic>acrost</sic><corr>across</corr>
             </choice> the <geogFeat>bay</geogFeat> from the Cannery<ptr type="noteAnchor" target="JJM19091004note2"/>
             <note resp="ed" xml:id="JJM19091004note2">
-              "[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878." 
+              <quote>[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878.</quote> 
               Until 1920, it remained the only salmon cannery in the state <bibl><ref target="#VI">
-              "Visitor Information"</ref></bibl>. <figure rend="link">
+              "Visitor Information"</ref></bibl>. McIntyre may intend for his involvement with what at the time 
+              was leading industrialization to impress Gladys, as he later takes a boastful tone when explaining 
+              the specifications of the Northwestern in comparison to other ships. <figure rend="link">
                 <head>The Cannery at Klawock</head>
                 <graphic url="http://vilda.alaska.edu/cdm4/item_viewer.php?CISOROOT=/cdmg21&amp;CISOPTR=13554&amp;REC=7"></graphic>
                 <figDesc>Photograph of the Klawock cannery, Alaska's Digital Archies and Alaska State Library</figDesc>
@@ -4635,11 +4637,12 @@
             <lb/>this way Engine room Crews <name type="ship" ref="#Northwestern">Northwestern</name> 25 men 
             <lb/><name type="ship" ref="#SantaClara">Santa Clara</name> 13&#x2014;and this Soap box
             <ptr type="NoteAnchor" target="JJM19091004note4"/><note resp="ed" xml:id="JJM19091004note4">
-              Here Macintyre seems to be referring to the boat on which he's currently sailing to catch up 
+              Here McIntyre seems to be referring to the boat on which he's currently sailing to catch up 
               with the Northwestern. The diminutive connotation fits with the boastful tone that he has 
               assumed to impress Gladys with the size and power of the Northwestern. Interestingly, the 
               term "soap box" hasn't yet entered common usage as a way of designating a smaller, unpowered 
-              or low-power vehicle.
+              or low-power vehicle. It's possible that the "soap box" is a lightboat, which appears in the 
+              closer to McIntyre's letter to Gladys of 13 August 1909.
             </note>8 &#x2014; <name type="ship" ref="#Northwestern">Northwestern</name> 6 boilers 
             <lb/><name type="ship" ref="#SantaClara">Clara</name> 2 <name type="ship" ref="#Northwestern">Northwestern</name>
             burns 70 tons coal in 24 hours <name type="ship" ref="#SantaClara">Clara</name> 
@@ -4651,8 +4654,8 @@
             get badly burnt It will be a wonder<unclear cert="medium">!</unclear><ptr type="noteAnchor" 
               target="JJM19091004note5"/><note resp="ed" xml:id="JJM19091004note5">
                 <title level="j">The Locomotive</title> reports that on <date when="1909-03-11">11 March 
-                1909</date>, "[a] boiler exploded...on the steamer <hi rend="italics">Weitchpec</hi>...
-                Fireman Elmer Dennis was fatally scalded" <bibl><ref target="#Locomotive">"March, 1909" 
+                1909</date>, <quote>[a] boiler exploded...on the steamer <hi rend="italics">Weitchpec</hi></quote> 
+                and <quote>Fireman Elmer Dennis was fatally scalded</quote> <bibl><ref target="#Locomotive">"March, 1909" 
                 171</ref></bibl>. The serious and fatal nature of boiler accidents is clearly conveyed in 
                 the volume's sizeable monthly catalogues.
               </note> 
@@ -4673,34 +4676,34 @@
             <lb/>for me!<ptr type="noteAnchor" target="JJM19091004note6"/>
             <note resp="ed" xml:id="JJM19091004note6">
               The <date when="1909-09-23">September 23 issue of </date><title type="j">The Seattle Star</title> 
-              reports that "a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. 
-              and Lane st. shortly before <time when="06:00:00">6 o'clock</time> this morning." It "crashed to 
-              the tideflats below" and "turned turtle, pinning its occupants beneath." The auxiliary gas tank 
-              caught fire upon the vehicle's crash. The driver, Henry Hiser, "managed to extricate himself" and 
-              another passenger, but he "scurried from the scene and was later placed under arrest" <bibl>
+              reports that <quote>a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. 
+              and Lane st. shortly before <time when="06:00:00">6 o'clock</time> this morning.</quote> It <quote>crashed to 
+              the tideflats below</quote> and <quote>turned turtle, pinning its occupants beneath.</quote> The auxiliary gas tank 
+              caught fire upon the vehicle's crash. The driver, Henry Hiser, <quote>managed to extricate himself</quote> and 
+              another passenger, but he <quote>scurried from the scene and was later placed under arrest</quote> <bibl>
               <ref target="#SS19090923">"Two Girls Burned and Crushed Beyond Human Resemblance"</ref></bibl>. 
               The <date when="1909-10-01">October 1</date> issue of <title level="j">The Seattle Republican</title> 
-              further explains that Hiser "hauled a seventeen-year-old girl from saloon to saloon all night long" 
-              and "drank until he was almost beastly drunk and then started over a dangerous road to the city at 
-              a speed of a mile a minute" <bibl><ref target="#SR19091001">"Henry Hiser"</ref></bibl>. Macintyre 
+              further explains that Hiser <quote>hauled a seventeen-year-old girl from saloon to saloon all night long</quote> 
+              and <quote>drank until he was almost beastly drunk and then started over a dangerous road to the city at 
+              a speed of a mile a minute</quote> <bibl><ref target="#SR19091001">"Henry Hiser"</ref></bibl>. McIntyre 
               seems to admit here that he used to practice a similar lifestyle. In his letter to Gladys of 13 August 
-              1909, Macintyre expresses his committment to abstaining from drinking and the repugnance of the idea 
-              of Gladys spending time with the drinking "Class."
+              1909, he expresses his committment to abstaining from drinking and the repugnance of the idea 
+              of Gladys spending time with the drinking <quote>Class.</quote>
             </note> <choice><sic>they</sic><corr>there</corr></choice> was also a
             <add place="above">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 
             <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note7"/>
             <note resp="ed" xml:id="JJM19091004note7">
               The <date when="1909-10-01">October 1</date> issue of <title level="j">The Leavenworth Echo</title> 
-              reports that "a Wallingford Avenue street car in Seattle jumped the track on a curve near the main 
+              reports that <quote>a Wallingford Avenue street car in Seattle jumped the track on a curve near the main 
               gate of the [Alaska-Yukon Pacific] exposition. One man was killed, fifty five injured. It was the 
-              first serious street car accident since the exposition opened" <bibl><ref target="#LE19091001">
+              first serious street car accident since the exposition opened</quote> <bibl><ref target="#LE19091001">
               "News of Pacific Northwest"</ref></bibl>. Drawing from contemporary articles in <title level="j">
               The Seattle Times</title> and <title level="j">The Seattle Post-Intelligencer</title>, Stein corroborates that 
-              "[o]n September 24, 1909, a Seattle Electric Company streetcar jumps the track at the 
+              <quote>[o]n September 24, 1909, a Seattle Electric Company streetcar jumps the track at the 
               corner of E 40th Street and 14th Avenue NE (later University Way). The streetcar crashes 
               into three concession buildings across the street from the main entrance of the 
               Alaska-Yukon-Pacific Exposition. One passenger, Frank Hull of Tacoma, is killed, 
-              and 55 men, women, and children are injured" <bibl><ref target="#AJS">Stein</ref></bibl>.
+              and 55 men, women, and children are injured</quote> <bibl><ref target="#AJS">Stein</ref></bibl>.
             </note> little 
             <lb/>do we know how Soon we will be blotted out 
             <lb/>of this world the best we Can do is to always be ready 
