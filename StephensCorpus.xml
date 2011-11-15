@@ -583,6 +583,10 @@
               of the master. The number of mates depended on the size of the ship's company</gloss>
             <bibl><ref target="#Falconers">Falconer's</ref></bibl>
           </item>
+          <item xml:id="revolutions">
+            <gloss>Whenever the Commander-in-Chief of a ship desired to increase speed, the crew would cause
+              the engines of the vessel to increase their revolutions.</gloss>
+          </item>
         </list>
         
         <list>
@@ -1017,7 +1021,10 @@
             <!-- Add definition of special student (52-53). -->
           </person>
           <person xml:id="JJM">
-            <persName>McIntyre, James J.</persName>
+            <persName>McIntyre, James J.
+            <note type="bibliographical">James J. McIntyre is a crewmember on the S.S. Northwestern. 
+            He is enamoured with Gladys Stephens and writes to her often between the summer of 1909 and 
+            the fall of 1909 (and probably later).</note></persName>
           </person>
           <person xml:id="ACS">
             <persName>Stephens, Alex C.</persName>
@@ -1100,21 +1107,22 @@
           <person><persName>Rich. Mrs.</persName></person>
           <person><persName>the Dotens</persName></person> 
           <person xml:id="LGS"><persName>little Gladys</persName>
-            <note> Little Gladys appears to be a young girl on the S.S. Northwestern and of whom James J. McIntyre seems to be fond. 
-              It is unclear whether her name is actually Gladys or if James J. McIntyre refers to her in this way because the girl 
-            reminds him of his love interest, Gladys Stephens.</note>
+          <note> Little Gladys appears to be a young girl on the S.S. Northwestern and of whom J.J.McIntyre seems to be fond. 
+          </note>
           </person>
-          <person xml:id="Burns"><persName>Burns</persName></person>
+          <person xml:id="Burns"><persName>Burns</persName>
+          <note>Little is known about Burns apart from the fact that he appears to be a man that James J. McIntyre respects 
+            and even quotes in his 8/23/1909 letter to Gladys Stephens. </note></person>
           <person xml:id="Scotchman"><persName>the Scotchman</persName>
-          <note>The identity of the Scotchman is unknown. However, he may be Adelaide's fiance, as indicated by the evidence 
-          found in the correspondance between Gladys Stephens and James J. McIntyre in the late summer and early autumn of 1909.</note>
+          <note>The identity of the Scotchman is unknown. However, he may be Adelaide's fiance, as evidenced 
+          by the correspondance between Gladys Stephens and J.J. McIntyre in the late summer and early autumn of 1909.</note>
           </person>
           <person xml:id="MsM"><persName>J.J. McIntyre's father</persName>
-          <note>In his 8/23/1909 letter to Gladys Stephens, James J. McIntyre thanks Gladys for inquiring about his father and then 
+          <note type="biographical">In his 8/23/1909 letter to Gladys Stephens, J.J. McIntyre thanks Gladys for inquiring about his father and then 
             notes that his father is doing well.</note>
           </person>
           <person xml:id="MrM"><persName>J.J. McIntyre's mother</persName>
-          <note>In his 8/23/1909 letter to Gladys Stephens, James J. McIntyre expresses his eagerness to tell his mother about his 
+          <note type="biographical">In his 8/23/1909 letter to Gladys Stephens, J.J. McIntyre expresses his eagerness to tell his mother about his 
             relationship with Gladys.</note>
           </person>
           <person xml:id="MrJ">
@@ -3770,10 +3778,10 @@
             <stamp type="dateline"> SEP 27 1909 </stamp>
           </ab>
           <figure rend="link">
-            <head>Caption</head>
+            <head>Two-cent U.S. postage stamp.</head>
             <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=460,480&amp;layer=1&amp;src=is{mediamanager/1/1a088fc4-6962-4826-812b-8f4a29a15c26.jpg?scale=0.2&amp;rgn=0,0,460,320&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=460,320&amp;text=\vertalt\cf1\qc\fs15\%20Caption&amp;posN=0,.5"/>
             <figDesc>
-              Manuscript detail
+              U.S. POSTAGE / TWO CENTS [Portrait of William Seward; perforated horizontally and  vertically; U.S. #370] Upside down 
             </figDesc>
           </figure>
         </div>
@@ -3810,7 +3818,7 @@
             <lb/>letters would be very nice to me but
             <lb/>nothing doing <choice><sic>untill</sic><corr>until</corr></choice> <placeName ref="#Seattle">Seattle</placeName> again!
             <lb/>I started to read a story last night
-            <lb/>called <title level="a" ref="#THC">the Holy City</title> and It promises
+            <lb/>called <bibl><ref target="#THC">the Holy City</ref></bibl> and It promises
             <lb/>to be good. A few lines which I gave
             <lb/>special attention to were these</p>
           <p><lb/><q>"what is Love"</q></p>
@@ -3924,7 +3932,7 @@
             <lb/>my room in <placeName ref="#Seattle">Seattle</placeName> also my friend
             <lb/>or at least he was supposed to be
             <lb/>They have just whistled down from
-              <lb/>the bridge for 5 more <choice><sic><unclear reason="illegible" cert="medium">Reverlitions</unclear></sic><corr>revolutions</corr></choice>
+              <lb/>the bridge for 5 more <choice><sic><unclear reason="illegible" cert="medium">Reverlitions</unclear></sic><corr><term ref="#revolutions">revolutions</term></corr></choice>
             <lb/>So <choice><sic>they</sic><corr>there</corr></choice> will be something doing in
             <lb/>a short time and the time is 3 <hi rend="underline">40</hi> and
             <lb/>I must write up my log so once more
