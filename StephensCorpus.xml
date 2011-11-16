@@ -4040,6 +4040,13 @@
     </teiHeader>
     <text>
       <body>
+        <ab type="postalAddress">
+          <address>
+            <addrLine>Miss. Gladys M. Stephens</addrLine>
+            <addrLine>#126 Leon Street</addrLine>
+            <addrLine>El Paso</addrLine>
+          </address> 
+        </ab>
         <div type="letter">
           <pb facs="/1/1de448a-61af-4096-9acb-bf07c5b6cc50"/>
           <opener> 
