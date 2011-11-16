@@ -4099,12 +4099,12 @@
             <lb/>Hello - well brother Snow and I made the dock all right and
             <lb/>we will be away in a short time; well little girl I have
             <lb/>bin<sic><corr>been</corr></sic> wondering how you are enjoying your Trip and how
-            <lb/>you will like <placeName ref="Mexico">Mexico</placeName> you will undoublily See Some
+            <lb/>you will like <placeName ref="#Mexico">Mexico</placeName> you will undoublily See Some
             <lb/>very interesting places doon there, I hope. So any
             <lb/>way! but never mind dear If every thing goes all
             <lb/>I wish (I don't want much do Honey) we will have
-            <lb/>the trip of your life Some day and will be to <placeName ref="China">China</placeName>
-            <lb/>&amp; <placeName ref="Japan">Japan</placeName> and on down to <placeName ref="Manila">Manila</placeName>; <placeName ref="Manila">Manila</placeName> is a very
+            <lb/>the trip of your life Some day and will be to <placeName ref="#China">China</placeName>
+            <lb/>&amp; <placeName ref="#Japan">Japan</placeName> and on down to <placeName ref="#Manila">Manila</placeName>; <placeName ref="#Manila">Manila</placeName> is a very
             <lb/>Interesting place the old walled City for Instance
             <lb/>I have some Souvenirs from there or did have
             <lb/>any way but most every one that comes to the
@@ -4129,10 +4129,10 @@
             <lb/>you as often as I wish; But "Patience"It may not
             <lb/>allways<sic><corr>always</corr></sic> be this way I don't  <distinct type="babyTalk">fink</distinct><corr>think</corr> so any way do you
             (<hi>NO</hi>)you needn't answer that honey Those about
-            <lb/>that #110 did you make it while resting up at <placeName ref="El Paso">El Paso</placeName>
-            <lb/>hope So well your last letters was in <placeName ref="Ketchikan">Ketchikan</placeName> only
+            <lb/>that #110 did you make it while resting up at <placeName ref="#El Paso">El Paso</placeName>
+            <lb/>hope So well your last letters was in <placeName ref="#Ketchikan">Ketchikan</placeName> only
             <lb/>about 3 hours lucky wasnt I but dont Know how
-            <lb/>long this one will be in <placeName ref="Juneau">Juneau</placeName> when the Postman
+            <lb/>long this one will be in <placeName ref="#Juneau">Juneau</placeName> when the Postman
             <lb/>Comes along with Some of these letters dear you will
             <lb/>be looking out for the if poessman<sic><corr>postman</corr></sic> to see if my honk
             <lb/>is coming next I'm afraid
@@ -4160,11 +4160,11 @@
             <lb/>There Goes the whistle and So long for a <distinct type="babyTalk">ittle<corr>little</corr> minnit<sic><corr>minute</corr></sic></distinct>
             <lb/>well dear I hope you get Some letters before you go to Mexico
             <lb/>City or You will not know what to think has happened
-            <lb/>to me; But when you get back to <placeName ref="El Paso">El Paso</placeName> or home
+            <lb/>to me; But when you get back to <placeName ref="#El Paso">El Paso</placeName> or home
             <lb/>they will not be So much delay and I also hope that I
             <lb/>will have "heaps" of letters when I get home the 22nd or 23rd
             <lb/>well dear ittle I must Say So long and will write again
-            <lb/>from <placeName ref="Skagway">Skaguay</placeName> give my very best regards to uncle alex
+            <lb/>from <placeName ref="#Skagway">Skaguay</placeName> give my very best regards to uncle alex
             <lb/>and Love to ned<sic></sic> I Remain The Same
           </p>
           <closer>
