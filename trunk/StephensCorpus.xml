@@ -824,6 +824,10 @@
             <title level="a">Taft-Diaz Meeting.</title> <title level="m">Texas State Historical Association</title>
             n.d. Web. 03 NOv. 2011.
           </bibl>
+          <bibl xml:id="WalledCity" n="Smith"> Smith, Robert Ross
+            <title level="m">Triumph in the Philipines</title>
+            Office of the Chief of Military History, Dept. of the Army. 1963. Web. 15 Nov. 2011.  
+          </bibl>
           <bibl xml:id="Childbirth" n="Employment">
             <title level="a">Employment of Women After Childbirth.</title> <title level="j">
               The British Medical Journal</title> 24 October 1908: 1297. Web. 10 Nov. 2011.
@@ -4109,7 +4113,9 @@
             <lb/>I wish (I don't want much do Honey) we will have
             <lb/>the trip of your life Some day and will be to <placeName ref="#China">China</placeName>
             <lb/>&amp; <placeName ref="#Japan">Japan</placeName> and on down to <placeName ref="#Manila">Manila</placeName>; <placeName ref="#Manila">Manila</placeName> is a very
-            <lb/>Interesting place the old walled City for Instance
+            <lb/>Interesting place the old walled City <ptr type="noteAnchor" target="#Intramuros"/><note resp="ed" xml:id="Intramuros">
+              The Walled City of Manila, called the Intramuros, was built as a medieval Spanish colony and was razed and bombed by US and Japanese forces during World War II.
+              <bibl><ref target="#WalledCity">Victory in the Philipines</ref></bibl></note>for Instance
             <lb/>I have some Souvenirs from there or did have
             <lb/>any way but most every one that comes to the
             <lb/>house takes Something away and sometimes I
