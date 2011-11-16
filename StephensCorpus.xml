@@ -4058,37 +4058,37 @@
             <lb/><salute>Dear <persName ref="#GMS">Girl</persName>,</salute>
           </opener>  
           <p>  
-            <lb/>well we arrived &amp; deaparted from <placeName ref="Ketchikan">ketchukam</placeName> all OK and
-            <lb/>will be in <placeName ref="Taku">Taku</placeName> (you were there" about 6<hi>30</hi> and Should be in <placeName ref="Juneau">Juneau</placeName> 9<hi>30</hi> a.m and leave for <placeName ref="Skagway">Skagway</placeName> by 11 00
-            <lb/>then we go to <placeName ref="Chilkoot">Chilkoot</placeName> for 3000 Cases of Salmon
-            <lb/>and then to <placeName ref="Gypsum">Gypsum</placeName> you remember the last place
+            <lb/>well we arrived &amp; deaparted from <placeName ref="#Ketchikan">ketchukam</placeName> all OK and
+            <lb/>will be in <placeName ref="#Taku">Taku</placeName> (you were there" about 6<hi>30</hi> and Should be in <placeName ref="#Juneau">Juneau</placeName> 9<hi>30</hi> a.m and leave for <placeName ref="#Skagway">Skagway</placeName> by 11 00
+            <lb/>then we go to <placeName ref="#Chilkoot">Chilkoot</placeName> for 3000 Cases of Salmon
+            <lb/>and then to <placeName ref="#Gypsum">Gypsum</placeName> you remember the last place
             <lb/>it is the place that we were agoing<sic><corr>going</corr></sic> to Stop at after leaving
-            <lb/><placeName ref="Sitka">Sitka</placeName> but for Some reason did not, from <placeName ref="Gypsum">Gypsum</placeName>
-            <lb/>to <placeName ref="Ketchikan">Ketchikan</placeName> to Belling Run <!--unknown place--> and there <placeName ref="Tacoma">Tacoma</placeName> and me
-            <lb/>mither<sic><corr>mother</corr></sic>; we are having no end of fun this trip they was a
-            <lb/>boat lift <placeName ref="Seattle">Seattle</placeName> the Same time we did and we have bin<sic><corr>been</corr></sic> racing
+            <lb/><placeName ref="#Sitka">Sitka</placeName> but for Some reason did not, from <placeName ref="#Gypsum">Gypsum</placeName>
+            <lb/>to <placeName ref="#Ketchikan">Ketchikan</placeName> to Belling Run <!--unknown place--> and there <placeName ref="#Tacoma">Tacoma</placeName> and me
+            <lb/><sic>mither</sic><corr>mother</corr>; we are having no end of fun this trip they was a
+            <lb/>boat lift <placeName ref="#Seattle">Seattle</placeName> the Same time we did and we have bin<sic><corr>been</corr></sic> racing
             <lb/>all the way up this Companys boat too a freight boat
             <lb/>we have accomadations for about >5 passengers on this one
             <lb/>and a fine passenger list we have this time a nice large
             <lb/>healthy looking bunch but very quiet I have not
             <lb/>bin<sic><corr>been</corr></sic> able to get of them to talk to me they seem afraid
-            <lb/>they are all <placeName ref="Montana">Montana </placeName>and are agoing<sic><corr>going</corr></sic> to Skaguay
-            <lb/>well we beat to <placeName ref="Ketchikan">Ketchkan</placeName> about 3/4 of a hour but they
+            <lb/>they are all <placeName ref="#Montana">Montana </placeName>and are <sic>agoing</sic><corr>going</corr> to <placeName ref="#Skaguay">Skaguay</placeName>
+            <lb/>well we beat to <placeName ref="#Ketchikan">Ketchkan</placeName> about 3/4 of a hour but they
             <lb/>had no Cargo for there So left ahead of us but they
-            <lb/>mit <name ref="Dolphin">S.S. Dolphin</name> and had to change Peluts<sic><corr>pallets</corr></sic> So we
+            <lb/>mit <name ref="#Dolphin">S.S. Dolphin</name> and had to change <sic>Peluts</sic><corr>pallets</corr> So we
             <lb/>caught up with them and at it again we were
           </p>
           <pb facs="4/4975992d-6296-4cf6-80b7-22f1ad07ec7e"/>
           <p>
             <lb/>side by each for about 3 hours and they turned off
-            <lb/>and went another way they go direct to <placeName ref="Skaguay">Skag</placeName> and is
+            <lb/>and went another way they go direct to <placeName ref="#Skaguay">Skag</placeName> and is
             <lb/>45 or 50 miles farter than the way we are going but
             <lb/>we make 3 stops So I do not know how we will
             <lb/>make out but are doing our best the worst of it is I
-            <lb/>was abooard of <name ref="SantaAnna">S.S. Santa Anna</name> Sailing night and was
+            <lb/>was abooard of <name ref="#SantaAnna">S.S. Santa Anna</name> Sailing night and was
             <lb/>Joshing the <persName ref="#End">Chief</persName> about the old freight boat that was on and
-            <lb/>if they beat us to <placeName ref="Skaguay">Skag</placeName> I will never hear the last of it
-            <lb/>he is the <persName ref="#End">Chief</persName> from <name ref="Ohio">S.S. Ohio</name> and as I said before an auld
+            <lb/>if they beat us to <placeName ref="#Skaguay">Skag</placeName> I will never hear the last of it
+            <lb/>he is the <persName ref="#End">Chief</persName> from <name ref="#Ohio">S.S. Ohio</name> and as I said before an auld
             <lb/>acquantance of mine; well honey I've bin<sic><corr>been</corr></sic> after sending that postal
             <lb/>Carrier down to see how the knife is getting along; Yes I heard the
             <lb/>name of one of the passengers who Seames<sic><corr>seems</corr></sic> to be a little bolder
