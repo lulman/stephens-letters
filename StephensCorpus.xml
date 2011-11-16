@@ -811,6 +811,10 @@
               The Seattle Star</title> 23 September 1909: n.pag. <title level="m">Chronicling America (The Library 
               of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
+          <bibl xml:id="Plumes" n="Stein"> Stein, Sarah Abrevaya
+            <title level="m">Plumes: Ostrich Feathers, Jews, and a Lost World of Global Commerce</title>
+            New Haven, CT: Yale University Press, 2008. Print. 
+          </bibl>
           <bibl xml:id="LE19091001" n="News">
             <title level="a">News of Pacific Northwest.</title> <title level="j">The Leavenworth Echo</title> 
             01 October 1909: n.pag. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 
@@ -4238,7 +4242,14 @@
                 
                 You can use more than one paragraph (tagged <p> </p>).
               -->
-              <p>  </p>
+              <p>ALS. Two loose sheets of cream-colored stationary 
+                measuring 5.625 x 9.375 inches. The front side contains a 2.875-inch letterhead, a 6.3375-inch
+                body with blue lines spaced at .3125-inch intervals, and a .0625-inch bottom margin.
+                The back side contains an unlined body.
+                The letterhead of the first page contains, in the upper left-hand
+                corner, a 2.5 x 2-inch halftone image of a Post Office
+                The letterhead of the second page contains, in the upper left-hand corner,
+                a 2.75 x 1.5-inch halftone image of a Forrestry Building</p>
               <accMat corresp="#GS19090927env">
                 Accompanied by a stamped, cancelled, cream-colored envelope on unknown stationery measuring
                 6 x 3.5-inch.  A 2.5 x 2-inch halftone image of Oregon Timber is printed on the left-hand side
@@ -4354,8 +4365,13 @@
               <choice>
                 <abbr>Calif.</abbr>
                 <expan>California</expan></choice>
-            </placeName>for <note></note>ostrich plumes <note>Ostriches and ostrich plumes were the height
-            fashion for this period, and continued until the market notably collapsed following the first World War.</note>
+            </placeName>for <note></note>ostrich plumes <ptr type="noteanchor" target="OstrichPlumes"></ptr>
+            <note resp="ed" xml:id="OstrichPlumes">  In the period between 1883 and 1912 Ostrich plumes represented
+              a major economic force.  During this period production was signficantly ramped up in the United States,
+              particularly the American South, West and Southwest as a means of freeing American consumers from the import
+              market dominated by South African production.  Considered fashionable, the feathers combined with Agro-tourism
+              to make California Ostrich Farms a popular destination during this period.  <bibl><ref target="#Plumes">
+                Plumes: Ostrich Feathers, Jews, and a Lost World of Global Commerce.</ref></bibl></note>
             <lb/>for her.
           </p>
           <p>
