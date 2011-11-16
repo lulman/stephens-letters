@@ -59,6 +59,9 @@
                    color : #888833;
                    clear : left;
                }
+               a.annotation {
+                   text-decoration:none;
+               }
                div#letter {
                    border : 3px groove #666666;
                    padding : 5px;
@@ -165,30 +168,41 @@
                <xsl:choose>
                   <xsl:when test="position()>=100">
                      <p class="hang35"><a>
-                           <xsl:attribute name="name">
-                              <xsl:value-of select="@xml:id"/>
-                           </xsl:attribute>
+                        <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
                         <xsl:number count="//tei:note[@xml:id]" level="any"
-                        />.&#xA0;<xsl:apply-templates/></p>
+                        />.&#xA0;<xsl:apply-templates/>
+                        <a>
+                           <xsl:attribute name="href">#p<xsl:value-of select="@xml:id"/></xsl:attribute>
+                           <xsl:attribute name="class">annotation</xsl:attribute>
+                           [Back]
+                        </a>
+                     </p>
                   </xsl:when>
                   <xsl:when test="position()>=10">
                      <p class="hang25"><a>
-                           <xsl:attribute name="name">
-                              <xsl:value-of select="@xml:id"/>
-                           </xsl:attribute>
+                        <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
                         <xsl:number count="//tei:note[@xml:id]" level="any"
-                        />.&#xA0;<xsl:apply-templates/></p>
+                        />.&#xA0;<xsl:apply-templates/>
+                        <a>
+                           <xsl:attribute name="href">#p<xsl:value-of select="@xml:id"/></xsl:attribute>
+                           <xsl:attribute name="class">annotation</xsl:attribute>
+                           [Back]
+                        </a>
+                     </p>
                   </xsl:when>
                   <xsl:otherwise>
                      <p class="hang15"><a>
-                           <xsl:attribute name="name">
-                              <xsl:value-of select="@xml:id"/>
-                           </xsl:attribute>
+                           <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
-                        <xsl:number count="//tei:note[@xml:id]" level="any"
-                        />.&#xA0;<xsl:apply-templates/></p>
+                        <xsl:number count="//tei:note[@xml:id]" level="any"/>.&#xA0;<xsl:apply-templates/>
+                        <a>
+                           <xsl:attribute name="href">#p<xsl:value-of select="@xml:id"/></xsl:attribute>
+                           <xsl:attribute name="class">annotation</xsl:attribute>
+                           [Back]
+                        </a>
+                     </p>
                   </xsl:otherwise>
                </xsl:choose>
 
@@ -334,7 +348,12 @@
 
    <xsl:template match="tei:ptr[@type='noteAnchor']">
       <a>
-         <xsl:attribute name="href">#<xsl:value-of select="@target"/></xsl:attribute>
+         <xsl:attribute name="name">p<xsl:value-of select="@target"></xsl:value-of>
+         </xsl:attribute>
+      </a>
+      <a>
+         <xsl:attribute name="href">#n<xsl:value-of select="@target"/></xsl:attribute>
+         <xsl:attribute name="class">annotation</xsl:attribute>
          <sup>
             <xsl:number level="any" count="tei:ptr[@type='noteAnchor']"/>
             <xsl:apply-templates/>
