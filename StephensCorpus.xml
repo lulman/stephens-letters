@@ -1349,6 +1349,10 @@
               In a letter dated July 14, 1909, Gladys describes Mrs. Jordon as a cousin of Mrs. Hughes (one of Gladys' travelling companions, a Virginian.)  Mrs. Jordon is described as having two sons and a dead husband.
             </note>
           </person>
+         <person xml:id="Maud">
+           <persName>Maud</persName>
+           <note type="biographical"> In a letter dated September 13, 1909, J Macyntire describes travelling with a person from Montana named Maud.</note>
+         </person>
           
       </listPerson>
           
@@ -4092,7 +4096,7 @@
             <lb/>acquantance of mine; well honey I've <sic>bin</sic><corr>been</corr> after sending that postal
             <lb/>Carrier down to see how the knife is getting along; Yes I heard the
             <lb/>name of one of the passengers who <sic>Seames</sic><corr>seems</corr> to be a little bolder
-            <lb/>than the rest and her name is Maud 126 head of cattle 
+            <lb/>than the rest and her name is <persName ref="#Maud">Maud</persName> 126 head of cattle 
             <lb/>and 3 mules and they all seem to be enjoying the trip and getting
             <lb/>along nicely; well we are getting along better than I thought;
             <lb/>we have a "Stand By" now So will say good by for a little while
@@ -4164,7 +4168,7 @@
             <lb/>they will not be So much delay and I also hope that I
             <lb/>will have "heaps" of letters when I get home the 22nd or 23rd
             <lb/>well dear ittle I must Say So long and will write again
-            <lb/>from <placeName ref="#Skagway">Skaguay</placeName> give my very best regards to uncle alex
+            <lb/>from <placeName ref="#Skagway">Skaguay</placeName> give my very best regards to <persName ref="#ACS">uncle alex</persName>
             <lb/>and Love to <sic>ned</sic> I Remain The Same
           </p>
           <closer>
