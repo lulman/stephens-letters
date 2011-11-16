@@ -4045,7 +4045,12 @@
             <addrLine>Miss. Gladys M. Stephens</addrLine>
             <addrLine>#126 Leon Street</addrLine>
             <addrLine>El Paso</addrLine>
+            <addrLine>Texas</addrLine>
           </address> 
+        </ab>
+        <ab>
+          <stamp type="postmark"> <placeName ref="#Juneau">JUNEAU</placeName> | 
+            <date when="1909-09-13">SEP | 13 | 1909 <time>5 PM</time> </date> ALASKA </stamp>
         </ab>
         <div type="letter">
           <pb facs="/1/1de448a-61af-4096-9acb-bf07c5b6cc50"/>
