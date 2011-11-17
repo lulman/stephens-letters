@@ -3850,13 +3850,13 @@
             <lb/>my self to let you down easy this 
             <lb/>time and not write so much but it
             <lb/>promises to be a long watch for
-            <lb/>we are running<ptr type="NoteAnchor" target="#running"/><note resp="ed" xml:id="running">The action of sailing before the wind.<bibl><ref target="#OEDrunning">OED "running"</ref></bibl></note> dead slow looking
+            <lb/>we are running<ptr type="NoteAnchor" target="running"/><note resp="ed" xml:id="running">The action of sailing before the wind.<bibl><ref target="#OEDrunning">OED "running"</ref></bibl></note> dead slow looking
             <lb/>for a prominent <geogFeat>Cape</geogFeat>! <placeName ref="#CapeSt.Elias">Cape St
             <lb/>Elias</placeName> by name. and a watch under
             <lb/>a slow Bell is always a long one
             <lb/>for me. I was just <hi rend="underline">up stairs</hi>
             <lb/>and it is a nasty rainy night
-            <lb/>and the ship is <choice><sic><unclear reason="illegible" cert="medium">roaling</unclear></sic><corr>rolling</corr></choice><ptr type="NoteAnchor" target="#rolling"/><note resp="ed" xml:id="rolling">The swaying or rocking of a vessel from side to side.<bibl><ref target="#OEDrolling">OED "rolling"</ref></bibl></note> heavy. you
+            <lb/>and the ship is <choice><sic><unclear reason="illegible" cert="medium">roaling</unclear></sic><corr>rolling</corr></choice><ptr type="NoteAnchor" target="rolling"/><note resp="ed" xml:id="rolling">The swaying or rocking of a vessel from side to side.<bibl><ref target="#OEDrolling">OED "rolling"</ref></bibl></note> heavy. you
             <lb/>should ought to see my pose in writing this <subst><del rend="overtyped"><unclear reason="illegible" cert="high">a</unclear></del><add place="over">the</add></subst> Kangaroo is not in it.
             <pb facs="/e/e9269572-e28c-4911-8402-38b1ead57c8b"/>
             <lb/>I wonder how you would <choice><sic>fell</sic><corr>feel</corr></choice>
@@ -3869,7 +3869,7 @@
             <lb/>nothing doing <choice><sic>untill</sic><corr>until</corr></choice> <placeName ref="#Seattle">Seattle</placeName> again!
             <lb/>I started to read a story last night
             <lb/>called <title ref="#TheHolyCity" level="a">the Holy City</title><ptr type="noteAnchor" target="THC"/>
-            <note resp="ed" xml:id="TheHolyCity"> Although definitive bibliographical information is not available for this title, J.J.McIntyre may
+            <note resp="ed" xml:id="THC"> Although definitive bibliographical information is not available for this title, J.J.McIntyre may
               be referring to a fiction piece known as <title level="a">The Holy Land,</title> which was published in 1909. <bibl><ref target="#TheHolyLand">Library of Congress</ref></bibl></note> and It promises
             <lb/>to be good. A few lines which I gave
             <lb/>special attention to were these</p>
@@ -3984,7 +3984,7 @@
             <lb/>my room in <placeName ref="#Seattle">Seattle</placeName> also my friend
             <lb/>or at least he was supposed to be
             <lb/>They have just whistled down from
-              <lb/>the bridge for 5 more <choice><sic><unclear reason="illegible" cert="medium">Reverlitions</unclear></sic><corr>revolutions</corr></choice><ptr type="NoteAnchor" target="#revolution"/><note resp="ed" xml:id="revolution">Whenever the Commander-in-Chief of a ship desired to increase speed, the crew would cause the engines of the vessel to increase their revolutions.<bibl><ref target="#OEDrevolution">OED "revolution"</ref></bibl></note>
+              <lb/>the bridge for 5 more <choice><sic><unclear reason="illegible" cert="medium">Reverlitions</unclear></sic><corr>revolutions</corr></choice><ptr type="NoteAnchor" target="revolution"/><note resp="ed" xml:id="revolution">Whenever the Commander-in-Chief of a ship desired to increase speed, the crew would cause the engines of the vessel to increase their revolutions.<bibl><ref target="#OEDrevolution">OED "revolution"</ref></bibl></note>
             <lb/>So <choice><sic>they</sic><corr>there</corr></choice> will be something doing in
             <lb/>a short time and the time is 3 <hi rend="underline">40</hi> and
             <lb/>I must write up my log so once more
