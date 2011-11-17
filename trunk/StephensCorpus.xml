@@ -4701,11 +4701,11 @@
             <lb/>and <rs type="ship" ref="#Northwestern">this Ship</rs> Carries no freight C
             <del rend="overwritten">r</del>lerk <rs ref="#HEP">the purser</rs> has that 
             <lb/>work to look after <seg type="obliqueText" rendition="#ot1">and</seg> 
-            So It has <choice><sic>bin</sic><corr>been</corr></choice>
+            So It has <choice><sic>bin</sic><corr>been</corr></choice> 
             up to me to show her around<unclear cert="medium">!</unclear> 
             <lb/>and It <choice><sic>Seemes</sic><corr>Seems</corr></choice> quite nice to have Some one 
             of <hi rend="underlined">my</hi> own 
-            <lb/>age to talk to (honest that's all<add place="above" rend="up arrow">I am</add>)
+            <lb/>age to talk to (honest that's all<add place="above" rend="up arrow">I am</add>) 
             I gave her a long talk <date when="1909-10-02"><choice><abbr>Sat</abbr>
               <expan>Saturday</expan></choice></date> night 
             <lb/>about her fellows, and her self she did not like it a <choice><sic>littl</sic>
@@ -4720,7 +4720,7 @@
             <lb/>you got your <del rend="strikethrough"><unclear cert="medium" 
               reason="strikethrough obscures letters">
               hare</unclear></del><add place="above">hair</add> <choice><sic>Comed</sic>
-                <corr>Combed</corr></choice>
+                <corr>Combed</corr></choice> 
             <choice><sic>differant</sic><corr>differently</corr></choice> than when you were 
             <lb/>here! I <distinct type="juvenile">fink</distinct> So and listen 
             <persName ref="#GMS"><addName type="endearment">dear</addName></persName> did you know that you 
@@ -4732,8 +4732,7 @@
             at that time and see if you Can Catch me 
             <lb/>at It&#x2014;I wonder <del rend="overwritten">o</del>if you will be So Economical with 
             <lb/>then when I See you again  <hi rend="underlined">hope not</hi> 
-            <distinct type="babyTalk">S<unclear cert="high" reason="no dot over i">i</unclear>
-              sent</distinct> nice of you I <distinct type="babyTalk">fink</distinct> 
+            <distinct type="babyTalk">Sisent</distinct> nice of you I <distinct type="babyTalk">fink</distinct> 
             <lb/>tell me <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <pb facs="/8/89dc1d77-e539-4ca6-b7b7-26f005889808"/>
             I do not know if I told you about the <name type="ship" ref="#Northwestern">Northwestern</name> 
@@ -4752,7 +4751,7 @@
               term "soap box" hasn't yet entered common usage as a way of designating a smaller, unpowered 
               or low-power vehicle. It's possible that the "soap box" is a lightboat, which appears in the 
               closer to McIntyre's letter to Gladys of 13 August 1909.
-            </note>8 &#x2014; <name type="ship" ref="#Northwestern">Northwestern</name> 6 boilers 
+            </note> 8&#x2014;<name type="ship" ref="#Northwestern">Northwestern</name> 6 boilers 
             <lb/><name type="ship" ref="#SantaClara">Clara</name> 2 <name type="ship" ref="#Northwestern">Northwestern</name>
             burns 70 tons coal in 24 hours <name type="ship" ref="#SantaClara">Clara</name> 
             <lb/>28 or 30 the <name type="ship" ref="#Northwestern">Northwestern</name> is only a day ahead of us now 
@@ -4781,7 +4780,7 @@
             <choice><sic>Cam</sic><corr>Came</corr></choice> away <rs ref="#HH">the driver</rs> is in Jail 
             <lb/>that was my old <choice><sic>Corse</sic><corr>Course</corr></choice> but 
             <hi rend="underlined">no</hi> more <persName ref="#GMS"><addName type="endearment">dear
-              </addName></persName><hi rend="underline">no more</hi> 
+              </addName></persName> <hi rend="underline">no more</hi> 
             <lb/>for me!<ptr type="noteAnchor" target="JJM19091004note6"/>
             <note resp="ed" xml:id="JJM19091004note6">
               The <date when="1909-09-23">September 23 issue of </date><title type="j">The Seattle Star</title> 
@@ -4798,7 +4797,7 @@
               seems to admit here that he used to practice a similar lifestyle. In his letter to Gladys of 13 August 
               1909, he expresses his committment to abstaining from drinking and the repugnance of the idea 
               of Gladys spending time with the drinking <quote>Class.</quote>
-            </note> <choice><sic>they</sic><corr>there</corr></choice> was also a
+            </note> <choice><sic>they</sic><corr>there</corr></choice> was also a 
             <add place="above">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 
             <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note7"/>
             <note resp="ed" xml:id="JJM19091004note7">
@@ -4828,7 +4827,7 @@
             <lb/>be glad to get home <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             I <distinct type="babyTalk">fink</distinct> So<unclear cert="medium">!</unclear> 
             you have <choice><sic>bin</sic><corr>been</corr></choice> gone from 
-            <lb/>home quite a while haven<supplied reason="omitted" resp="ed">'</supplied>t you? 
+            <lb/>home quite a while <choice><sic>havent</sic><corr>haven't</corr></choice> you? 
             In another year you will be gone 2 months from here! that's the way the time 
             <lb/>goes to me well <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             I <distinct type="babyTalk">fink</distinct> I had better 
@@ -4840,7 +4839,7 @@
             <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <lb/>about writing <del rend="strikethrough"><unclear cert="medium" 
               reason="strikethrough">or where to</unclear></del> As you will be on your way 
-            <lb/>home before we finish another <choice><sic>Voige</sic><corr>Voyage</corr></choice>
+            <lb/>home before we finish another <choice><sic>Voige</sic><corr>Voyage</corr></choice> 
             and tell me about 
             <lb/>writing to your home (&amp;tc) <hi rend="underlined">how</hi> I would like to see you 
             <lb/>this <choice><abbr>A.M.</abbr><expan>morning</expan></choice> So long <persName ref="#GMS">
