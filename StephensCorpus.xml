@@ -4603,7 +4603,7 @@
             <lb/><time when="23:32:00">11<hi rend="superscripted"><hi rend="underlined">32</hi></hi></time> I 
             <distinct type="babyTalk">fink</distinct><unclear cert="medium">!</unclear> 
             That's bad for I cannot get my mail 
-            <lb/><choice><sic>untill</sic><corr>until</corr></choice><date when="1909-10-05">tomorrow</date>,  
+            <lb/><choice><sic>untill</sic><corr>until</corr></choice> <date when="1909-10-05">tomorrow</date>,  
             we <del rend="overwritten">b</del>missed the tide in <geogName ref="#Seymour"><choice><sic>
               Seymor</sic><corr>Seymour</corr></choice> 
             <lb/><geogFeat>narrows</geogFeat></geogName> and had to Anchor for 4 hours and that's 
