@@ -3438,7 +3438,7 @@
                  "W.H. BIAS Treasurer" and "R.W. BIAS Deputy Treas.," followed by a line for the date partially
                  pre-printed as "________ / 1___." The edges of the paper are cleanly cut, though there is some
                  reddish-brown residue at the top of each sheet, which is possibly from an adhesive. The paper has 
-                 light blue lines that extend to the ends of the sheet on the right and left sides and which are 
+                 light blue lines that extend to the ends of the sheet on the right and left sides and that are 
                  0.375 inches apart. On the front of each sheet there are 21 lines, the first one starting 3.063 inches
                  from the top of the sheet and the last one 0.1875 inches from the bottom of the sheet. On the 
                  back of the sheet the lines begin 1.125 inches from the top of the sheet and continue until 0.1875 inches
@@ -3504,31 +3504,31 @@
           <opener>
             <handShift new="#GMSHand"/>
             <dateline><date when="1909-09-22">9/22 9</date></dateline>
-            <lb/><salute><persName ref="#MATS">Mother</persName>dear,</salute>
+            <lb/><salute><persName ref="#MATS">Mother</persName> dear,</salute>
           </opener>
           <p>
             <lb/><persName ref="#AMM">Adelaide</persName> is getting some lovely
             <lb/>things to be married in. She is having
             <lb/>a pale blue broadcloth dress made. She
-            <lb/>has a handsome brown suit. <ptr type="noteAnchor" target="Wedding"/><note resp="ed" xml:id="Wedding">Though white wedding dresses were traditionally preferred in the United 
+            <lb/>has a handsome brown suit.<ptr type="noteAnchor" target="Wedding"/><note resp="ed" xml:id="Wedding">Though white wedding dresses were traditionally preferred in the United 
               States and Great Britain since Queen Victoria's wedding in 1840, Emily Holt's 1901 <hi rend="italics">Encyclopaedia of Etiquette</hi> allows "brides who are married before twelve o'clock, or who go directly
               from the altar to a train or boat" to "wear a becoming street dress of ladies' cloth, veiling, or silk, in a pale shade of blue" (Holt 238). Holt adds that if the bride wears this 
               in place of the traditional white wedding gown, her hat is one of "the chief adjuncts of this toilette" (238). Based on Gladys's description of Adelaide's wedding attire in this 
               letter and in her letter to her mother dated October 5, 1909, Adelaide seems to be preparing for a wedding that either takes place before noon or one from which she and her husband 
-              immediately depart afte the ceremony.<bibl><ref target="#EncyclopaediaEtiquette"><hi rend="italics">Encyclopaedia of Etiquette</hi></ref></bibl></note>Things are 
+              immediately depart afte the ceremony <bibl><ref target="#EncyclopaediaEtiquette">Holt 238</ref></bibl>.</note> Things are 
             <lb/>getting quite interesting I can tell
             <lb/>you. Just between you <seg type="obliqueText" rendition="#ot1">and</seg> I <persName ref="#THM">"the man"</persName>
             <lb/>has one bad feature. He takes a cocktail<ptr type="noteAnchor" target="Cocktail"/><note resp="ed" xml:id="Cocktail">In her September 22, 1909 letter to her mother, Gladys complains about "the man" 
               smelling of cocktail. Though Gladys uses the term "cocktail" as a particular drink, by
               1909 the term "cocktail" referred to a variety of drinks made from bitters and brandy, 
-              gin, or whiskey.<bibl><ref target="#PJThomas"><hi rend="italics">Bon Vivant's Companion</hi></ref></bibl></note>
+              gin, or whiskey <bibl><ref target="#PJThomas">Thomas 49-52</ref></bibl>.</note>
             <lb/>now <seg type="obliqueText" rendition="#ot1">and</seg> then. No one here seems to
             <lb/>mind it <seg type="obliqueText" rendition="#ot1">and</seg> of course I have said
             <lb/>nothing. He seems nice other ways <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>every one speaks well of him. He has
             <lb/>a good position <seg type="obliqueText" rendition="#ot1">and</seg> makes in the
             <lb/>vicinity of $50<ptr type="noteAnchor" target="money"/><note resp="ed" xml:id="money">According to the U.S. Bureau of Labor, $50 in 1913 is roughly equivalent to $1,101.29 
-              in 2010.<bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl></note> a week. Well all's
+              in 2010 <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>.</note> a week. Well all's
             <lb/>well that <choice><sic>end's</sic><corr>ends</corr></choice> well. $50 a week
             <lb/><seg type="obliqueText" rendition="#ot1">and</seg> all I would not marry him.
             <lb/>Of course he belongs to the <rs>club</rs> here <seg type="obliqueText" rendition="#ot1">and</seg>
@@ -3543,7 +3543,7 @@
             <lb/><rs>hairdressers</rs> to have a shampoo.
             <lb/>On account of the amount of alkali<ptr type="noteAnchor" target="alkali"/><note resp="ed" xml:id="alkali">A substance having the characteristics exemplified by soda, i.e. a caustic or 
               acrid taste, the power of neutralizing or effervecing with acids, and of forming soaps
-              with oils.<bibl><ref target="#OEDalkali">OED "alkali"</ref></bibl></note>
+              with oils <bibl><ref target="#OEDalkali">OED "alkali"</ref></bibl>.</note>
             <lb/>in the water people <choice><sic>can not</sic><corr>cannot</corr></choice> wash
             <lb/>their hair with it themselves. <persName ref="#AMM">Adelaide</persName>
             <lb/>and I made arrangements to go together
@@ -3566,7 +3566,7 @@
             <lb/>of it all soon.
           </p>
           <p>
-            <lb/><rs ref="#ACS">Uncle</rs>says I <hi rend="underlined">must</hi> stay to
+            <lb/><rs ref="#ACS">Uncle</rs> says I <hi rend="underlined">must</hi> stay to
             <lb/>see the <rs>Presidents</rs> meet <seg type="obliqueText" rendition="#ot1">and</seg> then I
             <lb/>can go home immediately after
             <pb facs="/2/24ce202a-ee9f-4674-8111-674e80d869d7"/>
@@ -3575,7 +3575,7 @@
             <lb/>chance to see anything of the kind
             <lb/>again. A revolution in <placeName ref="#Mexico">Mexico</placeName> is 
             <lb/>imminent if <persName ref="#PrD">Dias</persName> dies. The Vice
-            <lb/><persName ref="#VPR"><roleName><abbr>Pres.</abbr><expan>President</expan></roleName>Reyes</persName> wants to be <abbr>Pres.</abbr><expan>President</expan> and 
+            <lb/><persName ref="#VPR"><roleName><choice><abbr>Pres.</abbr><expan>President</expan></choice></roleName> Reyes</persName> wants to be <choice><abbr>Pres.</abbr><expan>President</expan></choice> and 
             <lb/><rs>the people</rs> hate him terribly. They
             <lb/>have to have Rurales<ptr type="noteAnchor" target="Rurales"/><note resp="ed" xml:id="Rurales">Rurales were the rural militia and government forces drawn from farmers. In the 
               latter years of President Diaz's presidency, he used the Rurales to censor the press and 
@@ -3595,7 +3595,7 @@
             <lb/>Hope you are better
           </p>
           <closer>
-            <lb/><salute>Love</salute><signed><persName ref="#GMS">Gladys</persName></signed>
+            <lb/><salute>Love</salute> <signed><persName ref="#GMS">Gladys</persName></signed>
           </closer>
         </div>
       </body>
