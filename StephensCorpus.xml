@@ -646,6 +646,10 @@
             <title level="a">alkali.</title> <title level="m">The Oxford English Dictionary Online</title> OED. 
             September 2011. Web. 1 Nov. 2011
           </bibl>
+          <bibl xml:id="EncyclopaediaEtiquette" n="Holt">Holt, Emily.
+            <title level="m"><hi rend="italics">Encyclopaedia of Etiquette: What to Write, What to Wear, What to Do, What to Say: A Book of Manners for Everday Use</hi></title>.
+            New York: McClure, 1901. Print.
+          </bibl>
           <bibl xml:id="OEDrevolution" n="revolution">
             <title level="a">revolution.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
             September 2011. Web. 15 Nov. 2011
@@ -3506,13 +3510,18 @@
             <lb/><persName ref="#AMM">Adelaide</persName> is getting some lovely
             <lb/>things to be married in. She is having
             <lb/>a pale blue broadcloth dress made. She
-            <lb/>has a handsome brown suit. Things are 
+            <lb/>has a handsome brown suit. <ptr type="noteAnchor" target="Wedding"/><note resp="ed" xml:id="Wedding">Though white wedding dresses were traditionally preferred in the United 
+              States and Great Britain since Queen Victoria's wedding in 1840, Emily Holt's 1901 <hi rend="italics">Encyclopaedia of Etiquette</hi> allows "brides who are married before twelve o'clock, or who go directly
+              from the altar to a train or boat" to "wear a becoming street dress of ladies' cloth, veiling, or silk, in a pale shade of blue" (Holt 238). Holt adds that if the bride wears this 
+              in place of the traditional white wedding gown, her hat is one of "the chief adjuncts of this toilette" (238). Based on Gladys's description of Adelaide's wedding attire in this 
+              letter and in her letter to her mother dated October 5, 1909, Adelaide seems to be preparing for a wedding that either takes place before noon or one from which she and her husband 
+              immediately depart afte the ceremony.<bibl><ref target="#EncyclopaediaEtiquette"><hi rend="italics">Encyclopaedia of Etiquette</hi></ref></bibl></note>Things are 
             <lb/>getting quite interesting I can tell
             <lb/>you. Just between you <seg type="obliqueText" rendition="#ot1">and</seg> I <persName ref="#THM">"the man"</persName>
             <lb/>has one bad feature. He takes a cocktail<ptr type="noteAnchor" target="Cocktail"/><note resp="ed" xml:id="Cocktail">In her September 22, 1909 letter to her mother, Gladys complains about "the man" 
               smelling of cocktail. Though Gladys uses the term "cocktail" as a particular drink, by
               1909 the term "cocktail" referred to a variety of drinks made from bitters and brandy, 
-              gin, or whiskey.<bibl><ref target="#PJThomas">Bon Vivant's Companion</ref></bibl></note>
+              gin, or whiskey.<bibl><ref target="#PJThomas"><hi rend="italics">Bon Vivant's Companion</hi></ref></bibl></note>
             <lb/>now <seg type="obliqueText" rendition="#ot1">and</seg> then. No one here seems to
             <lb/>mind it <seg type="obliqueText" rendition="#ot1">and</seg> of course I have said
             <lb/>nothing. He seems nice other ways <seg type="obliqueText" rendition="#ot1">and</seg>
