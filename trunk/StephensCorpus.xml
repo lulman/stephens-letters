@@ -794,9 +794,10 @@
           </bibl>
           <bibl xml:id="RS" n="Shannon">Shannon, Robin. <title level="m">Seattle's Historic Hotels</title>. 2010. <title>Google Books</title>.
           Web. 23 October 2011.</bibl>
-          <bibl xml:id="THC" n="THC"> <title level="a">The Holy City.</title> <note>J.J.McIntyre mentions that he is reading this work in his
-          8/23/1909 letter to Gladys Stephens. Although definite bibliographical information is not available for this title, J.J.McIntyre may
-          be referring to a fiction piece known as <title level="m">The Holy Land,</title> which was published in 1909. (The Library of Congress)</note></bibl>
+          <bibl xml:id="THC" n="THCUnknown"> <title level="a">The Holy City.</title></bibl>
+          <bibl xml:id="THL" n="TheHolyLand"> <title level="a"> The Holy Land. </title><title level="m">Chronicling America (The Library of 
+          Congress</title> Web. 15 Nov. 2011.
+          </bibl>
           <bibl xml:id="SR19091001" n="Henry">
             <title level="a">Henry Hiser, of joy riding fame</title>. <title level="j">The Seattle 
             Republican</title> 01 October 1909: 2. <title level="m">Chronicling America (The Library 
@@ -3868,7 +3869,9 @@
             <lb/>letters would be very nice to me but
             <lb/>nothing doing <choice><sic>untill</sic><corr>until</corr></choice> <placeName ref="#Seattle">Seattle</placeName> again!
             <lb/>I started to read a story last night
-            <lb/>called <title ref="#THC" level="a">the Holy City</title> and It promises
+            <lb/>called <title ref="#TheHolyCity" level="a">the Holy City</title><ptr type="noteAnchor" target="THC"/>
+            <note resp="ed" xml:id="TheHolyCity"> Although definitive bibliographical information is not available for this title, J.J.McIntyre may
+              be referring to a fiction piece known as <title level="a">The Holy Land,</title> which was published in 1909. <bibl><ref target="#TheHolyLand">Library of Congress</ref></bibl></note> and It promises
             <lb/>to be good. A few lines which I gave
             <lb/>special attention to were these</p>
           <p><lb/><q>"what is Love"</q></p>
