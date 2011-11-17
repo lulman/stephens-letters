@@ -140,6 +140,11 @@
                   <xsl:attribute name="target">self</xsl:attribute>Ed. Intro
                </xsl:element> || <strong>Views</strong>: Reading (current/<xsl:element name="a"><xsl:attribute name="href">#view</xsl:attribute><xsl:attribute name="target">self</xsl:attribute>about</xsl:element>) | 
                <xsl:element name="a">
+                  <xsl:attribute name="href">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensLetters-Standardized.html</xsl:attribute>
+                  <xsl:attribute name="target">self</xsl:attribute>
+                  Reading (Standardized)
+               </xsl:element>
+               <xsl:element name="a">
                   <xsl:attribute name="href">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensLetters-Diplomatic.html</xsl:attribute>
                   <xsl:attribute name="target">self</xsl:attribute>
                   Diplomatic
