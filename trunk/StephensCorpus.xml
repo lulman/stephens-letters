@@ -4632,7 +4632,7 @@
               engineer as competent compared to the the traditional worker allied to one or two jobs, even 
               though the tramp engineer also <quote>won't work in a place long enough to get married to the job. 
               They like new scenes and experiences and won't take back talk from anybody</quote> <bibl>
-              <ref target="#ICL">Lloyd</ref> 18</bibl>. It's unclear if McIntyre is stating that he has 
+              <ref target="#ICL">Lloyd 18</ref></bibl>. It's unclear if McIntyre is stating that he has 
               worked with literally the same person on five different ships, but the historical context 
               suggests that he is stating that the tramp engineers with whom he has worked all have exhibited 
               similar personalities and professional habits.
@@ -4641,7 +4641,7 @@
             i</unclear>ge</sic><corr>Voyage</corr></choice> It <choice><sic>did
               <unclear cert="high" reason="no dot over i">i</unclear>nt</sic><corr>didn't</corr></choice> 
             <lb/>even have Sense enough to rain only once we have 
-            <lb/>the Crew the Cannery crew from <placeName ref="#Klawock">Klawock</placeName>(this is 
+            <lb/>the Crew the Cannery crew from <placeName ref="#Klawock">Klawock</placeName> (this is 
             <lb/>the way it is <placeName ref="#Klawock">Klaw-wock</placeName>) and no Totem 
             <ptr type="noteAnchor" target="JJM19091004note1"/><note resp="ed" xml:id="JJM19091004note1">
               <placeName ref="#Tuxekan">Tuxekan</placeName> was renowned for its totem poles, and Klawock 
@@ -4659,7 +4659,7 @@
             yet <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             <pb facs="/d/d2d63fa4-8f27-45dd-857f-56d69e377a32"/>
             we arrived at <placeName ref="#Klawock">Klawock</placeName> at <time>
-              9<hi rend="superscripted and underlined"><del rend="overwritten">38</del>28</hi>
+              9<hi rend="superscripted"><hi rend="underlined"><del rend="overwritten">38</del>28</hi></hi>
             </time>-<date when="1909-09-29">9<del rend="overwritten">-</del>/29</date>
             &#x2014;and left <time when="12:30:00">12<hi rend="superscripted"><hi rend="underlined">30</hi></hi>
             </time>-<date when="1909-09-20">9-30</date> 
@@ -4685,7 +4685,7 @@
             <lb/><geogFeat>falls</geogFeat> the lower ones <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             not way up <del rend="strikethrough">the</del> where 
             <lb/>we went She got Some Pictures<unclear cert="medium">!</unclear> 
-            It was a fine day <seg type="obliqueText" rendition="#ot1">and</seg>  
+            It was a fine day <seg type="obliqueText" rendition="#ot1">and</seg> 
             <lb/>She is good Company&#x2014;But&#x2014;what a <choice><sic>differance</sic><corr>
               difference</corr></choice> from 
             <lb/>the last time I was there<unclear cert="medium">!</unclear> She is only 17 years of age 
