@@ -2049,7 +2049,7 @@
             <lb/>building is really
             <!--JLM: Need to find pictures of this Forestry Bldg and especially the columns on it! -->
             <lb/>mammoth. The columns are huge
-            <lb/>trees.<ptr type="noteAnchor" target="ForestryBuilding"/><note resp="ed" xml:id="ForestryBuilding">The Forestry Building served as a botanical and natural museum after the World's Fair concluded.  It was torn down in 1930, at which point the log columns that Gladys describes had been damaged beyond repair by insects.  The Forestry Building is described in detail on the University of Washington's Special Collections web site as being "sponsored by the State of Washington and was intended to showcase the state's forest resources. Architects Charles Saunders and George Lawton created a building that echoed the European style of Howard's buildings but which also incorporated the log-cabin idiom of early pioneer buildings. Featuring enormous unprocessed logs felled in Chehalis (now Gray's Harbor) County, the Forestry Building's grand colonnade and soaring interior spaces evoked the majesty of Washington's seemingly limitless forests and, not coincidentally, implied the great potential wealth they contained.</note><bibl><ref target="#UWash">University of Washington Library, Special Collections</ref></bibl> I got
+            <lb/>trees.<ptr type="noteAnchor" target="ForestryBld"/><note resp="ed" xml:id="ForestryBld">The Forestry Building served as a botanical and natural museum after the World's Fair concluded.  It was torn down in 1930, at which point the log columns that Gladys describes had been damaged beyond repair by insects.  The Forestry Building is described in detail on the University of Washington's Special Collections web site as being "sponsored by the State of Washington and was intended to showcase the state's forest resources. Architects Charles Saunders and George Lawton created a building that echoed the European style of Howard's buildings but which also incorporated the log-cabin idiom of early pioneer buildings. Featuring enormous unprocessed logs felled in Chehalis (now Gray's Harbor) County, the Forestry Building's grand colonnade and soaring interior spaces evoked the majesty of Washington's seemingly limitless forests and, not coincidentally, implied the great potential wealth they contained.</note><bibl><ref target="#UWash">University of Washington Library, Special Collections</ref></bibl> I got
             <lb/>what I hope will be
             <!--JLM: Any chance we can get our hands on the pictures she mentions in this next line? Or other references to her camera in other letters?-->                
             <lb/>a good picture of it.
@@ -2241,14 +2241,14 @@
           <p>
             <lb/><persName ref="#Hughes">Mrs. Hughes</persName> (the Virginian)
             <lb/>is a cousin of <persName ref="#MDG">Mrs. <unclear cert="medium">Dana</unclear>
-              <lb/>Gibson</persName> and <persName ref="#MWA">Mrs. Waldorf
-                <lb/>Astor</persName> (in England)<ptr type="noteAnchor" target="HughesCousins"/><note resp="ed" xml:id="HughesCousins">Mrs. Dana Gibson, born Irene Langhorne, was married to artist Charles Dana Gibson in 1895.  Nancy Langhorne married British politician Waldorf Astor and later succeeded him as a Member of Parliament; she was the first woman to sit in the British House of Commons.  Nancy and Irene are commonly credited as the source for the iconic Gibson Girl cartoons drawn by Charles Dana Gibson.</note><bibl><ref target="#Canaan">Daughters of Canaan: A Saga of Southern Women.</ref></bibl></note> I guess
+            <lb/>Gibson</persName> and <persName ref="#MWA">Mrs. Waldorf
+            <lb/>Astor</persName> (in England)<ptr type="noteAnchor" target="HughesCousins"/><note resp="ed" xml:id="HughesCousins">Mrs. Dana Gibson, born Irene Langhorne, was married to artist Charles Dana Gibson in 1895.  Irene's sister Nancy Langhorne married British politician Waldorf Astor and later succeeded him as a Member of Parliament; she was the first woman to sit in the British House of Commons.  Nancy and Irene are commonly credited as the source for the iconic Gibson Girl cartoons drawn by Charles Dana Gibson.</note><bibl><ref target="#Canaan">Daughters of Canaan: A Saga of Southern Women.</ref></bibl></note> I guess
             <lb/>I'll try and visit them.
             <lb/>Uncle wants me to visit
             <!--Gladys repeats the word "visit" here before and after the page break.  I have corrected it with a sic + an empty <corr> element since the correction is literally nothing.-->
             <pb facs="/a/a244ada2-8ce4-4bc4-80e9-da8a673bfd55"/>             
             <!-- More people who could become referring strings but aren't yet because we don't know enough about them -->
-            <lb/><choice><sic>visit</sic><corr></corr></choice> them. <rs ref="#Hughes"><persName ref="#MJ">Mrs. Jordon</persName>
+          <lb/><choice><sic>visit</sic><corr></corr></choice> them. <rs ref="#Hughes"><persName ref="#MJ">Mrs. Jordon</persName>
             <lb/>(Mrs. H's cousin) has lots of
             <lb/>money. Her husband died
             <lb/>5 yrs. ago and left a large
