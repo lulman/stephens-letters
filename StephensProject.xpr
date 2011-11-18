@@ -12,5 +12,6 @@
         <file name="Stephens-Diplomatic.xsl"/>
         <file name="Stephens-Edintro.xsl"/>
         <file name="Stephens-Reading.xsl"/>
+        <file name="Stephens-Standardized.xsl"/>
     </projectTree>
 </project>
