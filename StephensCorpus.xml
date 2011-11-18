@@ -643,11 +643,11 @@
             formatting (e.g., titles). -->
 
           <bibl xml:id="OEDalkali" n="alkali">
-            <title level="a">alkali.</title> <title level="m">The Oxford English Dictionary Online</title> OED. 
+            <title level="a">alkali.</title> <title level="j">The Oxford English Dictionary Online</title> OED. 
             September 2011. Web. 1 Nov. 2011
           </bibl>
           <bibl xml:id="EncyclopaediaEtiquette" n="Holt">Holt, Emily.
-            <title level="m"><hi rend="italics">Encyclopaedia of Etiquette: What to Write, What to Wear, What to Do, What to Say: A Book of Manners for Everday Use</hi></title>.
+            <title level="j">Encyclopaedia of Etiquette: What to Write, What to Wear, What to Do, What to Say: A Book of Manners for Everday Use</title>.
             New York: McClure, 1901. Print.
           </bibl>
           <bibl xml:id="OEDrevolution" n="revolution">
@@ -666,7 +666,7 @@
             <title level="a">CPI Inflation Calculator.</title> <title level="m">United States Department of Labor</title>.
             n.d. Web. 8 Nov. 2011
           </bibl>
-          <bibl xml:id="PJThomas" n="Thomas">Thomas, Jerry. <title level="m"><hi rend="italics">The Bon Vivant's Companion, or How to Mix Drinks</hi></title>.
+          <bibl xml:id="PJThomas" n="Thomas">Thomas, Jerry. <title level="j">The Bon Vivant's Companion, or How to Mix Drinks</title>.
             Ed. Herbert Asbury. 2nd ed. New York: Knopf, 1928. Print.
           </bibl>
           <bibl xml:id="BUYB1907" n="Boston1907">
@@ -761,7 +761,7 @@
            <title level="m">Proquest Historical Newspapers</title>. Web. 28 Oct. 2011.
          </bibl>
          <bibl xml:id="MexCS" n="Merrill">Merrill, Tim L. and Ramon Miro eds. 
-           <title level="m"><hi rend="italics">Mexico, A Country Study</hi></title>.
+           <title level="j">Mexico, A Country Study</title>.
            Library of Congress, n.d. Web. 8 Nov. 2011.
          </bibl>
          <bibl xml:id="Koppy" n="Koppy">Koppy, Ann. <title level="a">The Wreck of the 
@@ -829,7 +829,7 @@
             <title level="m">Google Books</title>. Web. 01 Nov. 2011.
           </bibl>
           <bibl xml:id="TexasHist" n="Taft">
-            <title level="a">Taft-Diaz Meeting.</title> <title level="m">Texas State Historical Association</title>
+            <title level="a">Taft-Diaz Meeting.</title> <title level="j">Texas State Historical Association</title> Texas State Historical Association
             n.d. Web. 03 NOv. 2011.
           </bibl>
           <bibl xml:id="WalledCity" n="Smith"> Smith, Robert Ross
@@ -3513,15 +3513,14 @@
             <lb/>things to be married in. She is having
             <lb/>a pale blue broadcloth dress made. She
             <lb/>has a handsome brown suit.<ptr type="noteAnchor" target="Wedding"/><note resp="ed" xml:id="Wedding">Though white wedding dresses were traditionally preferred in the United 
-              States and Great Britain since Queen Victoria's wedding in 1840, Emily Holt's 1901 <hi rend="italics">Encyclopaedia of Etiquette</hi> allows "brides who are married before twelve o'clock, or who go directly
+              States and Great Britain since Queen Victoria's wedding in 1840, Emily Holt's 1901 <title level="j">Encyclopaedia of Etiquette</title> allows "brides who are married before twelve o'clock, or who go directly
               from the altar to a train or boat" to "wear a becoming street dress of ladies' cloth, veiling, or silk, in a pale shade of blue" (Holt 238). Holt adds that if the bride wears this 
               in place of the traditional white wedding gown, her hat is one of "the chief adjuncts of this toilette" (238). Based on Gladys's description of Adelaide's wedding attire in this 
               letter and in her letter to her mother dated October 5, 1909, Adelaide seems to be preparing for a wedding that either takes place before noon or one from which she and her husband 
               immediately depart afte the ceremony <bibl><ref target="#EncyclopaediaEtiquette">Holt 238</ref></bibl>.</note> Things are 
             <lb/>getting quite interesting I can tell
             <lb/>you. Just between you <seg type="obliqueText" rendition="#ot1">and</seg> I <persName ref="#THM">"the man"</persName>
-            <lb/>has one bad feature. He takes a cocktail<ptr type="noteAnchor" target="Cocktail"/><note resp="ed" xml:id="Cocktail">In her September 22, 1909 letter to her mother, Gladys complains about "the man" 
-              smelling of cocktail. Though Gladys uses the term "cocktail" as a particular drink, by
+            <lb/>has one bad feature. He takes a cocktail<ptr type="noteAnchor" target="Cocktail"/><note resp="ed" xml:id="Cocktail">Though Gladys uses the term "cocktail" as a particular drink, by
               1909 the term "cocktail" referred to a variety of drinks made from bitters and brandy, 
               gin, or whiskey <bibl><ref target="#PJThomas">Thomas 49-52</ref></bibl>.</note>
             <lb/>now <seg type="obliqueText" rendition="#ot1">and</seg> then. No one here seems to
@@ -3581,7 +3580,7 @@
             <lb/><rs>the people</rs> hate him terribly. They
             <lb/>have to have Rurales<ptr type="noteAnchor" target="Rurales"/><note resp="ed" xml:id="Rurales">Rurales were the rural militia and government forces drawn from farmers. In the 
               latter years of President Diaz's presidency, he used the Rurales to censor the press and 
-              enforce his dominance through rural areas of Mexico.<bibl><ref target="#MexCS">Mexico, A Country Study</ref></bibl></note> <choice><sic>every where</sic><corr>everywhere</corr></choice> to
+              enforce his dominance through rural areas of Mexico.<bibl><ref target="#MexCS">Merrill and Miro</ref></bibl></note> <choice><sic>every where</sic><corr>everywhere</corr></choice> to
             <lb/>keep them quiet now even. He
             <lb/>simply will not hear of my going
             <lb/>before they meet. He said that he
