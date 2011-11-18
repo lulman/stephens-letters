@@ -4611,7 +4611,7 @@
           <p>
             <lb/>well <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
             I will be In <placeName ref="#Seattle">Seattle</placeName> <date when="1909-10-04">tonight</date> about 
-            <lb/><time when="23:32:00">11<hi rend="superscripted"><hi rend="underlined">32</hi></hi></time> I 
+            <lb/><time when="23:32:00">11<hi rend="superscript"><hi rend="underlined">32</hi></hi></time> I 
             <distinct type="babyTalk">fink</distinct><unclear cert="medium">!</unclear> 
             That's bad for I cannot get my mail 
             <lb/><choice><sic>untill</sic><corr>until</corr></choice> <date when="1909-10-05">tomorrow</date>,  
@@ -4641,27 +4641,26 @@
               Additionally, this kind of engineer is an interloper of sorts, frequently moving from job to job. 
               In <title level="j">The Engineers' Review</title> volume 16 (1905), I. C. Lloyd defends the tramp 
               engineer as competent compared to the the traditional worker allied to one or two jobs, even 
-              though the tramp engineer also <quote>won't work in a place long enough to get married to the job. 
-              They like new scenes and experiences and won't take back talk from anybody</quote> <bibl>
+              though the tramp engineer also <q>won't work in a place long enough to get married to the job. 
+              They like new scenes and experiences and won't take back talk from anybody</q> <bibl>
               <ref target="#ICL">Lloyd 18</ref></bibl>. It's unclear if McIntyre is stating that he has 
               worked with literally the same person on five different ships, but the historical context 
               suggests that he is stating that the tramp engineers with whom he has worked all have exhibited 
               similar personalities and professional habits.
             </note> we have had 
-            <lb/>exceedingly fine weather this <choice><sic>Vo<unclear cert="high" reason="no dot over i">
-            i</unclear>ge</sic><corr>Voyage</corr></choice> It <choice><sic>did
-              <unclear cert="high" reason="no dot over i">i</unclear>nt</sic><corr>didn't</corr></choice> 
+            <lb/>exceedingly fine weather this <choice><sic>Voige</sic><corr>Voyage</corr></choice> 
+            It <choice><sic>didint</sic><corr>didn't</corr></choice> 
             <lb/>even have Sense enough to rain only once we have 
             <lb/>the Crew the Cannery crew from <placeName ref="#Klawock">Klawock</placeName> (this is 
             <lb/>the way it is <placeName ref="#Klawock">Klaw-wock</placeName>) and no Totem 
             <ptr type="noteAnchor" target="JJM19091004note1"/><note resp="ed" xml:id="JJM19091004note1">
               <placeName ref="#Tuxekan">Tuxekan</placeName> was renowned for its totem poles, and Klawock 
               created a Totem Park to display authentic and replica totem poles, which McIntyre seems to 
-              anticipate here <bibl><ref target="#VI">"Visitor Information"</ref></bibl>. The preservation 
+              anticipate here <bibl><ref target="#VI"><title level="a">Visitor Information</title></ref></bibl>. The preservation 
               effort doesn't seem to be isolated, as a 1927 <title level="j">New York Times</title> 
-              article laments the Alaskan Indians' <quote>scant regard for the ritual of the old tradition</quote> of 
-              totem-making and relates the need for <quote>funds for the preservation of these monuments</quote> 
-              <bibl><ref target="#NYT2">"Deserted Totems of Alaska"</ref></bibl>. <figure rend="link">
+              article laments the Alaskan Indians' <q>scant regard for the ritual of the old tradition</q> of 
+              totem-making and relates the need for <q>funds for the preservation of these monuments</q> 
+              <bibl><ref target="#NYT2"><title level="a">Deserted Totems of Alaska</title></ref></bibl>. <figure rend="link">
                 <head>Totems at old Tuxekan</head>
                 <graphic url="http://vilda.alaska.edu/cdm4/item_viewer.php?CISOROOT=/cdmg21&amp;CISOPTR=9786&amp;REC=1"></graphic>
                 <figDesc>Photograph of totems at old Tuxekan, Alaska's Digital Archives and Alaska State Library</figDesc>
@@ -4670,17 +4669,17 @@
             yet <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             <pb facs="/d/d2d63fa4-8f27-45dd-857f-56d69e377a32"/>
             we arrived at <placeName ref="#Klawock">Klawock</placeName> at <time>
-              9<hi rend="superscripted"><hi rend="underlined"><del rend="overwritten">38</del>28</hi></hi>
+              9<hi rend="superscript"><hi rend="underlined"><del rend="overwritten">38</del>28</hi></hi>
             </time>-<date when="1909-09-29">9<del rend="overwritten">-</del>/29</date>
-            &#x2014;and left <time when="12:30:00">12<hi rend="superscripted"><hi rend="underlined">30</hi></hi>
+            &#x2014;and left <time when="12:30:00">12<hi rend="superscript"><hi rend="underlined">30</hi></hi>
             </time>-<date when="1909-09-20">9-30</date> 
             <lb/>and I expected to be there at least 24 hours and the <placeName ref="#Tuxekan">Indian 
             <lb/>Village</placeName> is <choice><sic>acrost</sic><corr>across</corr>
             </choice> the <geogFeat>bay</geogFeat> from the Cannery<ptr type="noteAnchor" target="JJM19091004note2"/>
             <note resp="ed" xml:id="JJM19091004note2">
-              <quote>[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878.</quote> 
+              <q>[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878.</q> 
               Until 1920, it remained the only salmon cannery in the state <bibl><ref target="#VI">
-              "Visitor Information"</ref></bibl>. McIntyre may intend for his involvement with what at the time 
+              <title level="a">Visitor Information</title></ref></bibl>. McIntyre may intend for his involvement with what at the time 
               was leading industrialization to impress Gladys, as he later takes a boastful tone when explaining 
               the specifications of the Northwestern in comparison to other ships. <figure rend="link">
                 <head>The Cannery at Klawock</head>
@@ -4728,16 +4727,14 @@
             <lb/>I <distinct type="babyTalk">fink</distinct> the world of that one you sent me, 
             but <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             <choice><sic>havent</sic><corr>haven't</corr></choice> 
-            <lb/>you got your <del rend="strikethrough"><unclear cert="medium" 
-              reason="strikethrough obscures letters">
-              hare</unclear></del><add place="above">hair</add> <choice><sic>Comed</sic>
+            <lb/>you got your <del rend="strikethrough">hare</del><add place="above">hair</add> <choice><sic>Comed</sic>
                 <corr>Combed</corr></choice> 
             <choice><sic>differant</sic><corr>differently</corr></choice> than when you were 
             <lb/>here! I <distinct type="juvenile">fink</distinct> So and listen 
             <persName ref="#GMS"><addName type="endearment">dear</addName></persName> did you know that you 
             <lb/><choice><sic>was</sic><corr>were</corr></choice> <distinct type="dialect">agetting</distinct> 
             a <choice><sic>lttle</sic><corr>little</corr></choice> kiss every night about 
-            <time when="21:30:00">9<hi rend="spercripted"><hi rend="underlined">30</hi></hi></time> well you 
+            <time when="21:30:00">9<hi rend="supercript"><hi rend="underlined">30</hi></hi></time> well you 
             <lb/>are&#x2014;See how I take advantage of you when you are not here 
             <lb/>take notice tonight <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             at that time and see if you Can Catch me 
@@ -4759,7 +4756,7 @@
               Here McIntyre seems to be referring to the boat on which he's currently sailing to catch up 
               with the Northwestern. The diminutive connotation fits with the boastful tone that he has 
               assumed to impress Gladys with the size and power of the Northwestern. Interestingly, the 
-              term "soap box" hasn't yet entered common usage as a way of designating a smaller, unpowered 
+              term <hi rend="italics">soap box</hi> hasn't yet entered common usage as a way of designating a smaller, unpowered 
               or low-power vehicle. It's possible that the "soap box" is a lightboat, which appears in the 
               closer to McIntyre's letter to Gladys of 13 August 1909.
             </note> 8&#x2014;<name type="ship" ref="#Northwestern">Northwestern</name> 6 boilers 
@@ -4773,8 +4770,8 @@
             get badly burnt It will be a wonder<unclear cert="medium">!</unclear><ptr type="noteAnchor" 
               target="JJM19091004note5"/><note resp="ed" xml:id="JJM19091004note5">
                 <title level="j">The Locomotive</title> reports that on <date when="1909-03-11">11 March 
-                1909</date>, <quote>[a] boiler exploded...on the steamer <hi rend="italics">Weitchpec</hi></quote> 
-                and <quote>Fireman Elmer Dennis was fatally scalded</quote> <bibl><ref target="#Locomotive">"March, 1909" 
+                1909</date>, <q>[a] boiler exploded...on the steamer <hi rend="italics">Weitchpec</hi></q> 
+                and <q>Fireman Elmer Dennis was fatally scalded</q> <bibl><ref target="#Locomotive"><title level="a">March, 1909</title> 
                 171</ref></bibl>. The serious and fatal nature of boiler accidents is clearly conveyed in 
                 the volume's sizeable monthly catalogues.
               </note> 
@@ -4795,34 +4792,34 @@
             <lb/>for me!<ptr type="noteAnchor" target="JJM19091004note6"/>
             <note resp="ed" xml:id="JJM19091004note6">
               The <date when="1909-09-23">September 23 issue of </date><title type="j">The Seattle Star</title> 
-              reports that <quote>a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. 
-              and Lane st. shortly before <time when="06:00:00">6 o'clock</time> this morning.</quote> It <quote>crashed to 
-              the tideflats below</quote> and <quote>turned turtle, pinning its occupants beneath.</quote> The auxiliary gas tank 
-              caught fire upon the vehicle's crash. The driver, Henry Hiser, <quote>managed to extricate himself</quote> and 
-              another passenger, but he <quote>scurried from the scene and was later placed under arrest</quote> <bibl>
-              <ref target="#SS19090923">"Two Girls Burned and Crushed Beyond Human Resemblance"</ref></bibl>. 
+              reports that <q>a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. 
+              and Lane st. shortly before <time when="06:00:00">6 o'clock</time> this morning.</q> It <q>crashed to 
+              the tideflats below</q> and <q>turned turtle, pinning its occupants beneath.</q> The auxiliary gas tank 
+              caught fire upon the vehicle's crash. The driver, Henry Hiser, <q>managed to extricate himself</q> and 
+              another passenger, but he <q>scurried from the scene and was later placed under arrest</q> <bibl>
+              <ref target="#SS19090923"><title level="a">Two Girls Burned and Crushed Beyond Human Resemblance</title></ref></bibl>. 
               The <date when="1909-10-01">October 1</date> issue of <title level="j">The Seattle Republican</title> 
-              further explains that Hiser <quote>hauled a seventeen-year-old girl from saloon to saloon all night long</quote> 
-              and <quote>drank until he was almost beastly drunk and then started over a dangerous road to the city at 
-              a speed of a mile a minute</quote> <bibl><ref target="#SR19091001">"Henry Hiser"</ref></bibl>. McIntyre 
+              further explains that Hiser <q>hauled a seventeen-year-old girl from saloon to saloon all night long</q> 
+              and <q>drank until he was almost beastly drunk and then started over a dangerous road to the city at 
+              a speed of a mile a minute</q> <bibl><ref target="#SR19091001"><title level="a">Henry Hiser</title></ref></bibl>. McIntyre 
               seems to admit here that he used to practice a similar lifestyle. In his letter to Gladys of 13 August 
               1909, he expresses his committment to abstaining from drinking and the repugnance of the idea 
-              of Gladys spending time with the drinking <quote>Class.</quote>
+              of Gladys spending time with the drinking <q>Class.</q>
             </note> <choice><sic>they</sic><corr>there</corr></choice> was also a 
             <add place="above">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 
             <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note7"/>
             <note resp="ed" xml:id="JJM19091004note7">
               The <date when="1909-10-01">October 1</date> issue of <title level="j">The Leavenworth Echo</title> 
-              reports that <quote>a Wallingford Avenue street car in Seattle jumped the track on a curve near the main 
+              reports that <q>a Wallingford Avenue street car in Seattle jumped the track on a curve near the main 
               gate of the [Alaska-Yukon Pacific] exposition. One man was killed, fifty five injured. It was the 
-              first serious street car accident since the exposition opened</quote> <bibl><ref target="#LE19091001">
-              "News of Pacific Northwest"</ref></bibl>. Drawing from contemporary articles in <title level="j">
+              first serious street car accident since the exposition opened</q> <bibl><ref target="#LE19091001">
+              <title level="a">News of Pacific Northwest</title></ref></bibl>. Drawing from contemporary articles in <title level="j">
               The Seattle Times</title> and <title level="j">The Seattle Post-Intelligencer</title>, Stein corroborates that 
-              <quote>[o]n September 24, 1909, a Seattle Electric Company streetcar jumps the track at the 
+              <q>[o]n September 24, 1909, a Seattle Electric Company streetcar jumps the track at the 
               corner of E 40th Street and 14th Avenue NE (later University Way). The streetcar crashes 
               into three concession buildings across the street from the main entrance of the 
               Alaska-Yukon-Pacific Exposition. One passenger, Frank Hull of Tacoma, is killed, 
-              and 55 men, women, and children are injured</quote> <bibl><ref target="#AJS">Stein</ref></bibl>.
+              and 55 men, women, and children are injured</q> <bibl><ref target="#AJS">Stein</ref></bibl>.
             </note> little 
             <lb/>do we know how Soon we will be blotted out 
             <lb/>of this world the best we Can do is to always be ready 
