@@ -4611,7 +4611,7 @@
             <handShift new="#JJMHand"/>
             <lb/><dateline><date when="1909-10-04">10/4 1909 
             </date><lb/><time when="05:00:00">5 A.M. </time></dateline>
-            <lb/><salute>Dear <persName ref="#GMS"><addName type="endearment">Girl</addName></persName></salute>
+            <lb/><lb/><salute>Dear <persName ref="#GMS"><addName type="endearment">Girl</addName></persName></salute>
           </opener>
           <p>
             <lb/>well <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
