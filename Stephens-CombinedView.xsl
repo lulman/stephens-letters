@@ -74,6 +74,9 @@
         <xsl:apply-templates/>
     </xsl:template>    
     <xsl:template match="tei:p"><xsl:apply-templates/></xsl:template>
+    <xsl:template match="tei:choice/tei:sic">
+        <xsl:apply-templates/> [sic] </xsl:template>
+    <xsl:template match="tei:choice/tei:corr"/>
     
     
 </xsl:stylesheet>

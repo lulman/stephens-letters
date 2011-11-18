@@ -405,9 +405,6 @@
       <xsl:apply-templates/>
    </xsl:template>
    <xsl:template match="tei:choice/tei:reg"/>
-   <xsl:template match="tei:choice/tei:sic">
-      <xsl:apply-templates/> [sic] </xsl:template>
-   <xsl:template match="tei:choice/tei:corr"/>
 
    <!--MISCELLANEOUS TEXTUAL FEATURES. -->
 
