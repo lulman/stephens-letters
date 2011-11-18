@@ -4564,14 +4564,14 @@
             <address>
             <addrLine><persName ref="#GMS">Miss. Gladys M. Stephens</persName></addrLine>
             <addrLine>#126 Leon Street</addrLine>
-            <addrLine><placeName ref="#ElPaso">El Paso Texas</placeName></addrLine>
+            <addrLine><placeName ref="#ElPaso">El Paso Texas.</placeName></addrLine>
             </address>
           </ab>
           <ab>
             <stamp type="postmark"> <placeName ref="#Seattle">SEATTLE, WASH.</placeName> / 
               <date when="1909-10-05">OCT 5 / <time>2 - 
               <gap reason="invisible" unit="characters" quantity="1"/>M</time> / 1909</date> 
-            <lb/><figure rend="link">
+            <figure rend="link">
               <head>Postmark</head>
               <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05.jpg?scale=0.5&amp;rgn=600,250,250,250&amp;fmt=png"></graphic>
               <figDesc>Postmark for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre</figDesc>
@@ -4579,7 +4579,12 @@
           </ab>
           <ab>
             <stamp type="cancellation">
-              World's / Fair / <placeName ref="#Seattle">Seattle</placeName> / <date when="1909">1909</date>
+              World's / Fair / <placeName ref="#Seattle">Seattle</placeName> / <date when="1909">1909</date> 
+              <figure rend="link">
+                <head>Cancellation</head>
+                <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05.jpg?scale=0.5&amp;rgn=825,250,400,225&amp;fmt=png"></graphic>
+                <figDesc>Cancellation for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre</figDesc>
+              </figure>
             </stamp>
           </ab>
           <figure rend="link">
