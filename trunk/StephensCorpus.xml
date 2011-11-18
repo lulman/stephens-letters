@@ -2486,7 +2486,7 @@
               <addrLine>SEATTLE, U.S.A.</addrLine>
             </address>          
           </ab>
-          <ab>
+          <ab type="postalAddress">
           <handShift new="#GMSHand"></handShift>
           <persName>Mrs. A.T. Stephens</persName>
           <address>
@@ -2494,7 +2494,11 @@
             <addrLine>Newton</addrLine>
             <addrLine>Massachusetts</addrLine>
           </address>
-            </ab>
+          </ab>
+          <ab>
+            <stamp type="postmark"> Seattle, Washington Aug 8 | 9 - PM | 1909</stamp>
+            <stamp type="cancellation"> World's Fair Seattle</stamp>
+          </ab>
        </div>
         <div type= "letter" xml:id="GS19090808let1">
           <pb facs="/4/42022a1e-2001-4124-ba14-eb5d4e54539e"/>
