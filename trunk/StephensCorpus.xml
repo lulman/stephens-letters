@@ -1955,7 +1955,7 @@
             </address>
           </ab>
           <ab type="endorsement">
-            <handShift new="Unknown"/> 95<ptr type="NoteAnchor" target="Endorsements1"/>
+            <handShift new="Unknown"/> 95<ptr type="noteAnchor" target="Endorsements1"/>
             <note resp="ed" xml:id="Endorsements1">Similar numbers are pencilled under the cancelled
               postage stamp on several envelopes in the collection.  The second
               number is circled.  For example, the letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
@@ -2009,7 +2009,7 @@
             <lb/>against the rules, but
             <!-- JLM question for HLU: I cited two sources in this note, not just one.  Hope I did it right. -->
             And here's an annotation that follows that guideline:
-            <lb/>the driver let me!<ptr type="noteAnchor" target="Stagecoach"/><note resp="#JLM" xml:id="Stagecoach">Gladys most likely drove a 4-horse <q>Yellowstone Observation Wagon,</q> which were stagecoach wagons used to take visitors on a <q>Grand Loop</q> of Yellowstone Park.  Starting in 1884, the Yellowstone Park Transportation Company operated on a stage coach line that began at the Northern Pacific Railroad terminal in Cinnabar, Montana, connected to the hotel at Mammoth Hot Springs, and continued throughout the park.  In his 1895 volume The Yellowstone Park, Hiram Martin Chittenden of the Army Corps of Engineers describes <q>tourist transportation</q> through the park as <q>mostly by coach, ordinarily with four horses each</q> (203). He comments that these coaches were a <q>necessity</q> because <q>The points of interest are so scattered</q> (274).<bibl><ref target="#NPSYellowstone">National Park Service</ref><ref target="#Chittenden">The Yellowstone Park</ref></bibl></note> When
+            <lb/>the driver let me!<ptr type="noteAnchor" target="Stagecoach"/><note resp="ed" xml:id="Stagecoach">Gladys most likely drove a 4-horse <q>Yellowstone Observation Wagon,</q> which were stagecoach wagons used to take visitors on a <q>Grand Loop</q> of Yellowstone Park.  Starting in 1884, the Yellowstone Park Transportation Company operated on a stage coach line that began at the Northern Pacific Railroad terminal in Cinnabar, Montana, connected to the hotel at Mammoth Hot Springs, and continued throughout the park.  In his 1895 volume The Yellowstone Park, Hiram Martin Chittenden of the Army Corps of Engineers describes <q>tourist transportation</q> through the park as <q>mostly by coach, ordinarily with four horses each</q> (203). He comments that these coaches were a <q>necessity</q> because <q>The points of interest are so scattered</q> (274).<bibl><ref target="#NPSYellowstone">National Park Service</ref><ref target="#Chittenden">The Yellowstone Park</ref></bibl></note> When
             <lb/>we met another coach
             </p>
             <pb facs="/a/a0b024c6-9808-4260-98b6-a1a6a645dac2"/>
@@ -2183,10 +2183,10 @@
           </ab>
           <!--Pretty sure this is an endorsement but should double-check with Louie, especially since it technically looks like it's in Gladys' handwriting  -->
           <ab type="endorsement">
-            <handShift new="#GMSHand"/>please do not forward<ptr type="NoteAnchor" target="Endorsements"/>
+            <handShift new="#GMSHand"/>please do not forward
           </ab>
           <ab type="endorsement">
-            <handShift new="Unknown"/>96<ptr type="NoteAnchor" target="Endorsements"/>
+            <handShift new="Unknown"/>96<ptr type="noteAnchor" target="endorsements"/>
             <note resp="ed" xml:id="endorsements">Similar numbers are penciled under the cancelled
               postage stamp on several envelopes in the collection.  The second
               number is circled.  The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
