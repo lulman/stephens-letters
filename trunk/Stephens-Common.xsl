@@ -62,6 +62,9 @@
                a.annotation {
                    text-decoration:none;
                }
+               a:hover {
+                   font-weight:bold;
+               }
                div#letter {
                    border : 3px groove #666666;
                    padding : 5px;
