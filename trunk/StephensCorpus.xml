@@ -1051,7 +1051,7 @@
               <placeName>Massachusetts</placeName>
             </birth>
             <residence when="1920" source="#Census1920GSM">Newton, MA</residence>
-            <education>A Gladys Mary Stephens from Newton, MA appears in lists of "Special Students"
+            <note type="biographical">A Gladys Mary Stephens from Newton, MA appears in lists of "Special Students"
               in the <title level="m">Boston University Yeark Book</title> for 1907 and 1909, but
               not for 1908. According to the <title level="m">Year Book</title> for 1907, students
               could be admitted as special students if they were "taking one or more particular
@@ -1061,7 +1061,7 @@
               classified in three groups, and Stephens appears in lists of the first group (Group
               A), "those enrolled in the College [of Liberal Arts] only" (special students in the
               other groups were enrolled in "Teachers' Courses" or in other departments of the
-              University.</education>
+              University.</note>
             <bibl>(<ref target="#BUYB1907"><title level="m">Year Book</title> 1907:
             43, 55, 158</ref>; <ref target="#BUYB1909"><title level="m">Year Book</title>
               1909: 44</ref>; <ref target="#Census1920GSM">United States Census, 1920</ref>)</bibl>
