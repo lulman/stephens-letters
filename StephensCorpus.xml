@@ -4594,6 +4594,7 @@
         <div type="letter" xml:id="JJM19091004let01" corresp="#JJM19091005env01">
           <pb facs="/f/f635d67f-a719-4f7f-ba63-4f930eddabfd"/>
           <head type="letterhead">
+            <handShift new="#Stationery"/>
             <lb/>Form 1 10m 8-09 <lb/>
             <figure rend="link">
               <head>Logo of the <orgName ref="#ASC">Alaska Steamship Company</orgName></head>
