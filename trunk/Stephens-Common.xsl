@@ -265,8 +265,24 @@
             N/A
          </xsl:otherwise>
       </xsl:choose></p>
-      <p>Mailing Address: <xsl:apply-templates select="tei:ab[@type='postalAddress']"/></p>
-      <p>Postmark: <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark']"/></p>      
+      <p>Mailing Address: 
+         <xsl:choose>
+            <xsl:when test="tei:ab[@type='postalAddress']">
+            <xsl:apply-templates select="tei:ab[@type='postalAddress']"/>
+            </xsl:when>
+            <xsl:otherwise>
+               N/A
+            </xsl:otherwise>
+          </xsl:choose></p>
+      <p>Postmark: 
+         <xsl:choose>
+            <xsl:when test="tei:ab/tei:stamp[@type='postmark']">
+            <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark']"/>
+            </xsl:when>
+            <xsl:otherwise>
+               N/A
+            </xsl:otherwise>
+         </xsl:choose></p>      
       <p>Cancellation: 
          <xsl:choose>
             <xsl:when test="tei:ab/tei:stamp[@type='cancellation']">
