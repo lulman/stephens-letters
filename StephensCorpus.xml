@@ -135,8 +135,15 @@
               <p>Bibliographic description here</p>                  
             </note>
             
-            <note type="introductory" resp="ed">
-              <p>Introductory note text here.</p>
+            <note type="introductory" resp="ed" xml:id="StephensIntroduction">
+              <p><hi rend="bold">A Header Here</hi></p>
+              <p>Introductory note text here. Example of <title level="m">A Monograph Title</title> and
+              a <title level="a">Journal Article.</title> [Note the placement of a period when it
+                needs to be placed inside the quotes around a journal title.] Example of an in-text citation
+                <bibl><ref target="#Census1910WDA">"United States Census 1910, for Willis D.
+                  Anderson," 45</ref></bibl>.</p>
+              <p><hi rend="bold">Run-in header</hi>. And if you need a run-in heading for a sub-section, you can
+                use this pattern. I don't think we will need any more granular pattern of headers.</p>
             </note> 
             
           </notesStmt>
