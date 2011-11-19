@@ -413,7 +413,9 @@
 
    <!-- Quotes -->
    <xsl:template match="tei:q">
+      <q>
       <xsl:apply-templates/>
+      </q>
    </xsl:template>
 
    <!-- Abbreviations -->
