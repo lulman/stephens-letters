@@ -247,7 +247,7 @@
             <xsl:text> (b. </xsl:text><xsl:value-of
             select="tei:birth/tei:date[@when]"/><xsl:if test="tei:death"> - d. <xsl:value-of
                select="tei:death/tei:date[@when]"></xsl:value-of></xsl:if>)</xsl:if>.
-          <xsl:value-of select="tei:note[@type='biographical']"/>.
+          <xsl:apply-templates select="tei:note[@type='biographical']"/>.
          </p>
       </xsl:for-each>
    </xsl:template>
