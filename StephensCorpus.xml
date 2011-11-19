@@ -1062,9 +1062,9 @@
               A), "those enrolled in the College [of Liberal Arts] only" (special students in the
               other groups were enrolled in "Teachers' Courses" or in other departments of the
               University.</note>
-            <bibl>(<ref target="#BUYB1907"><title level="m">Year Book</title> 1907:
+            <bibl><ref target="#BUYB1907"><title level="m">Year Book</title> 1907:
             43, 55, 158</ref>; <ref target="#BUYB1909"><title level="m">Year Book</title>
-              1909: 44</ref>; <ref target="#Census1920GSM">United States Census, 1920</ref>)</bibl>
+              1909: 44</ref>; <ref target="#Census1920GSM">United States Census, 1920</ref></bibl>
             <!-- Add definition of special student (52-53). -->
           </person>
           <person xml:id="JJM">
@@ -1266,8 +1266,8 @@
               Steamship Company's headquarters in Seattle argues for the plausibility of Irene Palmer 
               hitching a ride to spend time with her brother and to see the landscape of the Pacific 
               Northwest.
-              <bibl>(<ref target="#Census1900IP">United States Census, 1900</ref>; 
-              <ref target="#Census1910IP">United States Census, 1910</ref>)</bibl>
+              <bibl><ref target="#Census1900IP">United States Census, 1900</ref>; 
+              <ref target="#Census1910IP">United States Census, 1910</ref></bibl>
             </note>
           </person>
           <person xml:id="HEP">
@@ -1300,19 +1300,19 @@
               the head of the Palmer household, Gustavus Palmer, was born in Maine. Herbert's mother, 
               Minnie T. Palmer, was born in Massachusetts, and didn't marry Gustavus until 1882, 
               approximately 6 years after Herbert's birth. 
-              <bibl>(<ref target="#Census1900HEP">United States Census, 1900</ref>; 
+              <bibl><ref target="#Census1900HEP">United States Census, 1900</ref>; 
               <ref target="#Census1900MTP">United States Census, 1900</ref>; <ref target="#Census1910IP">
               United States Census, 1910</ref>; <ref target="#Census1920MP">United States Census, 1920</ref>; 
               <ref target="#Census1920HEP">United States Census, 1920</ref>;<ref target="#Census1930HEP">
-              United States Census, 1930</ref>)</bibl>
+              United States Census, 1930</ref></bibl>
             </note>
           </person>
           <person xml:id="HH">
             <persName>Hiser, Henry</persName>
             <note type="biographical">
               After a night of drinking, Henry Hiser crashed an automobile carrying approximately seven 
-              passengers and fled the scene <bibl>(<ref target="#SS19090923"><title level="a">Two Girls Burned and Crushed 
-              Beyond Human Resemblance</title></ref>)</bibl>. James J. McIntyre refers to this accident in his letter 
+              passengers and fled the scene <bibl><ref target="#SS19090923"><title level="a">Two Girls Burned and Crushed 
+              Beyond Human Resemblance</title></ref></bibl>. James J. McIntyre refers to this accident in his letter 
               to Gladys M. Stephens of 04 October 1909, and insists that he has moved on from such a lifestyle.
             </note>
           </person>
