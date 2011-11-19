@@ -401,6 +401,7 @@
       <a>
          <xsl:attribute name="href">#n<xsl:value-of select="@target"/></xsl:attribute>
          <xsl:attribute name="class">annotation</xsl:attribute>
+         <xsl:attribute name="title"><xsl:value-of select="normalize-space(following::tei:note[1])"></xsl:value-of></xsl:attribute>
          <sup>
             <xsl:number level="any" count="tei:ptr[@type='noteAnchor']"/>
             <xsl:apply-templates/>
