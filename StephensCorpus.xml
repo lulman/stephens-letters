@@ -3799,7 +3799,7 @@
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>Title</title>
+          <title>J.J. McIntyre to Gladys Stephens, 23 August 1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
@@ -3869,8 +3869,7 @@
             </figDesc>
           </figure>
         </div>
-        <div type="letter" xml:id="JJM19090823let01" corresp="JJM19090823env01"> </div>
-        <div> 
+        <div type="letter" xml:id="JJM19090823let01" corresp="JJM19090823env01">
           <pb facs="/2/2edb5373-006c-49cd-bb10-39e021006dcb"/>
           <opener>
             <handShift new="JJMHand"/>
