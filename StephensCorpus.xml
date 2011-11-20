@@ -803,7 +803,7 @@
             Zwiefelhofer, David B. <title level="m">Find Latitude and Longitude</title>. 2011. Web.
             31 Oct. 2011.
           </bibl>
-          <bibl xml:id="RS" n="Shannon">Shannon, Robin. <title level="m">Seattle's Historic Hotels</title>. 2010. <title>Google Books</title>.
+          <bibl xml:id="RS" n="Shannon">Shannon, Robin. <title level="m">Seattle's Historic Hotels</title>. 2010. <title level="m">Google Books</title>.
           Web. 23 October 2011.</bibl>
           <bibl xml:id="THL" n="TheHolyLand"> <title level="a"> The Holy Land. </title><title level="m">Library of 
           Congress Authorities</title> Web. 15 Nov. 2011.
@@ -2540,12 +2540,12 @@
             <lb/>As a souvenir I have the
             <lb/>official list of the passangers
             <lb/>who sailed from <placeName>Seattle</placeName>.  It
-            <lb/>was posted by the Purser<ptr type="noteAnchor" target="Purser"/><note resp="ed" xml:id="Purser">The Purser on a cruise ship traditionally has several important responsibilities.  
+            <lb/>was posted by the Purser, and
+            he gave it to me.<ptr type="noteAnchor" target="Purser"/><note resp="ed" xml:id="Purser">The Purser on a cruise ship traditionally has several important responsibilities.  
               They provide customer service to guests; they also handle money on board, for both the ship's crew and its guests— which may have involved buying luxury goods on credit
-              and bringing them aboard.  The Purser also helps guests with paperwork such as customs declarations.  Their duties are similar in definition to the steward.  So, given that a Purser would be in charge of all manners
-            of record-keeping, both personally and financially, for all people on board, it makes sense that Gladys would have obtained said "official list of the passangers"
-            from the Purser.<bibl><ref> target="#MarineWatch"</ref></bibl></note>, and
-            he gave it to me.
+              and bringing them aboard.  The Purser also helps guests with paperwork such as customs declarations.  Their duties are similar in definition to the ship's steward.  So, given that a Purser would be in charge of all manners
+              of record-keeping, both personally and financially, for all people on board, it makes sense that Gladys would have obtained this kind of souvenir
+              from the Purser.<bibl><ref> target="#MarineWatch"</ref></bibl></note>
           </p>
           <p>
             <lb/>I'd like to know what is
@@ -2601,12 +2601,12 @@
             <lb/>2.  I did at 12.  It seems awfully
             <lb/>funny to be on land again.
             <lb/>They certainly were glad to see
-            <lb/>us here at the hotel<ptr type="noteAnchor" target="hotel"/><note resp="ed"
+            <lb/>us here at the hotel.<ptr type="noteAnchor" target="hotel"/><note resp="ed"
               xml:id="hotel">As is clear from previous letters, and from her comment here that "They certainly were
             glad to see us here at the hotel," Gladys and apparently the other passengers on the excursion to Alaska
             stayed at the Hotel Georgian before and after the voyage north, and it is a familiar place to the group.  The Hotel Georgian was, in fact, a 
             new hotel in Seattle when these visitors were staying there, built only one year before in 1908.  It had seven floors and 
-            108 rooms.<bibl><ref target="#RS"></ref>r</bibl></note>.
+            108 rooms.<bibl><ref target="#RS"></ref>r</bibl></note>
           </p>
           <p>
             <lb/>Well you never can tell what
