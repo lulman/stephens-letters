@@ -760,11 +760,11 @@
          </bibl>
          <bibl xml:id="NYT1" n="North Pacific">
            <title level="a">The North Pacific Steamship Company Chartered.</title> <title
-             level="m">New York Times</title>. 07 March 1869. Web. 22 Oct. 2011.
+             level="m">New York Times</title> 07 March 1869: n. pag. Web. 22 Oct. 2011.
          </bibl>
          <bibl xml:id="NYT2" n="Deserted">
            <title level="a">Deserted Totems of Alaska: Traditional Symbols of Tribal Power Yield to 
-           the White Man's Progress.</title> <title level="m">New York Times</title>. 02 October 1927. 
+           the White Man's Progress.</title> <title level="m">New York Times</title> 02 October 1927: n. pag.  
            <title level="m">Proquest Historical Newspapers</title>. Web. 28 Oct. 2011.
          </bibl>
          <bibl xml:id="MexCS" n="Merrill">Merrill, Tim L. and Ramon Miro eds. 
@@ -832,7 +832,7 @@
             01 Nov. 2011.
           </bibl>
           <bibl xml:id="Locomotive" n="March">
-            <title level="a">March, 1909</title>. <title level="j">The Locomotive</title> 27: 169-171. 
+            <title level="a">March, 1909</title>. <title level="j">The Locomotive</title> 27 (1909): 169-171. 
             <title level="m">Google Books</title>. Web. 01 Nov. 2011.
           </bibl>
           <bibl xml:id="TexasHist" n="Taft">
@@ -4678,7 +4678,7 @@
             It <choice><sic>didint</sic><corr>didn't</corr></choice> 
             <lb/>even have Sense enough to rain only once we have 
             <lb/>the Crew the Cannery crew from <placeName ref="#Klawock">Klawock</placeName> (this is 
-            <lb/>the way it is <placeName ref="#Klawock">Klaw-wock</placeName>) and no Totem 
+            <lb/>the way it is <placeName ref="#Klawock">Klaw-wock</placeName>) and no Totem
             <ptr type="noteAnchor" target="JJM19091004note1"/><note resp="ed" xml:id="JJM19091004note1">
               <placeName ref="#Tuxekan">Tuxekan</placeName> was renowned for its totem poles, and Klawock 
               created a Totem Park to display authentic and replica totem poles, which McIntyre seems to 
@@ -4817,7 +4817,7 @@
               </addName></persName> <hi rend="underline">no more</hi> 
             <lb/>for me!<ptr type="noteAnchor" target="JJM19091004note6"/>
             <note resp="ed" xml:id="JJM19091004note6">
-              The <date when="1909-09-23">September 23 issue of </date><title type="j">The Seattle Star</title> 
+              The <date when="1909-09-23">September 23 issue of </date><title level="j">The Seattle Star</title> 
               reports that <q>a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. 
               and Lane st. shortly before <time when="06:00:00">6 o'clock</time> this morning.</q> It <q>crashed to 
               the tideflats below</q> and <q>turned turtle, pinning its occupants beneath.</q> The auxiliary gas tank 
