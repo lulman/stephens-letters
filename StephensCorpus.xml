@@ -2012,7 +2012,18 @@
             <lb/>against the rules, but
             <!-- JLM question for HLU: I cited two sources in this note, not just one.  Hope I did it right. -->
             And here's an annotation that follows that guideline:
-            <lb/>the driver let me!<ptr type="noteAnchor" target="Stagecoach"/><note resp="ed" xml:id="Stagecoach">Gladys most likely drove a 4-horse <q>Yellowstone Observation Wagon,</q> which were stagecoach wagons used to take visitors on a <q>Grand Loop</q> of Yellowstone Park.  Starting in 1884, the Yellowstone Park Transportation Company operated on a stage coach line that began at the Northern Pacific Railroad terminal in Cinnabar, Montana, connected to the hotel at Mammoth Hot Springs, and continued throughout the park.  In his 1895 volume The Yellowstone Park, Hiram Martin Chittenden of the Army Corps of Engineers describes <q>tourist transportation</q> through the park as <q>mostly by coach, ordinarily with four horses each</q> (203). He comments that these coaches were a <q>necessity</q> because <q>The points of interest are so scattered</q> (274).<bibl><ref target="#NPSYellowstone">National Park Service</ref><ref target="#Chittenden">The Yellowstone Park</ref></bibl></note> When
+            <lb/>the driver let me!<ptr type="noteAnchor" target="Stagecoach"/><note resp="ed" xml:id="Stagecoach">Gladys most likely drove a 4-horse <q>Yellowstone
+                Observation Wagon,</q> which were stagecoach wagons used to take visitors on a
+                <q>Grand Loop</q> of Yellowstone Park. Starting in 1884, the Yellowstone Park
+              Transportation Company operated on a stage coach line that began at the Northern
+              Pacific Railroad terminal in Cinnabar, Montana, connected to the hotel at Mammoth Hot
+              Springs, and continued throughout the park. In his 1895 volume The Yellowstone Park,
+              Hiram Martin Chittenden of the Army Corps of Engineers describes <q>tourist
+                transportation</q> through the park as <q>mostly by coach, ordinarily with four
+                horses each</q> (203). He comments that these coaches were a <q>necessity</q>
+              because <q>The points of interest are so scattered</q> (274).<bibl><ref
+                  target="#NPSYellowstone">National Park Service</ref><ref target="#Chittenden">The
+                  Yellowstone Park</ref></bibl></note> When
             <lb/>we met another coach
             </p>
             <pb facs="/a/a0b024c6-9808-4260-98b6-a1a6a645dac2"/>
@@ -2245,7 +2256,13 @@
             <lb/><persName ref="#Hughes">Mrs. Hughes</persName> (the Virginian)
             <lb/>is a cousin of <persName ref="#MDG">Mrs. <unclear cert="medium">Dana</unclear>
             <lb/>Gibson</persName> and <persName ref="#MWA">Mrs. Waldorf
-            <lb/>Astor</persName> (in England)<ptr type="noteAnchor" target="HughesCousins"/><note resp="ed" xml:id="HughesCousins">Mrs. Dana Gibson, born Irene Langhorne, was married to artist Charles Dana Gibson in 1895.  Irene's sister Nancy Langhorne married British politician Waldorf Astor and later succeeded him as a Member of Parliament; she was the first woman to sit in the British House of Commons.  Nancy and Irene are commonly credited as the source for the iconic Gibson Girl cartoons drawn by Charles Dana Gibson.<bibl><ref target="#Canaan">Daughters of Canaan: A Saga of Southern Women.</ref></bibl></note> I guess
+            <lb/>Astor</persName> (in England)<ptr type="noteAnchor" target="HughesCousins"/><note resp="ed" xml:id="HughesCousins">Mrs. Dana Gibson, born Irene Langhorne, was
+              married to artist Charles Dana Gibson in 1895. Irene's sister Nancy Langhorne married
+              British politician Waldorf Astor and later succeeded him as a Member of Parliament;
+              she was the first woman to sit in the British House of Commons. Nancy and Irene are
+              commonly credited as the source for the iconic Gibson Girl cartoons drawn by Charles
+              Dana Gibson.<bibl><ref target="#Canaan">Daughters of Canaan: A Saga of Southern
+                  Women.</ref></bibl></note> I guess
             <lb/>I'll try and visit them.
             <lb/>Uncle wants me to visit
             <!--Gladys repeats the word "visit" here before and after the page break.  I have corrected it with a sic + an empty <corr> element since the correction is literally nothing.-->
@@ -3867,7 +3884,8 @@
             <lb/>my self to let you down easy this 
             <lb/>time and not write so much but it
             <lb/>promises to be a long watch for
-            <lb/>we are running<ptr type="noteAnchor" target="running"/><note resp="ed" xml:id="running">The action of sailing before the wind.<bibl><ref target="#OEDrunning">OED "running"</ref></bibl></note> dead slow looking
+            <lb/>we are running<ptr type="noteAnchor" target="running"/><note resp="ed" xml:id="running">The action of sailing before the wind.<bibl><ref
+                  target="#OEDrunning">OED "running"</ref></bibl></note> dead slow looking
             <lb/>for a prominent <geogFeat>Cape</geogFeat>! <placeName ref="#CapeSt.Elias">Cape St
             <lb/>Elias</placeName> by name. and a watch under
             <lb/>a slow Bell is always a long one
