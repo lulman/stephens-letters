@@ -814,7 +814,7 @@
             of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
           <bibl xml:id="MHP" n="Maritime">
-            Maritime Heritage Program, National Park Service. <title level="a">Lightships of the U.S.</title>.
+            Maritime Heritage Program, National Park Service. <title level="a">Lightships of the U.S.</title>
             <title level="m">Lighthouse Heritage</title>. National Park Service, 18 Apr. 2002. Web. 10 Nov. 2011.
           </bibl>
           <bibl xml:id="SS19090923" n="Two">
@@ -2833,12 +2833,13 @@
             <lb/>before I see you I simply cant
             <lb/>It <choice><sic>Seams</sic><corr>seems</corr></choice> almost a year now
             <lb/>And the good old <name type="ship" ref="#SantaClara">Santa Clara</name> She
+            <!-- Add note about mail boats -->
             <lb/>or <q>he</q> (as it is a mail boat) is a friend
             <lb/>of mine And I may Soon be back 
+            <!-- Add note about Chief and superintendent engineer -->
             <lb/>again the Chief was down to See me
             <lb/>last night and he don't want me
             <lb/>to make this trip So I Saw the <unclear reason="illegible" cert="low">Supt</unclear>
-            <!-- While trying to research the second of the two unclear words, I came across "aluguel," which is a Spanish word that has something to do with ship repairs -->
             <lb/><unclear reason="illegible" cert="low">engr</unclear>to day and he transferred me to 
             <lb/>the <name type="ship" ref="#Northwestern">North Western</name> <del rend="overstrike">She</del> he Sails
             <pb facs="/f/fe83c5c8-21a3-4819-9cfc-5f5cae2bca37
@@ -2849,8 +2850,8 @@
             <lb/>Sails and that means <unclear reason="illegible" cert="high">$</unclear>
             1200 per year<ptr type="noteAnchor" target="TPA"/>
             <note resp="ed" xml:id="TPA">According to the U.S. Bureau of Labor Statistics, $1200 in 1913 
-              would be approximately equivalent to $27,502 in 2011 <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl></note>
-            <lb/>&amp;expenses I didn't mind before
+              would be approximately equivalent to $27,502 in 2011 <bibl><ref target="#USLab">(CPI Inflation Calculator)</ref></bibl></note>
+            <lb/>&amp; expenses I didn't mind before
           </p>
           <p>
             <lb/>But now -- <persName ref="#GMS"><addName type="nickname">Neddie</addName></persName>
@@ -2945,10 +2946,10 @@
             <lb/>&amp; lightboat<ptr type="noteAnchor" target="LB"/>
             <note resp="ed" xml:id="LB">"Lightboat" commonly refers to "lightship," a term used to describe 
             the ships used by the federal government in tandem with lighthouses to help keep American coasts safe. 
-            According to the National Park Service, <q>In all, 179 lightships were built between 1820 and the 1952 
+            According to the National Park Service, <q>"In all, 179 lightships were built between 1820 and the 1952 
               and in 1909, the heyday of the United States Lighthouse Service, there were 51 lightships 
-              (46 on the eastern seaboard and five on the Pacific Coast) on station in the United States.</q> 
-              <bibl><ref target="#MHP">Maritime Heritage Program</ref></bibl>
+              (46 on the eastern seaboard and five on the Pacific Coast) on station in the United States"</q> 
+              <bibl><ref target="#MHP">(Maritime Heritage Program).</ref></bibl> 
             McIntyre apparently worked on one of the five lightships stationed on the Pacific coast.</note>
             <lb/>"Note Date"
             <lb/><dateline><date when="1909-08-13">Friday 13th / 09</date></dateline>
