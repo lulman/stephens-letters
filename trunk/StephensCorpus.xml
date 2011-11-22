@@ -1644,46 +1644,6 @@
     <!-- Now we transcribe and encode the text of the letter and accompanying materials. -->
     <text>
       <body>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71"/>
-          <ab type="returnAddress">
-            <handShift new="#Stationery"/>
-            <address>
-            <addrLine>Hotel Georgian</addrLine>
-            <addrLine>Fourth Avenue</addrLine>
-            <addrLine>Pike &amp; Union</addrLine>
-            <addrLine>Seattle, U. S. A.</addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <handShift new="#GMSHand"/>
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-            <addrLine>26 Emerson street</addrLine>
-            <addrLine>Newton</addrLine>
-            <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-              number is circled.</note>
-          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
         <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
           Or perhaps we should us forme work <fw>. But I think not. -->
         <div type="letter" xml:id="GS19090706let01" corresp="#GS19090706env01">
@@ -1867,6 +1827,46 @@
           </closer>
           <!-- If there were a <postscript>, we have a tag for that. -->
         </div>
+        <!-- First, the envelope. -->
+        <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
+          <pb facs="/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71"/>
+          <ab type="returnAddress">
+            <handShift new="#Stationery"/>
+            <address>
+            <addrLine>Hotel Georgian</addrLine>
+            <addrLine>Fourth Avenue</addrLine>
+            <addrLine>Pike &amp; Union</addrLine>
+            <addrLine>Seattle, U. S. A.</addrLine>
+            </address>
+          </ab>
+          <ab type="postalAddress">
+            <handShift new="#GMSHand"/>
+            <persName>Mrs. A. T. Stephens</persName>
+            <address>
+            <addrLine>26 Emerson street</addrLine>
+            <addrLine>Newton</addrLine>
+            <addrLine>Massachusetts</addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+            <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
+            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
+              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
+              number is circled.</note>
+          </ab>
+          <ab>
+            <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
+            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
+          </ab>
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
+              vertically; Design A139]</figDesc>
+          </figure>
+          <!-- See http://www.jamesdire.net/W-F.html -->
+        </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
       </body>
     </text>
@@ -1944,48 +1944,7 @@
     <!-- Now we transcribe and encode the text of the letter and accompanying materials. -->
     <text>
       <body>
-        <!-- First, the envelope. -->
-        <!-- JLM: Question for Louie: In the markup guidelines, there is ambiguity about whether the xml:id should have three initials in the name or just two (aka GS or GMS for Gladys Stephens).  Which do you prefer? -->
-        <div type="envelope" xml:id="GS19090710env01" corresp="#GS19090710let01">
-          <pb facs="/2/27454eee-f99f-4502-a34c-db65724726d5"/>
-          <ab type="returnAddress">
-            <handShift new="#Stationery"/>
-            <address>
-            <addrLine>Hotel Georgian</addrLine>
-            <addrLine>Fourth Avenue</addrLine>
-            <addrLine>Pike &amp; Union</addrLine>
-            <addrLine>Seattle, U. S. A.</addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <handShift new="#GMSHand"/>
-            <address>
-            <addrLine>Mr. A. T. Stephens</addrLine>
-            <addrLine>26 Emerson St.</addrLine>
-            <addrLine>Newton</addrLine>
-            <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <handShift new="Unknown"/> 95<ptr type="noteAnchor" target="Endorsements1"/>
-            <note resp="ed" xml:id="Endorsements1">Similar numbers are pencilled under the cancelled
-              postage stamp on several envelopes in the collection.  The second
-              number is circled.  For example, the letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
-          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. / JUL 10 / 1030 - PM / 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909</stamp>
-          </ab>
-          <!-- JLM: My graphic URLS always show the entire envelope regardless of how I've asked them to show a specific region.  So annoying.  Happens with the stamp and with the letterhead. -->
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/2/27454eee-f99f-4502-a34c-db65724726d5.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
+
         <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
           Or perhaps we should us forme work <fw>. But I think not. -->
         <div type="letter" xml:id="GS19090710let01" corresp="#GS19090710env01">
@@ -2110,6 +2069,48 @@
             <lb/>7/10/109
           </closer>
         </div>
+        <!-- First, the envelope. -->
+        <!-- JLM: Question for Louie: In the markup guidelines, there is ambiguity about whether the xml:id should have three initials in the name or just two (aka GS or GMS for Gladys Stephens).  Which do you prefer? -->
+        <div type="envelope" xml:id="GS19090710env01" corresp="#GS19090710let01">
+          <pb facs="/2/27454eee-f99f-4502-a34c-db65724726d5"/>
+          <ab type="returnAddress">
+            <handShift new="#Stationery"/>
+            <address>
+            <addrLine>Hotel Georgian</addrLine>
+            <addrLine>Fourth Avenue</addrLine>
+            <addrLine>Pike &amp; Union</addrLine>
+            <addrLine>Seattle, U. S. A.</addrLine>
+            </address>
+          </ab>
+          <ab type="postalAddress">
+            <handShift new="#GMSHand"/>
+            <address>
+            <addrLine>Mr. A. T. Stephens</addrLine>
+            <addrLine>26 Emerson St.</addrLine>
+            <addrLine>Newton</addrLine>
+            <addrLine>Massachusetts</addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+            <handShift new="Unknown"/> 95<ptr type="noteAnchor" target="Endorsements1"/>
+            <note resp="ed" xml:id="Endorsements1">Similar numbers are pencilled under the cancelled
+              postage stamp on several envelopes in the collection.  The second
+              number is circled.  For example, the letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
+          </ab>
+          <ab>
+            <stamp type="postmark"> SEATTLE, WASH. / JUL 10 / 1030 - PM / 1909 </stamp>
+            <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909</stamp>
+          </ab>
+          <!-- JLM: My graphic URLS always show the entire envelope regardless of how I've asked them to show a specific region.  So annoying.  Happens with the stamp and with the letterhead. -->
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/2/27454eee-f99f-4502-a34c-db65724726d5.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
+              vertically; Design A139]</figDesc>
+          </figure>
+          <!-- See http://www.jamesdire.net/W-F.html -->
+        </div>      
       </body>
     </text>
   </TEI>
@@ -2183,51 +2184,7 @@
     <!-- Now we transcribe and encode the text of the letter and accompanying materials. -->
     <text>
       <body>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19090714env01" corresp="#GS19090714let01">
-          <pb facs="/4/45c83c28-1496-4f31-85b8-a16c686553bf"/>
-          <ab type="returnAddress">
-            <handShift new="#Stationery"/>
-            <address>
-            <addrLine>Hotel Georgian</addrLine>
-            <addrLine>Fourth Avenue</addrLine>
-            <addrLine>Pike &amp; Union</addrLine>
-            <addrLine>Seattle, U. S. A.</addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <handShift new="#GMSHand"/>
-            <address>
-            <addrLine>Mrs. A. T. Stephens</addrLine>
-            <addrLine>26 Emerson St.</addrLine>
-            <addrLine>Newton</addrLine>
-            <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <!--Pretty sure this is an endorsement but should double-check with Louie, especially since it technically looks like it's in Gladys' handwriting  -->
-          <ab type="endorsement">
-            <handShift new="#GMSHand"/>please do not forward
-          </ab>
-          <ab type="endorsement">
-            <handShift new="Unknown"/>96<ptr type="noteAnchor" target="endorsements"/>
-            <note resp="ed" xml:id="endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection.  The second
-              number is circled.  The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
-          </ab>
-          <ab>
-            <stamp type="postmark"> SEATTLE, WASH. / JUL 14 / 7 - PM / 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909</stamp>
-          </ab>
-          <!-- My graphic URLS always show the entire envelope regardless of how I've asked them to show a specific region.  So annoying.  Happens with the stamp and with the letterhead. -->
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/45c83c28-1496-4f31-85b8-a16c686553bf.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
+
         <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
           Or perhaps we should us forme work <fw>. But I think not. -->
         <div type="letter" xml:id="GS19090714let01" corresp="#GS19090714env01">
@@ -2311,6 +2268,51 @@
             <lb/>7/14/109
           </closer>
         </div>
+        <!-- First, the envelope. -->
+        <div type="envelope" xml:id="GS19090714env01" corresp="#GS19090714let01">
+          <pb facs="/4/45c83c28-1496-4f31-85b8-a16c686553bf"/>
+          <ab type="returnAddress">
+            <handShift new="#Stationery"/>
+            <address>
+            <addrLine>Hotel Georgian</addrLine>
+            <addrLine>Fourth Avenue</addrLine>
+            <addrLine>Pike &amp; Union</addrLine>
+            <addrLine>Seattle, U. S. A.</addrLine>
+            </address>
+          </ab>
+          <ab type="postalAddress">
+            <handShift new="#GMSHand"/>
+            <address>
+            <addrLine>Mrs. A. T. Stephens</addrLine>
+            <addrLine>26 Emerson St.</addrLine>
+            <addrLine>Newton</addrLine>
+            <addrLine>Massachusetts</addrLine>
+            </address>
+          </ab>
+          <!--Pretty sure this is an endorsement but should double-check with Louie, especially since it technically looks like it's in Gladys' handwriting  -->
+          <ab type="endorsement">
+            <handShift new="#GMSHand"/>please do not forward
+          </ab>
+          <ab type="endorsement">
+            <handShift new="Unknown"/>96<ptr type="noteAnchor" target="endorsements"/>
+            <note resp="ed" xml:id="endorsements">Similar numbers are penciled under the cancelled
+              postage stamp on several envelopes in the collection.  The second
+              number is circled.  The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
+          </ab>
+          <ab>
+            <stamp type="postmark"> SEATTLE, WASH. / JUL 14 / 7 - PM / 1909 </stamp>
+            <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909</stamp>
+          </ab>
+          <!-- My graphic URLS always show the entire envelope regardless of how I've asked them to show a specific region.  So annoying.  Happens with the stamp and with the letterhead. -->
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/45c83c28-1496-4f31-85b8-a16c686553bf.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
+              vertically; Design A139]</figDesc>
+          </figure>
+          <!-- See http://www.jamesdire.net/W-F.html -->
+        </div>      
       </body>
     </text>
   </TEI>
@@ -2362,27 +2364,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="GS19090906env01" 
-          corresp="#GS19090906">
-          <pb facs="/d/d614c68e-0109-4241-8e2a-a8a65c4b4258"/>
-          <ab type="postalAddress">
-            <handShift new="#GMSHand"/>
-            <address>
-          <addrLine><persName ref="#ATS">Mrs. A.T. Stevens</persName></addrLine>
-          <addrLine>26 Emerson street</addrLine>
-          <addrLine><placeName ref="#Newton">Newton</placeName></addrLine>
-          <addrLine>Massachusetts</addrLine>  
-          </address>
-          </ab>
-          <ab>
-            <handShift new="Unknown"/> Hold 9-10-09
-          </ab>
-          <ab>
-            <stamp type="postmark"><placeName ref="#ElPaso">El PASO,TEXAS.</placeName> / SEP 6 / 430 PM / 1909 </stamp>
-            <stamp type="cancellation">U.S. POSTAGE / [Portrait of George Washington; perforated
-              on three edges; upside down; Design A139] / TWO CENTS</stamp>
-          </ab>
-        </div>
+        
         <div type="letter" xml:id="GS19090906let1" corresp="GS19090906env01">
           <pb facs="/b/baae0bd3-70e4-4091-bccf-407097bd5f8c"/>
           <opener>
@@ -2436,6 +2418,27 @@
             <dateline><date when="1909-09-07">9/6/'09</date></dateline>
           </closer>
         </div>  
+        <div type="envelope" xml:id="GS19090906env01" 
+          corresp="#GS19090906">
+          <pb facs="/d/d614c68e-0109-4241-8e2a-a8a65c4b4258"/>
+          <ab type="postalAddress">
+            <handShift new="#GMSHand"/>
+            <address>
+          <addrLine><persName ref="#ATS">Mrs. A.T. Stevens</persName></addrLine>
+          <addrLine>26 Emerson street</addrLine>
+          <addrLine><placeName ref="#Newton">Newton</placeName></addrLine>
+          <addrLine>Massachusetts</addrLine>  
+          </address>
+          </ab>
+          <ab>
+            <handShift new="Unknown"/> Hold 9-10-09
+          </ab>
+          <ab>
+            <stamp type="postmark"><placeName ref="#ElPaso">El PASO,TEXAS.</placeName> / SEP 6 / 430 PM / 1909 </stamp>
+            <stamp type="cancellation">U.S. POSTAGE / [Portrait of George Washington; perforated
+              on three edges; upside down; Design A139] / TWO CENTS</stamp>
+          </ab>
+        </div>      
       </body>
     </text>
   </TEI>
@@ -2504,31 +2507,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="GS19090808env01" corresp="#GS19090808let01">
-          <pb facs="/c/c5c2e502-6284-4b15-b668-f478cb917a62"/>
-          <ab type="returnAddress">
-            <handShift new="Stationery"/>
-            <address>
-              <addrLine>HOTEL GEORGIAN</addrLine>
-              <addrLine>FOURTH AVENUE</addrLine>
-             <addrLine>Pike &amp; Union</addrLine>
-              <addrLine>SEATTLE, U.S.A.</addrLine>
-            </address>          
-          </ab>
-          <ab type="postalAddress">
-          <handShift new="#GMSHand"></handShift>
-          <persName>Mrs. A.T. Stephens</persName>
-          <address>
-            <addrLine>26 Emerson street</addrLine>
-            <addrLine>Newton</addrLine>
-            <addrLine>Massachusetts</addrLine>
-          </address>
-          </ab>
-          <ab>
-            <stamp type="postmark"> Seattle, Washington Aug 8 | 9 - PM | 1909</stamp>
-            <stamp type="cancellation"> World's Fair Seattle</stamp>
-          </ab>
-       </div>
+        
         <div type= "letter" xml:id="GS19090808let1">
           <pb facs="/4/42022a1e-2001-4124-ba14-eb5d4e54539e"/>
           <opener>
@@ -2689,7 +2668,32 @@
             <lb/>General Delivery</p></postscript>
           <postscript><p><lb/>Thanks for 
             <lb/>addresses.</p></postscript>
-        </div>      
+        </div>
+        <div type="envelope" xml:id="GS19090808env01" corresp="#GS19090808let01">
+          <pb facs="/c/c5c2e502-6284-4b15-b668-f478cb917a62"/>
+          <ab type="returnAddress">
+            <handShift new="Stationery"/>
+            <address>
+              <addrLine>HOTEL GEORGIAN</addrLine>
+              <addrLine>FOURTH AVENUE</addrLine>
+             <addrLine>Pike &amp; Union</addrLine>
+              <addrLine>SEATTLE, U.S.A.</addrLine>
+            </address>          
+          </ab>
+          <ab type="postalAddress">
+            <handShift new="#GMSHand"></handShift>
+            <persName>Mrs. A.T. Stephens</persName>
+            <address>
+            <addrLine>26 Emerson street</addrLine>
+            <addrLine>Newton</addrLine>
+            <addrLine>Massachusetts</addrLine>
+          </address>
+          </ab>
+          <ab>
+            <stamp type="postmark"> Seattle, Washington Aug 8 | 9 - PM | 1909</stamp>
+            <stamp type="cancellation"> World's Fair Seattle</stamp>
+          </ab>
+        </div>
       </body>
     </text>
   </TEI>
@@ -2754,33 +2758,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="JM19090814env01" corresp="JM19090813let01">
-          <pb facs="/0/05d946d6-d917-4ea6-9f89-588209756900
-            "/>
-          <ab type="postalAddress">
-            <address>
-              <addrLine>Miss. <persName>Gladys. M. Stephens</persName>.</addrLine>
-              <delSpan rend="strikethrough" hand="#Unknown"/>
-              <addrLine>San Francisco</addrLine>
-              <addrLine>California</addrLine>
-            </address>
-          </ab>
-          <addSpan hand="#Unknown" place="below"/>
-          <ab type="forwardingAddress">
-            <address>
-            <addrLine>LOS ANGELES.</addrLine>
-            <addrLine>CAL.</addrLine>
-            </address>
-          </ab>
-          <ab>
-            <stamp type="date">SEP 6 - 1909</stamp>
-            <stamp type="postmark"> SEATTLE, WASH. / AUG 14 / 130 PM / 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
-          </ab>
-          <ab>
-            <lb/>(General Delivery)
-          </ab>
-        </div>
+        
         <div type="letter" xml:id="JM19090813let01" corresp="#JM19090814env01">
           <pb facs="/e/e342cb79-e993-4f0c-8714-5851dda7b007
             "/>
@@ -2955,6 +2933,33 @@
             <lb/><dateline><date when="1909-08-13">Friday 13th / 09</date></dateline>
           </closer>
         </div>
+        <div type="envelope" xml:id="JM19090814env01" corresp="JM19090813let01">
+          <pb facs="/0/05d946d6-d917-4ea6-9f89-588209756900
+            "/>
+          <ab type="postalAddress">
+            <address>
+              <addrLine>Miss. <persName>Gladys. M. Stephens</persName>.</addrLine>
+              <delSpan rend="strikethrough" hand="#Unknown"/>
+              <addrLine>San Francisco</addrLine>
+              <addrLine>California</addrLine>
+            </address>
+          </ab>
+          <addSpan hand="#Unknown" place="below"/>
+          <ab type="forwardingAddress">
+            <address>
+            <addrLine>LOS ANGELES.</addrLine>
+            <addrLine>CAL.</addrLine>
+            </address>
+          </ab>
+          <ab>
+            <stamp type="date">SEP 6 - 1909</stamp>
+            <stamp type="postmark"> SEATTLE, WASH. / AUG 14 / 130 PM / 1909 </stamp>
+            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
+          </ab>
+          <ab>
+            <lb/>(General Delivery)
+          </ab>
+        </div>
       </body>
     </text>
   </TEI>
@@ -3025,29 +3030,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="CLA19090821env01" corresp="#CLA19090820let01">
-          <pb facs="/1/10e1050e-1f2b-43c5-b52f-bf55d6cb3c41"/>
-          <ab type="postalAddress">
-            <address>
-            <persName ref="#JMS">Mrs. A. T. Stephens </persName>
-            <addrLine>26 Emerson St. </addrLine>
-            <addrLine><placeName ref="#Newton">Newton </placeName></addrLine>
-            <addrLine>Mass. </addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <handShift new="Unknown"/>new baby <lb/>by neice <lb/>9&#x2014;F <ptr type="noteAnchor" target="Endorse"/>
-            <note resp="ed" xml:id="Endorse">The penciled number here doesn't seem to match the pattern on the other envelopes since the second digit is a letter rather than a number. This endorsement also includes a description of the contents of the letter.</note>
-          </ab>
-          <ab>
-            <stamp type="postmark"> <placeName ref="#Sherborn">SHERBORN, MASS.</placeName> / <date when="1909-08-20"></date>AUG 20 / A. M / 1909 </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <figDesc>UNITED STATES / OF AMERICA / POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically]</figDesc>
-          </figure>
-        </div>
+        
         <div type="letter" xml:id="CLA19090820let01" corresp="#CLA19090821env01">
           <pb facs="/8/808bb4bd-8140-4897-b707-cc3af5930e28"/>
           <opener> <dateline> <address> <addrLine> <placeName ref="#Sherborn">Sherborn, Mass.</placeName> </addrLine></address></dateline>
@@ -3095,6 +3078,29 @@
             <lb/><signed><persName ref="#CLA">Cora L. Anderson</persName>. </signed>
             <lb/><dateline><date when="1909-08-19"><hi rend="underlined">Aug. 19th. '09.</hi></date></dateline>
           </closer>
+        </div>
+        <div type="envelope" xml:id="CLA19090821env01" corresp="#CLA19090820let01">
+          <pb facs="/1/10e1050e-1f2b-43c5-b52f-bf55d6cb3c41"/>
+          <ab type="postalAddress">
+            <address>
+            <persName ref="#JMS">Mrs. A. T. Stephens </persName>
+            <addrLine>26 Emerson St. </addrLine>
+            <addrLine><placeName ref="#Newton">Newton </placeName></addrLine>
+            <addrLine>Mass. </addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+            <handShift new="Unknown"/>new baby <lb/>by neice <lb/>9&#x2014;F <ptr type="noteAnchor" target="Endorse"/>
+            <note resp="ed" xml:id="Endorse">The penciled number here doesn't seem to match the pattern on the other envelopes since the second digit is a letter rather than a number. This endorsement also includes a description of the contents of the letter.</note>
+          </ab>
+          <ab>
+            <stamp type="postmark"> <placeName ref="#Sherborn">SHERBORN, MASS.</placeName> / <date when="1909-08-20"></date>AUG 20 / A. M / 1909 </stamp>
+          </ab>
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <figDesc>UNITED STATES / OF AMERICA / POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
+              vertically]</figDesc>
+          </figure>
         </div>
       </body>
     </text>
@@ -3158,28 +3164,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="JJM19090821env01" corresp="#JJM19090821let01">
-          <pb facs="/f/f3c39277-3661-46e3-8002-a9a616109a98"/>
-          <ab type="postalAddress">
-            <!--make sure to put handshift later-->
-            <address>
-            <addrLine>Miss. Gladys M. Stephens</addrLine>
-            <addrLine>Los Angeles</addrLine>
-            <addrLine>California</addrLine>
-            <addrLine>General Delivery</addrLine>
-          </address> 
-          </ab>
-          <ab>
-            <stamp type="postmark"> Juneau, Alaska. / Aug 21 / 11 - AM / 1909 </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs//f/f3c39277-3661-46e3-8002-a9a616109a98?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE / TWO CENTS [Color-Red and Upside down]</figDesc>
-          </figure>
-          <!--Chosen to code general delievery as an addressline--> 
-        </div>
+        
         <div type="letter" xml:id="JJM19090821let01" corresp="#JJM19090821let01">
           <pb facs="/c/c9330555-86d9-4008-9bbb-e6b89b76ac84"/>
           <opener>
@@ -3408,6 +3393,28 @@
             <lb/><signed><persName ref="#JJM">x J.J.Mc</persName></signed>
           </closer>
         </div>
+        <div type="envelope" xml:id="JJM19090821env01" corresp="#JJM19090821let01">
+          <pb facs="/f/f3c39277-3661-46e3-8002-a9a616109a98"/>
+          <ab type="postalAddress">
+            <!--make sure to put handshift later-->
+            <address>
+            <addrLine>Miss. Gladys M. Stephens</addrLine>
+            <addrLine>Los Angeles</addrLine>
+            <addrLine>California</addrLine>
+            <addrLine>General Delivery</addrLine>
+          </address> 
+          </ab>
+          <ab>
+            <stamp type="postmark"> Juneau, Alaska. / Aug 21 / 11 - AM / 1909 </stamp>
+          </ab>
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs//f/f3c39277-3661-46e3-8002-a9a616109a98?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE / TWO CENTS [Color-Red and Upside down]</figDesc>
+          </figure>
+          <!--Chosen to code general delievery as an addressline--> 
+        </div>
       </body>
     </text>
   </TEI>
@@ -3507,32 +3514,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="GS19090924env01" corresp="#GS19090922let01">
-          <pb facs="/3/3f65827d-8dd2-413c-8a9a-511881f4df0e"/>
-          <ab type="postalAddress">
-            <handShift new="#GMSHand"/>
-            <persName>Mrs. A. T. Stephens</persName>
-            <address>
-              <addrLine>26 Emerson street</addrLine>
-              <addrLine>Newton</addrLine>
-              <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <handShift new="Unkown"/> 10 9/25<ptr type="noteAnchor" target="MysteriousEndorsements"/>
-            <note resp="ed" xml:id="MysteriousEndorsements">Similar numbers are penciled on several envelopes in the connection.</note>
-          </ab>
-          <ab>
-            <stamp type="postmark">El Paso, Texas | Sept. 24 | 7:30 AM | 1909 </stamp>
-            <stamp type="cancellation">[seven wavy lines]</stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic 
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/3/3f65827d-8dd2-413c-8a9a-511881f4df0e.jpg?scale=0.4&amp;rgn=0,0,4000,4000&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE | TWO CENTS [profile of Washington; perforated along the top and sides Design A139] </figDesc>
-          </figure>
-        </div>
+        
         <div type="letter" xml:id="GS19090922let01" corresp="#GS19090924env01">
           <pb facs="/5/525b5c97-d537-482f-9392-0577b377cc5e"/>
           <head type="letterhead">
@@ -3633,6 +3615,32 @@
             <lb/><salute>Love</salute> <signed><persName ref="#GMS">Gladys</persName></signed>
           </closer>
         </div>
+        <div type="envelope" xml:id="GS19090924env01" corresp="#GS19090922let01">
+          <pb facs="/3/3f65827d-8dd2-413c-8a9a-511881f4df0e"/>
+          <ab type="postalAddress">
+            <handShift new="#GMSHand"/>
+            <persName>Mrs. A. T. Stephens</persName>
+            <address>
+              <addrLine>26 Emerson street</addrLine>
+              <addrLine>Newton</addrLine>
+              <addrLine>Massachusetts</addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+            <handShift new="Unkown"/> 10 9/25<ptr type="noteAnchor" target="MysteriousEndorsements"/>
+            <note resp="ed" xml:id="MysteriousEndorsements">Similar numbers are penciled on several envelopes in the connection.</note>
+          </ab>
+          <ab>
+            <stamp type="postmark">El Paso, Texas | Sept. 24 | 7:30 AM | 1909 </stamp>
+            <stamp type="cancellation">[seven wavy lines]</stamp>
+          </ab>
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic 
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/3/3f65827d-8dd2-413c-8a9a-511881f4df0e.jpg?scale=0.4&amp;rgn=0,0,4000,4000&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE | TWO CENTS [profile of Washington; perforated along the top and sides Design A139] </figDesc>
+          </figure>
+        </div>
       </body>
     </text>
   </TEI>
@@ -3699,28 +3707,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="GS19091006env01" corresp="#GS19091005let01">
-          <pb facs="/0/03089ec3-d8d7-4b39-8e25-9fd16419aecc"/>
-          <ab type="postalAddress">
-            <address>
-              <persName ref="#JMS">Mrs. A. J. Stephens </persName>
-              <addrLine> 26 Emerson street </addrLine>
-              <addrLine> <placeName ref="#Newton">Newton </placeName></addrLine>
-              <addrLine> Massachusetts </addrLine>
-            </address>
-          </ab>
-          <ab>
-            <stamp type="postmark"> <placeName ref="#ElPaso">El PASO, TEXAS.</placeName> / <date when="1909-10-06">OCT 6</date> / 4 - PM / 1909 </stamp>
-            <stamp type="cancellation"> <!-- wavy lines --> </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure> 
-        </div>
+        
         <div type="letter" xml:id="GS19091005let01" corresp="#GS19091006env01">
           <pb facs="/e/e040faea-be8c-4fb6-bcc3-eb4132850b07"/>
           <opener>
@@ -3802,6 +3789,28 @@
             <lb/> <dateline> <date when="1909-10-05"></date>10/5/09 </dateline>
           </closer>
         </div>
+        <div type="envelope" xml:id="GS19091006env01" corresp="#GS19091005let01">
+          <pb facs="/0/03089ec3-d8d7-4b39-8e25-9fd16419aecc"/>
+          <ab type="postalAddress">
+            <address>
+              <persName ref="#JMS">Mrs. A. J. Stephens </persName>
+              <addrLine> 26 Emerson street </addrLine>
+              <addrLine> <placeName ref="#Newton">Newton </placeName></addrLine>
+              <addrLine> Massachusetts </addrLine>
+            </address>
+          </ab>
+          <ab>
+            <stamp type="postmark"> <placeName ref="#ElPaso">El PASO, TEXAS.</placeName> / <date when="1909-10-06">OCT 6</date> / 4 - PM / 1909 </stamp>
+            <stamp type="cancellation"> <!-- wavy lines --> </stamp>
+          </ab>
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
+              vertically; Design A139]</figDesc>
+          </figure> 
+        </div>
       </body>
     </text>
   </TEI>
@@ -3848,37 +3857,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="JJM19090823env01">
-          <pb facs="/1/1a088fc4-6962-4826-812b-8f4a29a15c26"/>
-          <ab type="postaladdress">
-            <handShift new="#JJMHand"/>
-            <persName>Miss. Gladys. M. Stephens
-            </persName>.
-            <address>
-            <addrLine><placeName ref="LosAngeles">Los Angeles.</placeName></addrLine>
-                <delSpan rend="strikethrough" spanTo="#city01" hand="#Unknown"/>
-            <addrLine>California</addrLine>
-                <postCode> (General Delivery) </postCode>
-              </address>
-            <address>
-              <addrLine> 126 Leon St.</addrLine>
-                <addrLine><placeName ref="El Paso">El Paso Tex</placeName></addrLine>
-              </address>
-          </ab>
-          <ab>
-            <stamp type="postmark"> VALDEZ AUG 23 10 AM 1909 ALASKA </stamp>
-            <stamp type="postmark"> LOS ANGELES d<unclear reason="damage">St.....</unclear> CAL. </stamp>
-            <stamp type="dateline">SEP 27 1909 </stamp>
-            <stamp type="dateline"> SEP 27 1909 </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=460,480&amp;layer=1&amp;src=is{mediamanager/1/1a088fc4-6962-4826-812b-8f4a29a15c26.jpg?scale=0.2&amp;rgn=0,0,460,320&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=460,320&amp;text=\vertalt\cf1\qc\fs15\%20Caption&amp;posN=0,.5"/>
-            <figDesc>
-              U.S. POSTAGE / TWO CENTS [Portrait of William Seward; perforated horizontally and  vertically; U.S. #370] Upside down 
-            </figDesc>
-          </figure>
-        </div>
+        
         <div type="letter" xml:id="JJM19090823let01" corresp="JJM19090823env01">
           <pb facs="/2/2edb5373-006c-49cd-bb10-39e021006dcb"/>
           <opener>
@@ -4040,6 +4019,37 @@
             <signed><persName ref="#JJM">J.J.Mc</persName></signed>
           </closer>
         </div>
+        <div type="envelope" xml:id="JJM19090823env01">
+          <pb facs="/1/1a088fc4-6962-4826-812b-8f4a29a15c26"/>
+          <ab type="postaladdress">
+            <handShift new="#JJMHand"/>
+            <persName>Miss. Gladys. M. Stephens
+            </persName>.
+            <address>
+            <addrLine><placeName ref="LosAngeles">Los Angeles.</placeName></addrLine>
+                <delSpan rend="strikethrough" spanTo="#city01" hand="#Unknown"/>
+            <addrLine>California</addrLine>
+                <postCode> (General Delivery) </postCode>
+              </address>
+            <address>
+              <addrLine> 126 Leon St.</addrLine>
+                <addrLine><placeName ref="El Paso">El Paso Tex</placeName></addrLine>
+              </address>
+          </ab>
+          <ab>
+            <stamp type="postmark"> VALDEZ AUG 23 10 AM 1909 ALASKA </stamp>
+            <stamp type="postmark"> LOS ANGELES d<unclear reason="damage">St.....</unclear> CAL. </stamp>
+            <stamp type="dateline">SEP 27 1909 </stamp>
+            <stamp type="dateline"> SEP 27 1909 </stamp>
+          </ab>
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=460,480&amp;layer=1&amp;src=is{mediamanager/1/1a088fc4-6962-4826-812b-8f4a29a15c26.jpg?scale=0.2&amp;rgn=0,0,460,320&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=460,320&amp;text=\vertalt\cf1\qc\fs15\%20Caption&amp;posN=0,.5"/>
+            <figDesc>
+              U.S. POSTAGE / TWO CENTS [Portrait of William Seward; perforated horizontally and  vertically; U.S. #370] Upside down 
+            </figDesc>
+          </figure>
+        </div>
       </body>
     </text>
   </TEI>
@@ -4109,18 +4119,7 @@
     </teiHeader>
     <text>
       <body>
-        <ab type="postalAddress">
-          <address>
-            <addrLine>Miss. Gladys M. Stephens</addrLine>
-            <addrLine>#126 Leon Street</addrLine>
-            <addrLine>El Paso</addrLine>
-            <addrLine>Texas</addrLine>
-          </address> 
-        </ab>
-        <ab>
-          <stamp type="postmark"> <placeName ref="#Juneau">JUNEAU</placeName> | 
-            <date when="1909-09-13">SEP | 13 | 1909 <time>5 PM</time> </date> ALASKA </stamp>
-        </ab>
+        
         <div type="letter">
           <pb facs="/1/1de448a-61af-4096-9acb-bf07c5b6cc50"/>
           <opener> 
@@ -4246,6 +4245,21 @@
             <lb/><persName ref="#JJM">J James </persName>
           </closer>
         </div>
+        <div type="envelope" xml:id="XXYYYYMMDDenv01">
+          <pb/>
+          <ab type="postalAddress">
+            <address>
+            <addrLine>Miss. Gladys M. Stephens</addrLine>
+            <addrLine>#126 Leon Street</addrLine>
+            <addrLine>El Paso</addrLine>
+            <addrLine>Texas</addrLine>
+          </address> 
+          </ab>
+          <ab>
+            <stamp type="postmark"> <placeName ref="#Juneau">JUNEAU</placeName> | 
+              <date when="1909-09-13">SEP | 13 | 1909 <time>5 PM</time> </date> ALASKA </stamp>
+          </ab>
+        </div>
       </body>
     </text>
   </TEI>
@@ -4318,42 +4332,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="GS19090927env01" corresp="#GS19090927let01">
-          <pb facs="/3/389e4759-1e88-4e46-abab-a552ed4c0e69"/>
-          <ab type="returnAddress">
-            <handShift new="#Stationery"/>
-            <address>
-            <addrLine>Hotel Georgian</addrLine>
-            <addrLine>Fourth Avenue</addrLine>
-            <addrLine>Pike &amp; Union</addrLine>
-            <addrLine>Seattle, U. S. A.</addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <handShift new="#GMSHand"/>
-            <address>
-            <addrLine>Mrs. A. T. Stephens</addrLine>
-            <addrLine>26 Emerson street</addrLine>
-            <addrLine>Newton</addrLine>
-            <addrLine>Massachusetts</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <handShift new="Unknown"/> 94
-          </ab>
-          <ab>
-            <stamp type="postmark"></stamp>
-            <stamp type="cancellation"> </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
-        </div>
+        
         <div type="letter" xml:id="GS19090927let01" corresp="#GS19090927env01">
           <pb facs="/a/a9e9c771-0075-4c39-b538-4284cf3e85a0/> "/>
           
@@ -4520,6 +4499,42 @@
             <lb/><date>9/27/09</date>
         </closer>
         </div>
+        <div type="envelope" xml:id="GS19090927env01" corresp="#GS19090927let01">
+          <pb facs="/3/389e4759-1e88-4e46-abab-a552ed4c0e69"/>
+          <ab type="returnAddress">
+            <handShift new="#Stationery"/>
+            <address>
+            <addrLine>Hotel Georgian</addrLine>
+            <addrLine>Fourth Avenue</addrLine>
+            <addrLine>Pike &amp; Union</addrLine>
+            <addrLine>Seattle, U. S. A.</addrLine>
+            </address>
+          </ab>
+          <ab type="postalAddress">
+            <handShift new="#GMSHand"/>
+            <address>
+            <addrLine>Mrs. A. T. Stephens</addrLine>
+            <addrLine>26 Emerson street</addrLine>
+            <addrLine>Newton</addrLine>
+            <addrLine>Massachusetts</addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+            <handShift new="Unknown"/> 94
+          </ab>
+          <ab>
+            <stamp type="postmark"></stamp>
+            <stamp type="cancellation"> </stamp>
+          </ab>
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
+              vertically; Design A139]</figDesc>
+          </figure>
+          <!-- See http://www.jamesdire.net/W-F.html -->
+        </div>
       </body>
     </text>
   </TEI>
@@ -4587,44 +4602,7 @@
     </teiHeader>
     <text>
       <body>
-        <div type="envelope" xml:id="JJM19091005env01" corresp="#JJM19091004let01">
-          <pb facs="/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05"/>
-          <ab type="postalAddress">
-            <handShift new="#JJMHand"/>
-            <address>
-            <addrLine><persName ref="#GMS">Miss. Gladys M. Stephens</persName></addrLine>
-            <addrLine>#126 Leon Street</addrLine>
-            <addrLine><placeName ref="#ElPaso">El Paso Texas.</placeName></addrLine>
-            </address>
-          </ab>
-          <ab>
-            <stamp type="postmark"> <placeName ref="#Seattle">SEATTLE, WASH.</placeName> / 
-              <date when="1909-10-05">OCT 5 / <time>2 - 
-              <gap reason="invisible" unit="characters" quantity="1"/>M</time> / 1909</date> 
-            <figure rend="link">
-              <head>Postmark</head>
-              <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05.jpg?scale=0.5&amp;rgn=600,250,250,250&amp;fmt=png"></graphic>
-              <figDesc>Postmark for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre</figDesc>
-            </figure></stamp>
-          </ab>
-          <ab>
-            <stamp type="cancellation">
-              World's / Fair / <placeName ref="#Seattle">Seattle</placeName> / <date when="1909">1909</date> 
-              <figure rend="link">
-                <head>Cancellation</head>
-                <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05.jpg?scale=0.5&amp;rgn=825,250,400,225&amp;fmt=png"></graphic>
-                <figDesc>Cancellation for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre</figDesc>
-              </figure>
-            </stamp>
-          </ab>
-          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05.jpg?scale=0.4&amp;rgn=860,160,160,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
-        </div>
+        
         <div type="letter" xml:id="JJM19091004let01" corresp="#JJM19091005env01">
           <pb facs="/f/f635d67f-a719-4f7f-ba63-4f930eddabfd"/>
           <head type="letterhead">
@@ -4914,6 +4892,44 @@
             <lb/><signed rendition="#ot1"><persName ref="#JJM">JJ<hi rend="underlined">Mc</hi></persName></signed>
           </closer>
         </div>
+        <div type="envelope" xml:id="JJM19091005env01" corresp="#JJM19091004let01">
+          <pb facs="/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05"/>
+          <ab type="postalAddress">
+            <handShift new="#JJMHand"/>
+            <address>
+            <addrLine><persName ref="#GMS">Miss. Gladys M. Stephens</persName></addrLine>
+            <addrLine>#126 Leon Street</addrLine>
+            <addrLine><placeName ref="#ElPaso">El Paso Texas.</placeName></addrLine>
+            </address>
+          </ab>
+          <ab>
+            <stamp type="postmark"> <placeName ref="#Seattle">SEATTLE, WASH.</placeName> / 
+              <date when="1909-10-05">OCT 5 / <time>2 - 
+                <gap reason="invisible" unit="characters" quantity="1"/>M</time> / 1909</date> 
+              <figure rend="link">
+                <head>Postmark</head>
+                <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05.jpg?scale=0.5&amp;rgn=600,250,250,250&amp;fmt=png"></graphic>
+                <figDesc>Postmark for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre</figDesc>
+              </figure></stamp>
+          </ab>
+          <ab>
+            <stamp type="cancellation">
+              World's / Fair / <placeName ref="#Seattle">Seattle</placeName> / <date when="1909">1909</date> 
+              <figure rend="link">
+                <head>Cancellation</head>
+                <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05.jpg?scale=0.5&amp;rgn=825,250,400,225&amp;fmt=png"></graphic>
+                <figDesc>Cancellation for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre</figDesc>
+              </figure>
+            </stamp>
+          </ab>
+          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05.jpg?scale=0.4&amp;rgn=860,160,160,180&amp;fmt=png"/>
+            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
+              vertically; Design A139]</figDesc>
+          </figure>
+        </div>
       </body>
     </text>
   </TEI>
@@ -4965,41 +4981,7 @@
     <!-- Now we transcribe and encode the text of the letter and accompanying materials. -->
     <text>
       <body>
-        <!-- First, the envelope. -->
-        <div type="envelope" xml:id="GS19091011env01" corresp="#GS19091011let01">
-          <pb facs="/5/50f04929-7741-4a9e-99fe-c5da6d6fb088"/>
-          <ab type="returnAddress">
-            <handShift new="#Stationery"/>
-            <address>
-            <addrLine><placeName ref="#Tourist">TOURIST HOTEL</placeName></addrLine>
-            <addrLine><persName>D.P. FOLEY</persName>, PROP'R AND MGR.</addrLine>
-            <addrLine>FIRST CLASS RESTAURANT IN CONNECTION</addrLine>
-            <addrLine>1009, 1011, 1010 PACIFIC AVE.</addrLine>
-            <addrLine><placeName ref="#Tacoma">TACOMA, WASHINGTON</placeName></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <handShift new="#JJM"/>
-            <address>
-            <addrLine><persName ref="#GMS">Miss Gladys M. Stephens</persName></addrLine>
-            <addrLine># 126 Leon St</addrLine>
-            <addrLine><placeName ref="#ElPaso">El Paso</placeName></addrLine>
-            <addrLine>Texas</addrLine>
-            </address>
-          </ab>
-          <ab type="endorsement">
-            <handShift new="Unknown"/> 9 31 / 8 <ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsement"> Similar numbers are pencilled under the cancelled postage stamp
-              on several envelopes. This set of numbers appears on the back of the envelop. The 31 and 8 are circled.
-            </note>
-          </ab>
-          <ab>
-            <stamp type="postmark"> TACOMA, WASH. / OCT 11 / 12 - M / 1909 </stamp>
-            <stamp type="cancellation">U.S. POSTAGE / [Portrait of George Washington; perforated
-              on three edges; upside down; Design A139] / TWO CENTS</stamp>
-          </ab>
-          
-        </div>
+
         <div type="letter" xml:id="GS19091011let01" corresp="#GS19091011env01">
           <pb facs="/2/2c5bd03e-29d8-4c3f-842c-05d963b31d95"/>
           <head type="letterhead">
@@ -5084,6 +5066,41 @@
             </postscript>
           
           <signed><persName ref="#JJM">JJ McIntyre</persName></signed>
+          
+        </div>
+        <!-- First, the envelope. -->
+        <div type="envelope" xml:id="GS19091011env01" corresp="#GS19091011let01">
+          <pb facs="/5/50f04929-7741-4a9e-99fe-c5da6d6fb088"/>
+          <ab type="returnAddress">
+            <handShift new="#Stationery"/>
+            <address>
+            <addrLine><placeName ref="#Tourist">TOURIST HOTEL</placeName></addrLine>
+            <addrLine><persName>D.P. FOLEY</persName>, PROP'R AND MGR.</addrLine>
+            <addrLine>FIRST CLASS RESTAURANT IN CONNECTION</addrLine>
+            <addrLine>1009, 1011, 1010 PACIFIC AVE.</addrLine>
+            <addrLine><placeName ref="#Tacoma">TACOMA, WASHINGTON</placeName></addrLine>
+            </address>
+          </ab>
+          <ab type="postalAddress">
+            <handShift new="#JJM"/>
+            <address>
+            <addrLine><persName ref="#GMS">Miss Gladys M. Stephens</persName></addrLine>
+            <addrLine># 126 Leon St</addrLine>
+            <addrLine><placeName ref="#ElPaso">El Paso</placeName></addrLine>
+            <addrLine>Texas</addrLine>
+            </address>
+          </ab>
+          <ab type="endorsement">
+            <handShift new="Unknown"/> 9 31 / 8 <ptr type="noteAnchor" target="Endorsements"/>
+            <note resp="ed" xml:id="Endorsement"> Similar numbers are pencilled under the cancelled postage stamp
+              on several envelopes. This set of numbers appears on the back of the envelop. The 31 and 8 are circled.
+            </note>
+          </ab>
+          <ab>
+            <stamp type="postmark"> TACOMA, WASH. / OCT 11 / 12 - M / 1909 </stamp>
+            <stamp type="cancellation">U.S. POSTAGE / [Portrait of George Washington; perforated
+              on three edges; upside down; Design A139] / TWO CENTS</stamp>
+          </ab>
           
         </div>
       </body>
