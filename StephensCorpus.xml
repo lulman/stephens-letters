@@ -872,6 +872,11 @@
             <title level="m">Daughters of Canaan: A Saga of Southern Women.</title>
             Lexington: University of Kentucky Press, 1995. Print.
           </bibl>
+          <bibl xml:id="PSM1916" n="Saving Men">
+            <title level="a">Saving Men from Scalding Steam in Steamship Engine Rooms.</title> 
+            <title level="j">Popular Science Monthly</title> 88 (January-June 1916): 254. 
+            <title level="m">Google Books</title>. Web. 22 Nov. 2011.
+          </bibl>
         </listBibl>
         <listEvent>
           <event when="1904" notBefore="1904-04-30" notAfter="1904-12-01" where="#StLouis" xml:id="LPE">
@@ -4798,7 +4803,14 @@
                 1909</date>, <q>[a] boiler exploded...on the steamer <hi rend="italics">Weitchpec</hi></q> 
                 and <q>Fireman Elmer Dennis was fatally scalded</q> <bibl><ref target="#Locomotive"><title level="a">March, 1909</title> 
                 171</ref></bibl>. The serious and fatal nature of boiler accidents is clearly conveyed in 
-                the volume's sizeable monthly catalogues.
+                the volume's sizeable monthly catalogues. Additionally, a 1916 issue of <title level="j">The 
+                Popular Science Monthly</title> laments that <q>[a]t present the life of coal-passers and engineers 
+                is one of extreme hazard.</q> To maintain pressure in the various compartments in the engine room, 
+                <q>it is necessary for the men to enter or leave by means of air locks...This method of entrance 
+                and exit is, therefore, very slow, and should the compartment become suddenly filled 
+                with steam or noxious gases, all the men at work could not gain the outer air in time 
+                to save their lives</q> <bibl><ref target="#PSM1916"><title level="a">Saving Men from 
+                Scalding Steam in Steamship Engine Rooms</title> 254</ref></bibl>.
               </note> 
           </p>
           <p>
