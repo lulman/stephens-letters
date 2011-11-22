@@ -4681,7 +4681,7 @@
             </note>
             yet <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             <pb facs="/d/d2d63fa4-8f27-45dd-857f-56d69e377a32"/>
-            we arrived at <placeName ref="#Klawock">Klawock</placeName> at <time>
+            <lb/>we arrived at <placeName ref="#Klawock">Klawock</placeName> at <time>
               9<hi rend="superscript"><hi rend="underlined"><del rend="overwritten">38</del>28</hi></hi>
             </time>-<date when="1909-09-29">9<del rend="overwritten">-</del>/29</date>
             &#x2014;and left <time when="12:30:00">12<hi rend="superscript"><hi rend="underlined">30</hi></hi>
@@ -4768,7 +4768,7 @@
             <distinct type="babyTalk">Sisent</distinct> nice of you I <distinct type="babyTalk">fink</distinct> 
             <lb/>tell me <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <pb facs="/8/89dc1d77-e539-4ca6-b7b7-26f005889808"/>
-            I do not know if I told you about the <name type="ship" ref="#Northwestern">Northwestern</name> 
+            <lb/>I do not know if I told you about the <name type="ship" ref="#Northwestern">Northwestern</name> 
             <lb/>or not<unclear cert="medium">!</unclear> Yes <rs type="ship" ref="#Northwestern">She</rs> 
             Is a big Ship about 3 times<add place="above">more</add> the power 
             <lb/><del rend="overwritten">of</del>than <name type="ship" ref="#SantaClara">Santa Clara</name>. 
@@ -4856,7 +4856,7 @@
             <lb/>do we know how Soon we will be blotted out 
             <lb/>of this world the best we Can do is to always be ready 
             <pb facs="/2/225a8af1-9a76-4245-bd1b-0de460e87b87"/>
-            I Suppose you have <choice><sic>bin</sic><corr>been</corr></choice> through most of
+            <lb/>I Suppose you have <choice><sic>bin</sic><corr>been</corr></choice> through most of
             <choice><sic>them</sic><corr>the</corr></choice> 
             <lb/>letters by this time <choice><sic>hasent</sic><corr>haven't</corr></choice>, 
             <choice><abbr>U.</abbr><expan>you</expan></choice> and I wonder what you 
