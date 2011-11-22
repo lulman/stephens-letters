@@ -131,11 +131,11 @@
           -->
           <notesStmt>
             
-            <note type="descriptive" resp="ed">
+            <note type="descriptive">
               <p>Bibliographic description here</p>                  
             </note>
             
-            <note type="introductory" resp="ed" xml:id="StephensIntroduction">
+            <note type="introductory" xml:id="StephensIntroduction">
               <p><hi rend="bold">A Header Here</hi></p>
               <p>Introductory note text here. Example of <title level="m">A Monograph Title</title> and
               a <title level="a">Journal Article.</title> [Note the placement of a period when it
