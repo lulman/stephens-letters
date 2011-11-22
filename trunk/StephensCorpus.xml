@@ -877,6 +877,10 @@
             <title level="j">Popular Science Monthly</title> 88 (January-June 1916): 254. 
             <title level="m">Google Books</title>. Web. 22 Nov. 2011.
           </bibl>
+          <bibl xml:id="WonderfulAlaska" n="Trip to Wonderful">
+            <title level="m">A Trip to Wonderful Alaska</title>. Seattle: The Alaska Steamship Company, 1906. 
+            <title level="m">Google Books</title>. Web. 22 Nov. 2011.
+          </bibl>
         </listBibl>
         <listEvent>
           <event when="1904" notBefore="1904-04-30" notAfter="1904-12-01" where="#StLouis" xml:id="LPE">
@@ -4722,7 +4726,19 @@
             in <placeName ref="#Ketchikan">Ketchikan</placeName> about 2 hours coming 
             <lb/>home the <rs ref="#IP"><choice><sic>Pursers</sic><corr>Purser's</corr>
             </choice> Sister</rs> and I went up to the 
-            <lb/><geogFeat>falls</geogFeat> the lower ones <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
+            <lb/><geogFeat>falls</geogFeat> the lower ones<ptr type="noteAnchor" target="JJM19091004note3"/>
+            <note resp="ed" xml:id="JJM19091004note3">
+              A promotional travel guide published by the Alaska Steamship Company describes Ketchikan as 
+              a tourist destination, and the waterfalls represent not only the leisure of sightseeing but
+              also the rapid growth and modernization of Ketchikan's infrastructure. <q>The city has run 
+              pipes to the falls of the Ketchikan river which gives the citizens an opportunity to procure 
+              water direct from this cold and refreshing stream. It is said to be the best system in Alaska. 
+              Ketchikanites need have no fears of disease germs lurking in their drinking water.</q> McIntyre 
+              and Palmer likely took what the guide calls <q>a jaunt of two miles along the Ketchikan River to 
+              the city's intake,</q> where <q>[a] walk has been built near the bank of this winding stream and the tourist 
+              wends his way among the timber until the first falls are reached.</q> <bibl><ref target="#WonderfulAlaska">
+              <title level="m">A Trip to Wonderful Alaska</title></ref></bibl>.
+            </note> <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             not way up <del rend="strikethrough">the</del> where 
             <lb/>we went She got Some Pictures<unclear cert="medium">!</unclear> 
             It was a fine day <seg type="obliqueText" rendition="#ot1">and</seg> 
