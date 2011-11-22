@@ -650,11 +650,11 @@
             formatting (e.g., titles). -->
 
           <bibl xml:id="OEDalkali" n="alkali">
-            <title level="a">alkali.</title> <title level="j">The Oxford English Dictionary Online</title> OED. 
+            <title level="a">alkali.</title> <title level="m">The Oxford English Dictionary Online</title> OED. 
             September 2011. Web. 1 Nov. 2011
           </bibl>
           <bibl xml:id="EncyclopaediaEtiquette" n="Holt">Holt, Emily.
-            <title level="j">Encyclopaedia of Etiquette: What to Write, What to Wear, What to Do, What to Say: A Book of Manners for Everday Use</title>.
+            <title level="m">Encyclopaedia of Etiquette: What to Write, What to Wear, What to Do, What to Say: A Book of Manners for Everday Use</title>.
             New York: McClure, 1901. Print.
           </bibl>
           <bibl xml:id="OEDrevolution" n="revolution">
@@ -673,7 +673,7 @@
             <title level="a">CPI Inflation Calculator.</title> <title level="m">United States Department of Labor</title>.
             n.d. Web. 8 Nov. 2011
           </bibl>
-          <bibl xml:id="PJThomas" n="Thomas">Thomas, Jerry. <title level="j">The Bon Vivant's Companion, or How to Mix Drinks</title>.
+          <bibl xml:id="PJThomas" n="Thomas">Thomas, Jerry. <title level="m">The Bon Vivant's Companion, or How to Mix Drinks</title>.
             Ed. Herbert Asbury. 2nd ed. New York: Knopf, 1928. Print.
           </bibl>
           <bibl xml:id="BUYB1907" n="Boston1907">
@@ -768,7 +768,7 @@
            <title level="m">Proquest Historical Newspapers</title>. Web. 28 Oct. 2011.
          </bibl>
          <bibl xml:id="MexCS" n="Merrill">Merrill, Tim L. and Ramon Miro eds. 
-           <title level="j">Mexico, A Country Study</title>.
+           <title level="m">Mexico, A Country Study</title>.
            Library of Congress, n.d. Web. 8 Nov. 2011.
          </bibl>
          <bibl xml:id="Koppy" n="Koppy">Koppy, Ann. <title level="a">The Wreck of the 
@@ -836,7 +836,7 @@
             <title level="m">Google Books</title>. Web. 01 Nov. 2011.
           </bibl>
           <bibl xml:id="TexasHist" n="Taft">
-            <title level="a">Taft-Diaz Meeting.</title> <title level="j">Texas State Historical Association</title> Texas State Historical Association
+            <title level="a">Taft-Diaz Meeting.</title> <title level="m">Texas State Historical Association</title> Texas State Historical Association
             n.d. Web. 03 NOv. 2011.
           </bibl>
           <bibl xml:id="WalledCity" n="Smith"> Smith, Robert Ross
