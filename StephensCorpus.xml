@@ -1080,7 +1080,11 @@
             <persName>McIntyre, James J.</persName>
             <note type="bibliographical">James J. McIntyre is a crewmember on the S.S. Northwestern. 
             He is enamoured with Gladys Stephens and writes to her often between the summer of 1909 and 
-            the fall of 1909 (and probably later).</note>
+            the fall of 1909 (and probably later). It's likely that McIntyre was a tramp enginner, a low-ranking 
+            crewman who switches jobs frequently and has little formal training. Between his letters of 13 August 
+            1909 and 04 October 1909, McIntyre transfers from the <name type="ship">Santa Clara</name> to the 
+            <name type="ship">Northwestern</name>, and in the latter letter, he indicates that in one calendar 
+            year he has worked on five different ships.</note>
           </person>
           <person xml:id="ACS">
             <persName>Stephens, Alex C.</persName>
