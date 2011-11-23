@@ -57,6 +57,7 @@
                 <img class="pageview">
                     <xsl:attribute name="src">https://images.asc.ohio-state.edu/is/image/englishdocs<xsl:value-of
                             select="@facs"/>.jpg?scale=0.2&amp;fmt=png</xsl:attribute>
+                    <xsl:attribute name="width">400</xsl:attribute>
                 </img>
             </a>
         </span>
