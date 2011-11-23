@@ -649,23 +649,23 @@
             as we would expect them to be displayed, ecept for noting text that requires special
             formatting (e.g., titles). -->
 
-          <bibl xml:id="OEDalkali" n="alkali">
+          <bibl xml:id="OEDalkali" n="Alkali">
             <title level="a">alkali.</title> <title level="m">The Oxford English Dictionary Online</title> OED. 
-            September 2011. Web. 1 Nov. 2011
+            September 2011. Web. 1 Nov. 2011.
           </bibl>
-          <bibl xml:id="EncyclopaediaEtiquette" n="Holt">Holt, Emily.
+          <bibl xml:id="EncyclopaediaEtiquette" n="Holt">Holt, Emily. 
             <title level="m">Encyclopaedia of Etiquette: What to Write, What to Wear, What to Do, What to Say: A Book of Manners for Everday Use</title>.
             New York: McClure, 1901. Print.
           </bibl>
-          <bibl xml:id="OEDrevolution" n="revolution">
+          <bibl xml:id="OEDrevolution" n="Revolution">
             <title level="a">revolution.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
-            September 2011. Web. 15 Nov. 2011
+            September 2011. Web. 15 Nov. 2011.
             </bibl>
-          <bibl xml:id="OEDrolling" n="rolling">
+          <bibl xml:id="OEDrolling" n="Rolling">
               <title level="a">rolling.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
-              September 2011. Web. 15 Nov. 2011
+              September 2011. Web. 15 Nov. 2011.
               </bibl>
-              <bibl xml:id="OEDrunning" n="running">
+              <bibl xml:id="OEDrunning" n="Running">
                 <title level="a">running.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
                 September 2011. Web. 15 Nov. 2011
           </bibl>
@@ -688,7 +688,7 @@
             Alaska</title>. N.p., n.d. Web. 24 Sept. 2011.</bibl>
           <bibl xml:id="Burwell" n="Burwell">Burwell, Michael. <title level="a">The SS <name
             type="ship">Northwestern</name>: The Final Return of 'The Ship that Always Came
-            Back.</title> <title level="m">Alaska at War, 1941–1945: The Forgotten War
+            Back'.</title> <title level="m">Alaska at War, 1941–1945: The Forgotten War
             Remembered</title>. Ed. Fern Chandonnet. Fairbanks: U of Alaska P, 2008. Print. 219–226.
           </bibl>
          <bibl xml:id="Census1920GSM" n="United States 1920 Gladys">
