@@ -727,12 +727,12 @@
             Web. 27 Oct. 2011.
           </bibl>
           <bibl xml:id="Dance" n="Dancing">
-            <title level="a">Encouraging Male Participation in Dance.</title> <title>
+            <title level="a">Encouraging Male Participation in Dance.</title> <title level="j">
               Journal of Physical Education, Recreation, and Dance</title>. Web. 12 Nov. 2011.
           </bibl>
           <bibl xml:id="Chief123" n="ChiefonWatch">
-            <title level="a">Mariner's Employment Guide.</title> <title>Google 
-              eBooks.</title> James Laurence Pelletier: Marine Techniques Publishing, 2007. Web. 13 Nov. 2011. 4, 161.
+            <title level="m">Mariner's Employment Guide.</title> James Laurence Pelletier: 
+            Marine Techniques Publishing, 2007. <title level="m">Google Books</title>. Web. 13 Nov. 2011.
           </bibl>
           <bibl xml:id="MABirthsWGA" n="Massachusetts">
             <title level="a">Massachusetts Births, 1841-1915 for Willis Goodwin Anderson.</title> <title
@@ -740,8 +740,8 @@
             Web. 27 Oct. 2011.
           </bibl>
           <bibl xml:id="MarineWatch" n="MaWatch">
-            <title level="m">Nautical Dictionary.</title> <title level="m">Google 
-              eBooks.</title> Arthur Young and James Brisbane: Nabu Press, 2011. Web 13 Nov. 2011. 437.
+            <title level="m">Nautical Dictionary.</title> Arthur Young and James Brisbane: 
+            Nabu Press, 2011. <title level="m">Google Books</title>. Web. 13 Nov. 2011.
           </bibl>
          <bibl xml:id="Census1920HEP" n="United States 1920 Herbert">
             <title level="a">United States Census 1920, for Herbert E. Palmer.</title> <title 
@@ -789,7 +789,7 @@
             Glyn, Elinor. <title level="m">Three Weeks</title>. Collection of British Authors 3978. Copyright edition. Leipzig: Bernhard
             Tauchnitz, 1907. Print.
           </bibl>
-          <bibl xml:id="AJS" n="Stein">
+          <bibl xml:id="AJS" n="Stein Alan">
             Stein, Alan J. <title level="a">Streetcar crashes at the entrance of Seattle's A-Y-P Exposition, 
             killing one and injuring 55, on September 24, 1909.</title> <title level="m">History Link: The 
             Free Online Encyclopedia of Washington State History</title>. HistoryLink.org, 2007. Web. 30 
@@ -803,10 +803,10 @@
             Zwiefelhofer, David B. <title level="m">Find Latitude and Longitude</title>. 2011. Web.
             31 Oct. 2011.
           </bibl>
-          <bibl xml:id="RS" n="Shannon">Shannon, Robin. <title level="m">Seattle's Historic Hotels</title>. 2010. <title level="m">Google Books</title>.
-          Web. 23 October 2011.</bibl>
-          <bibl xml:id="THL" n="TheHolyLand"> <title level="a"> The Holy Land. </title><title level="m">Library of 
-          Congress Authorities</title> Web. 15 Nov. 2011.
+          <bibl xml:id="RS" n="Shannon">Shannon, Robin. <title level="m">Seattle's Historic Hotels</title>. Charleston: 
+            Arcadia Publishing, 2010. <title level="m">Google Books</title>. Web. 23 October 2011.</bibl>
+          <bibl xml:id="THL" n="TheHolyLand"> <title level="a"> The Holy Land.</title> <title level="m">Library of 
+          Congress Authorities</title>. Web. 15 Nov. 2011.
           </bibl>
           <bibl xml:id="SR19091001" n="Henry">
             <title level="a">Henry Hiser, of joy riding fame</title>. <title level="j">The Seattle 
@@ -822,8 +822,8 @@
               The Seattle Star</title> 23 September 1909: n.pag. <title level="m">Chronicling America (The Library 
               of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
-          <bibl xml:id="Plumes" n="Stein"> Stein, Sarah Abrevaya
-            <title level="m">Plumes: Ostrich Feathers, Jews, and a Lost World of Global Commerce</title>
+          <bibl xml:id="Plumes" n="Stein Sarah"> Stein, Sarah Abrevaya.
+            <title level="m">Plumes: Ostrich Feathers, Jews, and a Lost World of Global Commerce</title>.
             New Haven, CT: Yale University Press, 2008. Print. 
           </bibl>
           <bibl xml:id="LE19091001" n="News">
@@ -836,11 +836,11 @@
             <title level="m">Google Books</title>. Web. 01 Nov. 2011.
           </bibl>
           <bibl xml:id="TexasHist" n="Taft">
-            <title level="a">Taft-Diaz Meeting.</title> <title level="m">Texas State Historical Association</title> Texas State Historical Association
-            n.d. Web. 03 NOv. 2011.
+            <title level="a">Taft-Diaz Meeting.</title> <title level="m">Texas State Historical Association</title>. Texas State Historical Association, 
+            n.d. Web. 03 Nov. 2011.
           </bibl>
-          <bibl xml:id="WalledCity" n="Smith"> Smith, Robert Ross
-            <title level="m">Triumph in the Philipines</title>
+          <bibl xml:id="WalledCity" n="Smith Robert"> Smith, Robert Ross
+            <title level="m">Triumph in the Philipines</title>.
             Office of the Chief of Military History, Dept. of the Army. 1963. Web. 15 Nov. 2011.  
           </bibl>
           <bibl xml:id="Childbirth" n="Employment">
@@ -848,28 +848,26 @@
               The British Medical Journal</title> 24 October 1908: 1297. Web. 10 Nov. 2011.
           </bibl>
           <bibl xml:id="SR1909" n="Employment">
-            Olian, JoAnne, ed. <title level="m">Everyday Fashions, 1909-1920: As Pictured in Sears Catalogs</title> 
+            Olian, JoAnne, ed. <title level="m">Everyday Fashions, 1909-1920: As Pictured in Sears Catalogs</title>. 
             Mineola, NY: Dover Publications, 1995. <title level="m">Google Books</title>. Web. 14 Nov. 2011.
           </bibl>
-          <bibl xml:id="NPSYellowstone" n="Department">
-            Department of the Interior, U.S. National Park Service.
-            <title level="a"><q>"Tally Ho Stage Coaches."</q></title>
-            Last updated June 20, 1997. Web. 8 Nov. 2011.
+          <bibl xml:id="NPSYellowstone" n="Tally Ho">
+            <title level="a"> "Tally Ho" Stage Coaches.</title> <title level="m">Yellowstone National Park</title>. National Park Service, 
+            20 June 1997. Web. 8 Nov. 2011.
           </bibl>
           <bibl xml:id="Chittenden" n="Chittenden">
-            Chittenden, Hiram Martin.
-            <title level="m">Yellowstone Park: Historic and Descriptive.</title>
+            Chittenden, Hiram Martin. 
+            <title level="m">Yellowstone Park: Historic and Descriptive</title>. 
             Cincinnati, OH: The Robert Clarke Company, 1895. Print.
           </bibl>
-          <bibl xml:id="UWash" n="University">
-            University of Washington Libraries.
-            <title level="a"><q>"Hoo Hoo House/Forestry Building."</q></title>
-            <title level="m">When the World Came to Campus, AYPE 1909.</title>
-            Seattle: University of Washington Libraries. Web. 8 Nov. 2011.
+          <bibl xml:id="UWash" n="Hoo Hoo">
+            <title level="a">Hoo Hoo House/Forestry Building.</title> 
+            <title level="m">When the World Came to Campus, AYPE 1909</title>. 
+            University of Washington Libraries, n.d. Web. 8 Nov. 2011.
           </bibl>
           <bibl xml:id="Canaan" n="Wolfe">
-            Wolfe, Margarget Ripley.
-            <title level="m">Daughters of Canaan: A Saga of Southern Women.</title>
+            Wolfe, Margarget Ripley. 
+            <title level="m">Daughters of Canaan: A Saga of Southern Women</title>. 
             Lexington: University of Kentucky Press, 1995. Print.
           </bibl>
           <bibl xml:id="PSM1916" n="Saving Men">
