@@ -55,6 +55,15 @@
                    margin-bottom : 0px;
                    text-align : center;
                }
+               div.envelope {
+                   font-size: .85em;
+               }
+               .msDesc  {
+                   font-size: .85em;
+               } 
+               .half-width  {
+                   width:50%;
+               }    
                hr {
                    color : #888833;
                    clear : left;
@@ -307,8 +316,9 @@
    <xsl:template match="tei:div[@type='letter']">
       <div class="letter">
       <xsl:apply-templates/>
-      </div>     
-      <p>
+      </div>
+      <hr class="half-width"/>
+      <p class="msDesc">
          <xsl:value-of
          select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:p"/>
       </p>
