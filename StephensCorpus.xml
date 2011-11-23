@@ -1078,7 +1078,7 @@
           </person>
           <person xml:id="JJM">
             <persName>McIntyre, James J.</persName>
-            <note type="bibliographical">James J. McIntyre is a crewmember on the S.S. Northwestern. 
+            <note type="biographical">James J. McIntyre is a crewmember on the S.S. Northwestern. 
             He is enamoured with Gladys Stephens and writes to her often between the summer of 1909 and 
             the fall of 1909 (and probably later). It's likely that McIntyre was a tramp enginner, a low-ranking 
             crewman who switches jobs frequently and has little formal training. Between his letters of 13 August 
@@ -1278,9 +1278,9 @@
               the time of Macintyre's letter dated 04 October 1909. Tacoma's proximity to the Alaska 
               Steamship Company's headquarters in Seattle argues for the plausibility of Irene Palmer 
               hitching a ride to spend time with her brother and to see the landscape of the Pacific 
-              Northwest.
+              Northwest 
               <bibl><ref target="#Census1900IP">United States Census, 1900</ref>; 
-              <ref target="#Census1910IP">United States Census, 1910</ref></bibl>
+              <ref target="#Census1910IP">United States Census, 1910</ref></bibl>.
             </note>
           </person>
           <person xml:id="HEP">
@@ -1312,12 +1312,12 @@
               The 1930 Census indicates that both of Herbert's parents were born in Massachusetts, while 
               the head of the Palmer household, Gustavus Palmer, was born in Maine. Herbert's mother, 
               Minnie T. Palmer, was born in Massachusetts, and didn't marry Gustavus until 1882, 
-              approximately 6 years after Herbert's birth. 
+              approximately 6 years after Herbert's birth 
               <bibl><ref target="#Census1900HEP">United States Census, 1900</ref>; 
               <ref target="#Census1900MTP">United States Census, 1900</ref>; <ref target="#Census1910IP">
               United States Census, 1910</ref>; <ref target="#Census1920MP">United States Census, 1920</ref>; 
               <ref target="#Census1920HEP">United States Census, 1920</ref>;<ref target="#Census1930HEP">
-              United States Census, 1930</ref></bibl>
+              United States Census, 1930</ref></bibl>.
             </note>
           </person>
           <person xml:id="HH">
