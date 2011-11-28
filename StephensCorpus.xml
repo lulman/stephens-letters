@@ -218,7 +218,7 @@
                 and who moves from job to job and company to company with little warning or loyalty. In his letter of 
                 04 October 1909, he indicates that he has been a tramp engineer on five different ships that year. 
                 Understandably, the tramp engineer drew criticism in the same way that low-skilled and unpredictable 
-                workers still do, but he also had his champions. In the July 1907 issue of <title level="m">The American 
+                workers still do, but he also had his champions. In the July 1907 issue of <title level="j">The American 
                 Marine Engineer</title>, for example, a pseduonymous author declares that <q>it's the tramp experience 
                 that teaches a man to do impossible things. It's the tramp engineer, a thousand miles from port, with a 
                 monkey wrench, a cold chisel, a file, and a ratched brace that rebores a cylinder, puts in a new furnace 
@@ -229,7 +229,7 @@
                 The itinterant and unprivileged nature of the position, though, were difficult to mask with braggartism, 
                 and McIntyre seems to voice discontent when he writes that he has had enough changes for one year (04 October 
                 1909). On the other hand, McIntyre did not sail internationally and therefore did not have to endure 
-                the long absences from home that receive a sarcastic send-up in the January 1914 issue of <title level="m">The 
+                the long absences from home that receive a sarcastic send-up in the May 1914 issue of <title level="j">The 
                 Sailors' Magazine</title>: <q>[d]on't think that I am grumbling; sure not. Why, a little over three years 
                 ago I saw my wife, and had the good fortune to be in her company for almost the whole of an hour</q> 
                 <bibl><ref target="#SMJan1914">74</ref></bibl>. Regardless, the job was dangerous, and the tramp engineer 
@@ -983,8 +983,12 @@
           </bibl>
           <bibl xml:id="AME1907" n="Dixie">
             Dixie. <title level="a">How the Yankee Second Engineer Got the Propeller Off.</title> 
-            <title level="m">The American Marine Engineer</title> 2.7 (July 1907): 20. 
+            <title level="j">The American Marine Engineer</title> 2.7 (July 1907): 20. 
             <title level="m">Google Books</title>. Web. 28 Nov. 2011.
+          </bibl>
+          <bibl xml:id="SMJan1914" n="Tramps Engineer">
+            <title level="a">The Tramp's Engineer.</title> <title level="j">The Sailors' Magazine</title>: 
+            86.5 (May 1914): 73-74. <title level="m">Google Books</title>. Web. 28 Nov. 2011.
           </bibl>
         </listBibl>
         
