@@ -916,7 +916,18 @@
             <title level="m">A Trip to Wonderful Alaska</title>. Seattle: The Alaska Steamship Company, 1906. 
             <title level="m">Google Books</title>. Web. 22 Nov. 2011.
           </bibl>
+          <bibl xml:id="DMHPN" n="Lewis Dryden">
+            <title level="m">Lewis &amp; Dryden's Marine History of the Pacific Northwest</title>. Ed. E. W. 
+            Wright. Portland: The Lewis &amp; Dryden Printing Company, 1895. <title level="m">Google 
+            Books</title>. Web. 28 Nov. 2011.
+          </bibl>
+          <bibl xml:id="AYB1910" n="Johnson Emory">
+            Johnson, Emory R. and G. G. Huebner. <title level="a">Merchant Shipping.</title> 
+            <title level="m">The American Year Book 1910</title>. Ed. S. N. D. North. New York: 
+            D. Appleton and Company, 1911. 522-526. <title level="m">Google Books</title>. Web. 28 Nov. 2011.
+          </bibl>
         </listBibl>
+        
         <listEvent>
           <event when="1904" notBefore="1904-04-30" notAfter="1904-12-01" where="#StLouis" xml:id="LPE">
             <label>Louisiana Purchase Exposition</label>
