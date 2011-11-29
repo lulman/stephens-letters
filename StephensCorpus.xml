@@ -506,8 +506,8 @@
                 between James J. McIntyre and Gladys Stevens deal with romance, desire, and a longing to be near loved ones. Although we do not know 
                 all of the details of their relationship, in his love letter to Gladys on August 21st 1909, James J. McIntyre opens up the possibility 
                 for the representation of emotional culture at the time. In their article “Men and Romantic Love: Pinpointing a 20th-Century Change” Peter 
-                N. Stevens and Mark Knapp reinforce and document the theme of love for American middle-class men while also discussing dating practices from 
-                the Victorian period onto the Early 20th century. 
+                N. Stearns and Mark Knapp reinforce and document the theme of love for American middle-class men while also discussing dating practices from 
+                the Victorian period onto the Early 20th century. <bibl><ref target="#ML">Men and Romantic Love: Pinpointing a 20th-Century Change</ref></bibl>
               </p>
               <p>
                 From his letters to Gladys, we certainly do know that James J. McIntyre was of working class status. He often mentions his experiences 
@@ -518,21 +518,22 @@
               <p>
                 What we notice from his love letters to Gladys, is that McIntyre is writing within a larger social context dealing specifically with love ideals 
                 for men. By the nineteenth century, men were redefining male standards for love arguing that <q>“it was only through love that their true selves could 
-                shine through”</q>(Stevens, Knapp 771). Although McIntyre is writing at a later time, these cultural standards shaped the way for multiple decades after 
-                the 19th century. Indeed, as we see in his letters, McIntyre often talks about how much he misses Gladys. Historically, men in and around the time 
-                that this letter was written, accepted <q>“the pain that love could bring, sometimes noting their jealousy when a lover showed interest in others, even 
-                more commonly citing their grief when a loved one was absent”</q>(Stevens, Knapp 771). In his letter, McIntyre makes it clear that he wants to be near 
-                Gladys: “here we are Dear me plowing along miles farther away every day when it is my desire to be with you”. We do not know if Gladys had more than 
-                one love interest but in this case it seems like her and McIntyre had a working romance going on before and during his life as a merchant marine. 
+                shine through”</q> <bibl><ref target="#ML">Men and Romantic Love: Pinpointing a 20th Century Change</ref></bibl> Although McIntyre is writing at a 
+                later time, these cultural standards shaped the way for multiple decades after the 19th century. Indeed, as we see in his letters, McIntyre often 
+                talks about how much he misses Gladys. Historically, men in and around the time that this letter was written, accepted <q>“the pain that love could 
+                bring, sometimes noting their jealousy when a lover showed interest in others, even more commonly citing their grief when a loved one was absent”</q>. 
+                In his letter, McIntyre makes it clear that he wants to be near Gladys: <q>“here we are Dear me plowing along miles farther away every day when it is 
+                my desire to be with you”</q>. We do not know if Gladys had more than one love interest but in this case it seems like her and McIntyre had a working 
+                romance going on before and during his life as a merchant marine. 
               </p>
               <p>
                 By the Early 20th century, which is when McIntyre wrote to Gladys, new trends were emerging for men in terms of their commitment towards women. 
-                According to Stevens and Knapp, <q>“What was beginning to happen, by the 1920’s, was a virtual reversal of Victorian notions: whereas in the 19th 
+                According to Stearns and Knapp, <q>“What was beginning to happen, by the 1920’s, was a virtual reversal of Victorian notions: whereas in the 19th 
                 century men had accepted the principle of deep love in a context of substantial differentiation and separation from women, they now enjoyed more 
-                routine contact but devised a less committed version of romance in compensation”</q>(776). One of the reasons for this change was in part because there 
-                was a growing separation between work and home. Indeed, McIntyre was separated from Gladys, but with a difference: not because he was not committed, 
-                but due to the kind of work he did that prevented him from close contact. In fact, McIntyre seems to be the opposite of not being committed, he holds 
-                Gladys in high esteems and he longs to be with her. 
+                routine contact but devised a less committed version of romance in compensation”</q>. <bibl><ref target="#ML">Men and Romantic Love: Pinpointing 
+                a 20th-Century Change</ref></bibl>. One of the reasons for this change was in part because there was a growing separation between work and home. 
+                Indeed, McIntyre was separated from Gladys, but with a difference: not because he was not committed, but due to the kind of work he did that prevented 
+                him from close contact. In fact, McIntyre seems to be the opposite of not being committed, he holds Gladys in high esteems and he longs to be with her. 
               </p>
             </note>
           </notesStmt>
@@ -1146,6 +1147,10 @@
           <bibl xml:id="MarineWatch" n="MaWatch">
             <title level="m">Nautical Dictionary.</title> Arthur Young and James Brisbane: 
             Nabu Press, 2011. <title level="m">Google Books</title>. Web. 13 Nov. 2011.
+          </bibl>
+          <bibl xml:id="MenLove" n="ML">
+            <title level="a">Men and Romantic Love: Pinpointing a 20th-Century Change.</title> <title level="j">
+              Journal of Social History</title>. Web. 27 Nov. 2011. 
           </bibl>
          <bibl xml:id="Census1920HEP" n="United States 1920 Herbert">
             <title level="a">United States Census 1920, for Herbert E. Palmer.</title> <title 
