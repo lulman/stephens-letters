@@ -281,6 +281,38 @@
                 would likely be assigned the riskiest manual labor. McIntyre expresses that because the <name type="ship">Northwestern</name>'s 
                 boilers have been acting up, it will be <q>a wonder</q> if no one is seriously injured (04 October 1909).
               </p>
+              <p><hi rend="bold">The Decline of the U.S. Merchant Marine at the Turn of the Century</hi></p>
+              <p>Prior to World War I, the U.S. merchant marine had been in decline for many years. Congress attempted to mitigate 
+                this decline with the passage of the Ocean Mail Act of 1891, otherwise known as the Merchant Marine Act of 1891. 
+                Congress had already taken previous actions to subsidize individual steamship companies; however, as Rene De La Pedraja notes, 
+                this was "the first general subsidy bill passed by Congress since the pre-Civil War period" (<bibl><ref target="#RDLP">452</ref></bibl>). The act 
+                positioned the Post Office to consider bids and renewals for five and ten year contracts, which, as De La Pedraja observes, 
+                "halted but did not reverse the downward trend in the U.S. merchant marine" (<bibl><ref target="#RDLP">452</ref></bibl>). Ships built in the United States were quite 
+                expensive at the time, so the act only benefitted the larger, more established steamship companies. Also, the subsidies 
+                themselves were apparently only moderately enticing because, of the fifty-three mail routes that the Post Office sought bids for, 
+                they received only eleven proposals (<bibl><ref target="#RDLP">De La Pedraja 452</ref></bibl>). Nonetheless, by the turn of the century, private companies in the 
+                merchant marine were shipping mail across both the Atlantic and the Pacific. Thus, when J. J. McIntyre refers to the 
+                Santa Clara as a "mail boat" in his letter from August 13, he underscores one of the primary functions of the merchant marine 
+                at the time.
+              </p>
+              <p>Contemporary sources trace the decline of the merchant marine back to the American Civel War and its aftermath. 
+                In an issue of The American Marine Engineer from 1915, an article titled 
+                <title level="a"><bibl><ref target="#TAMM">The American Merchant Marine</ref></bibl></title> significantly quotes secretary McCulloch to 
+                help explain the waning U. S. shipping industry (despite the fact that McCulloch 
+                served under President Lincoln, and the last time he had held that position was 1885). 
+                According to the anonymously written article, McCulloch blamed various domestic policies 
+                as well as tariffs for status of U. S. shipping: 
+                <quote>The decline of American shipping commenced with the substitution of iron for wooden ships. 
+                  It was hastened by our refusal to permit our shipowners to protect their ships by a foreign flag 
+                  during the war, by the tempting opportunities of railroad development: the finishing blow being given to 
+                  it by a tariff which by taxing the materials that are used in the construction of ships, made them too costly to invite 
+                  capital in that direction and forced it into manufactures.</quote> These conditions directly and indirectly 
+                resulted from the Civil War, and they continued to plage the merchant marine for half a century. 
+                The article goes on to explain that in 1850, 75% of maritime shipping in the U. S. was done by American ships, but by 1864, 
+                the figure plummeted to 27%. By 1896, it was down to 11%, and by 1914, it reached a low of 8.6% (<title level="a">The American Merchant Marine</title>). 
+                The impact of World War I on European shipping allowed for a resurgence in the U. S. merchant marine; however, when J. J. McIntyre 
+                is writing about his life as a merchant marine in 1909, the industry had reached an unprecedented low point. 
+              </p>
               <p><hi rend="bold">Social Status of Maritime Workers</hi></p>
               <p>
                 Of interest to diverse readers will be the curious love affair between James J. McIntyre and Gladys Stephens. 
@@ -1026,8 +1058,17 @@
             <title level="m">Lighthouse Heritage</title>. National Park Service, 18 Apr. 2002. Web. 10 Nov. 2011.
           </bibl>
           <bibl xml:id="SSCS" n="Steamer">
-            <title level="a">Steamer Santa Clara Sold.</title> <title level="j">Pacific Merchant Marine.</title>
+            <title level="a">Steamer Santa Clara Sold.</title> <title level="j">Pacific Merchant Marine</title>
             2.21 (6 Nov. 1909): 18. Web. 14 Nov. 2011.
+          </bibl>
+          <bibl xml:id="RDLP" n="De">De La Pedraja, Rene.
+            <title level="a">Ocean Mail Act of 1891 or Merchant Marine Act of 1891.</title><title level="m">
+            A Historical Dictionary of the U.S. Merchant Marine and Shipping Industry</title>. Westport, CT: 
+            Greenwood P, 1994. 452-53. Print.
+          </bibl>
+          <bibl xml:id="TAMM" n="American">
+            <title level="a">The American Merchant Marine.</title><title level="j">The American Marine Engineer</title> 
+            10.7 (July 1915): 11. Web. 14 Nov. 2011.
           </bibl>
           <bibl xml:id="SS19090923" n="Two">
             <title level="a">Two Girls Burned and Crushed Beyond Human Resemblance.</title> <title level="j">
