@@ -4469,8 +4469,8 @@
             <lb/><persName ref="#JJM">J James </persName>
           </closer>
         </div>
-        <div type="envelope" xml:id="XXYYYYMMDDenv01">
-          <pb/>
+        <div type="envelope" xml:id="JJM19090913env01">
+          <pb facs="/5/5842b56d-3a02-4783-9f9f-4ec0daf95119"/>
           <ab type="postalAddress">
             <address>
             <addrLine>Miss. Gladys M. Stephens</addrLine>
