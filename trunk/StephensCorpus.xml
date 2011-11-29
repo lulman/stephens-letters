@@ -703,8 +703,23 @@
             <date type="destroyed" when="1915-11-02"/>
             <orgName type="owner" when="1869-03-05">North Pacific Steamship Company</orgName>
             <desc>Launched as the John S. Kimball in 1900, later renamed James Dollar and 
-            later Santa Clara. Ran aground on 2 November 1915 in Coos Bay, Oregon.</desc>
-            <bibl><ref target="#NYT1 #Koppy"></ref></bibl>
+            later Santa Clara. Ran aground on 2 November 1915 in Coos Bay, Oregon. 
+            <bibl><ref target="#NYT1 #Koppy"></ref></bibl>Robert Dollar was the owner who renamed 
+            the ship the "James Dollar," and at that time it was chartered by Captain 
+            Elmer E. Caine. Captain Caine later purchased the ship and, 
+            according to an article in <title level="j">Pacific Merchant Marine</title>, "turned it over 
+            to the Alaska-Pacific Navigation Company (this is also when it was renamed the "Santa Clara"). 
+            The Alaska-Pacific Navigation Company then sold it to the Northwestern Steamship Company, 
+            which then merged with the Alaska Steamship Company. McIntyre was transferred from 
+            the Santa Clara to the Northwestern in August 1909, and by November 6, 1909, 
+            the Santa Clara had been sold again, this time to the North Pacific Steamship Company of 
+            San Francisco. The article in the Pacific Merchant Marine also offers a specific description of 
+            the ship: "<quote>The Santa Clara is a wooden steamship, with modern 
+            equipments, including the wireless telegraph, and is regarded as a good sailor. 
+            She has comfortable passenger accommodations, and is a good cargo carrier. 
+            She is 223 feet long, has a 38-foot beam, and a depth of 24-1 feet. 
+            Her indicated horsepower is 900, and she carries a crew of 
+            thirty-seven</quote>" <bibl><ref target="#SSCS">("Steamer").</ref></bibl></desc>
           </item>
           <item xml:id="SantaAnna">
           <name type="passenger" subtype="steamer">S. S. Santa Anna</name>
@@ -908,6 +923,10 @@
           <bibl xml:id="MHP" n="Maritime">
             Maritime Heritage Program, National Park Service. <title level="a">Lightships of the U.S.</title>
             <title level="m">Lighthouse Heritage</title>. National Park Service, 18 Apr. 2002. Web. 10 Nov. 2011.
+          </bibl>
+          <bibl xml:id="SSCS" n="Steamer">
+            <title level="a">Steamer Santa Clara Sold.</title> <title level="j">Pacific Merchant Marine.</title>
+            2.21 (6 Nov. 1909): 18. Web. 14 Nov. 2011.
           </bibl>
           <bibl xml:id="SS19090923" n="Two">
             <title level="a">Two Girls Burned and Crushed Beyond Human Resemblance.</title> <title level="j">
