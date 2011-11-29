@@ -316,7 +316,9 @@
               <p><hi rend="bold">Social Status of Maritime Workers</hi></p>
               <p>
                 Of interest to diverse readers will be the curious love affair between James J. McIntyre and Gladys Stephens. 
-                McIntyre’s correspondence with Stephens does not provide much information regarding how the two met or indeed, 
+                In fact, upon reading McIntyre's letters, one must wonder how James McIntyre, a crewmember on the S.S. Northwestern 
+                and Gladys Stephens, a lady of some means and social mobility, could have ever met and fallen in love. McIntyre’s 
+                correspondence with Stephens does not provide much information regarding how the two met or indeed, 
                 how their very different lives ever crossed paths. However, based on the collection of letters that we have, 
                 it is certain that McIntyre feels passionately about his “little girl” Gladys and he tells her this numerous 
                 times in his love letters. At the center of their romance is a budding intrigue—McIntyre often mentions his 
@@ -337,14 +339,14 @@
               </p>
               <p>
                 His desire to set himself apart from other seafaring men suggests that he is attempting to carve an identity for himself 
-                apart from his profession—or at least, he is trying to convince Gladys that he is different from other men in his profession. 
-                In his attempt to distance himself from the lot, however, McIntyre more often follows expected behavior for sailors in the late 
+                apart from his profession—or at least, that he is trying to convince Gladys that he is different from other men in his profession. 
+                In his attempt to distance himself from the lot, however, McIntyre more often follows expected behaviors for sailors in the late 
                 nineteenth and early twentieth centuries. David Cordingly reminds us that sailors’ writing homesick letters to their wives and 
                 girlfriends was a typical activity for men working on merchant ships. As he remarks, <q>“sailors spent, and no doubt still do spend, 
                 a great deal of time thinking of women…and above all they wrote letters to their women. These letters are often heartrending to 
                 read and show that the happy-go-lucky sailor was often desperately homesick and wanted nothing more than for the voyage to end so 
-                he could return to his loved ones at home” </q> (xiii). Perhaps unfortunately for McIntyre, therefore, his expressions of love and 
-                desire for his Gladys may have come across as mere sailor talk to his best girl at home.
+                he could return to his loved ones at home” </q> <bibl><ref target="#SeafarWom">xiii</ref></bibl>. Perhaps unfortunately for McIntyre, therefore, his expressions of love and 
+                desire for his Gladys may have come across as mere 'sailor talk' to his best girl at home.
               </p>
               <p>
                 While McIntyre’s anxiety may at times seem more indicative of his own insecurities than of stringent social realities, it may also 
@@ -352,23 +354,22 @@
                 concern with which he inquires about this matter suggests that he anticipates a disastrous outcome to the revelation of their love 
                 that will surely become an obstacle in their relationship. Yet, most telling of the blatant difference in their positions is the fact 
                 that Stephens remains suspiciously quite about her relationship with McIntyre. Not only does she seem to correspond with McIntyre less 
-                often than he writes to her—which could mean that she does not share his strong feeling of love—but she makes no mention of him at all 
+                often than he writes to her—which could mean that she does not share his strong feeling of love—but she also makes no mention of him at all 
                 in her letters to her relatives. In fact, while she reports writing to several friends and relatives while on her travels, we do not 
-                have any first-hand account of Stephens’s feelings for McIntyre.
+                have any such first-hand accounts of Stephens’s ineractions with and feelings for McIntyre.
               </p>
               <p>
-                Of course, Stephens’s possible unconcern for McIntyre is largely speculative because we do not have Gladys’s letters to McIntyre and thus 
+                Of course, Stephens’s possible unconcern for McIntyre is largely speculative because we do not have her letters to McIntyre and thus 
                 we cannot be sure about how many times she wrote to him (or what she might have said in those letters). We can glean from McIntyre’s letters 
                 that he is a bit frustrated by his not receiving any letters from his “dear” Gladys, but he does not reveal whether this is because of his 
                 traveling from port to port on numerous different ships – or if in fact he suspects that his “neddy” is snubbing him. The apprehension that 
                 he sometimes betrays in his writing is certainly understandable: Numerous contemporary sources describe the unfavorable reputation of sailors 
                 and other ship crewmen. These describe this class of men as swarthy, crass, uneducated and unfaithful. In fact, by the early nineteenth century, 
-                the warning that a sailor has a wife in every port was a well-worn saying (xiii). Gladys is likely aware of these stereotypes about sailors, whose 
+                the warning that <q>a sailor has a wife in every port</q> was a well-worn saying <bibl><ref target="#SeafarWom">xiii</ref></bibl>. Gladys is likely aware of these stereotypes about sailors, whose 
                 reputation is “none too good,” and her apparent silence may be an indication of her hesitancy to pursue the relationship. Nonetheless, the letters 
-                from James McIntyre to Gladys Stephens provide a fascinating glimpse into what might have once been a steamy love affair between these two young 
-                correspondents—and it is likely enough to raise a few eyebrows.
-              </p>
-              <p><hi rend="bold">Salmon and Resource Economies in Alaska</hi></p>
+                from James McIntyre to Gladys Stephens provide a fascinating glimpse into what might have once been a steamy love affair between two individuals of 
+                highly different social stations – and it is likely to raise a few eyebrows.
+                </p>
             </note> 
             
           </notesStmt>
@@ -1151,9 +1152,9 @@
             <title level="a">The Tramp's Engineer.</title> <title level="j">The Sailors' Magazine</title>: 
             86.5 (May 1914): 73-74. <title level="m">Google Books</title>. Web. 28 Nov. 2011.
           </bibl>
-          <bibl xml:id="PR" n="Patricia Roppel">
-            Patricia Roppel <title level="m">Alaska's Salmon Hatcheries</title> 1st Ed. Portland, OR: 
-            National Marine Fisheries Service, 1982. Print.
+          <bibl xml:id="SeafarWom" n="David Cordingly">
+            <title level="m">Seafaring Women: Adventures of Pirate Queens, Female Stowaways, and Sailors' Wives</title>.
+            New York: Random House Trade Paperbacks, 2007. <title level="m">Google Books</title> Web. 26 Nov.2011.
           </bibl>
         </listBibl>
         
@@ -4178,7 +4179,8 @@
             <lb/>you will be told is this <persName ref="#GMS"><addName type="endearment">honey</addName></persName> <q>He's
               <lb/>only a seafaring man.</q> and <hi rend="underline">I</hi> will
             <lb/>will admit that their <choice><abbr type="suspension">Rep.</abbr><expan cert="high">reputation</expan></choice>is none
-            <lb/>too good but that comes more from 
+            <lb/>too good<ptr type="noteAnchor" target="SailorsRep"/><note resp="ed" xml:id="SailorsRep">Numerous contemporary sources describe sailors' reputation for crudeness and womanizing. 
+              The warning that a sailor has a wife in every port was often repeated during this period.<bibl><ref target="#SeafarWom">xiii</ref></bibl>.</note> but that comes more from 
             <lb/>the sailor class on war ships and
             <lb/>sailing vessels and all <choice><sic>deap</sic><corr>deep</corr></choice> water crafts
             <lb/>mostly foreigner's and <persName ref="#GMS"><addName type="endearment">dear</addName></persName> I hope <choice><sic>too</sic><corr>to</corr></choice>
@@ -4515,8 +4517,8 @@
             <lb/><persName ref="#JJM">J James </persName>
           </closer>
         </div>
-        <div type="envelope" xml:id="JJM19090913env01">
-          <pb facs="/5/5842b56d-3a02-4783-9f9f-4ec0daf95119"/>
+        <div type="envelope" xml:id="XXYYYYMMDDenv01">
+          <pb/>
           <ab type="postalAddress">
             <address>
             <addrLine>Miss. Gladys M. Stephens</addrLine>
