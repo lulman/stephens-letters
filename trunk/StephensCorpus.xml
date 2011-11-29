@@ -144,7 +144,7 @@
                   Anderson," 45</ref></bibl>.</p>
               <p><hi rend="bold">Run-in header</hi>. And if you need a run-in heading for a sub-section, you can
               use this pattern. I don't think we will need any more granular pattern of headers.</p>
-              
+              <p><hi rend="bold">Railroads and The Promotion of Tourism in the American West</hi></p>
               <p>The letters written by Gladys Stevens, documenting both the ordinary and extraordinary details of her various excursions, prompt readers to make inquiries of different kinds about the nature of tourism in the first decade of the twentieth century.  
                 On one hand, we wonder about Gladys the person: what were her reasons for taking an extended trip into the Pacific Northwest, how did she as a young single woman have the means to do so, and who were her fellow travelers?  On the other hand, however, 
                 Gladys’s letters inspire a curiosity about the place itself: how would a traveler—any traveler—have imagined the Pacific Northwest in 1909?  Given the centrality of the American west to the ethos of American exceptionalism, and the powerful myths of 
@@ -1356,6 +1356,21 @@
             <title level="m">The Alaska-Yukon-Pacific Exposition : Seattle, June 1-October 16, 1909.</title>
             St. Paul, MN: General Passenger Department, Northern Pacific Railway. Print. 26 Nov. 2011.
           </bibl>
+          <bibl xml:id="UnionPacific" n="UP"><title level="a">Historical Overview.</title><title level="m">UP.com.</title>Web. 18 November 2011. 
+          </bibl>
+          <bibl xml:id="CS" n="Schwantes">Schwantes, Carlos A.
+            <title level="a">Tourists in Wonderland: Early Railroad Tourism in the Pacific Northwest</title>
+            <title level="j">Columbia Magazine 7.4 (1993-1994): 22-30.</title>Web.  16 November 2011.
+          </bibl>
+          <bibl xml:id="RRseries" n="Wonderland">
+            <title level="a">The Northern Pacific Railway's Wonderland</title><title level="m">United States Railroad Travel Guides</title>
+          <title level="m">sharinghistory.com/RRseries.htm.</title> Web. 28 November 2011.</bibl>
+          <bibl xml:id="MS" n="Shaffer">Shaffer, Marguerite S.
+            <title level="a">"See America First": Re-Envisioning Nation and Region through Western Tourism.</title>
+            <title level="j">Pacific Historical Review 65:4 (1996): 559-581.</title>Web. 18 November 2011.
+          </bibl>
+          <bibl xml:id="JF" n="Findlay">Findlay, John M.<title level="a">A Fishy Proposition: Regional Identity in the Pacific Northwest.</title>
+          <title level="m"></title>Many Wests: Place, Culture, and Regional Identity.</bibl>Print.  20 November 2011.
         </listBibl>
         
         <listEvent>
