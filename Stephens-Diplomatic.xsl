@@ -32,10 +32,11 @@
     </xsl:variable>
     <xsl:variable name="bodyRule">
         body {
-        margin: 30px;
-        background-color: #FFFFFF;
+        background-position: top;
+        margin-left: 50px;
+        width: 850px;
+        margin-right: 50px;
         font-family: Verdana, Arial, Helvetica, sans-serif;
-        width: 50em;
         }                                     
     </xsl:variable>    
     

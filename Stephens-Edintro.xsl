@@ -44,6 +44,35 @@
                    width: 800px;
                     
                }
+               .masthead {
+                   vertical-align : top;
+               }
+               .mastheadl {
+                   float : left;
+                   width : 175px;
+                   text-align : left;
+                   left : 50px;
+               }
+               .mastheadc {
+                   display : inline;
+               }
+               .mastheadr {
+                   float : right;
+                   text-align : right;
+                   width : 225px;
+                   position : absolute;
+                   top : 15px;
+                   left : 700px;
+                   }
+               a:link {
+               text-decoration: none;
+               }
+               a:hover {
+               font-weight: bold;
+                   }
+               a.annotation {
+               text-decoration: none;
+                   }
                h1 {
                    font-size: 1.5em;
                    font-weight: bold;
@@ -101,23 +130,41 @@
             </style>
          </head>
          <body>
-            <h1 class="projectTitle">
-               <xsl:value-of
-                  select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-            </h1>
+            <div class="masthead">
+               <div class="mastheadl">
+                  <p>
+                     <a href="StephensReading.html"
+                        title="Link to the reading text of the letters.">Reading Text</a> &#xa4;<br/>
+                     <a href="#source">The Source Document</a><br/>
+                     <a href="#edition">The Electronic Edition</a><br/>
+                     <a href="#revision">Revision History</a><br/>
+                  </p>
+               </div>
+               <div class="mastheadc"><img src="https://images.asc.ohio-state.edu/is/image/englishdocs/1/1d1e448a-6a1f-4096-9acb-bf07c5b6cc50.jpg?scale=0.2&amp;rgn=60,60,100,100&amp;fmt=png" alt="Stationery Logo for Alaska Steamship Company" name="Logo" height="90" id="Logo" />&#xA0;&#xA0;<img src="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.2&amp;rgn=340,40,220,90&amp;fmt=png" alt="Postage cancel from Seattle World's Fair" name="Cancel" id="Cancel" /><img src="https://images.asc.ohio-state.edu/is/image/englishdocs/9/93100908-de33-4b45-b71f-5899daaae7cc.jpg?scale=0.2&amp;rgn=220,44,190,100&amp;fmt=png" alt="Image of cancellation on envelope" name="Cancel2" height="90" id="Cancel2" /> </div>
+               <div class="mastheadr"> 
+                  <p>
+                     <a href="#PeopleMentioned" 
+                        title="List of people mentioned in the letters.">People Mentioned</a><br/>
+                     <a href="#PlacesMentioned"
+                        title="List of places mentioned in the letters.">Places Mentioned</a><br/>
+                     <a href="#WorksCited" 
+                        title="List of works cited in explanatory annotations and editorial introduction.">Works Cited
+                     </a><br/>
+                     <a href="#view">About this page</a>
+                  </p>
+               </div>
+            </div>
+            <div style="clear:both;"/><br/>
             <hr/>
-            <p class="links">[ <a href="#source">About the Source Document</a> | <a href="#edition"
-                  >About the Electronic Edition</a> | <a href="#revision">Revision History</a> | <a
-                  href="#view">About this Editorial Introduction</a> | <a
-                     href="http://people.cohums.ohio-state.edu/ulman1/StephensLetters/default.cfm">Project Web
-                  site</a>] 
-               <br/><br/><xsl:element name="a">
-                  <xsl:attribute name="href">StephensLetters-Reading.html</xsl:attribute>
-                  <strong>Link to the Text of the Journal</strong>
-               </xsl:element>
-               <br/><br/><strong>This edition is still being developed. Please do not cite until
-                  this notice is removed.</strong>
+            <p align="center">
+               <span class="ProjectTitle">
+                  <xsl:value-of
+                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>
+               </span>
             </p>
+            <p align="center"><cite><strong>This edition is currently in progress. Please do
+               not cite this preview until this notice is removed.</strong></cite> </p>
+            <hr/>
             <hr/>
      <!-- Order and apply templates for the sections of the header you wish to include. -->
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']"/>
@@ -129,6 +176,7 @@
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
             <hr/>
+            <a name="WorksCited"/>
             <h2>List of Works Cited</h2>
             <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
@@ -238,6 +286,7 @@
    </xsl:template>
    
    <xsl:template match="tei:listPerson[@type='mentioned']">
+      <a name="PeopleMentioned"/>
       <h3>List of People Mentioned in the Letters</h3>
       <xsl:for-each select="tei:person">
          <xsl:sort select="tei:persName"/>
@@ -256,6 +305,7 @@
    
    
    <xsl:template match="tei:listPlace">
+      <a name="PlacesMentioned"/>
       <h3>List of Places Mentioned in the Letters</h3>
       <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
