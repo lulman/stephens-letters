@@ -1435,67 +1435,108 @@
             <title level="a">The Tramp's Engineer.</title> <title level="j">The Sailors' Magazine</title>: 
             86.5 (May 1914): 73-74. <title level="m">Google Books</title>. Web. 28 Nov. 2011.
           </bibl>
-          <bibl xml:id="SeafarWom" n="David Cordingly">
-            <title level="m">Seafaring Women: Adventures of Pirate Queens, Female Stowaways, and Sailors' Wives</title>.
-            New York: Random House Trade Paperbacks, 2007. <title level="m">Google Books</title> Web. 26 Nov.2011.
+          <bibl xml:id="SeafarWom" n="Seafaring Women">
+            <title level="m">Seafaring Women: Adventures of Pirate Queens, Female Stowaways, and Sailors' Wives</title>. 
+            New York: Random House Trade Paperbacks, 2007. <title level="m">Google Books</title>. Web. 26 Nov.2011.
           </bibl>
           <bibl xml:id="DLP" n="Pedraja">
-            Rene De La Pedraja <title level="m">A Historical Dictionary of the US Merchant Marine and Shipping Industry</title>
+            de la Pedraja, Rene. <title level="m">A Historical Dictionary of the US Merchant Marine and Shipping Industry</title>. 
             1st Ed. Westport, CT: Greenwood, 1994. Print.
           </bibl>
-          <bibl xml:id="MaritimeRace" n="Laura Tabili"> <title level="a">"A Maritime Race" Masculinity and the Racial
-          Division of Labor in British Merchant Ships, 1900-1939</title> <title level="m">Iron Men, Wooden Women: Gender
-          and Seafaring in the Atlantic World, 1700-1920</title> Ed. Margaret S. Creighton and Lisa Norling. Baltimor: The
-          Johns Hopkins University Press, 1996</bibl>
-          <bibl xml:id="OReillyAYP" n="Shauna O'Reilly">Shauna O'Reilly and Brennan O'Reilly.
-            <title level="m">The Alaska-Yukon-Pacific Exposition.</title>
-            Charleston, SC: Arcadia Publishing, 2009. <title level="m">Google Books</title> Web. 26 Nov.2011.
+          <bibl xml:id="MaritimeRace" n="Maritime Race">
+            <title level="a"> "A Maritime Race" Masculinity and the Racial Division of Labor in British 
+            Merchant Ships, 1900-1939.</title> <title level="m">Iron Men, Wooden Women: Gender 
+            and Seafaring in the Atlantic World, 1700-1920</title> Ed. Margaret S. Creighton and Lisa 
+            Norling. Baltimore: The Johns Hopkins University Press, 1996. Print.
           </bibl>
-          <bibl xml:id="AYPFilm" n="Eric Perlman">Eric Perlman, ed.
-            <title level="m">Alaska Yukon Pacific Exposition: Seattle’s Forgotten World’s Fair.</title>
-            Seattle, WA: Fidget, 2009. Film. 26 Nov.2011.
+          <bibl xml:id="OReillyAYP" n="Shauna O'Reilly">
+            Shauna O'Reilly and Brennan O'Reilly. <title level="m">The Alaska-Yukon-Pacific 
+            Exposition</title>. Charleston, SC: Arcadia Publishing, 2009. <title level="m">Google Books</title>. 
+            Web. 26 Nov.2011.
           </bibl>
-          <bibl xml:id="NorthernPacific" n="General Passenger">General Passenger Department, Northern Pacific Railroad.
-            <title level="m">The Alaska-Yukon-Pacific Exposition : Seattle, June 1-October 16, 1909.</title>
-            St. Paul, MN: General Passenger Department, Northern Pacific Railway. Print. 26 Nov. 2011.
+          <bibl xml:id="AYPFilm" n="Perlman">
+            Eric Perlman, ed. <title level="m">Alaska Yukon Pacific Exposition: Seattle’s Forgotten 
+            World’s Fair</title>. Seattle, WA: Fidget, 2009. Film.
           </bibl>
-          <bibl xml:id="UnionPacific" n="UP"><title level="a">Historical Overview.</title><title level="m">UP.com.</title>Web. 18 November 2011. 
+          <bibl xml:id="NorthernPacific" n="General Passenger">
+            General Passenger Department, Northern Pacific Railroad. <title level="m">The Alaska-Yukon-Pacific 
+            Exposition : Seattle, June 1-October 16, 1909</title>. St. Paul, MN: General Passenger 
+            Department, Northern Pacific Railway. Print.
           </bibl>
-          <bibl xml:id="CS" n="Schwantes">Schwantes, Carlos A.
-            <title level="a">Tourists in Wonderland: Early Railroad Tourism in the Pacific Northwest</title>
-            <title level="j">Columbia Magazine 7.4 (1993-1994): 22-30.</title>Web.  16 November 2011.
+          <bibl xml:id="UnionPacific" n="Historical Overview">
+            <title level="a">Historical Overview.</title> <title level="m">Union Pacific</title>. 
+            Web. 18 November 2011.
           </bibl>
-          <bibl xml:id="RRseries" n="Wonderland">
-            <title level="a">The Northern Pacific Railway's Wonderland</title><title level="m">United States Railroad Travel Guides</title>
-          <title level="m">sharinghistory.com/RRseries.htm.</title> Web. 28 November 2011.</bibl>
-          <bibl xml:id="MS" n="Shaffer">Shaffer, Marguerite S.
-            <title level="a">"See America First": Re-Envisioning Nation and Region through Western Tourism.</title>
-            <title level="j">Pacific Historical Review 65:4 (1996): 559-581.</title>Web. 18 November 2011.
+          <bibl xml:id="CS" n="Schwantes">
+            Schwantes, Carlos A. <title level="a">Tourists in Wonderland: Early Railroad Tourism 
+            in the Pacific Northwest.</title> <title level="j">Columbia Magazine</title> 7.4 (1993-1994): 
+            22-30. Web. 16 November 2011.
           </bibl>
-          <bibl xml:id="JF" n="Findlay">Findlay, John M.<title level="a">A Fishy Proposition: Regional Identity in the Pacific Northwest.</title>
-            <title level="m">Many Wests: Place, Culture, and Regional Identity.</title>Print. 20 November 2011.
+          <bibl xml:id="RRseries" n="Northern Pacific">
+            <title level="a">The Northern Pacific Railway's Wonderland.</title> <title level="m">United 
+            States Railroad Travel Guides</title>. <title level="m">sharinghistory.com/RRseries</title>. 
+            Web. 28 November 2011.
           </bibl>
-          <bibl xml:id="Chest" n="Chesterfield">Earl of Chesterfield. <title level="m">Chesterfield’s Art of Letter-Writing Simplified</title>.
-            New York: Dick &amp; Fitzgerald, 1857. <title level="m">U of Pittsburgh Digital Research Library</title>. Web. 20 Nov. 2011.</bibl>
+          <bibl xml:id="MS" n="Shaffer">
+            Shaffer, Marguerite S. <title level="a">"See America First": Re-Envisioning Nation 
+            and Region through Western Tourism.</title> <title level="j">Pacific Historical 
+            Review</title> 65.4 (1996): 559-581. Web. 18 November 2011.
+          </bibl>
+          <bibl xml:id="JF" n="Findlay">
+            Findlay, John M. <title level="a">A Fishy Proposition: Regional Identity in the Pacific 
+            Northwest.</title> <title level="m">Many Wests: Place, Culture, and Regional 
+            Identity</title>. Print.
+          </bibl>
+          <bibl xml:id="Chest" n="Chesterfield">
+            Earl of Chesterfield. <title level="m">Chesterfield’s Art of Letter-Writing Simplified</title>. 
+            New York: Dick &amp; Fitzgerald, 1857. <title level="m">U of Pittsburgh Digital Research 
+            Library</title>. Web. 20 Nov. 2011.
+          </bibl>
           <bibl xml:id="Nanj" n="Johnson Nan">Johnson, Nan <title level="m">Gender and Rhetorical Space in American Life, 1866-1910</title>. 
           Carbondale: SIU P, 2002. Print. </bibl>
-          <bibl xml:id="Putnam" n="Roberts Helen"> Roberts, Helen L. <title level="m">Putnam’s Handbook of Etiquette: A Cyclopedia of Social Usage, 
-          Giving Manners and Customs of the Twentieth Century</title> New York: The Knickerbocker Press, 1913.<title level="m">Harvard U: Schlesinger Library of the 
-          History of Women in America</title> Web. 22 Nov. 2011. </bibl>
-          <bibl xml:id="Roth" n="Rothman">Rothman, Ellen K. <title level="m">Hands and Hearts: A History of Courtship in America</title>. 
-          New York: Basic Books, 1984.</bibl>
-          <bibl xml:id="Shel" n="Sheldon">Sheldon, L.W.<title level="m">Sheldon’s Twentieth Century Letter Writer: An Up-to-Date and Accurate Guide to Correct Modern Letter Writing</title>.
-            Philadelphia: D. McKay, 1901.<title level="m">U of Pittsburgh Digital Research Library</title>.Web. 20 Nov. 2011.</bibl>
-          <bibl xml:id="RWells" n="Wells">Wells, Richard A. <title level="m">Manners, Culture and Dress of the Best American Society</title>.Springfield: King, Richardson &amp;
-            Co. Publishers, 1894. <title level="m">Harvard U: Schlesinger Library of the History of Women in America</title>. Web. 22 Nov. 2011. </bibl>
-          <bibl xml:id="Nigel" n="Hall Nigel">Hall, Nigel <title level="a">The Materiality of Letter Writing: A Nineteenth Century Perspective</title>.
-            <title level="m">Letter Writing as a Social Practice</title>. David Barton and Nigel Hall, eds. Amsterdam: John Benjamins Publishing Company, 2000. 83-108.</bibl>
-          <bibl xml:id="LucilleS" n="Schultz Lucille">Schultz, Lucille M.<title level="a">Letter-Writing Instruction in nineteenth Century Schools in the United States</title>.
-            <title level="m">Letter Writing as a Social Practice</title>. David Barton and Nigel Hall, eds. Amsterdam: John Benjamins Publishing Company, 2000. 109-125.</bibl>
-          <bibl xml:id="WhiteA" n="White Annie">White, Annie Randall<title level="m">Twentieth Century Etiquette: An Up-to-Date Book for Polite Society</title>Philadelphia: Elliott Publishing Company, 1900.</bibl>
-          <bibl xml:id="Deck" n="Decker">Decker, William Merrill<title level="m">Epistolary Practice: Letter Writing in American before Telecommunications</title>.
-          Chapel Hill: The University of North Carolina Press, 1998.</bibl>
-          <bibl xml:id="Kings" n="Kingsland">Kingsland, Mrs. Burton<title level="m">he Book of Good Manners: “Etiquette for All Occasions”</title>. New York: Doubleday, Page and Company, 1903.</bibl>
+          <bibl xml:id="Putnam" n="Roberts Helen">
+            Roberts, Helen L. <title level="m">Putnam’s Handbook of Etiquette: A Cyclopedia of Social 
+            Usage, Giving Manners and Customs of the Twentieth Century</title>. New York: The Knickerbocker 
+            Press, 1913. <title level="m">Harvard U: Schlesinger Library of the History of Women in 
+            America</title>. Web. 22 Nov. 2011.
+          </bibl>
+          <bibl xml:id="Roth" n="Rothman">
+            Rothman, Ellen K. <title level="m">Hands and Hearts: A History of Courtship in 
+            America</title>. New York: Basic Books, 1984. Print.
+          </bibl>
+          <bibl xml:id="Shel" n="Sheldon">
+            Sheldon, L.W. <title level="m">Sheldon’s Twentieth Century Letter Writer: An Up-to-Date and 
+            Accurate Guide to Correct Modern Letter Writing</title>. Philadelphia: D. McKay, 1901. 
+            <title level="m">University of Pittsburgh Digital Research Library</title>. Web. 20 Nov. 2011.
+          </bibl>
+          <bibl xml:id="RWells" n="Wells">
+            Wells, Richard A. <title level="m">Manners, Culture and Dress of the Best American 
+            Society</title>. Springfield: King, Richardson &amp; Co. Publishers, 1894. 
+            <title level="m">Harvard U: Schlesinger Library of the History of Women in America</title>. 
+            Web. 22 Nov. 2011.
+          </bibl>
+          <bibl xml:id="Nigel" n="Hall Nigel">
+            Hall, Nigel. <title level="a">The Materiality of Letter Writing: A Nineteenth Century Perspective</title>. 
+            <title level="m">Letter Writing as a Social Practice</title>. Eds. David Barton and Nigel Hall. Amsterdam: 
+            John Benjamins Publishing Company, 2000. 83-108. Print.
+          </bibl>
+          <bibl xml:id="LucilleS" n="Schultz Lucille">
+            Schultz, Lucille M. <title level="a">Letter-Writing Instruction in nineteenth Century Schools 
+            in the United States</title>. <title level="m">Letter Writing as a Social Practice</title>. 
+            Eds. David Barton and Nigel Hall. Amsterdam: John Benjamins Publishing Company, 2000. 109-125. Print.
+          </bibl>
+          <bibl xml:id="WhiteA" n="White Annie">
+            White, Annie Randall. <title level="m">Twentieth Century Etiquette: An Up-to-Date Book 
+            for Polite Society</title>. Philadelphia: Elliott Publishing Company, 1900. Print.
+          </bibl>
+          <bibl xml:id="Deck" n="Decker">
+            Decker, William Merrill. <title level="m">Epistolary Practice: Letter Writing in 
+            America before Telecommunications</title>. Chapel Hill: The University of North Carolina 
+            Press, 1998. Print.</bibl>
+          <bibl xml:id="Kings" n="Kingsland">
+            Kingsland, Mrs. Burton. <title level="m">The Book of Good Manners: “Etiquette for 
+            All Occasions”</title>. New York: Doubleday, Page and Company, 1903. Print.
+          </bibl>
             
         </listBibl>
         
