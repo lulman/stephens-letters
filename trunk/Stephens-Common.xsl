@@ -485,7 +485,12 @@
    <xsl:template match="tei:rs">
       <xsl:apply-templates/>
    </xsl:template>
-   <xsl:template match="tei:name[@type='ship']">
+   <xsl:template match="tei:note/tei:name[@type='ship']">
+      <em>
+         <xsl:apply-templates/>
+      </em>
+   </xsl:template>
+   <xsl:template match="tei:person/tei:name[@type='ship']">
       <em>
          <xsl:apply-templates/>
       </em>
