@@ -50,33 +50,56 @@
             </title>
             <style type="text/css">
               <xsl:value-of select="$bodyRule"/>
+               .masthead {
+                   vertical-align : top;
+               }
+               .mastheadl {
+                   float : left;
+                   width : 175px;
+                   text-align : left;
+                   left : 50px;
+               }
+               .mastheadc {
+                   display : inline;
+               }
+               .mastheadr {
+                   float : right;
+                   text-align : right;
+                   width : 225px;
+                   position : absolute;
+                   top : 15px;
+                   left : 700px;
+               }
+               a:link {
+               text-decoration: none;
+               }
+               a:hover {
+               font-weight: bold;
+                   }
+               a.annotation {
+               text-decoration: none;
+                   }
                div.pagebreak {
                    margin-top : 25px;
                    margin-bottom : 0px;
                    text-align : center;
                }
                div.envelope {
-                   font-size: .85em;
+                   font-size : .85em;
                }
-               .msDesc  {
-                   font-size: .85em;
-               } 
-               .half-width  {
-                   width:50%;
-               }    
+               .msDesc {
+                   font-size : .85em;
+               }
+               .half-width {
+                   width : 50%;
+               }
                hr {
                    color : #888833;
                    clear : left;
                }
-               a.annotation {
-                   text-decoration:none;
-               }
-               a:hover {
-                   font-weight:bold;
-               }
                div#letter {
-                   border : 3px groove #666666;
-                   padding : 5px;
+                   border: 3px groove #666666;
+                   padding: 5px;
                }
                h1 {
                    font-family : Verdana, Arial, Helvetica, sans-serif;
@@ -90,12 +113,11 @@
                sup {
                }
                img {
-                   float: left;
-                   padding: 5px;
-                   margin-top: 5px;
-                   margin-bottom: 5px;
+                   float : left;
+                   padding : 5px;
+                   margin-top : 5px;
+                   margin-bottom : 5px;
                }
-
                .nocancel {
                    text-decoration : none;
                    color : #000000;
@@ -104,7 +126,7 @@
                    text-decoration : line-through;
                    color : #FF0000;
                }
-                div.fl_img_right {
+               div.fl_img_right {
                    float : right;
                    text-align : center;
                    margin : 5px 5px 5px 5px;
@@ -130,45 +152,70 @@
                }
                table {
                    text-align : right;
-               }
-            </style>
+               }</style>
          </head>
-         <!-- Build the body of the HTML document. -->
+         
+         <!-- Build the body of the HTML document, beginning with the masthead used in the
+         project Web site. -->
+         
          <body>
-            <!-- Create navigation links at the top of the page -->
+            <!-- Build the masthead and navigation links at the top of the page -->
+            <div class="masthead">
+               <div class="mastheadl">
+                  <p>
+                     <a href="StephensReading.html" title="Reading Text of the
+                        Stephens Letters">Reading Text</a><br/>
+                     <a href="StephensDiplomatic.html" title="Diplomatic View of the
+                        Stephens Letters">Diplomatic View</a><br/>
+                     <a href="StephensCombined.html" title="Side-by-side view of
+                        page images and diplomatic transcription">Facsimile/Text View</a><br/>
+                     <a
+                        href="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm"
+                        title="Background information about the project.">Project Web Site</a><br/>
+                     <a href="#view">About this Page</a>
+                  </p>
+               </div>
+               <div class="mastheadc"><img src="https://images.asc.ohio-state.edu/is/image/englishdocs/1/1d1e448a-6a1f-4096-9acb-bf07c5b6cc50.jpg?scale=0.2&amp;rgn=60,60,100,100&amp;fmt=png" alt="Stationery Logo for Alaska Steamship Company" name="Logo" height="90" id="Logo" />&#xA0;&#xA0;<img src="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.2&amp;rgn=340,40,220,90&amp;fmt=png" alt="Postage cancel from Seattle World's Fair" name="Cancel" id="Cancel" /><img src="https://images.asc.ohio-state.edu/is/image/englishdocs/9/93100908-de33-4b45-b71f-5899daaae7cc.jpg?scale=0.2&amp;rgn=220,44,190,100&amp;fmt=png" alt="Image of cancellation on envelope" name="Cancel2" height="90" id="Cancel2" /> </div>
+               <div class="mastheadr"> 
+                  <p>
+                     <a href="StephensEdIntro.html" title="Editorial Introduction
+                        to the Stephens Letters">Editorial Intro</a><br/>
+                     <a
+                        href="StephensEdIntro.html#PeopleMentioned" 
+                        title="List of people mentioned in the letters."
+                        target="_blank">People Mentioned</a><br />
+                     <a href="StephensEdIntro.html#PlacesMentioned"
+                        title="List of places mentioned in the letters.">Places Mentioned</a><br />
+                     <a href="StephensEdIntro.html#WorksCited" 
+                        title="List of works cited in explanatory annotations and editorial introduction.">Works Cited</a>
+                  </p>
+               </div>
+            </div>
+            <div style="clear:both;"/><br/>
+            <hr/>
             <p align="center">
                <span class="ProjectTitle">
                   <xsl:value-of
                      select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>
                </span>
             </p>
+            <p align="center"><cite><strong>This edition is currently in progress. Please do
+               not cite this preview until this notice is removed.</strong></cite> </p>
             <hr/>
-            <p align="center">
-               <xsl:element name="a">
-                  <xsl:attribute name="href">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm</xsl:attribute>
-                  <xsl:attribute name="target">self</xsl:attribute>Project Web Site</xsl:element> | 
-               <xsl:element name="a">
-                  <xsl:attribute name="href">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensLetters-EdIntro.htm</xsl:attribute>
-                  <xsl:attribute name="target">self</xsl:attribute>Ed. Intro
-               </xsl:element> || <strong>Views</strong>: Reading (current/<xsl:element name="a"><xsl:attribute name="href">#view</xsl:attribute><xsl:attribute name="target">self</xsl:attribute>about</xsl:element>) | 
-               <xsl:element name="a">
-                  <xsl:attribute name="href">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensLetters-Standardized.html</xsl:attribute>
-                  <xsl:attribute name="target">self</xsl:attribute>
-                  Reading (Standardized)
-               </xsl:element>
-               <xsl:element name="a">
-                  <xsl:attribute name="href">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensLetters-Diplomatic.html</xsl:attribute>
-                  <xsl:attribute name="target">self</xsl:attribute>
-                  Diplomatic
-               </xsl:element> | 
-               <xsl:element name="a">
-                  <xsl:attribute name="href">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensLetters-Diplomatic.html</xsl:attribute>
-                  <xsl:attribute name="target">self</xsl:attribute>
-                  MS Image/Text
-               </xsl:element>               
-               <br/><br/><strong>This edition is still being developed. Please do not cite until
-                  this notice is removed.</strong>
-            </p>
+            
+            <!-- Build the table of contents. -->
+            <h1>Contents</h1>
+            <xsl:for-each select="/tei:teiCorpus/tei:TEI">
+               &#xa4; <a>
+                  <xsl:attribute name="href">#<xsl:value-of select="tei:text//tei:div[@type='letter']/@xml:id"></xsl:value-of>
+                  </xsl:attribute>
+                  <xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"></xsl:value-of>
+               </a>
+               <br/>
+               <p style="font-size:.85em;"><xsl:value-of select="tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:msContents/tei:p"/></p>
+            </xsl:for-each>
+            <br/>
+            <hr/>
             
             <!-- Insert information from the <text> of each TEI element, wrapping each <text> in a div 
              of class "correspondence." -->
@@ -224,8 +271,7 @@
                </xsl:choose>
 
             </xsl:for-each>
-            <!-- Insert the back section of the XML document's back section and invoke apply-templates. -->
-
+            
             <hr/>
             <!-- Describe this view of the journal. -->
             <p>
