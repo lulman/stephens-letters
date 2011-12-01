@@ -2189,6 +2189,9 @@
             </birth>
             <education>BA, Ohio State (2009)</education>
             <education>MA, Ohio State (2011)</education>
+            <note type="biographical">
+            Evan Thomas is a first-year PhD student at the Ohio State University. His previous research concerns
+            English Renaissance print culture, sectarianism, and the formal relation of text to narrative image.</note>
         </person>
           <person xml:id="VMM">
             <persName>Victoria M. Munoz</persName>
@@ -4802,7 +4805,7 @@
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>Title</title>
+          <title>[James J McIntyre to Gladys Stephens, 13 September 1909]</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
