@@ -2096,7 +2096,30 @@
             <education>PhD, The Pennsylvania State University (1985)</education>
             <occupation>College Professor</occupation>
             <nationality>U.S.A.</nationality> 
-            <note type="biographical">Biographical note about H. Lewis Ulman</note>
+            <note type="biographical">H. Lewis Ulman is Associate Professor of English at The Ohio
+              State University and Director of Digital Media Studies in the Department of English.
+              He has edited <title level="m">The Minutes of the Aberdeen Philosophical Society,
+                1758–1773</title> (Aberdeen University Press, 1990) and, with Dennis Quon, <title
+                level="a">Semiotics in Eighteenth-century Aberdeen: Thomas Gordon’s Contributions to
+                the Aberdeen Philosophical Society</title> (Studies on Voltaire and the
+              Eighteenth-Century 317 (1994): 57–115). He is also the author of <title level="m"
+                >Things, Thoughts, Words and Actions: The Problem of Language in Late
+                Eighteenth-Century British Rhetorical Theory</title> (Southern Illinois University
+              Press, 1994). Since 2005, he has worked with undergraduate and graduate students in
+              textual editing courses to create a series of electronic textual editions of
+              nineteenth- and early twentieth-century American manuscripts in the Rare Books and
+              Manuscripts Library at Ohio State. An example of that work can be viewed online at
+                <figure rend="link">
+                <head>http://people.cohums.ohio-state.edu/ulman1/SSCoxJournal/</head>
+                <graphic url="http://people.cohums.ohio-state.edu/ulman1/SSCoxJournal/"/>
+                <figDesc>Link to edition of Samuel Sullivan Cox journal</figDesc>
+              </figure>. Beginning with an NEH Digital Humanities Start-Up Grant awarded in 2008, he
+              has collaborated with Melanie Schlosser, metadata librarian at Ohio State University
+              Libraries, to build a model of preservation for distributed, multimodal digital
+              humanities projects. He is delighted to be working at a time when manuscript, print,
+              and digital media can be studied in relationship to one another, allowing him and his
+              students to learn more about all three media than they could by studying any one in
+              isolation.</note>
           </person>
           <person xml:id="ACO">
             <persName>Owens, Ashley Cole</persName>
