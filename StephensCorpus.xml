@@ -1100,7 +1100,7 @@
             <country>United States</country>
             <region>Wyoming</region>
             <region>Montana</region>
-            <region>Idado</region>
+            <region>Idaho</region>
             <location source="#FLL">
               <geo>44.4620852 -110.6424411</geo>
             </location>
@@ -1861,8 +1861,8 @@
           <person xml:id="MissC"><persName>Miss Campbell</persName>
           <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that Miss Campbell is still switching along.</note>
           </person>
-          <person xml:id="Rosinel"><persName>Rosinel</persName>
-          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes she hasn't heard from Rosinel lately.</note>
+          <person xml:id="Roswel"><persName>Roswel</persName>
+          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes she hasn't heard from Roswel lately.</note>
           </person>
           <person xml:id="Jays"><persName>the Jays</persName>
           <note>Gladys mentions that the Jays supplied her with the address for Rosinel a night after mailing him a note in her
@@ -1881,8 +1881,8 @@
           <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that the last letter she wrote to Mabel Nims
           was so long ago that she's forgotten when it was.</note>
           </person>
-          <person xml:id="Macas"><persName>the Macas</persName>
-          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys asks if Mrs. Stephens has heard from the Macas
+          <person xml:id="MaQs"><persName>the MaQs</persName>
+          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys asks if Mrs. Stephens has heard from the MacQ's
           lately, and wonders what the madam think now.</note>
           </person>
           <person><persName>Walt</persName></person>
@@ -2178,6 +2178,9 @@
             <education>MA, Wake Forest University (2009)</education>
             <occupation>Graduate Student</occupation>
             <nationality>U.S.A.</nationality>
+            <note type="biographical">Jonathan is currently a PhD student at the Ohio State University in the 
+              Near Eastern Languages and Cultures department, specializing in the Hebrew Bible.  
+              Jonathan has also served as an instructor, teaching the Mythologies of Ancient Egypt and Mesopotamia.</note>
           </person>
           <person xml:id="EBT">
             <persName>Thomas, Evan B.</persName>
@@ -5230,8 +5233,6 @@
           </p>
           <p>
             <lb/>Never heard from <persName ref="Philys">Philys</persName>.
-          </p>
-          <p>
             <lb/>The last card I sent to
             <lb/><persName ref="MN">Mabel Nims</persName> was so long
             <lb/>ago that I've forgotten
@@ -5239,7 +5240,7 @@
           </p>
           <p>
             <lb/>Haven't heard from
-            <lb/><persName ref="Rosinel">Rosinel</persName> lately
+            <lb/><persName ref="Roswel">Roswel</persName> lately
           </p>
           <p>
             <lb/>Got a letter from <persName ref="Jays">the
@@ -5250,17 +5251,18 @@
           </p>
           <p>
             <lb/>Have you heard from the
-            <lb/><unclear cert="low" reason="unknown personal name"><persName ref="Macas">Maca</persName></unclear>'s lately.  I wonder
+            <lb/><unclear cert="high" reason="unknown personal name"><persName ref="MacQs">MacQ</persName></unclear>'s 
+            lately.  I wonder
             <lb/>what the madam thinks
             <lb/>now?
           </p>
-       
-      
-      <closer>
+          <p>
             <lb/>Hope you are well.
-            <lb/>So long for now
-            <lb/><salute>Love</salute>
-            <lb/><persName ref="GMS">Gladys</persName>
+          </p>
+      <closer>
+            <lb/><salute>So long for now
+            <lb/>Love</salute>
+            <lb/><signed><persName ref="GMS">Gladys</persName></signed>
             <lb/><date>9/27/09</date>
         </closer>
         </div>
