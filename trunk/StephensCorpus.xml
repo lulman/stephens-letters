@@ -3906,7 +3906,7 @@
         <div type="letter" xml:id="JJM19090821let01" corresp="#JJM19090821let01">
           <pb facs="/c/c9330555-86d9-4008-9bbb-e6b89b76ac84"/>
           <opener>
-            <lb/><salute><rs ref="#GMS">Dear Little Girl</rs></salute>
+            <lb/><salute><rs ref="#GMS">Dear little Girl</rs></salute>
           </opener>
           <p>
             <lb/> As I am now standing my last
@@ -3918,11 +3918,11 @@
                 for the latter assignment at the time this letter was written. <bibl><ref target="#MarineWatch">Nautical Dictionary</ref></bibl></note> 
             <lb/> and I am still a wondering
             <lb/> and lonesome as usual I thought
-            <lb/> I would write a friend
-            <lb/> which will probably be the
+            <lb/> I would write a <choice><sic>fiew</sic><corr>few</corr></choice>
+            <lb/> which will <choice><sic>probbely</sic><corr>probably</corr></choice> be the
             <lb/> last chance to mail unless they
-            <lb/> is a <unclear cert="unknown"></unclear> farther north than
-            <lb/> <unclear cert="unknown"></unclear> which <choice><sic>seldome</sic><corr>seldom</corr></choice> happiness 
+            <lb/> is a boat farther north than
+            <lb/> <unclear cert="medium">Cordova</unclear> which <choice><sic>seldome</sic><corr>seldom</corr></choice> happens
             <lb/> It is now 1:30 a.m. as I am
             <lb/> still on the same 12/4 as I was 
             <lb/> on <placeName ref="#SantaClara">Santa Clara</placeName> and we should
@@ -3963,19 +3963,19 @@
             <lb/> don't you <persName ref="#GMS"><addName type="endearment">honey</addName></persName>?
             <pb facs="/1/1e6f7ae6-47bf-494b-88b1-df9d3d7be5ea"/>
             <lb/> which I hope will be no later than
-            <lb/> the spring of 1910 do <hi rend="underlined">you</hi>? Tell me <unclear cert="unknown"></unclear>
-            <lb/> this is the first time in a long time
+            <lb/> the spring of 1910 do <hi rend="underlined">you</hi>? Tell me this
+            <lb/> This is the first time in a long time
             <lb/> that I hated to leave <placeName ref="#Seattle">Seattle</placeName> on account
-            <lb/> of not being there when my letter
+            <lb/> of not being there when my letters
             <lb/> arrived and again when I am at sea
             <lb/> well I know where I am at
-            <lb/> least. I had two letters before sailing
+            <lb/> least? I had two letters before sailing
             <lb/> this time one Sunday and one Monday
-            <lb/> at <unclear cert="low">6 p.m.</unclear> from <rs>a passanger</rs> that
+            <lb/> at <unclear cert="low">5 p.m.</unclear> from <rs>a passanger</rs> that
             <lb/> went north on this boat last
-            <lb/> spring but which I did not talk
-            <lb/> to but twice but she had a <unclear cert="low">notion</unclear>
-            <lb/> <unclear cert="low">or</unclear> fancy but <persName ref="#GMS"><addName type="nickname"></addName>Neddie</persName> <addName type="endearment">dear</addName> the 
+            <lb/> Spring but which I did not talk
+            <lb/> to but twice but she had a notion
+            <lb/> or fancy but <persName ref="#GMS"><addName type="nickname"></addName>Neddie</persName> <addName type="endearment">dear</addName> the 
             <lb/> answers to both were the same
             <lb/> and was this&#x2014;<hi rend="underlined">Impossible</hi>
             <pb facs="/b/bc7afc0a-0631-4a57-b872-fda7beb07774"/>
