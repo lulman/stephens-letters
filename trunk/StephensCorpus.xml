@@ -2983,13 +2983,13 @@
             <!--Gladys repeats the word "visit" here before and after the page break.  I have corrected it with a sic + an empty <corr> element since the correction is literally nothing.-->
             <pb facs="/a/a244ada2-8ce4-4bc4-80e9-da8a673bfd55"/>             
             <!-- More people who could become referring strings but aren't yet because we don't know enough about them -->
-          <lb/><choice><sic>visit</sic><corr></corr></choice> them. <rs ref="#Hughes"><persName ref="#MJ">Mrs. Jordon</persName>
+            <lb/><choice><sic>visit</sic><corr></corr></choice> them. <rs ref="#Hughes"><persName ref="#MJ">Mrs. Jordon</persName>
             <lb/>(Mrs. H's cousin) has lots of
             <lb/>money. Her husband died
             <lb/>5 yrs. ago and left a large
             <lb/>estate. One of the sons
-            <lb/>"blew in" $40,000 in 2 yrs.
-            <lb/><unclear cert="high">They</unclear> could buy ranch
+            <lb/><q>"blew in"</q> $40,000 in 2 yrs.
+            <lb/><unclear cert="high">They</unclear> could buy a ranch
             <lb/>for $12,000 and pay $25,000
             <lb/>for improvements. The girl
             <lb/>has her money too. Her
