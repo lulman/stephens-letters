@@ -824,9 +824,7 @@
             <desc>James J. McIntyre mentions this to Gladys in a letter on Sept. 13 1909.</desc>
             <country>China</country>
             <location>
-              <geo>
-                35.0000 105.0000
-              </geo>
+              <geo>35.0000 105.0000</geo>
             </location>
           </place>
           <place type="city" xml:id="Manila" source="#TGN">
@@ -834,9 +832,7 @@
             <desc>James J. McIntyre mentions this to Gladys Stephens in a letter on Sept. 13 1909</desc>
             <country>Philippines</country>
             <location>
-              <geo>
-                14.6167 120.9667
-              </geo>
+              <geo>14.6167 120.9667</geo>
             </location>
           </place>
           <place type="city" xml:id="Portland" source="#TGN">
