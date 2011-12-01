@@ -11,6 +11,7 @@
         <file name="StephensCorpus.xml"/>
         <file name="Stephens-Diplomatic.xsl"/>
         <file name="Stephens-Edintro.xsl"/>
+        <file name="Stephens-place2kml02.xsl"/>
         <file name="Stephens-Reading.xsl"/>
         <file name="Stephens-Standardized.xsl"/>
     </projectTree>
