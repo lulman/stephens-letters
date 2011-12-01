@@ -829,7 +829,7 @@
               </geo>
             </location>
           </place>
-          <place type="city" xml:id="Manila" source="TGN">
+          <place type="city" xml:id="Manila" source="#TGN">
             <placeName>Manila</placeName>
             <desc>James J. McIntyre mentions this to Gladys Stephens in a letter on Sept. 13 1909</desc>
             <country>Philippines</country>
