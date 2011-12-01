@@ -1126,8 +1126,10 @@
             <placeName>Rome</placeName>
             <country>Italy</country>
             <location>
-              <geo>41.9000 -12.4833</geo>
+              <geo>41.9000 12.4833</geo>
             </location>
+            <desc>Mentioned in the sense of the saying "all roads lead to Rome" in the 9-27 letter from Gladys to
+            A.T. Stephens</desc>
           </place>
           <place type="city" xml:id="CityofMexico">
             <placeName>City of Mexico</placeName>
