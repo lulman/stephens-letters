@@ -5397,11 +5397,11 @@
             I will be In <placeName ref="#Seattle">Seattle</placeName> <date when="1909-10-04">tonight</date> about 
             <lb/><time when="23:32:00">11<hi rend="superscript"><hi rend="underlined">32</hi></hi></time> I 
             <distinct type="babyTalk">fink</distinct><unclear cert="medium">!</unclear> 
-            That's bad for I cannot get my mail 
+            that's bad for I Cannot get my mail 
             <lb/><choice><sic>untill</sic><corr>until</corr></choice> <date when="1909-10-05">tomorrow</date>,  
             we <del rend="overwritten">b</del>missed the tide in <geogName ref="#Seymour"><choice><sic>
               Seymor</sic><corr>Seymour</corr></choice> 
-            <lb/><geogFeat>narrows</geogFeat></geogName> and had to Anchor for 4 hours and that's 
+            <lb/><geogFeat>Narrows</geogFeat></geogName> and had to Anchor for 4 hours and that's 
             <lb/>the reason why. I <hi rend="underlined">do</hi> hope I will have a letter 
             <lb/>from <placeName ref="#ElPaso">El Paso</placeName> Saying you got there all O.K. but 
             <lb/>I am afraid I will <choice><sic>hafto</sic><corr>have to</corr></choice> wait another day 
@@ -5409,15 +5409,15 @@
             <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             (<unclear cert="high" reason="penstroke and blot following word">how</unclear> I 
             <lb/>would) And See if <choice><sic>they</sic><corr>there</corr></choice> is any Change in my 
-            <persName ref="#GMS"><addName type="endearment">little 
+            <persName ref="#GMS"><addName type="endearment"><distinct type="babyTalk">Ittle</distinct> 
               <lb/>girl</addName></persName> with all her travels I don't <distinct type="babyTalk">fink</distinct> 
-            So&#x2014;hope not 
-            <lb/>any way<unclear cert="medium">!</unclear> we are a day ahead of time on the time 
+            So&#x2014;hope not&#x2014; 
+            <lb/>Any way<unclear cert="medium">!</unclear> we are a day ahead of time on the time 
             <lb/>I Set as we only have a half a cargo It looks bad 
             <lb/>for another trip <del rend="overwritten">f</del>but 
-            <choice><sic>ofcorse</sic><corr>of course</corr></choice> cannot tell 
+            <choice><sic>ofcorse</sic><corr>of course</corr></choice> Cannot tell 
             <choice><sic>untill</sic><corr>until</corr></choice> 
-            <lb/>we get home, I hope we do not lay up as 
+            <lb/>we get home, I hope we do not lay up now as 
             <lb/>I have quite enough changes for one year let's 
             <lb/>See 5 Ships all the Same tramp Engineer<ptr type="noteAnchor" target="JJM19091004note0"/>
             <note resp="ed" xml:id="JJM19091004note0">
@@ -5435,7 +5435,7 @@
             <lb/>exceedingly fine weather this <choice><sic>Voige</sic><corr>Voyage</corr></choice> 
             It <choice><sic>didint</sic><corr>didn't</corr></choice> 
             <lb/>even have Sense enough to rain only once we have 
-            <lb/>the Crew the Cannery crew from <placeName ref="#Klawock">Klawock</placeName> (this is 
+            <lb/>the Crew: the Cannery Crew from <placeName ref="#Klawock">Klawock</placeName> (this is 
             <lb/>the way it is <placeName ref="#Klawock">Klaw-wock</placeName>) and no Totem
             <ptr type="noteAnchor" target="JJM19091004note1"/><note resp="ed" xml:id="JJM19091004note1">
             <placeName ref="#Tuxekan">Tuxekan</placeName> was renowned for its totem poles, and Klawock 
