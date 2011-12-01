@@ -24,6 +24,17 @@
         <!-- NOTE: Revise the next line to pull value from markup. -->
         
           <name>Places Mentioned in the Stephens Family Travel Letters</name>
+        <open>1</open>
+        <Style id="Stephens">
+          <BalloonStyle>
+            <text>$[description]</text>
+          </BalloonStyle>
+          <IconStyle>
+            <Icon>
+              <href>http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/images/world.png</href>
+            </Icon>
+          </IconStyle>
+        </Style>
         
         <!-- Build a KML placemark for each <place> element in <listPlace>. -->
         
@@ -34,7 +45,8 @@
                   <!-- Populate KML name element from <placeName> or <geogName> in each <place>. -->
                   
                   <name><xsl:value-of select="tei:placeName | tei:geogName"/></name>
-                   <description>
+                  <styleUrl>#Stephens</styleUrl>
+                  <description>
 
                      <!-- The KML description field is simple text. To deploy HTML in browser, it must be
                      it must be escaped here or in CDATA format. -->
