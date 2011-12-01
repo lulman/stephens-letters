@@ -5013,7 +5013,7 @@
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
-          <title>Glady M. Stephens to Mrs. A.T. Stephens, 27 September, 1909</title>
+          <title>Gladys M. Stephens to Mrs. A.T. Stephens, 27 September, 1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
@@ -5030,7 +5030,9 @@
             </msIdentifier>
             <msContents>
               <p>
-                <!-- Describe contents briefly. -->
+               A letter from Gladys M. Stephens to Mrs. A.T. Stephens on the 27th of September, 1909 in which
+               Gladys discusses her various relationships and correspondences, including her plans with Adelaide
+               and a number of family associations back home.
               </p>
             </msContents>
             <physDesc>
@@ -5062,7 +5064,7 @@
                   <head>Oregon Timber Company</head>
                   <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=450,900&amp;layer=1&amp;src=is{mediamanager/3/389e4759-1e88-4e46-abab-a552ed4c0e69.jpg?scale=0.5&amp;rgn=110,38,450,600&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=450,600&amp;text=\vertalt\cf1\qc\fs36\%20Oregon Timber Company&amp;posN=0,.5"/>
                   <figDesc>
-                    Manuscript detail
+                    Envelope picture of the Oregon Timber Company
                   </figDesc>
                 </figure>
               </p>
@@ -5089,11 +5091,11 @@
         
         <div type="letter" xml:id="GS19090927let01" corresp="#GS19090927env01">
           <pb facs="/a/a9e9c771-0075-4c39-b538-4284cf3e85a0/> "/>
-          <figure rend="embed">
-            <head>Oregon Timber Company</head>
+          <figure rend="link">
+            <head>Post Office</head>
             <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/a/a9e9c771-0075-4c39-b538-4284cf3e85a0.jpg?scale=0.5&amp;rgn=380,38,513,538&amp;fmt=png"/>
             <figDesc>
-              Manuscript detail
+              Stationary header on this page of an unknown Post Office.
             </figDesc>
           </figure>
           <opener> <salute>Mother dear,</salute>
@@ -5176,11 +5178,11 @@
             <lb/>all talk turns to <q>"the West."</q>
           </p>
           <pb facs="/d/dbd77e73-82da-4df9-95fc-b7eda643a5b6"/>
-          <figure rend="embed">
+          <figure rend="link">
             <head>Forrestry Building</head>
             <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/d/dbd77e73-82da-4df9-95fc-b7eda643a5b6.jpg?scale=0.5&amp;rgn=343,125,633,393&amp;fmt=png"/>
             <figDesc>
-              Manuscript detail
+              Photo on the stationary of an unknown Forrestry Building.
             </figDesc>
           </figure>
           <p>
