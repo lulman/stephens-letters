@@ -136,15 +136,6 @@
             </note>
             
             <note type="introductory" xml:id="StephensIntroduction">
-              <p><hi rend="bold">A Header Here</hi></p>
-              <p>Introductory note text here. Example of <title level="m">A Monograph Title</title> and
-              a <title level="a">Journal Article.</title> [Note the placement of a period when it
-                needs to be placed inside the quotes around a journal title.] Example of an in-text citation
-                <bibl><ref target="#Census1910WDA">"United States Census 1910, for Willis D.
-                  Anderson," 45</ref></bibl>.</p>
-              <p><hi rend="bold">Run-in header</hi>. And if you need a run-in heading for a sub-section, you can
-              use this pattern. I don't think we will need any more granular pattern of headers.</p>
-              
               <p><hi rend="bold">The Art of Early Twentieth-Century Letter Writing</hi></p>
               <p>“A well-written letter,” writes Lord Chesterfield in the 1857 edition of his popular manual, <title level="m">Chesterfield’s Art of Letter Writing</title>, “has opened the way to prosperity for many a one, has led to many a happy marriage and constant friendship, and has secured 
                 many a good service…for it is in some measure a photograph of the writer and may inspire love or hatred, regard or aversion…just as a glimpse of a portrait often determines us in our estimage of the worth of the person represented” <bibl><ref target="#Chest">6-7</ref></bibl>. 
@@ -234,19 +225,22 @@
               <p>However, of equal importance is the way that the west was opened imaginatively to tourists at the turn of the century.  The very railroad companies that made it possible for new groups of Americans to see the west for themselves also played 
                 an incredibly prominent role in the perpetuation of a certain image of the American west.  Of principal interest are the See America First campaign launched by civic leaders in Salt Lake City, Utah, and the Wonderland series issued by the Northern 
                 Pacific Railroad from 1883 to 1906.  <bibl><ref target="#CS">27</ref></bibl>The See America First advertising campaign began simply as a slogan created by Fisher Sanford Harris, a passionate community advocate and local politician in Salt Lake City.  Eventually, his slogan became the most 
-                recognizable creed of the national parks in America.  Citizens interested in developing a thriving tourist industry in the west “used See America First not simply as a booster slogan to promote the idea of a cooperative tourist organization... but 
+                recognizable creed of the national parks in America.  Citizens interested in
+                developing a thriving tourist industry in the west “used See America First not simply as a booster slogan to promote the idea of a cooperative tourist organization .&#xA0;.&#xA0;. but 
                 more broadly as an expression of western regionalism in response to the centralizing forces that were reconfiguring the emerging urban industrial nation-state” <bibl><ref target="#MS">Shaffer 560</ref></bibl>.  “See America First” went from being a headline in the Salt Lake Telegram 
                 in 1905, to the proper designation for a league of delegates and fundraisers devoted to promoting tourism in the west, and eventually could be found on every billboard advertising the Great Northern Railway.</p>
               <p>See America First was intimately connected to the spirit of American exceptionalism.  “Nationalist Americans,” Marguerite Shaffer writes, “looked to the American landscape with its abundant national resources and magnificent scenery to compensate 
-                for America’s lack of an ancient past.  Scenic and sublime wilderness in America offered a natural legacy representative of American... superiority over Europe”<bibl><ref target="#MS">565</ref></bibl>.  Harris’s brainchild was originally conceived as a means of interesting American 
+                for America’s lack of an ancient past.  Scenic and sublime wilderness in America
+                offered a natural legacy representative of American .&#xA0;.&#xA0;. superiority over Europe”<bibl><ref target="#MS">565</ref></bibl>.  Harris’s brainchild was originally conceived as a means of interesting American 
                 middle-class and upper-class citizens in domestic travel; countless American dollars were being spent by an emergent leisure class on sightseeing in Europe, and westerners believed that the American frontier was the answer to the problem.  In similar 
                 fashion, and perhaps broader in cultural scope, was the Northern Pacific Railroad’s “Wonderland” series.  Borrowing from the title of Lewis Carroll’s popular book, the Northern Pacific Railroad Company issued a volume each year between 1883 and 1906 
                 that featured various attractions of the Pacific Northwest.  Some of the issues were devoted specifically to different Pacific Northwest localities, like Yellowstone Park or the Inland Passage in Alaska.  Others treated the region traversed by the 
                 railroad as a whole.  The booklets included propagandistic descriptions of the landscape and vivid illustrations designed to lure travelers to ride its rails<bibl><ref target="#RRseries">n.p.</ref></bibl>.  It is difficult to imagine that, somewhere along her journey, Gladys would not have seen 
                 one of the See America First billboards, or that she grew up in a literate middle-class family without ever leafing through one of the Wonderland books that would have certainly captured the imagination of an independent young woman.</p>
               <p>Also important to our understanding of Gladys’s cultural perspective, with respect to the presence of railroads, is our understanding of the effect they had on defining a region.  Because of railroads, the Pacific Northwest became the next entrepreneurial 
-                endeavor of America’s modern economy.  However, John M. Findlay notes that “the railroad companies’ efforts to create a distinct regional identity may have counted for more.  To be profitable in the Northwest, they needed to attract [people]... 
-                to ride their trains... the companies launched continual publicity campaigns to sell Oregon, Idaho, and Washington as a single region called ‘the Great Northwest’”<bibl><ref target="#JF">Shaffer 51</ref></bibl>. </p>
+                endeavor of America’s modern economy.  However, John M. Findlay notes that “the
+                railroad companies’ efforts to create a distinct regional identity may have counted for more.  To be profitable in the Northwest, they needed to attract [people] .&#xA0;.&#xA0;. 
+                to ride their trains .&#xA0;.&#xA0;. the companies launched continual publicity campaigns to sell Oregon, Idaho, and Washington as a single region called ‘the Great Northwest’”<bibl><ref target="#JF">Shaffer 51</ref></bibl>. </p>
               
               <p><hi rend="bold">The Alaska-Yukon-Pacific Exposition of 1909 and Destination Travel to Yellowstone Park</hi></p>
               
@@ -402,7 +396,8 @@
                 the Russian steamer <name type="ship">Politkofsky</name> <bibl><ref target="#DMHPN">156</ref></bibl>, 
                 foreshadowing the role that steamer vessels were to play in the exploration, colonization, 
                 commercialization, and tourism of the Alaskan frontier. Additionally, the <title level="m">Marine 
-                History</title> records that "[t]he most important event of [1889] was the organization...of the 
+                History</title> records that "[t]he most important event of [1889] was the
+                organization .&#xA0;.&#xA0;. of the 
                 Puget Sound and Alaska Steamship Company" <bibl><ref target="#DMHPN">363</ref></bibl>, for which 
                 James J. McIntyre sails and works on the <name type="ship">Santa Clara</name> and 
                 <name type="ship">Northwestern</name>, among other ships, in 1909.
@@ -550,7 +545,7 @@
               <p>
                 <q>one off the many things that you will be told is this honey He’s only a seafaring man. And I will admit that their Rep. 
                 is none too good but that comes more from the sailor class on war ships and sailing vessles and all deap water crafts 
-                mostly foreigners and dear I hope too be through with this in the near future...</q>
+                mostly foreigners and dear I hope too be through with this in the near future.&#xA0;.&#xA0;.&#xA0;.</q>
               </p>
               <p>
                 McIntyre’s explanation of the distinctions among the different types of ship crewmen provides us with a fascinating window 
