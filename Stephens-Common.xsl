@@ -360,6 +360,9 @@
    </xsl:template>
    <xsl:template match="tei:div[@type='enclosure']"/>
    <xsl:template match="tei:div[@type='letter']">
+      <a>
+         <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute>
+      </a>
       <div class="letter">
       <xsl:apply-templates/>
       </div>
