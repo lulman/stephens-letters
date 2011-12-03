@@ -2442,15 +2442,20 @@
       <textClass>
         <!-- Supply a list of keywords for your document from the Library of Congress Subject Headings -->
         <keywords scheme="#LCSH">
-          <!-- Lewis Ulman's list of terms begins here. -->
           <term>Alaska-Yukon-Pacific Exposition (1909: Seattle, Wash.)</term>
+          <term>Alaska Steamship Company</term>
+          <term>Inside Passage--Description and travel</term>
+          <term>Yellowstone National Park</term>
+          <term>Travel--North America</term>
+          <term>Love-letters--United States</term>
+          <term>Mexican Revolution, Mexico, 1910-1920</term>
         </keywords>
    
       </textClass>
       
     </profileDesc>
     <revisionDesc>
-      <change when="2011-10-29" who="#HLU">Initiated revision history.<roleName>Principal editor</roleName></change>
+      <change when="2011-12-06" who="#HLU">Initial preview release of edition.<roleName>The editors.</roleName></change>
     </revisionDesc>
   </teiHeader>
   
