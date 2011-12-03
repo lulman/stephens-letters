@@ -46,7 +46,7 @@
             <!-- Grab title from the fileDesc element of the TEI header. -->
             <title>
                <xsl:value-of
-                  select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>
+                  select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
             </title>
             <style type="text/css">
               <xsl:value-of select="$bodyRule"/>
