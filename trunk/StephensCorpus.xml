@@ -1776,7 +1776,7 @@
       </tagsDecl>
       <projectDesc>
           <p> This edition is the latest in a series of collaboratively produced electronic
-            editions of previously unpublished nineteenth-century American manuscripts held in
+            editions of previously unpublished nineteenth and early twentieth-century American manuscripts held in
             the Rare Books and Manuscripts Library at The Ohio State University. Previous
             editions include "My Dear Elizabeth," five letters written by Sophia Peabody
             Hawthorne to her sister Elizabeth Palmer Peabody between ca. 1837 and 1868 (currently
@@ -1787,10 +1787,10 @@
             to provide wide exposure and access to manuscripts that might otherwise be difficult
             for scholars to discover and consult, and to provide users with a variety of tools
             for studying those texts. </p>
-          <p> Each text was edited in connection with a graduate course offered
+          <p>The texts were edited in connection with graduate and undergraduate courses offered
             by H. Lewis Ulman, Associate Professor of English at The Ohio State University. The
             courses aim to provide students with an opportunity to explore issues of textuality
-            and mediation that arise when our cultural archives spread from page to screen and
+            and mediation that arise when cultural materials and archives spread from page to screen and
             from library shelves to networked databases. Electronic textual editing is our
             vehicle for examining what happens—and envisioning what might happen—when artifacts
             in one medium are represented in another medium, especially with regard to the
@@ -1800,9 +1800,9 @@
           <p> While providing a reliable textual edition is a <foreign xml:lang="lat">sine qua
             non</foreign>, the Stephens edition also explores ways of telling four stories
             inextricably woven into our work: the lives and historical milieu evoked by the
-            texts, the history of the physical letters (including their recent restoration), the
-            editorial process that gave rise to this particular interpretation of the text, and
-            the mediation of our electronic delivery system. </p>
+            texts, the history of the physical documents, the
+            editorial process that gave rise to this particular interpretation of the texts, and
+            the mediation of our electronic delivery system.</p>
       </projectDesc>
       <editorialDecl>
         <!-- TAKE NOTE: Explain your editorial method:
@@ -1829,21 +1829,28 @@
           preparation, but a scan of a photographer's 18% grey card on the same scanner
           produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur in
           Adobe Photoshop to average color values. Thus, a properly configured monitor should
-          provide a reasonable approximation of colors on the manuscript pages.
+          provide a reasonable approximation of colors on the manuscript pages under neutral indoor
+          lighting.
         </p>
         <p>
           <emph rend="bold">Production Location of Digital Assets</emph>. The TEI XML-compliant
-          transcription of the Stephens letters, along with six XSL style sheets used to provide
+          transcription of the Stephens letters, along with the XSL style sheets used to provide
           variant "views" of the edition, are stored on a server hosted by College of
           Arts and Sciences at The Ohio State University. High resolution scans of the manuscript
           pages, scans of plates from contemporary sources, and photographs of the letters are
           stored in the Media Manager application hosted by the College of Arts and Science at
-          The Ohio State University. The files constituting the project's Web site are
+          The Ohio State University. The files constituting the project's Web site are also
           stored on a Web server hosted by the College.</p>
         <p>
           <emph rend="bold">Archiving of Digital Assets</emph>. Once the edition is complete,
-          its digital assets will be archived in The Ohio State University
-          https://kb.osu.edu/dspace/index.jsp Knowledge Bank. </p>
+          its digital assets will be archived in The Ohio State University's institutional
+          repository, the
+          <figure rend="link">               
+            <head>Knowledge Bank</head>
+            <graphic url="https://kb.osu.edu/dspace/"/>
+              <figDesc>Link to the Knowledge Bank</figDesc>
+          </figure>.
+        </p>
         
       </editorialDecl>
       <refsDecl>
@@ -1851,47 +1858,42 @@
           <emph rend="bold">Markup of Physical Structure and Page Layout</emph>. The manuscript
           <emph rend="bold">pages</emph>, encoded by the empty page break or &lt;pb/&gt;
           element, are the primary physical structures represented in the markup. Each
-          &lt;pb&gt; element includes an &quot;mmid&quot; attribute identifying the unique ID
-          of a high-resolution scan of that image in the Media Manager application, as well as
-          &quot;audiostart&quot; and &quot;audioend&quot; attributes that identify the section
-          of the audio edition that corresponds to that page. <emph rend="bold">Line
+          &lt;pb&gt; element includes an &quot;facs&quot; attribute identifying the unique ID
+          of a high-resolution scan of that image in the Media Manager application. <emph rend="bold">Line
             breaks</emph> (i.e., lineation determined or influenced by the physical
           constraints of the page rather than compositional choices by the author) are encoded
           with the empty &lt;lb/&gt; element. No attributes are included in the &lt;lb&gt;
           element. </p>
         <p>
-          <emph rend="bold">Markup of Textual Structure</emph>. The <emph rend="bold">journal
-            entry</emph>, encoded by a &lt;div1&gt; element with the attribute-value pair
-          &quot;type='Entry'&quot;, constitutes the primary textual structure represented in
-          the markup. Each entry contains an &lt;opener&gt; element—which in turn contains a
-          &lt;dateline&gt; element—and one or more paragraphs. Each dateline may include a
-          &lt;name&gt; element with (optionally) a &quot;type&quot; attribute containing one of
-          the following values: city, region; and a &lt;date&gt; element with a
-          &quot;value&quot; attribute whose value is in the form YYYY-MM-DD. The &lt;div1&gt;
-          elements also contain &quot;audiostart&quot; and &quot;audioend&quot; elements that
-          identify the section of the audio edition that corresponds to that entry. </p>
-        <p>Entries consist of a series of <emph rend="bold">paragraphs</emph>. Where indicated
+          <emph rend="bold">Markup of Textual Structure</emph>. The edition employs TEI's corpus
+          structure, encoding information relevant to the entire editon in a &lt;teiHeader&gt;
+          element with an attribute-value pair &quot;type='corpus'&quot;; information about the
+          individual letters as well as the encoded transcriptions of the letters are contained in
+          separate &lt;TEI&gt; elements, each with its own &lt;teiHeader&gt; and &lt;text&gt;
+          elements. <emph rend="bold">Letters</emph> and any accompanying <emph
+            rend="bold">envelopes</emph> are
+          encoded by &lt;div1&gt; elements with the attribute-value pair &quot;type='letter'&quot;
+          and &quot;type='envelope'&quot;, respectively.Each letter contains
+          an &lt;opener&gt;, &lt;body&gt;, and &lt;closer&gt; elements encoded according to TEI
+          guidelines.</p>
+        <p>The body of each letter consist of a series of <emph rend="bold">paragraphs</emph>. Where indicated
           by indentation of a line from the left margin of a page, line breaks part-way across
           a page, or additional white space between lines, paragraphs are encoded with the
-          &lt;p&gt; element and no attributes. </p>
-        <p>If present, any prefatory text preceding the dateline may be encoded as a
-          &lt;head&gt; element at the beginning of the entry (i.e., within the
-          &lt;div&gt;element and before the &lt;opener&gt;). </p>
+          &lt;p&gt; element and no attributes.</p>
         <p>
-          <emph rend="bold">Level of Transcription/Encoding</emph>. This markup scheme supports
+          <emph rend="bold">Level of Transcription/Encoding</emph>. The edition's markup scheme supports
           a modest range of presentations, from semi-modernized/corrected to semi-diplomatic.
           The basic transcription follows the manuscript verbatim. Various manuscript features
           (e.g., cancellations, interlinear or marginal additions, tears in pages) are encoded,
           as are regularized versions of proper names and dates and standard versions of
-          nonstandard spellings and expansions of abbreviations. </p>
-        <p>
-          <emph rend="bold">Extensions to the TEI P5 Schema</emph>. The project's Web site contain full details of the markup
+          nonstandard spellings and expansions of abbreviations.The project's Web site contain full details of the markup
           guidelines:
           <figure rend="link">
-            <head>http://people.cohums.ohio-state.edu/ulman1/LADoaneJournal/DoaneJournalMarkup.cfm</head>
-            <graphic url="http://people.cohums.ohio-state.edu/ulman1/LADoaneJournal/DoaneJournalMarkup.cfm"/>
-            <figDesc>Link to the Doane journal markup guidelines.</figDesc>
-          </figure>.</p>
+            <head>http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensMarkup.cfm</head>
+            <graphic url="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensMarkup.cfm"/>
+            <figDesc>Link to the Stephens Family Letters markup guidelines.</figDesc>
+          </figure>.
+        </p>
       </refsDecl>
     </encodingDesc>
     <profileDesc>
