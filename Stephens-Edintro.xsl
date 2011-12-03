@@ -194,7 +194,7 @@
             <p><a name="view"/>Text on this page is derived from the
                edition's XML source document, StephensCorpus.xml.</p>
             <hr/>
-            <p>&#x2192; <a href="StephensLetters.html">Link to the text of the journal</a>.
+            <p>&#x2192; <a href="StephensReading.html">Link to the text of the journal</a>.
             </p>
          </body>
       </html>
