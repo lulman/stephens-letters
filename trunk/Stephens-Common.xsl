@@ -281,7 +281,7 @@
             <hr/>
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
-               <a href="http://people.cohums.ohio-state.edu/ulman1/SSCoxJournal/SSCoxHome.cfm"
+               <a href="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm"
                   target="self">Home</a>
                <br/>
                <br/>
