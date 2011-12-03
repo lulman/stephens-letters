@@ -14,6 +14,7 @@
     
     <!-- Declare variables that will "localize" references to them in Stephens-Common.xsl -->
 
+    <xsl:variable name="View">Reading Text</xsl:variable>
     <xsl:variable name="aboutView">
         Each letter. . . . Line breaks in
         the manuscript are not reported; rather, lines wrap in the browser's window. Page

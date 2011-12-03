@@ -14,6 +14,7 @@
     
     <!-- Declare variables that will "localize" references to them in Stephens-Common.xsl -->
     
+    <xsl:variable name="View">Diplomatic Transcription</xsl:variable>
     <xsl:variable name="aboutView">
         The text of the journal is organized by manuscript pages. Line breaks
         and page breaks reflect those in the manuscript; paragraph breaks are not reported.

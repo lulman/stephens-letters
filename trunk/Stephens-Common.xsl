@@ -204,7 +204,7 @@
             <hr/>
             
             <!-- Build the table of contents. -->
-            <h1>Contents</h1>
+            <h1>Contents — <xsl:value-of select="$View"></xsl:value-of></h1>
             <xsl:for-each select="/tei:teiCorpus/tei:TEI">
                &#xa4; <a>
                   <xsl:attribute name="href">#<xsl:value-of select="tei:text//tei:div[@type='letter']/@xml:id"></xsl:value-of>
