@@ -16,20 +16,19 @@
     
     <xsl:variable name="View">Facsimile/Diplomatic View</xsl:variable>
     <xsl:variable name="aboutView">
-        The text of the journal is organized by manuscript pages. Line breaks
-        and page breaks reflect those in the manuscript; paragraph breaks are not reported.
-        Spelling, punctuation, capitalization, and abbreviations are reported as they appear
-        in the manuscript. Text highlighted by Doane with an underscore is underscored in
-        this view. Recoverable text canceled by Doane is reported in red, strikethrough text;
-        unrecoverable text canceled by Cox is reported with an ellipsis in red, strikethrough
-        text. Text added by Cox between lines is reported between arrows (↑ ↓) indicating the
-        position of the addition; text added in the margin is reported between pipes (|). All
-        material added by the editor is surrounded by square brackets: uncertain readings are
-        enclosed in square brackets and followed by a question mark, errors in the manuscript
-        are indicated by sic, and text supplied by the editors for clarity is set in italics.
-        Gaps in the manuscript (e.g., tears) are noted by ellipses within square brackets.
-        Links to explanatory notes are numbered, colored, and underlined; links to textual
-        annotations are lettered, colored, and underlined.
+        This view combines facsimiles of manuscript pages with diplomatic transcriptions of the
+        Stephens letters. Clicking on a page image will open a zoomable view of that page in a new
+        window In the diplomatic transcription, line breaks and page breaks reflect those in the letters;
+        paragraph breaks are not reported. Spelling, punctuation, capitalization, and abbreviations
+        are reported as they appear in the original letters. Text highlighted by correspondents with
+        an underscore is underscored in this view. Recoverable cancellations are reported in red,
+        strikethrough text. Interlinear additions are reported between arrows (↑ ↓) indicating the
+        position of the addition; text added in the margins is reported between pipes (|). All
+        material added by the editors is surrounded by square brackets: uncertain readings are
+        followed by a question mark, apparent errors in the manuscript are indicated by "sic," and
+        text supplied by the editors for clarity is set in italics. Gaps in the manuscript (e.g.,
+        tears, unrecoverable cancellations) are noted by ellipses within square brackets. Links to
+        explanatory notes are indicated by superscript colored numbers.
     </xsl:variable>
     <xsl:variable name="bodyRule">
         body {
