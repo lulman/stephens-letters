@@ -2334,8 +2334,9 @@
               <placeName>New York, NY</placeName>
             </birth>
             <education>BA, The State University of New York at Stony Brook (2010)</education>
-            <education>MA, The Ohio State University (2012 Expected)</education>
-            <occupation>Graduate Teaching Assistant</occupation>
+            <education>MA, The Ohio State University (expected 2012)</education>
+            <note type="biographical">Victoria is currently a graduate student at The Ohio State University. Her interests lie in Renaissance
+             literature with a concentration on early modern women writers.</note>
           </person>
           <person xml:id="CMM">
             <persName> Meza, C. Marie</persName>
