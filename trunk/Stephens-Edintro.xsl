@@ -100,9 +100,11 @@
                    text-align: center;
                    margin: 5px 5px 5px 5px;
                }
+               div.blockquote {
+                   margin-left: 50px;
+               }
                .projectTitle {
                    text-align: center;
-                    
                }
                .revTable {
                    font-size: 1em;
@@ -118,9 +120,6 @@
                    text-indent: -1em;
                    margin-left: 1em;
                     
-               }
-               .blockquote {
-                   margin-left: 2em;
                }
                .float_right {
                    float: right;
@@ -202,7 +201,7 @@
    
    <!-- Format the introductory notes. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']">
-         <h2>Introduction</h2>
+      <h2>Introduction: “I wonder what you think of these letters of mine”</h2>
       <xsl:apply-templates/>
    </xsl:template>
    
@@ -380,6 +379,13 @@
       <div class="blockquote">
          <xsl:apply-templates/>
          <br/>
+         <br/>
+      </div>
+   </xsl:template>
+   <xsl:template match="tei:quote[@rend='blockquote']">
+      <br/>
+      <div class="blockquote">
+         <xsl:apply-templates/>
          <br/>
       </div>
    </xsl:template>

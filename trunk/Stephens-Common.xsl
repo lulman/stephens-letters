@@ -516,6 +516,11 @@
       <xsl:apply-templates/>
       </q>
    </xsl:template>
+   <xsl:template match="//tei:quote[@type='blockquote']">
+      <p class="blockquote">
+         <xsl:apply-templates/>
+      </p>
+   </xsl:template>
 
    <!-- Abbreviations -->
    <xsl:template match="tei:choice/tei:abbr">
