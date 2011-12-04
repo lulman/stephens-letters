@@ -149,7 +149,10 @@
                      <a href="#WorksCited" 
                         title="List of works cited in explanatory annotations and editorial introduction.">Works Cited
                      </a><br/>
-                     <a href="#view">About this page</a>
+                     <a href="#view">About this page</a><br/>
+                     <a
+                        href="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm">Project
+                     Home Page</a>
                   </p>
                </div>
             </div>
