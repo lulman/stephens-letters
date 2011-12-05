@@ -103,6 +103,10 @@
                div.blockquote {
                    margin-left: 50px;
                }
+               div.epigraph {
+                   margin-left: 50px;
+                   font-size:.85em;
+               }
                .projectTitle {
                    text-align: center;
                }
@@ -371,6 +375,7 @@
    </xsl:template>
 
    <!-- Format miscellaneous elements -->
+   <xsl:template match="tei:lb"><br/></xsl:template>
    <xsl:template match="//tei:p[not(@xml:id='CreativeCommons')]">
       <p>
          <xsl:apply-templates/>
@@ -388,6 +393,12 @@
    <xsl:template match="tei:quote[@rend='blockquote']">
       <br/>
       <div class="blockquote">
+         <xsl:apply-templates/>
+         <br/>
+      </div>
+   </xsl:template>
+   <xsl:template match="tei:quote[@rend='epigraph']">
+      <div class="epigraph">
          <xsl:apply-templates/>
          <br/>
       </div>
