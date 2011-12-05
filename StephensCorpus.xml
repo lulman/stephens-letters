@@ -3850,14 +3850,14 @@
         <div type="letter" xml:id="JM19090813let01" corresp="#JM19090814env01">
           <pb facs="/e/e342cb79-e993-4f0c-8714-5851dda7b007"/>
           <opener>
-            <salute>My Dear <persName ref="#GMS"><addName type="endearment">little girl</addName></persName></salute>
+            <lb/><salute>My Dear <persName ref="#GMS"><addName type="endearment">little girl</addName></persName></salute>
           </opener>
           <p>
             <lb/>It was with pleasure that 
             <lb/>I received your Cards &amp; letter 
             <lb/>this P.M. but Sorry that 
             <lb/>you did not enjoy your trip 
-            <lb/>And got Such a disagreable place 
+            <lb/>And got Such a <choice><sic>disagreable</sic><corr>disagreeable</corr></choice> place 
             <lb/>to Stop <seg type="obliqueText" rendition="#ot1">and</seg> I don't like <persName ref="#MrH">Mr 
               <lb/>Holland</persName> a bit for taking you 
             <lb/>there <seg type="obliqueText" rendition="#ot1">and</seg> if your feelings at 
@@ -3916,8 +3916,8 @@
             <lb/>&amp; expenses I didn't mind before
           </p>
           <p>
-            <lb/>But now -- <persName ref="#GMS"><addName type="nickname">Neddie</addName></persName>
-            <lb/>I have not <choice><sic>bin</sic><corr>been</corr></choice> over to See my mother
+            <lb/>But now -- <persName ref="#GMS"><addName type="nickname">Neddie</addName></persName></p>
+         <p><lb/>I have not <choice><sic>bin</sic><corr>been</corr></choice> over to See my mother
             <lb/>Since you left for the <unclear reason="illegible" cert="medium">moment</unclear> She
             <lb/>Saw me She would want to know the
             <lb/>trouble And the memory of last 
