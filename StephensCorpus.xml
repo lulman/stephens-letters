@@ -2650,7 +2650,7 @@
     </revisionDesc>
   </teiHeader>
   
-  <TEI xml:id="HLU_GMS2MAT_1909-07-06">
+  <TEI xml:id="HLU_GMS2MAT_1909-07-06" n="1909-07-06">
 
   <!-- The encoded transcription of the first letter in our edition (chronologically) begins here.
        It's the one on which I am working, so you can consult it as a model, as long as you
@@ -2957,7 +2957,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="JLM1_GMS2AJS_1909_07_10">
+  <TEI xml:id="JLM1_GMS2AJS_1909_07_10" n="1909-07-10">
     <!-- First, we provide descriptive information about this particular letter and any 
       accompanying materials (e.g., an envelope or enclosure) in this teiHeader element 
       for the letter. -->
@@ -3202,7 +3202,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="JLM2_GMS2JMS_1909_07_14">
+  <TEI xml:id="JLM2_GMS2JMS_1909_07_14" n="1909-07-14">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -3404,7 +3404,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="WCK_GMS2MAT_1909-09-06">
+  <TEI xml:id="WCK_GMS2MAT_1909-09-06" n="1909-09-06">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -3530,7 +3530,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="ACO_GMS2MATS_1909-08-08">
+  <TEI xml:id="ACO_GMS2MATS_1909-08-08" n="1909-08-08">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -3785,7 +3785,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="JHH_JJM2GMS_1909-08-13">
+  <TEI xml:id="JHH_JJM2GMS_1909-08-13" n="1909-08-13">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -4042,7 +4042,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="MAW_CLA2JMS_1909-08-19">
+  <TEI xml:id="MAW_CLA2JMS_1909-08-19" n="1909-08-19">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -4182,7 +4182,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="CMM_JJM2GMS_1909-08-21">
+  <TEI xml:id="CMM_JJM2GMS_1909-08-21" n="1909-08-21">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -4495,7 +4495,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="RMW_GMS2AJS_1909-09-22">
+  <TEI xml:id="RMW_GMS2AJS_1909-09-22" n="1909-09-22">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -4721,7 +4721,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="MAW_GMS2MATS_1909-10-05">
+  <TEI xml:id="MAW_GMS2MATS_1909-10-05" n="1909-10-05">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -4894,7 +4894,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="VMM_JJM2GSS_1909-08-23">
+  <TEI xml:id="VMM_JJM2GSS_1909-08-23" n="1909-08-23">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -5134,7 +5134,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="EBT_HHM2GMS1909-09-13">
+  <TEI xml:id="EBT_HHM2GMS1909-09-13" n="1909-09-13">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -5344,7 +5344,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="JPL_GMS2MATS_1909_09_27">
+  <TEI xml:id="JPL_GMS2MATS_1909_09_27" n="1909-09-27">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -5641,7 +5641,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="REC_JJM2GMS_1909-10-04">
+  <TEI xml:id="REC_JJM2GMS_1909-10-04" n="1909-10-04">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
@@ -6041,7 +6041,7 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="WCK_JJMS2GMS_1909-10-11">
+  <TEI xml:id="WCK_JJMS2GMS_1909-10-11" n="1909-10-11">
     <teiHeader type="text">
       <fileDesc>
         <titleStmt>
