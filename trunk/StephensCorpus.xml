@@ -1422,9 +1422,13 @@
             <desc>Mentioned in the sense of the saying "all roads lead to Rome" in the 9-27 letter from Gladys to
             A.T. Stephens</desc>
           </place>
-          <place type="city" xml:id="CityofMexico">
-            <placeName>City of Mexico</placeName>
+          <place type="city" xml:id="MexicoCity" source="#TGN">
+            <placeName xml:lang="spa">Ciudad de México</placeName>
+            <placeName xml:lang="eng">Mexico City</placeName>
             <country>Mexico</country>
+            <location>
+              <geo>19.4342 -99.1386</geo>
+            </location>
           </place>
         </listPlace>
         
@@ -3735,7 +3739,7 @@
             <lb/>morning, and one from <persName>Walt</persName>,
             <lb/>and one from <persName>Adelaide</persName>.  I'm not
             <lb/>sure whether Adelaide is going 
-            <lb/>to <placeName>Mexico</placeName> or not.
+            <lb/>to <placeName ref="#Mexico">Mexico</placeName> or not.
           </p>
           <p>
             <lb/>The <placeName>Mexican</placeName> trip is all planned
@@ -5542,7 +5546,7 @@
             <lb/>make you tired, but that
             <lb/>was always the way.  The
             <lb/>last word I sent her was
-            <lb/>from <placeName ref="#Mexico City">the City of Mexico</placeName>.
+            <lb/>from <placeName ref="#MexicoCity">the City of Mexico</placeName>.
           </p>
           <p>
             <lb/>Have you seen anything
