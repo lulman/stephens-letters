@@ -80,6 +80,7 @@
     <xsl:template match="tei:choice/tei:sic">
         <xsl:apply-templates/> [sic] </xsl:template>
     <xsl:template match="tei:choice/tei:corr"/>
+    <xsl:template match="tei:figure[@rend='embed']"/>
     
     
 </xsl:stylesheet>
