@@ -86,9 +86,11 @@
                }
                div.envelope {
                    font-size : .85em;
+                   width: 50%;
                }
                .msDesc {
                    font-size : .85em;
+                   width: 50%;
                }
                .half-width {
                    width : 50%;
