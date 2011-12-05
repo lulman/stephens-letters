@@ -232,13 +232,13 @@
             <!-- Insert, count, encode by cardinal position, and link the explanatory annotations. -->
             <hr/>
             <h1>Explanatory Annotations</h1>
-            <xsl:for-each select="//tei:note[@resp='ed']">
+            <xsl:for-each select="//tei:TEI//tei:note[@resp='ed']">
                <xsl:choose>
                   <xsl:when test="position()>=100">
                      <p class="hang35"><a>
                         <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
-                        <xsl:number count="//tei:note[@resp='ed']" level="any"
+                        <xsl:number count="//tei:TEI//tei:note[@resp='ed']" level="any"
                         />.&#xA0;<xsl:apply-templates/>
                         <a>
                            <xsl:attribute name="href">#p<xsl:value-of select="@xml:id"/></xsl:attribute>
@@ -251,7 +251,7 @@
                      <p class="hang25"><a>
                         <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
-                        <xsl:number count="//tei:note[@resp='ed']" level="any"
+                        <xsl:number count="//tei:TEI//tei:note[@resp='ed']" level="any"
                         />.&#xA0;<xsl:apply-templates/>
                         <a>
                            <xsl:attribute name="href">#p<xsl:value-of select="@xml:id"/></xsl:attribute>
@@ -264,7 +264,7 @@
                      <p class="hang15"><a>
                            <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
-                        <xsl:number count="//tei:note[@resp='ed']" level="any"/>.&#xA0;<xsl:apply-templates/>
+                        <xsl:number count="//tei:TEI//tei:note[@resp='ed']" level="any"/>.&#xA0;<xsl:apply-templates/>
                         <a>
                            <xsl:attribute name="href">#p<xsl:value-of select="@xml:id"/></xsl:attribute>
                            <xsl:attribute name="class">annotation</xsl:attribute>
@@ -456,7 +456,7 @@
 
    <!-- ANNOTATIONS -->
 
-   <xsl:template match="tei:ptr[@type='noteAnchor']">
+   <xsl:template match="tei:TEI//tei:ptr[@type='noteAnchor']">
       <a>
          <xsl:attribute name="name">p<xsl:value-of select="@target"></xsl:value-of>
          </xsl:attribute>
@@ -466,7 +466,7 @@
          <xsl:attribute name="class">annotation</xsl:attribute>
          <xsl:attribute name="title"><xsl:value-of select="normalize-space(following::tei:note[1])"></xsl:value-of></xsl:attribute>
          <sup>
-            <xsl:number level="any" count="tei:ptr[@type='noteAnchor']"/>
+            <xsl:number level="any" count="tei:TEI//tei:ptr[@type='noteAnchor']"/>
             <xsl:apply-templates/>
          </sup>
       </a>
