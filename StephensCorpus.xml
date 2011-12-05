@@ -2464,6 +2464,15 @@
             <education>BA, Vanderbilt University (2007)</education>
             <education>MA, Ohio State University (2010)</education>
             <education>PhD, Ohio State University (expected 2014)</education>
+            <note type="biographical">Ashley Owens is a second-year Ph.D. student specializing in 19th Century American Literature at The Ohio State University.  
+              Ashley's research focuses on American literary history rather broadly, and she is interested primarily in the 19th century American literary 
+              marketplace and emerging distinctions of "highbrow" and "lowbrow" literary culture which gave shape to the American canon.  Ashley recently 
+              won the graduate student award for a paper given at the New York College English Association's conference on <q>"Literature and Feeling."</q> 
+              She received her Masters degree from Ohio State in 2010 and a Bachelor of Arts in English with Honors from Vanderbilt University in 2007.  
+              For the 2011-2012 year, Ashley is serving as the Graduate Administrative Associate for the Undergraduate Research Office at Ohio State.  
+              During her first three years of graduate school she was a Graduate Teaching Associate in the English department.  In addition to her 
+              teaching experience at Ohio State, Ashley taught a humanities course for Duke University's T.I.P. Program, a summer academic camp for 
+              gifted middle school students, in the summers of 2009 and 2011.</note>
           </person>
           <person xml:id="MAW">
               <persName>Wolfe, Marion Aikens</persName>
@@ -3600,7 +3609,7 @@
           <pb facs="/4/42022a1e-2001-4124-ba14-eb5d4e54539e"/>
           <opener>
             <handShift new="GMSHand"/>
-            <dateline><date>08-08-1909</date></dateline>
+            <dateline><date when="1909-08-08">08-08-1909</date></dateline>
             <lb/><salute><persName>Mother Dear</persName></salute>,
           </opener>
           <p>
@@ -3686,7 +3695,7 @@
           </p>
           <p>
             <lb/>Well you never can tell what
-            people will do.  <persName>Walt</persName> certainly
+            <lb/>people will do.  <persName>Walt</persName> certainly
             <lb/>seems to be the limit.  As for
             <lb/>his mother <del rend="overstrike">they are</del>she is the
             <lb/>limit.
