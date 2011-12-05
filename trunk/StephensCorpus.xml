@@ -4110,7 +4110,7 @@
         
         <div type="letter" xml:id="CLA19090820let01" corresp="#CLA19090821env01">
           <pb facs="/8/808bb4bd-8140-4897-b707-cc3af5930e28"/>
-          <opener> <dateline> <address> <addrLine> <placeName ref="#Sherborn">Sherborn, Mass.</placeName> </addrLine></address></dateline>
+          <opener> <lb/><dateline> <address> <addrLine> <placeName ref="#Sherborn">Sherborn, Mass.</placeName> </addrLine></address></dateline>
             <lb/> <salute><rs ref="#JMS">My dear Aunt:</rs></salute>
           </opener>
           <p><lb/>Please <choice><sic>dont</sic><corr>don't</corr></choice>
