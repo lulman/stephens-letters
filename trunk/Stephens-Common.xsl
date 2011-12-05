@@ -208,6 +208,7 @@
             <!-- Build the table of contents. -->
             <h1>Contents — <xsl:value-of select="$View"></xsl:value-of></h1>
             <xsl:for-each select="/tei:teiCorpus/tei:TEI">
+               <xsl:sort select="@n"></xsl:sort>
                &#xa4; <a>
                   <xsl:attribute name="href">#<xsl:value-of select="tei:text//tei:div[@type='letter']/@xml:id"></xsl:value-of>
                   </xsl:attribute>
@@ -222,6 +223,7 @@
             <!-- Insert information from the <text> of each TEI element, wrapping each <text> in a div 
              of class "correspondence." -->
             <xsl:for-each select="/tei:teiCorpus/tei:TEI/tei:text">
+               <xsl:sort select="../@n"></xsl:sort>
                <div class="correspondence">
                   <xsl:apply-templates/>
                </div>
