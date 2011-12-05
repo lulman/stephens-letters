@@ -5738,8 +5738,7 @@
             <lb/>well <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
             I will be In <placeName ref="#Seattle">Seattle</placeName> <date when="1909-10-04">tonight</date> about 
             <lb/><time when="23:32:00">11<hi rend="superscript"><hi rend="underlined">32</hi></hi></time> I 
-            <distinct type="babyTalk">fink</distinct><unclear cert="medium">!</unclear> 
-            that's bad for I Cannot get my mail 
+            <distinct type="babyTalk">fink</distinct>! that's bad for I Cannot get my mail 
             <lb/><choice><sic>untill</sic><corr>until</corr></choice> <date when="1909-10-05">tomorrow</date>,  
             we <del rend="overwritten">b</del>missed the tide in <geogName ref="#Seymour"><choice><sic>
               Seymor</sic><corr>Seymour</corr></choice> 
@@ -5748,13 +5747,12 @@
             <lb/>from <placeName ref="#ElPaso">El Paso</placeName> Saying you got there all O.K. but 
             <lb/>I am afraid I will <choice><sic>hafto</sic><corr>have to</corr></choice> wait another day 
             <lb/>At least<unclear cert="medium">!</unclear> how I would like to See you 
-            <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
-            (<unclear cert="high" reason="penstroke and blot following word">how</unclear> I 
+            <persName ref="#GMS"><addName type="endearment">dear</addName></persName> (how I 
             <lb/>would) And See if <choice><sic>they</sic><corr>there</corr></choice> is any Change in my 
             <persName ref="#GMS"><addName type="endearment"><distinct type="babyTalk">Ittle</distinct> 
               <lb/>girl</addName></persName> with all her travels I don't <distinct type="babyTalk">fink</distinct> 
             So&#x2014;hope not&#x2014; 
-            <lb/>Any way<unclear cert="medium">!</unclear> we are a day ahead of time on the time 
+            <lb/>Any way! we are a day ahead of time on the time 
             <lb/>I Set as we only have a half a cargo It looks bad 
             <lb/>for another trip <del rend="overwritten">f</del>but 
             <choice><sic>ofcorse</sic><corr>of course</corr></choice> Cannot tell 
@@ -5836,11 +5834,10 @@
               </figure>
             </note> <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             not way up <del rend="strikethrough">the</del> where 
-            <lb/>we went She got Some Pictures<unclear cert="medium">!</unclear> 
-            It was a fine day <seg type="obliqueText" rendition="#ot1">and</seg> 
+            <lb/>we went She got Some Pictures! It was a fine day <seg type="obliqueText" rendition="#ot1">and</seg> 
             <lb/>She is good Company&#x2014;But&#x2014;what a <choice><sic>differance</sic><corr>
               difference</corr></choice> from 
-            <lb/>the last time I was there<unclear cert="medium">!</unclear> She is only 17 years of age 
+            <lb/>the last time I was there! She is only 17 years of age 
             <lb/>and the only girl of the family <seg type="obliqueText" rendition="#ot1">and</seg> 
             you Can See She has <choice>
               <sic>bin</sic><corr>been</corr></choice> 
@@ -5853,8 +5850,7 @@
             <lb/>and <rs type="ship" ref="#Northwestern">this Ship</rs> Carries no freight Clerk 
             <rs ref="#HEP">the purser</rs> has that 
             <lb/>work to look after <seg type="obliqueText" rendition="#ot1">and</seg> 
-            So It has <choice><sic>bin</sic><corr>been</corr></choice> 
-            up to me to show her around<unclear cert="medium">!</unclear> 
+            So It has <choice><sic>bin</sic><corr>been</corr></choice> up to me to show her around! 
             <lb/>and It <choice><sic>Seemes</sic><corr>Seems</corr></choice> quite nice to have Some one 
             of <hi rend="underlined">my</hi> own 
             <lb/>age to talk to (honest that's all<add place="above" rend="up arrow">I am</add>) 
@@ -5862,7 +5858,7 @@
               <expan>Saturday</expan></choice></date> night 
             <lb/>about her fellows, and her self she did not like it a <choice><sic>littl</sic>
               <corr>little</corr></choice> 
-            <lb/>bit but had to listen all the Same<unclear cert="medium">!</unclear> 
+            <lb/>bit but had to listen all the Same! 
             I have not <choice><sic>Saw</sic><corr>Seen</corr></choice> her Since 
             <lb/>yes all right (<persName ref="#IP">Irene Palmer</persName>) speaking of pictures 
             <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
@@ -5886,7 +5882,7 @@
             <lb/>tell me <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <pb facs="/8/89dc1d77-e539-4ca6-b7b7-26f005889808"/>
             <lb/>I do not know if I told you about the <name type="ship" ref="#Northwestern">Northwestern</name> 
-            <lb/>or not<unclear cert="medium">!</unclear> Yes <rs type="ship" ref="#Northwestern">She</rs> 
+            <lb/>or not! Yes <rs type="ship" ref="#Northwestern">She</rs> 
             Is a big Ship about 3 times<add place="above">more</add> the power 
             <lb/><del rend="overwritten">of</del>than <name type="ship" ref="#SantaClara">Santa Clara</name>. 
             <rs type="ship" ref="#Northwestern">She</rs> had about 3000 <choice><sic>hors</sic><corr>horse</corr></choice> 
@@ -5909,7 +5905,7 @@
             <lb/>of trouble with her boilers they are in a dangerous 
             <lb/>Condition but I like her just the Same If Someone 
             <lb/><choice><sic>don't</sic><corr>doesn't</corr></choice> 
-            get badly burnt It will be a wonder<unclear cert="medium">!</unclear><ptr type="noteAnchor" 
+            get badly burnt It will be a wonder!<ptr type="noteAnchor" 
               target="JJM19091004note5"/><note resp="ed" xml:id="JJM19091004note5">
                 <title level="j">The Locomotive</title> reports that on <date when="1909-03-11">11 March 
                   1909</date>, <q>[a] boiler exploded .&#xA0;.&#xA0;. on the steamer <hi rend="italics">Weitchpec</hi></q> 
@@ -5979,10 +5975,10 @@
             <choice><abbr>U.</abbr><expan>you</expan></choice> and I wonder what you 
             <lb/>think! yes I do&#x2014;I wonder what <del rend="overwritten">u</del>
             <persName ref="#ACS">Uncle A</persName> thinks I wonder 
-            <lb/>Sometimes what I think<unclear cert="medium">!</unclear> I Suppose you will be 
-            <lb/>getting ready for home in a Short time now<unclear cert="medium">!</unclear> will you 
+            <lb/>Sometimes what I think! I Suppose you will be 
+            <lb/>getting ready for home in a Short time now! will you 
             <lb/>be glad to get home <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
-            I <distinct type="babyTalk">fink</distinct> So<unclear cert="medium">!</unclear> 
+            I <distinct type="babyTalk">fink</distinct> So! 
             you have <choice><sic>bin</sic><corr>been</corr></choice> gone from 
             <lb/>home quite a while <choice><sic>havent</sic><corr>haven't</corr></choice> you? 
             <lb/>In another year you will be gone 2 months from here! that's the way the time 
@@ -5992,7 +5988,7 @@
             <lb/>not want to take up all of your time&#x2014;yes I do 
             <choice><sic>to</sic><corr>too</corr></choice>&#x2014;
             <lb/>but I must not be <choice><sic>to</sic><corr>too</corr></choice> Selfish 
-            <distinct type="babyTalk">Sisent</distinct> nice<unclear cert="medium">!</unclear> tell me 
+            <distinct type="babyTalk">Sisent</distinct> nice! tell me 
             <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <lb/>about writing <del rend="strikethrough"><unclear cert="medium" 
               reason="strikethrough">or where to</unclear></del> As you will be on your way 
