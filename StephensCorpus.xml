@@ -3503,7 +3503,7 @@
           <closer>
             <lb/><salute>Heaps of love,</salute>
             <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
-            <dateline><date when="1909-09-07">9/6/'09</date></dateline>
+            <lb/><dateline><date when="1909-09-07">9/6/'09</date></dateline>
           </closer>
         </div>  
         <div type="envelope" xml:id="GS19090906env01" 
@@ -6169,11 +6169,11 @@
                 <expan>some</expan></choice>  
                 <lb/>I would like to Say as I feel but <unclear cert="medium">Sesent nice It sis nice</unclear>
                 <lb/>I <unclear cert="medium">fink</unclear> So long—yes—<persName ref="#GMS"><addName type="endearment">
-                  Sweet heart</addName></persName>
+                Sweet heart</addName></persName>
                </p>
             </postscript>
           
-          <signed><persName ref="#JJM">JJ McIntyre</persName></signed>
+          <lb/> <signed><persName ref="#JJM">JJ McIntyre</persName></signed>
           
         </div>
         <!-- First, the envelope. -->
