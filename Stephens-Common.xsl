@@ -423,6 +423,7 @@
       </xsl:for-each>
    </xsl:template>
    <xsl:template match="tei:note[@type='introductory']//tei:bibl">(<xsl:apply-templates/>)</xsl:template>
+   <xsl:template match="tei:note[@resp='ed']//tei:bibl">(<xsl:apply-templates/>)</xsl:template>
    <xsl:template match="tei:title[@level='a']">"<xsl:apply-templates/>"</xsl:template>
    <xsl:template match="tei:title[@level='m']">
       <cite>
