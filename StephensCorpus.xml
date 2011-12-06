@@ -814,7 +814,7 @@
                 is writing about his life as a merchant marine in 1909, the industry had reached an unprecedented low point. 
               </p>
               <p>Congress attempted to mitigate the decline of the merchant marine with the passage of the Ocean Mail Act of 1891, otherwise known as the Merchant Marine Act of 1891. 
-                Congress had already taken previous actions to subsidize individual steamship companies; however, as Rene De La Pedraja notes, 
+                Congress had already taken previous actions to subsidize individual steamship companies; however, as René De La Pedraja notes, 
                 this was "the first general subsidy bill passed by Congress since the pre-Civil War period" <bibl><ref target="#RDLP">452</ref></bibl>. The act 
                 positioned the Post Office to consider bids and renewals for five and ten year contracts, which, as De La Pedraja observes, 
                 "halted but did not reverse the downward trend in the U.S. merchant marine" <bibl><ref target="#RDLP">452</ref></bibl>. Ships built in the United States were quite 
@@ -910,7 +910,7 @@
               </p>
               <p>
                 All of this is to indicate the intensive co-dependent relationship of northern and southern markets. 
-                Rene De La Pedraja writes that the northern and southern ends of the Alaska route were conventionally 
+                René De La Pedraja writes that the northern and southern ends of the Alaska route were conventionally 
                 divided by two local monopolies: the Alaska Steamship Company and the Alaska Coast Company<bibl><ref target="#DLP">10</ref></bibl>. But in 1914,
                 after the time of these letters, the Alaska Coast Company became the Admiral Line, which was destroyed in 1933
                 by competition with the Alaska Steamship Company <bibl><ref target="#DLP">11</ref></bibl>. The Alaska Steamship
@@ -1697,7 +1697,7 @@
             <title level="a">Steamer Santa Clara Sold.</title> <title level="j">Pacific Merchant Marine</title>
             2.21 (6 Nov. 1909): 18. Web. 14 Nov. 2011.
           </bibl>
-          <bibl xml:id="RDLP" n="De">De La Pedraja, Rene.
+          <bibl xml:id="RDLP" n="de la Pedraja">de la Pedraja, René.
             <title level="a">Ocean Mail Act of 1891 or Merchant Marine Act of 1891.</title><title level="m">
             A Historical Dictionary of the U.S. Merchant Marine and Shipping Industry</title>. Westport, CT: 
             Greenwood P, 1994. 452-53. Print.
@@ -1816,8 +1816,8 @@
             <title level="m">Seafaring Women: Adventures of Pirate Queens, Female Stowaways, and Sailors' Wives</title>. 
             New York: Random House Trade Paperbacks, 2007. <title level="m">Google Books</title>. Web. 26 Nov.2011.
           </bibl>
-          <bibl xml:id="DLP" n="Pedraja">
-            de la Pedraja, Rene. <title level="m">A Historical Dictionary of the US Merchant Marine and Shipping Industry</title>. 
+          <bibl xml:id="DLP" n="de la Pedraja">
+            de la Pedraja, René. <title level="m">A Historical Dictionary of the US Merchant Marine and Shipping Industry</title>. 
             1st Ed. Westport, CT: Greenwood, 1994. Print.
           </bibl>
           <bibl xml:id="MaritimeRace" n="Maritime Race">
@@ -2592,6 +2592,10 @@
             <education>PhD, The Ohio State University (expected 2016)</education>
             <occupation>Graduate Student</occupation>
             <nationality>U.S.A.</nationality>
+            <note type="biographical">Jonathan H. Holmes is a PhD student whose research interests include Renaissance drama and poetry. 
+              His recent work has involved character theory and early modern dramatic representations of patience, 
+              historiographic research on The Taming of the Shrew, and an analysis of Paradise Lost through the lens of indigenous decolonization theory. 
+              He is also interested in web design, composition praxis, and the intersections of early modern rhetoric and poetics.</note>
           </person>
           <person xml:id="WCK">
             <persName>Kurlinkus, William C.</persName>
