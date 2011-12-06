@@ -376,7 +376,10 @@
 
    <!-- Format miscellaneous elements -->
    <xsl:template match="tei:lb"><br/></xsl:template>
-   <xsl:template match="//tei:p[not(@xml:id='CreativeCommons')]">
+   <xsl:template match="tei:p[@rend='h3']">
+      <h3><xsl:apply-templates/></h3>
+   </xsl:template>
+   <xsl:template match="//tei:p[not(@xml:id='CreativeCommons') and not(@rend='h3')]">
       <p>
          <xsl:apply-templates/>
       </p>
