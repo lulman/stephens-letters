@@ -44,6 +44,9 @@
     
     <xsl:template match="tei:pb"/>
     <xsl:template match="tei:lb"/>
+    <xsl:template match="tei:fileDesc/tei:titleStmt/tei:title/tei:lb">
+        <br/><xsl:apply-templates/>
+    </xsl:template>   
     <xsl:template match="tei:div[@type='letter']/tei:head/tei:lb">
         <br/><xsl:apply-templates/>
     </xsl:template>

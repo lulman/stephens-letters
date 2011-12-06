@@ -137,7 +137,7 @@
                    font-family : Verdana, Arial, Helvetica, sans-serif;
                    font-size : 16pt;
                    font-style : normal;
-                   font-weight : bolder;
+                   font-weight : bold;
                    line-height : 18pt;
                }
                .hang15 {
@@ -197,8 +197,8 @@
             <hr/>
             <p align="center">
                <span class="ProjectTitle">
-                  <xsl:value-of
-                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>
+                  <xsl:apply-templates
+                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                </span>
             </p>
             <p align="center"><cite><strong>This edition is currently in progress. Please do
@@ -389,7 +389,6 @@
    <xsl:template match="tei:div[@type='letter']/tei:head">
       <p><xsl:apply-templates/></p>
    </xsl:template>
-   
    <!-- Template rule for editorial divs in back matter -->
 
    <xsl:template match="tei:div[@type='editorial']">

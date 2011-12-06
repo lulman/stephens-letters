@@ -108,7 +108,11 @@
                    font-size:.85em;
                }
                .projectTitle {
-                   text-align: center;
+                   font-family : Verdana, Arial, Helvetica, sans-serif;
+                   font-size : 16pt;
+                   font-style : normal;
+                   font-weight : bold;
+                   line-height : 18pt;
                }
                .revTable {
                    font-size: 1em;
@@ -164,8 +168,8 @@
             <hr/>
             <p align="center">
                <span class="ProjectTitle">
-                  <xsl:value-of
-                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>
+                  <xsl:apply-templates
+                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                </span>
             </p>
             <p align="center"><cite><strong>This edition is currently in progress. Please do
@@ -376,6 +380,9 @@
 
    <!-- Format miscellaneous elements -->
    <xsl:template match="tei:lb"><br/></xsl:template>
+   <xsl:template match="tei:fileDesc/tei:titleStmt/tei:title/tei:lb">
+      <br/><xsl:apply-templates/>
+   </xsl:template>   
    <xsl:template match="tei:p[@rend='h3']">
       <h3><xsl:apply-templates/></h3>
    </xsl:template>
