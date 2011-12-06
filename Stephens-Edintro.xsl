@@ -315,7 +315,7 @@
       <h3>List of Places Mentioned in the Letters</h3>
       <xsl:for-each select="tei:place">
          <xsl:sort select="tei:geogName"/>
-         <xsl:sort select="tei:placeName"/>
+         <xsl:sort select="tei:placeName[1]"/>
          <p>
             <xsl:if test="tei:geogName[1]"><strong><xsl:value-of select="tei:geogName[1]"/></strong></xsl:if>
             <xsl:if test="tei:geogName[2]"> (<xsl:value-of select="tei:geogName[2]"/>)</xsl:if>
