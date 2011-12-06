@@ -1028,25 +1028,29 @@
           <place type="hotel" xml:id="Georgian" source="#TGN">
             <placeName>Hotel Georgian</placeName>
             <location>
-              <address>
+           <address>
                 <addrLine>1420 4th Ave</addrLine>
                 <addrLine>Seattle, WA</addrLine>
-          </address>
-          </location>
+           </address>
+              <geo>47.610098 -122.336197</geo>
+            </location>
             <desc>The Hotel Georgian was built in 1908 and had seven floors and 108 rooms.
-            It was demolished in 1971.</desc>
-            <desc>Gladys stayed at the Hotel Georgian during her visit to Seattle in August of 1909.  It 
+            It was demolished in 1971. Gladys stayed at the Hotel Georgian during her visit to Seattle in August of 1909.  It 
             seems that she made repeated visits to the Georgian both before and after her excursion to
             Alaska. </desc>
           </place>
-          <place type="college" xml:id="SeattleCollege" source="#TGN">
-            <placeName>Seattle College</placeName>
+          <place type="college" xml:id="SeattleCollege">
+            <placeName>University of Washington</placeName>
             <location>
               <address>
                 <addrLine>Seattle, WA</addrLine>
-          </address>
+              </address>
+              <geo>47.653016 -122.304955</geo>
             </location>
-            <desc>In her letter dated July 10, 1909, Gladys Stephens mentions that the buildings at the 1909 Seattle World's Fair will be used later by Seattle College.  By this, she almost certainly means the University of Washington, on whose grounds the Alaska-Yukon-Pacific Exposition (aka the 1909 Seattle World's Fair) was built.</desc>
+            <desc>In her letter dated July 10, 1909, Gladys Stephens mentions that the buildings at
+              the 1909 Seattle World's Fair will be used later by Seattle College. By this, she
+              almost certainly means the University of Washington, on whose grounds the
+              Alaska-Yukon-Pacific Exposition (aka the 1909 Seattle World's Fair) was built.</desc>
           </place>
           <place type="building" xml:id="ForestryBuilding" source="#TGN">
             <placeName>Forestry Building</placeName>
@@ -1054,7 +1058,8 @@
               <address>
                 <addrLine>Boundary Rd.</addrLine>
                 <addrLine>Seattle, WA</addrLine>
-          </address>
+              </address>
+              <geo>47.655191 -122.305191</geo>
             </location>
             <desc>In her letter dated July 10, 1909, Gladys Stephens describes the Forestry Building at the 1909 Seattle World's Fair.</desc>
           </place>
