@@ -61,6 +61,9 @@
         </a>
         <xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
     </xsl:template>
+    <xsl:template match="tei:fileDesc/tei:titleStmt/tei:title/tei:lb">
+        <br/><xsl:apply-templates/>
+    </xsl:template>   
     <xsl:template match="tei:seg[@type='softhyphen']">
         <xsl:apply-templates/>
     </xsl:template>    
