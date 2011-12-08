@@ -3097,15 +3097,13 @@
             <lb/>nose! It was terribly
             <lb/>burned, looked just
             <lb/>like a beet. It has
-            <!-- SIC ON GLADY'S PEELED-->
-            <lb/>pealed now and begins
+            <lb/><choice><sic>pealed</sic><corr>peeled</corr></choice> now and begins
             <lb/>to look more respectable.
           </p>
           <p>
             <lb/>With us are some
             <lb/>charming <rs ref="#Virginians">Virginians</rs>
-            <!-- SIDEWAYS AND -->
-            <lb/>and some Germans. We
+            <lb/><seg type="obliqueText" rendition="#ot1">and</seg> some Germans. We
             <lb/>certainly have good
             <lb/>times. They are all
             <lb/>jolly.
@@ -3115,7 +3113,6 @@
             <lb/>In The <placeName ref="ForestryBuilding">Forestry <choice><abbr >b'l'd'g</abbr><expan>building</expan></choice></placeName>
             <lb/>are some pretty big
             <lb/><q>"sticks"</q>. One is 74 <choice><abbr>ft</abbr><expan>feet</expan></choice> long
-            <!--JLM: Do I need special code for this 1/2 fraction?-->
             <lb/>and 4 1/2 <choice><abbr>ft</abbr><expan>feet</expan></choice> <choice><abbr>sq.</abbr><expan>square</expan></choice>  There is
             <lb/>a cross section of a tree
             <lb/>which is 9 <choice><abbr>ft.</abbr><expan>feet</expan></choice> in <choice><abbr>diam.</abbr><expan>diameter</expan></choice>
@@ -3133,10 +3130,8 @@
             <lb/>All the <choice><abbr >b'l'd'g's</abbr><expan>buildings</expan></choice> are fine.
             <lb/><seg type="obliqueText" rendition="#ot1">and</seg> will be used by
             <lb/><placeName ref="SeattleCollege">Seattle College</placeName> later.
-            <!-- She means the University of Washington -->
             <lb/>Every one who has
             <lb/>been to the other
-            <!-- Need to add another footnote these "other expositions" -->
             <lb/>Expositions say that
             <lb/>This is the best yet.
             <lb/>The city is large <seg type="obliqueText" rendition="#ot1">and</seg>
@@ -3161,7 +3156,6 @@
           <closer>
             <lb/><salute>Love</salute>
             <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
-            <!-- JLM Had to put the hand-shifted 7/10/109 business in this closer section because Oxygen wouldn't read it outside the context of the closer tag.-->            
             <handShift new="#Unknown"/>
             <lb/>7/10/109
           </closer>
@@ -3307,7 +3301,6 @@
             <lb/>Doubt if we can go to
             <lb/><placeName>Alaska</placeName>&#x2014; can't get stateroom
             <lb/>so many are going.
-            <!-- Have not coded the Goulds with a referring string because we don't have additional info about them (yet). -->
             <lb/>Have located the <rs>Goulds</rs>,
             <lb/>I telephoned today but she
             <lb/>was at the Expo. Got
@@ -3327,9 +3320,7 @@
               Dana Gibson.<bibl><ref target="#Wolfe">Wolfe, Margaret Ripley.</ref></bibl></note> I guess
             <lb/>I'll try and visit them.
             <lb/>Uncle wants me to visit
-            <!--Gladys repeats the word "visit" here before and after the page break.  I have corrected it with a sic + an empty <corr> element since the correction is literally nothing.-->
             <pb facs="/a/a244ada2-8ce4-4bc4-80e9-da8a673bfd55"/>             
-            <!-- More people who could become referring strings but aren't yet because we don't know enough about them -->
             <lb/><choice><sic>visit</sic><corr></corr></choice> them. <rs ref="#Hughes"><persName ref="#MJ">Mrs. Jordon</persName>
             <lb/>(Mrs. H's cousin) has lots of
             <lb/>money. Her husband died
@@ -3352,14 +3343,12 @@
             <lb/>about now so I guess
             <pb facs="/6/6567a384-bcbf-4394-8e32-4f66c0a7752a"/>
             <lb/>that I'll stop.
-            <!-- Yet another person mentioned who might become a referring string soon. -->
             <lb/><unclear cert="high">Now</unclear> Judy dear do take
             <lb/>things easy.
           </p>
           <closer>
             <lb/><salute>Heaps of love</salute>
             <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
-            <!-- Had to put the hand-shifted 7/14/109 business in the closer section because Oxygen wouldn't read it otherwise.-->            
             <handShift new="#Unknown"/>
             <lb/>7/14/109
           </closer>
