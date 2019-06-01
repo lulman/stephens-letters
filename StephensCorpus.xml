@@ -2741,12 +2741,12 @@
         <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
           Or perhaps we should us forme work <fw>. But I think not. -->
         <div type="letter" xml:id="GS19090706let01" corresp="#GS19090706env01">
-          <pb facs="/a/a5207bda-367a-4e66-983f-2effd11922bf"/>
+          <pb facs="07-06-1909_GS_to_ATS_letter_p1.jpg"/>
           <head type="letterhead">
             <figure rend="link">
               <head>Photograph of the Hotel Georgian</head>
               <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs/a/a5207bda-367a-4e66-983f-2effd11922bf.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
+                url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
               <figDesc>Photograph of the facade of the Hotel Georgian.</figDesc>
             </figure>
             <lb/>Rates $1.00 up <lb/>Hotel Georgian <lb/>European Plan
@@ -2774,7 +2774,7 @@
             <lb/>This expanse is surrounded 
             <lb/>by the most beautiful
             <lb/>display of poppies I ever 
-            <pb facs="/e/e6df1e7d-279b-4a55-bf88-bf0a842a41a1"/>
+            <pb facs="07-06-1909_GS_to_ATS_letter_p2.jpg"/>
             <!-- Note that the paragraph continues on the following page. -->
             <lb/>saw. Then there are
             <lb/>flowers like those I brought
@@ -2801,7 +2801,7 @@
             <lb/>can be. My <rs>Princetonian</rs>
             <!-- Is "and" written at an angle a form of highlighting? -->
             <lb/>got them for me, and
-            <pb facs="/0/080321f8-ac6c-4871-8a4c-ab55b041faa8"/>
+            <pb facs="07-06-1909_GS_to_ATS_letter_p3.jpg"/>
             <!-- What do I do about the repeated letterhead? -->
             <lb/>paid a dollar for
             <lb/>them. The packages of tea
@@ -2827,7 +2827,7 @@
             <lb/>The buildings will be
             <lb/>used later as college <choice><abbr >b'l'd'gs</abbr><expan>buildings</expan></choice>.
             <lb/>Today we only visited
-            <pb facs="/4/40002978-5147-4e7f-98f2-506f8b3cc762"/>
+            <pb facs="07-06-1909_GS_to_ATS_letter_p4.jpg"/>
             <lb/>those in the inner circle.
             <lb/>The place is laid out in
             <lb/>this way
@@ -2835,7 +2835,7 @@
             <figure rend="embed">               
               <head>Layout of the fairgrounds.</head>
               <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/40002978-5147-4e7f-98f2-506f8b3cc762.jpg?scale=0.2&amp;rgn=235,110,200,200&amp;fmt=png"/>
+                url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_letter_p4.jpg.jpg?scale=0.2&amp;rgn=235,110,200,200&amp;fmt=png"/>
               <figDesc>A freehand sketch of the layout of the fairgrounds.</figDesc>
             </figure>
             <lb/>The amusement street
@@ -2860,7 +2860,7 @@
           <p>
             <lb/>This morning it was
             <lb/>raining and I slept until
-            <pb facs="/f/f26773c4-a97e-4e7d-8b0d-b5df9e883867"/>
+            <pb facs="07-06-1909_GS_to_ATS_letter_p5.jpg"/>
             <!-- Again the letterhead. And note that she has been numbering sheets, not pages. -->
             <lb/><hi rend="underlined">3</hi>
             <lb/>8.25. We went to
@@ -2881,7 +2881,7 @@
             <lb/>some odd big ones. The
             <lb/>population has increased
             <lb/>150,000 in 2 years.
-            <pb facs="/9/9b9f204a-187f-493f-9a9a-36423233ddad"/>
+            <pb facs="07-06-1909_GS_to_ATS_letter_p6.jpg"/>
             <lb/>I am getting to be
             <lb/>quite a critic on buildings
             <lb/>with two builders.
@@ -2907,7 +2907,7 @@
             <lb/>at the P.O. Gee! but
             <lb/>I'd like to hear. Will
             <lb/>probably be here until
-            <pb facs="/d/d97efed8-2bbd-48b7-b078-2ce806fdaa8c"/>
+            <pb facs="07-06-1909_GS_to_ATS_letter_p7.jpg"/>
             <lb/>the 20<hi rend="superscripted and underlined">th</hi> perhaps
             <lb/>the 24<hi rend="superscripted and underlined">th</hi>. Am not sure
             <lb/>as they don't say.
@@ -2923,7 +2923,7 @@
         </div>
         <!-- First, the envelope. -->
         <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71"/>
+          <pb facs="07-06-1909_GS_to_ATS_envelope.jpg"/>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
@@ -2955,7 +2955,7 @@
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
@@ -3042,12 +3042,12 @@
         <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
           Or perhaps we should us forme work <fw>. But I think not. -->
         <div type="letter" xml:id="GS19090710let01" corresp="#GS19090710env01">
-          <pb facs="/d/dbb842ca-5860-4bee-af90-2064f686d7a4"/>
+          <pb facs="07-10-1909_GS_to_ATS_letter_p1.jpg"/>
           <head type="letterhead">
             <figure rend="link">
               <head>Photograph of the Hotel Georgian</head>
               <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs//d/dbb842ca-5860-4bee-af90-2064f686d7a4.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
+                url="https://images.asc.ohio-state.edu/is/image/englishdocs/07-10-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
               <figDesc>Photograph of the facade of the Hotel Georgian.</figDesc>
             </figure>
             <lb/>Rates $1.00 up <lb/>Hotel Georgian <lb/>European Plan
@@ -3089,7 +3089,7 @@
               </bibl>
               </note> When
             <lb/>we met another coach
-            <pb facs="/a/a0b024c6-9808-4260-98b6-a1a6a645dac2"/>
+            <pb facs="07-10-1909_GS_to_ATS_letter_p2.jpg"/>
             <lb/>or any soldiers the
             <lb/>driver took the reins.
             <lb/>Talk about sore arms!
@@ -3117,7 +3117,7 @@
             <lb/>a cross section of a tree
             <lb/>which is 9 <choice><abbr>ft.</abbr><expan>feet</expan></choice> in <choice><abbr>diam.</abbr><expan>diameter</expan></choice>
             <lb/>There is a hollow tree
-            <pb facs="/8/81d0dd7f-8548-43c8-85fa-2213b003881c"/>
+            <pb facs="07-10-1909_GS_to_ATS_letter_p3.jpg"/>
             <lb/>trunk which will
             <lb/>hold 50 <choice><sic>peopl</sic><corr>people</corr></choice>. The
             <lb/>building is really
@@ -3138,7 +3138,7 @@
             <lb/>steadily increasing, but
             <lb/>looks very new. There
             <lb/>are lots of large <choice><abbr >bl'd'gs</abbr><expan>buildings</expan></choice>&#x2014;
-            <pb facs="/f/f3b897bb-4680-40dc-af3f-e0743d8e56f2"/>
+            <pb facs="07-10-1909_GS_to_ATS_letter_p4.jpg"/>
             <lb/>plenty of 12 stories <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>several 14. There are 
             <lb/>some dandy hotels.
@@ -3162,7 +3162,7 @@
         </div>
         <!-- First, the envelope. -->
         <div type="envelope" xml:id="GS19090710env01" corresp="#GS19090710let01">
-          <pb facs="/2/27454eee-f99f-4502-a34c-db65724726d5"/>
+          <pb facs="07-10-1909_GS_to_ATS_envelope.jpg"/>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
@@ -3195,7 +3195,7 @@
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/2/27454eee-f99f-4502-a34c-db65724726d5.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-10-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
@@ -3278,12 +3278,12 @@
         <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
           Or perhaps we should us forme work <fw>. But I think not. -->
         <div type="letter" xml:id="GS19090714let01" corresp="#GS19090714env01">
-          <pb facs="/3/3857bb19-ff8e-44e4-b6fb-094dd9efccba"/>
+          <pb facs="07-14-1909_GS_to_ATS_letter_p1.jpg"/>
           <head type="letterhead">
             <figure rend="link">
               <head>Photograph of the Hotel Georgian</head>
               <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs//3/3857bb19-ff8e-44e4-b6fb-094dd9efccba.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
+                url="https://images.asc.ohio-state.edu/is/image/englishdocs/07-14-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
               <figDesc>Photograph of the facade of the Hotel Georgian.</figDesc>
             </figure>
             <lb/>Rates $1.00 up 
@@ -3320,7 +3320,7 @@
               Dana Gibson.<bibl><ref target="#Wolfe">Wolfe, Margaret Ripley.</ref></bibl></note> I guess
             <lb/>I'll try and visit them.
             <lb/>Uncle wants me to visit
-            <pb facs="/a/a244ada2-8ce4-4bc4-80e9-da8a673bfd55"/>             
+            <pb facs="07-14-1909_GS_to_ATS_letter_p2.jpg"/>             
             <lb/><choice><sic>visit</sic><corr></corr></choice> them. <rs ref="#Hughes"><persName ref="#MJ">Mrs. Jordon</persName>
             <lb/>(Mrs. H's cousin) has lots of
             <lb/>money. Her husband died
@@ -3341,7 +3341,7 @@
           <p>j
             <lb/>Not much to write
             <lb/>about now so I guess
-            <pb facs="/6/6567a384-bcbf-4394-8e32-4f66c0a7752a"/>
+            <pb facs="07-14-1909_GS_to_ATS_letter_p3.jpg"/>
             <lb/>that I'll stop.
             <lb/><unclear cert="high">Now</unclear> Judy dear do take
             <lb/>things easy.
@@ -3355,7 +3355,7 @@
         </div>
         <!-- First, the envelope. -->
         <div type="envelope" xml:id="GS19090714env01" corresp="#GS19090714let01">
-          <pb facs="/4/45c83c28-1496-4f31-85b8-a16c686553bf"/>
+          <pb facs="07-14-1909_GS_to_ATS_envelope.jpg"/>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
@@ -3392,7 +3392,7 @@
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/45c83c28-1496-4f31-85b8-a16c686553bf.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-14-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
@@ -3451,7 +3451,7 @@
       <body>
         
         <div type="letter" xml:id="GS19090906let1" corresp="GS19090906env01">
-          <pb facs="/b/baae0bd3-70e4-4091-bccf-407097bd5f8c"/>
+          <pb facs="09-06-1909_GS_to_ATS_letter_p1.jpg"/>
           <opener>
             <handShift new="#GMSHand"/>
             <lb/><salute><persName ref="#MATS"><addName type="endearment">Mother dear</addName></persName></salute>
@@ -3465,7 +3465,7 @@
             <lb/>came. I declare
             <lb/>if I don't get
             <lb/>one tomorrow I
-            <pb facs="/3/3d8386d6-f77c-49d2-906c-be5fde450e0d"/>
+            <pb facs="09-06-1909_GS_to_ATS_letter_p3.jpg"/>
             <lb/>will send a
             <lb/>telegram to
             <lb/>to <persName ref="#BS">Berenice Smith.</persName> 
@@ -3477,7 +3477,7 @@
           <p>
             <lb/>My Alaska
             <lb/>ring came here
-            <pb facs="/d/d91c6f4c-014a-4aeb-a8a4-f69981ad88ca"/>
+            <pb facs="09-06-1909_GS_to_ATS_letter_p2.jpg"/>
             <lb/>the <date when="1909-08-23">23 of Aug.</date> I
             <lb/>got it this morning. It is
             <lb/>a beauty.
@@ -3490,7 +3490,7 @@
             <lb/>it handsome and
             <lb/>it is in the
             <lb/>parlour.
-          <pb facs="/1/159f86b0-ff1d-437a-98b5-69781cf59e77"/>
+          <pb facs="09-06-1909_GS_to_ATS_letter_p4.jpg"/>
           </p>
           <p>
             <lb/>I do hope that
@@ -3505,7 +3505,7 @@
         </div>  
         <div type="envelope" xml:id="GS19090906env01" 
           corresp="#GS19090906">
-          <pb facs="/d/d614c68e-0109-4241-8e2a-a8a65c4b4258"/>
+          <pb facs="09-06-1909_GS_to_ATS_envelope.jpg"/>
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
             <address>
@@ -3594,7 +3594,7 @@
       <body>
         
         <div type= "letter" xml:id="GS19090808let1">
-          <pb facs="/4/42022a1e-2001-4124-ba14-eb5d4e54539e"/>
+          <pb facs="08-08-1909_to_ATS_letter_p1.jpg"/>
           <opener>
             <handShift new="GMSHand"/>
             <dateline><date when="1909-08-08">08-08-1909</date></dateline>
@@ -3639,7 +3639,7 @@
             <lb/>also. Almost every time I
             <lb/>sent you one I sent her one.
           </p>
-          <pb facs="/3/3cc0e241-bb96-47b4-896b-f73f70f0cc77"/>
+          <pb facs="08-08-1909_to_ATS_letter_p2.jpg"/>
           <p>
             <lb/>I was not sick once while I
             <lb/>was gone.  I am enough fatter
@@ -3666,7 +3666,7 @@
             <lb/>said.  It is an opportunity not
             <lb/>to be lost, don't you agree?
           </p>
-          <pb facs="/a/a46fb808-2066-47a3-8b80-18e63b09802a"/>
+          <pb facs="08-08-1909_to_ATS_letter_p3.jpg"/>
           <p>
             <lb/>We had a great time last night- 
             <lb/>our last on board.  No one turned
@@ -3703,7 +3703,7 @@
             <lb/> <persName>Will Ward</persName>. I sent
             <lb/>it to his <hi rend="underline">mother</hi> !
           </p>
-          <pb facs="/7/7adada92-2f50-4872-ad95-b301d92ce2cc"/>
+          <pb facs="08-08-1909_to_ATS_letter_p4.jpg"/>
           <p>
             <lb/>He is a cheerful <del rend="overstrike">lyer</del>lier.  I
             <lb/>have not sent any more to the 
@@ -3733,7 +3733,7 @@
             <lb/>set for us to start to <placeName>Mexico</placeName> and
             <lb/>all plans <unclear reason="underline or random mark at end of page?"><hi rend="underlined">O.K.</hi></unclear>
           </p>
-          <pb facs="/a/ab431cb7-b61d-440d-8c55-c68b485c42a3"/>
+          <pb facs="08-08-1909_to_ATS_letter_p5.jpg"/>
           <p>
             <lb/>He wants me to see all the 
             <lb/>people whom he knows.  He has
@@ -3755,7 +3755,7 @@
             <lb/>addresses.</p></postscript>
         </div>
         <div type="envelope" xml:id="GS19090808env01" corresp="#GS19090808let01">
-          <pb facs="/c/c5c2e502-6284-4b15-b668-f478cb917a62"/>
+          <pb facs="08-08-1909_to_ATS_envelope.jpg"/>
           <ab type="returnAddress">
             <handShift new="Stationery"/>
             <address>
@@ -3845,7 +3845,7 @@
       <body>
         
         <div type="letter" xml:id="JM19090813let01" corresp="#JM19090814env01">
-          <pb facs="/e/e342cb79-e993-4f0c-8714-5851dda7b007"/>
+          <pb facs="08-13-1909_to_GS_letter_p1.jpg"/>
           <opener>
             <lb/><salute>My Dear <persName ref="#GMS"><addName type="endearment">little girl</addName></persName></salute>
           </opener>
@@ -3863,7 +3863,7 @@
             <lb/>Sympathy for dear I did not 
             <lb/><choice><sic>eaven</sic><corr>even</corr></choice> wait <choice><sic>untill</sic><corr>until</corr></choice> the train pulled 
             <lb/>out
-            <pb facs="/8/800f977d-0656-4371-87fe-bf5d2a236e1d"/>
+            <pb facs="08-13-1909_to_GS_letter_p2.jpg"/>
             <lb/>I knowed that you were not feeling 
             <lb/>your best So I did not tell you 
             <lb/>the promise that I wished from 
@@ -3882,7 +3882,7 @@
             <lb/>I dare not express my feelings
             <lb/>in regards to the place where <persName ref="#MrH">Holland</persName> 
             <lb/>recommended but <persName ref="#GMS"><addName type="endearment">honey</addName></persName> I said
-            <pb facs="/6/657652de-d6f1-45e8-8d8d-922be44d93c5"/>
+            <pb facs="08-13-1909_to_GS_letter_p3.jpg"/>
             <lb/><distinct type="babyTalk">Somefing ossle</distinct> naughty --
           </p>
           <p>
@@ -3902,7 +3902,7 @@
             <lb/>to make this trip So I Saw the <unclear reason="illegible" cert="low">Supt</unclear>
             <lb/><unclear reason="illegible" cert="low">Engr</unclear>to day and he transferred me to 
             <lb/>the <name type="ship" ref="#Northwestern">North Western</name> <del rend="overstrike">She</del> he Sails
-            <pb facs="/f/fe83c5c8-21a3-4819-9cfc-5f5cae2bca37"/>
+            <pb facs="08-13-1909_to_GS_letter_p4.jpg"/>
             <lb/><date when="1909-08-16">Monday #16</date> And he Said If he got
             <lb/>Any <del rend="overstrike">more</del> news from <name type="ship" ref="#SantaClara">Santa Clara</name>
             <lb/>he would hold me over untill <del rend="overstrike">She</del> he
@@ -3927,7 +3927,7 @@
             <lb/>again I hate to leave at all but
             <lb/>I must! I was very much pleased 
             <lb/>to hear <persName ref="#ACS"><addName type="nickname">Uncle A's</addName></persName> opinion of me
-            <pb facs="/f/fb22e957-125d-4287-8b68-27e3dbe0293a"/>
+            <pb facs="08-13-1909_to_GS_letter_p5.jpg"/>
             <lb/>And I hope it will <choice><sic>allways</sic><corr>always</corr></choice> be the
             <!-- This question mark could be either a question mark or an exclamaition point -->
             <lb/>Same or Improve if any thing!
@@ -3943,7 +3943,7 @@
             <lb/>As I am reading your letters that
             <lb/>I am with you I was up town
             <lb/>this afternoon and Saw a few
-            <pb facs="/2/2d47fc66-d1a5-4611-a3d9-da91eb08fb13"/>
+            <pb facs="08-13-1909_to_GS_letter_p6.jpg"/>
             <!-- Are "Texas hats" what we now refer to as cowboy hats? -->
             <lb/>Texas hats but not the right one
             <lb/>or the right face but I did not 
@@ -3961,7 +3961,7 @@
           <p>
             <lb/>if we only had had a little time to
             <lb/>ourSelves the night before on the
-            <pb facs="/a/ac97c0ba-0255-4072-ae61-b69750337149"/>
+            <pb facs="08-13-1909_to_GS_letter_p7.jpg"/>
             <lb/>morning you Sailed how much
             <lb/>better I would have felt for I
             <lb/>Cannot make my Self believe
@@ -3982,7 +3982,7 @@
             <lb/>give my very best regards to <persName ref="#ACS"><addName type="nickname">Uncle A</addName></persName>
             <lb/>And Some to <persName ref="#MrH">Mr Holland</persName> and remember
             <lb/>I am anxiously awaiting a reply
-            <pb facs="/7/7c5f0e65-7f34-49d5-859c-9d7f67dfa7e6"/>
+            <pb facs="08-13-1909_to_GS_letter_p8.jpg"/>
             <lb/>to last letter which is on the
             <lb/>road before this And I hope to
             <lb/>have Heaps of letters with heaps
@@ -4011,7 +4011,7 @@
           </closer>
         </div>
         <div type="envelope" xml:id="JM19090814env01" corresp="JM19090813let01">
-          <pb facs="/0/05d946d6-d917-4ea6-9f89-588209756900"/>
+          <pb facs="08-14-1909_to_GS_envelope.jpg"/>
           <ab type="postalAddress">
             <address>
               <addrLine>Miss. <persName>Gladys. M. Stephens</persName>.</addrLine>
@@ -4106,7 +4106,7 @@
       <body>
         
         <div type="letter" xml:id="CLA19090820let01" corresp="#CLA19090821env01">
-          <pb facs="/8/808bb4bd-8140-4897-b707-cc3af5930e28"/>
+          <pb facs="08-19-1909_CLA_to_ATS_letter_p1.jpg"/>
           <opener> <lb/><dateline> <address> <addrLine> <placeName ref="#Sherborn">Sherborn, Mass.</placeName> </addrLine></address></dateline>
             <lb/> <salute><rs ref="#JMS">My dear Aunt:</rs></salute>
           </opener>
@@ -4128,7 +4128,7 @@
             <lb/>I can only keep him well I 
             <lb/>shall be happy. I am not very 
             <lb/>strong yet but am gaining 
-            <pb facs="/1/1931af01-c4d5-4237-942d-ce2790310029"/>
+            <pb facs="08-19-1909_CLA_to_ATS_letter_p2.jpg"/>
             <lb/>every day a little, but I shall have to be 
             <lb/>careful for awhile yet. <persName ref="#GA">Gladys</persName> is pleased 
             <lb/>with her little brother and <persName ref="#WDA">Willis</persName> is pleased 
@@ -4154,7 +4154,7 @@
           </closer>
         </div>
         <div type="envelope" xml:id="CLA19090821env01" corresp="#CLA19090820let01">
-          <pb facs="/1/10e1050e-1f2b-43c5-b52f-bf55d6cb3c41"/>
+          <pb facs="08-20-1909_CLA_to_ATS_envelope.jpg"/>
           <ab type="postalAddress">
             <address>
             <persName ref="#JMS">Mrs. A. T. Stephens </persName>
@@ -4240,7 +4240,7 @@
       <body>
         
         <div type="letter" xml:id="JJM19090821let01" corresp="#JJM19090821let01">
-          <pb facs="/c/c9330555-86d9-4008-9bbb-e6b89b76ac84"/>
+          <pb facs="08-21-1909_JJM_to_GS_letter_p1.jpg"/>
           <opener>
             <lb/><salute><rs ref="#GMS">Dear little Girl</rs></salute>
           </opener>
@@ -4262,7 +4262,7 @@
             <lb/> It is now 1:30 a.m. as I am
             <lb/> still on the same 12/4 as I was 
             <lb/> on <placeName ref="#SantaClara">Santa Clara</placeName> and we should
-            <pb facs="/8/82c2767c-ecf4-47ed-821e-7cc9945f6fdd"/>
+            <pb facs="08-21-1909_JJM_to_GS_letter_p2.jpg"/>
             <!-- Note that the paragraph continues on the following page. -->
             <lb/> arrive in <unclear cert="low"><placeName ref="#Juneau">Juneau</placeName></unclear> about noon and 
             <lb/> I do not know how long we will 
@@ -4279,7 +4279,7 @@
             <lb/> I think he could enjoy him self
             <lb/> and <persName ref="#GMS"><addName type="nickname"></addName>Neddy</persName> I have found a sweet
             <lb/> little girl aboard and her name
-            <pb facs="/a/a0d19058-77d6-48b2-87ef-ab26bc7ce76e"/>
+            <pb facs="08-21-1909_JJM_to_GS_letter_p3.jpg"/>
             <!-- Note that the paragraph continues on the following page. -->
             <lb/> is <persName ref="#GMS">Gladys</persName> So you know she must
             <lb/> be Ok. She seames very fond of me
@@ -4297,7 +4297,7 @@
             <lb/> if we ever have the pleasure of 
             <lb/> crossing there together again
             <lb/> don't you <persName ref="#GMS"><addName type="endearment">honey</addName></persName>?
-            <pb facs="/1/1e6f7ae6-47bf-494b-88b1-df9d3d7be5ea"/>
+            <pb facs="08-21-1909_JJM_to_GS_letter_p4.jpg"/>
             <lb/> which I hope will be no later than
             <lb/> the spring of 1910 do <hi rend="underlined">you</hi>? Tell me this
             <lb/> This is the first time in a long time
@@ -4314,7 +4314,7 @@
             <lb/> or fancy but <persName ref="#GMS"><addName type="nickname"></addName>Neddie</persName> <addName type="endearment">dear</addName> the 
             <lb/> answers to both were the same
             <lb/> and was this&#x2014;<hi rend="underlined">Impossible</hi>
-            <pb facs="/b/bc7afc0a-0631-4a57-b872-fda7beb07774"/>
+            <pb facs="08-21-1909_JJM_to_GS_letter_p5.jpg"/>
             <!-- Note that the paragraph continues on the following page. -->
             <lb/> to see you am <choice><sic>to</sic><corr>too</corr></choice> busy that's all
             <lb/> and the season. <persName ref="#GMS"><addName type="nickname">Neddy</addName></persName> would not like
@@ -4332,7 +4332,7 @@
             <lb/> well <rs ref="#GMS"><addName type="endearment">little girl</addName></rs> well do I remember 
             <lb/> the talkings I used to get as a young
             <lb/> fellow when going out with the boys
-            <pb facs="/8/8a7be673-5199-4b09-b859-d29600b98d7e"/>
+            <pb facs="08-21-1909_JJM_to_GS_letter_p6.jpg"/>
             <!-- Note that the paragraph continues on the following page. -->
             <lb/> as it were or to a party or dance <ptr type="noteAnchor" target="DA"/><note resp="ed" xml:id="DA">
               Since the French Revolution in the 1700's, male theatre dancers were considered effeminate.
@@ -4359,7 +4359,7 @@
             <lb/> one girl or the only boy which we
             <lb/> are bound to meet some day I do not
             <lb/> know if you can understand
-            <pb facs="/1/1d84b1b3-e961-456d-9c66-4eda4dede246"/>
+            <pb facs="08-21-1909_JJM_to_GS_letter_p7.jpg"/>
             <lb/> my feelings in this or not but 
             <lb/> please tell me will you <persName ref="#GMS"><addName type="endearment">dear</addName></persName> <hi rend="underlined">please</hi>
             <lb/> if you only knew with what pleasure 
@@ -4377,7 +4377,7 @@
             <lb/> <choice><sic>unusal</sic><corr>unusual</corr></choice> and out of the ordinary
             <lb/> that I sometimes wonder how 
             <lb/> it all happened do you <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
-            <pb facs="/c/c94e4f05-91bb-4e8e-818e-a64f8d1ee446"/>
+            <pb facs="08-21-1909_JJM_to_GS_letter_p8.jpg"/>
             <lb/> be <choice><sic>shore</sic><corr>sure</corr></choice> and tell me what you
             <lb/> think honey of these <hi rend="underlined">please</hi> do
             <lb/> I wonder if you knew how I 
@@ -4395,7 +4395,7 @@
             <lb/> <persName ref="GMS"><addName type="endearment">little girl</addName></persName> <choice><sic>untill</sic><corr>until</corr></choice> she tells me 
             <lb/> <choice><sic>diffarante</sic><corr>different</corr></choice> than what I now believe.
           </p>
-          <pb facs="/1/12faecb4-fadc-4231-ba1e-a5395fc13502"/> 
+          <pb facs="08-21-1909_JJM_to_GS_letter_p9.jpg"/> 
           <p>
             <lb/> You asked me if I knew the story 
             <lb/> of the red rose <ptr type="noteAnchor" target="RedR"/><note resp="ed" xml:id="RedR">Text in progress. Limited sources.</note><said><q>"remember how dense
@@ -4412,7 +4412,7 @@
             <lb/> for one or two more nights
             <lb/> on <placeName ref="#SantaClara">Santa Clara</placeName> with you now 
             <lb/> how much could be said
-            <pb facs="/e/e9f54935-558f-40f6-951e-f079183e96bc"/>
+            <pb facs="08-21-1909_JJM_to_GS_letter_p10.jpg"/>
             <!-- Note that the paragraph continues on the following page. -->
             <lb/> and how much better we could 
             <lb/> understand but here we are
@@ -4429,7 +4429,7 @@
             <lb/> the arm and <choice><sic>shooked</sic><corr>shook</corr></choice> me an said
             <lb/> wake up boy what's the matter
             <lb/> can you think where my mind
-            <pb facs="/7/7c13091c-3773-4214-9981-b1995181be52"/>
+            <pb facs="08-21-1909_JJM_to_GS_letter_p11.jpg"/>
             <lb/> was. <persName ref="#MsH">Ms Hollinds</persName> remark does not
             <lb/> surprise me much <persName ref="#GMS"><addName type="endearment">honey</addName></persName> I am getting 
             <lb/> <unclear cert="unknown"></unclear> them now every day while 
@@ -4442,7 +4442,7 @@
             <lb/> I wonder where it went it
             <lb/> I sent in the room honest <persName ref="#GMS"><addName type="endearment">Dear</addName></persName>
             <lb/> tell me if you know <hi rend="underlined">please</hi>
-            <pb facs="/8/80015065-8495-4250-8ad4-362953505abd"/> 
+            <pb facs="08-21-1909_JJM_to_GS_letter_p12.jpg"/> 
             <lb/> well <persName ref="#GMS"><addName type="nickname">Neddy</addName></persName> <addName type="endearment">dear</addName> it is <unclear cert="high">nearing</unclear> 
             <lb/> <unclear cert="high">4 a.m.</unclear> I but you are glad for I 
             <lb/> will <choice><sic>haf</sic><corr>have</corr></choice> to close
@@ -4468,7 +4468,7 @@
           </closer>
         </div>
         <div type="envelope" xml:id="JJM19090821env01" corresp="#JJM19090821let01">
-          <pb facs="/f/f3c39277-3661-46e3-8002-a9a616109a98"/>
+          <pb facs="08-21-1909_JJM_to_GS_envelope.jpg"/>
           <ab type="postalAddress">
             <!--make sure to put handshift later-->
             <address>
@@ -4484,7 +4484,7 @@
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs//f/f3c39277-3661-46e3-8002-a9a616109a98?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs/08-21-1909_JJM_to_GS_envelope.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Color-Red and Upside down]</figDesc>
           </figure>
           <!--Chosen to code general delievery as an addressline--> 
@@ -4590,7 +4590,7 @@
       <body>
         
         <div type="letter" xml:id="GS19090922let01" corresp="#GS19090924env01">
-          <pb facs="/5/525b5c97-d537-482f-9392-0577b377cc5e"/>
+          <pb facs="09-22-1909_GS_to_ATS_letter_p1.jpg"/>
           <head type="letterhead">
             <lb/><placeName ref="#SantaCruz">Santa Cruz, Cal.</placeName>,_______1___</head>
           <opener>
@@ -4629,7 +4629,7 @@
           </p>
           <p>
             <lb/>I have found out some startling
-            <pb facs="/7/7f432e2c-dc9e-4588-872c-228dd260a737"/>
+            <pb facs="09-22-1909_GS_to_ATS_letter_p2.jpg"/>
             <lb/>information today. I went to the
             <lb/><rs>hairdressers</rs> to have a shampoo.
             <lb/>On account of the <abbr>amt.</abbr><expan>amount</expan> of alkali
@@ -4660,7 +4660,7 @@
             <lb/><rs ref="#ACS">Uncle</rs> says I <hi rend="underlined">must</hi> stay to
             <lb/>see the <rs>Presidents</rs> meet <seg type="obliqueText" rendition="#ot1">and</seg> then I
             <lb/>can go home immediately after
-            <pb facs="/2/24ce202a-ee9f-4674-8111-674e80d869d7"/>
+            <pb facs="09-22-1909_GS_to_ATS_letter_p3.jpg"/>
             <lb/>that. He says <persName ref="#PrD">Dias</persName> is so old (79) that
             <lb/>I probably will never get another
             <lb/>chance to see anything of the kind
@@ -4690,7 +4690,7 @@
           </closer>
         </div>
         <div type="envelope" xml:id="GS19090924env01" corresp="#GS19090922let01">
-          <pb facs="/3/3f65827d-8dd2-413c-8a9a-511881f4df0e"/>
+          <pb facs="09-24-1909_GS_to_ATS_envelope_for_letter_dated_09-22.jpg"/>
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
             <persName>Mrs. A. T. Stephens</persName>
@@ -4711,7 +4711,7 @@
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic 
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/3/3f65827d-8dd2-413c-8a9a-511881f4df0e.jpg?scale=0.4&amp;rgn=0,0,4000,4000&amp;fmt=png"/>
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs09-24-1909_GS_to_ATS_envelope_for_letter_dated_09-22.jpg.jpg?scale=0.4&amp;rgn=0,0,4000,4000&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE | TWO CENTS [profile of Washington; perforated along the top and sides Design A139] </figDesc>
           </figure>
         </div>
@@ -4786,7 +4786,7 @@
       <body>
         
         <div type="letter" xml:id="GS19091005let01" corresp="#GS19091006env01">
-          <pb facs="/e/e040faea-be8c-4fb6-bcc3-eb4132850b07"/>
+          <pb facs="10-05-1909_GS_to_ATS_letter_p1.jpg"/>
           <opener>
             <lb/><dateline> <address><addrLine>609 N. El Paso St.</addrLine> </address> </dateline> 
             <lb/><salute><rs ref="#JMS">Mother dear, </rs></salute>
@@ -4803,7 +4803,7 @@
             <lb/>today as a July 
             <lb/>day at home. It 
             <lb/>will be cool this 
-            <pb facs="/a/abcb7505-b573-47fe-9f87-9d457cda0c26"/>
+            <pb facs="10-05-1909_GS_to_ATS_letter_p2.jpg"/>
             <lb/>evening however. 
           </p>
           <p> <lb/>I am as well as 
@@ -4825,7 +4825,7 @@
             <lb/>I am wondering
             <lb/>what you think
             <lb/>of the pictures. 
-            <pb facs="/0/07e40899-fe32-422f-9c09-8b59fc634787"/> 
+            <pb facs="10-05-1909_GS_to_ATS_letter_p3.jpg"/> 
             <lb/>They were taken 
             <lb/>in <placeName ref="#SanDiego">San Diego </placeName>
             <lb/><seg type="obliqueText" rendition="#ot1">and</seg> that dress 
@@ -4841,7 +4841,7 @@
           <p> <lb/>Were you 
             <lb/>surprised about 
             <lb/>the pictures? We 
-            <pb facs="/d/d87804ae-12c5-4597-9498-a4053adf0e7a"/>
+            <pb facs="10-05-1909_GS_to_ATS_letter_p4.jpg"/>
             <lb/>wanted you to  
             <lb/>be. 
           </p>
@@ -4867,7 +4867,7 @@
           </closer>
         </div>
         <div type="envelope" xml:id="GS19091006env01" corresp="#GS19091005let01">
-          <pb facs="/0/03089ec3-d8d7-4b39-8e25-9fd16419aecc"/>
+          <pb facs="10-06-1909_GS_to_ATS_envelope_for_letter_dated_10-05.jpg"/>
           <ab type="postalAddress">
             <address>
               <persName ref="#JMS">Mrs. A. J. Stephens </persName>
@@ -4883,7 +4883,7 @@
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure> 
@@ -4936,7 +4936,7 @@
       <body>
       
         <div type="letter" xml:id="JJM19090823let01" corresp="JJM19090823env01">
-          <pb facs="/2/2edb5373-006c-49cd-bb10-39e021006dcb"/>
+          <pb facs="08-23-1909_JJM_to_GS_letter_p1.jpg"/>
           <opener>
             <handShift new="JJMHand"/>
             <lb/><dateline><date when="1909-08-23"><seg type="obliqueText" rendition="#ot1">8/23/09</seg></date></dateline>
@@ -4958,7 +4958,7 @@
             <lb/>and it is a nasty rainy night
             <lb/>and the ship is <choice><sic><unclear reason="illegible" cert="medium">roaling</unclear></sic><corr>rolling</corr></choice><ptr type="noteAnchor" target="rolling"/><note resp="ed" xml:id="rolling">The swaying or rocking of a vessel from side to side.<bibl><ref target="#OEDrolling">OED "rolling"</ref></bibl></note> heavy. you 
             <lb/>should ought to see my pose in writing this <subst><del rend="overtyped"><unclear reason="illegible" cert="high">a</unclear></del><add place="over">the</add></subst> Kangaroo is not in it.
-            <pb facs="/e/e9269572-e28c-4911-8402-38b1ead57c8b"/>
+            <pb facs="08-23-1909_JJM_to_GS_letter_p2.jpg"/>
             <lb/>I wonder how you would <choice><sic>fell</sic><corr>feel</corr></choice>
             <lb/>better I hope. we are agoing
             <lb/>to <placeName ref="#Valdez"><choice><sic>Valdese</sic><corr>Valdese</corr></choice></placeName> first the mail <choice><sic>hasto</sic><corr>has to</corr></choice> be
@@ -4979,7 +4979,7 @@
             <lb/>boat and they both <hi rend="underline">pulled together</hi> So
             <lb/>what's the odds where they came from?
             <lb/>do <hi rend="underline">you</hi> <choice><sic>aggree</sic><corr>agree</corr></choice>with them.
-            <pb facs="/a/ab2d3387-c62a-4f61-9c05-34f24ae62dd9"/>
+            <pb facs="08-23-1909_JJM_to_GS_letter_p3.jpg"/>
             <lb/>One <choice><sic>off</sic><corr>of</corr></choice> the many things that
             <lb/>you will be told is this <persName ref="#GMS"><addName type="endearment">honey</addName></persName> <q>He's
               <lb/>only a seafaring man.</q> and <hi rend="underline">I</hi> will
@@ -4998,7 +4998,7 @@
             <lb/>getting along not <q><choice><sic>brooke</sic><corr>"broke"</corr></choice></q> I hope I
             <lb/>must laugh when I think of the
             <lb/>lookson <persName ref="#ACS"><addName type="nickname">ouncle <hi rend="underline">A's</hi></addName></persName> face the day you
-            <pb facs="/e/e1c9c876-b418-422a-a05d-3e16f40c91d9"/>
+            <pb facs="08-23-1909_JJM_to_GS_letter_p4.jpg"/>
             <lb/>were In the Engine room I didn't
             <lb/>think you noticed. but you afterwards
             <lb/>spoke about it no harm for me
@@ -5018,7 +5018,7 @@
             <lb/>day <persName ref="#GMS"><addName type="endearment">honey</addName></persName> and many thanks for
             <lb/>that pleasure but the original is
             <lb/>what I wish to see above all else!
-            <pb facs="/b/bb5bb078-b2fc-460f-bce8-4d729f6409b7"/>
+            <pb facs="08-23-1909_JJM_to_GS_letter_p5.jpg"/>
             <lb/>Never satisfied am I <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
             <lb/>but hope to be some day live in
             <lb/>hopes and - I know <distinct type="babyTalk">sisint</distinct>
@@ -5034,7 +5034,7 @@
             <lb/>of us or not but am taking a chance
             <lb/>any way it makes me seem closer
             <lb/>to you anyway to be writing
-            <pb facs="/2/2502d308-1d03-4cf7-9ff1-91b6de9658f6"/>
+            <pb facs="08-23-1909_JJM_to_GS_letter_p6.jpg"/>
             <lb/>away and at the same time going
             <lb/>farther &amp; farther away take notice
             <lb/>I am always looking out for my own
@@ -5052,7 +5052,7 @@
             <lb/>to the engine room and she was not
             <lb/>a bit afraid and It was a pleasure
             <lb/><choice><sic>two</sic><corr>to</corr></choice> have only a wee <rs ref="LGS">Gladys</rs>
-            <pb facs="/c/c1fd1ea5-32d5-467d-99f5-2b0949e83ed9"/>
+            <pb facs="08-23-1909_JJM_to_GS_letter_p7.jpg"/>
             <lb/>to talk to and I said lots
             <lb/>of things to her about -O well-
             <lb/>well she laughed and seemed to
@@ -5070,7 +5070,7 @@
             <lb/><persName ref="#GMS"><addName type="endearment">dear</addName></persName> I am going over the same
             <lb/>old <unclear reason="illegible" cert="medium">rout</unclear> nothing new and
             <lb/>nothing to do but think which
-            <pb facs="/a/a6851f42-20e7-440c-b656-1fae43e1fdb8"/>
+            <pb facs="08-23-1909_JJM_to_GS_letter_p8.jpg"/>
             <lb/>is not altogether unpleasant for
             <lb/><persName ref="#GMS"><addName type="nickname">neddy</addName></persName> they are always <unclear reason="illegible">of</unclear> you how
             <lb/>glad I will be to get back to <placeName ref="#Seattle">Seattle</placeName>
@@ -5097,7 +5097,7 @@
           </closer>
         </div>
         <div type="envelope" xml:id="JJM19090823env01">
-          <pb facs="/1/1a088fc4-6962-4826-812b-8f4a29a15c26"/>
+          <pb facs="08-23-1909_JJM_to_GS_envelope.jpg"/>
           <ab type="postaladdress">
             <handShift new="#JJMHand"/>
             <persName>Miss. Gladys. M. Stephens
@@ -5121,7 +5121,7 @@
           </ab>
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
-            <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=460,480&amp;layer=1&amp;src=is{mediamanager/1/1a088fc4-6962-4826-812b-8f4a29a15c26.jpg?scale=0.2&amp;rgn=0,0,460,320&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=460,320&amp;text=\vertalt\cf1\qc\fs15\%20Caption&amp;posN=0,.5"/>
+            <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=460,480&amp;layer=1&amp;src=is{mediamanager08-23-1909_JJM_to_GS_envelope.jpg.jpg?scale=0.2&amp;rgn=0,0,460,320&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=460,320&amp;text=\vertalt\cf1\qc\fs15\%20Caption&amp;posN=0,.5"/>
             <figDesc>
               U.S. POSTAGE / TWO CENTS [Portrait of William Seward; perforated horizontally and  vertically; U.S. #370] Upside down 
             </figDesc>
@@ -5259,7 +5259,7 @@
             <lb/>do not like It for some of the things has a
             <lb/>history that is Interesting for me anyway
           </p>
-          <pb facs="/b/b7747dd0-76d3-425a-b250-23172cf7db41"/>
+          <pb facs="09-13-1909_JJM_to_GS_letter_p3.jpg"/>
           <p>
             <lb/>and how I would like to see you on going
             <lb/>in Some of the Silk and Curioe Shops you would
@@ -5284,7 +5284,7 @@
             <lb/>be looking out for the if <sic>poessman</sic> <corr>postman</corr> to see if my honk
             <lb/>is coming next I'm afraid
           </p>
-          <pb facs="/5/567bdbfa-d0a6-4bb7-85ac-32e9edb0c3b6"/>
+          <pb facs="09-13-1909_JJM_to_GS_letter_p4.jpg"/>
           <p>
             <lb/>I was thinking last night after going to bed
             <lb/>if I have the pleasure of <del>meeting</del> <add place="below">seeing</add> you again in the
@@ -5393,7 +5393,7 @@
                 a 2.75 x 1.5-inch halftone image of a Forrestry Building
                 <figure rend="link">
                   <head>Oregon Timber Company</head>
-                  <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=450,900&amp;layer=1&amp;src=is{mediamanager/3/389e4759-1e88-4e46-abab-a552ed4c0e69.jpg?scale=0.5&amp;rgn=110,38,450,600&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=450,600&amp;text=\vertalt\cf1\qc\fs36\%20Oregon Timber Company&amp;posN=0,.5"/>
+                  <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=450,900&amp;layer=1&amp;src=is{mediamanager09-27-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.5&amp;rgn=110,38,450,600&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=450,600&amp;text=\vertalt\cf1\qc\fs36\%20Oregon Timber Company&amp;posN=0,.5"/>
                   <figDesc>
                     Envelope picture of the Oregon Timber Company
                   </figDesc>
@@ -5421,10 +5421,10 @@
       <body>
         
         <div type="letter" xml:id="GS19090927let01" corresp="#GS19090927env01">
-          <pb facs="/a/a9e9c771-0075-4c39-b538-4284cf3e85a0"/>
+          <pb facs="09-27-1909_GS_to_ATS_letter_p1.jpg"/>
           <figure rend="link">
             <head>Post Office</head>
-            <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/a/a9e9c771-0075-4c39-b538-4284cf3e85a0.jpg?scale=0.5&amp;rgn=380,38,513,538&amp;fmt=png"/>
+            <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs09-27-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.5&amp;rgn=380,38,513,538&amp;fmt=png"/>
             <figDesc>
               Stationary header on this page of an unknown Post Office.
             </figDesc>
@@ -5460,7 +5460,7 @@
             <lb/>the men text&#x2014; if they come out
             <lb/>well.
           </p>
-          <pb facs="/9/97b9259e-402e-44b1-b6f0-e4815f8ccdc2" />
+          <pb facs="09-27-1909_GS_to_ATS_letter_p2.jpg" />
           <p>
             <lb/>She will show me how to
             <lb/>make tamalies <seg type="obliqueText" rendition="#ot1">and</seg> also how
@@ -5508,10 +5508,10 @@
             with <persName ref="AMM">Adelaide</persName>
             <lb/>all talk turns to <q>"the West."</q>
           </p>
-          <pb facs="/d/dbd77e73-82da-4df9-95fc-b7eda643a5b6"/>
+          <pb facs="09-27-1909_GS_to_ATS_letter_p3.jpg"/>
           <figure rend="link">
             <head>Forrestry Building</head>
-            <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/d/dbd77e73-82da-4df9-95fc-b7eda643a5b6.jpg?scale=0.5&amp;rgn=343,125,633,393&amp;fmt=png"/>
+            <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs09-27-1909_GS_to_ATS_letter_p3.jpg.jpg?scale=0.5&amp;rgn=343,125,633,393&amp;fmt=png"/>
             <figDesc>
               Photo on the stationary of an unknown Forrestry Building.
             </figDesc>
@@ -5560,7 +5560,7 @@
           </p>
           <p>
             <lb/>How are <persName ref="Thomases"> the Thomases</persName> by
-            <pb facs="/a/a476a258-61a6-4286-94ee-ab2563776cae"/> 
+            <pb facs="09-27-1909_GS_to_ATS_letter_p4.jpg"/> 
             <lb/>this time?
           </p>
           <p>
@@ -5599,7 +5599,7 @@
         </closer>
         </div>
         <div type="envelope" xml:id="GS19090927env01" corresp="#GS19090927let01">
-          <pb facs="/3/389e4759-1e88-4e46-abab-a552ed4c0e69"/>
+          <pb facs="09-27-1909_GS_to_ATS_envelope.jpg"/>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
@@ -5628,7 +5628,7 @@
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
@@ -5703,13 +5703,13 @@
       <body>
         
         <div type="letter" xml:id="JJM19091004let01" corresp="#JJM19091005env01">
-          <pb facs="/f/f635d67f-a719-4f7f-ba63-4f930eddabfd"/>
+          <pb facs="10-04-1909_JJM_to_GS_letter_p1.jpg"/>
           <head type="letterhead">
             <handShift new="#Stationery"/>
             <lb/>Form 1 10m 8-09 <lb/>
             <figure rend="link">
               <head>Logo of the <orgName ref="#ASC">Alaska Steamship Company</orgName></head>
-              <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/f/f635d67f-a719-4f7f-ba63-4f930eddabfd.jpg?scale=0.3&amp;rgn=60,45,240,240&amp;fmt=png"/>
+              <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs10-04-1909_JJM_to_GS_letter_p1.jpg.jpg?scale=0.3&amp;rgn=60,45,240,240&amp;fmt=png"/>
               <figDesc>Logo of the <orgName ref="#ASC">Alaska Steamship Company</orgName> Black Ball Line</figDesc>
             </figure>
             <lb/><orgName ref="#ASC">Alaska Steamship Company</orgName> 
@@ -5778,7 +5778,7 @@
               </figure>
             </note>
             yet <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
-            <pb facs="/d/d2d63fa4-8f27-45dd-857f-56d69e377a32"/>
+            <pb facs="10-04-1909_JJM_to_GS_letter_p2.jpg"/>
             <lb/>we arrived at <placeName ref="#Klawock">Klawock</placeName> at <time>
               9<hi rend="superscript"><hi rend="underlined"><del rend="overwritten">38</del>28</hi></hi>
             </time>-<date when="1909-09-29">9<del rend="overwritten">-</del>/29</date>
@@ -5867,7 +5867,7 @@
             <lb/>then when I See you again  <hi rend="underlined">hope not</hi> 
             <distinct type="babyTalk">Sisent</distinct> nice of you I <distinct type="babyTalk">fink</distinct> 
             <lb/>tell me <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
-            <pb facs="/8/89dc1d77-e539-4ca6-b7b7-26f005889808"/>
+            <pb facs="10-04-1909_JJM_to_GS_letter_p3.jpg"/>
             <lb/>I do not know if I told you about the <name type="ship" ref="#Northwestern">Northwestern</name> 
             <lb/>or not! Yes <rs type="ship" ref="#Northwestern">She</rs> 
             Is a big Ship about 3 times<add place="above">more</add> the power 
@@ -5955,7 +5955,7 @@
             </note> little 
             <lb/>do we know how Soon we will be blotted out 
             <lb/>of this world the best we Can do is to always be ready 
-            <pb facs="/2/225a8af1-9a76-4245-bd1b-0de460e87b87"/>
+            <pb facs="10-04-1909_JJM_to_GS_letter_p4.jpg"/>
             <lb/>I Suppose you have <choice><sic>bin</sic><corr>been</corr></choice> through most of
             <choice><sic>them</sic><corr>the</corr></choice> 
             <lb/>letters by this time <choice><sic>hasent</sic><corr>haven't</corr></choice>, 
@@ -5993,7 +5993,7 @@
           </closer>
         </div>
         <div type="envelope" xml:id="JJM19091005env01" corresp="#JJM19091004let01">
-          <pb facs="/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05"/>
+          <pb facs="10-05-1909_JJM_to_GS_envelope_with_letter_dated_10-04.jpg"/>
           <ab type="postalAddress">
             <handShift new="#JJMHand"/>
             <address>
@@ -6008,7 +6008,7 @@
                 <gap reason="invisible" unit="characters" quantity="1"/>M</time> / 1909</date> 
               <figure rend="link">
                 <head>Postmark</head>
-                <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05.jpg?scale=0.5&amp;rgn=600,250,250,250&amp;fmt=png"></graphic>
+                <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_JJM_to_GS_envelope_with_letter_dated_10-04.jpg.jpg?scale=0.5&amp;rgn=600,250,250,250&amp;fmt=png"></graphic>
                 <figDesc>Postmark for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre</figDesc>
               </figure></stamp>
           </ab>
@@ -6017,7 +6017,7 @@
               World's / Fair / <placeName ref="#Seattle">Seattle</placeName> / <date when="1909">1909</date> 
               <figure rend="link">
                 <head>Cancellation</head>
-                <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05.jpg?scale=0.5&amp;rgn=825,250,400,225&amp;fmt=png"></graphic>
+                <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_JJM_to_GS_envelope_with_letter_dated_10-04.jpg.jpg?scale=0.5&amp;rgn=825,250,400,225&amp;fmt=png"></graphic>
                 <figDesc>Cancellation for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre</figDesc>
               </figure>
             </stamp>
@@ -6025,7 +6025,7 @@
           <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/4/4f4bc3b5-ebb4-48ab-9ba7-35968c47dd05.jpg?scale=0.4&amp;rgn=860,160,160,180&amp;fmt=png"/>
+              url="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_JJM_to_GS_envelope_with_letter_dated_10-04.jpg.jpg?scale=0.4&amp;rgn=860,160,160,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
@@ -6083,7 +6083,7 @@
       <body>
 
         <div type="letter" xml:id="GS19091011let01" corresp="#GS19091011env01">
-          <pb facs="/2/2c5bd03e-29d8-4c3f-842c-05d963b31d95"/>
+          <pb facs="10-11-1909_to_GS_letter_p1.jpg"/>
           <head type="letterhead">
             <figure>
               <head>Photograph of the Tourist Hotel</head>
@@ -6133,7 +6133,7 @@
             it does : my <rs>sister</rs> was there and <unclear cert="low" reason="final letter illegible">cons
             </unclear> the
           </p>
-          <pb facs="/7/79720d47-f795-40d4-8562-ec2df2293109"/>
+          <pb facs="10-11-1909_to_GS_letter_p2.jpg"/>
           <!-- A roman numeral II is written at the top of the second sheet.-->
           <p>
             <lb/>girl : Say <persName ref="#GMS"><addName type="endearment">honey</addName></persName> She <choice><sic>certanolly</sic><corr>certainly</corr></choice>  
@@ -6170,7 +6170,7 @@
         </div>
         <!-- First, the envelope. -->
         <div type="envelope" xml:id="GS19091011env01" corresp="#GS19091011let01">
-          <pb facs="/5/50f04929-7741-4a9e-99fe-c5da6d6fb088"/>
+          <pb facs="10-11-1909_to_GS_envelope_for_letter_dated_10-11.jpg"/>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
