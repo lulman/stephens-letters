@@ -27,6 +27,21 @@
                                     </list>
                                 </field>
                             </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Stephens-Edintro.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Stephens-Reading</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
                         </scenarioAssociation-array>
                     </entry>
                     <entry>

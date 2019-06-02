@@ -3,7 +3,7 @@
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
   <!-- First, we provide a teiHeader element for the corpus, encoding descriptive and administrative
        metadata that applies to the project as a whole.-->
-  <teiHeader type="corpus">
+  <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Selected Letters from the Ivan S. Gilbert Collection of <lb/>Stephens Family Travel 
@@ -60,6 +60,13 @@
         
         
       </titleStmt>
+      
+      <editionStmt>
+        <p>First Edition</p>
+      </editionStmt>
+<!--      Fill this in! -->
+      <extent>approx. xxx kilobites</extent>
+      
       <publicationStmt>
         <publisher>The Ohio State University Library.
           <address>
@@ -107,10 +114,15 @@
             The <extent> element indicates the size of your source document(s), in whatever 
             units are appropriate. In this case, number of letters?
           -->
+<!-- Check on the extent of the entire collection. -->
           <extent>15 signed autograph letters.</extent>
           
           <publicationStmt>
-            <p>Pulbication statement from the library.</p>
+            <p>The The Ivan S. Gilbert Collection of Stephens Family Travel Letters and Ephemera
+              is the property of the Rare Books and Manuscripts
+              Library of The Ohio State University Libraries. Any use of the material should
+              acknowledge such ownership. The Ohio State University holds copyright to 
+              all images of manuscript pages used in the edition.</p>
           </publicationStmt>
           
           <!-- 
@@ -2668,7 +2680,7 @@
       accompanying materials (e.g., an envelope or enclosure) in this teiHeader element 
       for the letter. -->
     
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[Gladys M. Stephens to Mrs. A. T. Stephens, 06 July 1909]</title>
@@ -2969,7 +2981,7 @@
     <!-- First, we provide descriptive information about this particular letter and any 
       accompanying materials (e.g., an envelope or enclosure) in this teiHeader element 
       for the letter. -->
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[Gladys M. Stephens to Mr. A. T. Stephens, 10 July 1909]</title>
@@ -3205,7 +3217,7 @@
     </text>
   </TEI>
   <TEI xml:id="JLM2_GMS2JMS_1909_07_14" n="1909-07-14">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[Gladys M. Stephens to Mrs. A. T. Stephens, 14 July 1909]</title>
@@ -3402,7 +3414,7 @@
     </text>
   </TEI>
   <TEI xml:id="WCK_GMS2MAT_1909-09-06" n="1909-09-06">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[Gladys M. Stephens to Mrs. A.T. Stevens, 06 September 1909]</title>
@@ -3528,7 +3540,7 @@
     </text>
   </TEI>
   <TEI xml:id="ACO_GMS2MATS_1909-08-08" n="1909-08-08">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[Gladys M. Stephens to Mrs. A.T. Stephens, 08 August 1909]</title>
@@ -3783,7 +3795,7 @@
     </text>
   </TEI>
   <TEI xml:id="JHH_JJM2GMS_1909-08-13" n="1909-08-13">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[James J. McIntyre to Gladys M. Stevens, 13 August 1909]</title>
@@ -4040,7 +4052,7 @@
     </text>
   </TEI>
   <TEI xml:id="MAW_CLA2JMS_1909-08-19" n="1909-08-19">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[Cora L. Anderson to Mrs. A. T. Stephens, 19 August 1909]</title>
@@ -4180,7 +4192,7 @@
     </text>
   </TEI>
   <TEI xml:id="CMM_JJM2GMS_1909-08-21" n="1909-08-21">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[James J. McIntyre to Gladys M. Stephens, 21 August 1909]</title>
@@ -4493,7 +4505,7 @@
     </text>
   </TEI>
   <TEI xml:id="RMW_GMS2AJS_1909-09-22" n="1909-09-22">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[Gladys M. Stephens to Mrs. A. T. Stephens, 22 September 1909]</title>
@@ -4719,7 +4731,7 @@
     </text>
   </TEI>
   <TEI xml:id="MAW_GMS2MATS_1909-10-05" n="1909-10-05">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[Gladys M. Stephens to Mrs. A. T. Stephens, 05 October 1909]</title>
@@ -4892,7 +4904,7 @@
     </text>
   </TEI>
   <TEI xml:id="VMM_JJM2GSS_1909-08-23" n="1909-08-23">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[James J. McIntyre to Gladys M. Stephens, 23 August 1909]</title>
@@ -5131,7 +5143,7 @@
     </text>
   </TEI>
   <TEI xml:id="EBT_HHM2GMS1909-09-13" n="1909-09-13">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[James J. McIntyre to Gladys M. Stephens, 13 September 1909]</title>
@@ -5198,7 +5210,7 @@
       <body>
         
         <div type="letter">
-          <pb facs="/1/1de448a-61af-4096-9acb-bf07c5b6cc50"/>
+          <pb facs="09-13-1909_JJM_to_GS_letter_p1.jpg"/>
           <opener> 
             <lb/><salute>Dear <persName ref="#GMS">Girl</persName>,</salute>
           </opener>  
@@ -5223,7 +5235,7 @@
             <lb/>mit <name ref="#Dolphin">S.S. Dolphin</name> and had to change <sic>Peluts</sic> <corr>pallets</corr> So we
             <lb/>caught up with them and at it again we were
           </p>
-          <pb facs="4/4975992d-6296-4cf6-80b7-22f1ad07ec7e"/>
+          <pb facs="09-13-1909_JJM_to_GS_letter_p2.jpg"/>
           <p>
             <lb/>Side by each for about 3 hours and they turned off
             <lb/>and went another way they go direct to <placeName ref="#Skaguay">Skag</placeName> and is
@@ -5323,7 +5335,7 @@
           </closer>
         </div>
         <div type="envelope" xml:id="XXYYYYMMDDenv01">
-          <pb/>
+          <pb facs="09-13-1909_JJM_to_GS_envelope.jpg"/>
           <ab type="postalAddress">
             <address>
             <addrLine>Miss. Gladys M. Stephens</addrLine>
@@ -5341,7 +5353,7 @@
     </text>
   </TEI>
   <TEI xml:id="JPL_GMS2MATS_1909_09_27" n="1909-09-27">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[Gladys M. Stephens to Mrs. A.T. Stephens, 27 September, 1909]</title>
@@ -5638,7 +5650,7 @@
     </text>
   </TEI>
   <TEI xml:id="REC_JJM2GMS_1909-10-04" n="1909-10-04">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[James J. McIntyre to Gladys M. Stephens, 04 October 1909]</title>
@@ -6034,7 +6046,7 @@
     </text>
   </TEI>
   <TEI xml:id="WCK_JJMS2GMS_1909-10-11" n="1909-10-11">
-    <teiHeader type="text">
+    <teiHeader>
       <fileDesc>
         <titleStmt>
           <title>[James J. McIntyre to Gladys M. Stephens, 11 October 1909]</title>
