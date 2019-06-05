@@ -32,15 +32,120 @@
     </xsl:variable>
     <xsl:variable name="bodyRule">
         body {
-        background-position: top;
+        font-family: 'Fanwood Text',georgia, serif;
+        font-size: 1em;
+        <!-- Expand body width to 1050 -->
+        width: 1050px;
         margin-left: 50px;
-        width: 1000px;
         margin-right: 50px;
-        font-family: Verdana, Arial, Helvetica, sans-serif;
-        }                                     
+        margin-top: 100px;
+        }
+        .masthead {
+        vertical-align: top;
+        text-align:center;
+        width:1050px;
+        top:0;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(1, 1, 1, 0.8);
+        z-index:1;
+        }
+        #titleBar {
+        vertical-align: top;
+        width:1050px;
+        position: relative;
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(1, 1, 1, 0.8);
+        }
+        
+        .pageview {
+        margin-bottom:200px;
+        float:left;
+        }
+        .pagebreak {
+        clear: both;
+        }
     </xsl:variable>
-    
-    <!-- Include common style sheet for Stephens family letters. -->
+    <xsl:variable name="navBarRule">
+        #navBar {
+        position: fixed;
+        width: 150px;
+        top:120px;
+        float : left;
+        text-align : left;
+        margin-left: 10px;
+        margin-top:0px;
+        background-color: rgba(255, 255, 255, 1);
+        }
+        #viewMenu {
+        position: fixed;
+        top:120px;
+        left: 1115px;
+        width:150px;
+        margin-top: 0px;
+        }
+        .close {
+        position: absolute;
+        top: 90px;
+        right: 260px;
+        color: #f1f1f1;
+        font-size: 36px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 2;
+        }
+        .description {
+        position: absolute;
+        top: 90px;
+        right: 690px;
+        color: #f1f1f1;
+        font-size: 16px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 2;
+        }
+        .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 2; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 50px;
+        top: 122px;
+        width: 1050px; /* Full width */
+        height: 90%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(100,100,100); /* Fallback color */
+        background-color: rgba(100,100,100,0.9); /* Black w/ opacity */
+        }
+    </xsl:variable>
+    <xsl:variable name="maintextRule">
+        #maintext {
+        float:right;
+        top:100px;
+        width:860px;
+        margin-top:35px;
+        margin-left:20px;
+        padding:5px;
+        background-color: rgba(209,209,209, 0.5);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10 px;
+        border-radius: 10px;	
+        }
+        .contents-notes {
+        float:right;
+        top:100px;
+        width:860px;
+        margin-top:35px;
+        margin-left:20px;
+        padding:5px;
+        background-color: rgba(209,209,209, 0.5);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10 px;
+        border-radius: 10px;	
+        }
+    </xsl:variable>
+        
+        <!-- Include common style sheet for Stephens family letters. -->
     
     <xsl:include href="Stephens-Common.xsl"/>
     

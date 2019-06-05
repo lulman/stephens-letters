@@ -4,253 +4,451 @@
       <meta name="keywords" content="Alaska-Yukon-Pacific Exposition (1909: Seattle, Wash.), Alaska Steamship Company, Inside Passage--Description and travel, Yellowstone National Park, Travel--North America, Love-letters--United States, Mexican Revolution, Mexico, 1910-1920">
       <title>Selected Letters from the Ivan S. Gilbert Collection of Stephens Family Travel 
          Letters and Ephemera
-      </title><style type="text/css">
-        body {
-        background-position: top;
-        margin-left: 50px;
-        width: 1000px;
-        margin-right: 50px;
-        font-family: Verdana, Arial, Helvetica, sans-serif;
-        }                                     
+      </title>
+      <link rel="stylesheet" href="jquery-ui.css">
+      <link href="Stephens-CommonCSS.css" rel="stylesheet" type="text/css"><script src="jquery-1.8.3.min.js"></script><script src="jquery-ui-1.9.2.custom.js"></script><script>
+               $(document).ready(function(){
+               $("button").click(function(){
+               $(".pencil").toggleClass("penciltoggle");
+               $(".ink").toggleClass("inktoggle");
+               });
+               });
+            </script><style type="text/css">
+        #maintext {
+        float:right;
+        top:100px;
+        width:860px;
+        margin-top:35px;
+        margin-left:20px;
+        padding:5px;
+        background-color: rgba(209,209,209, 0.5);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10 px;
+        border-radius: 10px;	
+        }
+        .contents-notes {
+        float:right;
+        top:100px;
+        width:860px;
+        margin-top:35px;
+        margin-left:20px;
+        padding:5px;
+        background-color: rgba(209,209,209, 0.5);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10 px;
+        border-radius: 10px;	
+        }
     
-               .masthead {
-                   vertical-align : top;
-               }
-               .mastheadl {
-                   float : left;
-                   width : 175px;
-                   text-align : left;
-                   left : 50px;
-               }
-               .mastheadc {
-                   display : inline;
-               }
-               .mastheadr {
-                   float : right;
-                   text-align : right;
-                   width : 225px;
-                   position : absolute;
-                   top : 15px;
-                   left : 700px;
-               }
-               a:link {
-               text-decoration: none;
-               }
-               a:hover {
-               font-weight: bold;
-                   }
-               a.annotation {
-               text-decoration: none;
-                   }
-               div.pagebreak {
-                   margin-top : 25px;
-                   margin-bottom : 0px;
-                   text-align : center;
-               }
-               div.envelope {
-                   font-size : .85em;
-                   width: 50%;
-               }
-               .msDesc {
-                   font-size : .85em;
-                   width: 50%;
-               }
-               .half-width {
-                   width : 50%;
-               }
-               hr {
-                   color : #888833;
-                   clear : left;
-               }
-               div#letter {
-                   border: 3px groove #666666;
-                   padding: 5px;
-               }
-               h1 {
-                   font-family : Verdana, Arial, Helvetica, sans-serif;
-                   font-size : 16pt;
-                   font-style : normal;
-               }
-               h2 {
-               }
-               h3 {
-               }
-               sup {
-               }
-               img {
-                   float : left;
-                   padding : 5px;
-                   margin-top : 5px;
-                   margin-bottom : 5px;
-               }
-               .nocancel {
-                   text-decoration : none;
-                   color : #000000;
-               }
-               .cancel {
-                   text-decoration : line-through;
-                   color : #FF0000;
-               }
-               div.fl_img_right {
-                   float : right;
-                   text-align : center;
-                   margin : 5px 5px 5px 5px;
-               }
-               .ProjectTitle {
-                   font-family : Verdana, Arial, Helvetica, sans-serif;
-                   font-size : 16pt;
-                   font-style : normal;
-                   font-weight : bold;
-                   line-height : 18pt;
-               }
-               .hang15 {
-                   margin-left : 40px;
-                   text-indent : -15px;
-               }
-               .hang25 {
-                   margin-left : 40px;
-                   text-indent : -25px;
-               }
-               .hang35 {
-                   margin-left : 40px;
-                   text-indent : -35px;
-               }
-               table {
-                   text-align : right;
-               }</style></head>
+        #navBar {
+        position: fixed;
+        width: 150px;
+        top:120px;
+        float : left;
+        text-align : left;
+        margin-left: 10px;
+        margin-top:0px;
+        background-color: rgba(255, 255, 255, 1);
+        }
+        #viewMenu {
+        position: fixed;
+        top:120px;
+        left: 1115px;
+        width:150px;
+        margin-top: 0px;
+        }
+        .close {
+        position: absolute;
+        top: 90px;
+        right: 260px;
+        color: #f1f1f1;
+        font-size: 36px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 2;
+        }
+        .description {
+        position: absolute;
+        top: 90px;
+        right: 690px;
+        color: #f1f1f1;
+        font-size: 16px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 2;
+        }
+        .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 2; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 50px;
+        top: 122px;
+        width: 1050px; /* Full width */
+        height: 90%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(100,100,100); /* Fallback color */
+        background-color: rgba(100,100,100,0.9); /* Black w/ opacity */
+        }
+    
+        body {
+        font-family: 'Fanwood Text',georgia, serif;
+        font-size: 1em;
+        
+        width: 1050px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        }
+        .masthead {
+        vertical-align: top;
+        text-align:center;
+        width:1050px;
+        top:0;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(1, 1, 1, 0.8);
+        z-index:1;
+        }
+        #titleBar {
+        vertical-align: top;
+        width:1050px;
+        position: relative;
+        background-color: rgba(255, 255, 255, 1);
+        color: rgba(1, 1, 1, 0.8);
+        }
+        
+        .pageview {
+        margin-bottom:200px;
+        float:left;
+        }
+        .pagebreak {
+        clear: both;
+        }
+    </style><link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+      <link href="http://fonts.googleapis.com/css?family=Fanwood+Text" rel="stylesheet" type="text/css">
+   </head>
    <body>
+      <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
       <div class="masthead">
-         <div class="mastheadl">
-            <p><a href="StephensReading.html" title="Reading Text of the                         Stephens Letters">Reading Text</a><br><a href="StephensDiplomatic.html" title="Diplomatic View of the                         Stephens Letters">Diplomatic View</a><br><a href="StephensCombined.html" title="Side-by-side view of                         page images and diplomatic transcription">Facsimile/Text View</a><br><a href="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm" title="Background information about the project.">Project Web Site</a><br><a href="#view">About this Page</a></p>
+         <div id="navigation">
+            <ul class="nav">
+               <li class="link"><a class="main" href="./sscox_journal.html#introduction">Historical Introduction</a><ul class="sub">
+                     <li><a href="./sscox_journal.html#crossing">Crossing the Atlantic</a></li>
+                     <li><a href="./sscox_journal.html#liverpool">Liverpool</a></li>
+                     <li><a href="./sscox_journal.html#london">London</a></li>
+                     <li><a href="./sscox_journal.html#paris">Paris and Southern France</a></li>
+                     <li><a href="./sscox_journal.html#sardinia">Sardinia and Tuscany</a></li>
+                     <li><a href="./sscox_journal.html#rome">"Eternal Rome"</a></li>
+                     <li><a href="./sscox_journal.html#orient">The "Dreamy Orient"</a></li>
+                     <li><a href="./sscox_journal.html#trieste">Trieste</a></li>
+                  </ul>
+               </li>
+               <li class="link"><a class="main" href="./sscox_journal.html#projectDescription">Editorial Introduction</a><ul class="sub">
+                     <li><a href="./sscox_journal.html#projectDescription">Project Description</a></li>
+                     <li><a href="./sscox_journal.html#source">The Source Document</a></li>
+                     <li><a href="./sscox_journal.html#edition">The Electronic Edition</a></li>
+                     <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
+                  </ul>
+               </li>
+               <li class="link"><a class="main" href="">Views of the Diary</a><ul class="sub">
+                     <li><a href="./sscox_journal-by-entry.html">By Diary Entry</a></li>
+                     <li><a href="./sscox_journal-by-ms-page.html">By MS Page</a></li>
+                     <li><a href="./sscox_journal-combined.html">Facsimile/Text</a></li>
+                  </ul>
+               </li>
+               <li class="link"><a class="main" href="">Appendices</a><ul class="sub">
+                     <li><a href="./appendices-CoxJournalMarkup.html">Markup Guidelines</a></li>
+                     <li><a href="./appendices-CoxHand.html">Guide to Cox's Hand</a></li>
+                     <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
+                     <li><a href="./appendices-CoxRestorationHTML5.html">Restoring the MS</a></li>
+                     <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
+                     <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
+                     <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
+                     <li><a href="./appendices-Acknowledgements.html">Acknowledgements</a></li>
+                     <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
+                  </ul>
+               </li>
+               <li class="link"><a class="main" href="">Source Files</a><ul class="sub">
+                     <li><a href="./sscox_journal.xml">TEI: Source Markup</a></li>
+                     <li><a href="./sscox_Common.xsl">XSL: Base Stylesheet</a></li>
+                     <li><a href="./sscox_Diplomatic.xsl">XSL: MS Page View</a></li>
+                     <li><a href="./sscox_Reading.xsl">XSL: Entry View</a></li>
+                     <li><a href="./sscox_CombinedView.xsl">XSL: Text/Facs View</a></li>
+                     <li><a href="./sscox_Edintro.xsl">XSL: Ed. Intro</a></li>
+                     <li><a href="./sscox_journal.css">CSS: Style Sheet</a></li>
+                     <li><a href="./sscox_Current.odd.txt">ODD: TEI Customization</a></li>
+                     <li><a href="./sscox_Current.rng.txt">RNG: Schema</a></li>
+                  </ul>
+               </li>
+            </ul>
          </div>
-         <div class="mastheadc"><img src="https://images.asc.ohio-state.edu/is/image/englishdocs/1/1d1e448a-6a1f-4096-9acb-bf07c5b6cc50.jpg?scale=0.2&amp;rgn=60,60,100,100&amp;fmt=png" alt="Stationery Logo for Alaska Steamship Company" name="Logo" height="90" id="Logo">&nbsp;&nbsp;<img src="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.2&amp;rgn=340,40,220,90&amp;fmt=png" alt="Postage cancel from Seattle World's Fair" name="Cancel" id="Cancel"><img src="https://images.asc.ohio-state.edu/is/image/englishdocs/9/93100908-de33-4b45-b71f-5899daaae7cc.jpg?scale=0.2&amp;rgn=220,44,190,100&amp;fmt=png" alt="Image of cancellation on envelope" name="Cancel2" height="90" id="Cancel2"></div>
-         <div class="mastheadr">
-            <p><a href="StephensEdIntro.html" title="Editorial Introduction                         to the Stephens Letters">Editorial Intro</a><br><a href="StephensEdIntro.html#PeopleMentioned" title="List of people mentioned in the letters." target="_blank">People Mentioned</a><br><a href="StephensEdIntro.html#PlacesMentioned" title="List of places mentioned in the letters.">Places Mentioned</a><br><a href="StephensEdIntro.html#WorksCited" title="List of works cited in explanatory annotations and editorial introduction.">Works Cited</a></p>
+         <div id="titleBar">
+            <p align="center"><span class="projectTitle">Journal of a Tour to Europe</span><br>by Samuel Sullivan Cox
+            </p>
+            <hr>
          </div>
       </div>
-      <div style="clear:both;"></div><br><hr>
+      <div id="navBar">
+         <div id="display1"><button class="modalb" id="b1"><img id="myImg1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899." title="Portrait of Samuel Sullivan Cox (undated)" width="100"></button><div id="myModal1" class="modal"><a href="image_sscox_portrait_longdesc.html" class="description">[Description]</a><br><button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button><img class="modal-content" id="img1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899"><div id="caption1">
+                  Portrait of Samuel Sullivan Cox (undated)<br>Frontispiece. Cox and Northrup, 1899</div>
+            </div>
+         </div>
+         <div id="display2"><button class="modalb" id="b2"><img id="myImg2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)." title="Decorative Title Page from A Buckeye Abroad (1854)" width="100"></button><div id="myModal2" class="modal"><a href="image_sscox_1854_DecorativeTitle_longdesc.html" class="description">[Description]</a><br><button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button><img class="modal-content" id="img2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)"><div id="caption2">
+                  Decorative Title Page<br>from <cite>A Buckeye Abroad</cite>. Cincinnati: Moore, Anderson, 1854</div>
+            </div><script>		
+                     // Get the second modal
+                     var modal2 = document.getElementById('myModal2');
+                     
+                     // Get the image and insert it inside the modal - use its "alt" text as a caption
+                     var img2 = document.getElementById('b2');
+                     var modalImg2 = document.getElementById("img2");
+                     var captionText2 = document.getElementById("caption2");
+                     img2.onclick = function(){
+                     modal2.style.display = "block";
+                     modalImg2.src = this.img.src;
+                     captionText2.innerHTML = this.alt;
+                     }
+                     
+                     // Get the span element that closes the modal 
+                     var span = document.getElementsByClassName("close")[0];
+                     
+                     // When the user clicks on span (x), close the modal 
+                     span.onclick = function() {
+                     modal2.style.display = "none";
+                     }
+                  </script></div>
+         <div id="display3"><button class="modalb" id="b3"><img id="myImg3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851" title="Royal Mail Steam Ship Asia" width="100"></button><div id="myModal3" class="modal"><a href="image_sscox_rmsAsia_longdesc.html" class="description">[Description]</a><br><button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button><img class="modal-content" id="img3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851"><div id="caption3">
+                  Royal Mail Steamship Asia<br>New York: N. Currier, 1851<br>Library of Congress https://www.loc.gov/pictures/item/2001704213/</div>
+            </div><script>
+                     
+                     // Get the modal
+                     var modal3 = document.getElementById('myModal3');
+                     
+                     // Get the image and insert it inside the modal - use its "alt" text as a caption
+                     var img3 = document.getElementById('b3');
+                     var modalImg3 = document.getElementById("img3");
+                     var captionText3 = document.getElementById("caption3");
+                     img3.onclick = function(){
+                     modal3.style.display = "block";
+                     modalImg3.src = this.img.src;
+                     captionText3.innerHTML = this.alt;
+                     }
+                     
+                     // Get the span element that closes the modal
+                     var span = document.getElementsByClassName("close")[0];
+                     
+                     // When the user clicks on span (x), close the modal
+                     span.onclick = function() {
+                     modal3.style.display = "none";
+                     }
+                  </script></div>
+         <div id="display4"><button class="modalb" id="b4"><img id="myImg4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" title="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" width="100"></button><div id="myModal4" class="modal"><a href="image_sscox_illus_PoetsCorner_longdesc.html" class="description">[Description]</a><br><button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button><img class="modal-content" id="img4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)."><div id="caption4">
+                  Poet's Corner, Westminster Abbey.<br>Illustration from <cite>A Buckeye Abroad</cite><br>Cincinnati: Moore, Anderson, 1854.
+                  
+               </div><script>
+                        
+                        // Get the modal
+                        var modal4 = document.getElementById('myModal4');
+                        
+                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                        var img4 = document.getElementById('b4');
+                        var modalImg4 = document.getElementById("img4");
+                        var captionText4 = document.getElementById("caption4");
+                        img4.onclick = function(){
+                        modal4.style.display = "block";
+                        modalImg4.src = this.img.src;
+                        captionText4.innerHTML = this.alt;
+                        }
+                        
+                        // Get the span element that closes the modal
+                        var span = document.getElementsByClassName("close")[0];
+                        
+                        // When the user clicks on span (x), close the modal
+                        span.onclick = function() {
+                        modal4.style.display = "none";
+                        }
+                     </script></div>
+         </div>
+         <div id="display5"><button class="modalb" id="b5"><img id="myImg5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" title="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" width="100"></button><div id="myModal5" class="modal"><a href="image_sscox_illus_Pompeii_longdesc.html" class="description">[Description]</a><br><button class="modalb close" onclick="document.getElementById('myModal5').style.display='none'">[Close]</button><img class="modal-content" id="img5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854) "><div id="caption5">
+                  A Villa in Pompeii<br>Illustration from <cite>A Buckeye Abroad</cite><br>Cincinnati: Moore, Anderson, 1854
+                  
+               </div>
+            </div><script>
+                     
+                     // Get the modal
+                     var modal5 = document.getElementById('myModal5');
+                     
+                     // Get the image and insert it inside the modal - use its "alt" text as a caption
+                     var img5 = document.getElementById('b5');
+                     var modalImg5 = document.getElementById("img5");
+                     var captionText5 = document.getElementById("caption5");
+                     img5.onclick = function(){
+                     modal5.style.display = "block";
+                     modalImg5.src = this.img.src;
+                     captionText5.innerHTML = this.alt;
+                     }
+                     
+                     // Get the span element that closes the modal
+                     var span = document.getElementsByClassName("close")[0];
+                     
+                     // When the user clicks on span (x), close the modal
+                     span.onclick = function() {
+                     modal5.style.display = "none";
+                     }
+                  </script></div><script>
+                  // Get the first modal
+                  var modal1 = document.getElementById('myModal1');
+                  
+                  // Get the image and insert it inside the modal - use its "alt" text as a caption
+                  var img1 = document.getElementById('b1');
+                  var modalImg1 = document.getElementById("img1");
+                  var captionText1 = document.getElementById("caption1");
+                  img1.onclick = function(){
+                  modal1.style.display = "block";
+                  modalImg1.src = this.img.src;
+                  captionText1.innerHTML = this.alt;
+                  }
+                  
+                  // Get the span element that closes the modal
+                  var span = document.getElementsByClassName("close")[0];
+                  
+                  // When the user clicks on span (x), close the modal
+                  span.onclick = function() {
+                  modal1.style.display = "none";
+                  }
+               </script></div>
+      <div id="viewMenu">
+         <p class="aboutView"><a href="#View">About this page.</a></p>
+         <div class="container">
+            <p class="font-size-label">Font Size <button id="up">+</button><button id="down">-</button></p>
+            <p><button>Switch between Cox's original pencilled text and overwritten and altered inked text.</button></p>
+            <p><span class="pencil">Pencil text displayed.</span><span class="ink inktoggle">Ink changes displayed.</span></p>
+            <form method="get" style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;" action="http://www.nines.org/search">
+               <div style="background:url(image-widget_tower_white.jpg) no-repeat scroll left top;height:56px;width:157px;font-size:12px;margin:0;padding:125px 0 0 22px;text-align:left;font-family:'Times New Roman',Times,serif;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"><a href="http://nines.org" style="text-decoration:none; float:left; margin-top:-125px; height:120px; width:120px;">&nbsp;</a><input type="text" name="q" onclick="this.form.target='_blank';return true;" size="16" maxlength="255" value="" style="width:100px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-top:3px;margin-bottom:5px;padding:0;text-align:left;color:#000000;"><input type="submit" value="Search NINES" style="width:100px;padding:1px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size:99%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-left:7px;text-align:left;color:#000000;"></div>
+            </form>
+         </div>
+      </div>
       <p align="center"><span class="ProjectTitle">Selected Letters from the Ivan S. Gilbert Collection of <br>Stephens Family Travel 
             Letters and Ephemera</span></p>
-      <p align="center"><cite><strong>This edition is currently in progress. Please do
-               not cite this preview until this notice is removed.</strong></cite></p>
-      <hr>
-      <h1>Contents — Facsimile/Diplomatic View</h1>
-      ¤ <a href="#GS19090706let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 06 July 1909]</a><br><p style="font-size:.85em;">
-         
-         Writing from Seattle, Stephens describes the Alaska-Yukon-Pacific Exposition and the
-         city of Seattle, then reviews her correspondence with friends and family and lists
-         the contents of a package she plans to send to her mother. 
-      </p>
-      ¤ <a href="#GS19090710let01">[Gladys M. Stephens to Mr. A. T. Stephens, 10 July 1909]</a><br><p style="font-size:.85em;">
-         
-         Gladys Stephens describes a multi-day visit to Yellowstone Park where she drove a
-         coach of four horses for 3 days. She mentions her travel companions "the Virginians"
-         and "some Germans."  She describes the exhibits in the Forestry Building at the 1909
-         Seattle World's Fair. She describes the Forestry Building and comments that the Seattle
-         World's Fair buildings will later be used by Seattle College.  She also remarks on
-         Seattle, which she describes as looking "new" but having a number of 12- and 14-story
-         buildings.
-         
-      </p>
-      ¤ <a href="#GS19090714let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 14 July 1909]</a><br><p style="font-size:.85em;">
-         
-         Gladys says that she is not going to Alaska because staterooms for the voyage are
-         in such high demand.  She mentions telephoning the Goulds in Seattle, then talks about
-         her travel companion Mrs. Hughes.  She particularly describes Mrs. Hughes' famous
-         cousins Mrs. Dana Gibson and Mrs. Waldorf Astor as well as Mrs. Hughes' two sons and
-         now-deceased husband.
-         
-      </p>
-      ¤ <a href="#GS19090808let1">[Gladys M. Stephens to Mrs. A.T. Stephens, 08 August 1909]</a><br><p style="font-size:.85em;">
-         Gladys tells her mother of the group's return to Seattle; anticipates a visit to
-         a wealthy Texan's ranch; makes ambiguous references to what we would assume is news
-         or gossip 
-         of friends and acquaintances from home; mentions correspondence with a few other individuals;
-         
-         and brags about being shown around by Uncle Alex and the "plans for next summer" already
-         in the works.
-         
-      </p>
-      ¤ <a href="#JM19090813let01">[James J. McIntyre to Gladys M. Stevens, 13 August 1909]</a><br><p style="font-size:.85em;">Writing from Seattle, J. J. McIntyre crafted an 8 page love letter to Gladys M. Stevens.
-         
-         The letter describes certain details about McIntyre's life as a merchant marine, including
-         his annual salary 
-         and his transfer from the Santa Clara to the North Western.
-         
-         
-      </p>
-      ¤ <a href="#CLA19090820let01">[Cora L. Anderson to Mrs. A. T. Stephens, 19 August 1909]</a><br><p style="font-size:.85em;">
-         Writing from Sherborn, Massachusetts, Cora Anderson, Gladys's cousin, tells her aunt
-         about the birth of her new baby.
-         She mentions having received a letter from Gladys while the latter was traveling in
-         Colorado.
-         
-      </p>
-      ¤ <a href="#JJM19090821let01">[James J. McIntyre to Gladys M. Stephens, 21 August 1909]</a><br><p style="font-size:.85em;">
-         
-         
-      </p>
-      ¤ <a href="#JJM19090823let01">[James J. McIntyre to Gladys M. Stephens, 23 August 1909]</a><br><p style="font-size:.85em;">
-         Guard watch; weather; pictures; Little Gladys
-         
-      </p>
-      ¤ <a href="#GS19090906let1">[Gladys M. Stephens to Mrs. A.T. Stevens, 06 September 1909]</a><br><p style="font-size:.85em;">
-         Gladys is waiting for mother's (A.T. Stevens) letter, is something wrong? Alaska ring
-         arrived. 
-         Pillow.
-         
-      </p>
-      ¤ <a href="#">[James J. McIntyre to Gladys M. Stephens, 13 September 1909]</a><br><p style="font-size:.85em;">
-         Black Ball line; Alaska; passengers; freight.
-         
-      </p>
-      ¤ <a href="#GS19090922let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 22 September 1909]</a><br><p style="font-size:.85em;">
-         Writing from El Paso, Gladys evaluates Adelaide's wedding purchases 
-         and fiance, as well as Gladys's experience with head lice, which she 
-         picked up in Mexico. Gladys also explains to her mother that she is 
-         staying in El Paso longer than she originally planned so she can 
-         witness the Taft-Diaz meeting on October 16th, 1909. She briefly 
-         explains the political tension in Mexico between President Diaz, 
-         Vice-President Reyes, and the general populace. Though Gladys is 
-         definitely writing from El Paso, her exact location within the city 
-         is unknown. Her letter is on stationary from the Office of the Treasurer
-         in Santa Cruz, California, but the postmark indicates she mailed the 
-         letter from El Paso. In her letter, she mentions how her Uncle wants
-         her to extend her stay in El Paso, which suggests she might be staying
-         with him, but then she discusses her extensive time spent with Adelaide,
-         which suggests she is staying with her. 
-         
-      </p>
-      ¤ <a href="#GS19090927let01">[Gladys M. Stephens to Mrs. A.T. Stephens, 27 September, 1909]</a><br><p style="font-size:.85em;">
-         A letter from Gladys M. Stephens to Mrs. A.T. Stephens on the 27th of September, 1909
-         in which
-         Gladys discusses her various relationships and correspondences, including her plans
-         with Adelaide
-         and a number of family associations back home.
-         
-      </p>
-      ¤ <a href="#JJM19091004let01">[James J. McIntyre to Gladys M. Stephens, 04 October 1909]</a><br><p style="font-size:.85em;">
-         McIntyre relates the ship schedule and route for the S.S. Northwestern and spending
-         time with the Purser's 
-         sister in the Ketchikan area. He discusses pictures received from Gladys, and details
-         specifications of the Northwestern compared 
-         to the Santa Clara. McIntyre recounts two auto accidents in the Seattle area and reflects
-         on their meaning for him.
-         
-      </p>
-      ¤ <a href="#GS19091005let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 05 October 1909]</a><br><p style="font-size:.85em;">
-         
-         Writing from El Paso, Stephens mentions some social engagements, 
-         tells her mother about Adelaide's shopping for her wedding, and asks 
-         about pictures she sent previously, which were taken in San Diego. 
-         
-      </p>
-      ¤ <a href="#GS19091011let01">[James J. McIntyre to Gladys M. Stephens, 11 October 1909]</a><br><p style="font-size:.85em;"> Letter from James J. McIntyre to Gladys telling how he missed a ship and how he has
-         recently been telling his mother how much he appreciates all of Gladys's help.
-         
-      </p><br><hr>
-      <div class="correspondence">
-         
+      <div class="contents-notes">
+         <h1>Contents — Facsimile/Diplomatic View</h1>
+         ¤ <a href="#GS19090706let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 06 July 1909]</a><br><p style="font-size:.85em;">
+            
+            Writing from Seattle, Stephens describes the Alaska-Yukon-Pacific Exposition and the
+            city of Seattle, then reviews her correspondence with friends and family and lists
+            the contents of a package she plans to send to her mother. 
+         </p>
+         ¤ <a href="#GS19090710let01">[Gladys M. Stephens to Mr. A. T. Stephens, 10 July 1909]</a><br><p style="font-size:.85em;">
+            
+            Gladys Stephens describes a multi-day visit to Yellowstone Park where she drove a
+            coach of four horses for 3 days. She mentions her travel companions "the Virginians"
+            and "some Germans."  She describes the exhibits in the Forestry Building at the 1909
+            Seattle World's Fair. She describes the Forestry Building and comments that the Seattle
+            World's Fair buildings will later be used by Seattle College.  She also remarks on
+            Seattle, which she describes as looking "new" but having a number of 12- and 14-story
+            buildings.
+            
+         </p>
+         ¤ <a href="#GS19090714let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 14 July 1909]</a><br><p style="font-size:.85em;">
+            
+            Gladys says that she is not going to Alaska because staterooms for the voyage are
+            in such high demand.  She mentions telephoning the Goulds in Seattle, then talks about
+            her travel companion Mrs. Hughes.  She particularly describes Mrs. Hughes' famous
+            cousins Mrs. Dana Gibson and Mrs. Waldorf Astor as well as Mrs. Hughes' two sons and
+            now-deceased husband.
+            
+         </p>
+         ¤ <a href="#GS19090808let1">[Gladys M. Stephens to Mrs. A.T. Stephens, 08 August 1909]</a><br><p style="font-size:.85em;">
+            Gladys tells her mother of the group's return to Seattle; anticipates a visit to
+            a wealthy Texan's ranch; makes ambiguous references to what we would assume is news
+            or gossip 
+            of friends and acquaintances from home; mentions correspondence with a few other individuals;
+            
+            and brags about being shown around by Uncle Alex and the "plans for next summer" already
+            in the works.
+            
+         </p>
+         ¤ <a href="#JM19090813let01">[James J. McIntyre to Gladys M. Stevens, 13 August 1909]</a><br><p style="font-size:.85em;">Writing from Seattle, J. J. McIntyre crafted an 8 page love letter to Gladys M. Stevens.
+            
+            The letter describes certain details about McIntyre's life as a merchant marine, including
+            his annual salary 
+            and his transfer from the Santa Clara to the North Western.
+            
+            
+         </p>
+         ¤ <a href="#CLA19090820let01">[Cora L. Anderson to Mrs. A. T. Stephens, 19 August 1909]</a><br><p style="font-size:.85em;">
+            Writing from Sherborn, Massachusetts, Cora Anderson, Gladys's cousin, tells her aunt
+            about the birth of her new baby.
+            She mentions having received a letter from Gladys while the latter was traveling in
+            Colorado.
+            
+         </p>
+         ¤ <a href="#JJM19090821let01">[James J. McIntyre to Gladys M. Stephens, 21 August 1909]</a><br><p style="font-size:.85em;">
+            
+            
+         </p>
+         ¤ <a href="#JJM19090823let01">[James J. McIntyre to Gladys M. Stephens, 23 August 1909]</a><br><p style="font-size:.85em;">
+            Guard watch; weather; pictures; Little Gladys
+            
+         </p>
+         ¤ <a href="#GS19090906let1">[Gladys M. Stephens to Mrs. A.T. Stevens, 06 September 1909]</a><br><p style="font-size:.85em;">
+            Gladys is waiting for mother's (A.T. Stevens) letter, is something wrong? Alaska ring
+            arrived. 
+            Pillow.
+            
+         </p>
+         ¤ <a href="#">[James J. McIntyre to Gladys M. Stephens, 13 September 1909]</a><br><p style="font-size:.85em;">
+            Black Ball line; Alaska; passengers; freight.
+            
+         </p>
+         ¤ <a href="#GS19090922let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 22 September 1909]</a><br><p style="font-size:.85em;">
+            Writing from El Paso, Gladys evaluates Adelaide's wedding purchases 
+            and fiance, as well as Gladys's experience with head lice, which she 
+            picked up in Mexico. Gladys also explains to her mother that she is 
+            staying in El Paso longer than she originally planned so she can 
+            witness the Taft-Diaz meeting on October 16th, 1909. She briefly 
+            explains the political tension in Mexico between President Diaz, 
+            Vice-President Reyes, and the general populace. Though Gladys is 
+            definitely writing from El Paso, her exact location within the city 
+            is unknown. Her letter is on stationary from the Office of the Treasurer
+            in Santa Cruz, California, but the postmark indicates she mailed the 
+            letter from El Paso. In her letter, she mentions how her Uncle wants
+            her to extend her stay in El Paso, which suggests she might be staying
+            with him, but then she discusses her extensive time spent with Adelaide,
+            which suggests she is staying with her. 
+            
+         </p>
+         ¤ <a href="#GS19090927let01">[Gladys M. Stephens to Mrs. A.T. Stephens, 27 September, 1909]</a><br><p style="font-size:.85em;">
+            A letter from Gladys M. Stephens to Mrs. A.T. Stephens on the 27th of September, 1909
+            in which
+            Gladys discusses her various relationships and correspondences, including her plans
+            with Adelaide
+            and a number of family associations back home.
+            
+         </p>
+         ¤ <a href="#JJM19091004let01">[James J. McIntyre to Gladys M. Stephens, 04 October 1909]</a><br><p style="font-size:.85em;">
+            McIntyre relates the ship schedule and route for the S.S. Northwestern and spending
+            time with the Purser's 
+            sister in the Ketchikan area. He discusses pictures received from Gladys, and details
+            specifications of the Northwestern compared 
+            to the Santa Clara. McIntyre recounts two auto accidents in the Seattle area and reflects
+            on their meaning for him.
+            
+         </p>
+         ¤ <a href="#GS19091005let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 05 October 1909]</a><br><p style="font-size:.85em;">
+            
+            Writing from El Paso, Stephens mentions some social engagements, 
+            tells her mother about Adelaide's shopping for her wedding, and asks 
+            about pictures she sent previously, which were taken in San Diego. 
+            
+         </p>
+         ¤ <a href="#GS19091011let01">[James J. McIntyre to Gladys M. Stephens, 11 October 1909]</a><br><p style="font-size:.85em;"> Letter from James J. McIntyre to Gladys telling how he missed a ship and how he has
+            recently been telling his mother how much he appreciates all of Gladys's help.
+            
+         </p><br><hr>
+      </div>
+      <div id="maintext">
+         <div id="maincontent"></div>
          <hr><a name="GS19090706let01"></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;1&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=07-06-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=07-06-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -614,10 +812,6 @@
                
             </p>
          </div>
-         
-      </div>
-      <div class="correspondence">
-         
          <hr><a name="GS19090710let01"></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;9&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=07-10-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=07-10-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs07-10-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -850,10 +1044,6 @@
                
             </p>
          </div>
-         
-      </div>
-      <div class="correspondence">
-         
          <hr><a name="GS19090714let01"></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;14&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=07-14-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=07-14-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs07-14-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -1026,10 +1216,142 @@
                
             </p>
          </div>
-         
-      </div>
-      <div class="correspondence">
-         
+         <hr><a name="GS19090906let1"></a><div class="letter">
+            
+            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;18&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-06-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
+            
+            
+            <br><a name="0001"></a>0001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Mother dear
+            
+            
+            <br><a name="0002"></a>0002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            What is
+            <br><a name="0003"></a>0003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            the trouble, are you
+            <br><a name="0004"></a>0004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            sick? I looked and
+            <br><a name="0005"></a>0005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            looked for a letter
+            <br><a name="0006"></a>0006&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            today, but none
+            <br><a name="0007"></a>0007&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            came. I declare
+            <br><a name="0008"></a>0008&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            if I don't get
+            <br><a name="0009"></a>0009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            one tomorrow I
+            
+            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;19&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-06-1909_GS_to_ATS_letter_p3.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
+            <br><a name="0010"></a>0010&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            will send a
+            <br><a name="0011"></a>0011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            telegram to
+            <br><a name="0012"></a>0012&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            to Berenice Smith. 
+            <br><a name="0013"></a>0013&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            It is pretty warm
+            <br><a name="0014"></a>0014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            here now, yet
+            <br><a name="0015"></a>0015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            there was a big
+            <br><a name="0016"></a>0016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            rain last night.
+            
+            
+            <br><a name="0017"></a>0017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            My Alaska
+            <br><a name="0018"></a>0018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ring came here
+            
+            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;20&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-06-1909_GS_to_ATS_letter_p2.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
+            <br><a name="0019"></a>0019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            the 23 of Aug. I
+            <br><a name="0020"></a>0020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            got it this morning. It is
+            <br><a name="0021"></a>0021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            a beauty.
+            
+            
+            <br><a name="0022"></a>0022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Oh about the
+            <br><a name="0023"></a>0023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            pillow. Mrs. L.  was 
+            <br><a name="0024"></a>0024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            much pleased
+            <br><a name="0025"></a>0025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            with it and thought
+            <br><a name="0026"></a>0026&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            it handsome and
+            <br><a name="0027"></a>0027&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            it is in the
+            <br><a name="0028"></a>0028&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            parlour.
+            
+            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;21&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p4.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p4.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-06-1909_GS_to_ATS_letter_p4.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
+            
+            
+            <br><a name="0029"></a>0029&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            I do hope that
+            <br><a name="0030"></a>0030&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            I'll get a letter
+            <br><a name="0031"></a>0031&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            tomorrow.
+            
+            
+            <br><a name="0032"></a>0032&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Heaps of love,
+            <br><a name="0033"></a>0033&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Gladys
+            <br><a name="0034"></a>0034&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            9/6/'09
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc"> One sheet of cream-colored paper measuring 5.5 x 8.11 inches folded in half and written
+            on front and back. The progression of text goes front right, back right, back left,
+            front left. 
+            Contains a hollow font watermark that reads "Saw &amp; Co. / Boston".
+            
+         </p>
+         <div class="envelope">
+            Envelope. 
+            Accompanied by a stamped (stamp is upside down), cancelled, cream-colored envelope
+            measuring 
+            2.8 x 4.25 inches. On the left side of the envelope written sideways in an unknown,
+            penciled hand is 
+            the statement "Hold 9-10-09."
+            
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               
+               <br>Mrs. A.T. Stevens
+               <br>26 Emerson street
+               <br>Newton
+               <br>Massachusetts  
+               
+               
+            </p>
+            <p>Postmark: 
+               El PASO,TEXAS. / SEP 6 / 430 PM / 1909 
+            </p>
+            <p>Cancellation: 
+               U.S. POSTAGE / [Portrait of George Washington; perforated
+               on three edges; upside down; Design A139] / TWO CENTS
+            </p>
+            <p>Endorsement: 
+               
+               N/A
+               
+            </p>
+         </div>
          <hr><a name="GS19090808let1"></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;23&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=08-08-1909_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=08-08-1909_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs08-08-1909_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -1355,10 +1677,6 @@
                
             </p>
          </div>
-         
-      </div>
-      <div class="correspondence">
-         
          <hr><a name="JM19090813let01"></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;29&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=08-13-1909_to_GS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=08-13-1909_to_GS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs08-13-1909_to_GS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -1685,10 +2003,6 @@
                
             </p>
          </div>
-         
-      </div>
-      <div class="correspondence">
-         
          <hr><a name="CLA19090820let01"></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;38&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=08-19-1909_CLA_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=08-19-1909_CLA_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs08-19-1909_CLA_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -1819,10 +2133,6 @@
                
             </p>
          </div>
-         
-      </div>
-      <div class="correspondence">
-         
          <hr><a name="JJM19090821let01"></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;41&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=08-21-1909_JJM_to_GS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=08-21-1909_JJM_to_GS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs08-21-1909_JJM_to_GS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -2259,10 +2569,426 @@
                
             </p>
          </div>
-         
-      </div>
-      <div class="correspondence">
-         
+         <hr><a name="GS19090922let01"></a><div class="letter">
+            
+            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;54&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-22-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
+            
+            <p>
+               <br><a name="0001"></a>0001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               Santa Cruz, Cal.,_______1___
+            </p>
+            
+            
+            9/22 9
+            <br><a name="0002"></a>0002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Mother dear,
+            
+            
+            <br><a name="0003"></a>0003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Adelaide is getting some lovely
+            <br><a name="0004"></a>0004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            things to be married in. She is having
+            <br><a name="0005"></a>0005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            a pale blue broadcloth dress made. She
+            <br><a name="0006"></a>0006&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            has a handsome brown suit.<a name="pWedding"></a><a href="#nWedding" class="annotation" title="Though white wedding dresses were traditionally preferred in the United States and Great Britain since Queen Victoria's wedding in 1840, Emily Holt's 1901 Encyclopaedia of Etiquette allows &#34;brides who are married before twelve o'clock, or who go directly from the altar to a train or boat&#34; to &#34;wear a becoming street dress of ladies' cloth, veiling, or silk, in a pale shade of blue&#34; (Holt 238). Holt adds that if the bride wears this in place of the traditional white wedding gown, her hat is one of &#34;the chief adjuncts of this toilette&#34; (238). Based on Gladys's description of Adelaide's wedding attire in this letter and in her letter to her mother dated October 5, 1909, Adelaide seems to be preparing for a wedding that either takes place before noon or one from which she and her husband immediately depart after the ceremony Holt 238."><sup>21</sup></a> Things are 
+            <br><a name="0007"></a>0007&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            getting quite interesting I can tell
+            <br><a name="0008"></a>0008&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            you. Just between you and I "the man"
+            <br><a name="0009"></a>0009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            has one bad feature. He takes a cocktail
+            <br><a name="0010"></a>0010&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            now and then.<a name="pCocktail"></a><a href="#nCocktail" class="annotation" title="Though Gladys uses the term &#34;cocktail&#34; as a particular drink, by 1909 the term &#34;cocktail&#34; referred to a variety of drinks made from bitters and brandy, gin, or whiskey. Gladys's disapproving attitude of alcohol may reflect the growing temperance movement that was very strong in Boston, near where Gladys lived Thomas 49-52."><sup>22</sup></a> No one here seems to
+            <br><a name="0011"></a>0011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            mind it and of course I have said
+            <br><a name="0012"></a>0012&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            nothing. He seems nice other ways and
+            <br><a name="0013"></a>0013&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            every one [sic]  speaks well of him. He has
+            <br><a name="0014"></a>0014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            a good position and makes in the
+            <br><a name="0015"></a>0015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            vicinity of $50 a week.<a name="pmoney"></a><a href="#nmoney" class="annotation" title="According to the U.S. Bureau of Labor, $50 in 1913 is roughly equivalent to $1,101.29 in 2010 CPI Inflation Calculator."><sup>23</sup></a> Well all's
+            <br><a name="0016"></a>0016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            well that end's [sic]  well. $50 a week
+            <br><a name="0017"></a>0017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            and all I would not marry him.
+            <br><a name="0018"></a>0018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Of course he belongs to the club here and
+            <br><a name="0019"></a>0019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            the club's favourite drink is coctail [sic] . I've 
+            <br><a name="0020"></a>0020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            noticed the odor about everytime [sic]  I've 
+            <br><a name="0021"></a>0021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            seen him.
+            
+            
+            <br><a name="0022"></a>0022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            I have found out some startling
+            
+            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;55&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-22-1909_GS_to_ATS_letter_p2.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
+            <br><a name="0023"></a>0023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            information today. I went to the
+            <br><a name="0024"></a>0024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            hairdressers to have a shampoo.
+            <br><a name="0025"></a>0025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            On account of the amt. of alkali
+            <br><a name="0026"></a>0026&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            in the water people can not [sic]  wash
+            <br><a name="0027"></a>0027&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            their hair with it themselves.<a name="palkali"></a><a href="#nalkali" class="annotation" title="A substance having the characteristics exemplified by soda, i.e. a caustic or acrid taste, the power of neutralizing or effervecing with acids, and of forming soaps with oils OED &#34;alkali&#34;."><sup>24</sup></a> Adelaide
+            <br><a name="0028"></a>0028&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &amp; I made arrangements to go together
+            <br><a name="0029"></a>0029&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            this morning. What do you suppose
+            <br><a name="0030"></a>0030&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            the woman found--<U>bugs</U> in
+            <br><a name="0031"></a>0031&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            my head! I got them in Mexico.
+            <br><a name="0032"></a>0032&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            They all told me I'd be apt
+            <br><a name="0033"></a>0033&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            to get them. I thought I'd escaped
+            <br><a name="0034"></a>0034&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            however. Now what <U>do</U> you think
+            <br><a name="0035"></a>0035&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            of that. Well she worked good
+            <br><a name="0036"></a>0036&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            and hard and dosed my head and
+            <br><a name="0037"></a>0037&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            I have to go again Sat. morning.
+            <br><a name="0038"></a>0038&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Their deposit was not large and
+            <br><a name="0039"></a>0039&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            so we have hopes of soon cleaning
+            <br><a name="0040"></a>0040&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            it all out. You can imagine
+            <br><a name="0041"></a>0041&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            how I feel. There isn't on the
+            <br><a name="0042"></a>0042&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            average one American in ten
+            <br><a name="0043"></a>0043&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            who goes there without getting
+            <br><a name="0044"></a>0044&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            loaded. Here's hoping I'll be clear
+            <br><a name="0045"></a>0045&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            of it all soon.
+            
+            
+            <br><a name="0046"></a>0046&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Uncle says I <U>must</U> stay to
+            <br><a name="0047"></a>0047&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            see the Presidents meet and then I
+            <br><a name="0048"></a>0048&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            can go home immediately after
+            
+            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;56&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-22-1909_GS_to_ATS_letter_p3.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
+            <br><a name="0049"></a>0049&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            that. He says Dias is so old (79) that
+            <br><a name="0050"></a>0050&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            I probably will never get another
+            <br><a name="0051"></a>0051&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            chance to see anything of the kind
+            <br><a name="0052"></a>0052&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            again. A revolution in Mexico is 
+            <br><a name="0053"></a>0053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            imminent if Dias dies. The Vice
+            <br><a name="0054"></a>0054&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Pres. Reyes wants to be Pres. and 
+            <br><a name="0055"></a>0055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            the people hate him terribly. They
+            <br><a name="0056"></a>0056&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            have to have Rurales every where [sic]  to
+            <br><a name="0057"></a>0057&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            keep them quiet now even.<a name="pRurales"></a><a href="#nRurales" class="annotation" title="Rurales were the rural militia and government forces drawn from farmers. In the latter years of President Diaz's presidency, he used the Rurales to censor the press and enforce his dominance through rural areas of Mexico Merrill and Miro."><sup>25</sup></a> He
+            <br><a name="0058"></a>0058&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            simply will not hear of my going
+            <br><a name="0059"></a>0059&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            before they meet. He said that he
+            <br><a name="0060"></a>0060&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            knew you would understand when
+            <br><a name="0061"></a>0061&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            I explained the situation to you. I
+            <br><a name="0062"></a>0062&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            shall have every thing [sic] ready to go as
+            <br><a name="0063"></a>0063&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            soon as I can leave after it's over.
+            <br><a name="0064"></a>0064&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            The old citizens are going to have a
+            <br><a name="0065"></a>0065&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            big time and he wants me to be
+            <br><a name="0066"></a>0066&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            with him. Lots better today. Slept 12 hrs.
+            
+            
+            <br><a name="0067"></a>0067&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Hope you are better
+            
+            
+            <br><a name="0068"></a>0068&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Love Gladys
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc"> ALS. Two loose sheets of cream-colored Office of the Treasurer, Santa Cruz County,
+            California
+            letterhead stationary measuring 8.56 x 11 inches. The front of each sheet of letterhead
+            contains
+            a 2.125 x 2 inch black and white image of a building in the upper left corner of the
+            page and 
+            an image of flowers with a scroll bearing the words "SANTA CRUZ COUNTY, CALIFORNIA,"
+            along with
+            a medallion emblazoned with the words "Office of Treasurer." The combined image of
+            the scroll, 
+            flowers, and medallion measures 2.125 x 4.25 inches. Underneath the image is text
+            that reads 
+            "W.H. BIAS Treasurer" and "R.W. BIAS Deputy Treas.," followed by a line for the date
+            partially
+            pre-printed as "________ / 1___." The edges of the paper are cleanly cut, though there
+            is some
+            reddish-brown residue at the top of each sheet, which is possibly from an adhesive.
+            The paper has 
+            light blue lines that extend to the ends of the sheet on the right and left sides
+            and that are 
+            0.375 inches apart. On the front of each sheet there are 21 lines, the first one starting
+            3.063 inches
+            from the top of the sheet and the last one 0.1875 inches from the bottom of the sheet.
+            On the 
+            back of the sheet the lines begin 1.125 inches from the top of the sheet and continue
+            until 0.1875 inches
+            from the bottom. The lines are identical on the first and second sheets. Both sheets
+            were placed 
+            together and then folded into thirds to fit into the envelope. The paper is thin,
+            but not overly
+            fragile. There is a watermark in the lower half of each sheet that reads "AGAWAM BOND."
+            When viewing 
+            the front of the sheet, the watermark is upside down and backwards.
+         </p>
+         <div class="envelope">
+            Envelope. 
+             Accompanied
+            by a stamped, cancelled, dark cream-colored envelope made from heavy paper and measuring
+            5.875 x 3.5 inches.There is a printed black and white image measuring 2.75 x 1.875
+            inches 
+            of a log raft on the Columbia River. The text corrosponding with the image reads "LOG
+            RAFT 
+            COLUMBIA RIVER 8 MILLION FT." The stamp is a red 2 cent Washington stamp and the postmark
+            is
+            from El Paso, Texas. The envelope is addressed in a neat cursive script to "Mrs. A.
+            T. Stephens, 
+            26 Emerson Street, Newton, Massachusets." There is an additional endorsement on the
+            envelop in a different
+            hand than the written address of a circled 10, then a 9/25. The 25 is also circled.
+            The envelope
+            is cleanly slit along the right edge.
+            
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               <br>Mrs. A. T. Stephens
+               
+               <br>26 Emerson street
+               <br>Newton
+               <br>Massachusetts
+               
+               
+            </p>
+            <p>Postmark: 
+               El Paso, Texas | Sept. 24 | 7:30 AM | 1909 
+            </p>
+            <p>Cancellation: 
+               [seven wavy lines]
+            </p>
+            <p>Endorsement: 
+               
+                10 9/25<a name="pMysteriousEndorsements"></a><a href="#nMysteriousEndorsements" class="annotation" title="Similar numbers are penciled on several envelopes in the connection."><sup>26</sup></a>
+               
+               
+            </p>
+         </div>
+         <hr><a name="GS19091005let01"></a><div class="letter">
+            
+            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;58&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
+            
+            <br><a name="0001"></a>0001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <br>609 N. El Paso St.   
+            <br><a name="0002"></a>0002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Mother dear, 
+            
+             <br><a name="0003"></a>0003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Have just  
+            <br><a name="0004"></a>0004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            returned from a 
+            <br><a name="0005"></a>0005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            birthday luncheon 
+            <br><a name="0006"></a>0006&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            and this evening 
+            <br><a name="0007"></a>0007&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            I am going out to 
+            <br><a name="0008"></a>0008&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            dinner at another 
+            <br><a name="0009"></a>0009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            house. 
+            
+             <br><a name="0010"></a>0010&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            It is as warm 
+            <br><a name="0011"></a>0011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            today as a July 
+            <br><a name="0012"></a>0012&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            day at home. It 
+            <br><a name="0013"></a>0013&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            will be cool this 
+            
+            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;59&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_GS_to_ATS_letter_p2.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
+            <br><a name="0014"></a>0014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            evening however. 
+            
+             <br><a name="0015"></a>0015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            I am as well as 
+            <br><a name="0016"></a>0016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ever. 
+             <br><a name="0017"></a>0017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             Adelaide is 
+            <br><a name="0018"></a>0018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            getting along  
+            <br><a name="0019"></a>0019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            finely with her  
+            <br><a name="0020"></a>0020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            shopping. Her 
+            <br><a name="0021"></a>0021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            evening hat will  
+            <br><a name="0022"></a>0022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            cost $52.95. <a name="phat"></a><a href="#nhat" class="annotation" title="According to the U.S. Bureau of Labor, $52.95 in 1913 would be roughly equivalent to $1,213.51 in 2011 CPI Inflation Calculator. This is a sizable sum considering that, as mentioned in Gladys' September 24 letter, Adelaide's fiance made $50 a week. By comparison, hats advertised in a 1909 Sears Roebuck catalog ranged in price from $2.38 to $13.50Olian 1."><sup>27</sup></a>How's that?
+            <br><a name="0023"></a>0023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Everything else 
+            <br><a name="0024"></a>0024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            accordingly.
+            
+            
+            <br><a name="0025"></a>0025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            I am wondering
+            <br><a name="0026"></a>0026&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            what you think
+            <br><a name="0027"></a>0027&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            of the pictures. 
+            
+            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;60&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_GS_to_ATS_letter_p3.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span> 
+            <br><a name="0028"></a>0028&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            They were taken 
+            <br><a name="0029"></a>0029&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            in San Diego 
+            <br><a name="0030"></a>0030&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            and that dress 
+            <br><a name="0031"></a>0031&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            was all I could 
+            <br><a name="0032"></a>0032&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            wear. There was 
+            <br><a name="0033"></a>0033&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            no primping for 
+            <br><a name="0034"></a>0034&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            those pictures I 
+            <br><a name="0035"></a>0035&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            can tell you. 
+            
+            
+            <br><a name="0036"></a>0036&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Got your card 
+            <br><a name="0037"></a>0037&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            yesterday. 
+             <br><a name="0038"></a>0038&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Were you 
+            <br><a name="0039"></a>0039&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            surprised about 
+            <br><a name="0040"></a>0040&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            the pictures? We 
+            
+            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;61&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p4.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p4.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_GS_to_ATS_letter_p4.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
+            <br><a name="0041"></a>0041&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            wanted you to  
+            <br><a name="0042"></a>0042&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            be. 
+            
+             <br><a name="0043"></a>0043&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Here they're all 
+            <br><a name="0044"></a>0044&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            talking about 
+            <br><a name="0045"></a>0045&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            my <U>return </U>—and 
+            <br><a name="0046"></a>0046&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            I haven't left yet. 
+            <br><a name="0047"></a>0047&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            What do you think 
+            <br><a name="0048"></a>0048&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            of that? 
+            
+             <br><a name="0049"></a>0049&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Just wrote to  
+            <br><a name="0050"></a>0050&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Pauline. Will 
+            <br><a name="0051"></a>0051&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            mail it when I 
+            <br><a name="0052"></a>0052&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            get time. 
+            
+            
+            <br><a name="0053"></a>0053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Hope you are well 
+            
+            
+            <br><a name="0054"></a>0054&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             Love 
+            <br><a name="0055"></a>0055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             Gladys
+            <br><a name="0056"></a>0056&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              10/5/09 
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc">One sheet of cream-colored, unlined stationery
+            measuring 7 x 5.5 inches, folded in half to create a single gather 
+            of two leaves or four pages.  
+         </p>
+         <div class="envelope">
+            Envelope. 
+              
+            Accompanied by a stamped, cancelled, cream-colored envelope
+            measuring 3.625 x 2.875 inches. The envelope is slit on the side.
+            
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               Mrs. A. J. Stephens 
+               <br> 26 Emerson street 
+               <br> Newton 
+               <br> Massachusetts 
+               
+               
+            </p>
+            <p>Postmark: 
+                El PASO, TEXAS. / OCT 6 / 4 - PM / 1909 
+            </p>
+            <p>Cancellation: 
+                 
+            </p>
+            <p>Endorsement: 
+               
+               N/A
+               
+            </p>
+         </div>
          <hr><a name="JJM19090823let01"></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;63&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=08-23-1909_JJM_to_GS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=08-23-1909_JJM_to_GS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs08-23-1909_JJM_to_GS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -2601,150 +3327,6 @@
                
             </p>
          </div>
-         
-      </div>
-      <div class="correspondence">
-         
-         <hr><a name="GS19090906let1"></a><div class="letter">
-            
-            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;18&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-06-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
-            
-            
-            <br><a name="0001"></a>0001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Mother dear
-            
-            
-            <br><a name="0002"></a>0002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            What is
-            <br><a name="0003"></a>0003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            the trouble, are you
-            <br><a name="0004"></a>0004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            sick? I looked and
-            <br><a name="0005"></a>0005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            looked for a letter
-            <br><a name="0006"></a>0006&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            today, but none
-            <br><a name="0007"></a>0007&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            came. I declare
-            <br><a name="0008"></a>0008&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            if I don't get
-            <br><a name="0009"></a>0009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            one tomorrow I
-            
-            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;19&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-06-1909_GS_to_ATS_letter_p3.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
-            <br><a name="0010"></a>0010&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            will send a
-            <br><a name="0011"></a>0011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            telegram to
-            <br><a name="0012"></a>0012&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            to Berenice Smith. 
-            <br><a name="0013"></a>0013&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            It is pretty warm
-            <br><a name="0014"></a>0014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            here now, yet
-            <br><a name="0015"></a>0015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            there was a big
-            <br><a name="0016"></a>0016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            rain last night.
-            
-            
-            <br><a name="0017"></a>0017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            My Alaska
-            <br><a name="0018"></a>0018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ring came here
-            
-            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;20&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-06-1909_GS_to_ATS_letter_p2.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
-            <br><a name="0019"></a>0019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            the 23 of Aug. I
-            <br><a name="0020"></a>0020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            got it this morning. It is
-            <br><a name="0021"></a>0021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            a beauty.
-            
-            
-            <br><a name="0022"></a>0022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Oh about the
-            <br><a name="0023"></a>0023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            pillow. Mrs. L.  was 
-            <br><a name="0024"></a>0024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            much pleased
-            <br><a name="0025"></a>0025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            with it and thought
-            <br><a name="0026"></a>0026&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            it handsome and
-            <br><a name="0027"></a>0027&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            it is in the
-            <br><a name="0028"></a>0028&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            parlour.
-            
-            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;21&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p4.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-06-1909_GS_to_ATS_letter_p4.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-06-1909_GS_to_ATS_letter_p4.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
-            
-            
-            <br><a name="0029"></a>0029&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            I do hope that
-            <br><a name="0030"></a>0030&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            I'll get a letter
-            <br><a name="0031"></a>0031&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            tomorrow.
-            
-            
-            <br><a name="0032"></a>0032&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Heaps of love,
-            <br><a name="0033"></a>0033&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Gladys
-            <br><a name="0034"></a>0034&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            9/6/'09
-            
-            
-         </div>
-         <hr class="half-width">
-         <p class="msDesc"> One sheet of cream-colored paper measuring 5.5 x 8.11 inches folded in half and written
-            on front and back. The progression of text goes front right, back right, back left,
-            front left. 
-            Contains a hollow font watermark that reads "Saw &amp; Co. / Boston".
-            
-         </p>
-         <div class="envelope">
-            Envelope. 
-            Accompanied by a stamped (stamp is upside down), cancelled, cream-colored envelope
-            measuring 
-            2.8 x 4.25 inches. On the left side of the envelope written sideways in an unknown,
-            penciled hand is 
-            the statement "Hold 9-10-09."
-            
-            <p>Return Address: 
-               
-               N/A
-               
-            </p>
-            <p>Mailing Address: 
-               
-               
-               
-               <br>Mrs. A.T. Stevens
-               <br>26 Emerson street
-               <br>Newton
-               <br>Massachusetts  
-               
-               
-            </p>
-            <p>Postmark: 
-               El PASO,TEXAS. / SEP 6 / 430 PM / 1909 
-            </p>
-            <p>Cancellation: 
-               U.S. POSTAGE / [Portrait of George Washington; perforated
-               on three edges; upside down; Design A139] / TWO CENTS
-            </p>
-            <p>Endorsement: 
-               
-               N/A
-               
-            </p>
-         </div>
-         
-      </div>
-      <div class="correspondence">
-         
          <hr><a name=""></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;72&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-13-1909_JJM_to_GS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-13-1909_JJM_to_GS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-13-1909_JJM_to_GS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -3023,258 +3605,6 @@
                
             </p>
          </div>
-         
-      </div>
-      <div class="correspondence">
-         
-         <hr><a name="GS19090922let01"></a><div class="letter">
-            
-            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;54&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-22-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
-            
-            <p>
-               <br><a name="0001"></a>0001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               Santa Cruz, Cal.,_______1___
-            </p>
-            
-            
-            9/22 9
-            <br><a name="0002"></a>0002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Mother dear,
-            
-            
-            <br><a name="0003"></a>0003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Adelaide is getting some lovely
-            <br><a name="0004"></a>0004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            things to be married in. She is having
-            <br><a name="0005"></a>0005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            a pale blue broadcloth dress made. She
-            <br><a name="0006"></a>0006&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            has a handsome brown suit.<a name="pWedding"></a><a href="#nWedding" class="annotation" title="Though white wedding dresses were traditionally preferred in the United States and Great Britain since Queen Victoria's wedding in 1840, Emily Holt's 1901 Encyclopaedia of Etiquette allows &#34;brides who are married before twelve o'clock, or who go directly from the altar to a train or boat&#34; to &#34;wear a becoming street dress of ladies' cloth, veiling, or silk, in a pale shade of blue&#34; (Holt 238). Holt adds that if the bride wears this in place of the traditional white wedding gown, her hat is one of &#34;the chief adjuncts of this toilette&#34; (238). Based on Gladys's description of Adelaide's wedding attire in this letter and in her letter to her mother dated October 5, 1909, Adelaide seems to be preparing for a wedding that either takes place before noon or one from which she and her husband immediately depart after the ceremony Holt 238."><sup>21</sup></a> Things are 
-            <br><a name="0007"></a>0007&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            getting quite interesting I can tell
-            <br><a name="0008"></a>0008&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            you. Just between you and I "the man"
-            <br><a name="0009"></a>0009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            has one bad feature. He takes a cocktail
-            <br><a name="0010"></a>0010&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            now and then.<a name="pCocktail"></a><a href="#nCocktail" class="annotation" title="Though Gladys uses the term &#34;cocktail&#34; as a particular drink, by 1909 the term &#34;cocktail&#34; referred to a variety of drinks made from bitters and brandy, gin, or whiskey. Gladys's disapproving attitude of alcohol may reflect the growing temperance movement that was very strong in Boston, near where Gladys lived Thomas 49-52."><sup>22</sup></a> No one here seems to
-            <br><a name="0011"></a>0011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            mind it and of course I have said
-            <br><a name="0012"></a>0012&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            nothing. He seems nice other ways and
-            <br><a name="0013"></a>0013&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            every one [sic]  speaks well of him. He has
-            <br><a name="0014"></a>0014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            a good position and makes in the
-            <br><a name="0015"></a>0015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            vicinity of $50 a week.<a name="pmoney"></a><a href="#nmoney" class="annotation" title="According to the U.S. Bureau of Labor, $50 in 1913 is roughly equivalent to $1,101.29 in 2010 CPI Inflation Calculator."><sup>23</sup></a> Well all's
-            <br><a name="0016"></a>0016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            well that end's [sic]  well. $50 a week
-            <br><a name="0017"></a>0017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            and all I would not marry him.
-            <br><a name="0018"></a>0018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Of course he belongs to the club here and
-            <br><a name="0019"></a>0019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            the club's favourite drink is coctail [sic] . I've 
-            <br><a name="0020"></a>0020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            noticed the odor about everytime [sic]  I've 
-            <br><a name="0021"></a>0021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            seen him.
-            
-            
-            <br><a name="0022"></a>0022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            I have found out some startling
-            
-            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;55&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-22-1909_GS_to_ATS_letter_p2.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
-            <br><a name="0023"></a>0023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            information today. I went to the
-            <br><a name="0024"></a>0024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            hairdressers to have a shampoo.
-            <br><a name="0025"></a>0025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            On account of the amt. of alkali
-            <br><a name="0026"></a>0026&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            in the water people can not [sic]  wash
-            <br><a name="0027"></a>0027&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            their hair with it themselves.<a name="palkali"></a><a href="#nalkali" class="annotation" title="A substance having the characteristics exemplified by soda, i.e. a caustic or acrid taste, the power of neutralizing or effervecing with acids, and of forming soaps with oils OED &#34;alkali&#34;."><sup>24</sup></a> Adelaide
-            <br><a name="0028"></a>0028&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            &amp; I made arrangements to go together
-            <br><a name="0029"></a>0029&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            this morning. What do you suppose
-            <br><a name="0030"></a>0030&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            the woman found--<U>bugs</U> in
-            <br><a name="0031"></a>0031&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            my head! I got them in Mexico.
-            <br><a name="0032"></a>0032&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            They all told me I'd be apt
-            <br><a name="0033"></a>0033&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            to get them. I thought I'd escaped
-            <br><a name="0034"></a>0034&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            however. Now what <U>do</U> you think
-            <br><a name="0035"></a>0035&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            of that. Well she worked good
-            <br><a name="0036"></a>0036&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            and hard and dosed my head and
-            <br><a name="0037"></a>0037&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            I have to go again Sat. morning.
-            <br><a name="0038"></a>0038&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Their deposit was not large and
-            <br><a name="0039"></a>0039&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            so we have hopes of soon cleaning
-            <br><a name="0040"></a>0040&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            it all out. You can imagine
-            <br><a name="0041"></a>0041&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            how I feel. There isn't on the
-            <br><a name="0042"></a>0042&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            average one American in ten
-            <br><a name="0043"></a>0043&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            who goes there without getting
-            <br><a name="0044"></a>0044&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            loaded. Here's hoping I'll be clear
-            <br><a name="0045"></a>0045&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            of it all soon.
-            
-            
-            <br><a name="0046"></a>0046&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Uncle says I <U>must</U> stay to
-            <br><a name="0047"></a>0047&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            see the Presidents meet and then I
-            <br><a name="0048"></a>0048&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            can go home immediately after
-            
-            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;56&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-22-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-22-1909_GS_to_ATS_letter_p3.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
-            <br><a name="0049"></a>0049&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            that. He says Dias is so old (79) that
-            <br><a name="0050"></a>0050&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            I probably will never get another
-            <br><a name="0051"></a>0051&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            chance to see anything of the kind
-            <br><a name="0052"></a>0052&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            again. A revolution in Mexico is 
-            <br><a name="0053"></a>0053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            imminent if Dias dies. The Vice
-            <br><a name="0054"></a>0054&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Pres. Reyes wants to be Pres. and 
-            <br><a name="0055"></a>0055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            the people hate him terribly. They
-            <br><a name="0056"></a>0056&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            have to have Rurales every where [sic]  to
-            <br><a name="0057"></a>0057&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            keep them quiet now even.<a name="pRurales"></a><a href="#nRurales" class="annotation" title="Rurales were the rural militia and government forces drawn from farmers. In the latter years of President Diaz's presidency, he used the Rurales to censor the press and enforce his dominance through rural areas of Mexico Merrill and Miro."><sup>25</sup></a> He
-            <br><a name="0058"></a>0058&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            simply will not hear of my going
-            <br><a name="0059"></a>0059&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            before they meet. He said that he
-            <br><a name="0060"></a>0060&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            knew you would understand when
-            <br><a name="0061"></a>0061&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            I explained the situation to you. I
-            <br><a name="0062"></a>0062&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            shall have every thing [sic] ready to go as
-            <br><a name="0063"></a>0063&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            soon as I can leave after it's over.
-            <br><a name="0064"></a>0064&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            The old citizens are going to have a
-            <br><a name="0065"></a>0065&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            big time and he wants me to be
-            <br><a name="0066"></a>0066&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            with him. Lots better today. Slept 12 hrs.
-            
-            
-            <br><a name="0067"></a>0067&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Hope you are better
-            
-            
-            <br><a name="0068"></a>0068&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Love Gladys
-            
-            
-         </div>
-         <hr class="half-width">
-         <p class="msDesc"> ALS. Two loose sheets of cream-colored Office of the Treasurer, Santa Cruz County,
-            California
-            letterhead stationary measuring 8.56 x 11 inches. The front of each sheet of letterhead
-            contains
-            a 2.125 x 2 inch black and white image of a building in the upper left corner of the
-            page and 
-            an image of flowers with a scroll bearing the words "SANTA CRUZ COUNTY, CALIFORNIA,"
-            along with
-            a medallion emblazoned with the words "Office of Treasurer." The combined image of
-            the scroll, 
-            flowers, and medallion measures 2.125 x 4.25 inches. Underneath the image is text
-            that reads 
-            "W.H. BIAS Treasurer" and "R.W. BIAS Deputy Treas.," followed by a line for the date
-            partially
-            pre-printed as "________ / 1___." The edges of the paper are cleanly cut, though there
-            is some
-            reddish-brown residue at the top of each sheet, which is possibly from an adhesive.
-            The paper has 
-            light blue lines that extend to the ends of the sheet on the right and left sides
-            and that are 
-            0.375 inches apart. On the front of each sheet there are 21 lines, the first one starting
-            3.063 inches
-            from the top of the sheet and the last one 0.1875 inches from the bottom of the sheet.
-            On the 
-            back of the sheet the lines begin 1.125 inches from the top of the sheet and continue
-            until 0.1875 inches
-            from the bottom. The lines are identical on the first and second sheets. Both sheets
-            were placed 
-            together and then folded into thirds to fit into the envelope. The paper is thin,
-            but not overly
-            fragile. There is a watermark in the lower half of each sheet that reads "AGAWAM BOND."
-            When viewing 
-            the front of the sheet, the watermark is upside down and backwards.
-         </p>
-         <div class="envelope">
-            Envelope. 
-             Accompanied
-            by a stamped, cancelled, dark cream-colored envelope made from heavy paper and measuring
-            5.875 x 3.5 inches.There is a printed black and white image measuring 2.75 x 1.875
-            inches 
-            of a log raft on the Columbia River. The text corrosponding with the image reads "LOG
-            RAFT 
-            COLUMBIA RIVER 8 MILLION FT." The stamp is a red 2 cent Washington stamp and the postmark
-            is
-            from El Paso, Texas. The envelope is addressed in a neat cursive script to "Mrs. A.
-            T. Stephens, 
-            26 Emerson Street, Newton, Massachusets." There is an additional endorsement on the
-            envelop in a different
-            hand than the written address of a circled 10, then a 9/25. The 25 is also circled.
-            The envelope
-            is cleanly slit along the right edge.
-            
-            <p>Return Address: 
-               
-               N/A
-               
-            </p>
-            <p>Mailing Address: 
-               
-               
-               <br>Mrs. A. T. Stephens
-               
-               <br>26 Emerson street
-               <br>Newton
-               <br>Massachusetts
-               
-               
-            </p>
-            <p>Postmark: 
-               El Paso, Texas | Sept. 24 | 7:30 AM | 1909 
-            </p>
-            <p>Cancellation: 
-               [seven wavy lines]
-            </p>
-            <p>Endorsement: 
-               
-                10 9/25<a name="pMysteriousEndorsements"></a><a href="#nMysteriousEndorsements" class="annotation" title="Similar numbers are penciled on several envelopes in the connection."><sup>26</sup></a>
-               
-               
-            </p>
-         </div>
-         
-      </div>
-      <div class="correspondence">
-         
          <hr><a name="GS19090927let01"></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;77&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-27-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=09-27-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs09-27-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -3586,10 +3916,6 @@
                
             </p>
          </div>
-         
-      </div>
-      <div class="correspondence">
-         
          <hr><a name="JJM19091004let01"></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;82&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-04-1909_JJM_to_GS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-04-1909_JJM_to_GS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs10-04-1909_JJM_to_GS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -3965,190 +4291,6 @@
                
             </p>
          </div>
-         
-      </div>
-      <div class="correspondence">
-         
-         <hr><a name="GS19091005let01"></a><div class="letter">
-            
-            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;58&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
-            
-            <br><a name="0001"></a>0001&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             <br>609 N. El Paso St.   
-            <br><a name="0002"></a>0002&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Mother dear, 
-            
-             <br><a name="0003"></a>0003&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Have just  
-            <br><a name="0004"></a>0004&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            returned from a 
-            <br><a name="0005"></a>0005&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            birthday luncheon 
-            <br><a name="0006"></a>0006&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            and this evening 
-            <br><a name="0007"></a>0007&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            I am going out to 
-            <br><a name="0008"></a>0008&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            dinner at another 
-            <br><a name="0009"></a>0009&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            house. 
-            
-             <br><a name="0010"></a>0010&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            It is as warm 
-            <br><a name="0011"></a>0011&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            today as a July 
-            <br><a name="0012"></a>0012&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            day at home. It 
-            <br><a name="0013"></a>0013&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            will be cool this 
-            
-            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;59&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p2.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_GS_to_ATS_letter_p2.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
-            <br><a name="0014"></a>0014&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            evening however. 
-            
-             <br><a name="0015"></a>0015&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            I am as well as 
-            <br><a name="0016"></a>0016&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ever. 
-             <br><a name="0017"></a>0017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Adelaide is 
-            <br><a name="0018"></a>0018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            getting along  
-            <br><a name="0019"></a>0019&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            finely with her  
-            <br><a name="0020"></a>0020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            shopping. Her 
-            <br><a name="0021"></a>0021&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            evening hat will  
-            <br><a name="0022"></a>0022&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            cost $52.95. <a name="phat"></a><a href="#nhat" class="annotation" title="According to the U.S. Bureau of Labor, $52.95 in 1913 would be roughly equivalent to $1,213.51 in 2011 CPI Inflation Calculator. This is a sizable sum considering that, as mentioned in Gladys' September 24 letter, Adelaide's fiance made $50 a week. By comparison, hats advertised in a 1909 Sears Roebuck catalog ranged in price from $2.38 to $13.50Olian 1."><sup>27</sup></a>How's that?
-            <br><a name="0023"></a>0023&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Everything else 
-            <br><a name="0024"></a>0024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            accordingly.
-            
-            
-            <br><a name="0025"></a>0025&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            I am wondering
-            <br><a name="0026"></a>0026&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            what you think
-            <br><a name="0027"></a>0027&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            of the pictures. 
-            
-            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;60&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p3.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_GS_to_ATS_letter_p3.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span> 
-            <br><a name="0028"></a>0028&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            They were taken 
-            <br><a name="0029"></a>0029&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            in San Diego 
-            <br><a name="0030"></a>0030&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            and that dress 
-            <br><a name="0031"></a>0031&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            was all I could 
-            <br><a name="0032"></a>0032&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            wear. There was 
-            <br><a name="0033"></a>0033&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            no primping for 
-            <br><a name="0034"></a>0034&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            those pictures I 
-            <br><a name="0035"></a>0035&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            can tell you. 
-            
-            
-            <br><a name="0036"></a>0036&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Got your card 
-            <br><a name="0037"></a>0037&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            yesterday. 
-             <br><a name="0038"></a>0038&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Were you 
-            <br><a name="0039"></a>0039&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            surprised about 
-            <br><a name="0040"></a>0040&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            the pictures? We 
-            
-            <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;61&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p4.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-05-1909_GS_to_ATS_letter_p4.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_GS_to_ATS_letter_p4.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
-            <br><a name="0041"></a>0041&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            wanted you to  
-            <br><a name="0042"></a>0042&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            be. 
-            
-             <br><a name="0043"></a>0043&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Here they're all 
-            <br><a name="0044"></a>0044&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            talking about 
-            <br><a name="0045"></a>0045&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            my <U>return </U>—and 
-            <br><a name="0046"></a>0046&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            I haven't left yet. 
-            <br><a name="0047"></a>0047&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            What do you think 
-            <br><a name="0048"></a>0048&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            of that? 
-            
-             <br><a name="0049"></a>0049&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Just wrote to  
-            <br><a name="0050"></a>0050&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Pauline. Will 
-            <br><a name="0051"></a>0051&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            mail it when I 
-            <br><a name="0052"></a>0052&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            get time. 
-            
-            
-            <br><a name="0053"></a>0053&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            Hope you are well 
-            
-            
-            <br><a name="0054"></a>0054&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Love 
-            <br><a name="0055"></a>0055&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-             Gladys
-            <br><a name="0056"></a>0056&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              10/5/09 
-            
-            
-         </div>
-         <hr class="half-width">
-         <p class="msDesc">One sheet of cream-colored, unlined stationery
-            measuring 7 x 5.5 inches, folded in half to create a single gather 
-            of two leaves or four pages.  
-         </p>
-         <div class="envelope">
-            Envelope. 
-              
-            Accompanied by a stamped, cancelled, cream-colored envelope
-            measuring 3.625 x 2.875 inches. The envelope is slit on the side.
-            
-            <p>Return Address: 
-               
-               N/A
-               
-            </p>
-            <p>Mailing Address: 
-               
-               
-               Mrs. A. J. Stephens 
-               <br> 26 Emerson street 
-               <br> Newton 
-               <br> Massachusetts 
-               
-               
-            </p>
-            <p>Postmark: 
-                El PASO, TEXAS. / OCT 6 / 4 - PM / 1909 
-            </p>
-            <p>Cancellation: 
-                 
-            </p>
-            <p>Endorsement: 
-               
-               N/A
-               
-            </p>
-         </div>
-         
-      </div>
-      <div class="correspondence">
-         
          <hr><a name="GS19091011let01"></a><div class="letter">
             
             <hr><br><span class="pagebreak"> [Page&nbsp;-&nbsp;87&nbsp; (<a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-11-1909_to_GS_letter_p1.jpg.jpg" target="top">click to open page image in a new window</a>)]<br><a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=10-11-1909_to_GS_letter_p1.jpg.jpg" target="top"><img class="pageview" src="https://images.asc.ohio-state.edu/is/image/englishdocs10-11-1909_to_GS_letter_p1.jpg.jpg?scale=0.2&amp;fmt=png" width="400"></a></span>
@@ -4337,448 +4479,450 @@
                
             </p>
          </div>
-         
       </div>
       <hr>
-      <h1>Explanatory Annotations</h1>
-      <p class="hang15"><a name="nEndorsements"></a>1.&nbsp;Similar numbers are penciled under the cancelled
-         postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
-         number is circled.<a href="#pEndorsements" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang15"><a name="nStagecoach"></a>2.&nbsp;Gladys most likely drove a 4-horse <q>"Yellowstone
-            Observation Wagon,"</q> which was a type of stagecoach used to take visitors on a
-         <q>"Grand Loop"</q> of Yellowstone Park. Starting in 1884, the Yellowstone Park
-         Transportation Company operated on a stage coach line that began at the Northern
-         Pacific Railroad terminal in Cinnabar, Montana, connected to the hotel at Mammoth
-         Hot
-         Springs, and continued throughout the park. In his 1895 volume <cite>The Yellowstone Park</cite>,
-         Hiram Martin Chittenden of the Army Corps of Engineers describes <q>"tourist
-            transportation"</q> through the park as <q>"mostly by coach, ordinarily with four
-            horses each"</q> (203). He comments that these coaches were a <q>"necessity"</q>
-         because <q>"The points of interest are so scattered"</q> (274).
-         (
-         Department of the Interior, U.S. National Park Service.
-         Chittenden, Hiram Martin.
-         )
-         <a href="#pStagecoach" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang15"><a name="nForestryBld"></a>3.&nbsp;The Forestry Building served as a botanical and natural museum after the World's Fair
-         concluded.  It was torn down in 1930, at which point the log columns that Gladys describes
-         had been damaged beyond repair by insects.  The Forestry Building is described in
-         detail on the University of Washington Library's Special Collections web site as being
-         <q>"sponsored by the State of Washington and was intended to showcase the state's forest
-            resources. Architects Charles Saunders and George Lawton created a building that echoed
-            the European style of Howard's buildings but which also incorporated the log-cabin
-            idiom of early pioneer buildings. Featuring enormous unprocessed logs felled in Chehalis
-            (now Gray's Harbor) County, the Forestry Building's grand colonnade and soaring interior
-            spaces evoked the majesty of Washington's seemingly limitless forests and, not coincidentally,
-            implied the great potential wealth they contained."</q>
-         (University of Washington Library, Special Collections)<a href="#pForestryBld" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang15"><a name="nEndorsements1"></a>4.&nbsp;Similar numbers are pencilled under the cancelled
-         postage stamp on several envelopes in the collection.  The second
-         number is circled.  For example, the letters from Gladys M. Stephens to Mr. and Mrs.
-         A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered
-         94, 95, 96, 97, 98, and 99.  <a href="#pEndorsements1" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang15"><a name="nHughesCousins"></a>5.&nbsp;Mrs. Dana Gibson, born Irene Langhorne, was
-         married to artist Charles Dana Gibson in 1895. Irene's sister Nancy Langhorne married
-         British politician Waldorf Astor and later succeeded him as a Member of Parliament;
-         she was the first woman to sit in the British House of Commons. Nancy and Irene are
-         commonly credited as the source for the iconic Gibson Girl cartoons drawn by Charles
-         Dana Gibson.(Wolfe, Margaret Ripley.)<a href="#pHughesCousins" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang15"><a name="ncoatandranch"></a>6.&nbsp;According to the U.S. Bureau of Labor's CPI Inflation Calculator, $600 US in 1913
-         is roughly equivalent to $13,751 in 2011 dollars.  $25,000 in 1913 was roughly equivalent
-         to $572,952.02 in 2011 dollars.(CPI Inflation Calculator.)<a href="#pcoatandranch" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang15"><a name="nendorsements"></a>7.&nbsp;Similar numbers are penciled under the cancelled
-         postage stamp on several envelopes in the collection.  The second
-         number is circled.  The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens
-         dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95,
-         96, 97, 98, and 99.  <a href="#pendorsements" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang15"><a name="nPurser"></a>8.&nbsp;The Purser on a cruise ship traditionally has several important responsibilities.
-         
-         They provide customer service to guests; they also handle money on board, for both
-         the ship's crew and its guests— which may have involved buying luxury goods on credit
-         and bringing them aboard.  The Purser also helps guests with paperwork such as customs
-         declarations.  Their duties are similar in definition to the ship's steward.  So,
-         given that a Purser would be in charge of all manners
-         of record-keeping, both personally and financially, for all people on board, it makes
-         sense that Gladys would have obtained this kind of souvenir
-         from the Purser.( target="#MarineWatch")<a href="#pPurser" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang15"><a name="ncard"></a>9.&nbsp;The "A.Y.P. cards" Gladys
-         mentions here are probably postcards from the Alaska-Yukon-Pacific (A.Y.P.) exhibition.
-         A.Y.P. postcards, a large collection of which
-         are housed in Special Collections at the University of Washington Libraries, feature
-         various images from the Alaska-Yukon-Pacific Exposition
-         in Seattle in 1909.  Although the Exposition did employ an official photographer for
-         the event, amateur photographers
-         were permitted to take unlimited photos of the event (with certain restrictions) and
-         so several different individuals
-         and publishers made and sold postcards at the Exposition.  Some of the postcards are
-         in color (and so may have been manipulated) and others 
-         are in black and white.  It is interesting that Gladys says the card she sends to
-         her aunt from Seattle
-         is made of leather; leather postcards were a popular novelty item in the first decade
-         of the twentieth century, but were actually
-         banned by the United States Postal Service in the year 1909- so Gladys may have been
-         one of the last citizens
-         to mail one.<a href="#pcard" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nmillion"></a>10.&nbsp;According to the U.S. Bureau of Labor, this would be about 1.3 billion dollars today,
-         according to the "relative share of GDP," which is the best of several different calculations
-         to measure an individual's net worth.  This, then, 
-         would suggest that Gladys is in the company of some astoundingly wealthy people at
-         the Hotel Georgian.(CPI Inflation Calculator)<a href="#pmillion" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nhotel"></a>11.&nbsp;As is clear from previous letters, and from her comment here that "They certainly
-         were
-         glad to see us here at the hotel," Gladys and apparently the other passengers on the
-         excursion to Alaska
-         stayed at the Hotel Georgian before and after the voyage north, and it is a familiar
-         place to the group.  The Hotel Georgian was, in fact, a 
-         new hotel in Seattle when these visitors were staying there, built only one year before
-         in 1908.  It had seven floors and 
-         108 rooms.(r)<a href="#photel" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nTPA"></a>12.&nbsp;According to the U.S. Bureau of Labor Statistics, $1200 in 1913 
-         would be approximately equivalent to $27,502 in 2011 ((CPI Inflation Calculator))<a href="#pTPA" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nLB"></a>13.&nbsp;"Lightboat" commonly refers to "lightship," a term used to describe 
-         the ships used by the federal government in tandem with lighthouses to help keep American
-         coasts safe. 
-         According to the National Park Service, <q>"In all, 179 lightships were built between 1820 and the 1952 
-            and in 1909, the heyday of the United States Lighthouse Service, there were 51 lightships
+      <div class="contents-notes">
+         <h1>Explanatory Annotations</h1>
+         <p class="hang15"><a name="nEndorsements"></a>1.&nbsp;Similar numbers are penciled under the cancelled
+            postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
+            number is circled.<a href="#pEndorsements" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang15"><a name="nStagecoach"></a>2.&nbsp;Gladys most likely drove a 4-horse <q>"Yellowstone
+               Observation Wagon,"</q> which was a type of stagecoach used to take visitors on a
+            <q>"Grand Loop"</q> of Yellowstone Park. Starting in 1884, the Yellowstone Park
+            Transportation Company operated on a stage coach line that began at the Northern
+            Pacific Railroad terminal in Cinnabar, Montana, connected to the hotel at Mammoth
+            Hot
+            Springs, and continued throughout the park. In his 1895 volume <cite>The Yellowstone Park</cite>,
+            Hiram Martin Chittenden of the Army Corps of Engineers describes <q>"tourist
+               transportation"</q> through the park as <q>"mostly by coach, ordinarily with four
+               horses each"</q> (203). He comments that these coaches were a <q>"necessity"</q>
+            because <q>"The points of interest are so scattered"</q> (274).
+            (
+            Department of the Interior, U.S. National Park Service.
+            Chittenden, Hiram Martin.
+            )
+            <a href="#pStagecoach" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang15"><a name="nForestryBld"></a>3.&nbsp;The Forestry Building served as a botanical and natural museum after the World's Fair
+            concluded.  It was torn down in 1930, at which point the log columns that Gladys describes
+            had been damaged beyond repair by insects.  The Forestry Building is described in
+            detail on the University of Washington Library's Special Collections web site as being
+            <q>"sponsored by the State of Washington and was intended to showcase the state's forest
+               resources. Architects Charles Saunders and George Lawton created a building that echoed
+               the European style of Howard's buildings but which also incorporated the log-cabin
+               idiom of early pioneer buildings. Featuring enormous unprocessed logs felled in Chehalis
+               (now Gray's Harbor) County, the Forestry Building's grand colonnade and soaring interior
+               spaces evoked the majesty of Washington's seemingly limitless forests and, not coincidentally,
+               implied the great potential wealth they contained."</q>
+            (University of Washington Library, Special Collections)<a href="#pForestryBld" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang15"><a name="nEndorsements1"></a>4.&nbsp;Similar numbers are pencilled under the cancelled
+            postage stamp on several envelopes in the collection.  The second
+            number is circled.  For example, the letters from Gladys M. Stephens to Mr. and Mrs.
+            A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered
+            94, 95, 96, 97, 98, and 99.  <a href="#pEndorsements1" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang15"><a name="nHughesCousins"></a>5.&nbsp;Mrs. Dana Gibson, born Irene Langhorne, was
+            married to artist Charles Dana Gibson in 1895. Irene's sister Nancy Langhorne married
+            British politician Waldorf Astor and later succeeded him as a Member of Parliament;
+            she was the first woman to sit in the British House of Commons. Nancy and Irene are
+            commonly credited as the source for the iconic Gibson Girl cartoons drawn by Charles
+            Dana Gibson.(Wolfe, Margaret Ripley.)<a href="#pHughesCousins" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang15"><a name="ncoatandranch"></a>6.&nbsp;According to the U.S. Bureau of Labor's CPI Inflation Calculator, $600 US in 1913
+            is roughly equivalent to $13,751 in 2011 dollars.  $25,000 in 1913 was roughly equivalent
+            to $572,952.02 in 2011 dollars.(CPI Inflation Calculator.)<a href="#pcoatandranch" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang15"><a name="nendorsements"></a>7.&nbsp;Similar numbers are penciled under the cancelled
+            postage stamp on several envelopes in the collection.  The second
+            number is circled.  The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens
+            dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95,
+            96, 97, 98, and 99.  <a href="#pendorsements" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang15"><a name="nPurser"></a>8.&nbsp;The Purser on a cruise ship traditionally has several important responsibilities.
             
-            (46 on the eastern seaboard and five on the Pacific Coast) on station in the United
-            States"</q> 
-         ((Maritime Heritage Program).) 
-         McIntyre apparently worked on one of the five lightships stationed on the Pacific
-         coast.<a href="#pLB" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nBabyWillis"></a>14.&nbsp;
-         According to Massachusetts birth records, Cora's son Willis Goodwin Anderson was born
-         August 4, 1909, 
-         so at the time this letter was written, he was about two weeks old (Massachusetts Births)<a href="#pBabyWillis" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nWork"></a>15.&nbsp;
-         According to a 1908 study, the majority of women engaged in house work resumed work
-         ten to fourteen days after childbirth
-         (Employment of Women)<a href="#pWork" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nEndorse"></a>16.&nbsp;The penciled number here doesn't seem to match the pattern on the other envelopes
-         since the second digit is a letter rather than a number. This endorsement also includes
-         a description of the contents of the letter.<a href="#pEndorse" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nWatch"></a>17.&nbsp;
-         Typically a Marine watch is divided into two parts: a afternoon watch (noon-4:00pm)and
-         a late 
-         evening watch (8:00pm-12:00am). Given that at the end of his letter JJM writes that
-         he will 
-         bid Gladys <q>"goodnight"</q> and then immediately switches to <q>"or rather good morning"</q> he was likely on duty
-         for the latter assignment at the time this letter was written. (Nautical Dictionary)<a href="#pWatch" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nDA"></a>18.&nbsp;
-         Since the French Revolution in the 1700's, male theatre dancers were considered effeminate.
-         Though JJM is referring to dance as a social practice with his friends, we can see
-         how the dominant culture would have found dancing
-         in general as a gender specific female acivity. When men participated, it was alongside
-         women through ballroom dancing. We 
-         do not know if he only attended these gatherings with his male friends or if women
-         would join their group, but in the following 
-         lines of JJM's letter, he mentions that his mother would have long talks with him
-         about being a <q>"better boy"</q>. He seems to be 
-         referring to the idea that he would get into trouble after coming home from a party
-         or dance. 
-         (Encouraging Male Participation in Dance)<a href="#pDA" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nRedR"></a>19.&nbsp;Text in progress. Limited sources.<a href="#pRedR" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nCH"></a>20.&nbsp;
-         A Chief Mate is second in command and responsible for supervising all deck department
-         officers and seamen. JJM, as he tells Gladys, 
-         is caught day dreaming by the Chief on board. (Marine Employment Guide)<a href="#pCH" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nWedding"></a>21.&nbsp;Though white wedding dresses were traditionally preferred in the United 
-         States and Great Britain since Queen Victoria's wedding in 1840, Emily Holt's 1901
-         <cite>Encyclopaedia of Etiquette</cite> allows "brides who are married before twelve o'clock, or who go directly
-         from the altar to a train or boat" to "wear a becoming street dress of ladies' cloth, veiling, or silk, in a pale shade
-         of blue" (Holt 238). Holt adds that if the bride wears this 
-         in place of the traditional white wedding gown, her hat is one of "the chief adjuncts of this toilette" (238). Based on Gladys's description of Adelaide's wedding attire in this 
-         letter and in her letter to her mother dated October 5, 1909, Adelaide seems to be
-         preparing for a wedding that either takes place before noon or one from which she
-         and her husband 
-         immediately depart after the ceremony (Holt 238).<a href="#pWedding" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nCocktail"></a>22.&nbsp;Though Gladys uses the term <q>"cocktail"</q> as a particular drink, by
-         1909 the term <q>"cocktail"</q> referred to a variety of drinks made from bitters and brandy, 
-         gin, or whiskey. Gladys's disapproving attitude of alcohol may reflect the growing
-         temperance movement that was very strong in Boston, near where Gladys lived (Thomas 49-52).<a href="#pCocktail" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nmoney"></a>23.&nbsp;According to the U.S. Bureau of Labor, $50 in 1913 is roughly equivalent to $1,101.29
-         
-         in 2010 (CPI Inflation Calculator).<a href="#pmoney" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nalkali"></a>24.&nbsp;A substance having the characteristics exemplified by soda, i.e. a caustic or 
-         acrid taste, the power of neutralizing or effervecing with acids, and of forming soaps
-         with oils (OED "alkali").<a href="#palkali" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nRurales"></a>25.&nbsp;Rurales were the rural militia and government forces drawn from farmers. In the 
-         latter years of President Diaz's presidency, he used the Rurales to censor the press
-         and 
-         enforce his dominance through rural areas of Mexico (Merrill and Miro).<a href="#pRurales" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nMysteriousEndorsements"></a>26.&nbsp;Similar numbers are penciled on several envelopes in the connection.<a href="#pMysteriousEndorsements" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nhat"></a>27.&nbsp;According to the U.S. Bureau of Labor, $52.95 in 1913 
-         would be roughly equivalent to $1,213.51 in 2011 (CPI Inflation Calculator). 
-         This is a sizable sum considering that, as mentioned in Gladys' September 24 letter,
-         
-         Adelaide's fiance made $50 a week. By comparison, hats advertised in a 1909 Sears
-         Roebuck 
-         catalog ranged in price from $2.38 to $13.50(Olian 1).<a href="#phat" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nrunning"></a>28.&nbsp;The action of sailing before the wind.(OED "running")<a href="#prunning" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nrolling"></a>29.&nbsp;The swaying or rocking of a vessel from side to side.(OED "rolling")<a href="#prolling" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nTHC"></a>30.&nbsp; Although definitive bibliographical information is not available for this title,
-         J.J.McIntyre may
-         be referring to a fiction piece known as "The Holy Land," which was published in 1909. (Library of Congress)<a href="#pTHC" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nSailorsRep"></a>31.&nbsp;Numerous contemporary sources describe sailors' reputation for crudeness and womanizing.
-         
-         The warning that a sailor has a wife in every port was often repeated during this
-         period.(xiii).<a href="#pSailorsRep" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nrevolution"></a>32.&nbsp;Whenever the Commander-in-Chief of a ship desired to increase speed, the crew would
-         cause the engines of the vessel to increase their revolutions.(OED "revolution")<a href="#prevolution" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nIntramuros"></a>33.&nbsp;
-         The Walled City of Manila, called the Intramuros, was built as a medieval Spanish
-         colony and was razed and bombed by US and Japanese forces during World War II.
-         (Victory in the Philipines)<a href="#pIntramuros" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nthatRome"></a>34.&nbsp;Quotation from Elanor Glyn's novel Three Weeks, set in Rome and Venice.
-         ((Glyn 178))<a href="#pthatRome" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nOstrichPlumes"></a>35.&nbsp;  In the period between 1883 and 1912 Ostrich plumes represented
-         a major economic force.  During this period production was signficantly ramped up
-         in the United States,
-         particularly the American South, West and Southwest as a means of freeing American
-         consumers from the import
-         market dominated by South African production.  Considered fashionable, the feathers
-         combined with Agro-tourism
-         to make California Ostrich Farms a popular destination during this period.  (
-         Plumes: Ostrich Feathers, Jews, and a Lost World of Global Commerce.)<a href="#pOstrichPlumes" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nJJM19091004note0"></a>36.&nbsp;
-         A tramp engineer has little formal training, learns on the job, and frequently moves
-         from job to job. 
-         In <cite>The Engineers' Review</cite> volume 16 (1905), I. C. Lloyd defends the tramp 
-         engineer as competent compared to the the traditional worker allied to one or two
-         jobs, even 
-         though the tramp engineer also <q>won't work in a place long enough to get married to the job. 
-            They like new scenes and experiences and won't take back talk from anybody</q> (
-         Lloyd 18). The context of McIntyre's statement suggests that 
-         he is (and has been) the tramp engineer. In his letter to Gladys of 13 August 1909,
-         
-         he asks the company's superintendent engineer to transfer from the <em>Santa Clara</em> to the <em>Northwestern</em>. 
-         Later in the current letter (04 October 1909), he details the number of the <em>Santa Clara</em>'s 
-         engineering crew, and he exhibits at least a neophyte familiarity with technical specifications
-         and boiler operation.
-         <a href="#pJJM19091004note0" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nJJM19091004note1"></a>37.&nbsp;
-         Tuxekan was renowned for its totem poles, and Klawock 
-         created a Totem Park to display authentic and replica totem poles, which McIntyre
-         seems to 
-         anticipate here ("Visitor Information"). The preservation 
-         effort doesn't seem to be isolated, as a 1927 <cite>New York Times</cite> 
-         article laments the Alaskan Indians' <q>scant regard for the ritual of the old tradition</q> of 
-         totem-making and relates the need for <q>funds for the preservation of these monuments</q> 
-         ("Deserted Totems of Alaska").  [<a HREF="http://vilda.alaska.edu/cdm4/item_viewer.php?CISOROOT=/cdmg21&amp;CISOPTR=9786&amp;REC=1" alt="Photograph of totems at old Tuxekan, Alaska's Digital Archives and Alaska State Library" target="blank">Totems at old Tuxekan</a>]. 
-         <a href="#pJJM19091004note1" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nJJM19091004note2"></a>38.&nbsp;
-         <q>[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878.</q> 
-         Until 1920, it remained the only salmon cannery in the state (
-         "Visitor Information"). McIntyre may intend for his involvement with what at the time 
-         was leading industrialization to impress Gladys, as he later takes a boastful tone
-         when explaining 
-         the specifications of the Northwestern in comparison to other ships.  [<a HREF="http://vilda.alaska.edu/cdm4/item_viewer.php?CISOROOT=/cdmg21&amp;CISOPTR=13554&amp;REC=7" alt="Photograph of the Klawock cannery, Alaska's Digital Archies and Alaska State Library" target="blank">The Cannery at Klawock</a>]. 
-         <a href="#pJJM19091004note2" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nJJM19091004note3"></a>39.&nbsp;
-         A promotional travel guide published by the Alaska Steamship Company describes Ketchikan
-         as 
-         a tourist destination, and the waterfalls represent not only the leisure of sightseeing
-         but
-         also the rapid growth and modernization of Ketchikan's infrastructure. <q>The city has run 
-            pipes to the falls of the Ketchikan river which gives the citizens an opportunity
-            to procure 
-            water direct from this cold and refreshing stream. It is said to be the best system
-            in Alaska. 
-            Ketchikanites need have no fears of disease germs lurking in their drinking water.</q> McIntyre 
-         and Palmer likely took what the guide calls <q>a jaunt of two miles along the Ketchikan River to 
-            the city's intake,</q> where <q>[a] walk has been built near the bank of this winding stream and the tourist 
-            wends his way among the timber until the first falls are reached</q> (<cite>A 
-            Trip to Wonderful Alaska</cite>).  [<a HREF="https://images.asc.ohio-state.edu/is/image/englishdocs/E/e4acdd32-7352-4615-9fdc-8e26439d1268.jpg/?size=600,600&amp;fmt=png" alt="Boat view of Ketchikan in the Alaska Steamship Company's guide book A Trip to Wonderful Alaska" target="blank">Ketchikan in Wonderful Alaska</a>]. 
-         <a href="#pJJM19091004note3" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nJJM19091004note4"></a>40.&nbsp;
-         Here McIntyre seems to be referring to the boat on which he's currently sailing to
-         catch up 
-         with the Northwestern. The diminutive connotation fits with the boastful tone that
-         he has 
-         assumed to impress Gladys with the size and power of the Northwestern. Interestingly,
-         the 
-         term soap box hasn't yet entered common usage as a way of designating a smaller, unpowered 
-         or low-power vehicle. It's possible that the "soap box" is a lightboat, which appears
-         in the 
-         closer to McIntyre's letter to Gladys of 13 August 1909.
-         <a href="#pJJM19091004note4" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nJJM19091004note5"></a>41.&nbsp;
-         <cite>The Locomotive</cite> reports that on 11 March 
-         1909, <q>[a] boiler exploded .&nbsp;.&nbsp;. on the steamer Weitchpec</q> 
-         and <q>Fireman Elmer Dennis was fatally scalded</q> ("March, 1909" 
-         171). The serious and fatal nature of boiler accidents is clearly conveyed in 
-         the volume's sizeable monthly catalogues. Additionally, a 1916 issue of <cite>The 
-            Popular Science Monthly</cite> laments that <q>[a]t present the life of coal-passers and engineers 
-            is one of extreme hazard.</q> To maintain pressure in the various compartments in the engine room, 
-         <q>it is necessary for the men to enter or leave by means of air locks .&nbsp;.&nbsp;. This method
-            of entrance 
-            and exit is, therefore, very slow, and should the compartment become suddenly filled
+            They provide customer service to guests; they also handle money on board, for both
+            the ship's crew and its guests— which may have involved buying luxury goods on credit
+            and bringing them aboard.  The Purser also helps guests with paperwork such as customs
+            declarations.  Their duties are similar in definition to the ship's steward.  So,
+            given that a Purser would be in charge of all manners
+            of record-keeping, both personally and financially, for all people on board, it makes
+            sense that Gladys would have obtained this kind of souvenir
+            from the Purser.( target="#MarineWatch")<a href="#pPurser" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang15"><a name="ncard"></a>9.&nbsp;The "A.Y.P. cards" Gladys
+            mentions here are probably postcards from the Alaska-Yukon-Pacific (A.Y.P.) exhibition.
+            A.Y.P. postcards, a large collection of which
+            are housed in Special Collections at the University of Washington Libraries, feature
+            various images from the Alaska-Yukon-Pacific Exposition
+            in Seattle in 1909.  Although the Exposition did employ an official photographer for
+            the event, amateur photographers
+            were permitted to take unlimited photos of the event (with certain restrictions) and
+            so several different individuals
+            and publishers made and sold postcards at the Exposition.  Some of the postcards are
+            in color (and so may have been manipulated) and others 
+            are in black and white.  It is interesting that Gladys says the card she sends to
+            her aunt from Seattle
+            is made of leather; leather postcards were a popular novelty item in the first decade
+            of the twentieth century, but were actually
+            banned by the United States Postal Service in the year 1909- so Gladys may have been
+            one of the last citizens
+            to mail one.<a href="#pcard" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nmillion"></a>10.&nbsp;According to the U.S. Bureau of Labor, this would be about 1.3 billion dollars today,
+            according to the "relative share of GDP," which is the best of several different calculations
+            to measure an individual's net worth.  This, then, 
+            would suggest that Gladys is in the company of some astoundingly wealthy people at
+            the Hotel Georgian.(CPI Inflation Calculator)<a href="#pmillion" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nhotel"></a>11.&nbsp;As is clear from previous letters, and from her comment here that "They certainly
+            were
+            glad to see us here at the hotel," Gladys and apparently the other passengers on the
+            excursion to Alaska
+            stayed at the Hotel Georgian before and after the voyage north, and it is a familiar
+            place to the group.  The Hotel Georgian was, in fact, a 
+            new hotel in Seattle when these visitors were staying there, built only one year before
+            in 1908.  It had seven floors and 
+            108 rooms.(r)<a href="#photel" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nTPA"></a>12.&nbsp;According to the U.S. Bureau of Labor Statistics, $1200 in 1913 
+            would be approximately equivalent to $27,502 in 2011 ((CPI Inflation Calculator))<a href="#pTPA" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nLB"></a>13.&nbsp;"Lightboat" commonly refers to "lightship," a term used to describe 
+            the ships used by the federal government in tandem with lighthouses to help keep American
+            coasts safe. 
+            According to the National Park Service, <q>"In all, 179 lightships were built between 1820 and the 1952 
+               and in 1909, the heyday of the United States Lighthouse Service, there were 51 lightships
+               
+               (46 on the eastern seaboard and five on the Pacific Coast) on station in the United
+               States"</q> 
+            ((Maritime Heritage Program).) 
+            McIntyre apparently worked on one of the five lightships stationed on the Pacific
+            coast.<a href="#pLB" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nBabyWillis"></a>14.&nbsp;
+            According to Massachusetts birth records, Cora's son Willis Goodwin Anderson was born
+            August 4, 1909, 
+            so at the time this letter was written, he was about two weeks old (Massachusetts Births)<a href="#pBabyWillis" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nWork"></a>15.&nbsp;
+            According to a 1908 study, the majority of women engaged in house work resumed work
+            ten to fourteen days after childbirth
+            (Employment of Women)<a href="#pWork" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nEndorse"></a>16.&nbsp;The penciled number here doesn't seem to match the pattern on the other envelopes
+            since the second digit is a letter rather than a number. This endorsement also includes
+            a description of the contents of the letter.<a href="#pEndorse" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nWatch"></a>17.&nbsp;
+            Typically a Marine watch is divided into two parts: a afternoon watch (noon-4:00pm)and
+            a late 
+            evening watch (8:00pm-12:00am). Given that at the end of his letter JJM writes that
+            he will 
+            bid Gladys <q>"goodnight"</q> and then immediately switches to <q>"or rather good morning"</q> he was likely on duty
+            for the latter assignment at the time this letter was written. (Nautical Dictionary)<a href="#pWatch" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nDA"></a>18.&nbsp;
+            Since the French Revolution in the 1700's, male theatre dancers were considered effeminate.
+            Though JJM is referring to dance as a social practice with his friends, we can see
+            how the dominant culture would have found dancing
+            in general as a gender specific female acivity. When men participated, it was alongside
+            women through ballroom dancing. We 
+            do not know if he only attended these gatherings with his male friends or if women
+            would join their group, but in the following 
+            lines of JJM's letter, he mentions that his mother would have long talks with him
+            about being a <q>"better boy"</q>. He seems to be 
+            referring to the idea that he would get into trouble after coming home from a party
+            or dance. 
+            (Encouraging Male Participation in Dance)<a href="#pDA" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nRedR"></a>19.&nbsp;Text in progress. Limited sources.<a href="#pRedR" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nCH"></a>20.&nbsp;
+            A Chief Mate is second in command and responsible for supervising all deck department
+            officers and seamen. JJM, as he tells Gladys, 
+            is caught day dreaming by the Chief on board. (Marine Employment Guide)<a href="#pCH" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nWedding"></a>21.&nbsp;Though white wedding dresses were traditionally preferred in the United 
+            States and Great Britain since Queen Victoria's wedding in 1840, Emily Holt's 1901
+            <cite>Encyclopaedia of Etiquette</cite> allows "brides who are married before twelve o'clock, or who go directly
+            from the altar to a train or boat" to "wear a becoming street dress of ladies' cloth, veiling, or silk, in a pale shade
+            of blue" (Holt 238). Holt adds that if the bride wears this 
+            in place of the traditional white wedding gown, her hat is one of "the chief adjuncts of this toilette" (238). Based on Gladys's description of Adelaide's wedding attire in this 
+            letter and in her letter to her mother dated October 5, 1909, Adelaide seems to be
+            preparing for a wedding that either takes place before noon or one from which she
+            and her husband 
+            immediately depart after the ceremony (Holt 238).<a href="#pWedding" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nCocktail"></a>22.&nbsp;Though Gladys uses the term <q>"cocktail"</q> as a particular drink, by
+            1909 the term <q>"cocktail"</q> referred to a variety of drinks made from bitters and brandy, 
+            gin, or whiskey. Gladys's disapproving attitude of alcohol may reflect the growing
+            temperance movement that was very strong in Boston, near where Gladys lived (Thomas 49-52).<a href="#pCocktail" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nmoney"></a>23.&nbsp;According to the U.S. Bureau of Labor, $50 in 1913 is roughly equivalent to $1,101.29
             
-            with steam or noxious gases, all the men at work could not gain the outer air in time
+            in 2010 (CPI Inflation Calculator).<a href="#pmoney" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nalkali"></a>24.&nbsp;A substance having the characteristics exemplified by soda, i.e. a caustic or 
+            acrid taste, the power of neutralizing or effervecing with acids, and of forming soaps
+            with oils (OED "alkali").<a href="#palkali" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nRurales"></a>25.&nbsp;Rurales were the rural militia and government forces drawn from farmers. In the 
+            latter years of President Diaz's presidency, he used the Rurales to censor the press
+            and 
+            enforce his dominance through rural areas of Mexico (Merrill and Miro).<a href="#pRurales" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nMysteriousEndorsements"></a>26.&nbsp;Similar numbers are penciled on several envelopes in the connection.<a href="#pMysteriousEndorsements" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nhat"></a>27.&nbsp;According to the U.S. Bureau of Labor, $52.95 in 1913 
+            would be roughly equivalent to $1,213.51 in 2011 (CPI Inflation Calculator). 
+            This is a sizable sum considering that, as mentioned in Gladys' September 24 letter,
             
-            to save their lives</q> ("Saving Men from 
-         Scalding Steam in Steamship Engine Rooms" 254).
-         <a href="#pJJM19091004note5" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nJJM19091004note6"></a>42.&nbsp;
-         The September 23 issue of <cite>The Seattle Star</cite> 
-         reports that <q>a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. 
-            and Lane st. shortly before 6 o'clock this morning.</q> It <q>crashed to 
-            the tideflats below</q> and <q>turned turtle, pinning its occupants beneath.</q> The auxiliary gas tank 
-         caught fire upon the vehicle's crash. The driver, Henry Hiser, <q>managed to extricate himself</q> and 
-         another passenger, but he <q>scurried from the scene and was later placed under arrest</q> (
-         "Two Girls Burned and Crushed Beyond Human Resemblance"). 
-         The October 1 issue of <cite>The Seattle Republican</cite> 
-         further explains that Hiser <q>hauled a seventeen-year-old girl from saloon to saloon all night long</q> 
-         and <q>drank until he was almost beastly drunk and then started over a dangerous road to
-            the city at 
-            a speed of a mile a minute</q> ("Henry Hiser"). McIntyre 
-         seems to admit here that he used to practice a similar lifestyle. In his letter to
-         Gladys of 13 August 
-         1909, he expresses his committment to abstaining from drinking and the repugnance
-         of the idea 
-         of Gladys spending time with the drinking <q>Class.</q>
-         <a href="#pJJM19091004note6" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nJJM19091004note7"></a>43.&nbsp;
-         The October 1 issue of <cite>The Leavenworth Echo</cite> 
-         reports that <q>a Wallingford Avenue street car in Seattle jumped the track on a curve near the main
+            Adelaide's fiance made $50 a week. By comparison, hats advertised in a 1909 Sears
+            Roebuck 
+            catalog ranged in price from $2.38 to $13.50(Olian 1).<a href="#phat" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nrunning"></a>28.&nbsp;The action of sailing before the wind.(OED "running")<a href="#prunning" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nrolling"></a>29.&nbsp;The swaying or rocking of a vessel from side to side.(OED "rolling")<a href="#prolling" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nTHC"></a>30.&nbsp; Although definitive bibliographical information is not available for this title,
+            J.J.McIntyre may
+            be referring to a fiction piece known as "The Holy Land," which was published in 1909. (Library of Congress)<a href="#pTHC" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nSailorsRep"></a>31.&nbsp;Numerous contemporary sources describe sailors' reputation for crudeness and womanizing.
             
-            gate of the [Alaska-Yukon Pacific] exposition. One man was killed, fifty five injured.
-            It was the 
-            first serious street car accident since the exposition opened</q> (
-         "News of Pacific Northwest"). Drawing from contemporary articles in <cite>
-            The Seattle Times</cite> and <cite>The Seattle Post-Intelligencer</cite>, Stein corroborates that 
-         <q>[o]n September 24, 1909, a Seattle Electric Company streetcar jumps the track at the
+            The warning that a sailor has a wife in every port was often repeated during this
+            period.(xiii).<a href="#pSailorsRep" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nrevolution"></a>32.&nbsp;Whenever the Commander-in-Chief of a ship desired to increase speed, the crew would
+            cause the engines of the vessel to increase their revolutions.(OED "revolution")<a href="#prevolution" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nIntramuros"></a>33.&nbsp;
+            The Walled City of Manila, called the Intramuros, was built as a medieval Spanish
+            colony and was razed and bombed by US and Japanese forces during World War II.
+            (Victory in the Philipines)<a href="#pIntramuros" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nthatRome"></a>34.&nbsp;Quotation from Elanor Glyn's novel Three Weeks, set in Rome and Venice.
+            ((Glyn 178))<a href="#pthatRome" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nOstrichPlumes"></a>35.&nbsp;  In the period between 1883 and 1912 Ostrich plumes represented
+            a major economic force.  During this period production was signficantly ramped up
+            in the United States,
+            particularly the American South, West and Southwest as a means of freeing American
+            consumers from the import
+            market dominated by South African production.  Considered fashionable, the feathers
+            combined with Agro-tourism
+            to make California Ostrich Farms a popular destination during this period.  (
+            Plumes: Ostrich Feathers, Jews, and a Lost World of Global Commerce.)<a href="#pOstrichPlumes" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nJJM19091004note0"></a>36.&nbsp;
+            A tramp engineer has little formal training, learns on the job, and frequently moves
+            from job to job. 
+            In <cite>The Engineers' Review</cite> volume 16 (1905), I. C. Lloyd defends the tramp 
+            engineer as competent compared to the the traditional worker allied to one or two
+            jobs, even 
+            though the tramp engineer also <q>won't work in a place long enough to get married to the job. 
+               They like new scenes and experiences and won't take back talk from anybody</q> (
+            Lloyd 18). The context of McIntyre's statement suggests that 
+            he is (and has been) the tramp engineer. In his letter to Gladys of 13 August 1909,
             
-            corner of E 40th Street and 14th Avenue NE (later University Way). The streetcar crashes
+            he asks the company's superintendent engineer to transfer from the <em>Santa Clara</em> to the <em>Northwestern</em>. 
+            Later in the current letter (04 October 1909), he details the number of the <em>Santa Clara</em>'s 
+            engineering crew, and he exhibits at least a neophyte familiarity with technical specifications
+            and boiler operation.
+            <a href="#pJJM19091004note0" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nJJM19091004note1"></a>37.&nbsp;
+            Tuxekan was renowned for its totem poles, and Klawock 
+            created a Totem Park to display authentic and replica totem poles, which McIntyre
+            seems to 
+            anticipate here ("Visitor Information"). The preservation 
+            effort doesn't seem to be isolated, as a 1927 <cite>New York Times</cite> 
+            article laments the Alaskan Indians' <q>scant regard for the ritual of the old tradition</q> of 
+            totem-making and relates the need for <q>funds for the preservation of these monuments</q> 
+            ("Deserted Totems of Alaska").  [<a HREF="http://vilda.alaska.edu/cdm4/item_viewer.php?CISOROOT=/cdmg21&amp;CISOPTR=9786&amp;REC=1" alt="Photograph of totems at old Tuxekan, Alaska's Digital Archives and Alaska State Library" target="blank">Totems at old Tuxekan</a>]. 
+            <a href="#pJJM19091004note1" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nJJM19091004note2"></a>38.&nbsp;
+            <q>[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878.</q> 
+            Until 1920, it remained the only salmon cannery in the state (
+            "Visitor Information"). McIntyre may intend for his involvement with what at the time 
+            was leading industrialization to impress Gladys, as he later takes a boastful tone
+            when explaining 
+            the specifications of the Northwestern in comparison to other ships.  [<a HREF="http://vilda.alaska.edu/cdm4/item_viewer.php?CISOROOT=/cdmg21&amp;CISOPTR=13554&amp;REC=7" alt="Photograph of the Klawock cannery, Alaska's Digital Archies and Alaska State Library" target="blank">The Cannery at Klawock</a>]. 
+            <a href="#pJJM19091004note2" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nJJM19091004note3"></a>39.&nbsp;
+            A promotional travel guide published by the Alaska Steamship Company describes Ketchikan
+            as 
+            a tourist destination, and the waterfalls represent not only the leisure of sightseeing
+            but
+            also the rapid growth and modernization of Ketchikan's infrastructure. <q>The city has run 
+               pipes to the falls of the Ketchikan river which gives the citizens an opportunity
+               to procure 
+               water direct from this cold and refreshing stream. It is said to be the best system
+               in Alaska. 
+               Ketchikanites need have no fears of disease germs lurking in their drinking water.</q> McIntyre 
+            and Palmer likely took what the guide calls <q>a jaunt of two miles along the Ketchikan River to 
+               the city's intake,</q> where <q>[a] walk has been built near the bank of this winding stream and the tourist 
+               wends his way among the timber until the first falls are reached</q> (<cite>A 
+               Trip to Wonderful Alaska</cite>).  [<a HREF="https://images.asc.ohio-state.edu/is/image/englishdocs/E/e4acdd32-7352-4615-9fdc-8e26439d1268.jpg/?size=600,600&amp;fmt=png" alt="Boat view of Ketchikan in the Alaska Steamship Company's guide book A Trip to Wonderful Alaska" target="blank">Ketchikan in Wonderful Alaska</a>]. 
+            <a href="#pJJM19091004note3" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nJJM19091004note4"></a>40.&nbsp;
+            Here McIntyre seems to be referring to the boat on which he's currently sailing to
+            catch up 
+            with the Northwestern. The diminutive connotation fits with the boastful tone that
+            he has 
+            assumed to impress Gladys with the size and power of the Northwestern. Interestingly,
+            the 
+            term soap box hasn't yet entered common usage as a way of designating a smaller, unpowered 
+            or low-power vehicle. It's possible that the "soap box" is a lightboat, which appears
+            in the 
+            closer to McIntyre's letter to Gladys of 13 August 1909.
+            <a href="#pJJM19091004note4" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nJJM19091004note5"></a>41.&nbsp;
+            <cite>The Locomotive</cite> reports that on 11 March 
+            1909, <q>[a] boiler exploded .&nbsp;.&nbsp;. on the steamer Weitchpec</q> 
+            and <q>Fireman Elmer Dennis was fatally scalded</q> ("March, 1909" 
+            171). The serious and fatal nature of boiler accidents is clearly conveyed in 
+            the volume's sizeable monthly catalogues. Additionally, a 1916 issue of <cite>The 
+               Popular Science Monthly</cite> laments that <q>[a]t present the life of coal-passers and engineers 
+               is one of extreme hazard.</q> To maintain pressure in the various compartments in the engine room, 
+            <q>it is necessary for the men to enter or leave by means of air locks .&nbsp;.&nbsp;. This method
+               of entrance 
+               and exit is, therefore, very slow, and should the compartment become suddenly filled
+               
+               with steam or noxious gases, all the men at work could not gain the outer air in time
+               
+               to save their lives</q> ("Saving Men from 
+            Scalding Steam in Steamship Engine Rooms" 254).
+            <a href="#pJJM19091004note5" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nJJM19091004note6"></a>42.&nbsp;
+            The September 23 issue of <cite>The Seattle Star</cite> 
+            reports that <q>a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. 
+               and Lane st. shortly before 6 o'clock this morning.</q> It <q>crashed to 
+               the tideflats below</q> and <q>turned turtle, pinning its occupants beneath.</q> The auxiliary gas tank 
+            caught fire upon the vehicle's crash. The driver, Henry Hiser, <q>managed to extricate himself</q> and 
+            another passenger, but he <q>scurried from the scene and was later placed under arrest</q> (
+            "Two Girls Burned and Crushed Beyond Human Resemblance"). 
+            The October 1 issue of <cite>The Seattle Republican</cite> 
+            further explains that Hiser <q>hauled a seventeen-year-old girl from saloon to saloon all night long</q> 
+            and <q>drank until he was almost beastly drunk and then started over a dangerous road to
+               the city at 
+               a speed of a mile a minute</q> ("Henry Hiser"). McIntyre 
+            seems to admit here that he used to practice a similar lifestyle. In his letter to
+            Gladys of 13 August 
+            1909, he expresses his committment to abstaining from drinking and the repugnance
+            of the idea 
+            of Gladys spending time with the drinking <q>Class.</q>
+            <a href="#pJJM19091004note6" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nJJM19091004note7"></a>43.&nbsp;
+            The October 1 issue of <cite>The Leavenworth Echo</cite> 
+            reports that <q>a Wallingford Avenue street car in Seattle jumped the track on a curve near the main
+               
+               gate of the [Alaska-Yukon Pacific] exposition. One man was killed, fifty five injured.
+               It was the 
+               first serious street car accident since the exposition opened</q> (
+            "News of Pacific Northwest"). Drawing from contemporary articles in <cite>
+               The Seattle Times</cite> and <cite>The Seattle Post-Intelligencer</cite>, Stein corroborates that 
+            <q>[o]n September 24, 1909, a Seattle Electric Company streetcar jumps the track at the
+               
+               corner of E 40th Street and 14th Avenue NE (later University Way). The streetcar crashes
+               
+               into three concession buildings across the street from the main entrance of the 
+               Alaska-Yukon-Pacific Exposition. One passenger, Frank Hull of Tacoma, is killed, 
+               and 55 men, women, and children are injured</q> (Stein).
+            <a href="#pJJM19091004note7" class="annotation">
+               [Back]
+               </a></p>
+         <p class="hang25"><a name="nEndorsement"></a>44.&nbsp; Similar numbers are pencilled under the cancelled postage stamp
+            on several envelopes. This set of numbers appears on the back of the envelop. The
+            31 and 8 are circled.
+            <a href="#pEndorsement" class="annotation">
+               [Back]
+               </a></p>
+      </div>
+      <div class="contents-notes">
+         <p><strong>About this View of the Journal</strong></p>
+         <p><a name="view"></a>
+            This view combines facsimiles of manuscript pages with diplomatic transcriptions of
+            the
+            Stephens letters. Clicking on a page image will open a zoomable view of that page
+            in a new
+            window In the diplomatic transcription, line breaks and page breaks reflect those
+            in the letters;
+            paragraph breaks are not reported. Spelling, punctuation, capitalization, and abbreviations
+            are reported as they appear in the original letters. Text highlighted by correspondents
+            with
+            an underscore is underscored in this view. Recoverable cancellations are reported
+            in red,
+            strikethrough text. Interlinear additions are reported between arrows (↑ ↓) indicating
+            the
+            position of the addition; text added in the margins is reported between pipes (|).
+            All
+            material added by the editors is surrounded by square brackets: uncertain readings
+            are
+            followed by a question mark, apparent errors in the manuscript are indicated by "sic,"
+            and
+            text supplied by the editors for clarity is set in italics. Gaps in the manuscript
+            (e.g.,
+            tears, unrecoverable cancellations) are noted by ellipses within square brackets.
+            Links to
+            explanatory notes are indicated by superscript colored numbers.
             
-            into three concession buildings across the street from the main entrance of the 
-            Alaska-Yukon-Pacific Exposition. One passenger, Frank Hull of Tacoma, is killed, 
-            and 55 men, women, and children are injured</q> (Stein).
-         <a href="#pJJM19091004note7" class="annotation">
-            [Back]
-            </a></p>
-      <p class="hang25"><a name="nEndorsement"></a>44.&nbsp; Similar numbers are pencilled under the cancelled postage stamp
-         on several envelopes. This set of numbers appears on the back of the envelop. The
-         31 and 8 are circled.
-         <a href="#pEndorsement" class="annotation">
-            [Back]
-            </a></p>
-      <hr>
-      <p><strong>About this View of the Journal</strong></p>
-      <p><a name="view"></a>
-         This view combines facsimiles of manuscript pages with diplomatic transcriptions of
-         the
-         Stephens letters. Clicking on a page image will open a zoomable view of that page
-         in a new
-         window In the diplomatic transcription, line breaks and page breaks reflect those
-         in the letters;
-         paragraph breaks are not reported. Spelling, punctuation, capitalization, and abbreviations
-         are reported as they appear in the original letters. Text highlighted by correspondents
-         with
-         an underscore is underscored in this view. Recoverable cancellations are reported
-         in red,
-         strikethrough text. Interlinear additions are reported between arrows (↑ ↓) indicating
-         the
-         position of the addition; text added in the margins is reported between pipes (|).
-         All
-         material added by the editors is surrounded by square brackets: uncertain readings
-         are
-         followed by a question mark, apparent errors in the manuscript are indicated by "sic,"
-         and
-         text supplied by the editors for clarity is set in italics. Gaps in the manuscript
-         (e.g.,
-         tears, unrecoverable cancellations) are noted by ellipses within square brackets.
-         Links to
-         explanatory notes are indicated by superscript colored numbers.
-         
-      </p>
-      <hr>
-      <p align="left"><a href="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm" target="self">Home</a><br><br><emph>Created: 2011-12-6</emph>
-      </p>
-      <p align="center"></p>
+         </p>
+         <hr>
+         <p align="left"><a href="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm" target="self">Home</a><br><br><emph>Created: 2011-12-6</emph>
+         </p>
+         <p align="center"></p>
+      </div>
    </body>
 </html>

@@ -377,7 +377,7 @@
             </p>
 
             <!-- Build the table of contents. -->
-            <div class="mainTOC">
+            <div class="contents-notes">
             <h1>Contents — <xsl:value-of select="$View"></xsl:value-of></h1>
             <xsl:for-each select="/tei:teiCorpus/tei:TEI">
                <xsl:sort select="@n"></xsl:sort>
@@ -401,18 +401,18 @@
             </xsl:element>   
             <hr/>
             
-            <!-- Insert information from the <text> of each TEI element, wrapping each <text> in a div 
-             of class "correspondence." -->
+<!--            <!-\- Insert information from the <text> of each TEI element, wrapping each <text> in a div 
+             of class "correspondence." -\->
             <xsl:for-each select="/tei:teiCorpus/tei:TEI/tei:text">
                <xsl:sort select="../@n"></xsl:sort>
                <div class="correspondence">
                   <xsl:apply-templates/>
                </div>
             </xsl:for-each>
-            
+-->            
             <!-- Insert, count, encode by cardinal position, and link the explanatory annotations. -->
-            <hr/>
-            <h1>Explanatory Annotations</h1>
+            <xsl:element name="div"><xsl:attribute name="class">contents-notes</xsl:attribute>
+           <h1>Explanatory Annotations</h1>
             <xsl:for-each select="//tei:TEI//tei:note[@resp='ed']">
                <xsl:choose>
                   <xsl:when test="position()>=100">
@@ -454,10 +454,10 @@
                      </p>
                   </xsl:otherwise>
                </xsl:choose>
+             </xsl:for-each>
+            </xsl:element> <!-- End of div element -->
 
-            </xsl:for-each>
-            
-            <hr/>
+            <xsl:element name="div"><xsl:attribute name="class">contents-notes</xsl:attribute>
             <!-- Describe this view of the journal. -->
             <p>
                <strong>About this View of the Journal</strong>
@@ -479,6 +479,7 @@
                   select="//tei:teiCorpus/tei:teiHeader/tei:availability/tei:p[@id='CreativeCommons']"
                   disable-output-escaping="yes"/>
             </p>
+          </xsl:element>
          </body>
       </html>
    </xsl:template>

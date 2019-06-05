@@ -88,7 +88,7 @@
         -moz-border-radius: 10 px;
         border-radius: 10px;	
         }
-        .mainTOC {
+        .contents-notes {
         float:right;
         width:610px;
         margin-top:35px;
