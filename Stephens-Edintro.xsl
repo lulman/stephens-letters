@@ -3,16 +3,81 @@
    xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0">
    <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet">
       <xd:desc>
-         <xd:p><xd:b>Created on:</xd:b> Feb 19, 2010</xd:p>
+         <xd:p><xd:b>Created on:</xd:b> Jul 24, 2012</xd:p>
          <xd:p><xd:b>Author:</xd:b>H. Lewis Ulman</xd:p>
          <xd:p></xd:p>
       </xd:desc>
    </xd:doc>
+      
+ <!-- VARIABLE CSS RULES -->
+      
+   <xsl:variable name="bodyRule">
+      body {
+      font-family: 'Fanwood Text',georgia, serif;
+      font-size: 1em;
+      width: 800px;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 100px;
+      }
+   </xsl:variable>
+   <xsl:variable name="navBarRule">
+      #navBar {
+      position: fixed;
+      top: 120px;
+      float : left;
+      text-align : left;
+      /* margin-left: 10px; */
+      margin-top:0px;
+      background-color: rgba(255, 255, 255, 1);
+      }
+      #viewMenu {
+      position: fixed;
+      top:120px;
+      left: 865px;
+      width:150px;
+      margin-top: 0px;
+      }     
+      .close {
+      position: absolute;
+      top: 90px;
+      right: 260px;
+      color: #f1f1f1;
+      font-size: 36px;
+      font-weight: bold;
+      transition: 0.3s;
+      z-index: 2;
+      }
+      .description {
+      position: absolute;
+      top: 90px;
+      right: 650px;
+      color: #f1f1f1;
+      font-size: 16px;
+      font-weight: bold;
+      transition: 0.3s;
+      z-index: 2;
+      }
+   </xsl:variable>
+   <xsl:variable name="maintextRule">
+      #maintext {
+      float:right;
+      width:610px;
+      margin-top:35px;
+      margin-left:20px;
+      padding:5px;
+      background-color: rgba(209,209,209, 0.5);
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10 px;
+      border-radius: 10px;	
+      }
+   </xsl:variable>
+      
    <!-- 
    
    HTML WRAPPER: Note that this section (between the xsl:template tags) 
-   places the entire contents enclosed within the TEI Header of your document into 
-   the body element of the Web page. 
+   places the entire contents enclosed within the TEI Header into 
+   the body element of the HTML page. 
    
    -->
    <xsl:template match="/">
@@ -34,148 +99,341 @@
             </xsl:element>
             <title>
                <xsl:value-of
-                  select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                  select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
             </title>
-            <style>
-               body {
-                   font-family: Verdana, Arial, Helvetica, sans-serif;
-                   font-size: 1em;
-                   margin: 25px;
-                   width: 800px;
-                    
-               }
-               .masthead {
-                   vertical-align : top;
-               }
-               .mastheadl {
-                   float : left;
-                   width : 175px;
-                   text-align : left;
-                   left : 50px;
-               }
-               .mastheadc {
-                   display : inline;
-               }
-               .mastheadr {
-                   float : right;
-                   text-align : right;
-                   width : 225px;
-                   position : absolute;
-                   top : 15px;
-                   left : 700px;
-                   }
-               a:link {
-               text-decoration: none;
-               }
-               a:hover {
-               font-weight: bold;
-                   }
-               a.annotation {
-               text-decoration: none;
-                   }
-               h1 {
-                   font-size: 1.5em;
-                   font-weight: bold;
-                    
-               }
-               h2 {
-                   font-size: 1.5em;
-                   font-weight: bold;
-                    
-               }
-               h3 {
-                   margin-top: 2em;
-                   font-size: 1.25em;
-                   font-style: italic;                    
-               }
-               p {
-                   font-family:
-                   Verdana, Arial, Helvetica, sans-serif;                    
-               }
-               hr {
-                   clear: right;
-               }
-               div.fl_img_right {
-                   float: right;
-                   text-align: center;
-                   margin: 5px 5px 5px 5px;
-               }
-               div.blockquote {
-                   margin-left: 50px;
-               }
-               div.epigraph {
-                   margin-left: 50px;
-                   font-size:.85em;
-               }
-               .projectTitle {
-                   font-family : Verdana, Arial, Helvetica, sans-serif;
-                   font-size : 16pt;
-                   font-style : normal;
-                   font-weight : bold;
-                   line-height : 18pt;
-               }
-               .revTable {
-                   font-size: 1em;
-                   font-family: Verdana, Arial, Helvetica, sans-serif;
-                    
-               }
-               .links {
-                   font-size: .85em;
-                   text-align: center;
-                    
-               }
-               .bibl {
-                   text-indent: -1em;
-                   margin-left: 1em;
-                    
-               }
-               .float_right {
-                   float: right;
-                   margin: 10px 10px 10px 10px;
-                    
-               }
+            
+            <!-- LOCAL JS CALLS -->
+            <link rel="stylesheet" href="jquery-ui.css"/>
+            <link href="Stephens-CommonCSS.css" rel="stylesheet" type="text/css" />
+            <script src="jquery-1.8.3.min.js"/>
+            <script src="jquery-ui-1.9.2.custom.js"/>
+                        
+            <!-- CALL VARIABLES -->  
+            <style type="text/css">
+               <xsl:value-of select="$maintextRule"/>
+               <xsl:value-of select="$navBarRule"/>
+               <xsl:value-of select="$bodyRule"/>
             </style>
+            
+            <!-- DECLARE FONTS-->
+            <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'/>
+            <link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'/>
+            
          </head>
+         
+         <!-- BUILD THE BODY OF THE HTML PAGE -->
+         
          <body>
+            
+            <!-- BUILD THE MENUBAR -->
+            <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>       
             <div class="masthead">
-               <div class="mastheadl">
-                  <p>
-                     <a href="StephensReading.html"
-                        title="Link to the reading text of the letters.">Reading Text</a> &#xa4;<br/>
-                     <a href="#source">The Source Document</a><br/>
-                     <a href="#edition">The Electronic Edition</a><br/>
-                     <a href="#revision">Revision History</a><br/>
+               <div id="navigation">
+                  <ul class="nav">
+                     <li class="link"><a class="main"  href="./sscox_journal.html#introduction">Historical Introduction</a>
+                        <ul class="sub">
+                           <li><a href="./sscox_journal.html#crossing">Crossing the Atlantic</a></li>
+                           <li><a href="./sscox_journal.html#liverpool">Liverpool</a></li>
+                           <li><a href="./sscox_journal.html#london">London</a></li>
+                           <li><a href="./sscox_journal.html#paris">Paris and Southern France</a></li>
+                           <li><a href="./sscox_journal.html#sardinia">Sardinia and Tuscany</a></li>
+                           <li><a href="./sscox_journal.html#rome">"Eternal Rome"</a></li>
+                           <li><a href="./sscox_journal.html#orient">The "Dreamy Orient"</a></li>
+                           <li><a href="./sscox_journal.html#trieste">Trieste</a></li>
+                        </ul>
+                     </li>
+                     <li class="link"><a class="main"  href="./sscox_journal.html#projectDescription">Editorial Introduction</a>
+                        <ul class="sub">
+                           <li><a href="./sscox_journal.html#projectDescription">Project Description</a></li>
+                           <li><a href="./sscox_journal.html#source">The Source Document</a></li>
+                           <li><a href="./sscox_journal.html#edition">The Electronic Edition</a></li>
+                           <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
+                        </ul>
+                     </li>
+                     <li class="link"><a class="main"  href="">Views of the Diary</a>
+                        <ul class="sub">
+                           <li><a href="./sscox_journal-by-entry.html">By Diary Entry</a></li>
+                           <li><a href="./sscox_journal-by-ms-page.html">By MS Page</a></li>
+                           <li><a href="./sscox_journal-combined.html">Facsimile/Text</a></li>
+                        </ul>
+                     </li>
+                     <li class="link"><a class="main"  href="">Appendices</a>
+                        <ul class="sub">
+                           <li><a href="./appendices-CoxJournalMarkup.html">Markup Guidelines</a></li>
+                           <li><a href="./appendices-CoxHand.html">Guide to Cox's Hand</a></li>
+                           <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
+                           <li><a href="./appendices-CoxRestorationHTML5.html">Restoring the MS</a></li>
+                           <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
+                           <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
+                           <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
+                           <li><a href="./appendices-Acknowledgements.html">Acknowledgements</a></li>
+                           <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
+                        </ul>
+                     </li>
+                     <li class="link"><a class="main"  href="">Source Files</a>
+                        <ul class="sub">
+                           <li><a href="./sscox_journal.xml">TEI: Source Markup</a></li>
+                           <li><a href="./sscox_Common.xsl">XSL: Base Stylesheet</a></li>
+                           <li><a href="./sscox_Diplomatic.xsl">XSL: MS Page View</a></li>
+                           <li><a href="./sscox_Reading.xsl">XSL: Entry View</a></li>
+                           <li><a href="./sscox_CombinedView.xsl">XSL: Text/Facs View</a></li>
+                           <li><a href="./sscox_Edintro.xsl">XSL: Ed. Intro</a></li>
+                           <li><a href="./sscox_journal.css">CSS: Style Sheet</a></li>
+                           <li><a href="./sscox_Current.odd.txt">ODD: TEI Customization</a></li>
+                           <li><a href="./sscox_Current.rng.txt">RNG: Schema</a></li>
+                        </ul>
+                     </li>
+                  </ul> <!-- End ul class nav -->
+               </div> <!-- End div id navigation -->
+               
+               <div id="titleBar">
+               <p align="center"><span class="projectTitle">Journal of a Tour to Europe</span><br/>by Samuel Sullivan Cox</p>
+               <hr/>
+            </div> <!-- END titleBar -->
+            </div> <!-- END masthead -->
+       
+            <!-- BUILD THE VERTICAL IMAGE BAR -->
+       
+            <div id="navBar">
+                
+               <div id="display1"><!-- Begin display1 -->
+                  <button class="modalb" id="b1"><img id="myImg1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899." title="Portrait of Samuel Sullivan Cox (undated)" width="100"/></button>
+                     <div id="myModal1" class="modal">
+                        <a href="image_sscox_portrait_longdesc.html" class="description">[Description]</a><br/>
+                        <button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button>
+                        <img class="modal-content" id="img1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899"/>
+                        <div id="caption1">
+                           Portrait of Samuel Sullivan Cox (undated)<br>Frontispiece. Cox and Northrup, 1899</br>
+                        </div>
+                     </div> <!-- End myModal1 -->
+               </div> <!-- End display1 -->
+               
+               <!-- Begin display2 -->
+               <div id="display2">
+                  <button class="modalb" id="b2"><img id="myImg2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)." title="Decorative Title Page from A Buckeye Abroad (1854)" width="100"/></button>
+                  <div id="myModal2" class="modal">
+                     <a href="image_sscox_1854_DecorativeTitle_longdesc.html" class="description">[Description]</a><br/>
+                     <button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button>
+                     <img class="modal-content" id="img2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)"/>
+                     <div id="caption2">
+                        Decorative Title Page<br>from <cite>A Buckeye Abroad</cite>. Cincinnati: Moore, Anderson, 1854</br>
+                     </div>
+                  </div> <!-- End myModal2 -->
+                  <script>		
+                     // Get the second modal
+                     var modal2 = document.getElementById('myModal2');
+                     
+                     // Get the image and insert it inside the modal - use its "alt" text as a caption
+                     var img2 = document.getElementById('b2');
+                     var modalImg2 = document.getElementById("img2");
+                     var captionText2 = document.getElementById("caption2");
+                     img2.onclick = function(){
+                     modal2.style.display = "block";
+                     modalImg2.src = this.img.src;
+                     captionText2.innerHTML = this.alt;
+                     }
+                     
+                      // Get the span element that closes the modal 
+                        var span = document.getElementsByClassName("close")[0];
+                        
+                        // When the user clicks on span (x), close the modal 
+                           span.onclick = function() {
+                           modal2.style.display = "none";
+                           }
+                  </script>
+               </div> <!-- End display2 -->
+               
+               <!-- Begin display3 -->         
+               <div id="display3">
+                  <button class="modalb" id="b3"><img id="myImg3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851" title="Royal Mail Steam Ship Asia" width="100"/></button>
+                     <div id="myModal3" class="modal">
+                        <a href="image_sscox_rmsAsia_longdesc.html" class="description">[Description]</a><br/>
+                        <button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button>
+                        <img class="modal-content" id="img3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851"/>
+                        <div id="caption3">
+                           Royal Mail Steamship Asia<br/>New York: N. Currier, 1851<br>Library of Congress https://www.loc.gov/pictures/item/2001704213/</br>
+                        </div>
+                     </div> <!-- End myModal3 -->
+                     <script>
+                        
+                        // Get the modal
+                        var modal3 = document.getElementById('myModal3');
+                        
+                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                        var img3 = document.getElementById('b3');
+                        var modalImg3 = document.getElementById("img3");
+                        var captionText3 = document.getElementById("caption3");
+                        img3.onclick = function(){
+                        modal3.style.display = "block";
+                        modalImg3.src = this.img.src;
+                        captionText3.innerHTML = this.alt;
+                        }
+                        
+                        // Get the span element that closes the modal
+                           var span = document.getElementsByClassName("close")[0];
+                           
+                           // When the user clicks on span (x), close the modal
+                              span.onclick = function() {
+                              modal3.style.display = "none";
+                              }
+                     </script>
+               </div> <!-- End display3 -->
+               
+               <!-- Begin display4 -->
+               
+               <div id="display4">
+                  <button class="modalb" id="b4"><img id="myImg4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" title="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" width="100"/></button>
+                     <div id="myModal4" class="modal">
+                        <a href="image_sscox_illus_PoetsCorner_longdesc.html" class="description">[Description]</a><br/>
+                        <button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button>
+                        <img class="modal-content" id="img4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)."/>
+                        <div id="caption4">
+                           Poet's Corner, Westminster Abbey.<br/>Illustration from <cite>A Buckeye Abroad</cite><br/>Cincinnati: Moore, Anderson, 1854.
+                        </div> <!-- End myModal4 -->
+                        <script>
+                           
+                           // Get the modal
+                           var modal4 = document.getElementById('myModal4');
+                           
+                           // Get the image and insert it inside the modal - use its "alt" text as a caption
+                           var img4 = document.getElementById('b4');
+                           var modalImg4 = document.getElementById("img4");
+                           var captionText4 = document.getElementById("caption4");
+                           img4.onclick = function(){
+                           modal4.style.display = "block";
+                           modalImg4.src = this.img.src;
+                           captionText4.innerHTML = this.alt;
+                           }
+                           
+                           // Get the span element that closes the modal
+                              var span = document.getElementsByClassName("close")[0];
+                              
+                              // When the user clicks on span (x), close the modal
+                                 span.onclick = function() {
+                                 modal4.style.display = "none";
+                                 }
+                        </script>
+                     </div> <!-- End modal4 -->
+               </div> <!-- End display 4 -->
+                     
+                     <!-- Begin display5 -->
+                     
+                     <div id="display5">
+                        <button class="modalb" id="b5"><img id="myImg5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" title="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" width="100"/></button>
+                           <div id="myModal5" class="modal">
+                              <a href="image_sscox_illus_Pompeii_longdesc.html" class="description">[Description]</a><br/>
+                              <button class="modalb close" onclick="document.getElementById('myModal5').style.display='none'">[Close]</button>
+                              <img class="modal-content" id="img5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854) "/>
+                              <div id="caption5">
+                                 A Villa in Pompeii<br/>Illustration from <cite>A Buckeye Abroad</cite> <br/>Cincinnati: Moore, Anderson, 1854
+                              </div>
+                           </div> <!-- End myModal5 -->
+                           <script>
+                              
+                              // Get the modal
+                              var modal5 = document.getElementById('myModal5');
+                              
+                              // Get the image and insert it inside the modal - use its "alt" text as a caption
+                              var img5 = document.getElementById('b5');
+                              var modalImg5 = document.getElementById("img5");
+                              var captionText5 = document.getElementById("caption5");
+                              img5.onclick = function(){
+                              modal5.style.display = "block";
+                              modalImg5.src = this.img.src;
+                              captionText5.innerHTML = this.alt;
+                              }
+                              
+                              // Get the span element that closes the modal
+                                 var span = document.getElementsByClassName("close")[0];
+                                 
+                                 // When the user clicks on span (x), close the modal
+                                    span.onclick = function() {
+                                    modal5.style.display = "none";
+                                    }
+                           </script>
+                     </div> <!-- End display5 -->
+                     <script>
+                        // Get the first modal
+                        var modal1 = document.getElementById('myModal1');
+                        
+                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                        var img1 = document.getElementById('b1');
+                        var modalImg1 = document.getElementById("img1");
+                        var captionText1 = document.getElementById("caption1");
+                        img1.onclick = function(){
+                        modal1.style.display = "block";
+                        modalImg1.src = this.img.src;
+                        captionText1.innerHTML = this.alt;
+                        }
+                        
+                        // Get the span element that closes the modal
+                           var span = document.getElementsByClassName("close")[0];
+                           
+                           // When the user clicks on span (x), close the modal
+                              span.onclick = function() {
+                              modal1.style.display = "none";
+                              }
+                     </script>
+
+            </div> <!-- End div id NavBar -->
+            
+            <!-- END THE VERTICAL IMAGE BAR -->
+            <!-- START RIGHT MENU -->   
+            <div id="viewMenu">
+               <p class="aboutView"><a href="./sscox_journal.html#view">About this page.</a></p>
+               <div class="container">
+                  <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
+                  <!--<p id="font-size"></p>-->
+                  <p style="font-size:smaller">
+                     <strong>Edited by</strong><br/>
+                     Andrea Avenido<br/>
+                     Puja Batra-Wells<br/>
+                     MariaTeresa Beltran-Aponte<br/>
+                     Karen M. Beyer<br/>
+                     Mike Bubenik<br/>
+                     Frances Caroline Buschur<br/>
+                     Johaun Cheng<br/>
+                     Katrina F. Cook<br/>
+                     Bill W. Dantowitz<br/>
+                     Envera Dukaj<br/>                     
+                     Sam Eilerman<br/>
+                     Nate Ellis<br/>
+                     Rachel Fouch<br/>
+                     Brian Keller<br/>
+                     Riley Lease<br/>
+                     Mike Liddy<br/>
+                     Nick Long<br/>
+                     Jennifer Lee Schneider<br/>
+                     H. Lewis Ulman<br/>
+                     Victoria R. Urban<br/>
+                     Derrick Whan<br/>
+                     Derek Craig Zoladz<br/>
                   </p>
-               </div>
-               <div class="mastheadc"><img src="https://images.asc.ohio-state.edu/is/image/englishdocs/1/1d1e448a-6a1f-4096-9acb-bf07c5b6cc50.jpg?scale=0.2&amp;rgn=60,60,100,100&amp;fmt=png" alt="Stationery Logo for Alaska Steamship Company" name="Logo" height="90" id="Logo" />&#xA0;&#xA0;<img src="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.2&amp;rgn=340,40,220,90&amp;fmt=png" alt="Postage cancel from Seattle World's Fair" name="Cancel" id="Cancel" /><img src="https://images.asc.ohio-state.edu/is/image/englishdocs/9/93100908-de33-4b45-b71f-5899daaae7cc.jpg?scale=0.2&amp;rgn=220,44,190,100&amp;fmt=png" alt="Image of cancellation on envelope" name="Cancel2" height="90" id="Cancel2" /> </div>
-               <div class="mastheadr"> 
-                  <p>
-                     <a href="#PeopleMentioned" 
-                        title="List of people mentioned in the letters.">People Mentioned</a><br/>
-                     <a href="#PlacesMentioned"
-                        title="List of places mentioned in the letters.">Places Mentioned</a><br/>
-                     <a href="#WorksCited" 
-                        title="List of works cited in explanatory annotations and editorial introduction.">Works Cited
-                     </a><br/>
-                     <a href="#view">About this page</a><br/>
-                     <a
-                        href="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm">Project
-                     Home Page</a>
-                  </p>
-               </div>
-            </div>
-            <div style="clear:both;"/><br/>
-            <hr/>
-            <p align="center">
-               <span class="ProjectTitle">
-                  <xsl:apply-templates
-                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
-               </span>
-            </p>
-            <p align="center"><cite><strong>This edition is currently in progress. Please do
-               not cite this preview until this notice is removed.</strong></cite> </p>
-            <hr/>
-            <hr/>
+                  <!-- Start NINES Widget -->
+                  <form method="get"
+                     style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"
+                     action="http://www.nines.org/search">
+                     <div
+                        style="background:url(image-widget_tower_white.jpg) no-repeat scroll left top;height:56px;width:157px;font-size:12px;margin:0;padding:125px 0 0 22px;text-align:left;font-family:'Times New Roman',Times,serif;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;">
+                        <a href="http://nines.org"
+                           style="text-decoration:none; float:left; margin-top:-125px; height:120px; width:120px;"
+                           >&#160;</a>
+                        <input type="text" name="q" onclick="this.form.target='_blank';return true;"
+                           size="16" maxlength="255" value=""
+                           style="width:100px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-top:3px;margin-bottom:5px;padding:0;text-align:left;color:#000000;" />
+                        <input type="submit" value="Search NINES"
+                           style="width:100px;padding:1px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size:99%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-left:7px;text-align:left;color:#000000;"
+                        />
+                     </div>
+                  </form>
+                  <!-- End NINES Widget -->
+                  <!-- END RIGHT MENU -->
+               </div> <!-- End div class "container" -->
+            </div> <!-- End div id "View Menu" -->
+              
+   <xsl:element name="div">
+   <xsl:attribute name="id">maintext</xsl:attribute>
+      <xsl:element name="div"><xsl:attribute name="id">maincontent</xsl:attribute></xsl:element>
      <!-- Order and apply templates for the sections of the header you wish to include. -->
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']"/>
             <xsl:apply-templates
@@ -206,6 +464,9 @@
             <hr/>
             <p>&#x2192; <a href="StephensReading.html">Link to the text of the journal</a>.
             </p>
+         </xsl:element> <!-- END maintext -->
+         <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+         <script src="index.js"></script>
          </body>
       </html>
    </xsl:template>

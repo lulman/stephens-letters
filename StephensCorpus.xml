@@ -3637,7 +3637,7 @@
             <lb/>the matter with <persName>auntie</persName>.  I
             <lb/>sent her cards from <placeName>Yellowstone</placeName>
             <lb/>and some from here — among 
-            <lb/>them a leather<abbr> A.Y.P.</abbr> card.<ptr type="noteAnchor" target="card"/><note resp="ed" xml:id="card">The "A.Y.P. cards" Gladys
+            <lb/>them a leather<choice><abbr> A.Y.P.</abbr><expan>Alaska-Yukon-Pacific</expan></choice> card.<ptr type="noteAnchor" target="card"/><note resp="ed" xml:id="card">The "A.Y.P. cards" Gladys
             mentions here are probably postcards from the Alaska-Yukon-Pacific (A.Y.P.) exhibition.  A.Y.P. postcards, a large collection of which
             are housed in Special Collections at the University of Washington Libraries, feature various images from the Alaska-Yukon-Pacific Exposition
             in Seattle in 1909.  Although the Exposition did employ an official photographer for the event, amateur photographers
@@ -3741,7 +3741,7 @@
             <lb/>The <placeName>Mexican</placeName> trip is all planned
             <lb/>and I start home immediately
             <lb/>on getting back.  I'll be about
-            <lb/>one week late.  <persName><abbr>U.A.</abbr><expan>Uncle Alex</expan></persName> has the day
+            <lb/>one week late.  <persName><choice><abbr>U.A.</abbr><expan>Uncle Alex</expan></choice></persName> has the day
             <lb/>set for us to start to <placeName>Mexico</placeName> and
             <lb/>all plans <unclear reason="underline or random mark at end of page?"><hi rend="underlined">O.K.</hi></unclear>
           </p>
@@ -4644,7 +4644,7 @@
             <pb facs="09-22-1909_GS_to_ATS_letter_p2.jpg"/>
             <lb/>information today. I went to the
             <lb/><rs>hairdressers</rs> to have a shampoo.
-            <lb/>On account of the <abbr>amt.</abbr><expan>amount</expan> of alkali
+            <lb/>On account of the <choice><abbr>amt.</abbr><expan>amount</expan></choice> of alkali
             <lb/>in the water people <choice><sic>can not</sic><corr>cannot</corr></choice> wash
             <lb/>their hair with it themselves.<ptr type="noteAnchor" target="alkali"/><note resp="ed" xml:id="alkali">A substance having the characteristics exemplified by soda, i.e. a caustic or 
               acrid taste, the power of neutralizing or effervecing with acids, and of forming soaps
@@ -4658,7 +4658,7 @@
             <lb/>however. Now what <hi rend="underlined">do</hi> you think
             <lb/>of that. Well she worked good
             <lb/>and hard <seg type="obliqueText" rendition="#ot1">and</seg> dosed my head <seg type="obliqueText" rendition="#ot1">and</seg>
-            <lb/>I have to go again <abbr>Sat.</abbr><expan>Saturday</expan> morning.
+            <lb/>I have to go again <choice><abbr>Sat.</abbr><expan>Saturday</expan></choice> morning.
             <lb/>Their deposit was not large <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>so we have hopes of soon cleaning
             <lb/>it all out. You can imagine

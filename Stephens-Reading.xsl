@@ -29,14 +29,79 @@
     </xsl:variable>
     <xsl:variable name="bodyRule">
         body {
-        background-position: top;
+        font-family: 'Fanwood Text',georgia, serif;
+        font-size: 1em;
+        width: 800px;
         margin-left: 50px;
-        width: 850px;
         margin-right: 50px;
-        font-family: Verdana, Arial, Helvetica, sans-serif;
-        }                                     
+        margin-top: 100px;
+        }
     </xsl:variable>
-
+    <xsl:variable name="navBarRule">
+        #navBar {
+        position: fixed;
+        top:120px;
+        width:150px;
+        float : left;
+        text-align : left;
+        margin-left: 10px;
+        margin-top:0px;
+        background-color: rgba(255, 255, 255, 1);
+        }
+        #viewMenu {
+        position: fixed;
+        top:120px;
+        left: 865px;
+        width:150px;
+        margin-top: 0px;
+        }
+        .close {
+        position: absolute;
+        top: 90px;
+        right: 255px;
+        color: #f1f1f1;
+        font-size: 36px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 2;
+        }
+        .description {
+        position: absolute;
+        top: 90px;
+        right: 655px;
+        color: #f1f1f1;
+        font-size: 16px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 2;
+        }
+    </xsl:variable>
+    <xsl:variable name="maintextRule">
+        #maintext {
+        float:right;
+        width:610px;
+        margin-top:35px;
+        margin-left:20px;
+        padding:5px;
+        background-color: rgba(209,209,209, 0.5);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10 px;
+        border-radius: 10px;	
+        }
+        .mainTOC {
+        float:right;
+        width:610px;
+        margin-top:35px;
+        margin-left:20px;
+        padding:5px;
+        background-color: rgba(209,209,209, 0.5);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10 px;
+        border-radius: 10px;	
+        }
+        
+    </xsl:variable>
+        
     <!-- Include common style sheet for Stephens family letters. -->
     <xsl:include href="Stephens-Common.xsl"/>
     

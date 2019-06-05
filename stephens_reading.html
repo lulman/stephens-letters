@@ -4,251 +4,3287 @@
       <meta name="keywords" content="Alaska-Yukon-Pacific Exposition (1909: Seattle, Wash.), Alaska Steamship Company, Inside Passage--Description and travel, Yellowstone National Park, Travel--North America, Love-letters--United States, Mexican Revolution, Mexico, 1910-1920">
       <title>Selected Letters from the Ivan S. Gilbert Collection of Stephens Family Travel 
          Letters and Ephemera
-      </title><style type="text/css">
-        body {
-        background-position: top;
-        margin-left: 50px;
-        width: 850px;
-        margin-right: 50px;
-        font-family: Verdana, Arial, Helvetica, sans-serif;
-        }                                     
+      </title>
+      <link rel="stylesheet" href="jquery-ui.css">
+      <link href="Stephens-CommonCSS.css" rel="stylesheet" type="text/css"><script src="jquery-1.8.3.min.js"></script><script src="jquery-ui-1.9.2.custom.js"></script><script>
+               $(document).ready(function(){
+               $("button").click(function(){
+               $(".pencil").toggleClass("penciltoggle");
+               $(".ink").toggleClass("inktoggle");
+               });
+               });
+            </script><style type="text/css">
+        #maintext {
+        float:right;
+        width:610px;
+        margin-top:35px;
+        margin-left:20px;
+        padding:5px;
+        background-color: rgba(209,209,209, 0.5);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10 px;
+        border-radius: 10px;	
+        }
+        .mainTOC {
+        float:right;
+        width:610px;
+        margin-top:35px;
+        margin-left:20px;
+        padding:5px;
+        background-color: rgba(209,209,209, 0.5);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10 px;
+        border-radius: 10px;	
+        }
+        
     
-               .masthead {
-                   vertical-align : top;
-               }
-               .mastheadl {
-                   float : left;
-                   width : 175px;
-                   text-align : left;
-                   left : 50px;
-               }
-               .mastheadc {
-                   display : inline;
-               }
-               .mastheadr {
-                   float : right;
-                   text-align : right;
-                   width : 225px;
-                   position : absolute;
-                   top : 15px;
-                   left : 700px;
-               }
-               a:link {
-               text-decoration: none;
-               }
-               a:hover {
-               font-weight: bold;
-                   }
-               a.annotation {
-               text-decoration: none;
-                   }
-               div.pagebreak {
-                   margin-top : 25px;
-                   margin-bottom : 0px;
-                   text-align : center;
-               }
-               div.envelope {
-                   font-size : .85em;
-                   width: 50%;
-               }
-               .msDesc {
-                   font-size : .85em;
-                   width: 50%;
-               }
-               .half-width {
-                   width : 50%;
-               }
-               hr {
-                   color : #888833;
-                   clear : left;
-               }
-               div#letter {
-                   border: 3px groove #666666;
-                   padding: 5px;
-               }
-               h1 {
-                   font-family : Verdana, Arial, Helvetica, sans-serif;
-                   font-size : 16pt;
-                   font-style : normal;
-               }
-               h2 {
-               }
-               h3 {
-               }
-               sup {
-               }
-               img {
-                   float : left;
-                   padding : 5px;
-                   margin-top : 5px;
-                   margin-bottom : 5px;
-               }
-               .nocancel {
-                   text-decoration : none;
-                   color : #000000;
-               }
-               .cancel {
-                   text-decoration : line-through;
-                   color : #FF0000;
-               }
-               div.fl_img_right {
-                   float : right;
-                   text-align : center;
-                   margin : 5px 5px 5px 5px;
-               }
-               .ProjectTitle {
-                   font-family : Verdana, Arial, Helvetica, sans-serif;
-                   font-size : 16pt;
-                   font-style : normal;
-                   font-weight : bold;
-                   line-height : 18pt;
-               }
-               .hang15 {
-                   margin-left : 40px;
-                   text-indent : -15px;
-               }
-               .hang25 {
-                   margin-left : 40px;
-                   text-indent : -25px;
-               }
-               .hang35 {
-                   margin-left : 40px;
-                   text-indent : -35px;
-               }
-               table {
-                   text-align : right;
-               }</style></head>
+        #navBar {
+        position: fixed;
+        top:120px;
+        width:150px;
+        float : left;
+        text-align : left;
+        margin-left: 10px;
+        margin-top:0px;
+        background-color: rgba(255, 255, 255, 1);
+        }
+        #viewMenu {
+        position: fixed;
+        top:120px;
+        left: 865px;
+        width:150px;
+        margin-top: 0px;
+        }
+        .close {
+        position: absolute;
+        top: 90px;
+        right: 255px;
+        color: #f1f1f1;
+        font-size: 36px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 2;
+        }
+        .description {
+        position: absolute;
+        top: 90px;
+        right: 655px;
+        color: #f1f1f1;
+        font-size: 16px;
+        font-weight: bold;
+        transition: 0.3s;
+        z-index: 2;
+        }
+    
+        body {
+        font-family: 'Fanwood Text',georgia, serif;
+        font-size: 1em;
+        width: 800px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 100px;
+        }
+    </style><link href="http://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet" type="text/css">
+      <link href="http://fonts.googleapis.com/css?family=Fanwood+Text" rel="stylesheet" type="text/css">
+   </head>
    <body>
+      <div id="skiptocontent"><a href="#maincontent">skip to main content</a></div>
       <div class="masthead">
-         <div class="mastheadl">
-            <p><a href="StephensReading.html" title="Reading Text of the                         Stephens Letters">Reading Text</a><br><a href="StephensDiplomatic.html" title="Diplomatic View of the                         Stephens Letters">Diplomatic View</a><br><a href="StephensCombined.html" title="Side-by-side view of                         page images and diplomatic transcription">Facsimile/Text View</a><br><a href="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm" title="Background information about the project.">Project Web Site</a><br><a href="#view">About this Page</a></p>
+         <div id="navigation">
+            <ul class="nav">
+               <li class="link"><a class="main" href="./sscox_journal.html#introduction">Historical Introduction</a><ul class="sub">
+                     <li><a href="./sscox_journal.html#crossing">Crossing the Atlantic</a></li>
+                     <li><a href="./sscox_journal.html#liverpool">Liverpool</a></li>
+                     <li><a href="./sscox_journal.html#london">London</a></li>
+                     <li><a href="./sscox_journal.html#paris">Paris and Southern France</a></li>
+                     <li><a href="./sscox_journal.html#sardinia">Sardinia and Tuscany</a></li>
+                     <li><a href="./sscox_journal.html#rome">"Eternal Rome"</a></li>
+                     <li><a href="./sscox_journal.html#orient">The "Dreamy Orient"</a></li>
+                     <li><a href="./sscox_journal.html#trieste">Trieste</a></li>
+                  </ul>
+               </li>
+               <li class="link"><a class="main" href="./sscox_journal.html#projectDescription">Editorial Introduction</a><ul class="sub">
+                     <li><a href="./sscox_journal.html#projectDescription">Project Description</a></li>
+                     <li><a href="./sscox_journal.html#source">The Source Document</a></li>
+                     <li><a href="./sscox_journal.html#edition">The Electronic Edition</a></li>
+                     <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
+                  </ul>
+               </li>
+               <li class="link"><a class="main" href="">Views of the Diary</a><ul class="sub">
+                     <li><a href="./sscox_journal-by-entry.html">By Diary Entry</a></li>
+                     <li><a href="./sscox_journal-by-ms-page.html">By MS Page</a></li>
+                     <li><a href="./sscox_journal-combined.html">Facsimile/Text</a></li>
+                  </ul>
+               </li>
+               <li class="link"><a class="main" href="">Appendices</a><ul class="sub">
+                     <li><a href="./appendices-CoxJournalMarkup.html">Markup Guidelines</a></li>
+                     <li><a href="./appendices-CoxHand.html">Guide to Cox's Hand</a></li>
+                     <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
+                     <li><a href="./appendices-CoxRestorationHTML5.html">Restoring the MS</a></li>
+                     <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
+                     <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
+                     <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
+                     <li><a href="./appendices-Acknowledgements.html">Acknowledgements</a></li>
+                     <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
+                  </ul>
+               </li>
+               <li class="link"><a class="main" href="">Source Files</a><ul class="sub">
+                     <li><a href="./sscox_journal.xml">TEI: Source Markup</a></li>
+                     <li><a href="./sscox_Common.xsl">XSL: Base Stylesheet</a></li>
+                     <li><a href="./sscox_Diplomatic.xsl">XSL: MS Page View</a></li>
+                     <li><a href="./sscox_Reading.xsl">XSL: Entry View</a></li>
+                     <li><a href="./sscox_CombinedView.xsl">XSL: Text/Facs View</a></li>
+                     <li><a href="./sscox_Edintro.xsl">XSL: Ed. Intro</a></li>
+                     <li><a href="./sscox_journal.css">CSS: Style Sheet</a></li>
+                     <li><a href="./sscox_Current.odd.txt">ODD: TEI Customization</a></li>
+                     <li><a href="./sscox_Current.rng.txt">RNG: Schema</a></li>
+                  </ul>
+               </li>
+            </ul>
          </div>
-         <div class="mastheadc"><img src="https://images.asc.ohio-state.edu/is/image/englishdocs/1/1d1e448a-6a1f-4096-9acb-bf07c5b6cc50.jpg?scale=0.2&amp;rgn=60,60,100,100&amp;fmt=png" alt="Stationery Logo for Alaska Steamship Company" name="Logo" height="90" id="Logo">&nbsp;&nbsp;<img src="https://images.asc.ohio-state.edu/is/image/englishdocs/5/55a80091-d3ab-4cd6-a24b-75684d1f6a71.jpg?scale=0.2&amp;rgn=340,40,220,90&amp;fmt=png" alt="Postage cancel from Seattle World's Fair" name="Cancel" id="Cancel"><img src="https://images.asc.ohio-state.edu/is/image/englishdocs/9/93100908-de33-4b45-b71f-5899daaae7cc.jpg?scale=0.2&amp;rgn=220,44,190,100&amp;fmt=png" alt="Image of cancellation on envelope" name="Cancel2" height="90" id="Cancel2"></div>
-         <div class="mastheadr">
-            <p><a href="StephensEdIntro.html" title="Editorial Introduction                         to the Stephens Letters">Editorial Intro</a><br><a href="StephensEdIntro.html#PeopleMentioned" title="List of people mentioned in the letters." target="_blank">People Mentioned</a><br><a href="StephensEdIntro.html#PlacesMentioned" title="List of places mentioned in the letters.">Places Mentioned</a><br><a href="StephensEdIntro.html#WorksCited" title="List of works cited in explanatory annotations and editorial introduction.">Works Cited</a></p>
+         <div id="titleBar">
+            <p align="center"><span class="projectTitle">Journal of a Tour to Europe</span><br>by Samuel Sullivan Cox
+            </p>
+            <hr>
          </div>
       </div>
-      <div style="clear:both;"></div><br><hr>
+      <div id="navBar">
+         <div id="display1"><button class="modalb" id="b1"><img id="myImg1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899." title="Portrait of Samuel Sullivan Cox (undated)" width="100"></button><div id="myModal1" class="modal"><a href="image_sscox_portrait_longdesc.html" class="description">[Description]</a><br><button class="modalb close" onclick="document.getElementById('myModal1').style.display='none'">[Close]</button><img class="modal-content" id="img1" src="image_sscox_portrait.jpg" alt="Portrait of Samuel Sullivan Cox (undated). Frontispiece. Cox and Northrup, 1899"><div id="caption1">
+                  Portrait of Samuel Sullivan Cox (undated)<br>Frontispiece. Cox and Northrup, 1899</div>
+            </div>
+         </div>
+         <div id="display2"><button class="modalb" id="b2"><img id="myImg2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)." title="Decorative Title Page from A Buckeye Abroad (1854)" width="100"></button><div id="myModal2" class="modal"><a href="image_sscox_1854_DecorativeTitle_longdesc.html" class="description">[Description]</a><br><button class="modalb close" onclick="document.getElementById('myModal2').style.display='none'">[Close]</button><img class="modal-content" id="img2" src="image_sscox_1854_DecorativeTitle.jpg" alt="Decorative Title Page from A Buckeye Abroad (1854)"><div id="caption2">
+                  Decorative Title Page<br>from <cite>A Buckeye Abroad</cite>. Cincinnati: Moore, Anderson, 1854</div>
+            </div><script>		
+                     // Get the second modal
+                     var modal2 = document.getElementById('myModal2');
+                     
+                     // Get the image and insert it inside the modal - use its "alt" text as a caption
+                     var img2 = document.getElementById('b2');
+                     var modalImg2 = document.getElementById("img2");
+                     var captionText2 = document.getElementById("caption2");
+                     img2.onclick = function(){
+                     modal2.style.display = "block";
+                     modalImg2.src = this.img.src;
+                     captionText2.innerHTML = this.alt;
+                     }
+                     
+                     // Get the span element that closes the modal 
+                     var span = document.getElementsByClassName("close")[0];
+                     
+                     // When the user clicks on span (x), close the modal 
+                     span.onclick = function() {
+                     modal2.style.display = "none";
+                     }
+                  </script></div>
+         <div id="display3"><button class="modalb" id="b3"><img id="myImg3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851" title="Royal Mail Steam Ship Asia" width="100"></button><div id="myModal3" class="modal"><a href="image_sscox_rmsAsia_longdesc.html" class="description">[Description]</a><br><button class=" modalb close" onclick="document.getElementById('myModal3').style.display='none'">[Close]</button><img class="modal-content" id="img3" src="image_sscox_rmsAsia.jpg" alt="Royal Mail Steam Ship Asia. New York: N. Currier, 1851"><div id="caption3">
+                  Royal Mail Steamship Asia<br>New York: N. Currier, 1851<br>Library of Congress https://www.loc.gov/pictures/item/2001704213/</div>
+            </div><script>
+                     
+                     // Get the modal
+                     var modal3 = document.getElementById('myModal3');
+                     
+                     // Get the image and insert it inside the modal - use its "alt" text as a caption
+                     var img3 = document.getElementById('b3');
+                     var modalImg3 = document.getElementById("img3");
+                     var captionText3 = document.getElementById("caption3");
+                     img3.onclick = function(){
+                     modal3.style.display = "block";
+                     modalImg3.src = this.img.src;
+                     captionText3.innerHTML = this.alt;
+                     }
+                     
+                     // Get the span element that closes the modal
+                     var span = document.getElementsByClassName("close")[0];
+                     
+                     // When the user clicks on span (x), close the modal
+                     span.onclick = function() {
+                     modal3.style.display = "none";
+                     }
+                  </script></div>
+         <div id="display4"><button class="modalb" id="b4"><img id="myImg4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" title="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)" width="100"></button><div id="myModal4" class="modal"><a href="image_sscox_illus_PoetsCorner_longdesc.html" class="description">[Description]</a><br><button class="modalb close" onclick="document.getElementById('myModal4').style.display='none'">[Close]</button><img class="modal-content" id="img4" src="image_sscox_illus_PoetsCorner.jpg" alt="Poet's Corner, Westminster Abbey. Illustration from A Buckeye Abroad (1854)."><div id="caption4">
+                  Poet's Corner, Westminster Abbey.<br>Illustration from <cite>A Buckeye Abroad</cite><br>Cincinnati: Moore, Anderson, 1854.
+                  
+               </div><script>
+                        
+                        // Get the modal
+                        var modal4 = document.getElementById('myModal4');
+                        
+                        // Get the image and insert it inside the modal - use its "alt" text as a caption
+                        var img4 = document.getElementById('b4');
+                        var modalImg4 = document.getElementById("img4");
+                        var captionText4 = document.getElementById("caption4");
+                        img4.onclick = function(){
+                        modal4.style.display = "block";
+                        modalImg4.src = this.img.src;
+                        captionText4.innerHTML = this.alt;
+                        }
+                        
+                        // Get the span element that closes the modal
+                        var span = document.getElementsByClassName("close")[0];
+                        
+                        // When the user clicks on span (x), close the modal
+                        span.onclick = function() {
+                        modal4.style.display = "none";
+                        }
+                     </script></div>
+         </div>
+         <div id="display5"><button class="modalb" id="b5"><img id="myImg5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" title="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854)" width="100"></button><div id="myModal5" class="modal"><a href="image_sscox_illus_Pompeii_longdesc.html" class="description">[Description]</a><br><button class="modalb close" onclick="document.getElementById('myModal5').style.display='none'">[Close]</button><img class="modal-content" id="img5" src="image_sscox_illus_Pompeii.jpg" alt="A Villa in Pompeii. Illustration from A Buckeye Abroad (1854) "><div id="caption5">
+                  A Villa in Pompeii<br>Illustration from <cite>A Buckeye Abroad</cite><br>Cincinnati: Moore, Anderson, 1854
+                  
+               </div>
+            </div><script>
+                     
+                     // Get the modal
+                     var modal5 = document.getElementById('myModal5');
+                     
+                     // Get the image and insert it inside the modal - use its "alt" text as a caption
+                     var img5 = document.getElementById('b5');
+                     var modalImg5 = document.getElementById("img5");
+                     var captionText5 = document.getElementById("caption5");
+                     img5.onclick = function(){
+                     modal5.style.display = "block";
+                     modalImg5.src = this.img.src;
+                     captionText5.innerHTML = this.alt;
+                     }
+                     
+                     // Get the span element that closes the modal
+                     var span = document.getElementsByClassName("close")[0];
+                     
+                     // When the user clicks on span (x), close the modal
+                     span.onclick = function() {
+                     modal5.style.display = "none";
+                     }
+                  </script></div><script>
+                  // Get the first modal
+                  var modal1 = document.getElementById('myModal1');
+                  
+                  // Get the image and insert it inside the modal - use its "alt" text as a caption
+                  var img1 = document.getElementById('b1');
+                  var modalImg1 = document.getElementById("img1");
+                  var captionText1 = document.getElementById("caption1");
+                  img1.onclick = function(){
+                  modal1.style.display = "block";
+                  modalImg1.src = this.img.src;
+                  captionText1.innerHTML = this.alt;
+                  }
+                  
+                  // Get the span element that closes the modal
+                  var span = document.getElementsByClassName("close")[0];
+                  
+                  // When the user clicks on span (x), close the modal
+                  span.onclick = function() {
+                  modal1.style.display = "none";
+                  }
+               </script></div>
+      <div id="viewMenu">
+         <p class="aboutView"><a href="#View">About this page.</a></p>
+         <div class="container">
+            <p class="font-size-label">Font Size <button id="up">+</button><button id="down">-</button></p>
+            <p><button>Switch between Cox's original pencilled text and overwritten and altered inked text.</button></p>
+            <p><span class="pencil">Pencil text displayed.</span><span class="ink inktoggle">Ink changes displayed.</span></p>
+            <form method="get" style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;" action="http://www.nines.org/search">
+               <div style="background:url(image-widget_tower_white.jpg) no-repeat scroll left top;height:56px;width:157px;font-size:12px;margin:0;padding:125px 0 0 22px;text-align:left;font-family:'Times New Roman',Times,serif;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"><a href="http://nines.org" style="text-decoration:none; float:left; margin-top:-125px; height:120px; width:120px;">&nbsp;</a><input type="text" name="q" onclick="this.form.target='_blank';return true;" size="16" maxlength="255" value="" style="width:100px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-top:3px;margin-bottom:5px;padding:0;text-align:left;color:#000000;"><input type="submit" value="Search NINES" style="width:100px;padding:1px;-x-system-font:none;font-family:arial,helvetica,clean,sans-serif;font-size:99%;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;margin:0;margin-left:7px;text-align:left;color:#000000;"></div>
+            </form>
+         </div>
+      </div>
       <p align="center"><span class="ProjectTitle">Selected Letters from the Ivan S. Gilbert Collection of <br>Stephens Family Travel 
             Letters and Ephemera</span></p>
-      <p align="center"><cite><strong>This edition is currently in progress. Please do
-               not cite this preview until this notice is removed.</strong></cite></p>
+      <div class="mainTOC">
+         <h1>Contents — Reading Text</h1>
+         ¤ <a href="#GS19090706let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 06 July 1909]</a><br><p style="font-size:.85em;">
+            
+            Writing from Seattle, Stephens describes the Alaska-Yukon-Pacific Exposition and the
+            city of Seattle, then reviews her correspondence with friends and family and lists
+            the contents of a package she plans to send to her mother. 
+         </p>
+         ¤ <a href="#GS19090710let01">[Gladys M. Stephens to Mr. A. T. Stephens, 10 July 1909]</a><br><p style="font-size:.85em;">
+            
+            Gladys Stephens describes a multi-day visit to Yellowstone Park where she drove a
+            coach of four horses for 3 days. She mentions her travel companions "the Virginians"
+            and "some Germans."  She describes the exhibits in the Forestry Building at the 1909
+            Seattle World's Fair. She describes the Forestry Building and comments that the Seattle
+            World's Fair buildings will later be used by Seattle College.  She also remarks on
+            Seattle, which she describes as looking "new" but having a number of 12- and 14-story
+            buildings.
+            
+         </p>
+         ¤ <a href="#GS19090714let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 14 July 1909]</a><br><p style="font-size:.85em;">
+            
+            Gladys says that she is not going to Alaska because staterooms for the voyage are
+            in such high demand.  She mentions telephoning the Goulds in Seattle, then talks about
+            her travel companion Mrs. Hughes.  She particularly describes Mrs. Hughes' famous
+            cousins Mrs. Dana Gibson and Mrs. Waldorf Astor as well as Mrs. Hughes' two sons and
+            now-deceased husband.
+            
+         </p>
+         ¤ <a href="#GS19090808let1">[Gladys M. Stephens to Mrs. A.T. Stephens, 08 August 1909]</a><br><p style="font-size:.85em;">
+            Gladys tells her mother of the group's return to Seattle; anticipates a visit to
+            a wealthy Texan's ranch; makes ambiguous references to what we would assume is news
+            or gossip 
+            of friends and acquaintances from home; mentions correspondence with a few other individuals;
+            
+            and brags about being shown around by Uncle Alex and the "plans for next summer" already
+            in the works.
+            
+         </p>
+         ¤ <a href="#JM19090813let01">[James J. McIntyre to Gladys M. Stevens, 13 August 1909]</a><br><p style="font-size:.85em;">Writing from Seattle, J. J. McIntyre crafted an 8 page love letter to Gladys M. Stevens.
+            
+            The letter describes certain details about McIntyre's life as a merchant marine, including
+            his annual salary 
+            and his transfer from the Santa Clara to the North Western.
+            
+            
+         </p>
+         ¤ <a href="#CLA19090820let01">[Cora L. Anderson to Mrs. A. T. Stephens, 19 August 1909]</a><br><p style="font-size:.85em;">
+            Writing from Sherborn, Massachusetts, Cora Anderson, Gladys's cousin, tells her aunt
+            about the birth of her new baby.
+            She mentions having received a letter from Gladys while the latter was traveling in
+            Colorado.
+            
+         </p>
+         ¤ <a href="#JJM19090821let01">[James J. McIntyre to Gladys M. Stephens, 21 August 1909]</a><br><p style="font-size:.85em;">
+            
+            
+         </p>
+         ¤ <a href="#JJM19090823let01">[James J. McIntyre to Gladys M. Stephens, 23 August 1909]</a><br><p style="font-size:.85em;">
+            Guard watch; weather; pictures; Little Gladys
+            
+         </p>
+         ¤ <a href="#GS19090906let1">[Gladys M. Stephens to Mrs. A.T. Stevens, 06 September 1909]</a><br><p style="font-size:.85em;">
+            Gladys is waiting for mother's (A.T. Stevens) letter, is something wrong? Alaska ring
+            arrived. 
+            Pillow.
+            
+         </p>
+         ¤ <a href="#">[James J. McIntyre to Gladys M. Stephens, 13 September 1909]</a><br><p style="font-size:.85em;">
+            Black Ball line; Alaska; passengers; freight.
+            
+         </p>
+         ¤ <a href="#GS19090922let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 22 September 1909]</a><br><p style="font-size:.85em;">
+            Writing from El Paso, Gladys evaluates Adelaide's wedding purchases 
+            and fiance, as well as Gladys's experience with head lice, which she 
+            picked up in Mexico. Gladys also explains to her mother that she is 
+            staying in El Paso longer than she originally planned so she can 
+            witness the Taft-Diaz meeting on October 16th, 1909. She briefly 
+            explains the political tension in Mexico between President Diaz, 
+            Vice-President Reyes, and the general populace. Though Gladys is 
+            definitely writing from El Paso, her exact location within the city 
+            is unknown. Her letter is on stationary from the Office of the Treasurer
+            in Santa Cruz, California, but the postmark indicates she mailed the 
+            letter from El Paso. In her letter, she mentions how her Uncle wants
+            her to extend her stay in El Paso, which suggests she might be staying
+            with him, but then she discusses her extensive time spent with Adelaide,
+            which suggests she is staying with her. 
+            
+         </p>
+         ¤ <a href="#GS19090927let01">[Gladys M. Stephens to Mrs. A.T. Stephens, 27 September, 1909]</a><br><p style="font-size:.85em;">
+            A letter from Gladys M. Stephens to Mrs. A.T. Stephens on the 27th of September, 1909
+            in which
+            Gladys discusses her various relationships and correspondences, including her plans
+            with Adelaide
+            and a number of family associations back home.
+            
+         </p>
+         ¤ <a href="#JJM19091004let01">[James J. McIntyre to Gladys M. Stephens, 04 October 1909]</a><br><p style="font-size:.85em;">
+            McIntyre relates the ship schedule and route for the S.S. Northwestern and spending
+            time with the Purser's 
+            sister in the Ketchikan area. He discusses pictures received from Gladys, and details
+            specifications of the Northwestern compared 
+            to the Santa Clara. McIntyre recounts two auto accidents in the Seattle area and reflects
+            on their meaning for him.
+            
+         </p>
+         ¤ <a href="#GS19091005let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 05 October 1909]</a><br><p style="font-size:.85em;">
+            
+            Writing from El Paso, Stephens mentions some social engagements, 
+            tells her mother about Adelaide's shopping for her wedding, and asks 
+            about pictures she sent previously, which were taken in San Diego. 
+            
+         </p>
+         ¤ <a href="#GS19091011let01">[James J. McIntyre to Gladys M. Stephens, 11 October 1909]</a><br><p style="font-size:.85em;"> Letter from James J. McIntyre to Gladys telling how he missed a ship and how he has
+            recently been telling his mother how much he appreciates all of Gladys's help.
+            
+         </p><br><hr>
+      </div>
+      <div id="maintext">
+         <div id="maincontent"></div>
+         <hr><a name="GS19090706let01"></a><div class="letter">
+            
+            
+            <p>
+                [<a HREF="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png" alt="Photograph of the facade of the Hotel Georgian." target="blank">Photograph of the Hotel Georgian</a>]. 
+               <br>Rates $1.00 up <br>Hotel Georgian <br>European Plan
+               <br>Seattle,_______190___ 
+            </p>
+            
+            
+            <br>7/6 9
+            <br>Dear Mama,
+            
+            
+            <p>
+               I have made my 
+               
+               first trip to the Exposition 
+               Grounds. They are simply
+               dreams of beauty. Such 
+               flowers—and such 
+               quantities of them! There 
+               is one place where there 
+               are thousands and 
+               thousands of white, 
+               lavender and pure yellow 
+               pansies. In one place 
+               there are veritable terraces 
+               of water with a falls between 
+               This expanse is surrounded 
+               by the most beautiful
+               display of poppies I ever 
+               
+               
+               saw. Then there are
+               flowers like those I brought
+               home from Senior Prom.—
+               
+               gerhaniums—<U>dwarf</U>
+               sweet peas—every kind
+               of flowers imaginable.
+               Talk about roses, there
+               are so many here that
+               I can't think what
+               California will be like.
+               I went today with
+               the Virginians. The men
+               were hunting up old
+               friends here in the
+               city. I have a lot of
+               truck, which I am going
+               to send by mail. There
+               are four pictures of
+               Yellowstone which are
+               exquisite—they are
+               as natural as pictures
+               can be. My Princetonian
+               
+               got them for me, and
+               
+               
+               paid a dollar for
+               them. The packages of tea
+               I got at the Japanese
+               tea garden from the
+               little Japanese girl. I
+               
+               ordered (through Hayden)
+               a 5 cent can of condense
+               milk.
+               
+            </p>
+            
+            
+            <p>
+               The buildings are  [fine?] 
+               at the fair. One of the
+               Virginian ladies said
+               this fair is much superior
+               
+               to the St. Louis and others
+               because of its compactness
+               as well as its beauty.
+               The buildings will be
+               used later as college b'l'd'gs.
+               Today we only visited
+               
+               those in the inner circle.
+               The place is laid out in
+               this way
+               
+               
+               <div class="fl_img_right"><img src="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_letter_p4.jpg.jpg?scale=0.2&amp;rgn=235,110,200,200&amp;fmt=png" alt="A freehand sketch of the layout of the fairgrounds."><br>Layout of the fairgrounds.
+               </div>
+               The amusement street
+               is called pay streak—a
+               mining term. 
+               
+            </p>
+            
+            <p>
+               The city has several
+               skyscrapers.
+               
+            </p>
+            
+            <p>
+               There is a Hawaiian
+               village with real bare
+               natives. We are going to
+               visit it later. There also
+               Esquimos and a village.
+               I am sending you
+               also the daily program.
+               Have not found the
+               Goulds yet.            
+               
+            </p>
+            
+            <p>
+               This morning it was
+               raining and I slept until
+               
+               
+               <U>3</U>
+               8.25. We went to
+               the Expo. at 10.30—got
+               back at 4.40. Some day
+               we are going up Puget
+               Sound. I can do quite
+               a stunt at eating now—
+               devoured a small steak for
+               my breakfast—a dish of
+               strawberries, one of oatmeal,
+               two muffins and three
+               pancakes—and a cup of
+               coffee. Sunburn is wearing
+               off a trifle since I have
+               left the park. They have a
+               line of cable cars here, and
+               some odd big ones. The
+               population has increased
+               150,000 in 2 years.
+               
+               I am getting to be
+               quite a critic on buildings
+               with two builders.
+               
+            </p>
+            
+            <p>
+               Havent done much on
+               the writing stunt. I
+               wrote Miss Childs a
+               steamer letter, one to
+               Gus, I think I wrote
+               one to Roswel, and a
+               dozen lines to Nat
+               telling him that I
+               was having a dandy
+               time—never knew
+               where I was going next
+               and did not know
+               when I'd be home;
+               and hoped that he'd
+               have as pleasant a
+               summer as I was
+               having. Found nothing
+               at the P.O. Gee! but
+               I'd like to hear. Will
+               probably be here until
+               
+               the 20th perhaps
+               the 24th. Am not sure
+               as they don't say.
+               
+            </p>
+            
+            <p>
+               Hope you—all are well.
+               
+            </p>
+            
+            <br>Love and kisses
+            <br>Gladys
+            
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc"> ALS. Four loose sheets of cream-colored Hotel Georgian letterhead stationery
+            measuring 6 x 9.5 inches. The front side contains a 2.5-inch letterhead, a 6.75-inch
+            body with blue lines spaced at .375-inch intervals, and a .25-inch bottom margin.
+            The back side contains a .75-inch unlined head, with the body lined as on the front
+            side. An oval watermark, variably placed on each sheet and measuring approximately
+            2.375 x 2.625 inches when entirely visible, reads, in outline letters, "MERCHANTS
+            |
+            PRT'G CO | LURIE &amp; LURIE." The letterhead contains, in the upper left-hand
+            corner, a 1.375 x 2.4375-inch halftone image of the Hotel Georgian facade. 
+         </p>
+         <div class="envelope">
+            Envelope. 
+             Accompanied
+            by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
+            measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch halftone image of the Hotel
+            Georgian facade is printed on the left-hand side of the envelope above the hotel's
+            address. 
+            <p>Return Address: 
+               
+               
+               
+               <br>Hotel Georgian
+               <br>Fourth Avenue
+               <br>Pike &amp; Union
+               <br>Seattle, U. S. A.
+               
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               <br>Mrs. A. T. Stephens
+               
+               <br>26 Emerson street
+               <br>Newton
+               <br>Massachusetts
+               
+               
+            </p>
+            <p>Postmark: 
+                SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 
+            </p>
+            <p>Cancellation: 
+                WORLD'S FAIR SEATTLE 
+            </p>
+            <p>Endorsement: 
+               
+                94<a name="pEndorsements"></a><a href="#nEndorsements" class="annotation" title="Similar numbers are penciled under the cancelled postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second number is circled."><sup>1</sup></a>
+               
+               
+            </p>
+         </div>
+         <hr><a name="GS19090710let01"></a><div class="letter">
+            
+            
+            <p>
+                [<a HREF="https://images.asc.ohio-state.edu/is/image/englishdocs/07-10-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png" alt="Photograph of the facade of the Hotel Georgian." target="blank">Photograph of the Hotel Georgian</a>]. 
+               <br>Rates $1.00 up <br>Hotel Georgian <br>European Plan
+               <br>Seattle,_______190___ 
+            </p>
+            
+            
+            7/10/ 9
+            <br>Dear Pa,
+            
+            
+            <p>
+               I do not know
+               what day we will leave
+               here, but we'll leave soon.
+               Will return to El Paso
+               by way of California.
+               I am decidedly  [tanned?] 
+               from riding up on the
+               top seat with the driver
+               in Yellowstone Park.
+               I drove the coach 3
+               days. There were 4
+               horses and the coach
+               weighs 2400 lbs. It was
+               against the rules, but
+               the driver let me.<a name="pStagecoach"></a><a href="#nStagecoach" class="annotation" title="Gladys most likely drove a 4-horse &#34;Yellowstone Observation Wagon,&#34; which was a type of stagecoach used to take visitors on a &#34;Grand Loop&#34; of Yellowstone Park. Starting in 1884, the Yellowstone Park Transportation Company operated on a stage coach line that began at the Northern Pacific Railroad terminal in Cinnabar, Montana, connected to the hotel at Mammoth Hot Springs, and continued throughout the park. In his 1895 volume The Yellowstone Park, Hiram Martin Chittenden of the Army Corps of Engineers describes &#34;tourist transportation&#34; through the park as &#34;mostly by coach, ordinarily with four horses each&#34; (203). He comments that these coaches were a &#34;necessity&#34; because &#34;The points of interest are so scattered&#34; (274). Department of the Interior, U.S. National Park Service. Chittenden, Hiram Martin."><sup>2</sup></a>
+                When
+               we met another coach
+               
+               or any soldiers the
+               driver took the reins.
+               Talk about sore arms!
+               And my nose, oh my
+               nose! It was terribly
+               burned, looked just
+               like a beet. It has
+               pealed [sic]  now and begins
+               to look more respectable.
+               
+            </p>
+            
+            <p>
+               With us are some
+               charming Virginians
+               and some Germans. We
+               certainly have good
+               times. They are all
+               jolly.
+               
+            </p>
+            
+            <p>
+               The Exposition is fine
+               In The Forestry b'l'd'g
+               are some pretty big
+               <q>"sticks"</q>. One is 74 ft long
+               and 4 1/2 ft sq.  There is
+               a cross section of a tree
+               which is 9 ft. in diam.
+               There is a hollow tree
+               
+               trunk which will
+               hold 50 peopl [sic] . The
+               building is really
+               mammouth [sic] . The columns 
+               are huge trees.<a name="pForestryBld"></a><a href="#nForestryBld" class="annotation" title="The Forestry Building served as a botanical and natural museum after the World's Fair concluded. It was torn down in 1930, at which point the log columns that Gladys describes had been damaged beyond repair by insects. The Forestry Building is described in detail on the University of Washington Library's Special Collections web site as being &#34;sponsored by the State of Washington and was intended to showcase the state's forest resources. Architects Charles Saunders and George Lawton created a building that echoed the European style of Howard's buildings but which also incorporated the log-cabin idiom of early pioneer buildings. Featuring enormous unprocessed logs felled in Chehalis (now Gray's Harbor) County, the Forestry Building's grand colonnade and soaring interior spaces evoked the majesty of Washington's seemingly limitless forests and, not coincidentally, implied the great potential wealth they contained.&#34; University of Washington Library, Special Collections"><sup>3</sup></a>
+                I got
+               what I hope will be
+               a good picture of it.
+               All the b'l'd'g's are fine.
+               and will be used by
+               Seattle College later.
+               Every one who has
+               been to the other
+               Expositions say that
+               This is the best yet.
+               The city is large and
+               steadily increasing, but
+               looks very new. There
+               are lots of large bl'd'gs—
+               
+               plenty of 12 stories and
+               several 14. There are 
+               some dandy hotels.
+               
+            </p>
+            
+            <p>
+               Will Ma be home
+               soon?
+               
+            </p>
+            
+            <p>
+               You had best not ans.
+               This as I will have left
+               before an ans could
+               come.
+               
+            </p>
+            
+            <br>Love
+            <br>Gladys
+            
+            <br>7/10/109
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc"> ALS. Three loose sheets of cream-colored Hotel Georgian letterhead stationery
+            measuring 6 x 9.5 inches. The front side contains a 2.5-inch letterhead, a 6.75-inch
+            body with blue lines spaced at .375-inch intervals, and a .25-inch bottom margin.
+            The back side contains a .75-inch unlined head, with the body lined as on the front
+            side. An oval watermark, variably placed on each sheet and measuring approximately
+            2.375 x 2.625 inches when entirely visible, reads, in outline letters, "MERCHANTS
+            |
+            PRT'G CO | LURIE &amp; LURIE." The letterhead contains, in the upper left-hand
+            corner, a 1.375 x 2.4375-inch halftone image of the Hotel Georgian facade. 
+         </p>
+         <div class="envelope">
+            Envelope. 
+             Accompanied
+            by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
+            measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch halftone image of the Hotel
+            Georgian facade is printed on the left-hand side of the envelope above the hotel's
+            address. The envelope's stamp cancellation reads "WORLD'S FAIR SEATTLE 1909."
+            <p>Return Address: 
+               
+               
+               
+               <br>Hotel Georgian
+               <br>Fourth Avenue
+               <br>Pike &amp; Union
+               <br>Seattle, U. S. A.
+               
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               
+               <br>Mr. A. T. Stephens
+               <br>26 Emerson St.
+               <br>Newton
+               <br>Massachusetts
+               
+               
+            </p>
+            <p>Postmark: 
+                SEATTLE, WASH. / JUL 10 / 1030 - PM / 1909 
+            </p>
+            <p>Cancellation: 
+                WORLD'S FAIR SEATTLE 1909
+            </p>
+            <p>Endorsement: 
+               
+                95<a name="pEndorsements1"></a><a href="#nEndorsements1" class="annotation" title="Similar numbers are pencilled under the cancelled postage stamp on several envelopes in the collection. The second number is circled. For example, the letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99."><sup>4</sup></a>
+               
+               
+            </p>
+         </div>
+         <hr><a name="GS19090714let01"></a><div class="letter">
+            
+            
+            <p>
+                [<a HREF="https://images.asc.ohio-state.edu/is/image/englishdocs/07-14-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png" alt="Photograph of the facade of the Hotel Georgian." target="blank">Photograph of the Hotel Georgian</a>]. 
+               <br>Rates $1.00 up 
+               <br>Hotel Georgian 
+               <br>European Plan
+               <br>Seattle,_______190___ 
+            </p>
+            
+            
+            
+            <br>Dear mother,
+            
+            
+            <p>
+               Was awfully
+               glad to hear from you.
+               Doubt if we can go to
+               Alaska— can't get stateroom
+               so many are going.
+               Have located the Goulds,
+               I telephoned today but she
+               was at the Expo. Got
+               him  [on?]  the phone and I
+               will call later.
+               
+            </p>
+            
+            <p>
+               Mrs. Hughes (the Virginian)
+               is a cousin of Mrs. Dana
+               Gibson and Mrs. Waldorf
+               Astor (in England).<a name="pHughesCousins"></a><a href="#nHughesCousins" class="annotation" title="Mrs. Dana Gibson, born Irene Langhorne, was married to artist Charles Dana Gibson in 1895. Irene's sister Nancy Langhorne married British politician Waldorf Astor and later succeeded him as a Member of Parliament; she was the first woman to sit in the British House of Commons. Nancy and Irene are commonly credited as the source for the iconic Gibson Girl cartoons drawn by Charles Dana Gibson.Wolfe, Margaret Ripley."><sup>5</sup></a>
+                I guess
+               I'll try and visit them.
+               Uncle wants me to visit
+                            
+               visit [sic]  them. Mrs. Jordon
+               (Mrs. H's cousin) has lots of
+               money. Her husband died
+               5 yrs. ago and left a large
+               estate. One of the sons
+               "blew in" $40,000 in 2 yrs.
+                [They?]  could buy a ranch
+               for $12,000 and pay $25,000
+               for improvements. The girl
+               has her money too. Her
+               mink coat only cost $600.<a name="pcoatandranch"></a><a href="#ncoatandranch" class="annotation" title="According to the U.S. Bureau of Labor's CPI Inflation Calculator, $600 US in 1913 is roughly equivalent to $13,751 in 2011 dollars. $25,000 in 1913 was roughly equivalent to $572,952.02 in 2011 dollars.CPI Inflation Calculator."><sup>6</sup></a>
+               I might do worse than
+               to visit the family don't
+               you think. They tried to
+               have me promise to visit
+               them.
+               
+            </p>
+            
+            <p>j
+               Not much to write
+               about now so I guess
+               
+               that I'll stop.
+                [Now?]  Judy dear do take
+               things easy.
+               
+            </p>
+            
+            <br>Heaps of love
+            <br>Gladys
+            
+            <br>7/14/109
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc"> ALS. Three loose sheets of cream-colored Hotel Georgian letterhead stationery
+            measuring 6 x 9.5 inches. The front side contains a 2.5-inch letterhead, a 6.75-inch
+            body with blue lines spaced at .375-inch intervals, and a .25-inch bottom margin.
+            The back side contains a .75-inch unlined head, with the body lined as on the front
+            side. An oval watermark, variably placed on each sheet and measuring approximately
+            2.375 x 2.625 inches when entirely visible, reads, in outline letters, "MERCHANTS
+            |
+            PRT'G CO | LURIE &amp; LURIE." The letterhead contains, in the upper left-hand
+            corner, a 1.375 x 2.4375-inch halftone image of the Hotel Georgian facade. 
+         </p>
+         <div class="envelope">
+            Envelope. 
+             Accompanied
+            by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
+            measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch halftone image of the Hotel
+            Georgian facade is printed on the left-hand side of the envelope above the hotel's
+            address. The envelope's stamp cancellation reads "WORLD'S FAIR SEATTLE 1909."
+            <p>Return Address: 
+               
+               
+               
+               <br>Hotel Georgian
+               <br>Fourth Avenue
+               <br>Pike &amp; Union
+               <br>Seattle, U. S. A.
+               
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               
+               <br>Mrs. A. T. Stephens
+               <br>26 Emerson St.
+               <br>Newton
+               <br>Massachusetts
+               
+               
+            </p>
+            <p>Postmark: 
+                SEATTLE, WASH. / JUL 14 / 7 - PM / 1909 
+            </p>
+            <p>Cancellation: 
+                WORLD'S FAIR SEATTLE 1909
+            </p>
+            <p>Endorsement: 
+               
+               please do not forward
+               
+               96<a name="pendorsements"></a><a href="#nendorsements" class="annotation" title="Similar numbers are penciled under the cancelled postage stamp on several envelopes in the collection. The second number is circled. The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99."><sup>7</sup></a>
+               
+               
+            </p>
+         </div>
+         <hr><a name="GS19090906let1"></a><div class="letter">
+            
+            
+            
+            <br>Mother dear
+            
+            
+            <p>
+               What is
+               the trouble, are you
+               sick? I looked and
+               looked for a letter
+               today, but none
+               came. I declare
+               if I don't get
+               one tomorrow I
+               
+               will send a
+               telegram to
+               to Berenice Smith. 
+               It is pretty warm
+               here now, yet
+               there was a big
+               rain last night.
+               
+            </p>
+            
+            <p>
+               My Alaska
+               ring came here
+               
+               the 23 of Aug. I
+               got it this morning. It is
+               a beauty.
+               
+            </p>
+            
+            <p>
+               Oh about the
+               pillow. Mrs. L.  was 
+               much pleased
+               with it and thought
+               it handsome and
+               it is in the
+               parlour.
+               
+               
+            </p>
+            
+            <p>
+               I do hope that
+               I'll get a letter
+               tomorrow.
+               
+            </p>
+            
+            <br>Heaps of love,
+            <br>Gladys
+            <br>9/6/'09
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc"> One sheet of cream-colored paper measuring 5.5 x 8.11 inches folded in half and written
+            on front and back. The progression of text goes front right, back right, back left,
+            front left. 
+            Contains a hollow font watermark that reads "Saw &amp; Co. / Boston".
+            
+         </p>
+         <div class="envelope">
+            Envelope. 
+            Accompanied by a stamped (stamp is upside down), cancelled, cream-colored envelope
+            measuring 
+            2.8 x 4.25 inches. On the left side of the envelope written sideways in an unknown,
+            penciled hand is 
+            the statement "Hold 9-10-09."
+            
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               
+               <br>Mrs. A.T. Stevens
+               <br>26 Emerson street
+               <br>Newton
+               <br>Massachusetts  
+               
+               
+            </p>
+            <p>Postmark: 
+               El PASO,TEXAS. / SEP 6 / 430 PM / 1909 
+            </p>
+            <p>Cancellation: 
+               U.S. POSTAGE / [Portrait of George Washington; perforated
+               on three edges; upside down; Design A139] / TWO CENTS
+            </p>
+            <p>Endorsement: 
+               
+               N/A
+               
+            </p>
+         </div>
+         <hr><a name="GS19090808let1"></a><div class="letter">
+            
+            
+            
+            08-08-1909
+            <br>Mother Dear,
+            
+            
+            <p>
+               We arrived in Seattle
+               at 7:20 this morning.  It was
+               rather rough last night, but
+               it was just from the wind.
+               It was the only rough place we
+               had coming back.  We had a 
+               dandy time coming back.
+               
+            </p>
+            
+            <p>
+               As a souvenir I have the
+               official list of the passangers
+               who sailed from Seattle.  It
+               was posted by the Purser, and
+               he gave it to me.<a name="pPurser"></a><a href="#nPurser" class="annotation" title="The Purser on a cruise ship traditionally has several important responsibilities. They provide customer service to guests; they also handle money on board, for both the ship's crew and its guests— which may have involved buying luxury goods on credit and bringing them aboard. The Purser also helps guests with paperwork such as customs declarations. Their duties are similar in definition to the ship's steward. So, given that a Purser would be in charge of all manners of record-keeping, both personally and financially, for all people on board, it makes sense that Gladys would have obtained this kind of souvenir from the Purser. target=&#34;#MarineWatch&#34;"><sup>8</sup></a>
+               
+            </p>
+            
+            <p>
+               I'd like to know what is
+               the matter with auntie.  I
+               sent her cards from Yellowstone
+               and some from here — among 
+               them a leather A.Y.P. card.<a name="pcard"></a><a href="#ncard" class="annotation" title="The &#34;A.Y.P. cards&#34; Gladys mentions here are probably postcards from the Alaska-Yukon-Pacific (A.Y.P.) exhibition. A.Y.P. postcards, a large collection of which are housed in Special Collections at the University of Washington Libraries, feature various images from the Alaska-Yukon-Pacific Exposition in Seattle in 1909. Although the Exposition did employ an official photographer for the event, amateur photographers were permitted to take unlimited photos of the event (with certain restrictions) and so several different individuals and publishers made and sold postcards at the Exposition. Some of the postcards are in color (and so may have been manipulated) and others are in black and white. It is interesting that Gladys says the card she sends to her aunt from Seattle is made of leather; leather postcards were a popular novelty item in the first decade of the twentieth century, but were actually banned by the United States Postal Service in the year 1909- so Gladys may have been one of the last citizens to mail one."><sup>9</sup></a>
+               I sent her some from Alaska.
+               also. Almost every time I
+               sent you one I sent her one.
+               
+            </p>
+            
+            
+            <p>
+               I was not sick once while I
+               was gone.  I am enough fatter
+               so that the people here at the 
+               hotel spoof of it.  I'm more
+               tanned also.
+               
+            </p>
+            
+            <p>
+               A Texas judge who is worth
+               3 million <a name="pmillion"></a><a href="#nmillion" class="annotation" title="According to the U.S. Bureau of Labor, this would be about 1.3 billion dollars today, according to the &#34;relative share of GDP,&#34; which is the best of several different calculations to measure an individual's net worth. This, then, would suggest that Gladys is in the company of some astoundingly wealthy people at the Hotel Georgian.CPI Inflation Calculator"><sup>10</sup></a> was on the ship coming
+               back with his wife, two daughters
+               and 2 grandsons.  He owns a ranch
+               in Texas which is about 12
+               miles square.  They have invited
+               me to visit them, and Uncle
+               Alex wants me  [too?] .  He may
+               have a business motive. I
+               will likely stop there for 2 or 3
+               days.  He wants to take me to
+               a real southern hunt.  I can
+               have a pony all for myself he
+               said.  It is an opportunity not
+               to be lost, don't you agree?
+               
+            </p>
+            
+            
+            <p>
+               We had a great time last night- 
+               our last on board.  No one turned
+               in before 12 some not until
+               2.  I did at 12.  It seems awfully
+               funny to be on land again.
+               They certainly were glad to see
+               us here at the hotel.<a name="photel"></a><a href="#nhotel" class="annotation" title="As is clear from previous letters, and from her comment here that &#34;They certainly were glad to see us here at the hotel,&#34; Gladys and apparently the other passengers on the excursion to Alaska stayed at the Hotel Georgian before and after the voyage north, and it is a familiar place to the group. The Hotel Georgian was, in fact, a new hotel in Seattle when these visitors were staying there, built only one year before in 1908. It had seven floors and 108 rooms.r"><sup>11</sup></a>
+               
+            </p>
+            
+            <p>
+               Well you never can tell what
+               people will do.  Walt certainly
+               seems to be the limit.  As for
+               his mother she is the
+               limit.
+               
+            </p>
+            
+            <p>
+               So you like the Thomases?
+               What's that about Berenice? Do
+               you believe it?         
+               
+            </p>
+            
+            <p>
+               I fail to see the point of Mrs.           
+               Rich's joke.  So the tree didn't
+               bloom.
+               
+            </p>
+            
+            <p>
+               I did not send a card to
+                Will Ward. I sent
+               it to his mother !
+               
+            </p>
+            
+            
+            <p>
+               He is a cheerful lier.  I
+               have not sent any more to the 
+               Dotens.  Do not worry.  I got a 
+               letter from Walt which I will
+               enclose.  In it he acknowledges
+                <U>one letter.</U>
+               
+            </p>
+            
+            <p>
+               I did not have any hat on
+               while I was gone. I'm sending
+               a large envelope with one or
+               too things I do not want lost.
+               
+            </p>
+            
+            <p>
+               I got your five letters this
+               morning, and one from Walt,
+               and one from Adelaide.  I'm not
+               sure whether Adelaide is going 
+               to Mexico or not.
+               
+            </p>
+            
+            <p>
+               The Mexican trip is all planned
+               and I start home immediately
+               on getting back.  I'll be about
+               one week late.  U.A. has the day
+               set for us to start to Mexico and
+               all plans  [<U>O.K.</U>?] 
+               
+            </p>
+            
+            
+            <p>
+               He wants me to see all the 
+               people whom he knows.  He has
+               told them about my coming for
+               so long.  I'm doing my best I
+               assure you.  I guess I'm
+               succeeding fairly well.  He is
+               so tickled he does not know
+               what to do.  He is starting plans
+               for next summer already.
+               We are "on" for the pictures.
+               Heaps of love
+               Neddy
+               
+            </p>
+            
+            <p>Address next letters to
+               Los Angeles
+               General Delivery
+            </p>
+            
+            <p>Thanks for 
+               addresses.
+            </p>
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc">This original letter contains five loose sheets of cream-colored Hotel Georgian letterhead
+            stationery
+            measuring 6 x 9.5 inches. They have been folded in half and folded together.  The
+            front side contains a 2.5-inch letterhead, a 6.75-inch
+            body with blue lines spaced at .375-inch intervals, and a .25-inch bottom margin.
+            The back side is unlined.  An oval watermark, variably placed on each sheet and measuring
+            approximately
+            2.375 x 2.625 inches when entirely visible, reads, in outline letters, "MERCHANTS
+            |
+            PRT'G CO | LURIE &amp; LURIE." The letterhead contains, in the upper left-hand
+            corner, a 1.375 x 2.4375-inch image of the Hotel Georgian facade.  It should be noted
+            that other letters
+            in the collection, even as recently as the letters written by Gladys in July from
+            the same hotel, are 
+            likewise composed on Hotel Georgian stationery, but some time in the interim of Gladys's
+            excursion to Alaska,
+            the Hotel Georgian modified its stationery slightly.  The image is now an illustration
+            rather than a photo, and depicts
+            the hotel facade from a more diagonal angle (we see proportionally more of the side
+            of the building. 
+            The font of the letterhead has also changed (tending toward more of a block style
+            than the slanted script)
+            and minor additions have been made.  Near the top border of the paper, the hotel owner's
+            names are printed
+            ("D. Swinehart" and "Fred G. Caldwell"), and new qualifiers have been added under
+            the "Hotel Georgian" moniker.
+            The hotel stationery no longer includes a partially printed dateline ("Seattle, ________190____"),
+            and so
+            Gladys has handwritten the date ("8/8/.09") near the bottom, and slightly left of
+            center, inside the
+            bounded letterhead.  On subsequent pages, she numbers the pages by hand, again within
+            the boundaries of the 
+            letterhead, and in virtually the same place each time but not always in the same style
+            (some page numbers are followed
+            by periods, some by nothing, and one is underlined).
+         </p>
+         <div class="envelope">
+            Envelope. Accompanied by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
+            measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch photographed image of the Hotel
+            Georgian facade is printed on the left-hand side of the envelope above the hotel's
+            address.  Incidentally, the image of the hotel on the envelope corresponds with the
+            
+            image of the hotel facade on the outdated Hotel Georgian stationery.  The stamp is
+            also upside down.
+            <p>Return Address: 
+               
+               
+               
+               <br>HOTEL GEORGIAN
+               <br>FOURTH AVENUE
+               <br>Pike &amp; Union
+               <br>SEATTLE, U.S.A.
+                         
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               <br>Mrs. A.T. Stephens
+               
+               <br>26 Emerson street
+               <br>Newton
+               <br>Massachusetts
+               
+               
+            </p>
+            <p>Postmark: 
+                Seattle, Washington Aug 8 | 9 - PM | 1909
+            </p>
+            <p>Cancellation: 
+                World's Fair Seattle
+            </p>
+            <p>Endorsement: 
+               
+               N/A
+               
+            </p>
+         </div>
+         <hr><a name="JM19090813let01"></a><div class="letter">
+            
+            
+            <br>My Dear little girl
+            
+            
+            <p>
+               It was with pleasure that 
+               I received your Cards &amp; letter 
+               this P.M. but Sorry that 
+               you did not enjoy your trip 
+               And got Such a disagreable [sic]  place 
+               to Stop and I don't like Mr 
+               Holland a bit for taking you 
+               there and if your feelings at 
+               the Depot was any thing like 
+               mine you  [Certainly?]  have my 
+               Sympathy for dear I did not 
+               eaven [sic]  wait untill [sic]  the train pulled 
+               out
+               
+               I knowed that you were not feeling 
+               your best So I did not tell you 
+               the promise that I wished from 
+               
+               you but asked in last letter?
+               And when Mr Holland asked you 
+               if they was any tears <q> [shed?] </q>
+               And allways [sic]  remember honey I 
+               have two Sholders [sic]  a right &amp; also a left 
+               one And you can have your choice
+               or both? by the -- way how is
+               our (I was going to Say little) unkle [sic] 
+               getting along better I hope?
+               
+            </p>
+            
+            <p>
+               I dare not express my feelings
+               in regards to the place where Holland 
+               recommended but honey I said
+               
+               Somefing ossle [sic] 
+                naughty --
+               
+            </p>
+            
+            <p>
+               I don't Care I was mad to think
+               of my little girl being in Such
+               a place If I Could only bin [sic]  there
+               but dear I can never wait 2 years
+               before I see you I simply cant
+               It Seams [sic]  almost a year now
+               And the good old Santa Clara She
+               
+               or <q>he</q> (as it is a mail boat) is a friend
+               of mine And I may Soon be back 
+               
+               again the Chief was down to See me
+               last night and he don't want me
+               to make this trip So I Saw the  [Supt?] 
+                [Engr?] to day and he transferred me to 
+               the North Western  he Sails
+               
+               Monday #16 And he Said If he got
+               Any  news from Santa Clara
+               he would hold me over untill  he
+               Sails and that means  [$?] 
+               1200 per year<a name="pTPA"></a><a href="#nTPA" class="annotation" title="According to the U.S. Bureau of Labor Statistics, $1200 in 1913 would be approximately equivalent to $27,502 in 2011 (CPI Inflation Calculator)"><sup>12</sup></a>
+               
+               &amp; expenses I didn't mind before
+               
+            </p>
+            
+            <p>
+               But now -- Neddie
+            </p>
+            
+            <p>I have not bin [sic]  over to See my mother
+               Since you left for the  [moment?]  She
+               Saw me She would want to know the
+               trouble And the memory of last 
+               Voige [sic]  is to [sic]  
+               Sweet to Share with eaven [sic] 
+               my Mother as yet but I am gradually
+               
+               Coming back to Earth! I only hope
+               I recieve your letter before I go North
+               again I hate to leave at all but
+               I must! I was very much pleased 
+               to hear Uncle A's opinion of me
+               
+               And I hope it will allways [sic]  be the
+               
+               Same or Improve if any thing!
+               
+               "And the Small heap grows to an
+               enormous Size! (this to you  [pet?] )
+               for I will watch every little
+               word for Simptoms [sic]  of the heap.
+               improving for the better
+               And honey tell me all the troubles
+               as well as pleasures So I may share 
+               them with you as I really feel
+               As I am reading your letters that
+               I am with you I was up town
+               this afternoon and Saw a few
+               
+               
+               Texas hats but not the right one
+               or the right face but I did not 
+               stay long and am staying aboard
+               to night I have not bin [sic]  to the fair
+               Since and do not think I will go again
+               I can safly [sic]  make the promise never
+               to Smoke cigaretts again and regards
+               to Drink It will be a bitter  [dissaperiture?] 
+               that will ever Start me again it  [fully?] 
+               makes me Shudder to think of you being
+               Any where near that Class in portland
+               And I hope you will have a better
+               time in San francisco!          
+            </p>
+            
+            <p>
+               if we only had had a little time to
+               ourSelves the night before on the
+               
+               morning you Sailed how much
+               better I would have felt for I
+               Cannot make my Self believe
+               but what Something will happen
+               Forgive me dear if that Seames [sic] 
+               unjust but It Seames [sic]  to [sic]  good to last
+               but will live in hopes!
+               
+            </p>
+            
+            <p>
+               Mr Jones was enquiring [sic]  about today
+               And he told me if I heard from you
+               to remind you of the picture you
+               know which one.
+               
+            </p>
+            
+            <p>
+               well neddy the lights will be
+               agoing out Soon as it is nearing 10 P.M.
+               give my very best regards to Uncle A
+               And Some to Mr Holland and remember
+               I am anxiously awaiting a reply
+               
+               to last letter which is on the
+               road before this And I hope to
+               have Heaps of letters with heaps
+               of love on my return from
+               this Voige [sic]  I will write again
+               before Sailing so you will know
+               how &amp; where I am
+               
+            </p>
+            
+            <p>
+               Good By [sic]  little girl
+               
+            </p>
+            
+            <br>I Remain as Ever Yours in big 
+            
+            "Heaps"J McIntyre
+            <br>&amp; lightboat<a name="pLB"></a><a href="#nLB" class="annotation" title="&#34;Lightboat&#34; commonly refers to &#34;lightship,&#34; a term used to describe the ships used by the federal government in tandem with lighthouses to help keep American coasts safe. According to the National Park Service, &#34;In all, 179 lightships were built between 1820 and the 1952 and in 1909, the heyday of the United States Lighthouse Service, there were 51 lightships (46 on the eastern seaboard and five on the Pacific Coast) on station in the United States&#34; (Maritime Heritage Program). McIntyre apparently worked on one of the five lightships stationed on the Pacific coast."><sup>13</sup></a>
+            
+            <br>"Note Date"
+            <br>Friday 13th / 09
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc">ALS. Four loose sheets of unlined, cream-colored paper measuring 10.25 x 6.4375 inches.
+            
+            Each sheet has been folded in half, but not gathered, to create two leaves, each measuring
+            5.125 inches wide.
+            
+         </p>
+         <div class="envelope">
+            Envelope. 
+            Accompanied by a stamped, cancelled, cream-colored envelope measuring 5.25 x 3.75
+            inches.
+            
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               <br>Miss. Gladys. M. Stephens.
+               
+               <br>San Francisco
+               <br>California
+               
+               
+            </p>
+            <p>Postmark: 
+                SEATTLE, WASH. / AUG 14 / 130 PM / 1909 
+            </p>
+            <p>Cancellation: 
+                WORLD'S FAIR SEATTLE 
+            </p>
+            <p>Endorsement: 
+               
+               N/A
+               
+            </p>
+         </div>
+         <hr><a name="CLA19090820let01"></a><div class="letter">
+            
+             <br>  <br> Sherborn, Mass. 
+            <br> My dear Aunt:
+            
+            
+            <p>Please dont [sic] 
+               feel that I have neglected 
+               you more than others for 
+               we have had so much on our 
+               minds and hands for the last
+               few weeks that we have left 
+               almost everyone else out. 
+               We have a nice baby boy. <a name="pBabyWillis"></a><a href="#nBabyWillis" class="annotation" title="According to Massachusetts birth records, Cora's son Willis Goodwin Anderson was born August 4, 1909, so at the time this letter was written, he was about two weeks old Massachusetts Births"><sup>14</sup></a> A 
+               good big baby, not a little 
+               teeny weeny. You know I 
+               wished for a small baby, but 
+               now that he is here I am glad 
+               he is strong and perfect. If 
+               I can only keep him well I 
+               shall be happy. I am not very 
+               strong yet but am gaining 
+               
+               every day a little, but I shall have to be 
+               careful for awhile yet. Gladys is pleased 
+               with her little brother and Willis is pleased 
+               with his little son. I have only heard from 
+               Gladys Stevens once. She was then in Colorado.
+               I had hoped she would keep me posted as to 
+               her travels. I suppose she will be home before 
+               a great while now with many, many entertaining 
+               things to tell you. I have thought of her very 
+               often. Give my love to her when you see or write 
+               her and tell her about my baby boy. You must 
+               have missed her a very great deal. I hope you 
+               are well. I am not able to do any house work yet. <a name="pWork"></a><a href="#nWork" class="annotation" title="According to a 1908 study, the majority of women engaged in house work resumed work ten to fourteen days after childbirth Employment of Women"><sup>15</sup></a>
+               Must not write any more this time. With love 
+               I remain
+               
+            </p>
+            
+            <br>Your affectionate niece 
+            <br>Cora L. Anderson. 
+            <br><U>Aug. 19th. '09.</U>
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc"> One sheet of tan stationery, measuring 7 x 8.75 inches, with blue lines .25 inch
+            apart, starting 1.875 inches from the top of the page. 
+            The paper is folded in half to create a single gather of two leaves or four pages.
+            The letter begins on the 
+            front page, written horizontally following the lines. On the inner two pages, the
+            paper was turned 90 degress,
+            and the writing runs perpendicular to the lines.  
+            
+         </p>
+         <div class="envelope">
+            Envelope. 
+              
+            Accompanied by a stamped, cancelled, cream-colored envelope
+            measuring 3.0625 x 5.375 inches. The envelope is torn on the side.  
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               Mrs. A. T. Stephens 
+               <br>26 Emerson St. 
+               <br>Newton 
+               <br>Mass. 
+               
+               
+            </p>
+            <p>Postmark: 
+                SHERBORN, MASS. / AUG 20 / A. M / 1909 
+            </p>
+            <p>Cancellation: 
+               
+               N/A
+               
+            </p>
+            <p>Endorsement: 
+               
+               new baby by neice 9—F <a name="pEndorse"></a><a href="#nEndorse" class="annotation" title="The penciled number here doesn't seem to match the pattern on the other envelopes since the second digit is a letter rather than a number. This endorsement also includes a description of the contents of the letter."><sup>16</sup></a>
+               
+               
+            </p>
+         </div>
+         <hr><a name="JJM19090821let01"></a><div class="letter">
+            
+            
+            <br>Dear little Girl
+            
+            
+            <p>
+                As I am now standing my last
+                watch before arriving at Juneau
+               <a name="pWatch"></a><a href="#nWatch" class="annotation" title="Typically a Marine watch is divided into two parts: a afternoon watch (noon-4:00pm)and a late evening watch (8:00pm-12:00am). Given that at the end of his letter JJM writes that he will bid Gladys &#34;goodnight&#34; and then immediately switches to &#34;or rather good morning&#34; he was likely on duty for the latter assignment at the time this letter was written. Nautical Dictionary"><sup>17</sup></a> 
+                and I am still a wondering
+                and lonesome as usual I thought
+                I would write a fiew [sic] 
+                which will probbely [sic]  be the
+                last chance to mail unless they
+                is a boat farther north than
+                 [Cordova?]  which seldome [sic]  happens
+                It is now 1:30 a.m. as I am
+                still on the same 12/4 as I was 
+                on Santa Clara and we should
+               
+               
+                arrive in  [Juneau?]  about noon and 
+                I do not know how long we will 
+                be there and  [?]  cannot say if I 
+                can get up to see about the pictures
+                but will try.
+               
+            </p>
+            
+            <p> 
+                As I said before Neddy dear I am writing
+                on watch so please excuse pencil and a 
+                few finger marks you will  [I?]   [know?] 
+                tell Uncle a that we have  [good?] 
+                school teachers aboard this time and 
+                I think he could enjoy him self
+                and Neddy I have found a sweet
+                little girl aboard and her name
+               
+               
+                is Gladys So you know she must
+                be Ok. She seames very fond of me
+                and gave me a kiss the first time I
+                saw her but honey the poor little 
+                thing is only 2 years old So don't know
+                any better. we are having very smooth
+                weather so far but plenty of rain 
+                we crossed Mill bank sound  yesterday
+                do you remember that place I 
+                 [?]  do that so the first time
+                I ever had the pleasure of speaking
+                to you and how bad you felt I think
+                I could have a little more sympathy
+                if we ever have the pleasure of 
+                crossing there together again
+                don't you honey?
+               
+                which I hope will be no later than
+                the spring of 1910 do <U>you</U>? Tell me this
+                This is the first time in a long time
+                that I hated to leave Seattle on account
+                of not being there when my letters
+                arrived and again when I am at sea
+                well I know where I am at
+                least? I had two letters before sailing
+                this time one Sunday and one Monday
+                at  [5 p.m.?]  from a passanger that
+                went north on this boat last
+                Spring but which I did not talk
+                to but twice but she had a notion
+                or fancy but Neddie dear the 
+                answers to both were the same
+                and was this—<U>Impossible</U>
+               
+               
+                to see you am to [sic]  busy that's all
+                and the season. Neddy would not like
+                it and what a different feeling
+                comes over one when they have done
+                what they know to be wright [sic]  Indeed
+                it is a pleasure.
+               
+            </p>
+            
+            <p> 
+                you said two [sic]  always remember and
+                do nothing for which your mother
+                would be ashamed of you.
+               
+            </p>
+            
+            <p>
+                well little girl well do I remember 
+                the talkings I used to get as a young
+                fellow when going out with the boys
+               
+               
+                as it were or to a party or dance <a name="pDA"></a><a href="#nDA" class="annotation" title="Since the French Revolution in the 1700's, male theatre dancers were considered effeminate. Though JJM is referring to dance as a social practice with his friends, we can see how the dominant culture would have found dancing in general as a gender specific female acivity. When men participated, it was alongside women through ballroom dancing. We do not know if he only attended these gatherings with his male friends or if women would join their group, but in the following lines of JJM's letter, he mentions that his mother would have long talks with him about being a &#34;better boy&#34;. He seems to be referring to the idea that he would get into trouble after coming home from a party or dance. Encouraging Male Participation in Dance"><sup>18</sup></a>
+                how well do I remember in late years
+                how she has talked to me by the hour
+                to be a better boy one for a mother
+                to be proud of in her old age and
+                the last words I hear on leaving 
+                home dearis this remember mother 
+                prays for her boy every night do
+                you wonder Neddy how a boy or
+                man could  [?]  thing to be
+                ashamed of <q>"But honey I have"</q>
+                
+                but did not realize it untill [sic]  I met
+                you honey what a differene between
+                a mothers affections  [?]   [?] and the
+                one girl or the only boy which we
+                are bound to meet some day I do not
+                know if you can understand
+               
+                my feelings in this or not but 
+                please tell me will you dear <U>please</U>
+                if you only knew with what pleasure 
+                I read your letters and watch for 
+                any little words that will lead me
+                to think of  [?]   [heape?] improving
+                how I wonder what your mother 
+                would think of me if she saw me 
+                how I wonder what you think of
+                these letters of mine with us being
+                of quite a different desposition in 
+                a way. Me of a very affectionate 
+                turn of mind and you not so much
+                so but every thing has bin [sic]  so 
+                unusal [sic]  and out of the ordinary
+                that I sometimes wonder how 
+                it all happened do you honey
+               
+                be shore [sic]  and tell me what you
+                think honey of these <U>please</U> do
+                I wonder if you knew how I 
+                 [?]  Uncle a two little good
+                night kisses which I saw him
+                yet But enough of this for envy
+                is the habit of extracting misery
+                from other peoples happiness. 
+                I wonder what influence it 
+                would have on you to have some 
+                one put up an  [argument?]  against
+                me for instance  [?]   [?] 
+                passing fancy and a hundred
+                others but I will trust my 
+                little girl untill [sic]  she tells me 
+                diffarante [sic]  than what I now believe.
+               
+            </p>
+             
+            
+            <p>
+                You asked me if I knew the story 
+                of the red rose <a name="pRedR"></a><a href="#nRedR" class="annotation" title="Text in progress. Limited sources."><sup>19</sup></a><q>"remember how dense
+                   at times"</q> but I can tell you the future
+                of one little rose if you wish
+                be shore [sic]  and tell me of your trip
+                and how you are enjoying your self
+                be shore [sic]  and ask as many questions 
+                as you like do not be afraid honey
+                for I will understand.
+               
+            </p>
+            
+            <p>
+                Oh how much I would give
+                for one or two more nights
+                on Santa Clara with you now 
+                how much could be said
+               
+               
+                and how much better we could 
+                understand but here we are
+                Dear me plowing along miles
+                farther away every day when it 
+                is my desire to be with you 
+                do you know the other day well it
+                was after I finished reading the 
+                first little letter I was talking to 
+                the Chief <a name="pCH"></a><a href="#nCH" class="annotation" title="A Chief Mate is second in command and responsible for supervising all deck department officers and seamen. JJM, as he tells Gladys, is caught day dreaming by the Chief on board. Marine Employment Guide"><sup>20</sup></a> <q>"he calls me his boy also"</q>
+                all at once he grabbed me by
+                the arm and shooked [sic]  me an said
+                wake up boy what's the matter
+                can you think where my mind
+               
+                was. Ms Hollinds remark does not
+                surprise me much honey I am getting 
+                 [?]  them now every day while 
+                I was around the docks it was
+                Hellow [sic]  Mack you look  [lonesome?]  
+                this with a knowing smile.
+                They say absence makes thee [sic]  heart
+                grow fonder I do not haf [sic]  to
+                worry about mine I have none
+                I wonder where it went it
+                I sent in the room honest Dear
+                tell me if you know <U>please</U>
+                
+                well Neddy dear it is  [nearing?]  
+                 [4 a.m.?]  I but you are glad for I 
+                will haf [sic]  to close
+               
+            </p>
+            
+            <p>
+                but be shore [sic]  and tell me all the 
+                news from home tell me if I am 
+                asking to [sic]  much well  [?] 
+                 [honey?]  tell me <U>everything</U> 
+                that isnt asking much is it
+                give my best to Uncle  [a?] 
+               
+            </p>
+            
+            <p>
+                and
+               
+            </p>
+            
+            <p>
+                now I will bid you Goodnight
+                or rather good morning 
+               
+            </p>
+            
+            <br> With heaps of <U>love</U>
+            <br>x J.J.Mc
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc">  </p>
+         <div class="envelope">
+            Envelope. 
+              
+            
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               
+               <br>Miss. Gladys M. Stephens
+               <br>Los Angeles
+               <br>California
+               <br>General Delivery
+                
+               
+            </p>
+            <p>Postmark: 
+                Juneau, Alaska. / Aug 21 / 11 - AM / 1909 
+            </p>
+            <p>Cancellation: 
+               
+               N/A
+               
+            </p>
+            <p>Endorsement: 
+               
+               N/A
+               
+            </p>
+         </div>
+         <hr><a name="GS19090922let01"></a><div class="letter">
+            
+            
+            <p>
+               <br>Santa Cruz, Cal.,_______1___
+            </p>
+            
+            
+            9/22 9
+            <br>Mother dear,
+            
+            
+            <p>
+               Adelaide is getting some lovely
+               things to be married in. She is having
+               a pale blue broadcloth dress made. She
+               has a handsome brown suit.<a name="pWedding"></a><a href="#nWedding" class="annotation" title="Though white wedding dresses were traditionally preferred in the United States and Great Britain since Queen Victoria's wedding in 1840, Emily Holt's 1901 Encyclopaedia of Etiquette allows &#34;brides who are married before twelve o'clock, or who go directly from the altar to a train or boat&#34; to &#34;wear a becoming street dress of ladies' cloth, veiling, or silk, in a pale shade of blue&#34; (Holt 238). Holt adds that if the bride wears this in place of the traditional white wedding gown, her hat is one of &#34;the chief adjuncts of this toilette&#34; (238). Based on Gladys's description of Adelaide's wedding attire in this letter and in her letter to her mother dated October 5, 1909, Adelaide seems to be preparing for a wedding that either takes place before noon or one from which she and her husband immediately depart after the ceremony Holt 238."><sup>21</sup></a> Things are 
+               getting quite interesting I can tell
+               you. Just between you and I "the man"
+               has one bad feature. He takes a cocktail
+               now and then.<a name="pCocktail"></a><a href="#nCocktail" class="annotation" title="Though Gladys uses the term &#34;cocktail&#34; as a particular drink, by 1909 the term &#34;cocktail&#34; referred to a variety of drinks made from bitters and brandy, gin, or whiskey. Gladys's disapproving attitude of alcohol may reflect the growing temperance movement that was very strong in Boston, near where Gladys lived Thomas 49-52."><sup>22</sup></a> No one here seems to
+               mind it and of course I have said
+               nothing. He seems nice other ways and
+               every one [sic]  speaks well of him. He has
+               a good position and makes in the
+               vicinity of $50 a week.<a name="pmoney"></a><a href="#nmoney" class="annotation" title="According to the U.S. Bureau of Labor, $50 in 1913 is roughly equivalent to $1,101.29 in 2010 CPI Inflation Calculator."><sup>23</sup></a> Well all's
+               well that end's [sic]  well. $50 a week
+               and all I would not marry him.
+               Of course he belongs to the club here and
+               the club's favourite drink is coctail [sic] . I've 
+               noticed the odor about everytime [sic]  I've 
+               seen him.
+               
+            </p>
+            
+            <p>
+               I have found out some startling
+               
+               information today. I went to the
+               hairdressers to have a shampoo.
+               On account of the amt. of alkali
+               in the water people can not [sic]  wash
+               their hair with it themselves.<a name="palkali"></a><a href="#nalkali" class="annotation" title="A substance having the characteristics exemplified by soda, i.e. a caustic or acrid taste, the power of neutralizing or effervecing with acids, and of forming soaps with oils OED &#34;alkali&#34;."><sup>24</sup></a> Adelaide
+               &amp; I made arrangements to go together
+               this morning. What do you suppose
+               the woman found--<U>bugs</U> in
+               my head! I got them in Mexico.
+               They all told me I'd be apt
+               to get them. I thought I'd escaped
+               however. Now what <U>do</U> you think
+               of that. Well she worked good
+               and hard and dosed my head and
+               I have to go again Sat. morning.
+               Their deposit was not large and
+               so we have hopes of soon cleaning
+               it all out. You can imagine
+               how I feel. There isn't on the
+               average one American in ten
+               who goes there without getting
+               loaded. Here's hoping I'll be clear
+               of it all soon.
+               
+            </p>
+            
+            <p>
+               Uncle says I <U>must</U> stay to
+               see the Presidents meet and then I
+               can go home immediately after
+               
+               that. He says Dias is so old (79) that
+               I probably will never get another
+               chance to see anything of the kind
+               again. A revolution in Mexico is 
+               imminent if Dias dies. The Vice
+               Pres. Reyes wants to be Pres. and 
+               the people hate him terribly. They
+               have to have Rurales every where [sic]  to
+               keep them quiet now even.<a name="pRurales"></a><a href="#nRurales" class="annotation" title="Rurales were the rural militia and government forces drawn from farmers. In the latter years of President Diaz's presidency, he used the Rurales to censor the press and enforce his dominance through rural areas of Mexico Merrill and Miro."><sup>25</sup></a> He
+               simply will not hear of my going
+               before they meet. He said that he
+               knew you would understand when
+               I explained the situation to you. I
+               shall have every thing [sic] ready to go as
+               soon as I can leave after it's over.
+               The old citizens are going to have a
+               big time and he wants me to be
+               with him. Lots better today. Slept 12 hrs.
+               
+            </p>
+            
+            <p>
+               Hope you are better
+               
+            </p>
+            
+            <br>Love Gladys
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc"> ALS. Two loose sheets of cream-colored Office of the Treasurer, Santa Cruz County,
+            California
+            letterhead stationary measuring 8.56 x 11 inches. The front of each sheet of letterhead
+            contains
+            a 2.125 x 2 inch black and white image of a building in the upper left corner of the
+            page and 
+            an image of flowers with a scroll bearing the words "SANTA CRUZ COUNTY, CALIFORNIA,"
+            along with
+            a medallion emblazoned with the words "Office of Treasurer." The combined image of
+            the scroll, 
+            flowers, and medallion measures 2.125 x 4.25 inches. Underneath the image is text
+            that reads 
+            "W.H. BIAS Treasurer" and "R.W. BIAS Deputy Treas.," followed by a line for the date
+            partially
+            pre-printed as "________ / 1___." The edges of the paper are cleanly cut, though there
+            is some
+            reddish-brown residue at the top of each sheet, which is possibly from an adhesive.
+            The paper has 
+            light blue lines that extend to the ends of the sheet on the right and left sides
+            and that are 
+            0.375 inches apart. On the front of each sheet there are 21 lines, the first one starting
+            3.063 inches
+            from the top of the sheet and the last one 0.1875 inches from the bottom of the sheet.
+            On the 
+            back of the sheet the lines begin 1.125 inches from the top of the sheet and continue
+            until 0.1875 inches
+            from the bottom. The lines are identical on the first and second sheets. Both sheets
+            were placed 
+            together and then folded into thirds to fit into the envelope. The paper is thin,
+            but not overly
+            fragile. There is a watermark in the lower half of each sheet that reads "AGAWAM BOND."
+            When viewing 
+            the front of the sheet, the watermark is upside down and backwards.
+         </p>
+         <div class="envelope">
+            Envelope. 
+             Accompanied
+            by a stamped, cancelled, dark cream-colored envelope made from heavy paper and measuring
+            5.875 x 3.5 inches.There is a printed black and white image measuring 2.75 x 1.875
+            inches 
+            of a log raft on the Columbia River. The text corrosponding with the image reads "LOG
+            RAFT 
+            COLUMBIA RIVER 8 MILLION FT." The stamp is a red 2 cent Washington stamp and the postmark
+            is
+            from El Paso, Texas. The envelope is addressed in a neat cursive script to "Mrs. A.
+            T. Stephens, 
+            26 Emerson Street, Newton, Massachusets." There is an additional endorsement on the
+            envelop in a different
+            hand than the written address of a circled 10, then a 9/25. The 25 is also circled.
+            The envelope
+            is cleanly slit along the right edge.
+            
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               <br>Mrs. A. T. Stephens
+               
+               <br>26 Emerson street
+               <br>Newton
+               <br>Massachusetts
+               
+               
+            </p>
+            <p>Postmark: 
+               El Paso, Texas | Sept. 24 | 7:30 AM | 1909 
+            </p>
+            <p>Cancellation: 
+               [seven wavy lines]
+            </p>
+            <p>Endorsement: 
+               
+                10 9/25<a name="pMysteriousEndorsements"></a><a href="#nMysteriousEndorsements" class="annotation" title="Similar numbers are penciled on several envelopes in the connection."><sup>26</sup></a>
+               
+               
+            </p>
+         </div>
+         <hr><a name="GS19091005let01"></a><div class="letter">
+            
+            
+            <br> <br>609 N. El Paso St.   
+            <br>Mother dear, 
+            
+            
+            <p> Have just  
+               returned from a 
+               birthday luncheon 
+               and this evening 
+               I am going out to 
+               dinner at another 
+               house. 
+               
+            </p>
+            
+            <p> It is as warm 
+               today as a July 
+               day at home. It 
+               will be cool this 
+               
+               evening however. 
+               
+            </p>
+            
+            <p> I am as well as 
+               ever. 
+            </p>
+            
+            <p>  Adelaide is 
+               getting along  
+               finely with her  
+               shopping. Her 
+               evening hat will  
+               cost $52.95. <a name="phat"></a><a href="#nhat" class="annotation" title="According to the U.S. Bureau of Labor, $52.95 in 1913 would be roughly equivalent to $1,213.51 in 2011 CPI Inflation Calculator. This is a sizable sum considering that, as mentioned in Gladys' September 24 letter, Adelaide's fiance made $50 a week. By comparison, hats advertised in a 1909 Sears Roebuck catalog ranged in price from $2.38 to $13.50Olian 1."><sup>27</sup></a>How's that?
+               Everything else 
+               accordingly.
+               
+            </p>
+            
+            <p>
+               I am wondering
+               what you think
+               of the pictures. 
+                
+               They were taken 
+               in San Diego 
+               and that dress 
+               was all I could 
+               wear. There was 
+               no primping for 
+               those pictures I 
+               can tell you. 
+               
+            </p>
+            
+            <p>
+               Got your card 
+               yesterday. 
+            </p>
+            
+            <p> Were you 
+               surprised about 
+               the pictures? We 
+               
+               wanted you to  
+               be. 
+               
+            </p>
+            
+            <p> Here they're all 
+               talking about 
+               my <U>return </U>—and 
+               I haven't left yet. 
+               What do you think 
+               of that? 
+               
+            </p>
+            
+            <p> Just wrote to  
+               Pauline. Will 
+               mail it when I 
+               get time. 
+               
+            </p>
+            
+            <p>
+               Hope you are well 
+               
+            </p>
+            
+            <br> Love 
+            <br> Gladys
+            <br>  10/5/09 
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc">One sheet of cream-colored, unlined stationery
+            measuring 7 x 5.5 inches, folded in half to create a single gather 
+            of two leaves or four pages.  
+         </p>
+         <div class="envelope">
+            Envelope. 
+              
+            Accompanied by a stamped, cancelled, cream-colored envelope
+            measuring 3.625 x 2.875 inches. The envelope is slit on the side.
+            
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               Mrs. A. J. Stephens 
+               <br> 26 Emerson street 
+               <br> Newton 
+               <br> Massachusetts 
+               
+               
+            </p>
+            <p>Postmark: 
+                El PASO, TEXAS. / OCT 6 / 4 - PM / 1909 
+            </p>
+            <p>Cancellation: 
+                 
+            </p>
+            <p>Endorsement: 
+               
+               N/A
+               
+            </p>
+         </div>
+         <hr><a name="JJM19090823let01"></a><div class="letter">
+            
+            
+            
+            <br>8/23/09
+            <br>Dear little girl,
+            
+            
+            <p> 
+               once more I am writing on the last
+               watch before arriving in port and in 
+               the wee hours of the morning I promised
+               my self to let you down easy this 
+               time and not write so much but it
+               promises to be a long watch for
+               we are running<a name="prunning"></a><a href="#nrunning" class="annotation" title="The action of sailing before the wind.OED &#34;running&#34;"><sup>28</sup></a> dead slow looking
+               for a prominent Cape! Cape St
+               Elias by name. and a watch under
+               a slow Bell is always a long one
+               for me. I was just up stairs
+               and it is a nasty rainy night
+               and the ship is  [roaling?]  [sic] <a name="prolling"></a><a href="#nrolling" class="annotation" title="The swaying or rocking of a vessel from side to side.OED &#34;rolling&#34;"><sup>29</sup></a> heavy. you 
+               should ought to see my pose in writing this the Kangaroo is not in it.
+               
+               I wonder how you would fell [sic] 
+               better I hope. we are agoing
+               to Valdese [sic]  first the mail hasto [sic]  be
+               delivered at a certain time and we
+               are behind but what's the odds no
+               mail for me and a dozen or two
+               letters would be very nice to me but
+               nothing doing untill [sic]  Seattle again!
+               I started to read a story last night
+               called "the Holy City"<a name="pTHC"></a><a href="#nTHC" class="annotation" title="Although definitive bibliographical information is not available for this title, J.J.McIntyre may be referring to a fiction piece known as The Holy Land, which was published in 1909. Library of Congress"><sup>30</sup></a>
+                and It promises
+               to be good. A few lines which I gave
+               special attention to were these
+            </p>
+            
+            <p><q>what is Love</q></p>
+            
+            <p>A certain boy and a certain girl aggreed [sic] 
+               to go to the same place in the same
+               boat and they both pulled together So
+               what's the odds where they came from?
+               do you aggree [sic] with them.
+               
+               One off [sic]  the many things that
+               you will be told is this honey <q>He's
+                  only a seafaring man.</q> and I will
+               will admit that their Rep.is none
+               too good<a name="pSailorsRep"></a><a href="#nSailorsRep" class="annotation" title="Numerous contemporary sources describe sailors' reputation for crudeness and womanizing. The warning that a sailor has a wife in every port was often repeated during this period.xiii."><sup>31</sup></a> but that comes more from 
+               the sailor class on war ships and
+               sailing vessels and all deap [sic]  water crafts
+               mostly foreigner's and dear I hope too [sic] 
+               be through with this in the near
+               future hence them long 2 years if
+               you can call that near future.
+               and again Burns says a man's
+               a man for all  [o?]  that <q>and that</q>!
+               By the way how is the Scotchman
+               getting along not <q>brooke [sic] </q> I hope I
+               must laugh when I think of the
+               lookson ouncle A's face the day you
+               
+               were In the Engine room I didn't
+               think you noticed. but you afterwards
+               spoke about it no harm for me
+               you asked about my father he was
+               doing nicely when I  [lift?]  thank
+               you neddy
+            </p>
+            
+            <p>we arrived in Juneau @ 11 40 and left 12 40
+               So did not have a chance to see about Santa
+               Clara's pictures but may next time I
+               will not forget them any way when
+               I have the time to get up town
+               I have no pictures of my self but
+               will have some some day and send
+               you one If you wish and don't
+               forget that I have only the postal
+               which by the way is in use every
+               day honey and many thanks for
+               that pleasure but the original is
+               what I wish to see above all else!
+               
+               Never satisfied am I honey
+               but hope to be some day live in
+               hopes and - I know sisint [sic] 
+               
+               nice to be so selfish but it would
+               be ossle [sic] 
+                nice to see you tonight or any
+               other time the sooner the quicker
+               It is now 3 a.m. and still running
+               slow. I suppose you are having a nice
+               quiet sleep long  [one this?]  I hope so
+               I also hope you are having a nice time
+               and have saw lots of interesting places
+               I do not know if they [sic]  is a boat north
+               of us or not but am taking a chance
+               any way it makes me seem closer
+               to you anyway to be writing
+               
+               away and at the same time going
+               farther &amp; farther away take notice
+               I am always looking out for my own
+               pleasure when at the same time I may
+               be trying your patience severely
+               hope not honey deed I do
+            </p>
+            
+            <p>I had a great romp with little
+                Gladys tonight her mother fetched
+               her to my window (I have a room
+               same as the chiefs on Santa Clara only
+               the door opens in Engine room instead
+               of deck) and she hollered for uncle that's
+               what she calls me and I and I took her
+               in side gave her an Orange  [dow?] 
+               to the engine room and she was not
+               a bit afraid and It was a pleasure
+               two [sic]  have only a wee Gladys
+               
+               to talk to and I said lots
+               of things to her about -O well-
+               well she laughed and seemed to
+               enjoy it any way although
+               could not understand
+               
+            </p>
+            
+            <p>I almost believe honey that I 
+               could carry you the same if
+               the opportunity could be and your
+               permission do you
+               I often wonder If you give
+               me  little thought when alone
+               at night after a day of pleasure
+               of pleasure (- I hope) remember
+               dear I am going over the same
+               old  [rout?]  nothing new and
+               nothing to do but think which
+               
+               is not altogether unpleasant for
+               neddy they are always  [of?]  you how
+               glad I will be to get back to Seattle
+               to get my letters so much seems to
+               depend on them how I wished I
+               knew what your mother said
+               for I want to tell my mother
+               all about you on my return
+               but nothing to do but wait and
+               wish for the best is they dear
+               I forgot to tell you I gave up
+               my room in Seattle also my friend
+               or at least he was supposed to be
+               They have just whistled down from
+               the bridge for 5 more  [Reverlitions?]  [sic] <a name="prevolution"></a><a href="#nrevolution" class="annotation" title="Whenever the Commander-in-Chief of a ship desired to increase speed, the crew would cause the engines of the vessel to increase their revolutions.OED &#34;revolution&#34;"><sup>32</sup></a>
+               So they [sic]  will be something doing in
+               a short time and the time is 3 40 and
+               I must write up my log so once more
+               little girl I will bid you good night
+            </p>
+             
+            <br>wif a heaps of love [sic] 
+             X X
+            J.J.Mc
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc"> Four loose sheets of cream-colored stationery measuring 10.25 x 6.50 inches. 
+            Sheets are folded but not gathered. There is no watermark. 
+         </p>
+         <div class="envelope">
+            Envelope. 
+            Accompanied by a stamped, cancelled, cream-colored envelope measuring 5.25 x 3.75
+            inches.
+            address.
+            
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               N/A
+               
+            </p>
+            <p>Postmark: 
+                VALDEZ AUG 23 10 AM 1909 ALASKA  LOS ANGELES d [St.....?]  CAL. 
+            </p>
+            <p>Cancellation: 
+               
+               N/A
+               
+            </p>
+            <p>Endorsement: 
+               
+               N/A
+               
+            </p>
+         </div>
+         <hr><a name=""></a><div class="letter">
+            
+             
+            <br>Dear Girl,
+              
+            
+            <p>  
+               well we arrived &amp; deaparted from ketchukam all OK and
+               will be in Taku (you were there" about 630 and Should be in Juneau 930 a.m and leave for Skagway by 11 00
+               then we go to Chilkoot for 3000 Cases of Salmon
+               and then to Gypsum you remember the last place
+               it is the place that we were agoing going to Stop at after leaving
+               Sitka but for Some reason did not, from Gypsum
+               to Ketchikan to Belling Run  and there Tacoma and me
+               mither mother; we are having no end of fun this trip they was a
+               boat lift Seattle the Same time we did and we have bin been racing
+               all the way up this Companys boat too a freight boat
+               we have accomadations for about &gt;5 passengers on this one
+               and a fine passenger list we have this time a nice large
+               healthy looking bunch but very quiet I have not
+               bin been able to get of them to talk to me they seem afraid
+               they are all Montana and are agoing going to Skaguay
+               well we beat to Ketchkan about 3/4 of a hour but they
+               had no Cargo for there So left ahead of us but they
+               mit S.S. Dolphin and had to change Peluts pallets So we
+               caught up with them and at it again we were
+               
+            </p>
+            
+            
+            <p>
+               Side by each for about 3 hours and they turned off
+               and went another way they go direct to Skag and is
+               45 or 50 miles farther than the way we are agoing going but
+               we make 3 Stops So I do not know how we will
+               make out but are doing our best the worst of it is I
+               was aboard of S.S. Santa Anna Sailing night and was
+               Joshing the Chief about the old freight boat he was on and
+               if they beat us to Skag I will never hear the last of it
+               he is the Chief from S.S. Ohio and as I said before an "auld old
+               acquantance of mine; well honey I've bin been afther after sending that postal
+               Carrier down to see how the knife is getting along; Yes I heard the
+               name of one of the passangers passengers who Seames seems to be a little bolder
+               than the rest and her name is Maud 126 head of Cattle 
+               and 3 Mules and they all Seem to be enjoying the trip and getting
+               along nicely; well we are getting along better than I thought;
+               we have a "Stand By" now So will Say dood good by byefor a little while
+               Hello - well brother Snow and I made the dock all right and
+               we will be away in a Short time; well ittle little girl I have
+               bin been wondering how you are enjoying your Trip and how
+               you will like Mexico you will undoublily undoubtedly See Some
+               very interesting places doon down there, I hope So any
+               way; but nezer never mind dear If every Sing thing goes all
+               I wish (I don't want much do I honey) we will have
+               the trip of your life Some day and we'll be to China
+               &amp; Japan and on down to Manila; Manila is a very
+               Interesting place the old walled City <a name="pIntramuros"></a><a href="#nIntramuros" class="annotation" title="The Walled City of Manila, called the Intramuros, was built as a medieval Spanish colony and was razed and bombed by US and Japanese forces during World War II. Victory in the Philipines"><sup>33</sup></a>for Instance
+               I have Some Souveneirs souvenirs from there or did have
+               any way but most every one that Comes to the
+               house takes Something away and Sometimes I
+               do not like It for some of the things has a
+               history that is Interesting for me anyway
+               
+            </p>
+            
+            
+            <p>
+               and how I would like to see you on going
+               in Some of the Silk and Curioe Shops you would
+               Certainlly do Some talking with those brown eyes
+               I know: "what I  fink [sic] 
+                think" how I would like to
+               see you this morning or tonight ore or anytime and
+               all times; I wished you knew how I have felt
+               since I got your last letters every thing looks brighter
+               and I am as happy as a kid you call me big boy
+               well Sometimes I hardly think I'm that But I
+               Suppose we will be old long enough So we
+               might as well be kids as long as possible and
+               there is only one little Cloud and that is I cannot See
+               you as often as I wish; But "Patience"It may not
+               allways always be this way I don't  fink [sic] 
+                think so any way do you
+               (NO)you needn't answer that honey Those about
+               that #110 did you make it while resting up at El Paso
+               hope So well your last letters was in Ketchikan only
+               about 3 hours lucky wasnt I but dont Know how
+               long this one will be in Juneau when the Postman
+               Comes along with Some of these letters dear you will
+               be looking out for the if poessman postman to see if my honk
+               is coming next I'm afraid
+               
+            </p>
+            
+            
+            <p>
+               I was thinking last night after going to bed
+               if I have the pleasure of  seeing you again in the
+               Depot if our faces will be as large as last time
+               I don't  fink [sic] 
+               think so do you honey does not? I wonder how
+               this fellow knew how I was a going to feel?
+               
+               
+                " 'Tell her, tell I see
+               Those eyes, I do not live--that Rome to me
+               Is hatefull--tell her--oh!--I know not what--
+               That ever thought and feeling, space and spot,
+               Is like an ugly dream where she is not;
+               All persons plagues; all living wearysome;
+                All talking empty . . .
+               <a name="pthatRome"></a><a href="#nthatRome" class="annotation" title="Quotation from Elanor Glyn's novel Three Weeks, set in Rome and Venice. (Glyn 178)"><sup>34</sup></a>
+               
+               There Goes the whistle and So long for a ittlelittle minnit minute [sic] 
+               
+               well dear I hope you get Some letters before you go to Mexico
+               City or You will not know what to think has happened
+               to me; But when you get back to El Paso or home
+               they will not be So much delay and I also hope that I
+               will have "heaps" of letters when I get home the 22nd or 23rd
+               well dear ittle I must Say So long and will write again
+               from Skaguay give my very best regards to uncle alex
+               and Love to ned I Remain The Same
+               
+            </p>
+            
+            <br>"deuf" heaps &amp;heaps of love
+            
+            good day x x
+            the Pleiades x
+            <br>J James 
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc"> ALS. Two loose sheets of cream-colored Alaska Steamship Company letterhead stationary
+            
+            measuring 8 X 10.75 inches. The front side contains a 2.75 inch letterhead, a body
+            with
+            blue lines spaced at 0.375 inch intervals, and a 0.375 inh bottom margin. The letterhead
+            
+            is stamped "FORM 1 10M 8-09" and a 2.75 inch line, followed by "190" and another 0.25
+            inch line. The letterhead contains, in the upper-left hand corner, a half-tone logo
+            for
+            the "ALASKA | STEAMSHIP Co. | BLACK BALL | LINE" 1 inch on all sides.
+            
+         </p>
+         <div class="envelope">
+            Envelope. 
+            Accompanied by a stamped, not-cancelled manilla-colored 6.5 X 3.75 inch envelope,
+            stamped 
+            JUNEAU | SEP | 13 | 1909 | 8 PM | ALASKA. The envelope is stamped in the upper-left
+            hand corner "FORM 7 M.P. 20 M 5-09".
+            
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               <br>Miss. Gladys M. Stephens
+               <br>#126 Leon Street
+               <br>El Paso
+               <br>Texas
+                
+               
+            </p>
+            <p>Postmark: 
+                JUNEAU | 
+               SEP | 13 | 1909 5 PM  ALASKA 
+            </p>
+            <p>Cancellation: 
+               
+               N/A
+               
+            </p>
+            <p>Endorsement: 
+               
+               N/A
+               
+            </p>
+         </div>
+         <hr><a name="GS19090927let01"></a><div class="letter">
+            
+             [<a HREF="https://images.asc.ohio-state.edu/is/image/englishdocs09-27-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.5&amp;rgn=380,38,513,538&amp;fmt=png" alt="&#xA;              Stationary header on this page of an unknown Post Office.&#xA;            " target="blank">Post Office</a>]. 
+             Mother dear,
+            
+            
+            
+            <p>
+               I have just written
+               to  [Ivalor?]  
+               and will send her
+               little box this afternoon by
+               registered mail.
+               
+            </p>
+            
+            <p>
+               I'm feeling lots better
+               than when I came up
+               from Mexico, I am also look-
+               ing better and have begun
+               to gain back some of what
+               I lost in the City.  As to the
+               "bugs" we'll I'm progressing
+               with them too.  Fortunately
+               I didn't get many.  I'm
+               going to the hair dresser this
+               afternoon or in the morning.
+               
+            </p>
+            
+            <p>
+               I'm going to show Mrs L.
+               how to cook Boston Baked
+               Beans some day this week.
+               It is to be a surprise for
+               the men text— if they come out
+               well.
+               
+            </p>
+            
+            
+            <p>
+               She will show me how to
+               make tamalies and also how
+               to eat them so she says. 
+               
+            </p>
+            
+            <p>
+               Adelaide is head over
+               heels in dressmaking.
+               She isn't doing it though.
+               The day is not settled
+               yet, but it will probably
+               be the first week of
+               
+               Nov.
+               
+               
+            </p>
+            
+            <p>
+               She thinks that she
+               will want me to write
+               to 
+               
+               
+               Calif.
+               
+               for ostrich plumes <a name="pOstrichPlumes"></a><a href="#nOstrichPlumes" class="annotation" title="In the period between 1883 and 1912 Ostrich plumes represented a major economic force. During this period production was signficantly ramped up in the United States, particularly the American South, West and Southwest as a means of freeing American consumers from the import market dominated by South African production. Considered fashionable, the feathers combined with Agro-tourism to make California Ostrich Farms a popular destination during this period. Plumes: Ostrich Feathers, Jews, and a Lost World of Global Commerce."><sup>35</sup></a>
+               
+               for her.
+               
+            </p>
+            
+            <p>
+               She is 7 
+               lbs.
+               
+               
+               heavier than
+               I am.
+               
+            </p>
+            
+            <p>
+               All roads lead back to
+               Rome - and
+               with Adelaide
+               all talk turns to <q>"the West."</q>
+               
+            </p>
+            
+             [<a HREF="https://images.asc.ohio-state.edu/is/image/englishdocs09-27-1909_GS_to_ATS_letter_p3.jpg.jpg?scale=0.5&amp;rgn=343,125,633,393&amp;fmt=png" alt="&#xA;              Photo on the stationary of an unknown Forrestry Building.&#xA;            " target="blank">Forrestry Building</a>]. 
+            
+            <p>
+               So Jack Ward is married.  He
+               deserves all he may get.  Where
+               are they living?
+               
+            </p>
+            
+            <p>
+               I got a card from Berenice.
+               
+            </p>
+            
+            <p>
+               Yes, Alice  [Dunne?]  would
+               make you tired, but that
+               was always the way.  The
+               last word I sent her was
+               from the City of Mexico.
+               
+            </p>
+            
+            <p>
+               Have you seen anything
+               of Maynard?  Of  [course?]  he'd
+               be there sometime.  How is
+               Florence carrying sail?
+               
+            </p>
+            
+            <p>
+               How on Earth could the Riches go to 
+               
+               Me.
+               
+               ?
+               
+            </p>
+            
+            <p>
+               I sent Mrs. Duff a card
+               from Mexico
+               
+            </p>
+            
+            <p>
+               Who is in the Ward's 
+               
+               Pd.
+               
+               
+               house?  I suppose Miss
+               Campbell is still  [switching?] 
+               along.
+               
+            </p>
+            
+            <p>
+               How are  the Thomases by
+                
+               this time?
+               
+            </p>
+            
+            <p>
+               Never heard from Philys.
+               The last card I sent to
+               Mabel Nims was so long
+               ago that I've forgotten
+               when it was.
+               
+            </p>
+            
+            <p>
+               Haven't heard from
+               Roswel lately
+               
+            </p>
+            
+            <p>
+               Got a letter from the
+               Jays giving me his
+               address, but had mailed
+               a note the night before
+               to Boston.
+               
+            </p>
+            
+            <p>
+               Have you heard from the
+                [MacQ?] 's 
+               lately.  I wonder
+               what the madam thinks
+               now?
+               
+            </p>
+            
+            <p>
+               Hope you are well.
+               
+            </p>
+            
+            <br>So long for now
+            Love
+            <br>Gladys
+            <br>9/27/09
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc">ALS. Two loose sheets of cream-colored stationary 
+            measuring 5.625 x 9.375 inches. The front side contains a 2.875-inch letterhead, a
+            6.3375-inch
+            body with blue lines spaced at .3125-inch intervals, and a .0625-inch bottom margin.
+            The back side contains an unlined body.
+            The letterhead of the first page contains, in the upper left-hand
+            corner, a 2.5 x 2-inch halftone image of a Post Office
+            The letterhead of the second page contains, in the upper left-hand corner,
+            a 2.75 x 1.5-inch halftone image of a Forrestry Building
+            
+            Oregon Timber Company
+            
+            
+            Envelope picture of the Oregon Timber Company
+            
+            
+            
+         </p>
+         <div class="envelope">
+            Envelope. 
+            Accompanied by a stamped, cancelled, cream-colored envelope on unknown stationery
+            measuring
+            6 x 3.5-inch.  A 2.5 x 2-inch halftone image of Oregon Timber is printed on the left-hand
+            side
+            of the envelope.
+              
+            
+            <p>Return Address: 
+               
+               
+               
+               <br>Hotel Georgian
+               <br>Fourth Avenue
+               <br>Pike &amp; Union
+               <br>Seattle, U. S. A.
+               
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               
+               <br>Mrs. A. T. Stephens
+               <br>26 Emerson street
+               <br>Newton
+               <br>Massachusetts
+               
+               
+            </p>
+            <p>Postmark: 
+               
+            </p>
+            <p>Cancellation: 
+                
+            </p>
+            <p>Endorsement: 
+               
+                94
+               
+            </p>
+         </div>
+         <hr><a name="JJM19091004let01"></a><div class="letter">
+            
+            
+            <p>
+               
+               <br>Form 1 10m 8-09 <br>
+                [<a HREF="https://images.asc.ohio-state.edu/is/image/englishdocs10-04-1909_JJM_to_GS_letter_p1.jpg.jpg?scale=0.3&amp;rgn=60,45,240,240&amp;fmt=png" alt="Logo of the Alaska Steamship Company Black Ball Line" target="blank">Logo of the Alaska Steamship Company</a>]. 
+               <br>Alaska Steamship Company 
+               <br>_______190___ 
+               
+            </p>
+            
+            
+            <br>10/4 1909 
+            5 A.M. 
+            <br><br>Dear Girl
+            
+            
+            <p>
+               well honey
+               I will be In Seattle tonight about 
+               11<sup><U>32</U></sup> I 
+               fink [sic] 
+               ! that's bad for I Cannot get my mail 
+               untill [sic]  tomorrow,  
+               we missed the tide in 
+               Seymor [sic]  
+               Narrows and had to Anchor for 4 hours and that's 
+               the reason why. I <U>do</U> hope I will have a letter 
+               from El Paso Saying you got there all O.K. but 
+               I am afraid I will hafto [sic]  wait another day 
+               At least! how I would like to See you 
+               dear (how I 
+               would) And See if they [sic]  is any Change in my 
+               Ittle [sic] 
+                
+               girl with all her travels I don't fink [sic] 
+                
+               So—hope not— 
+               Any way! we are a day ahead of time on the time 
+               I Set as we only have a half a cargo It looks bad 
+               for another trip but 
+               ofcorse [sic]  Cannot tell 
+               untill [sic]  
+               we get home, I hope we do not lay up now as 
+               I have quite enough changes for one year let's 
+               See 5 Ships all the Same tramp Engineer<a name="pJJM19091004note0"></a><a href="#nJJM19091004note0" class="annotation" title="A tramp engineer has little formal training, learns on the job, and frequently moves from job to job. In The Engineers' Review volume 16 (1905), I. C. Lloyd defends the tramp engineer as competent compared to the the traditional worker allied to one or two jobs, even though the tramp engineer also won't work in a place long enough to get married to the job. They like new scenes and experiences and won't take back talk from anybody Lloyd 18. The context of McIntyre's statement suggests that he is (and has been) the tramp engineer. In his letter to Gladys of 13 August 1909, he asks the company's superintendent engineer to transfer from the Santa Clara to the Northwestern. Later in the current letter (04 October 1909), he details the number of the Santa Clara's engineering crew, and he exhibits at least a neophyte familiarity with technical specifications and boiler operation."><sup>36</sup></a>
+                we have had 
+               exceedingly fine weather this Voige [sic]  
+               It didint [sic]  
+               even have Sense enough to rain only once we have 
+               the Crew: the Cannery Crew from Klawock (this is 
+               the way it is Klaw-wock) and no Totem
+               <a name="pJJM19091004note1"></a><a href="#nJJM19091004note1" class="annotation" title="Tuxekan was renowned for its totem poles, and Klawock created a Totem Park to display authentic and replica totem poles, which McIntyre seems to anticipate here Visitor Information. The preservation effort doesn't seem to be isolated, as a 1927 New York Times article laments the Alaskan Indians' scant regard for the ritual of the old tradition of totem-making and relates the need for funds for the preservation of these monuments Deserted Totems of Alaska. Totems at old Tuxekan Photograph of totems at old Tuxekan, Alaska's Digital Archives and Alaska State Library"><sup>37</sup></a>
+               yet honey 
+               
+               we arrived at Klawock at 
+               9<sup><U>28</U></sup>
+               -9/29
+               —and left 12<sup><U>30</U></sup>
+               -9-30 
+               and I expected to be there at least 24 hours and the Indian 
+               Village is acrost [sic] 
+                the bay from the Cannery<a name="pJJM19091004note2"></a><a href="#nJJM19091004note2" class="annotation" title="[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878. Until 1920, it remained the only salmon cannery in the state Visitor Information. McIntyre may intend for his involvement with what at the time was leading industrialization to impress Gladys, as he later takes a boastful tone when explaining the specifications of the Northwestern in comparison to other ships. The Cannery at Klawock Photograph of the Klawock cannery, Alaska's Digital Archies and Alaska State Library"><sup>38</sup></a>
+                
+               and that's 
+               why [!?]  we was [sic]  
+               in Ketchikan about 2 hours coming 
+               home the Pursers [sic] 
+                Sister and I went up to the 
+               falls the lower ones<a name="pJJM19091004note3"></a><a href="#nJJM19091004note3" class="annotation" title="A promotional travel guide published by the Alaska Steamship Company describes Ketchikan as a tourist destination, and the waterfalls represent not only the leisure of sightseeing but also the rapid growth and modernization of Ketchikan's infrastructure. The city has run pipes to the falls of the Ketchikan river which gives the citizens an opportunity to procure water direct from this cold and refreshing stream. It is said to be the best system in Alaska. Ketchikanites need have no fears of disease germs lurking in their drinking water. McIntyre and Palmer likely took what the guide calls a jaunt of two miles along the Ketchikan River to the city's intake, where [a] walk has been built near the bank of this winding stream and the tourist wends his way among the timber until the first falls are reached A Trip to Wonderful Alaska. Ketchikan in Wonderful Alaska Boat view of Ketchikan in the Alaska Steamship Company's guide book A Trip to Wonderful Alaska"><sup>39</sup></a>
+                honey 
+               not way up  where 
+               we went She got Some Pictures! It was a fine day and 
+               She is good Company—But—what a differance [sic]  from 
+               the last time I was there! She is only 17 years of age 
+               and the only girl of the family and 
+               you Can See She has 
+               bin [sic]  
+               in the habit of having her own way and She Is quite a little 
+               flirt—but a nice girl. She Cannot understand me at all, as the 
+               Purser and my self [sic]  is [sic] 
+                the only two on the Ship that 
+               hasent [sic] 
+                a little wife and large family (the Chief's #2 20) 
+               and this Ship Carries no freight Clerk 
+               the purser has that 
+               work to look after and 
+               So It has bin [sic]  up to me to show her around! 
+               and It Seemes [sic]  quite nice to have Some one 
+               of <U>my</U> own 
+               age to talk to (honest that's allI am) 
+               I gave her a long talk Sat
+                night 
+               about her fellows, and her self she did not like it a littl [sic] 
+                
+               bit but had to listen all the Same! 
+               I have not Saw [sic]  her Since 
+               yes all right (Irene Palmer) speaking of pictures 
+               dear 
+               I fink [sic] 
+                the world of that one you sent me, 
+               but honey 
+               havent [sic]  
+               you got your hair Comed [sic] 
+                
+               differant [sic]  than when you were 
+               here! I fink So and listen 
+               dear did you know that you 
+               was [sic]  agetting 
+               a lttle [sic]  kiss every night about 
+               9<U>30</U> well you 
+               are—See how I take advantage of you when you are not here 
+               take notice tonight honey 
+               at that time and see if you Can Catch me 
+               at It—I wonder if you will be So Economical with 
+               then when I See you again  <U>hope not</U> 
+               Sisent [sic] 
+                nice of you I fink [sic] 
+                
+               tell me dear 
+               
+               I do not know if I told you about the Northwestern 
+               or not! Yes She 
+               Is a big Ship about 3 timesmore the power 
+               than Santa Clara. 
+               She had about 3000 hors [sic]  
+               pow [sic]  (now do you 
+               know—no—well perhaps you Can get a better Idea 
+               this way Engine room Crews Northwestern 25 men 
+               Santa Clara 13—and this Soap box
+               <a name="pJJM19091004note4"></a><a href="#nJJM19091004note4" class="annotation" title="Here McIntyre seems to be referring to the boat on which he's currently sailing to catch up with the Northwestern. The diminutive connotation fits with the boastful tone that he has assumed to impress Gladys with the size and power of the Northwestern. Interestingly, the term soap box hasn't yet entered common usage as a way of designating a smaller, unpowered or low-power vehicle. It's possible that the &#34;soap box&#34; is a lightboat, which appears in the closer to McIntyre's letter to Gladys of 13 August 1909."><sup>40</sup></a> 8—Northwestern 6 boilers 
+               Clara 2 Northwestern
+               burns 70 tons coal in 24 hours Clara 
+               28 or 30 the Northwestern is only a day ahead of us now 
+               and She is 11 or 12 days behind time must have had all kinds 
+               of trouble with her boilers they are in a dangerous 
+               Condition but I like her just the Same If Someone 
+               don't [sic]  
+               get badly burnt It will be a wonder!<a name="pJJM19091004note5"></a><a href="#nJJM19091004note5" class="annotation" title="The Locomotive reports that on 11 March 1909, [a] boiler exploded .&nbsp;.&nbsp;. on the steamer Weitchpec and Fireman Elmer Dennis was fatally scalded March, 1909 171. The serious and fatal nature of boiler accidents is clearly conveyed in the volume's sizeable monthly catalogues. Additionally, a 1916 issue of The Popular Science Monthly laments that [a]t present the life of coal-passers and engineers is one of extreme hazard. To maintain pressure in the various compartments in the engine room, it is necessary for the men to enter or leave by means of air locks .&nbsp;.&nbsp;. This method of entrance and exit is, therefore, very slow, and should the compartment become suddenly filled with steam or noxious gases, all the men at work could not gain the outer air in time to save their lives Saving Men from Scalding Steam in Steamship Engine Rooms 254."><sup>41</sup></a> 
+               
+            </p>
+            
+            <p>
+               while we were in last trip they [sic] 
+                was a bad Auto accident 
+               a machine and a party of 6 was [sic]  coming from 
+               georgetown in the 
+               Small hours of the morning and run [sic]  off the 
+               tresle [sic]  and turned 
+               Completely over 1 killed and 4 Seriously Injured 3 of 
+               them has [sic]  died Since we 
+               Cam [sic]  away the driver is in Jail 
+               that was my old Corse [sic]  but 
+               <U>no</U> more dear
+                no more 
+               for me!<a name="pJJM19091004note6"></a><a href="#nJJM19091004note6" class="annotation" title="The September 23 issue of The Seattle Star reports that a big Pope-Toledo automobile crashed through the bridge railing at Fourth av. S. and Lane st. shortly before 6 o'clock this morning. It crashed to the tideflats below and turned turtle, pinning its occupants beneath. The auxiliary gas tank caught fire upon the vehicle's crash. The driver, Henry Hiser, managed to extricate himself and another passenger, but he scurried from the scene and was later placed under arrest Two Girls Burned and Crushed Beyond Human Resemblance. The October 1 issue of The Seattle Republican further explains that Hiser hauled a seventeen-year-old girl from saloon to saloon all night long and drank until he was almost beastly drunk and then started over a dangerous road to the city at a speed of a mile a minute Henry Hiser. McIntyre seems to admit here that he used to practice a similar lifestyle. In his letter to Gladys of 13 August 1909, he expresses his committment to abstaining from drinking and the repugnance of the idea of Gladys spending time with the drinking Class."><sup>42</sup></a>
+                they [sic]  was also a 
+               Street Car Accident at the fair grounds 
+               1 killed and 50 wounded but none Seriously!<a name="pJJM19091004note7"></a><a href="#nJJM19091004note7" class="annotation" title="The October 1 issue of The Leavenworth Echo reports that a Wallingford Avenue street car in Seattle jumped the track on a curve near the main gate of the [Alaska-Yukon Pacific] exposition. One man was killed, fifty five injured. It was the first serious street car accident since the exposition opened News of Pacific Northwest. Drawing from contemporary articles in The Seattle Times and The Seattle Post-Intelligencer, Stein corroborates that [o]n September 24, 1909, a Seattle Electric Company streetcar jumps the track at the corner of E 40th Street and 14th Avenue NE (later University Way). The streetcar crashes into three concession buildings across the street from the main entrance of the Alaska-Yukon-Pacific Exposition. One passenger, Frank Hull of Tacoma, is killed, and 55 men, women, and children are injured Stein."><sup>43</sup></a>
+                little 
+               do we know how Soon we will be blotted out 
+               of this world the best we Can do is to always be ready 
+               
+               I Suppose you have bin [sic]  through most of
+               them [sic]  
+               letters by this time hasent [sic] , 
+               U. and I wonder what you 
+               think! yes I do—I wonder what 
+               Uncle A thinks I wonder 
+               Sometimes what I think! I Suppose you will be 
+               getting ready for home in a Short time now! will you 
+               be glad to get home honey 
+               I fink [sic] 
+                So! 
+               you have bin [sic]  gone from 
+               home quite a while havent [sic]  you? 
+               In another year you will be gone 2 months from here! that's the way the time 
+               goes to me well honey 
+               I fink [sic] 
+                I had better 
+               sing [sic]  off I do 
+               not want to take up all of your time—yes I do 
+               to [sic] —
+               but I must not be to [sic]  Selfish 
+               Sisent [sic] 
+                nice! tell me 
+               dear 
+               about writing  As you will be on your way 
+               home before we finish another Voige [sic]  
+               and tell me about 
+               writing to your home (&amp;tc) <U>how</U> I would like to see you 
+               this A.M. So long 
+               honey 
+               
+            </p>
+            
+            <br>"Wif" a 
+            Big heaps [sic] 
+             
+            <br>10/4/09
+            <br>JJ<U>Mc</U>
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc">
+            ALS. Two loose sheets of dirty white Alaska Steamship Company letterhead stationery
+            
+            measuring 10.875 inches by 8.5 inches, with light blue horizontal lining on the recto
+            
+            beginning 2.75 inches from the top and spaced .375 inches apart. Above the 
+            lining, centered at the top of the page, and measuring 4.25 inches by .25 inches is
+            
+            "Alaska Steamship Company", below which and right-justified is a solid black line
+            
+            interrupted by "190" for the date of composition. Measuring approximately 1 inch 
+            by 1 inch at the top left corner of the recto is the Alaska Steamship Company 
+            logo, reading "Alaska | Steamship Co. | Black Ball | Line" over a black sphere in
+            front 
+            of a staff and flag with a black circle centered on a white background. At the extreme
+            
+            top left of the recto, in small block text, is "form 1 10m 8-09". A variably and 
+            transversally placed watermark is visible on the right side of the recto, reading
+            
+            "Shawano | Mills". The watermark is variably and horizontally truncated by the 
+            right edge of the recto through "Shawano", which measures roughly 5 inches 
+            horizontally and would measure 1 inch vertically if the letters were not truncated.
+            
+            "Mills" measures roughly 3 inches by 1 inch.
+            
+         </p>
+         <div class="envelope">
+            Envelope.   
+            Envelope. Accompanied by a cream colored envelope measuring 5.4375 inches by 3.125
+            inches, 
+            postmarked for Seattle, Wash. on Oct 5, 1909. The postmarked time of day is only 
+            partially legible. The cancellation reads "World's | Fair | Seattle | 1909" in a 
+            sected compartment. A comma-like marking in a circle is inscribed in pencil on the
+            
+            bottom quadrant of the back of the envelope, and a "9" followed by a circled "28½"
+            
+            is written in pencil on the right side of the back of the envelope.
+            
+            <p>Return Address: 
+               
+               N/A
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               
+               <br>Miss. Gladys M. Stephens
+               <br>#126 Leon Street
+               <br>El Paso Texas.
+               
+               
+            </p>
+            <p>Postmark: 
+                SEATTLE, WASH. / 
+               OCT 5 / 2 - 
+               [ .&nbsp;.&nbsp;. ] M / 1909 
+                [<a HREF="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_JJM_to_GS_envelope_with_letter_dated_10-04.jpg.jpg?scale=0.5&amp;rgn=600,250,250,250&amp;fmt=png" alt="Postmark for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre" target="blank">Postmark</a>]. 
+            </p>
+            <p>Cancellation: 
+               
+               World's / Fair / Seattle / 1909 
+                [<a HREF="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_JJM_to_GS_envelope_with_letter_dated_10-04.jpg.jpg?scale=0.5&amp;rgn=825,250,400,225&amp;fmt=png" alt="Cancellation for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre" target="blank">Cancellation</a>]. 
+               
+            </p>
+            <p>Endorsement: 
+               
+               N/A
+               
+            </p>
+         </div>
+         <hr><a name="GS19091011let01"></a><div class="letter">
+            
+            
+            <p>
+               
+               Photograph of the Tourist Hotel
+               Photograph of the facade of the Tourist Hotel.
+               
+               <br>1009-1011-1013 PACIFIC AVE. / TEL. MAIN 349 <br>Elegantly Furnished / Suites
+               <br>RATES, 50 CENTS TO $1.50 / PER DAY <br>Tourist Hotel <br> D.P. Foley. Proprietor
+               and Manager <br> FIRST-CLASS RESTAURANT AND / BARBER SHOP IN CONNECTION
+               <br>Tacoma, Wash.,_______190___ 
+            </p>
+            
+            
+            <br>10/11 9
+            <br>Dear girl
+            ,
+            
+            
+            <p>
+               well I missed my boat this a.m. and cannot get away
+               untill [sic]  
+               11 
+               So I must write a few lines as promise [sic] 
+               how I would like to have had you with me last night
+               mother and I talked untill [sic] 
+               after 2 <U>a.m.</U> and Such a fine
+               talk we had and my little girl
+                was the Subject 
+               honey
+               you Cannot emagine [sic]  how much She likes you when
+               I told her about what you was doing for me how much
+               better I felt and how determined I was to do better
+               I told her about what you Said about what  [Green?]  
+               was to Send me : well Sometimes She was laughing and  
+               Sometimes crying and dear
+                if you could only have heard
+               what She Said about you well It could not please you
+               half as much as me I had to tell her all about you how 
+               you comed [sic]  
+               your hair about your eyes well and  [even?] 
+               Sing and dear
+                you may hear from her to thank you I told
+               her about you praying for me and to be a little mean, I Said
+               I did not know if It was doing any good or not well
+               you ought to have herd [sic]  
+               what She Said you cannot emagine [sic] 
+               how much she thinks of you and how good It makes me
+               feel honey  [deed?] 
+               it does : my sister was there and  [cons
+               ?]  the
+               
+            </p>
+            
+            
+            
+            <p>
+               girl : Say honey She certanolly [sic]   
+               Is a peach I missed my
+               boat as I told you before why I took them two [sic]   
+               their boat this a.m.
+               yought  to have Saw her In the Car her little arms a round
+               my neck all the time and when I kissed her good by she cried
+               like her little heart was broke and made me prommise [sic]   to come
+               over again : O dear how I would like you to know them 
+               how proud I would be to heave [sic]   the opportunity to take you to
+               them and I do hope I will have that please—Can I—
+               well dear I only have 35 min for the boat and have a little
+               way to go will write tomorrow and tell you the Steamboat news
+               this has bin [sic]   [written?]  with a bum pen : you 
+               remember the
+               pen I got you at the Georgean [sic]  well I would go farther
+               than that If I could have the opportunity again : well 
+               dear
+               So Long x
+               
+            </p>
+            
+            
+            
+            <p>I remain "wif" [sic] 
+                heaps and then sum
+                 
+               I would like to Say as I feel but  [Sesent nice It sis nice?] 
+               I  [fink?]  So long—yes—
+               Sweet heart
+               
+            </p>
+            
+            
+             JJ McIntyre
+            
+            
+         </div>
+         <hr class="half-width">
+         <p class="msDesc"> Two loose sheets of cream-colored Tourist Hotel letterhead stationery measuring 8.33
+            x 10.88 inches.
+            The front side contains a 2.77-inch letterhead, a 8.1-inch body with blue lines spaced
+            .444-inch intervals. 
+            The letterhead contains, in the upper left-hand corner, a 2.5 x 2 inch
+            halftone image of the hotel facade
+         </p>
+         <div class="envelope">
+            Envelope. 
+            Accompanied by a stamped, cancelled, cream-colored envelope of Tourist Hotel stationery
+            measuring 6.5 x 3.5 inches. A 2.5 x 2-inch halftone image of the Tourist Hotel facade
+            is printed on the left-hand
+            side of the envelope above the hotel's address
+            <p>Return Address: 
+               
+               
+               
+               <br>TOURIST HOTEL
+               <br>D.P. FOLEY, PROP'R AND MGR.
+               <br>FIRST CLASS RESTAURANT IN CONNECTION
+               <br>1009, 1011, 1010 PACIFIC AVE.
+               <br>TACOMA, WASHINGTON
+               
+               
+            </p>
+            <p>Mailing Address: 
+               
+               
+               
+               <br>Miss Gladys M. Stephens
+               <br># 126 Leon St
+               <br>El Paso
+               <br>Texas
+               
+               
+            </p>
+            <p>Postmark: 
+                TACOMA, WASH. / OCT 11 / 12 - M / 1909 
+            </p>
+            <p>Cancellation: 
+               U.S. POSTAGE / [Portrait of George Washington; perforated
+               on three edges; upside down; Design A139] / TWO CENTS
+            </p>
+            <p>Endorsement: 
+               
+                9 31 / 8 <a name="pEndorsements"></a><a href="#nEndorsements" class="annotation" title="Similar numbers are pencilled under the cancelled postage stamp on several envelopes. This set of numbers appears on the back of the envelop. The 31 and 8 are circled."><sup>44</sup></a>
+               
+               
+            </p>
+         </div>
+      </div>
       <hr>
-      <h1>Contents — Reading Text</h1>
-      ¤ <a href="#GS19090706let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 06 July 1909]</a><br><p style="font-size:.85em;">
-         
-         Writing from Seattle, Stephens describes the Alaska-Yukon-Pacific Exposition and the
-         city of Seattle, then reviews her correspondence with friends and family and lists
-         the contents of a package she plans to send to her mother. 
-      </p>
-      ¤ <a href="#GS19090710let01">[Gladys M. Stephens to Mr. A. T. Stephens, 10 July 1909]</a><br><p style="font-size:.85em;">
-         
-         Gladys Stephens describes a multi-day visit to Yellowstone Park where she drove a
-         coach of four horses for 3 days. She mentions her travel companions "the Virginians"
-         and "some Germans."  She describes the exhibits in the Forestry Building at the 1909
-         Seattle World's Fair. She describes the Forestry Building and comments that the Seattle
-         World's Fair buildings will later be used by Seattle College.  She also remarks on
-         Seattle, which she describes as looking "new" but having a number of 12- and 14-story
-         buildings.
-         
-      </p>
-      ¤ <a href="#GS19090714let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 14 July 1909]</a><br><p style="font-size:.85em;">
-         
-         Gladys says that she is not going to Alaska because staterooms for the voyage are
-         in such high demand.  She mentions telephoning the Goulds in Seattle, then talks about
-         her travel companion Mrs. Hughes.  She particularly describes Mrs. Hughes' famous
-         cousins Mrs. Dana Gibson and Mrs. Waldorf Astor as well as Mrs. Hughes' two sons and
-         now-deceased husband.
-         
-      </p>
-      ¤ <a href="#GS19090808let1">[Gladys M. Stephens to Mrs. A.T. Stephens, 08 August 1909]</a><br><p style="font-size:.85em;">
-         Gladys tells her mother of the group's return to Seattle; anticipates a visit to
-         a wealthy Texan's ranch; makes ambiguous references to what we would assume is news
-         or gossip 
-         of friends and acquaintances from home; mentions correspondence with a few other individuals;
-         
-         and brags about being shown around by Uncle Alex and the "plans for next summer" already
-         in the works.
-         
-      </p>
-      ¤ <a href="#JM19090813let01">[James J. McIntyre to Gladys M. Stevens, 13 August 1909]</a><br><p style="font-size:.85em;">Writing from Seattle, J. J. McIntyre crafted an 8 page love letter to Gladys M. Stevens.
-         
-         The letter describes certain details about McIntyre's life as a merchant marine, including
-         his annual salary 
-         and his transfer from the Santa Clara to the North Western.
-         
-         
-      </p>
-      ¤ <a href="#CLA19090820let01">[Cora L. Anderson to Mrs. A. T. Stephens, 19 August 1909]</a><br><p style="font-size:.85em;">
-         Writing from Sherborn, Massachusetts, Cora Anderson, Gladys's cousin, tells her aunt
-         about the birth of her new baby.
-         She mentions having received a letter from Gladys while the latter was traveling in
-         Colorado.
-         
-      </p>
-      ¤ <a href="#JJM19090821let01">[James J. McIntyre to Gladys M. Stephens, 21 August 1909]</a><br><p style="font-size:.85em;">
-         
-         
-      </p>
-      ¤ <a href="#JJM19090823let01">[James J. McIntyre to Gladys M. Stephens, 23 August 1909]</a><br><p style="font-size:.85em;">
-         Guard watch; weather; pictures; Little Gladys
-         
-      </p>
-      ¤ <a href="#GS19090906let1">[Gladys M. Stephens to Mrs. A.T. Stevens, 06 September 1909]</a><br><p style="font-size:.85em;">
-         Gladys is waiting for mother's (A.T. Stevens) letter, is something wrong? Alaska ring
-         arrived. 
-         Pillow.
-         
-      </p>
-      ¤ <a href="#">[James J. McIntyre to Gladys M. Stephens, 13 September 1909]</a><br><p style="font-size:.85em;">
-         Black Ball line; Alaska; passengers; freight.
-         
-      </p>
-      ¤ <a href="#GS19090922let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 22 September 1909]</a><br><p style="font-size:.85em;">
-         Writing from El Paso, Gladys evaluates Adelaide's wedding purchases 
-         and fiance, as well as Gladys's experience with head lice, which she 
-         picked up in Mexico. Gladys also explains to her mother that she is 
-         staying in El Paso longer than she originally planned so she can 
-         witness the Taft-Diaz meeting on October 16th, 1909. She briefly 
-         explains the political tension in Mexico between President Diaz, 
-         Vice-President Reyes, and the general populace. Though Gladys is 
-         definitely writing from El Paso, her exact location within the city 
-         is unknown. Her letter is on stationary from the Office of the Treasurer
-         in Santa Cruz, California, but the postmark indicates she mailed the 
-         letter from El Paso. In her letter, she mentions how her Uncle wants
-         her to extend her stay in El Paso, which suggests she might be staying
-         with him, but then she discusses her extensive time spent with Adelaide,
-         which suggests she is staying with her. 
-         
-      </p>
-      ¤ <a href="#GS19090927let01">[Gladys M. Stephens to Mrs. A.T. Stephens, 27 September, 1909]</a><br><p style="font-size:.85em;">
-         A letter from Gladys M. Stephens to Mrs. A.T. Stephens on the 27th of September, 1909
-         in which
-         Gladys discusses her various relationships and correspondences, including her plans
-         with Adelaide
-         and a number of family associations back home.
-         
-      </p>
-      ¤ <a href="#JJM19091004let01">[James J. McIntyre to Gladys M. Stephens, 04 October 1909]</a><br><p style="font-size:.85em;">
-         McIntyre relates the ship schedule and route for the S.S. Northwestern and spending
-         time with the Purser's 
-         sister in the Ketchikan area. He discusses pictures received from Gladys, and details
-         specifications of the Northwestern compared 
-         to the Santa Clara. McIntyre recounts two auto accidents in the Seattle area and reflects
-         on their meaning for him.
-         
-      </p>
-      ¤ <a href="#GS19091005let01">[Gladys M. Stephens to Mrs. A. T. Stephens, 05 October 1909]</a><br><p style="font-size:.85em;">
-         
-         Writing from El Paso, Stephens mentions some social engagements, 
-         tells her mother about Adelaide's shopping for her wedding, and asks 
-         about pictures she sent previously, which were taken in San Diego. 
-         
-      </p>
-      ¤ <a href="#GS19091011let01">[James J. McIntyre to Gladys M. Stephens, 11 October 1909]</a><br><p style="font-size:.85em;"> Letter from James J. McIntyre to Gladys telling how he missed a ship and how he has
-         recently been telling his mother how much he appreciates all of Gladys's help.
-         
-      </p><br><hr>
       <div class="correspondence">
          
          <hr><a name="GS19090706let01"></a><div class="letter">
@@ -943,7 +3979,7 @@
                The Mexican trip is all planned
                and I start home immediately
                on getting back.  I'll be about
-               one week late.  U.A.Uncle Alex has the day
+               one week late.  U.A. has the day
                set for us to start to Mexico and
                all plans  [<U>O.K.</U>?] 
                
@@ -2199,7 +5235,7 @@
                
                information today. I went to the
                hairdressers to have a shampoo.
-               On account of the amt.amount of alkali
+               On account of the amt. of alkali
                in the water people can not [sic]  wash
                their hair with it themselves.<a name="palkali"></a><a href="#nalkali" class="annotation" title="A substance having the characteristics exemplified by soda, i.e. a caustic or acrid taste, the power of neutralizing or effervecing with acids, and of forming soaps with oils OED &#34;alkali&#34;."><sup>24</sup></a> Adelaide
                &amp; I made arrangements to go together
@@ -2211,7 +5247,7 @@
                however. Now what <U>do</U> you think
                of that. Well she worked good
                and hard and dosed my head and
-               I have to go again Sat.Saturday morning.
+               I have to go again Sat. morning.
                Their deposit was not large and
                so we have hopes of soon cleaning
                it all out. You can imagine
