@@ -14,11 +14,11 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Stephens-Diplomatic.xsl</String>
+                                    <String>Stephens-CombinedView.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Stephens-Diplomatic</String>
+                                        <String>Stephens-CombinedView</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
@@ -29,11 +29,11 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>Stephens-CombinedView.xsl</String>
+                                    <String>Stephens-Diplomatic.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>Stephens-CombinedView</String>
+                                        <String>Stephens-Diplomatic</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">

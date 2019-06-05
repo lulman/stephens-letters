@@ -466,7 +466,7 @@
             <hr/>
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
-               <a href="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/default.cfm"
+               <a href="stephens_edintro.html"
                   target="self">Home</a>
                <br/>
                <br/>
@@ -546,7 +546,7 @@
    </xsl:template>
    <xsl:template match="tei:div[@type='enclosure']"/>
    <xsl:template match="tei:div[@type='letter']">
-      <a>
+      <a class="TOCtarget">
          <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute>
       </a>
       <div class="letter">

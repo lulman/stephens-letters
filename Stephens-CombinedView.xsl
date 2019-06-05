@@ -155,15 +155,15 @@
         <hr/>
         <br/>
         <span class="pagebreak"> [Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
-            level="any"/>&#xA0; (<a><xsl:attribute name="HREF">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=<xsl:value-of
-                    select="@facs"/>.jpg</xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]<br/>
+            level="any"/>&#xA0; (<a><xsl:attribute name="HREF"><xsl:value-of
+                    select="@facs"/></xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]<br/>
             <a>
-                <xsl:attribute name="HREF">http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensZoom.cfm?file=<xsl:value-of
-                        select="@facs"/>.jpg</xsl:attribute>
+                <xsl:attribute name="HREF"><xsl:value-of
+                        select="@facs"/></xsl:attribute>
                 <xsl:attribute name="target">top</xsl:attribute>
                 <img class="pageview">
-                    <xsl:attribute name="src">https://images.asc.ohio-state.edu/is/image/englishdocs<xsl:value-of
-                            select="@facs"/>.jpg?scale=0.2&amp;fmt=png</xsl:attribute>
+                    <xsl:attribute name="src"><xsl:value-of
+                            select="@facs"/></xsl:attribute>
                     <xsl:attribute name="width">400</xsl:attribute>
                 </img>
             </a>

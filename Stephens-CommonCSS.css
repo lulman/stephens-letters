@@ -338,6 +338,15 @@ height: 150px;
 visibility: hidden;
 }
 
+/* space before links to letters in TOC */
+.TOCtarget:before {
+display: block;
+content: " ";
+margin-top: -150px;
+height: 150px;
+visibility: hidden;
+}
+
 a[name="topofpage"] {
 display: block;
 content: " ";
