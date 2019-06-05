@@ -386,28 +386,17 @@
                   <!--<p id="font-size"></p>-->
                   <p style="font-size:smaller">
                      <strong>Edited by</strong><br/>
-                     Andrea Avenido<br/>
-                     Puja Batra-Wells<br/>
-                     MariaTeresa Beltran-Aponte<br/>
-                     Karen M. Beyer<br/>
-                     Mike Bubenik<br/>
-                     Frances Caroline Buschur<br/>
-                     Johaun Cheng<br/>
-                     Katrina F. Cook<br/>
-                     Bill W. Dantowitz<br/>
-                     Envera Dukaj<br/>                     
-                     Sam Eilerman<br/>
-                     Nate Ellis<br/>
-                     Rachel Fouch<br/>
-                     Brian Keller<br/>
-                     Riley Lease<br/>
-                     Mike Liddy<br/>
-                     Nick Long<br/>
-                     Jennifer Lee Schneider<br/>
+                     Robert Eugene Conaster<br/>
+                     Jonathan H. Holmes<br/>
+                     William C. Kurlinkus<br/>
+                     Jonathan Paul Leidheiser-Stoddard<br/>
+                     C. Marie Meza<br/>
+                     Victoria M. Munoz<br/>
+                     Ashley Cole Owens<br/>
+                     Evan B. Thomas<br/>
+                     Marion Aikens Wolfe<br/>
                      H. Lewis Ulman<br/>
-                     Victoria R. Urban<br/>
-                     Derrick Whan<br/>
-                     Derek Craig Zoladz<br/>
+                     Rachel M. Waymel<br/>
                   </p>
                   <!-- Start NINES Widget -->
                   <form method="get"
@@ -668,11 +657,11 @@
          <br/>
       </div>
    </xsl:template>
-   <xsl:template match="tei:quote[@rend='epigraph']">
-      <div class="epigraph">
+   <xsl:template match="tei:p[@rend='epigraph']">
+      <p class="epigraph">
          <xsl:apply-templates/>
          <br/>
-      </div>
+     </p>
    </xsl:template>
    <xsl:template match="tei:name">
       <xsl:apply-templates/>

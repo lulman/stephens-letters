@@ -642,6 +642,7 @@
       <a>
          <xsl:attribute name="name">p<xsl:value-of select="@target"></xsl:value-of>
          </xsl:attribute>
+         <xsl:attribute name="class">notePointer</xsl:attribute>
       </a>
       <a>
          <xsl:attribute name="href">#n<xsl:value-of select="@target"/></xsl:attribute>

@@ -156,14 +156,14 @@
         <br/>
         <span class="pagebreak"> [Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
             level="any"/>&#xA0; (<a><xsl:attribute name="HREF"><xsl:value-of
-                    select="@facs"/></xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]<br/>
+                    select="@facs"/>.jpg</xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]<br/>
             <a>
                 <xsl:attribute name="HREF"><xsl:value-of
-                        select="@facs"/></xsl:attribute>
+                    select="@facs"/>.jpg</xsl:attribute>
                 <xsl:attribute name="target">top</xsl:attribute>
                 <img class="pageview">
                     <xsl:attribute name="src"><xsl:value-of
-                            select="@facs"/></xsl:attribute>
+                            select="@facs"/>_small.jpg</xsl:attribute>
                     <xsl:attribute name="width">400</xsl:attribute>
                 </img>
             </a>
