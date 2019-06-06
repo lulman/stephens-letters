@@ -146,22 +146,21 @@
                      </li>
                      <li class="link"><a class="main"  href="">Views of the Diary</a>
                         <ul class="sub">
-                           <li><a href="./stephens_reading.html">By Diary Entry</a></li>
+                           <li><a href="./stephens_reading.html">By Letter</a></li>
                            <li><a href="./stephens_diplomatic.html">By MS Page</a></li>
                            <li><a href="./stephens_combined.html">Facsimile/Text</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
-                           <li><a href="./appendices-CoxJournalMarkup.html">Markup Guidelines</a></li>
-                           <li><a href="./appendices-CoxHand.html">Guide to Cox's Hand</a></li>
-                           <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
-                           <li><a href="./appendices-CoxRestorationHTML5.html">Restoring the MS</a></li>
-                           <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
+                           <li><a href="./appendices-stephens_markup.html">Markup Guidelines</a></li>
+                           <li><a href="./appendices-stephens_hand.html">Guide to Cox's Hand</a></li>
+                           <li><a href="./appendices-stephens_msimages.html">Images of the MS Pages</a></li>
+                           <li><a href="./appendices-stephens_maps.html">Maps</a></li>
                            <li><a href="./stephens_letters.html#worksCited">Works Cited</a></li>
-                           <li><a href="./stephens_letters.html#revHistory">Revision History</a></li>
-                           <li><a href="./appendices-Acknowledgements.html">Acknowledgements</a></li>
-                           <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
+                           <li><a href="./stephens_letters.html#revision">Revision History</a></li>
+                           <li><a href="./appendices-stephens_acknowledgements.html">Acknowledgements</a></li>
+                           <li><a href="./appendices-stephens_editors.html">About the Editors</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Source Files</a>
@@ -173,8 +172,8 @@
                            <li><a href="./Stephens_CombinedView.xsl">XSL: Text/Facs View</a></li>
                            <li><a href="./Stephens_Edintro.xsl">XSL: Ed. Intro</a></li>
                            <li><a href="./Stephens-CommonCSS.css">CSS: Style Sheet</a></li>
-                           <li><a href="./sscox_Current.odd.txt">ODD: TEI Customization</a></li>
-                           <li><a href="./sscox_Current.rng.txt">RNG: Schema</a></li>
+                           <li><a href="./stephens_letters.odd.txt">ODD: TEI Customization</a></li>
+                           <li><a href="./stephens_letters.rng.txt">RNG: Schema</a></li>
                         </ul>
                      </li>
                   </ul> <!-- End ul class nav -->
@@ -634,7 +633,7 @@
          <xsl:apply-templates/>
       </xsl:element>
    </xsl:template>
-   <xsl:template match="//tei:p[not(@xml:id='CreativeCommons') and not(@rend='h3')]">
+   <xsl:template match="//tei:p[not(@xml:id='CreativeCommons') and not(@rend='h3') and not(@class='epigraph')]">
       <p>
          <xsl:apply-templates/>
       </p>
@@ -655,7 +654,7 @@
          <br/>
       </div>
    </xsl:template>
-   <xsl:template match="tei:p[@rend='epigraph']">
+   <xsl:template match="//tei:p[@rend='epigraph']">
       <p class="epigraph">
          <xsl:apply-templates/>
          <br/>

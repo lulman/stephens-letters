@@ -86,57 +86,50 @@
             <div class="masthead">
                <div id="navigation">
                   <ul class="nav">
-                     <li class="link"><a class="main"  href="./sscox_journal.html#introduction">Historical Introduction</a>
+                     <li class="link"><a class="main"  href="./stephens_letters.html#StephensIntroduction">Historical Introduction</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal.html#crossing">Crossing the Atlantic</a></li>
-                           <li><a href="./sscox_journal.html#liverpool">Liverpool</a></li>
-                           <li><a href="./sscox_journal.html#london">London</a></li>
-                           <li><a href="./sscox_journal.html#paris">Paris and Southern France</a></li>
-                           <li><a href="./sscox_journal.html#sardinia">Sardinia and Tuscany</a></li>
-                           <li><a href="./sscox_journal.html#rome">"Eternal Rome"</a></li>
-                           <li><a href="./sscox_journal.html#orient">The "Dreamy Orient"</a></li>
-                           <li><a href="./sscox_journal.html#trieste">Trieste</a></li>
+                           <li><a href="./stephens_letters.html#letters">Letters and Letter Writing</a></li>
+                           <li><a href="./stephens_letters.html#west">Tourism and Commerce</a></li>
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="./sscox_journal.html#projectDescription">Editorial Introduction</a>
+                     <li class="link"><a class="main"  href="./stephens_letters.html#projectDescription">Editorial Introduction</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal.html#projectDescription">Project Description</a></li>
-                           <li><a href="./sscox_journal.html#source">The Source Document</a></li>
-                           <li><a href="./sscox_journal.html#edition">The Electronic Edition</a></li>
-                           <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
+                           <li><a href="./stephens_letters.html#projectDescription">Project Description</a></li>
+                           <li><a href="./stephens_letters.html#source">The Source Document</a></li>
+                           <li><a href="./stephens_letters.html#edition">The Electronic Edition</a></li>
+                           <li><a href="./stephens_letters.html#revision">Revision History</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Views of the Diary</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal-by-entry.html">By Diary Entry</a></li>
-                           <li><a href="./sscox_journal-by-ms-page.html">By MS Page</a></li>
-                           <li><a href="./sscox_journal-combined.html">Facsimile/Text</a></li>
+                           <li><a href="./stephens_reading.html">By Letter</a></li>
+                           <li><a href="./stephens_diplomatic.html">By MS Page</a></li>
+                           <li><a href="./stephens_combined.html">Facsimile/Text</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
-                           <li><a href="./appendices-CoxJournalMarkup.html">Markup Guidelines</a></li>
-                           <li><a href="./appendices-CoxHand.html">Guide to Cox's Hand</a></li>
-                           <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
-                           <li><a href="./appendices-CoxRestorationHTML5.html">Restoring the MS</a></li>
-                           <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
-                           <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
-                           <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
-                           <li><a href="./appendices-Acknowledgements.html">Acknowledgements</a></li>
-                           <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
+                           <li><a href="./appendices-stephens_markup.html">Markup Guidelines</a></li>
+                           <li><a href="./appendices-stephens_hand.html">Guide to Cox's Hand</a></li>
+                           <li><a href="./appendices-stephens_msimages.html">Images of the MS Pages</a></li>
+                           <li><a href="./appendices-stephens_maps.html">Maps</a></li>
+                           <li><a href="./stephens_letters.html#worksCited">Works Cited</a></li>
+                           <li><a href="./stephens_letters.html#revision">Revision History</a></li>
+                           <li><a href="./appendices-stephens_acknowledgements.html">Acknowledgements</a></li>
+                           <li><a href="./appendices-stephens_editors.html">About the Editors</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Source Files</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal.xml">TEI: Source Markup</a></li>
-                           <li><a href="./sscox_Common.xsl">XSL: Base Stylesheet</a></li>
-                           <li><a href="./sscox_Diplomatic.xsl">XSL: MS Page View</a></li>
-                           <li><a href="./sscox_Reading.xsl">XSL: Entry View</a></li>
-                           <li><a href="./sscox_CombinedView.xsl">XSL: Text/Facs View</a></li>
-                           <li><a href="./sscox_Edintro.xsl">XSL: Ed. Intro</a></li>
-                           <li><a href="./sscox_journal.css">CSS: Style Sheet</a></li>
-                           <li><a href="./sscox_Current.odd.txt">ODD: TEI Customization</a></li>
-                           <li><a href="./sscox_Current.rng.txt">RNG: Schema</a></li>
+                           <li><a href="./StephensCorpus.xml">TEI: Source Markup</a></li>
+                           <li><a href="./Stephens-Common.xsl">XSL: Base Stylesheet</a></li>
+                           <li><a href="./Stephens_Diplomatic.xsl">XSL: MS Page View</a></li>
+                           <li><a href="./Stephens_Reading.xsl">XSL: Entry View</a></li>
+                           <li><a href="./Stephens_CombinedView.xsl">XSL: Text/Facs View</a></li>
+                           <li><a href="./Stephens_Edintro.xsl">XSL: Ed. Intro</a></li>
+                           <li><a href="./Stephens-CommonCSS.css">CSS: Style Sheet</a></li>
+                           <li><a href="./stephens_letters.odd.txt">ODD: TEI Customization</a></li>
+                           <li><a href="./stephens_letters.rng.txt">RNG: Schema</a></li>
                         </ul>
                      </li>
                   </ul> <!-- End ul class nav -->
