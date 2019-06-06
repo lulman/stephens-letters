@@ -141,14 +141,14 @@
                            <li><a href="./stephens_letters.html#projectDescription">Project Description</a></li>
                            <li><a href="./stephens_letters.html#source">The Source Document</a></li>
                            <li><a href="./stephens_letters.html#edition">The Electronic Edition</a></li>
-                           <li><a href="./stephens_letters.html#revHistory">Revision History</a></li>
+                           <li><a href="./stephens_letters.html#revision">Revision History</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Views of the Diary</a>
                         <ul class="sub">
-                           <li><a href="./stephens_letters-by-entry.html">By Diary Entry</a></li>
-                           <li><a href="./stephens_letters-by-ms-page.html">By MS Page</a></li>
-                           <li><a href="./stephens_letters-combined.html">Facsimile/Text</a></li>
+                           <li><a href="./stephens_reading.html">By Diary Entry</a></li>
+                           <li><a href="./stephens_diplomatic.html">By MS Page</a></li>
+                           <li><a href="./stephens_combined.html">Facsimile/Text</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Appendices</a>
@@ -166,13 +166,13 @@
                      </li>
                      <li class="link"><a class="main"  href="">Source Files</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal.xml">TEI: Source Markup</a></li>
-                           <li><a href="./sscox_Common.xsl">XSL: Base Stylesheet</a></li>
-                           <li><a href="./sscox_Diplomatic.xsl">XSL: MS Page View</a></li>
-                           <li><a href="./sscox_Reading.xsl">XSL: Entry View</a></li>
-                           <li><a href="./sscox_CombinedView.xsl">XSL: Text/Facs View</a></li>
-                           <li><a href="./sscox_Edintro.xsl">XSL: Ed. Intro</a></li>
-                           <li><a href="./sscox_journal.css">CSS: Style Sheet</a></li>
+                           <li><a href="./StephensCorpus.xml">TEI: Source Markup</a></li>
+                           <li><a href="./Stephens-Common.xsl">XSL: Base Stylesheet</a></li>
+                           <li><a href="./Stephens_Diplomatic.xsl">XSL: MS Page View</a></li>
+                           <li><a href="./Stephens_Reading.xsl">XSL: Entry View</a></li>
+                           <li><a href="./Stephens_CombinedView.xsl">XSL: Text/Facs View</a></li>
+                           <li><a href="./Stephens_Edintro.xsl">XSL: Ed. Intro</a></li>
+                           <li><a href="./Stephens-CommonCSS.css">CSS: Style Sheet</a></li>
                            <li><a href="./sscox_Current.odd.txt">ODD: TEI Customization</a></li>
                            <li><a href="./sscox_Current.rng.txt">RNG: Schema</a></li>
                         </ul>
@@ -181,9 +181,10 @@
                </div> <!-- End div id navigation -->
                
                <div id="titleBar">
-               <p align="center"><span class="projectTitle">Selected Letter from the Stephens Family Travel Letters and Ephemera</span><br/></p>
-               <hr/>
-            </div> <!-- END titleBar -->
+                  <p align="center"><span class="projectTitle"><xsl:apply-templates
+                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/></p>
+                  <hr/>
+               </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
        
             <!-- BUILD THE VERTICAL IMAGE BAR -->
@@ -428,7 +429,7 @@
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
             <hr/>
             <a name="WorksCited"/>
-            <h2>List of Works Cited</h2>
+            <h2 id="worksCited">List of Works Cited</h2>
             <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listBibl"/>
             <hr/>
@@ -465,7 +466,7 @@
       match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']">
       <hr/>
       <a name="source"/>
-      <h2>About the Source Documents</h2>
+      <h2 id="source">About the Source Documents</h2>
       <p>Title: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
          <br/>Extent: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
       </p>
@@ -491,7 +492,7 @@
 
    <!-- Format information about your electronic document. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc">
-      <h3>Project Description</h3>
+      <h3 id="projectDescription">Project Description</h3>
       <p>
          <xsl:apply-templates/>
       </p>
@@ -499,7 +500,7 @@
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt">
       <hr/>
       <a name="edition"/>
-      <h2>About the Electronic Edition</h2>
+      <h2 id="edition">About the Electronic Edition</h2>
       <p>Title: <xsl:value-of select="tei:title"/></p>
          <p>Editors: <xsl:for-each select="tei:editor/tei:persName">
             <xsl:choose>
@@ -587,7 +588,7 @@
          </p>
          <hr/>
          <a name="revision"/>
-         <h2>Revision History</h2>
+         <h2 id="revision">Revision History</h2>
       <table width="90%">
          <tr>
             <td>
