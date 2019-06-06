@@ -130,31 +130,25 @@
             <div class="masthead">
                <div id="navigation">
                   <ul class="nav">
-                     <li class="link"><a class="main"  href="./sscox_journal.html#introduction">Historical Introduction</a>
+                     <li class="link"><a class="main"  href="./stephens_letters.html#StephensIntroduction">Historical Introduction</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal.html#crossing">Crossing the Atlantic</a></li>
-                           <li><a href="./sscox_journal.html#liverpool">Liverpool</a></li>
-                           <li><a href="./sscox_journal.html#london">London</a></li>
-                           <li><a href="./sscox_journal.html#paris">Paris and Southern France</a></li>
-                           <li><a href="./sscox_journal.html#sardinia">Sardinia and Tuscany</a></li>
-                           <li><a href="./sscox_journal.html#rome">"Eternal Rome"</a></li>
-                           <li><a href="./sscox_journal.html#orient">The "Dreamy Orient"</a></li>
-                           <li><a href="./sscox_journal.html#trieste">Trieste</a></li>
+                           <li><a href="./stephens_letters.html#letters">Letters and Letter Writing</a></li>
+                           <li><a href="./stephens_letters.html#west">Tourism and Commerce</a></li>
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="./sscox_journal.html#projectDescription">Editorial Introduction</a>
+                     <li class="link"><a class="main"  href="./stephens_letters.html#projectDescription">Editorial Introduction</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal.html#projectDescription">Project Description</a></li>
-                           <li><a href="./sscox_journal.html#source">The Source Document</a></li>
-                           <li><a href="./sscox_journal.html#edition">The Electronic Edition</a></li>
-                           <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
+                           <li><a href="./stephens_letters.html#projectDescription">Project Description</a></li>
+                           <li><a href="./stephens_letters.html#source">The Source Document</a></li>
+                           <li><a href="./stephens_letters.html#edition">The Electronic Edition</a></li>
+                           <li><a href="./stephens_letters.html#revHistory">Revision History</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Views of the Diary</a>
                         <ul class="sub">
-                           <li><a href="./sscox_journal-by-entry.html">By Diary Entry</a></li>
-                           <li><a href="./sscox_journal-by-ms-page.html">By MS Page</a></li>
-                           <li><a href="./sscox_journal-combined.html">Facsimile/Text</a></li>
+                           <li><a href="./stephens_letters-by-entry.html">By Diary Entry</a></li>
+                           <li><a href="./stephens_letters-by-ms-page.html">By MS Page</a></li>
+                           <li><a href="./stephens_letters-combined.html">Facsimile/Text</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Appendices</a>
@@ -164,8 +158,8 @@
                            <li><a href="./appendices-CoxZoomIndex.html">Images of the MS Pages</a></li>
                            <li><a href="./appendices-CoxRestorationHTML5.html">Restoring the MS</a></li>
                            <li><a href="./appendices-CoxTourMaps.html">Maps</a></li>
-                           <li><a href="./sscox_journal.html#worksCited">Works Cited</a></li>
-                           <li><a href="./sscox_journal.html#revHistory">Revision History</a></li>
+                           <li><a href="./stephens_letters.html#worksCited">Works Cited</a></li>
+                           <li><a href="./stephens_letters.html#revHistory">Revision History</a></li>
                            <li><a href="./appendices-Acknowledgements.html">Acknowledgements</a></li>
                            <li><a href="./appendices-aboutEditors.html">About the Editors</a></li>
                         </ul>
@@ -462,7 +456,7 @@
    
    <!-- Format the introductory notes. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']">
-      <h2>Introduction: “I wonder what you think of these letters of mine”</h2>
+      <h2><xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>Introduction: “I wonder what you think of these letters of mine”</h2>
       <xsl:apply-templates/>
    </xsl:template>
    
@@ -634,7 +628,10 @@
       <br/><xsl:apply-templates/>
    </xsl:template>   
    <xsl:template match="tei:p[@rend='h3']">
-      <h3><xsl:apply-templates/></h3>
+      <xsl:element name="h3">
+         <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+         <xsl:apply-templates/>
+      </xsl:element>
    </xsl:template>
    <xsl:template match="//tei:p[not(@xml:id='CreativeCommons') and not(@rend='h3')]">
       <p>
