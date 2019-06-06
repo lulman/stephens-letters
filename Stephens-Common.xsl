@@ -143,7 +143,8 @@
                </div> <!-- End div id navigation -->
                
                <div id="titleBar">
-                  <p align="center"><span class="projectTitle">Journal of a Tour to Europe</span><br/>by Samuel Sullivan Cox</p>
+                  <p align="center"><span class="projectTitle"><xsl:apply-templates
+                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/></p>
                   <hr/>
                </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
@@ -369,13 +370,13 @@
                </div> <!-- End div class "container" -->
             </div> <!-- End div id "View Menu" -->
             
-            <p align="center">
+<!--            <p align="center">
                <span class="ProjectTitle">
                   <xsl:apply-templates
                      select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
                </span>
             </p>
-
+-->
             <!-- Build the table of contents. -->
             <div class="contents-notes">
             <h1>Contents — <xsl:value-of select="$View"></xsl:value-of></h1>

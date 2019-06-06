@@ -187,7 +187,7 @@
                </div> <!-- End div id navigation -->
                
                <div id="titleBar">
-               <p align="center"><span class="projectTitle">Journal of a Tour to Europe</span><br/>by Samuel Sullivan Cox</p>
+               <p align="center"><span class="projectTitle">Selected Letter from the Stephens Family Travel Letters and Ephemera</span><br/></p>
                <hr/>
             </div> <!-- END titleBar -->
             </div> <!-- END masthead -->
