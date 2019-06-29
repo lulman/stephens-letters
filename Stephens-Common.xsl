@@ -109,24 +109,26 @@
                      </li>
                      <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
-                           <li><a href="./appendices-stephens_markup.html">Markup Guidelines</a></li>
-                           <li><a href="./appendices-stephens_hand.html">Guide to Cox's Hand</a></li>
-                           <li><a href="./appendices-stephens_msimages.html">Images of the MS Pages</a></li>
-                           <li><a href="./appendices-stephens_maps.html">Maps</a></li>
+                           <li><a href="./stephens_appendices_markup.html">Markup Guidelines</a></li>
+                           <li><a href="./stephens_appendices_hand.html">Guide to Stephens's Hand</a></li>
+                           <li><a href="./stephens_appendices_msimages.html">Images of the MS Pages</a></li>
+                           <li><a href="./stephens_appendices_maps.html">Maps</a></li>
                            <li><a href="./stephens_letters.html#worksCited">Works Cited</a></li>
+                           <li><a href="./stephens_letters.html#peoplementioned">People Mentioned</a></li>
+                           <li><a href="./stephens_letters.html#placesmentioned">Places Mentioned</a></li>
                            <li><a href="./stephens_letters.html#revision">Revision History</a></li>
-                           <li><a href="./appendices-stephens_acknowledgements.html">Acknowledgements</a></li>
-                           <li><a href="./appendices-stephens_editors.html">About the Editors</a></li>
+                           <li><a href="./stephens_appendices_acknowledgements.html">Acknowledgements</a></li>
+                           <li><a href="./stephens_appendices_editors.html">About the Editors</a></li>
                         </ul>
                      </li>
                      <li class="link"><a class="main"  href="">Source Files</a>
                         <ul class="sub">
                            <li><a href="./StephensCorpus.xml">TEI: Source Markup</a></li>
                            <li><a href="./Stephens-Common.xsl">XSL: Base Stylesheet</a></li>
-                           <li><a href="./Stephens_Diplomatic.xsl">XSL: MS Page View</a></li>
-                           <li><a href="./Stephens_Reading.xsl">XSL: Entry View</a></li>
-                           <li><a href="./Stephens_CombinedView.xsl">XSL: Text/Facs View</a></li>
-                           <li><a href="./Stephens_Edintro.xsl">XSL: Ed. Intro</a></li>
+                           <li><a href="./Stephens-Diplomatic.xsl">XSL: MS Page View</a></li>
+                           <li><a href="./Stephens-Reading.xsl">XSL: Entry View</a></li>
+                           <li><a href="./Stephens-CombinedView.xsl">XSL: Text/Facs View</a></li>
+                           <li><a href="./Stephens-Edintro.xsl">XSL: Ed. Intro</a></li>
                            <li><a href="./Stephens-CommonCSS.css">CSS: Style Sheet</a></li>
                            <li><a href="./stephens_letters.odd.txt">ODD: TEI Customization</a></li>
                            <li><a href="./stephens_letters.rng.txt">RNG: Schema</a></li>
