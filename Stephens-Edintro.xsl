@@ -381,7 +381,7 @@
             <!-- END THE VERTICAL IMAGE BAR -->
             <!-- START RIGHT MENU -->   
             <div id="viewMenu">
-               <p class="aboutView"><a href="./sscox_journal.html#view">About this page.</a></p>
+               <p class="aboutView"><a href="./stephens_letters.html#view">About this page.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
@@ -452,7 +452,7 @@
             <p><a name="view"/>Text on this page is derived from the
                edition's XML source document, StephensCorpus.xml.</p>
             <hr/>
-            <p>&#x2192; <a href="StephensReading.html">Link to the text of the journal</a>.
+            <p>&#x2192; <a href="stephens_reading.html">Link to the text of the journal</a>.
             </p>
          </xsl:element> <!-- END maintext -->
          <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
