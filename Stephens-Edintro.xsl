@@ -159,6 +159,7 @@
                            <li><a href="./stephens_appendices_maps.html">Maps</a></li>
                            <li><a href="./stephens_letters.html#worksCited">Works Cited</a></li>
                            <li><a href="./stephens_letters.html#peoplementioned">People Mentioned</a></li>
+                           <li><a href="./stephens_letters.html#organizationsMentioned">Organizations Mentioned</a></li>
                            <li><a href="./stephens_letters.html#placesmentioned">Places Mentioned</a></li>
                            <li><a href="./stephens_letters.html#revision">Revision History</a></li>
                            <li><a href="./stephens_appendices_acknowledgements.html">Acknowledgements</a></li>
@@ -442,7 +443,8 @@
             <h2>Appendices</h2>            
             <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:profileDesc/tei:particDesc/tei:listPerson"/>
-            <xsl:apply-templates
+      <xsl:apply-templates select="tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listOrg"></xsl:apply-templates>
+      <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:revisionDesc"/>
             <hr/>
@@ -546,6 +548,18 @@
       </xsl:for-each>
    </xsl:template>
    
+   <xsl:template match="tei:listOrg">
+      <h3 id="organizationsMentioned">List of Organizations Mentioned</h3>
+      <xsl:for-each select="tei:org">
+         <xsl:sort select="tei:orgName[1]"/>
+         <p>
+            <strong><xsl:value-of select="tei:orgName"/></strong>:
+            <xsl:apply-templates select="tei:desc"/>
+         </p>
+      </xsl:for-each>
+   </xsl:template>
+   
+
    <xsl:template match="tei:listPerson[@type='mentioned']">
       <a name="PeopleMentioned"/>
       <h3>List of People Mentioned in the Letters</h3>
@@ -600,10 +614,10 @@
             <td>
                <h3>Date</h3>
             </td>
-            <td>
+<!--            <td>
                <h3>Role</h3>
             </td>
-            <td>
+-->            <td>
                <h3>Name</h3>
             </td>
             <td>
@@ -618,10 +632,10 @@
                <td nowrap="nowrap">
                   <xsl:value-of select="tei:roleName"/>
                </td>
-               <td nowrap="nowrap">
+<!--               <td nowrap="nowrap">
                   <a><xsl:attribute name="HREF"><xsl:value-of select="@who"/></xsl:attribute>HLU</a>
                </td>
-               <td>
+-->               <td>
                   <xsl:value-of select="text()"/>
                </td>
             </tr>

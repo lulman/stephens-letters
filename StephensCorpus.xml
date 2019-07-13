@@ -2666,7 +2666,9 @@
       
     </profileDesc>
     <revisionDesc>
-      <change when="2011-12-06" who="#HLU">Initial preview release of edition.<roleName>The editors.</roleName></change>
+      <change when="2019-01-01" who="#HLU">Redesign of the edition to match the design approved by NINES peer reviewers;
+        editing and proofreading of all files.<roleName>H. Lewis Ulman</roleName></change>
+      <change when="2011-12-06" who="#HLU">Initial work on edition during a graduate course on textual editing.<roleName>The editors.</roleName></change>
     </revisionDesc>
   </teiHeader>
   
