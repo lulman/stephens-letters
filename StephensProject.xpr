@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="21.1">
     <meta>
-        <filters directoryPatterns="*.bbprojectd" filePatterns="*.jpg,*.png,*.xpr" positiveFilePatterns="" showHiddenFiles="false"/>
+        <filters directoryPatterns="*.bbprojectd" filePatterns="*.jpg,*.png,*.xpr,*.html,*.js" positiveFilePatterns="" showHiddenFiles="false"/>
         <options>
             <serialized version="21.1" xml:space="preserve">
                 <serializableOrderedMap>
@@ -12,6 +12,21 @@
                     <entry>
                         <String>scenario.associations</String>
                         <scenarioAssociation-array>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>Stephens-Reading.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Stephens-Reading</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
                                     <String>Stephens-Edintro.xsl</String>
@@ -49,21 +64,6 @@
                                 <field name="scenarioIds">
                                     <list>
                                         <String>Stephens-Diplomatic</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>Stephens-Reading.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>Stephens-Reading</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
