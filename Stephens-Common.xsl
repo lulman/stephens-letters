@@ -341,13 +341,13 @@
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
-                  <p><button>Switch between Cox's original pencilled text and overwritten and altered inked text.</button></p>
+<!--                  <p><button>Switch between Cox's original pencilled text and overwritten and altered inked text.</button></p>
 
                   <p>
                      <span class="pencil">Pencil text displayed.</span>
                       <span class="ink inktoggle">Ink changes displayed.</span>
                   </p>
-                                                     
+-->                                                     
                   <!-- Start NINES Widget -->
                   <form method="get"
                      style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"
@@ -467,8 +467,8 @@
             <hr/>
             <!-- Insert link to home page, creation date, and licensing statement.-->
             <p align="left">
-               <a href="stephens_letters.html"
-                  target="self">Home</a>
+               <a href="#top"
+                  target="self">Top of Page</a>
                <br/>
                <br/>
                <emph>Created: <xsl:apply-templates
