@@ -99,7 +99,7 @@
             </xsl:element>
             <title>
                <xsl:value-of
-                  select="tei:TEI/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
+                  select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
             </title>
             
             <!-- LOCAL JS CALLS -->
@@ -427,11 +427,11 @@
       <xsl:element name="div"><xsl:attribute name="id">maincontent</xsl:attribute></xsl:element>
      <!-- Order and apply templates for the sections of the header you wish to include. -->
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='introductory']"/>
+            <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc"/>
             <xsl:apply-templates
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:notesStmt/tei:note[@type='descriptive']"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt"/>
-            <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
       <hr style="border: 2px solid crimson;"/>
@@ -510,13 +510,14 @@
          <xsl:apply-templates/>
       </p>
    </xsl:template>
+   
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt">
       <hr style="border: 2px solid crimson;"/>
       <a name="edition"/>
       <h2 id="edition">About the Electronic Edition</h2>
       <hr/>
-      <p>Title: <xsl:value-of select="tei:title"/></p>
-         <p>Editors: <xsl:for-each select="tei:editor/tei:persName">
+      <p><strong>Title</strong>: <xsl:value-of select="tei:title"/></p>
+         <p><strong>Editors</strong>: <xsl:for-each select="tei:editor/tei:persName">
             <xsl:choose>
                <xsl:when test="current()=//tei:titleStmt/tei:editor[1]">
                   <xsl:apply-templates/>
@@ -526,7 +527,7 @@
          </xsl:for-each>.</p>
       <xsl:for-each select="tei:respStmt">
          <p>
-      <xsl:value-of select="tei:resp"/>
+      <strong><xsl:value-of select="tei:resp"/></strong>
       <xsl:for-each select="tei:persName">
             <xsl:choose>
                <xsl:when test="current()=//tei:respStmt/tei:persName[1]">
@@ -537,7 +538,13 @@
          </xsl:for-each>.
          </p>
       </xsl:for-each>
+      <p>
+         <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
+            select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
+      </p>      
+      
    </xsl:template>
+   
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
       <hr style="border: 2px solid crimson;"/>
       <h2>Editorial Method</h2>
