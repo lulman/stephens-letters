@@ -15,18 +15,19 @@
     <!-- Declare variables that will "localize" references to them in Stephens-Common.xsl -->
     
     <xsl:variable name="View">Diplomatic Transcription</xsl:variable>
-    <xsl:variable name="aboutView">This diplomatic transcription of the Stephens letters is
-        organized by manuscript pages. Line breaks and page breaks reflect those in the letters;
-        paragraph breaks are not reported. Spelling, punctuation, capitalization, and abbreviations
-        are reported as they appear in the original letters. Text highlighted by correspondents with
-        an underscore is underscored in this view. Recoverable cancellations are reported in red,
-        strikethrough text. Interlinear additions are reported between arrows (↑ ↓) indicating the
-        position of the addition; text added in the margins is reported between pipes (|). All
-        material added by the editors is surrounded by square brackets: uncertain readings are
-        followed by a question mark, apparent errors in the manuscript are indicated by "sic," and
-        text supplied by the editors for clarity is set in italics. Gaps in the manuscript (e.g.,
-        tears, unrecoverable cancellations) are noted by ellipses within square brackets. Links to
-        explanatory notes are indicated by superscript colored numbers.</xsl:variable>
+    <xsl:variable name="aboutView">This presentation of the Stephens letters derives from the
+        project's main XML file, StephensCorpus.xml, transformed with Stephens-Common.xsl and
+        Stephens-Diplomatic.xsl. In the text of the letter, line and page breaks follow those in
+        the manuscript; paragraph breaks are not reported. Spelling, punctuation, capitalization, and
+        abbreviations are reported as they appear in the manuscript. Text highlighted by Hawthorne
+        with an underscore is underscored. Text canceled by Hawthorne is presented in a red,
+        strikethrough font. Uncertain readings are enclosed in square brackets and followed by a
+        question mark. Text added by Hawthorne between lines is preceded by an arrow indicating
+        whether the addition is above or below the line and followed by an arrow indicating the return
+        to the line (&#x2191; &#x2193;); text added in the margins is preceded and followed by a
+        vertical bar (&#x007C;). Text added by Hawthorne in the margins is surrounded by "pipe"
+        characters (|) at the point in the main text that it appears to follow. Links to external
+        materials are colored and underlined.</xsl:variable>
     <xsl:variable name="bodyRule">
         body {
         font-family: 'Fanwood Text',georgia, serif;
@@ -110,7 +111,7 @@
     <xsl:template match="tei:pb">
         <hr/>
         <br/>
-        <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any"/>
+        <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any" from="tei:div[@type='letter']"/>
             &#xA0;(<a><xsl:attribute name="HREF"><xsl:value-of
                 select="@facs"/>.jpg</xsl:attribute>
             <xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]</span>

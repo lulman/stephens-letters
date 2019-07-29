@@ -339,7 +339,7 @@
             <!-- END THE VERTICAL IMAGE BAR -->
             <!-- START RIGHT MENU -->   
             <div id="viewMenu">
-               <p class="aboutView"><a href="#View">About this page.</a></p>
+               <p class="aboutView"><a href="#View">About this view.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
                   <!--<p id="font-size"></p>-->
@@ -466,7 +466,7 @@
 
                <hr style="border: 2px solid crimson;"/>
                <h2 style="text-align:center;">
-                  About this View of the Journal
+                  About this View of the Letters
                </h2>
                <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
             <hr/>
@@ -502,6 +502,7 @@
       <xsl:apply-templates select="tei:div[@type='enclosure']"/>
       <xsl:apply-templates select="tei:div[@type='envelope']"/>
    </xsl:template>
+   
    <xsl:template match="tei:div[@type='envelope']">
       <div class="envelope">
       Envelope. <xsl:apply-templates
@@ -553,7 +554,9 @@
           </xsl:choose></p>      
       </div>
    </xsl:template>
+   
    <xsl:template match="tei:div[@type='enclosure']"/>
+   
    <xsl:template match="tei:div[@type='letter']">
       <a class="TOCtarget">
          <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute>

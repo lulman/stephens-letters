@@ -453,7 +453,7 @@
                <strong>About this Editorial Introduction</strong>
             </p>
             <p><a name="view"/>Text on this page is derived from the
-               edition's XML source document, StephensCorpus.xml.</p>
+               edition's XML source document, StephensCorpus.xml, transformed with the Stephens-Edintro.xsl stylesheet.</p>
             <hr/>
             <p>&#x2192; <a href="stephens_reading.html">Link to the text of the journal</a>.
             </p>

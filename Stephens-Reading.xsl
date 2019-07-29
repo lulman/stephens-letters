@@ -15,17 +15,17 @@
     <!-- Declare variables that will "localize" references to them in Stephens-Common.xsl -->
 
     <xsl:variable name="View">Reading Text</xsl:variable>
-    <xsl:variable name="aboutView"> In this reading text of the Stephens letters, line breaks in the
-        manuscripts are not reported; rather, lines wrap in the browser's window. Similarly, page
-        breaks are not reported. Paragraph breaks follow those in the manuscript. Spelling,
-        punctuation, capitalization, and abbreviations are reported as they appear in the
-        manuscript. Text highlighted by the correspondents with an underscore is underscored in this
-        view. Canceled text is suppressed. Text added between lines or in the margins is silently
-        incorporated into the reading text. All material added by the editors is surrounded by
-        square brackets: uncertain readings are enclosed in square brackets and followed by a
+    <xsl:variable name="aboutView"> This presentation of the Stephens letters derives from the
+        project's main XML file, StephensCorpus.xml, transformed with Stephens-Common.xsl and
+        Stephens-Reading.xsl. In this "view" of the Stephens letters, line breaks in the manuscripts
+        are not reported; rather, lines wrap in the browser's window. Similarly, page breaks are not
+        reported. Paragraph breaks follow those in the manuscript. Spelling, punctuation,
+        capitalization, and abbreviations are reported as they appear in the manuscript. Text
+        highlighted by the correspondents with an underscore is underscored in this view. Canceled
+        text is suppressed. Text added between lines or in the margins is silently incorporated into
+        the reading text. Uncertain readings are enclosed in square brackets and followed by a
         question mark, and text supplied by the editor for clarity is set in italics and surrounded
-        by square brackets. Gaps in the manuscript (e.g., from tears) are indicated by elipses
-        enclosed by square brackets. Links to notes and external materials are colored.
+        by square brackets. Links to notes and external materials are superscripted and colored.
     </xsl:variable>
     <xsl:variable name="bodyRule">
         body {
