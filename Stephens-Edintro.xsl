@@ -144,7 +144,7 @@
                            <li><a href="./stephens_letters.html#revision">Revision History</a></li>
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="">Views of the Diary</a>
+                     <li class="link"><a class="main"  href="">Views of the Letters</a>
                         <ul class="sub">
                            <li><a href="./stephens_reading.html">By Letter</a></li>
                            <li><a href="./stephens_diplomatic.html">By MS Page</a></li>
@@ -478,9 +478,10 @@
       <a name="source"/>
       <h2 id="source">About the Source Documents</h2>
       <hr/>
-      <p>Title: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
-         <br/>Extent: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/>
+      <p><strong>Title</strong>: "<xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:titleStmt/tei:title"/>" 
+         <br/><strong>Extent</strong>: <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:biblFull/tei:extent"/> (in this edition)
       </p>
+      <p>See individual letters (under "Views of the Letters") for physical descriptions of each letter.</p>
          <xsl:apply-templates/>
    </xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/refsDecl">
@@ -489,17 +490,15 @@
    </xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability">
       <p>
-         <em>
-            <xsl:apply-templates/>
-         </em>
+             <xsl:apply-templates/>
       </p>
-      <p>
+<!--      <p>
          <em>
             <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
          </em>
       </p>
-   </xsl:template>
+-->   </xsl:template>
 
    <!-- Format information about your electronic document. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:projectDesc">
@@ -801,5 +800,6 @@
    <xsl:template match="tei:idno"/>
    <xsl:template match="tei:publisher"/>
    <xsl:template match="tei:pubPlace"/>
+   <xsl:template match="tei:publicationStmt/tei:date"></xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"/>
 </xsl:stylesheet>

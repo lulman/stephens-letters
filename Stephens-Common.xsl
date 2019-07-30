@@ -100,7 +100,7 @@
                            <li><a href="./stephens_letters.html#revision">Revision History</a></li>
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="">Views of the Diary</a>
+                     <li class="link"><a class="main"  href="">Views of the Letters</a>
                         <ul class="sub">
                            <li><a href="./stephens_reading.html">By Letter</a></li>
                            <li><a href="./stephens_diplomatic.html">By MS Page</a></li>

@@ -114,7 +114,7 @@
             units are appropriate. In this case, number of letters?
           -->
 <!-- Check on the extent of the entire collection. -->
-          <extent>15 signed autograph letters.</extent>
+          <extent>Fifteen previously unpublished, signed, autograph letters</extent>
           
           <publicationStmt>
             <p>The The Ivan S. Gilbert Collection of Stephens Family Travel Letters and Ephemera
@@ -143,7 +143,7 @@
           <notesStmt>
             
             <note type="descriptive">
-              <p>This edition of fifteen signed, autograph letters offers a
+              <p><emph rend="bold">Selection of the Source Texts</emph>. This edition of fifteen signed, autograph letters offers a
                 necessarily selective view of the 899 separate items listed in the finding aid for
                 the Ivan S. Gilbert Collection of Stephens Family Letters and Ephemera held in the
                 Rare Books and Manuscript collection of The Ohio State University Libraries
@@ -153,9 +153,9 @@
                 constitute the next largest group of items—191, or 21% of the total—followed by 140
                 miscellaneous documents, including 33 name cards and various bills, receipts, and
                 brochures. Finally, the collection includes 110 small photographs. The 622 dated
-                items range from 1834 to 1949, but two-thirds of the letters date from between 1907
+                items in the collection range from 1834 to 1949, but two-thirds of the letters date from between 1907
                 and 1914, with another 3% from 1917. Ten of the 110 photographs are dated, the dates
-                scattered through the years covered by the letters.</p>
+                scattered through the years covered by the letters. ADD FIGURES ABT COLLECTION HERE!</p>
               <p>Detailed physical and bibliographical descriptions of the
                 materials contained in this electronic edition appear with the letters in the
                 edition. More general information about the format of the other materials in the
@@ -164,19 +164,30 @@
                   rend="link">
                   <head>here</head>
                   <graphic
-                    url="http://library.osu.edu/sites/rarebooks/finding/StephensFamilyLetters.xls"/>
+                    url="http://library.osu.edu/finding-aids/rarebooks/StephensFamilyLetters.xls"/>
                   <figDesc>Link to finding aid for Stephens Family Travel Letters.</figDesc>
                 </figure>. All of the materials are, to the best of the editors'
                 knowledge, previously unpublished.
               </p>                  
               <p>
-                The finding aid identifies 180 different individual and corporate correspondents or
-                authors, and 24 different correspondees, but Gladys Stephens emerges unquestionably
+                While the Libraries' finding aid identifies 180 different individual and corporate correspondents or
+                authors, and 24 different correspondees, Gladys Stephens emerges unquestionably
                 as the central figure in the collection: she is listed as the recipient of 334 of
                 the letters and 138 of the postcards, and as the author of 54 letters and
-                postcards. The letters in the present edition were all
-                written during the summer and autumn of 1909 by Gladys Stephens (8), James J.
-                McIntyre (6), and Cora Anderson (1).
+                postcards. Given the contraints of our project—especially the length of an academic term—we
+                we decided to work with a subset of the collection that suggests the richness of the whole but
+                offers something of an epistolary narrative. The letters in the present edition tells the story of two young lives
+                intersecting during the course of travel and work in the early twentieth-century United States of America.
+                Gladys Stephens writes eight letters to her mother about her travels west through Yosemite National Park
+                to visit the 1909 Alaska-Yukon-Pacific Exhibition in Seattle, then south along the California coast
+                and east along the nation's southern tier with a stop to visit an uncle in El Paso, Texas. At some
+                point during her stay in Seattle, she strikes up a relationship with James J. McIntyre, a merchant sailor plying the southeastern
+                coast of Alaska, who writes six letters to her during the summer and fall recounting his
+                adventures. Another letter written by Gladys's aunt during that summer shares further information
+                about Gladys's travels with her mother.
+              </p>
+              <p>
+                
               </p>
             </note>
             
@@ -1955,34 +1966,69 @@
           line(s) of text, slanting downward left to right</rendition>
       </tagsDecl>
       <projectDesc>
-          <p> This edition is the latest in a series of collaboratively produced electronic
-            editions of previously unpublished nineteenth and early twentieth-century American manuscripts held in
-            the Rare Books and Manuscripts Library at The Ohio State University. Previous
-            editions include "My Dear Elizabeth," five letters written by Sophia Peabody
-            Hawthorne to her sister Elizabeth Palmer Peabody between ca. 1837 and 1868 (currently
-            being revised), "Dear Wife," twenty-one letters written by riverboat captain
-            William B. Anderson to his wife Louisa while he plied the Ohio river during the
-            height of the American Civil War, 1862–1864, and "Journal of a Tour to Europe," by
-            Samuel Sullivan Cox. These documentary editions are intended
-            to provide wide exposure and access to manuscripts that might otherwise be difficult
-            for scholars to discover and consult, and to provide users with a variety of tools
-            for studying those texts. </p>
-          <p>The texts were edited in connection with graduate and undergraduate courses offered
-            by H. Lewis Ulman, Associate Professor of English at The Ohio State University. The
-            courses aim to provide students with an opportunity to explore issues of textuality
-            and mediation that arise when cultural materials and archives spread from page to screen and
-            from library shelves to networked databases. Electronic textual editing is our
-            vehicle for examining what happens—and envisioning what might happen—when artifacts
-            in one medium are represented in another medium, especially with regard to the
-            interpretive work of reading. Electronic textual editions also provide a contact zone
-            that can help us reflect on what manuscript, print, and "born digital" artifacts can
-            tell us about their unique properties and their relationships to one another.</p>
-          <p> While providing a reliable textual edition is a <foreign xml:lang="lat">sine qua
-            non</foreign>, the Stephens edition also explores ways of telling four stories
-            inextricably woven into our work: the lives and historical milieu evoked by the
-            texts, the history of the physical documents, the
-            editorial process that gave rise to this particular interpretation of the texts, and
-            the mediation of our electronic delivery system.</p>
+        <p>This edition belongs to a series of collaboratively produced electronic editions of
+          previously unpublished nineteenth-century American manuscripts held in the Rare Books
+          and Manuscripts Library (RBMS) at The Ohio State University Libraries. Other editions
+          include "Selected Entries from the Lucius Clark Smith Diaries,
+          30 July 1862 to 31 December 1862"; "My Dear Elizabeth," five letters written by Sophia Peabody Hawthorne to her
+          sister Elizabeth Palmer Peabody between ca. 1837 and 1868; "Journal of a Tour to Europe," 
+          by Samuel Sullivan Cox; and Louisa A. Doane's "Journal
+          of Two Ocean Voyages (1852-1853)."</p>
+        
+        <p>Each text was initially edited in connection with an undergraduate or graduate course
+          on electronic textual editing offered by H. Lewis Ulman, Associate Professor of
+          English at The Ohio State University. The courses provided students with an
+          opportunity to explore issues of textuality and mediation that arise when our
+          cultural archives spread from page to screen and from library shelves to networked
+          databases. Electronic textual editing served as each class's context for examining
+          what happens—and envisioning what might happen—when artifacts in one medium are
+          represented in another medium, especially with regard to the interpretive work of
+          reading. Electronic textual editions also provided a contact zone that helped
+          students reflect on what manuscript, print, and "born digital" artifacts can tell us
+          about their unique properties and their relationships to one another.</p>
+        
+        <p>While the students' work focused on providing reliable textual editions, they also
+          explored four threads inextricably woven into the work of electronic textual editing:
+          the lives and historical milieu evoked by the texts; the history, characteristics,
+          and preservation of physical and digital texts; the editorial processes and decisions
+          that shape particular interpretations and presentations texts; and the mediation of
+          electronic delivery systems.</p>
+        
+        <p>These conceptual focuses, along with the time constraints of academic terms and the
+          need to train students who had, typically, no prior experience in textual editing or
+          the various technologies employed in electronic textual editing, strongly influenced
+          the selection of texts in this series. Working with curators in the RBMS, Professor
+          Ulman identified previously unpublished manuscript materials that were of potentially
+          broad interest and that reflected a curatorial focus of the RBMS collection—for
+          example, letters and personal diaries that connect private lives with larger
+          historical contexts. Focusing on unique manuscript materials not, in all but one
+          case, associated with other copies or later published versions also eliminated the
+          need to compare multiple copies or states of the same work, perhaps held in other
+          archives, an impractical task in the course of an academic term. Other practical
+          matters also informed the choice of materials, including the possibility of scanning
+          the source documents before the class so that students could work with both the
+          original documents and high-resolutions facsimiles as they transcribed and encoded
+          the source texts.</p>
+        
+        <p>Thus, the editions in this series are documentary editions—interpretations and
+          representations of single documents—designed to provide wider exposure and access to
+          manuscript materials that might otherwise be overlooked, and to provide users with a
+          variety of tools for studying those texts.</p>
+        
+        <p>While providing a reliable textual edition is a <foreign xml:lang="lat"><hi
+              style="font-style:italic;">sine qua non</hi></foreign>, the Stephens edition also
+          explores ways of telling four stories inextricably woven into our work: the lives and
+          historical milieu evoked by the texts, the history of the physical documents, the
+          editorial process that gave rise to this particular interpretation of the texts, and the
+          mediation of our electronic delivery system. </p>
+        
+        <p> Over the course of several years following the classes in which students worked on
+          the editions, Professor Ulman revised the introductory materials to ensure stylistic
+          consistency and proofed the transcription and encoding. He also redesigned the
+          structure of the editions to meet the requirements of Ohio State's institutional
+          repository, evolving accessibility standards, and feedback from peer reviewers.
+          However, he did not undertake a complete retranscription of the source text or
+          revision of the students' introductory essays and annotations.</p>
       </projectDesc>
       <editorialDecl>
         <!-- TAKE NOTE: Explain your editorial method:
