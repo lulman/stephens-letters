@@ -1756,7 +1756,7 @@
             items in the collection range from 1834 to 1949, but two-thirds of the letters date
             from between 1907
             and 1914, with another 3% from 1917. Ten of the 110 photographs are dated, the dates
-            scattered through the years covered by the letters. ADD FIGURES ABT COLLECTION HERE!
+            scattered through the years covered by the letters.
          </p>
          
          <p>Detailed physical and bibliographical descriptions of the
@@ -1776,9 +1776,9 @@
             the letters and 138 of the postcards, and as the author of 54 letters and
             postcards. Given the contraints of our project—especially the length of an academic
             term—we
-            we decided to work with a subset of the collection that suggests the richness of the
+            decided to work with a subset of the collection that suggests the richness of the
             whole but
-            offers something of an epistolary narrative. The letters in the present edition tells
+            offers something of an epistolary narrative. The letters in the present edition tell
             the story of two young lives
             intersecting during the course of travel and work in the early twentieth-century United
             States of America.
@@ -1786,7 +1786,7 @@
             Yosemite National Park
             to visit the 1909 Alaska-Yukon-Pacific Exhibition in Seattle, then south along the
             California coast
-            and east along the nation's southern tier with a stop to visit an uncle in El Paso,
+            and east along the nation's southwest tier with a stop to visit an uncle in El Paso,
             Texas. At some
             point during her stay in Seattle, she strikes up a relationship with James J. McIntyre,
             a merchant sailor plying the southeastern
@@ -1844,90 +1844,85 @@
          <h2>Editorial Method</h2>
          <hr>
          
-         
          <p>
-            <strong>Scanning</strong>. The manuscript pages were scanned as 24-bit TIFF
-            images at 400 dots per inch (dpi), then coverted to 8-bit JPEG images at 400 dpi and
-            full quality before being loaded into an image server that provides zoomable views
-            of the
-            production images. All edges of manuscript pages were
-            overscanned by at least 1/4 inch. No color correction was used at any stage of image
+            <strong>Scanning</strong>. The manuscript pages were scanned as 24-bit TIFF images
+            at 400 dots per inch (dpi), then coverted to 8-bit JPEG images at 400 dpi and full
+            quality. All edges were overscanned by at least 1/4 inch. No color correction was
+            used at any stage of image
             preparation, but a scan of a photographer's 18% grey card on the same scanner
             produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur
             in
             Adobe Photoshop to average color values. Thus, a properly configured monitor should
-            provide a reasonable approximation of colors on the manuscript pages under neutral
-            indoor
-            lighting.
-            
-         </p>
-         
-         <p>
-            <strong>Production Location of Digital Assets</strong>. The TEI XML-compliant
-            transcription of the Stephens letters, along with the XSL style sheets used to provide
-            variant "views" of the edition, are stored on a server hosted by College of
-            Arts and Sciences at The Ohio State University. High resolution scans of the manuscript
-            pages, scans of plates from contemporary sources, and photographs of the letters are
-            stored in the Media Manager application hosted by the College of Arts and Science
-            at
-            The Ohio State University. The files constituting the project's Web site are also
-            stored on a Web server hosted by the College.
-         </p>
-         
-         <p>
-            <strong>Archiving of Digital Assets</strong>. Once the edition is complete,
-            its digital assets will be archived in The Ohio State University's institutional
-            repository, the
-            <a HREF="https://kb.osu.edu/dspace/" alt="Link to the Knowledge Bank" target="blank">Knowledge Bank</a>.
+            provide a reasonable approximation of colors on the manuscript pages.. 
             
          </p>
          
          
-         
-         <p>
-            <strong>Markup of Physical Structure and Page Layout</strong>. The manuscript
-            <strong>pages</strong>, encoded by the empty page break or &lt;pb/&gt;
-            element, are the primary physical structures represented in the markup. Each
-            &lt;pb&gt; element includes an "facs" attribute identifying the unique ID
-            of a high-resolution scan of that image in the Media Manager application. <strong>Line
-               breaks</strong> (i.e., lineation determined or influenced by the physical
-            constraints of the page rather than compositional choices by the author) are encoded
-            with the empty &lt;lb/&gt; element. No attributes are included in the &lt;lb&gt;
-            element. 
+         <p><strong>Transcription</strong>. Editing of the Stephens letters emphasizes diplomatic transcription: 
+            abbreviations, recoverable cancelations, punctuation, spelling, underlining, additions
+            above and below
+            the line or in the margins, capitalization, line breaks, and page breaks 
+            have all been transcribed and encoded as they appear in the original manuscripts.
+            The
+            representation of those features varies depending on the view of the letter. An explanation
+            of 
+            the presentation in each view of the letters can be read via the "About this View"
+            link
+            at the top of each view's page.
          </p>
          
-         <p>
-            <strong>Markup of Textual Structure</strong>. The edition employs TEI's corpus
-            structure, encoding information relevant to the entire editon in a &lt;teiHeader&gt;
-            element with an attribute-value pair "type='corpus'"; information about the
-            individual letters as well as the encoded transcriptions of the letters are contained
-            in
-            separate &lt;TEI&gt; elements, each with its own &lt;teiHeader&gt; and &lt;text&gt;
-            elements. <strong>Letters</strong> and any accompanying <strong>envelopes</strong> are
-            encoded by &lt;div1&gt; elements with the attribute-value pair "type='letter'"
-            and "type='envelope'", respectively.Each letter contains
-            an &lt;opener&gt;, &lt;body&gt;, and &lt;closer&gt; elements encoded according to TEI
-            guidelines.
+         
+         <p><strong>Markup and Annotation</strong>. XML encoding of the Stephens letters follows The
+            Text Encoding Initiative's (TEI) <cite>P5: Guidelines for Electronic Text Encoding and Interchange</cite>,
+            as customized for the project using the TEI's ODD ("One Document Does it All") process.
+            This editorial introduction and the three "views" of the letters were generated from
+            the main XML file
+            using XSL transformations to produce HTML Web pages. Several of the appendices were
+            encoded in HTML separately.
+            A more detailed description of the markup can be found via the "Appendices" menu,
+            and all source files
+            (XML, XSL, CSS, ODD, RNC) can be viewed and downloaded via the "Source Files" menu.
          </p>
          
-         <p>The body of each letter consist of a series of <strong>paragraphs</strong>. Where indicated
-            by indentation of a line from the left margin of a page, line breaks part-way across
-            a page, or additional white space between lines, paragraphs are encoded with the
-            &lt;p&gt; element and no attributes.
+         
+         <p>Introductory material (such as this editorial introduction) as well as annotated lists
+            of people, places, ships, 
+            and organizations mentioned in the letters are encoded in the TEI header of the main
+            XML
+            document. Other explanatory annotations are linked directly from the text. Separate
+            appendices provide 
+            further information about the project (e.g., acknowledgements, editors' bios, and
+            so on). 
+            All these ancillary materials can be viewed via the menus at the top of each page.
          </p>
          
+         
          <p>
-            <strong>Level of Transcription/Encoding</strong>. The edition's markup scheme supports
-            a modest range of presentations, from semi-modernized/corrected to semi-diplomatic.
-            The basic transcription follows the manuscript verbatim. Various manuscript features
-            (e.g., cancellations, interlinear or marginal additions, tears in pages) are encoded,
-            as are regularized versions of proper names and dates and standard versions of
-            nonstandard spellings and expansions of abbreviations.The project's Web site contain
-            full details of the markup
-            guidelines:
-            <a HREF="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensMarkup.cfm" alt="Link to the Stephens Family Letters markup guidelines." target="blank">StephensMarkup.html</a>.
+            <strong>Proofing</strong>. Students who created the original transcriptions proofread their own
+            transcription and encoding. In preparation for peer review by NINES and preservation
+            in The Ohio State University's 
+            Knowledge Bank, the transcriptions and encoding were once again proofread by Professor
+            Ulman.
             
          </p>
+         
+         <p>
+            <strong>Peer Review</strong>. Anonymous reviewers for NINES provided peer-reviews for the editions, in response
+            to 
+            which they were revised and then reviewed by NINES editors before being listed in
+            the NINES database.
+            
+         </p>
+         
+         <p>
+            <strong>Production and Archival Location of Digital Assets</strong>.
+            All of the files associated with this edition are accessed via, and archived in, The
+            Ohio State University's
+            institutional repository, the Knowledge Bank.
+            
+         </p>
+         
+               
          
          <hr style="border: 2px solid crimson;"><a name="WorksCited"></a><h2 id="worksCited">List of Works Cited</h2>
          <hr>

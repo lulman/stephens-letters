@@ -109,14 +109,15 @@
     <!-- Define templates required for the diplomatic view. -->
     
     <xsl:template match="tei:pb">
-        <hr/>
-        <br/>
+       <!-- <hr/>-->
+        <br/><br/>
         <span class="pagebreak">[Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1" level="any" from="tei:div[@type='letter']"/>
             &#xA0;(<a><xsl:attribute name="HREF"><xsl:value-of
                 select="@facs"/>.jpg</xsl:attribute>
             <xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]</span>
-        <br/>
-    </xsl:template>    
+      <!--  <br/>-->
+    </xsl:template> 
+    
     <xsl:template match="tei:lb">
         <br/>
         <a>

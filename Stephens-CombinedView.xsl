@@ -58,7 +58,8 @@
         }
         
         .pageview {
-        margin-bottom:200px;
+        margin-bottom:300px;
+        padding-right:10px;
         float:left;
         }
         .pagebreak {
@@ -151,9 +152,9 @@
     <!-- Define templates required for the combined image/text view. -->
     
     <xsl:template match="tei:pb">
-        <hr/>
+        <!--<hr/>-->
         <br/>
-        <span class="pagebreak"> [Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
+        <div class="pagebreak"> [Page&#xA0;-&#xA0;<xsl:number count="tei:pb" format="1"
             level="any" from="tei:div[@type='letter']"/>&#xA0; (<a><xsl:attribute name="HREF"><xsl:value-of
                     select="@facs"/>.jpg</xsl:attribute><xsl:attribute name="target">top</xsl:attribute>click to open page image in a new window</a>)]<br/>
             <a>
@@ -166,8 +167,9 @@
                     <xsl:attribute name="width">400</xsl:attribute>
                 </img>
             </a>
-        </span>
+        </div>
     </xsl:template>
+    
     <xsl:template match="tei:lb">
         <br/>
         <a>
@@ -183,10 +185,19 @@
     <xsl:template match="tei:seg[@type='softhyphen']">
         <xsl:apply-templates/>
     </xsl:template>    
-    <xsl:template match="tei:p"><xsl:apply-templates/></xsl:template>
+    <xsl:template match="tei:add[@place='supralinear']"> &#x2191; <xsl:apply-templates/> &#x2193; </xsl:template>
+    <xsl:template match="tei:add[@place='infralinear']"> &#x2193; <xsl:apply-templates/> &#x2191; </xsl:template>
+    <xsl:template match="tei:add[@place='inline']">&#x7c;<xsl:apply-templates/>&#x7c;</xsl:template>
+    <xsl:template match="tei:add[@place='margin']">|<xsl:apply-templates/>|</xsl:template>
+
+    <!-- Deal with sic/corr tags -->
     <xsl:template match="tei:choice/tei:sic">
         <xsl:apply-templates/> [sic] </xsl:template>
     <xsl:template match="tei:choice/tei:corr"/>
+    
+    <!-- Highlight recoverable cancelations -->
+    <xsl:template match="tei:del"><span class="cancel"><xsl:apply-templates/></span></xsl:template>
+    <xsl:template match="tei:p"><xsl:apply-templates/></xsl:template>
     <xsl:template match="tei:figure[@rend='embed']"/>
     
     

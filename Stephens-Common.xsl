@@ -504,10 +504,25 @@
    </xsl:template>
    
    <xsl:template match="tei:div[@type='envelope']">
-      <div class="envelope">
-      Envelope. <xsl:apply-templates
+<!-- OLD ENVELOPE CODE
+         <div class="envelope">
+      <strong>Envelope</strong>. <xsl:apply-templates
          select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:accMat"></xsl:apply-templates>
-      <p>Return Address: 
+ -->   
+      <div class="envelope">
+         <xsl:apply-templates
+            select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:accMat"></xsl:apply-templates>
+         <xsl:choose>
+            <xsl:when test="tei:figure">
+               <br/><br/>
+               <xsl:apply-templates select="tei:figure"/>
+            </xsl:when>
+            <xsl:otherwise>
+               <br/><br/>
+               <strong>Envelope</strong>.
+            </xsl:otherwise>
+         </xsl:choose>
+      <p><strong>Return Address</strong>: 
       <xsl:choose>
          <xsl:when test="tei:ab[@type='returnAddress']">
          <xsl:apply-templates select="tei:ab[@type='returnAddress']"/>
@@ -516,7 +531,7 @@
             N/A
          </xsl:otherwise>
       </xsl:choose></p>
-      <p>Mailing Address: 
+      <p><strong>Mailing Address</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab[@type='postalAddress']">
             <xsl:apply-templates select="tei:ab[@type='postalAddress']"/>
@@ -525,7 +540,7 @@
                N/A
             </xsl:otherwise>
           </xsl:choose></p>
-      <p>Postmark: 
+      <p><strong>Postmark</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab/tei:stamp[@type='postmark']">
             <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark']"/>
@@ -534,7 +549,7 @@
                N/A
             </xsl:otherwise>
          </xsl:choose></p>      
-      <p>Cancellation: 
+      <p><strong>Cancellation</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab/tei:stamp[@type='cancellation']">
             <xsl:apply-templates select="tei:ab/tei:stamp[@type='cancellation']"/>
@@ -543,7 +558,7 @@
                N/A
             </xsl:otherwise>
          </xsl:choose></p>      
-      <p>Endorsement: 
+      <p><strong>Endorsement</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab[@type='endorsement']">
             <xsl:apply-templates select="tei:ab[@type='endorsement']"/>

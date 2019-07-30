@@ -155,7 +155,7 @@
                 brochures. Finally, the collection includes 110 small photographs. The 622 dated
                 items in the collection range from 1834 to 1949, but two-thirds of the letters date from between 1907
                 and 1914, with another 3% from 1917. Ten of the 110 photographs are dated, the dates
-                scattered through the years covered by the letters. ADD FIGURES ABT COLLECTION HERE!</p>
+                scattered through the years covered by the letters.</p>
               <p>Detailed physical and bibliographical descriptions of the
                 materials contained in this electronic edition appear with the letters in the
                 edition. More general information about the format of the other materials in the
@@ -175,12 +175,12 @@
                 as the central figure in the collection: she is listed as the recipient of 334 of
                 the letters and 138 of the postcards, and as the author of 54 letters and
                 postcards. Given the contraints of our project—especially the length of an academic term—we
-                we decided to work with a subset of the collection that suggests the richness of the whole but
-                offers something of an epistolary narrative. The letters in the present edition tells the story of two young lives
+                decided to work with a subset of the collection that suggests the richness of the whole but
+                offers something of an epistolary narrative. The letters in the present edition tell the story of two young lives
                 intersecting during the course of travel and work in the early twentieth-century United States of America.
                 Gladys Stephens writes eight letters to her mother about her travels west through Yosemite National Park
                 to visit the 1909 Alaska-Yukon-Pacific Exhibition in Seattle, then south along the California coast
-                and east along the nation's southern tier with a stop to visit an uncle in El Paso, Texas. At some
+                and east along the nation's southwest tier with a stop to visit an uncle in El Paso, Texas. At some
                 point during her stay in Seattle, she strikes up a relationship with James J. McIntyre, a merchant sailor plying the southeastern
                 coast of Alaska, who writes six letters to her during the summer and fall recounting his
                 adventures. Another letter written by Gladys's aunt during that summer shares further information
@@ -2031,57 +2031,57 @@
           revision of the students' introductory essays and annotations.</p>
       </projectDesc>
       <editorialDecl>
-        <!-- TAKE NOTE: Explain your editorial method:
-          
-          •	If you employ image files, describe how they were produced and note where they are stored.
-          •	Describe any editorial guidelines you followed (e.g., how you treated hyphenation, whether 
-          you corrected apparent errors, and any other decisions about how to treat recurrent features).
-          •	Describe any special symbols that you use in your text to indicate additions, corrections, 
-          cancellations, and so on. This important explanation provides a reader's guide to the text.
-          
-          You can use more than one paragraph (tagged <p> </p>).
-          
-          We might include a system diagram, showing where all of the assets are stored
-          and how the systems interact. We might include a database of assets. And we
-          might include screen shots of the edition running on various systems as a step
-          toward a descriptive bibliography of an online edition.
-        -->
         <p>
-          <emph rend="bold">Scanning</emph>. The manuscript pages were scanned as 24-bit TIFF
-          images at 400 dots per inch (dpi), then coverted to 8-bit JPEG images at 400 dpi and
-          full quality before being loaded into an image server that provides zoomable views of the
-          production images. All edges of manuscript pages were
-          overscanned by at least 1/4 inch. No color correction was used at any stage of image
+          <emph rend="bold">Scanning</emph>. The manuscript pages were scanned as 24-bit TIFF images
+          at 400 dots per inch (dpi), then coverted to 8-bit JPEG images at 400 dpi and full
+          quality. All edges were overscanned by at least 1/4 inch. No color correction was used at any stage of image
           preparation, but a scan of a photographer's 18% grey card on the same scanner
           produced RGB values at the center of 91/95/107 after applying a 150% Gaussian Blur in
           Adobe Photoshop to average color values. Thus, a properly configured monitor should
-          provide a reasonable approximation of colors on the manuscript pages under neutral indoor
-          lighting.
-        </p>
-        <p>
-          <emph rend="bold">Production Location of Digital Assets</emph>. The TEI XML-compliant
-          transcription of the Stephens letters, along with the XSL style sheets used to provide
-          variant "views" of the edition, are stored on a server hosted by College of
-          Arts and Sciences at The Ohio State University. High resolution scans of the manuscript
-          pages, scans of plates from contemporary sources, and photographs of the letters are
-          stored in the Media Manager application hosted by the College of Arts and Science at
-          The Ohio State University. The files constituting the project's Web site are also
-          stored on a Web server hosted by the College.</p>
-        <p>
-          <emph rend="bold">Archiving of Digital Assets</emph>. Once the edition is complete,
-          its digital assets will be archived in The Ohio State University's institutional
-          repository, the
-          <figure rend="link">               
-            <head>Knowledge Bank</head>
-            <graphic url="https://kb.osu.edu/dspace/"/>
-              <figDesc>Link to the Knowledge Bank</figDesc>
-          </figure>.
+          provide a reasonable approximation of colors on the manuscript pages.. 
         </p>
         
+        <p><emph rend="bold">Transcription</emph>. Editing of the Stephens letters emphasizes diplomatic transcription: 
+          abbreviations, recoverable cancelations, punctuation, spelling, underlining, additions above and below
+          the line or in the margins, capitalization, line breaks, and page breaks 
+          have all been transcribed and encoded as they appear in the original manuscripts. The
+          representation of those features varies depending on the view of the letter. An explanation of 
+          the presentation in each view of the letters can be read via the "About this View" link
+          at the top of each view's page.</p>
+        
+        <p><emph rend="bold">Markup and Annotation</emph>. XML encoding of the Stephens letters follows The
+          Text Encoding Initiative's (TEI) <title level="m">P5: Guidelines for Electronic Text Encoding and Interchange</title>,
+          as customized for the project using the TEI's ODD ("One Document Does it All") process.
+          This editorial introduction and the three "views" of the letters were generated from the main XML file
+          using XSL transformations to produce HTML Web pages. Several of the appendices were encoded in HTML separately.
+          A more detailed description of the markup can be found via the "Appendices" menu, and all source files
+          (XML, XSL, CSS, ODD, RNC) can be viewed and downloaded via the "Source Files" menu.</p>
+        
+        <p>Introductory material (such as this editorial introduction) as well as annotated lists of people, places, ships, 
+          and organizations mentioned in the letters are encoded in the TEI header of the main XML
+          document. Other explanatory annotations are linked directly from the text. Separate appendices provide 
+          further information about the project (e.g., acknowledgements, editors' bios, and so on). 
+          All these ancillary materials can be viewed via the menus at the top of each page.</p>
+        
+        <p>
+          <emph rend="bold">Proofing</emph>. Students who created the original transcriptions proofread their own
+          transcription and encoding. In preparation for peer review by NINES and preservation in The Ohio State University's 
+          Knowledge Bank, the transcriptions and encoding were once again proofread by Professor Ulman.
+        </p>
+        <p>
+          <emph rend="bold">Peer Review</emph>. Anonymous reviewers for NINES provided peer-reviews for the editions, in response to 
+          which they were revised and then reviewed by NINES editors before being listed in the NINES database.
+        </p>
+        <p>
+          <emph rend="bold">Production and Archival Location of Digital Assets</emph>.
+          All of the files associated with this edition are accessed via, and archived in, The Ohio State University's
+          institutional repository, the Knowledge Bank.
+        </p>
       </editorialDecl>
       <refsDecl>
-        <p>
-          <emph rend="bold">Markup of Physical Structure and Page Layout</emph>. The manuscript
+       
+          <p>
+<!--       <emph rend="bold">Markup of Physical Structure and Page Layout</emph>. The manuscript
           <emph rend="bold">pages</emph>, encoded by the empty page break or &lt;pb/&gt;
           element, are the primary physical structures represented in the markup. Each
           &lt;pb&gt; element includes an &quot;facs&quot; attribute identifying the unique ID
@@ -2119,7 +2119,9 @@
             <graphic url="http://people.cohums.ohio-state.edu/ulman1/StephensFamilyLetters/StephensMarkup.cfm"/>
             <figDesc>Link to the Stephens Family Letters markup guidelines.</figDesc>
           </figure>.
-        </p>
+-->       
+          </p>
+      
       </refsDecl>
     </encodingDesc>
     <profileDesc>
@@ -2802,12 +2804,7 @@
         <div type="letter" xml:id="GS19090706let01" corresp="#GS19090706env01">
           <pb facs="07-06-1909_GS_to_ATS_letter_p1"/>
           <head type="letterhead">
-            <figure rend="link">
-              <head>Photograph of the Hotel Georgian</head>
-              <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
-              <figDesc>Photograph of the facade of the Hotel Georgian.</figDesc>
-            </figure>
+            <lb/>[Photograph of the Hotel Georgian]
             <lb/>Rates $1.00 up <lb/>Hotel Georgian <lb/>European Plan
             <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
           <opener>
@@ -2894,7 +2891,7 @@
             <figure rend="embed">               
               <head>Layout of the fairgrounds.</head>
               <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_letter_p4.jpg.jpg?scale=0.2&amp;rgn=235,110,200,200&amp;fmt=png"/>
+                url="./images-fairgrounds-layout.png"/>
               <figDesc>A freehand sketch of the layout of the fairgrounds.</figDesc>
             </figure>
             <lb/>The amusement street
@@ -2982,7 +2979,12 @@
         </div>
         <!-- First, the envelope. -->
         <div type="envelope" xml:id="GS19090706env01" corresp="#GS19090706let01">
-          <pb facs="07-06-1909_GS_to_ATS_envelope"/>
+          <pb facs="./07-06-1909_GS_to_ATS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./07-06-1909_GS_to_ATS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 6 July 1909</figDesc>
+          </figure>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
@@ -3011,14 +3013,14 @@
             <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
             <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
           </ab>
-          <figure rend="link">
+<!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
               url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE | TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
+-->          <!-- See http://www.jamesdire.net/W-F.html -->
         </div>
         <!-- Or an enclosure: <div type="enclosure" xml:id="GMS19090706enc01"></div> -->
       </body>
@@ -3103,12 +3105,7 @@
         <div type="letter" xml:id="GS19090710let01" corresp="#GS19090710env01">
           <pb facs="07-10-1909_GS_to_ATS_letter_p1"/>
           <head type="letterhead">
-            <figure rend="link">
-              <head>Photograph of the Hotel Georgian</head>
-              <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs/07-10-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
-              <figDesc>Photograph of the facade of the Hotel Georgian.</figDesc>
-            </figure>
+            <lb/>[Photograph of the Hotel Georgian]
             <lb/>Rates $1.00 up <lb/>Hotel Georgian <lb/>European Plan
             <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
           <opener>
@@ -3222,6 +3219,11 @@
         <!-- First, the envelope. -->
         <div type="envelope" xml:id="GS19090710env01" corresp="#GS19090710let01">
           <pb facs="07-10-1909_GS_to_ATS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./07-10-1909_GS_to_ATS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 6 July 1909</figDesc>
+          </figure>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
@@ -3251,18 +3253,19 @@
             <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909</stamp>
           </ab>
           <!-- JLM: My graphic URLS always show the entire envelope regardless of how I've asked them to show a specific region.  So annoying.  Happens with the stamp and with the letterhead. -->
-          <figure rend="link">
+<!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
               url="https://images.asc.ohio-state.edu/is/image/englishdocs07-10-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
+-->          <!-- See http://www.jamesdire.net/W-F.html -->
         </div>      
       </body>
     </text>
   </TEI>
+  
   <TEI xml:id="JLM2_GMS2JMS_1909_07_14" n="1909-07-14">
     <teiHeader>
       <fileDesc>
@@ -3314,11 +3317,11 @@
                 PRT'G CO | LURIE &amp; LURIE." The letterhead contains, in the upper left-hand
                 corner, a 1.375 x 2.4375-inch halftone image of the Hotel Georgian facade. </p>
               <accMat corresp="#GS19090706env">
-                <!-- Note whether an envelope or enclosure accomplanies the letter --> Accompanied
+                <!-- Note whether an envelope or enclosure accomplanies the letter --> <p>Accompanied
                 by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
                 measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch halftone image of the Hotel
                 Georgian facade is printed on the left-hand side of the envelope above the hotel's
-                address. The envelope's stamp cancellation reads "WORLD'S FAIR SEATTLE 1909."</accMat>
+                address. The envelope's stamp cancellation reads "WORLD'S FAIR SEATTLE 1909."</p></accMat>
             </physDesc>
             <additional>
               <adminInfo>
@@ -3339,12 +3342,7 @@
         <div type="letter" xml:id="GS19090714let01" corresp="#GS19090714env01">
           <pb facs="07-14-1909_GS_to_ATS_letter_p1"/>
           <head type="letterhead">
-            <figure rend="link">
-              <head>Photograph of the Hotel Georgian</head>
-              <graphic
-                url="https://images.asc.ohio-state.edu/is/image/englishdocs/07-14-1909_GS_to_ATS_letter_p1.jpg.jpg?scale=0.4&amp;rgn=0,0,360,500&amp;fmt=png"/>
-              <figDesc>Photograph of the facade of the Hotel Georgian.</figDesc>
-            </figure>
+            <lb/>[Photograph of the Hotel Georgian]
             <lb/>Rates $1.00 up 
             <lb/>Hotel Georgian 
             <lb/>European Plan
@@ -3415,6 +3413,11 @@
         <!-- First, the envelope. -->
         <div type="envelope" xml:id="GS19090714env01" corresp="#GS19090714let01">
           <pb facs="07-14-1909_GS_to_ATS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./07-14-1909_GS_to_ATS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 14 July 1909</figDesc>
+          </figure>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
@@ -3448,14 +3451,14 @@
             <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909</stamp>
           </ab>
           <!-- My graphic URLS always show the entire envelope regardless of how I've asked them to show a specific region.  So annoying.  Happens with the stamp and with the letterhead. -->
-          <figure rend="link">
+<!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
               url="https://images.asc.ohio-state.edu/is/image/englishdocs07-14-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
+-->          <!-- See http://www.jamesdire.net/W-F.html -->
         </div>      
       </body>
     </text>
@@ -3565,6 +3568,11 @@
         <div type="envelope" xml:id="GS19090906env01" 
           corresp="#GS19090906">
           <pb facs="09-06-1909_GS_to_ATS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./09-06-1909_GS_to_ATS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 06 September 1909</figDesc>
+          </figure>
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
             <address>
@@ -3815,6 +3823,11 @@
         </div>
         <div type="envelope" xml:id="GS19090808env01" corresp="#GS19090808let01">
           <pb facs="08-08-1909_to_ATS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./08-08-1909_to_ATS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 8 August 1909</figDesc>
+          </figure>
           <ab type="returnAddress">
             <handShift new="Stationery"/>
             <address>
@@ -4071,6 +4084,11 @@
         </div>
         <div type="envelope" xml:id="JM19090814env01" corresp="JM19090813let01">
           <pb facs="08-14-1909_to_GS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./08-14-1909_to_GS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 14 July 1909</figDesc>
+          </figure>
           <ab type="postalAddress">
             <address>
               <addrLine>Miss. <persName>Gladys. M. Stephens</persName>.</addrLine>
@@ -4214,6 +4232,11 @@
         </div>
         <div type="envelope" xml:id="CLA19090821env01" corresp="#CLA19090820let01">
           <pb facs="08-20-1909_CLA_to_ATS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./08-20-1909_CLA_to_ATS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 20 August 1909</figDesc>
+          </figure>
           <ab type="postalAddress">
             <address>
             <persName ref="#JMS">Mrs. A. T. Stephens </persName>
@@ -4229,12 +4252,12 @@
           <ab>
             <stamp type="postmark"> <placeName ref="#Sherborn">SHERBORN, MASS.</placeName> / <date when="1909-08-20"></date>AUG 20 / A. M / 1909 </stamp>
           </ab>
-          <figure rend="link">
+<!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <figDesc>UNITED STATES / OF AMERICA / POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically]</figDesc>
           </figure>
-        </div>
+-->        </div>
       </body>
     </text>
   </TEI>
@@ -4528,6 +4551,11 @@
         </div>
         <div type="envelope" xml:id="JJM19090821env01" corresp="#JJM19090821let01">
           <pb facs="08-21-1909_JJM_to_GS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./08-21-1909_JJM_to_GS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 21 August 1909</figDesc>
+          </figure>
           <ab type="postalAddress">
             <!--make sure to put handshift later-->
             <address>
@@ -4540,13 +4568,13 @@
           <ab>
             <stamp type="postmark"> Juneau, Alaska. / Aug 21 / 11 - AM / 1909 </stamp>
           </ab>
-          <figure rend="link">
+ <!--         <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
               url="https://images.asc.ohio-state.edu/is/image/englishdocs/08-21-1909_JJM_to_GS_envelope.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Color-Red and Upside down]</figDesc>
           </figure>
-          <!--Chosen to code general delievery as an addressline--> 
+-->          <!--Chosen to code general delievery as an addressline--> 
         </div>
       </body>
     </text>
@@ -4748,8 +4776,13 @@
             <lb/><salute>Love</salute> <signed><persName ref="#GMS">Gladys</persName></signed>
           </closer>
         </div>
-        <div type="envelope" xml:id="GS19090924env01" corresp="#GS19090922let01">
+        <div type="envelope" xml:id="GS19090924env01" corresp="#GS19090924let01">
           <pb facs="09-24-1909_GS_to_ATS_envelope_for_letter_dated_09-22"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./09-24-1909_GS_to_ATS_envelope_for_letter_dated_09-22.jpg"></graphic>
+            <figDesc>Envelope for letter of 24 September 1909</figDesc>
+          </figure>
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
             <persName>Mrs. A. T. Stephens</persName>
@@ -4767,13 +4800,13 @@
             <stamp type="postmark">El Paso, Texas | Sept. 24 | 7:30 AM | 1909 </stamp>
             <stamp type="cancellation">[seven wavy lines]</stamp>
           </ab>
-          <figure rend="link">
+<!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic 
               url="https://images.asc.ohio-state.edu/is/image/englishdocs09-24-1909_GS_to_ATS_envelope_for_letter_dated_09-22.jpg.jpg?scale=0.4&amp;rgn=0,0,4000,4000&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE | TWO CENTS [profile of Washington; perforated along the top and sides Design A139] </figDesc>
           </figure>
-        </div>
+-->        </div>
       </body>
     </text>
   </TEI>
@@ -4927,6 +4960,11 @@
         </div>
         <div type="envelope" xml:id="GS19091006env01" corresp="#GS19091005let01">
           <pb facs="10-06-1909_GS_to_ATS_envelope_for_letter_dated_10-05"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./10-06-1909_GS_to_ATS_envelope_for_letter_dated_10-05.jpg"></graphic>
+            <figDesc>Envelope for letter of 5 October 1909</figDesc>
+          </figure>
           <ab type="postalAddress">
             <address>
               <persName ref="#JMS">Mrs. A. J. Stephens </persName>
@@ -4939,14 +4977,14 @@
             <stamp type="postmark"> <placeName ref="#ElPaso">El PASO, TEXAS.</placeName> / <date when="1909-10-06">OCT 6</date> / 4 - PM / 1909 </stamp>
             <stamp type="cancellation"> <!-- wavy lines --> </stamp>
           </ab>
-          <figure rend="link">
+<!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
               url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
-          </figure> 
-        </div>
+          </figure>
+-->       </div>
       </body>
     </text>
   </TEI>
@@ -5157,6 +5195,11 @@
         </div>
         <div type="envelope" xml:id="JJM19090823env01">
           <pb facs="08-23-1909_JJM_to_GS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./08-23-1909_JJM_to_GS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 23 August 1909</figDesc>
+          </figure>
           <ab type="postaladdress">
             <handShift new="#JJMHand"/>
             <persName>Miss. Gladys. M. Stephens
@@ -5178,14 +5221,14 @@
             <stamp type="dateline">SEP 27 1909 </stamp>
             <stamp type="dateline"> SEP 27 1909 </stamp>
           </ab>
-          <figure rend="link">
+<!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=460,480&amp;layer=1&amp;src=is{mediamanager08-23-1909_JJM_to_GS_envelope.jpg.jpg?scale=0.2&amp;rgn=0,0,460,320&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=460,320&amp;text=\vertalt\cf1\qc\fs15\%20Caption&amp;posN=0,.5"/>
             <figDesc>
               U.S. POSTAGE / TWO CENTS [Portrait of William Seward; perforated horizontally and  vertically; U.S. #370] Upside down 
             </figDesc>
           </figure>
-        </div>
+-->        </div>
       </body>
     </text>
   </TEI>
@@ -5383,6 +5426,11 @@
         </div>
         <div type="envelope" xml:id="XXYYYYMMDDenv01">
           <pb facs="09-13-1909_JJM_to_GS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./09-13-1909_JJM_to_GS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 12 September 1909</figDesc>
+          </figure>
           <ab type="postalAddress">
             <address>
             <addrLine>Miss. Gladys M. Stephens</addrLine>
@@ -5399,6 +5447,7 @@
       </body>
     </text>
   </TEI>
+  
   <TEI xml:id="JPL_GMS2MATS_1909_09_27" n="1909-09-27">
     <teiHeader>
       <fileDesc>
@@ -5519,7 +5568,7 @@
             <lb/>the men text&#x2014; if they come out
             <lb/>well.
           </p>
-          <pb facs="09-27-1909_GS_to_ATS_letter_p2.jpg" />
+          <pb facs="09-27-1909_GS_to_ATS_letter_p2" />
           <p>
             <lb/>She will show me how to
             <lb/>make tamalies <seg type="obliqueText" rendition="#ot1">and</seg> also how
@@ -5659,6 +5708,11 @@
         </div>
         <div type="envelope" xml:id="GS19090927env01" corresp="#GS19090927let01">
           <pb facs="09-27-1909_GS_to_ATS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./09-27-1909_GS_to_ATS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 27 September 1909</figDesc>
+          </figure>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
@@ -5684,18 +5738,19 @@
             <stamp type="postmark"></stamp>
             <stamp type="cancellation"> </stamp>
           </ab>
-          <figure rend="link">
+<!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
               url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
-          <!-- See http://www.jamesdire.net/W-F.html -->
+-->          <!-- See http://www.jamesdire.net/W-F.html -->
         </div>
       </body>
     </text>
   </TEI>
+  
   <TEI xml:id="REC_JJM2GMS_1909-10-04" n="1909-10-04">
     <teiHeader>
       <fileDesc>
@@ -6053,6 +6108,11 @@
         </div>
         <div type="envelope" xml:id="JJM19091005env01" corresp="#JJM19091004let01">
           <pb facs="10-05-1909_JJM_to_GS_envelope_with_letter_dated_10-04"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./10-05-1909_JJM_to_GS_envelope_with_letter_dated_10-04.jpg"></graphic>
+            <figDesc>Envelope for letter of 5 October 1909</figDesc>
+          </figure>
           <ab type="postalAddress">
             <handShift new="#JJMHand"/>
             <address>
@@ -6081,14 +6141,14 @@
               </figure>
             </stamp>
           </ab>
-          <figure rend="link">
+<!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
             <graphic
               url="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_JJM_to_GS_envelope_with_letter_dated_10-04.jpg.jpg?scale=0.4&amp;rgn=860,160,160,180&amp;fmt=png"/>
             <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
               vertically; Design A139]</figDesc>
           </figure>
-        </div>
+-->        </div>
       </body>
     </text>
   </TEI>
@@ -6230,6 +6290,11 @@
         <!-- First, the envelope. -->
         <div type="envelope" xml:id="GS19091011env01" corresp="#GS19091011let01">
           <pb facs="10-11-1909_to_GS_envelope_for_letter_dated_10-11"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./10-11-1909_to_GS_envelope_for_letter_dated_10-11.jpg"></graphic>
+            <figDesc>Envelope for letter of 11 October 1909</figDesc>
+          </figure>
           <ab type="returnAddress">
             <handShift new="#Stationery"/>
             <address>
