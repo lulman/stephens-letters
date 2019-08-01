@@ -132,12 +132,28 @@
     </xsl:template>   
     <xsl:template match="tei:seg[@type='softhyphen']">
         <xsl:apply-templates/>
-    </xsl:template>    
+    </xsl:template>
+    <!-- Highlight recoverable cancelations -->
+    <xsl:template match="tei:del"><span class="cancel"><xsl:apply-templates/></span></xsl:template>
+    
     <xsl:template match="tei:p"><xsl:apply-templates/></xsl:template>
     <xsl:template match="tei:choice/tei:sic">
         <xsl:apply-templates/> [sic] </xsl:template>
     <xsl:template match="tei:choice/tei:corr"/>
+    
+    <!-- LINK OR EMBED IMAGES AND OTHER NON-TEXTUAL MATERIALS -->
     <xsl:template match="tei:figure[@rend='embed']"/>
+    <xsl:template match="tei:figure[@rend='link']"> [<a>
+        <xsl:attribute name="HREF">
+            <xsl:value-of select="tei:graphic/@url"/>
+        </xsl:attribute>
+        <xsl:attribute name="alt">
+            <xsl:value-of select="tei:figDesc"/>
+        </xsl:attribute>
+        <xsl:attribute name="target">blank</xsl:attribute>
+        <xsl:value-of select="tei:head"/>
+    </a>]. </xsl:template>
+    
     
     
 </xsl:stylesheet>

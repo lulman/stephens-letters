@@ -708,9 +708,6 @@
       <xsl:apply-templates/>
    </xsl:template>
 
-   <!-- Recoverable cancellations by the author or another hand -->
-   <xsl:template match="tei:del"/>
-
    <!-- Unclear passages. -->
    <xsl:template match="tei:unclear"> [<xsl:apply-templates/>?] </xsl:template>
 
@@ -778,9 +775,10 @@
       </sup>
    </xsl:template>
 
-   <!-- LINK OR EMBED IMAGES AND OTHER NON-TEXTUAL MATERIALS -->
+   <!-- LINK OR EMBED IMAGES AND OTHER NON-TEXTUAL MATERIALS 
+         Revised 7/31/2019: define in indivdual views-->
 
-   <xsl:template match="tei:figure[@rend='link']"> [<a>
+<!--   <xsl:template match="tei:figure[@rend='link']"> [<a>
          <xsl:attribute name="HREF">
             <xsl:value-of select="tei:graphic/@url"/>
          </xsl:attribute>
@@ -804,5 +802,5 @@
          <br/>
          <xsl:value-of select="tei:head"/>
       </div>
-   </xsl:template>
+   </xsl:template>-->
 </xsl:stylesheet>

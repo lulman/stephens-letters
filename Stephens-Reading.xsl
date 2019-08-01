@@ -131,4 +131,35 @@
         <xsl:apply-templates/> [sic] </xsl:template>
     <xsl:template match="tei:choice/tei:corr"/>
     
+    <!-- Recoverable cancellations by the author or another hand -->
+    <xsl:template match="tei:del"/>
+    
+    <!-- LINK OR EMBED IMAGES AND OTHER NON-TEXTUAL MATERIALS -->
+    
+    <xsl:template match="tei:figure[@rend='link']"> [<a>
+        <xsl:attribute name="HREF">
+            <xsl:value-of select="tei:graphic/@url"/>
+        </xsl:attribute>
+        <xsl:attribute name="alt">
+            <xsl:value-of select="tei:figDesc"/>
+        </xsl:attribute>
+        <xsl:attribute name="target">blank</xsl:attribute>
+        <xsl:value-of select="tei:head"/>
+    </a>]. </xsl:template>
+    
+    <xsl:template match="tei:figure[@rend='embed']">
+        <div class="fl_img_right">
+            <img>
+                <xsl:attribute name="src">
+                    <xsl:value-of select="tei:graphic/@url"/>
+                </xsl:attribute>
+                <xsl:attribute name="alt">
+                    <xsl:value-of select="tei:figDesc"/>
+                </xsl:attribute>
+            </img>
+            <br/>
+            <xsl:value-of select="tei:head"/>
+        </div>
+    </xsl:template>
+    
 </xsl:stylesheet>

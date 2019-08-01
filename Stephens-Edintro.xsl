@@ -674,7 +674,8 @@
          <xsl:apply-templates/>
       </xsl:element>
    </xsl:template>
-   <xsl:template match="//tei:p[not(@xml:id='CreativeCommons') and not(@rend='h3') and not(@class='epigraph')]">
+   <!-- EPIGRAPH CHANGE 6/31/2019: CHANGED @CLASS TO @REND -->
+   <xsl:template match="//tei:p[not(@xml:id='CreativeCommons') and not(@rend='h3') and not(@rend='epigraph')]">
       <p>
          <xsl:apply-templates/>
       </p>
