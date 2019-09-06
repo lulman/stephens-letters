@@ -380,14 +380,13 @@
             </p>
 -->
             <!-- Build the table of contents. -->
-            <!-- Apply templates to the tei:body. -->
             
             <xsl:element name="div"><xsl:attribute name="id">maintext</xsl:attribute>
                <xsl:element name="div"><xsl:attribute name="id">maincontent</xsl:attribute></xsl:element>
                <h1>Contents<!-- — <xsl:value-of select="$View"></xsl:value-of>--></h1>
                <hr/>
                <xsl:for-each select="/tei:teiCorpus/tei:TEI">
-                  <xsl:sort select="@n"></xsl:sort>
+                  <xsl:sort select="@n"/>
                   &#xa4; <a>
                      <xsl:attribute name="href">#<xsl:value-of select="tei:text//tei:div[@type='letter']/@xml:id"></xsl:value-of>
                      </xsl:attribute>
@@ -402,8 +401,13 @@
                <hr style="border:2px solid crimson;"/>
                <h1>Letters</h1>
                
-               <xsl:apply-templates select="/tei:teiCorpus/tei:TEI/tei:text/tei:body"/>
-
+             <!-- Apply templates to the tei:body. -->
+              
+               <xsl:for-each select="/tei:teiCorpus/tei:TEI">
+                  <xsl:sort select="@n" order="ascending"/>
+                  <xsl:apply-templates select="tei:text/tei:body"/>
+               </xsl:for-each>
+               
                <!-- Horizontal rule between text of letters and explanatory annotations -->
                <hr style="border:2px solid crimson;"/>
                
