@@ -6,7 +6,7 @@ default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2019-07-17T19:16:44Z. .
+# Schema generated from ODD source 2019-09-06T18:23:11Z. .
 # TEI Edition: Version 3.5.0. Last updated on
 #	29th January 2019, revision 3c0c64ec4
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
@@ -1053,17 +1053,17 @@ model.pPart.editorial_sequenceOptionalRepeatable =
 model.pPart.editorial_sequenceRepeatable =
   choice+, abbr+, expan+, subst+
 model.pPart.transcriptional =
-  sic | corr | add | del | unclear | handShift
+  sic | corr | add | del | unclear | handShift | supplied
 model.pPart.transcriptional_alternation =
-  sic | corr | add | del | unclear | handShift
+  sic | corr | add | del | unclear | handShift | supplied
 model.pPart.transcriptional_sequence =
-  sic, corr, add, del, unclear, handShift
+  sic, corr, add, del, unclear, handShift, supplied
 model.pPart.transcriptional_sequenceOptional =
-  sic?, corr?, add?, del?, unclear?, handShift?
+  sic?, corr?, add?, del?, unclear?, handShift?, supplied?
 model.pPart.transcriptional_sequenceOptionalRepeatable =
-  sic*, corr*, add*, del*, unclear*, handShift*
+  sic*, corr*, add*, del*, unclear*, handShift*, supplied*
 model.pPart.transcriptional_sequenceRepeatable =
-  sic+, corr+, add+, del+, unclear+, handShift+
+  sic+, corr+, add+, del+, unclear+, handShift+, supplied+
 model.pPart.edit = model.pPart.editorial | model.pPart.transcriptional
 model.ptrLike = ptr | ref
 model.lPart = notAllowed
@@ -1191,7 +1191,7 @@ model.divTopPart = model.headLike | opener | signed
 model.divTop = model.divWrapper | model.divTopPart
 model.divBottomPart = closer | signed | postscript
 model.divBottom = model.divWrapper | model.divBottomPart
-model.choicePart = sic | corr | unclear | abbr | expan | seg
+model.choicePart = sic | corr | unclear | abbr | expan | supplied | seg
 model.imprintPart = publisher | pubPlace
 model.addressLike = address
 model.addressLike_alternation = address
@@ -3384,6 +3384,23 @@ subst =
     att.global.attributes,
     att.transcriptional.attributes,
     att.dimensions.attributes,
+    empty
+  }
+supplied =
+  
+  ## signifies text supplied by the transcriber or editor for any reason; for example because the original cannot be read due to physical damage, or because of an obvious omission by the author or scribe. [11.3.3.1. Damage, Illegibility, and Supplied Text]
+  element supplied {
+    macro.paraContent,
+    att.global.attributes,
+    att.editLike.attributes,
+    att.dimensions.attributes,
+    
+    ## one or more words indicating why the text has had to be supplied, e.g. overbinding, faded-ink, lost-folio, omitted-in-original.
+    attribute reason {
+      list {
+        xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }+
+      }
+    }?,
     empty
   }
 att.global.linking.attributes =

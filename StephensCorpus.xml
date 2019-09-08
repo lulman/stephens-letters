@@ -2732,7 +2732,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>[Gladys M. Stephens to Mrs. A. T. Stephens, 06 July 1909]</title>
+          <title>Gladys M. Stephens to Mrs. A. T. Stephens, 06 July 1909</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
@@ -2778,7 +2778,8 @@
                 side. An oval watermark, variably placed on each sheet and measuring approximately
                 2.375 x 2.625 inches when entirely visible, reads, in outline letters, "MERCHANTS |
                 PRT'G CO | LURIE &amp; LURIE." The letterhead contains, in the upper left-hand
-                corner, a 1.375 x 2.4375-inch halftone image of the Hotel Georgian facade. </p>
+                corner, a 1.375 x 2.4375-inch halftone image of the Hotel Georgian facade and the 
+              following text: Rates $1.00 up | Hotel Georgian | European Plan | Seattle, ___ 190__.</p>
               <accMat corresp="#GS19090706env">
                 <!-- Note whether an envelope or enclosure accomplanies the letter --> Accompanied
                 by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
@@ -2803,13 +2804,14 @@
           Or perhaps we should us forme work <fw>. But I think not. -->
         <div type="letter" xml:id="GS19090706let01" corresp="#GS19090706env01">
           <pb facs="07-06-1909_GS_to_ATS_letter_p1"/>
-          <head type="letterhead">
-            <lb/>[Photograph of the Hotel Georgian]
-            <lb/>Rates $1.00 up <lb/>Hotel Georgian <lb/>European Plan
-            <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
           <opener>
-            <handShift new="#GMSHand"/>
-            <lb/><dateline><date when="1909-07-06">7/6 9</date></dateline>
+            <lb/><dateline><supplied reason="printed form"><placeName>Seattle,</placeName></supplied> 
+              <date when="1909-07-06">7/6 <supplied reason="printed form">190</supplied>9</date></dateline><ptr type="noteAnchor" target="letterhead"/>
+            <note resp="ed" xml:id="letterhead">Because Gladys Stephens often uses letterhead with a
+              form at the top for the dateline, we encode the printed text around her handwriting
+              with a &lt;supplied&gt; element, but other printed parts of the letterhead are not
+              encoded. They are described in the manuscript descriptions following the letters and
+              can be viewed in the facsimiles.</note>
             <lb/><salute>Dear <rs ref="#MATS">Mama</rs>,</salute>
           </opener>
           <p>
@@ -2836,7 +2838,7 @@
             <lb/>flowers like those I brought
             <lb/>home from Senior Prom.—
             <!-- Is that really an "h" in the middle of "geraniums"? -->
-            <lb/>gerhaniums—<hi rend="underlined">dwarf</hi>
+            <lb/><choice><corr>geraniums</corr><sic>gerhaniums</sic></choice>—<hi rend="underlined">dwarf</hi>
             <lb/>sweet peas—every kind
             <lb/>of flowers imaginable.
             <lb/>Talk about roses, there
@@ -2866,7 +2868,7 @@
             <lb/><rs>little Japanese girl</rs>. I
             <!-- Is "Hayden" a person or a company? -->
             <lb/>ordered (through Hayden)
-            <lb/>a 5 cent can of condense
+            <lb/>a 5 cent can of condensed
             <lb/>milk.
           </p>
           <!-- Marking a paragraph break because she stops the previous line part way across the
@@ -2886,10 +2888,10 @@
             <pb facs="07-06-1909_GS_to_ATS_letter_p4"/>
             <lb/>those in the inner circle.
             <lb/>The place is laid out in
-            <lb/>this way
+            <lb/>this way <supplied>See Figure 1.</supplied>
             <!-- How to encode the labels "Entrance" and "etc." on the diagram? -->
             <figure rend="embed">               
-              <head>Layout of the fairgrounds.</head>
+              <head>Figure 1. Layout of the fairgrounds.</head>
               <graphic
                 url="./images-fairgrounds-layout.png"/>
               <figDesc>A freehand sketch of the layout of the fairgrounds.</figDesc>
@@ -2906,7 +2908,7 @@
             <lb/>There is a Hawaiian
             <lb/>village with real bare
             <lb/>natives. We are going to
-            <lb/>visit it later. There also
+            <lb/>visit it later. There also <supplied reason="omitted">are</supplied>
             <lb/>Esquimos and a village.
             <lb/>I am sending you
             <lb/>also the daily program.
@@ -2943,7 +2945,7 @@
             <lb/>with two builders.
           </p>
           <p>
-            <lb/>Havent done much on
+            <lb/><choice><corr>Haven't</corr><sic>Havent</sic></choice> done much on
             <lb/>the writing stunt. I
             <lb/>wrote <persName>Miss Childs</persName> a
             <lb/>steamer letter, one to
@@ -3006,7 +3008,7 @@
           <ab type="endorsement">
             <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
             <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection [FIGURE OUT PATTERN]. The second
+              postage stamp on several envelopes in the collection. The second
               number is circled.</note>
           </ab>
           <ab>
@@ -3101,16 +3103,12 @@
       <body>
 
         <!-- Now the letter proper. Note how we are (tentatively) handling the printed letterhead.
-          Or perhaps we should us forme work <fw>. But I think not. -->
+          Or perhaps we should use forme work <fw>. But I think not. -->
         <div type="letter" xml:id="GS19090710let01" corresp="#GS19090710env01">
           <pb facs="07-10-1909_GS_to_ATS_letter_p1"/>
-          <head type="letterhead">
-            <lb/>[Photograph of the Hotel Georgian]
-            <lb/>Rates $1.00 up <lb/>Hotel Georgian <lb/>European Plan
-            <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
           <opener>
-            <handShift new="#GMSHand"/>
-            <dateline><date when="1909-07-06">7/10/ 9</date></dateline>
+            <lb/><dateline><supplied reason="printed form"><placeName>Seattle,</placeName></supplied> 
+              <date when="1909-07-06">7/10/ <supplied reason="printed form">190</supplied>9</date></dateline>
             <lb/><salute>Dear <persName ref="#ATS">Pa</persName>,</salute>
           </opener>
           <p>
@@ -3119,7 +3117,7 @@
             <lb/>here, but we'll leave soon.
             <lb/>Will return to <placeName ref="ElPaso">El Paso</placeName>
             <lb/>by way of <placeName ref="California">California</placeName>.
-            <lb/>I am decidedly <unclear cert="high">tanned</unclear>
+            <lb/>I am decidedly tanned
             <lb/>from riding up on the
             <lb/>top seat with the driver
             <lb/>in <placeName ref="Yellowstone">Yellowstone Park</placeName>.
@@ -3168,8 +3166,8 @@
             <lb/>The Exposition is fine
             <lb/>In The <placeName ref="ForestryBuilding">Forestry <choice><abbr >b'l'd'g</abbr><expan>building</expan></choice></placeName>
             <lb/>are some pretty big
-            <lb/><q>"sticks"</q>. One is 74 <choice><abbr>ft</abbr><expan>feet</expan></choice> long
-            <lb/>and 4 1/2 <choice><abbr>ft</abbr><expan>feet</expan></choice> <choice><abbr>sq.</abbr><expan>square</expan></choice>  There is
+            <lb/><q>sticks</q>. One is 74 <choice><abbr>ft.</abbr><expan>feet</expan></choice> long
+            <lb/>and 4 1/2 <choice><abbr>ft.</abbr><expan>feet</expan></choice> <choice><abbr>sq.</abbr><expan>square</expan></choice>  There is
             <lb/>a cross section of a tree
             <lb/>which is 9 <choice><abbr>ft.</abbr><expan>feet</expan></choice> in <choice><abbr>diam.</abbr><expan>diameter</expan></choice>
             <lb/>There is a hollow tree

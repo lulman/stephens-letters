@@ -52,7 +52,7 @@
         <moduleRef key="textstructure" include="body closer dateline div opener postscript salute signed TEI text"/>
         <!-- optional modules: -->
         <moduleRef key="namesdates" include="addName birth country education event geo geogFeat geogName listEvent listOrg listPerson listPlace location nationality occupation org orgName persName person place placeName region residence roleName settlement state"/>
-        <moduleRef key="transcr" include="addSpan delSpan handNotes handShift subst"/>
+        <moduleRef key="transcr" include="addSpan delSpan handNotes handShift subst supplied"/>
         <moduleRef key="linking" include="ab seg"/>
         <moduleRef key="figures" include="figDesc figure"/>
         <moduleRef key="corpus" include="particDesc"/>
