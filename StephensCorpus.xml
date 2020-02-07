@@ -3166,7 +3166,7 @@
             <lb/>The Exposition is fine
             <lb/>In The <placeName ref="ForestryBuilding">Forestry <choice><abbr >b'l'd'g</abbr><expan>building</expan></choice></placeName>
             <lb/>are some pretty big
-            <lb/><q>sticks</q>. One is 74 <choice><abbr>ft.</abbr><expan>feet</expan></choice> long
+            <lb/><q>sticks.</q> One is 74 <choice><abbr>ft.</abbr><expan>feet</expan></choice> long
             <lb/>and 4 1/2 <choice><abbr>ft.</abbr><expan>feet</expan></choice> <choice><abbr>sq.</abbr><expan>square</expan></choice>  There is
             <lb/>a cross section of a tree
             <lb/>which is 9 <choice><abbr>ft.</abbr><expan>feet</expan></choice> in <choice><abbr>diam.</abbr><expan>diameter</expan></choice>
@@ -3181,7 +3181,7 @@
               <bibl><ref target="#UWash">University of Washington Library, Special Collections</ref></bibl></note> I got
             <lb/>what I hope will be
             <lb/>a good picture of it.
-            <lb/>All the <choice><abbr >b'l'd'g's</abbr><expan>buildings</expan></choice> are fine.
+            <lb/>All the <choice><abbr >b'l'd'g's</abbr><expan>buildings</expan></choice> are fine
             <lb/><seg type="obliqueText" rendition="#ot1">and</seg> will be used by
             <lb/><placeName ref="SeattleCollege">Seattle College</placeName> later.
             <lb/>Every one who has
@@ -3199,7 +3199,7 @@
           </p>
           <p>
             <lb/>Will <persName ref="#JMS">Ma</persName> be home
-            soon?
+            <lb/>soon?
           </p>
           <p>
             <lb/>You had best not <choice><abbr>ans.</abbr><expan>answer</expan></choice>
@@ -3211,7 +3211,7 @@
             <lb/><salute>Love</salute>
             <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
             <handShift new="#Unknown"/>
-            <lb/>7/10/109
+            <lb/>7/10/'09
           </closer>
         </div>
         <!-- First, the envelope. -->
@@ -3247,7 +3247,7 @@
               number is circled.  For example, the letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
           </ab>
           <ab>
-            <stamp type="postmark"> SEATTLE, WASH. / JUL 10 / 1030 - PM / 1909 </stamp>
+            <stamp type="postmark"> SEATTLE, WASH. / JUL 10 / 1030 PM / 1909 </stamp>
             <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909</stamp>
           </ab>
           <!-- JLM: My graphic URLS always show the entire envelope regardless of how I've asked them to show a specific region.  So annoying.  Happens with the stamp and with the letterhead. -->
@@ -3339,12 +3339,6 @@
           Or perhaps we should us forme work <fw>. But I think not. -->
         <div type="letter" xml:id="GS19090714let01" corresp="#GS19090714env01">
           <pb facs="07-14-1909_GS_to_ATS_letter_p1"/>
-          <head type="letterhead">
-            <lb/>[Photograph of the Hotel Georgian]
-            <lb/>Rates $1.00 up 
-            <lb/>Hotel Georgian 
-            <lb/>European Plan
-            <lb/><placeName ref="#Seattle">Seattle</placeName>,_______190___ </head>
           <opener>
             <handShift new="#GMSHand"/>
             <!--There is no dateline in this letter, but in case I need to add it back later I've put it here in a comment <dateline><date when="1909-07-14">7/14/ 9</date></dateline> -->
@@ -3359,7 +3353,7 @@
             <lb/>Have located the <rs>Goulds</rs>,
             <lb/>I telephoned today but she
             <lb/>was at the Expo. Got
-            <lb/>him <unclear cert="high">on</unclear> the phone and I
+            <lb/>him on the phone and I
             <lb/>will call later.
           </p>
           <p>
@@ -3382,7 +3376,7 @@
             <lb/>5 yrs. ago and left a large
             <lb/>estate. One of the sons
             <lb/>"blew in" $40,000 in 2 yrs.
-            <lb/><unclear cert="high">They</unclear> could buy a ranch
+            <lb/>then could buy a ranch
             <lb/>for $12,000 and pay $25,000
             <lb/>for improvements. The girl
             <lb/>has her money too. Her
@@ -3393,7 +3387,7 @@
             <lb/>have me promise to visit
             <lb/>them.
           </p>
-          <p>j
+          <p>
             <lb/>Not much to write
             <lb/>about now so I guess
             <pb facs="07-14-1909_GS_to_ATS_letter_p3"/>
@@ -3405,7 +3399,7 @@
             <lb/><salute>Heaps of love</salute>
             <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
             <handShift new="#Unknown"/>
-            <lb/>7/14/109
+            <lb/>7/14/'09
           </closer>
         </div>
         <!-- First, the envelope. -->
@@ -3514,7 +3508,7 @@
           <pb facs="09-06-1909_GS_to_ATS_letter_p1"/>
           <opener>
             <handShift new="#GMSHand"/>
-            <lb/><salute><persName ref="#MATS"><addName type="endearment">Mother dear</addName></persName></salute>
+            <lb/><salute><rs ref="#MATS"><addName type="endearment">Mother dear</addName></rs></salute>
           </opener>
           <p>
             <lb/>What is
@@ -3662,12 +3656,12 @@
           <pb facs="08-08-1909_to_ATS_letter_p1"/>
           <opener>
             <handShift new="GMSHand"/>
-            <dateline><date when="1909-08-08">08-08-1909</date></dateline>
-            <lb/><salute><persName>Mother Dear</persName></salute>,
+            <lb/><dateline><supplied reason="printed form"><placeName>Seattle</placeName></supplied> <date when="1909-08-08">8/8/'09</date></dateline>
+            <lb/><salute><persName>Mother dear</persName></salute>,
           </opener>
           <p>
             <lb/>We arrived in <placeName>Seattle</placeName>
-            <lb/>at 7:20 this morning.  It was
+            <lb/>at 7.30 this morning.  It was
             <lb/>rather rough last night, but
             <lb/>it was just from the wind.
             <lb/>It was the only rough place we
@@ -3676,10 +3670,10 @@
           </p>
           <p>
             <lb/>As a souvenir I have the
-            <lb/>official list of the passangers
-            <lb/>who sailed from <placeName>Seattle</placeName>.  It
+            <lb/>official list of the <choice><sic>passangers</sic><corr>passengers</corr></choice>
+            <lb/>who sailed from <placeName>Seattle</placeName>. It
             <lb/>was posted by the Purser, and
-            he gave it to me.<ptr type="noteAnchor" target="Purser"/><note resp="ed" xml:id="Purser">The Purser on a cruise ship traditionally has several important responsibilities.  
+            <lb/>he gave it to me.<ptr type="noteAnchor" target="Purser"/><note resp="ed" xml:id="Purser">The Purser on a cruise ship traditionally has several important responsibilities.  
               They provide customer service to guests; they also handle money on board, for both the ship's crew and its guests— which may have involved buying luxury goods on credit
               and bringing them aboard.  The Purser also helps guests with paperwork such as customs declarations.  Their duties are similar in definition to the ship's steward.  So, given that a Purser would be in charge of all manners
               of record-keeping, both personally and financially, for all people on board, it makes sense that Gladys would have obtained this kind of souvenir
@@ -3687,10 +3681,10 @@
           </p>
           <p>
             <lb/>I'd like to know what is
-            <lb/>the matter with <persName>auntie</persName>.  I
+            <lb/>the matter with <rs>auntie</rs>. I
             <lb/>sent her cards from <placeName>Yellowstone</placeName>
             <lb/>and some from here — among 
-            <lb/>them a leather<choice><abbr> A.Y.P.</abbr><expan>Alaska-Yukon-Pacific</expan></choice> card.<ptr type="noteAnchor" target="card"/><note resp="ed" xml:id="card">The "A.Y.P. cards" Gladys
+            <lb/>them a leather <choice><abbr>A.Y.P.</abbr><expan>Alaska-Yukon-Pacific</expan></choice> card.<ptr type="noteAnchor" target="card"/><note resp="ed" xml:id="card">The "A.Y.P. cards" Gladys
             mentions here are probably postcards from the Alaska-Yukon-Pacific (A.Y.P.) exhibition.  A.Y.P. postcards, a large collection of which
             are housed in Special Collections at the University of Washington Libraries, feature various images from the Alaska-Yukon-Pacific Exposition
             in Seattle in 1909.  Although the Exposition did employ an official photographer for the event, amateur photographers
@@ -3706,10 +3700,11 @@
           </p>
           <pb facs="08-08-1909_to_ATS_letter_p2"/>
           <p>
+            <lb/>2.
             <lb/>I was not sick once while I
             <lb/>was gone.  I am enough fatter
-            <lb/>so that the people here at the 
-            <lb/>hotel spoof of it.  I'm more
+            <lb/>so that people here at the 
+            <lb/>hotel spoke of it.  I'm more
             <lb/>tanned also.
           </p>
           <p>
@@ -3720,37 +3715,38 @@
             <lb/>back with his wife, two daughters
             <lb/>and 2 grandsons.  He owns a ranch
             <lb/>in <placeName>Texas</placeName> which is about 12
-            <lb/>miles square.  They have invited
+            <lb/>miles square. They have invited
             <lb/>me to visit them, and <persName>Uncle
-              <lb/>Alex</persName> wants me <unclear reason="homophone confusion">too</unclear>.  He may
+            <lb/>Alex</persName> wants me <choice><sic>too</sic><corr>to</corr></choice>. He may
             <lb/>have a business motive. I
             <lb/>will likely stop there for 2 or 3
             <lb/>days.  He wants to take me to
-            <lb/>a real southern hunt.  I can
+            <lb/>a real southern hunt. I can
             <lb/>have a pony all for myself he
-            <lb/>said.  It is an opportunity not
+            <lb/>said. It is an opportunity not
             <lb/>to be lost, don't you agree?
           </p>
           <pb facs="08-08-1909_to_ATS_letter_p3"/>
           <p>
-            <lb/>We had a great time last night- 
-            <lb/>our last on board.  No one turned
+            <lb/><hi rend="underline">3</hi>
+            <lb/>We had a great time last night— 
+            <lb/>our last on board. No one turned
             <lb/>in before 12 some not until
-            <lb/>2.  I did at 12.  It seems awfully
+            <lb/>2. I did at 12. It seems awfully
             <lb/>funny to be on land again.
             <lb/>They certainly were glad to see
             <lb/>us here at the hotel.<ptr type="noteAnchor" target="hotel"/><note resp="ed"
               xml:id="hotel">As is clear from previous letters, and from her comment here that "They certainly were
             glad to see us here at the hotel," Gladys and apparently the other passengers on the excursion to Alaska
-            stayed at the Hotel Georgian before and after the voyage north, and it is a familiar place to the group.  The Hotel Georgian was, in fact, a 
-            new hotel in Seattle when these visitors were staying there, built only one year before in 1908.  It had seven floors and 
+            stayed at the Hotel Georgian before and after the voyage north, and it is a familiar place to the group. The Hotel Georgian was, in fact, a 
+            new hotel in Seattle when these visitors were staying there, built only one year before in 1908. It had seven floors and 
             108 rooms.<bibl><ref target="#RS"></ref>r</bibl></note>
           </p>
           <p>
             <lb/>Well you never can tell what
-            <lb/>people will do.  <persName>Walt</persName> certainly
-            <lb/>seems to be the limit.  As for
-            <lb/>his mother <del rend="overstrike">they are</del>she is the
+            <lb/>people will do. <persName>Walt</persName> certainly
+            <lb/>seems to be the limit. As for
+            <lb/>his mother <del rend="overstrike">they are</del> she is the
             <lb/>limit.
           </p>
           <p>
@@ -3765,59 +3761,72 @@
           </p>
           <p>
             <lb/>I did <hi rend="underline">not</hi> send a card to
-            <lb/> <persName>Will Ward</persName>. I sent
-            <lb/>it to his <hi rend="underline">mother</hi> !
+            <lb/><persName>Will Ward</persName>. I sent
+            <lb/>it to his <hi rend="underline">mother</hi>!
           </p>
           <pb facs="08-08-1909_to_ATS_letter_p4"/>
           <p>
+            <lb/><del rend="overwrite"><hi rend="underline">3</hi></del>4
             <lb/>He is a cheerful <del rend="overstrike">lyer</del>lier.  I
             <lb/>have not sent any more to the 
-            <lb/><persName>Dotens</persName>.  Do not worry.  I got a 
+            <lb/><persName>Dotens</persName>. Do not worry. I got a 
             <lb/>letter from <persName>Walt</persName> which I will
-            <lb/>enclose.  In it he acknowledges
-            <lb/> <hi rend="underlined">one letter.</hi>
+            <lb/>enclose. In it he acknowledges
+            <lb/> <hi rend="underlined">one letter</hi>.
           </p>
           <p>
             <lb/>I did not have any hat on
             <lb/>while I was gone. I'm sending
             <lb/>a large envelope with one or
-            <lb/>too things I do not want lost.
+            <lb/><choice><sic>too</sic><corr>two</corr></choice> things I do not want lost.
           </p>
           <p>
             <lb/>I got your five letters this
             <lb/>morning, and one from <persName>Walt</persName>,
-            <lb/>and one from <persName>Adelaide</persName>.  I'm not
-            <lb/>sure whether Adelaide is going 
+            <lb/>and one from <persName>Adelaide</persName>. I'm not
+            <lb/>sure whe<del rend="overstrike">a</del>ther Adelaide is going 
             <lb/>to <placeName ref="#Mexico">Mexico</placeName> or not.
           </p>
           <p>
             <lb/>The <placeName>Mexican</placeName> trip is all planned
             <lb/>and I start home immediately
-            <lb/>on getting back.  I'll be about
-            <lb/>one week late.  <persName><choice><abbr>U.A.</abbr><expan>Uncle Alex</expan></choice></persName> has the day
+            <lb/>on getting back. I'll be about
+            <lb/>one week late. <persName><choice><abbr>U.A.</abbr><expan>Uncle Alex</expan></choice></persName> has the day
             <lb/>set for us to start to <placeName>Mexico</placeName> and
             <lb/>all plans <unclear reason="underline or random mark at end of page?"><hi rend="underlined">O.K.</hi></unclear>
           </p>
           <pb facs="08-08-1909_to_ATS_letter_p5"/>
           <p>
+            <lb/>5
             <lb/>He wants me to see all the 
             <lb/>people whom he knows.  He has
             <lb/>told them about my coming for
             <lb/>so long.  I'm doing my best I
-            <lb/>assure you.  I guess I'm
-            <lb/>succeeding fairly well.  He is
+            <lb/>assure you. I guess I'm
+            <lb/>succeeding fairly well. He is
             <lb/>so tickled he does not know
-            <lb/>what to do.  He is starting plans
+            <lb/>what to do. He is starting plans
             <lb/>for next summer already.
-            <lb/><add place="below">We are "on" for the pictures.</add>
-            <lb/><add place="below">Heaps of love</add>
-            <lb/><persName type="nickname"></persName>Neddy
-          </p>
-          <postscript rendition="#ot1"><p><lb/>Address next letters to
-            <lb/><placeName>Los Angeles</placeName>
-            <lb/>General Delivery</p></postscript>
-          <postscript><p><lb/>Thanks for 
-            <lb/>addresses.</p></postscript>
+            </p>
+            <p>  
+            <lb/>We are "on" for the pictures.
+            </p>
+            <closer>
+            <lb/><salute>Heaps of love</salute>
+            <lb/><persName ref="#GMS" type="nickname">Neddy</persName>
+            </closer>
+         <postscript rendition="#ot1">
+           <p>
+            <lb/>Address next letters to
+            <lb/><del rend="overstrike">San</del> <placeName>Los Angeles</placeName>
+            <lb/>General Delivery</p>
+         </postscript>
+         <postscript>
+           <p>
+            <lb/>Thanks for 
+            <lb/>addresses.
+           </p>
+         </postscript>
         </div>
         <div type="envelope" xml:id="GS19090808env01" corresp="#GS19090808let01">
           <pb facs="08-08-1909_to_ATS_envelope"/>
