@@ -3943,7 +3943,7 @@
             <lb/><choice><sic>eaven</sic><corr>even</corr></choice> wait <choice><sic>untill</sic><corr>until</corr></choice> the train pulled 
             <lb/>out
             <pb facs="08-13-1909_to_GS_letter_p2"/>
-            <lb/>I knowed that you were not feeling 
+            <lb/>I knowed you were not feeling 
             <lb/>your best So I did not tell you 
             <lb/>the promise that I wished from 
             <!-- the question mark seems to be the only punctuation that JJM uses, but does it always mark a question? -->
@@ -3952,15 +3952,15 @@
             <lb/>if they was any tears <q><unclear reason="illegible" cert="low">shed</unclear></q>
             <lb/><seg type="obliqueText" rendition="#ot1">And</seg> <choice><sic>allways</sic><corr>always</corr></choice> remember honey I 
             <lb/>have two <choice><sic>Sholders</sic><corr>shoulders</corr></choice> a right &amp; also <add place="above">a</add> left 
-            <lb/>one And you can have your choice
+            <lb/>one and you can have your choice
             <lb/>or both? by the -- way how is
-            <lb/>our (I was going to Say little) <choice><sic><persName>unkle</persName></sic><corr>uncle</corr></choice>
+            <lb/>our (I was going to Say little) ankle
             <lb/>getting along better I hope?
           </p>
           <p>
             <lb/>I dare not express my feelings
-            <lb/>in regards to the place where <persName ref="#MrH">Holland</persName> 
-            <lb/>recommended but <persName ref="#GMS"><addName type="endearment">honey</addName></persName> I said
+            <lb/>in regards to <del rend="overstrike">the</del> the place where <persName ref="#MrH">Holland</persName> 
+            <lb/>recommended but <persName ref="#GMS"><addName type="endearment">honey</addName></persName> I Said
             <pb facs="08-13-1909_to_GS_letter_p3"/>
             <lb/><distinct type="babyTalk">Somefing ossle</distinct> naughty --
           </p>
@@ -4011,10 +4011,10 @@
             <!-- This question mark could be either a question mark or an exclamaition point -->
             <lb/>Same or Improve if any thing!
             <!-- Here's an opening quotation mark with no closing -->
-            <lb/>"And the Small heap grows to an
+            <lb/>"And the Small heap grow to an
             <lb/>enormous Size! (this to you <unclear reason="illegible" cert="high">pet</unclear>)
             <lb/>for I will watch every little
-            <lb/>word for <choice><sic>Simptoms</sic><corr>symptoms</corr></choice> of the heap.
+            <lb/>word for <choice><sic>Simptoms</sic><corr>symptoms</corr></choice> of the heap
             <lb/>improving for the better
             <lb/>And <persName ref="#GMS"><addName type="endearment">honey</addName></persName> tell me all the troubles
             <lb/>as well as pleasures So I may share 
@@ -4026,20 +4026,20 @@
             <!-- Are "Texas hats" what we now refer to as cowboy hats? -->
             <lb/>Texas hats but not the right one
             <lb/>or the right face but I did not 
-            <lb/>stay long and am staying aboard
+            <lb/>stay long and am Staying aboard
             <lb/>to night I have not <choice><sic>bin</sic><corr>been</corr></choice> to the fair
             <lb/>Since and do not think I will go again
             <lb/>I can <choice><sic>safly</sic><corr>safely</corr></choice> make the promise never
-            <lb/>to Smoke cigaretts again and regards
-            <lb/>to Drink It will be a bitter <unclear reason="illegible" cert="medium">dissaperiture</unclear>
-            <lb/>that will ever Start me again it <unclear reason="illegible" cert="low">fully</unclear>
+            <lb/>to Smoke <choice><sic>cigaretts</sic><corr>cigarettes</corr></choice> again and regards
+            <lb/>to Drink It will be a bitter <unclear reason="illegible" cert="medium">dissapointer</unclear>
+            <lb/>that will ever Start me again it <unclear reason="illegible" cert="low">farly</unclear>
             <lb/>makes me Shudder to think of you being
             <lb/>Any where near that Class in <placeName ref="#Portland">portland</placeName>
             <lb/>And I hope you will have a better
             <lb/>time in <placeName ref="#SanFrancisco">San francisco</placeName>!          </p>
           <p>
             <lb/>if we only had had a little time to
-            <lb/>ourSelves the night before on the
+            <lb/>ourselves the night before or the
             <pb facs="08-13-1909_to_GS_letter_p7"/>
             <lb/>morning you Sailed how much
             <lb/>better I would have felt for I
@@ -4050,7 +4050,7 @@
             <lb/>but will live in hopes!
           </p>
           <p>
-            <lb/><persName ref="#MrJ">Mr Jones</persName> was <choice><sic>enquiring</sic><corr>inquiring</corr></choice> about today
+            <lb/><persName ref="#MrJ">Mr Jones</persName> was <choice><sic>enquiring</sic><corr>inquiring</corr></choice> abou<supplied reason="missing">t</supplied> today
             <lb/>And he told me if I heard from you
             <lb/>to remind you of the picture you
             <lb/>know which one.
@@ -4058,7 +4058,7 @@
           <p>
             <lb/>well <persName ref="#GMS"><addName type="nickname">neddy</addName></persName> the lights will be
             <lb/>agoing out Soon as it is nearing 10 P.M.
-            <lb/>give my very best regards to <persName ref="#ACS"><addName type="nickname">Uncle A</addName></persName>
+            <lb/>give my very best regards to <persName ref="#ACS"><addName type="nickname">uncle A</addName></persName>
             <lb/>And Some to <persName ref="#MrH">Mr Holland</persName> and remember
             <lb/>I am anxiously awaiting a reply
             <pb facs="08-13-1909_to_GS_letter_p8"/>
@@ -4076,15 +4076,16 @@
           <closer>
             <lb/><salute>I Remain as Ever Yours in big 
               <!-- Oxygen won't let me use q tags for a quotation inside of a salutation -->
-              <lb/>"Heaps"</salute><signed><persName ref="#JJM">J McIntyre</persName></signed>
-            <lb/>&amp; lightboat<ptr type="noteAnchor" target="LB"/>
+              <lb/>"Heaps"</salute><signed><persName ref="#JJM"> J McIntyre</persName></signed>
+            <lb/>&amp; lights out
+            <!--<ptr type="noteAnchor" target="LB"/>
             <note resp="ed" xml:id="LB">"Lightboat" commonly refers to "lightship," a term used to describe 
             the ships used by the federal government in tandem with lighthouses to help keep American coasts safe. 
             According to the National Park Service, <q>"In all, 179 lightships were built between 1820 and the 1952 
               and in 1909, the heyday of the United States Lighthouse Service, there were 51 lightships 
               (46 on the eastern seaboard and five on the Pacific Coast) on station in the United States"</q> 
               <bibl><ref target="#MHP">(Maritime Heritage Program).</ref></bibl> 
-            McIntyre apparently worked on one of the five lightships stationed on the Pacific coast.</note>
+            McIntyre apparently worked on one of the five lightships stationed on the Pacific coast.</note>-->
             <lb/>"Note Date"
             <lb/><dateline><date when="1909-08-13">Friday 13th / 09</date></dateline>
           </closer>
