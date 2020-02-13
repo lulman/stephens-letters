@@ -3578,9 +3578,9 @@
             <handShift new="Unknown"/> Hold 9-10-09
           </ab>
           <ab>
-            <stamp type="postmark"><placeName ref="#ElPaso">El PASO,TEXAS.</placeName> / SEP 6 / 430 PM / 1909 </stamp>
-            <stamp type="cancellation">U.S. POSTAGE / [Portrait of George Washington; perforated
-              on three edges; upside down; Design A139] / TWO CENTS</stamp>
+            <stamp type="postmark"><placeName ref="#ElPaso">El PASO,TEXAS.</placeName> | SEP 6 | 430 PM | 1909 </stamp>
+            <stamp type="cancellation">U.S. POSTAGE | [Portrait of George Washington; perforated
+              on three edges; upside down; Design A139] | TWO CENTS</stamp>
           </ab>
         </div>      
       </body>
@@ -4114,7 +4114,7 @@
           </ab>
           <ab>
             <stamp type="date">SEP 6 - 1909</stamp>
-            <stamp type="postmark"> SEATTLE, WASH. / AUG 14 / 130 PM / 1909 </stamp>
+            <stamp type="postmark"> SEATTLE, WASH. | AUG 14 | 130 PM | 1909 </stamp>
             <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
           </ab>
           <ab>
@@ -4192,8 +4192,9 @@
         
         <div type="letter" xml:id="CLA19090820let01" corresp="#CLA19090821env01">
           <pb facs="08-19-1909_CLA_to_ATS_letter_p1"/>
-          <opener> <lb/><dateline> <address> <addrLine> <placeName ref="#Sherborn">Sherborn, Mass.</placeName> </addrLine></address></dateline>
-            <lb/> <salute><rs ref="#JMS">My dear Aunt:</rs></salute>
+          <opener>
+            <lb/><dateline><placeName ref="#Sherborn">Sherborn, Mass.</placeName></dateline>
+            <lb/><salute><rs ref="#JMS">My dear Aunt:</rs></salute>
           </opener>
           <p><lb/>Please <choice><sic>dont</sic><corr>don't</corr></choice>
             <lb/>feel that I have neglected 
@@ -4205,8 +4206,8 @@
             <lb/>We have <rs ref="#WGA">a nice baby boy</rs>. <ptr type="noteAnchor" target="BabyWillis"/><note resp="ed" xml:id="BabyWillis">
               According to Massachusetts birth records, Cora's son Willis Goodwin Anderson was born August 4, 1909, 
               so at the time this letter was written, he was about two weeks old <bibl><ref target="#MABirthsWGA">Massachusetts Births</ref></bibl></note> A 
-            <lb/>good big baby, not a little 
-            <lb/>teeny weeny. You know I 
+            <lb/>good big baby boy, not a little 
+            <lb/>teeny weeny; You know I 
             <lb/>wished for a small baby, but 
             <lb/>now that he is here I am glad 
             <lb/>he is strong and perfect. If 
@@ -4247,18 +4248,18 @@
           </figure>
           <ab type="postalAddress">
             <address>
-            <persName ref="#JMS">Mrs. A. T. Stephens </persName>
+            <addrLine><persName ref="#JMS">Mrs. A. T. Stephens </persName></addrLine>
             <addrLine>26 Emerson St. </addrLine>
             <addrLine><placeName ref="#Newton">Newton </placeName></addrLine>
             <addrLine>Mass. </addrLine>
             </address>
           </ab>
           <ab type="endorsement">
-            <handShift new="Unknown"/>new baby <lb/>by neice <lb/>9&#x2014;F <ptr type="noteAnchor" target="Endorse"/>
+            <handShift new="Unknown"/><lb/>new baby <lb/>by neice <lb/>9&#x2014;F <ptr type="noteAnchor" target="Endorse"/>
             <note resp="ed" xml:id="Endorse">The penciled number here doesn't seem to match the pattern on the other envelopes since the second digit is a letter rather than a number. This endorsement also includes a description of the contents of the letter.</note>
           </ab>
           <ab>
-            <stamp type="postmark"> <placeName ref="#Sherborn">SHERBORN, MASS.</placeName> / <date when="1909-08-20"></date>AUG 20 / A. M / 1909 </stamp>
+            <stamp type="postmark"> <placeName ref="#Sherborn">SHERBORN, MASS.</placeName> / <date when="1909-08-20"></date>AUG 20 | A. M | 1909 </stamp>
           </ab>
 <!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
