@@ -708,6 +708,8 @@
       </i>] </xsl:template>
 
    <!-- Additions by the author or another hand. -->
+   <!-- Note: handling defined in stylesheet for each "view." -->
+   
    <xsl:template match="tei:add">
       <xsl:apply-templates/>
    </xsl:template>

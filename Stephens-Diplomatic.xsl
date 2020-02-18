@@ -133,6 +133,15 @@
     <xsl:template match="tei:seg[@type='softhyphen']">
         <xsl:apply-templates/>
     </xsl:template>
+    
+    <!-- Additions by the author or another hand -->
+    
+    <xsl:template match="tei:add[@place='supralinear']"> &#x2191; <xsl:apply-templates/> &#x2193; </xsl:template>
+    <xsl:template match="tei:add[@place='infralinear']"> &#x2193; <xsl:apply-templates/> &#x2191; </xsl:template>
+    <xsl:template match="tei:add[@place='inline']">&#x7c;<xsl:apply-templates/>&#x7c;</xsl:template>
+    <xsl:template match="tei:add[@place='margin']">|<xsl:apply-templates/>|</xsl:template>
+    
+    
     <!-- Highlight recoverable cancelations -->
     <xsl:template match="tei:del"><span class="cancel"><xsl:apply-templates/></span></xsl:template>
     

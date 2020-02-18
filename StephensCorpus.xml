@@ -3533,7 +3533,8 @@
             <lb/>ring came here
             <pb facs="09-06-1909_GS_to_ATS_letter_p2"/>
             <lb/>the <date when="1909-08-23">23 of Aug.</date> I
-            <lb/>got it this morning. It is
+            <lb/>got it this
+            <lb/>morning. It is
             <lb/>a beauty.
           </p>
           <p>
@@ -3581,6 +3582,10 @@
             <stamp type="postmark"><placeName ref="#ElPaso">El PASO,TEXAS.</placeName> | SEP 6 | 430 PM | 1909 </stamp>
             <stamp type="cancellation">U.S. POSTAGE | [Portrait of George Washington; perforated
               on three edges; upside down; Design A139] | TWO CENTS</stamp>
+          </ab>
+          <ab type="endorsement">
+            <handShift scribe="Unknown"/>
+            Hold 9–10–09
           </ab>
         </div>      
       </body>
@@ -3951,7 +3956,7 @@
             <lb/>And when <persName ref="#MrH">Mr Holland</persName> asked you 
             <lb/>if they was any tears <q><unclear reason="illegible" cert="low">shed</unclear></q>
             <lb/><seg type="obliqueText" rendition="#ot1">And</seg> <choice><sic>allways</sic><corr>always</corr></choice> remember honey I 
-            <lb/>have two <choice><sic>Sholders</sic><corr>shoulders</corr></choice> a right &amp; also <add place="above">a</add> left 
+            <lb/>have two <choice><sic>Sholders</sic><corr>shoulders</corr></choice> a right &amp; also <add place="supralinear">a</add> left 
             <lb/>one and you can have your choice
             <lb/>or both? by the -- way how is
             <lb/>our (I was going to Say little) ankle
@@ -5070,7 +5075,7 @@
             <lb/>and it is a nasty rainy night
             <lb/>and the ship is <choice><sic><unclear reason="illegible" cert="medium">roaling</unclear></sic><corr>rolling</corr></choice><ptr type="noteAnchor" target="rolling"/><note resp="ed" xml:id="rolling">The swaying or rocking of a vessel from side to side.<bibl><ref target="#OEDrolling">OED "rolling"</ref></bibl></note> heavy. you 
             <lb/>should ought to see my pose in 
-            <lb/>writing this <subst><del rend="overtyped"><unclear reason="illegible" cert="high">a</unclear></del><add place="over">the</add></subst> Kangaroo is not in it.
+            <lb/>writing this <subst><del rend="overtyped"><unclear reason="illegible" cert="high">a</unclear></del><add place="supralinear">the</add></subst> Kangaroo is not in it.
             <pb facs="08-23-1909_JJM_to_GS_letter_p2"/>
             <lb/>I wonder how you would <choice><sic>fell</sic><corr>feel</corr></choice>
             <lb/>better I hope. we are agoing
@@ -5320,14 +5325,16 @@
     <text>
       <body>
         
-        <div type="letter">
+        <div type="letter" xml:id="JJM19090913let01" corresp="JJM19090913env01">
           <pb facs="09-13-1909_JJM_to_GS_letter_p1"/>
-          <opener> 
-            <lb/><salute>Dear <persName ref="#GMS">Girl</persName>,</salute>
+          <opener>
+            <lb/><dateline><date when="1909-09-13">9/13 – 2 Bells <supplied reason="printed">190</supplied>9</date></dateline>
+            <lb/><salute>Dear <persName ref="#GMS">Girl</persName></salute>
           </opener>  
           <p>  
-            <lb/>well we arrived &amp; deaparted from <placeName ref="#Ketchikan">ketchukam</placeName> all OK and
-            <lb/>will be in <placeName ref="#Taku">Taku</placeName> (you were there" about 6<hi>30</hi> and Should be in <placeName ref="#Juneau">Juneau</placeName> 9<hi>30</hi> a.m and leave for <placeName ref="#Skagway">Skagway</placeName> by 11 00
+            <lb/>well we arrived &amp; <choice><sic>deaparted</sic><corr>departed</corr></choice> from <placeName ref="#Ketchikan">Ketchikan</placeName> all OK and
+            <lb/>will be in <placeName ref="#Taku">Taku</placeName> (you were there" about 6<hi rend="underlined">30</hi> and should 
+            <lb/>be in <placeName ref="#Juneau">Juneau</placeName> 9<hi rend="underlined">30</hi> <add place="supralinear">this</add> a.m and leave for <placeName ref="#Skagway">Skagway</placeName> by 11<hi rend="underlined">00</hi>
             <lb/>then we go to <placeName ref="#Chilkoot">Chilkoot</placeName> for 3000 Cases of Salmon
             <lb/>and then to <placeName ref="#Gypsum">Gypsum</placeName> you remember the last place
             <lb/>it is the place that we were <sic>agoing</sic> <corr>going</corr> to Stop at after leaving
@@ -5410,7 +5417,7 @@
           <pb facs="09-13-1909_JJM_to_GS_letter_p4"/>
           <p>
             <lb/>I was thinking last night after going to bed
-            <lb/>if I have the pleasure of <del>meeting</del> <add place="below">seeing</add> you again in the
+            <lb/>if I have the pleasure of <del>meeting</del> <add place="infralinear">seeing</add> you again in the
             <lb/>Depot if our faces will be as large as last time
             <lb/>I don't  <distinct type="babyTalk">fink</distinct><corr>think</corr> so do you honey does not? I wonder how
             <lb/>this fellow knew how I was a going to feel?
@@ -5439,13 +5446,13 @@
           </p>
           <closer>
             <lb/><salute>"deuf" heaps &amp;heaps of love</salute>
-            <add place="left margin">
+            <add place="margin">
               <lb/>good day x x
               <lb/>the Pleiades x</add>
             <lb/><persName ref="#JJM">J James </persName>
           </closer>
         </div>
-        <div type="envelope" xml:id="XXYYYYMMDDenv01">
+        <div type="envelope" xml:id="JJM19090913env01">
           <pb facs="09-13-1909_JJM_to_GS_envelope"/>
           <figure rend="link">
             <head><emph>Envelope</emph></head>
@@ -5975,7 +5982,7 @@
             So It has <choice><sic>bin</sic><corr>been</corr></choice> up to me to show her around! 
             <lb/>and It <choice><sic>Seemes</sic><corr>Seems</corr></choice> quite nice to have Some one 
             of <hi rend="underlined">my</hi> own 
-            <lb/>age to talk to (honest that's all<add place="above" rend="up arrow">I am</add>) 
+            <lb/>age to talk to (honest that's all<add place="supralinear" rend="up arrow">I am</add>) 
             I gave her a long talk <date when="1909-10-02"><choice><abbr>Sat</abbr>
               <expan>Saturday</expan></choice></date> night 
             <lb/>about her fellows, and her self she did not like it a <choice><sic>littl</sic>
@@ -5987,7 +5994,7 @@
             <lb/>I <distinct type="babyTalk">fink</distinct> the world of that one you sent me, 
             but <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             <choice><sic>havent</sic><corr>haven't</corr></choice> 
-            <lb/>you got your <del rend="strikethrough">hare</del><add place="above">hair</add> <choice><sic>Comed</sic>
+            <lb/>you got your <del rend="strikethrough">hare</del><add place="supralinear">hair</add> <choice><sic>Comed</sic>
                 <corr>Combed</corr></choice> 
             <choice><sic>differant</sic><corr>differently</corr></choice> than when you were 
             <lb/>here! I <distinct type="juvenile">fink</distinct> So and listen 
@@ -6005,7 +6012,7 @@
             <pb facs="10-04-1909_JJM_to_GS_letter_p3"/>
             <lb/>I do not know if I told you about the <name type="ship" ref="#Northwestern">Northwestern</name> 
             <lb/>or not! Yes <rs type="ship" ref="#Northwestern">She</rs> 
-            Is a big Ship about 3 times<add place="above">more</add> the power 
+            Is a big Ship about 3 times<add place="supralinear">more</add> the power 
             <lb/><del rend="overwritten">of</del>than <name type="ship" ref="#SantaClara">Santa Clara</name>. 
             <rs type="ship" ref="#Northwestern">She</rs> had about 3000 <choice><sic>hors</sic><corr>horse</corr></choice> 
             <choice><sic>pow</sic><corr>power</corr></choice> (now do you 
@@ -6073,7 +6080,7 @@
               1909, he expresses his committment to abstaining from drinking and the repugnance of the idea 
               of Gladys spending time with the drinking <q>Class.</q>
             </note> <choice><sic>they</sic><corr>there</corr></choice> was also a 
-            <add place="above">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 
+            <add place="supralinear">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 
             <lb/>1 killed and 50 wounded but none Seriously!<ptr type="noteAnchor" target="JJM19091004note7"/>
             <note resp="ed" xml:id="JJM19091004note7">
               The <date when="1909-10-01">October 1</date> issue of <title level="j">The Leavenworth Echo</title> 
@@ -6121,7 +6128,7 @@
               <addName type="endearment">honey</addName></persName> 
           </p>
           <closer>
-            <lb/><salute><distinct type="babyTalk">"Wif" a <add place="above" rend="down arrow">
+            <lb/><salute><distinct type="babyTalk">"Wif" a <add place="supralinear" rend="down arrow">
               <seg type="obliqueText" rendition="#ot1">Big</seg></add> heaps</distinct></salute> 
             <lb/><date when="1909-10-04">10/4/09</date>
             <lb/><signed rendition="#ot1"><persName ref="#JJM">JJ<hi rend="underlined">Mc</hi></persName></signed>
@@ -6242,7 +6249,7 @@
           <p>
             <lb/>well I missed my boat this a.m. and cannot get away
             <lb/><choice><sic>untill</sic><corr>until</corr></choice> 
-            <subst><del rend="overstrike">10</del><add place="above">11</add></subst> 
+            <subst><del rend="overstrike">10</del><add place="supralinear">11</add></subst> 
             So I must write a few lines as <choice><sic>promise</sic><corr>promised</corr></choice>
             <lb/>how I would like to have had you with me last night
             <lb/><rs>mother</rs> and I talked <choice><sic>untill</sic><corr>until</corr></choice>
@@ -6289,7 +6296,7 @@
               <lb/>well <persName ref="#GMS"><addName type="endearment">dear</addName></persName> I only have 35 min for the boat and have a little
             <lb/>way to go will write tomorrow and tell you the Steamboat news
               <lb/>this has <choice><sic>bin</sic><corr>been</corr></choice> <unclear cert="medium">written</unclear> with a bum pen : you <subst>
-              <del rend="overstrike">remeember</del><add place="above">remember</add></subst> the
+                <del rend="overstrike">remeember</del><add place="supralinear">remember</add></subst> the
             <lb/>pen I got you at the <choice><sic>Georgean</sic><corr><placeName ref="#Georgian">Georgian</placeName></corr></choice> well I would go farther
               <lb/>than that If I could have the opportunity again : well <persName ref="#GMS">
                 <addName type="endearment">dear</addName></persName>
