@@ -5309,7 +5309,7 @@
               </p>
               <accMat corresp="#GS19090913env">
                 Accompanied by a stamped, not-cancelled manilla-colored 6.5 X 3.75 inch envelope, stamped 
-                <stamp>JUNEAU | SEP | 13 | 1909 | 8 PM | ALASKA</stamp>. The envelope is stamped in the upper-left
+                <stamp>JUNEAU | SEP | 13 | 1909 | 6 PM | ALASKA</stamp>. The envelope is stamped in the upper-left
                 hand corner "FORM 7 M.P. 20 M 5-09".
               </accMat>
             </physDesc>
@@ -5419,14 +5419,14 @@
           <p>
             <lb/>I was thinking last night after going to bed
             <lb/>if I have the pleasure of <del>meeting</del> <add place="infralinear">seeing</add> you again in the
-            <lb/>Depot if our faces will be as large as last time
-            <lb/>I don't  <distinct type="babyTalk">fink</distinct><corr>think</corr> so do you honey does not? I wonder how
+            <lb/>Depot if our faces will be as long as last time
+            <lb/>I <choice><sic>dosent</sic><corr>don't</corr></choice> <choice><sic>fink</sic><corr>think</corr></choice> so do you honey <unclear cert="medium">diss</unclear> not? I wonder how
             <lb/>this fellow knew how I was a going to feel?
             <quote type="block">
             <lg>
-             <lb/> <l>" 'Tell her, tell I see</l>
-             <lb/><l>Those eyes, I do not live--that Rome to me</l>
-             <lb/><l>Is hatefull--tell her--oh!--I know not what--</l>
+             <lb/><l>" 'Tell her, till I see</l>
+             <lb/><l>Those eyes, I do not live—that Rome to me</l>
+             <lb/><l>Is hatefull—tell her—oh!—I know not what—</l>
              <lb/><l>That ever thought and feeling, space and spot,</l>
              <lb/><l>Is like an ugly dream where she is not;</l>
              <lb/><l>All persons plagues; all living wearysome;</l>
@@ -5435,22 +5435,21 @@
               xml:id="thatRome" resp="ed">Quotation from Elanor Glyn's novel Three Weeks, set in Rome and Venice.
               <bibl><ref target="#threeWeeks">(Glyn 178)</ref></bibl></note>
             </quote>
-            <lb/>There Goes the whistle and So long for a <distinct type="babyTalk">ittle<corr>little</corr> <sic>minnit</sic> <corr>minute</corr></distinct>
+            <lb/>There Goes the <choice><sic>whussle</sic><corr>whistle</corr></choice> and So long for a <choice><sic>ittle</sic><corr>little</corr></choice> <choice><sic>minnit</sic><corr>minute</corr></choice>
             <lb/>well dear I hope you get Some letters before you go to Mexico
             <lb/>City or You will not know what to think has happened
-            <lb/>to me; But when you get back to <placeName ref="#El Paso">El Paso</placeName> or home
+            <lb/>to me! But when you get back to <placeName ref="#El Paso">El Paso</placeName> or home <choice><sic>than</sic><corr>then</corr></choice>
             <lb/>they will not be So much delay and I also hope that I
-            <lb/>will have "heaps" of letters when I get home the 22nd or 23rd
-            <lb/>well dear ittle I must Say So long and will write again
-            <lb/>from <placeName ref="#Skagway">Skaguay</placeName> give my very best regards to <persName ref="#ACS">uncle alex</persName>
+            <lb/>will have "heaps" of letters when I get back the 22nd or 23rd
+            <lb/>well dear <choice><sic>ittle</sic><corr>little</corr></choice> I must Say So long and will write again
+            <lb/>from <placeName ref="#Skagway">Skagway</placeName> give my very best regards to <persName ref="#ACS">uncle alex</persName>
             <lb/>and Love to <sic>ned</sic> I Remain The Same
           </p>
           <closer>
-            <lb/><salute>"deuf" heaps &amp;heaps of love</salute>
-            <add place="margin">
-              <lb/>good day x x
+            <lb/><salute>"<unclear cert="medium">say</unclear>" heaps &amp; heaps of love</salute>
+              <lb/><add place="margin">good day x x
               <lb/>the Pleiades x</add>
-            <lb/><persName ref="#JJM">J James </persName>
+            <lb/><del rend="erased">J</del><persName ref="#JJM">JJM</persName>
           </closer>
         </div>
         <div type="envelope" xml:id="JJM19090913env01">
@@ -5470,7 +5469,11 @@
           </ab>
           <ab>
             <stamp type="postmark"> <placeName ref="#Juneau">JUNEAU</placeName> | 
-              <date when="1909-09-13">SEP | 13 | 1909 <time>5 PM</time> </date> ALASKA </stamp>
+              <date when="1909-09-13">SEP | 13 | 1909 | <time>6 PM</time> | </date> ALASKA </stamp>
+          </ab>
+          <ab type="endorsement">
+            <handShift scribe="Unknown"/>
+            <lb/>27.2
           </ab>
         </div>
       </body>
