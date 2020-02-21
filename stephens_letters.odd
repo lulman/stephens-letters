@@ -23,6 +23,7 @@
       </sourceDesc>
     </fileDesc>
     <revisionDesc>
+      <change who="HLU" when="2020-02-19">Restricted values for "place" attribute of add element.</change>
       <change who="HLU" when="2019-07-30">Revised for submission of the Stephens Family Letters edition to NINES</change>
       <change who="HLU" when="2012-06-26">Initial Draft</change>
     </revisionDesc>
@@ -106,6 +107,18 @@
           </remarks>
         </elementSpec>
         <elementSpec ident="add" mode="change" module="core">
+          <attList>
+            <attDef ident="place" usage="req" mode="change">
+              <valList>
+                <valItem ident="above"></valItem>
+                <valItem ident="below"></valItem>
+                <valItem ident="inline"></valItem>
+                <valItem ident="margin"></valItem>
+                <valItem ident="top"></valItem>
+                <valItem ident="bottom"></valItem>
+              </valList>
+          </attDef>
+          </attList>
           <remarks>
             <p>If the writer includes a caret or other mark to indicate the addition, we indicate
               the mark as the value of a “rend” attribute.</p>

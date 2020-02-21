@@ -1,15 +1,16 @@
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
-namespace ns1 = "http://www.isocat.org/ns/dcr"
+namespace ns1 = "http://www.w3.org/1999/xhtml"
+namespace ns2 = "http://www.isocat.org/ns/dcr"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2019-09-06T18:23:11Z. .
-# TEI Edition: Version 3.5.0. Last updated on
-#	29th January 2019, revision 3c0c64ec4
-# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.5.0/
+# Schema generated from ODD source 2020-02-19T14:32:35Z. .
+# TEI Edition: Version 3.6.0. Last updated on
+#	16th July 2019, revision daa3cc0b9
+# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.6.0/
 #
 
 # Distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 license.
@@ -99,8 +100,15 @@ att.ranging.attribute.max =
     | xsd:decimal
   }?
 att.ranging.attribute.confidence =
-  
-  ## specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by min and max, or the proportion of observed values that fall within that range.
+  [
+    a:documentation [
+      "specifies the degree of statistical confidence (between zero and one) that a value falls within the range specified by "
+      ns1:code [ "@min" ]
+      " and "
+      ns1:code [ "@max" ]
+      ", or the proportion of observed values that fall within that range."
+    ]
+  ]
   attribute confidence { xsd:double }?
 att.dimensions.attributes =
   att.ranging.attributes,
@@ -112,7 +120,7 @@ att.dimensions.attributes =
 att.dimensions.attribute.unit =
   
   ## names the unit used for the measurement
-  ## Suggested values include: 1] cm (centimetres) ; 2] mm (millimetres) ; 3] in (inches) ; 4] lines; 5] chars (characters) 
+  ## Suggested values include: 1] cm (centimetres); 2] mm (millimetres); 3] in (inches); 4] line; 5] char (characters)
   attribute unit {
     
     ## (centimetres) 
@@ -125,10 +133,10 @@ att.dimensions.attribute.unit =
       "in"
     | 
       ## lines of text
-      "lines"
+      "line"
     | 
       ## (characters) characters of text
-      "chars"
+      "char"
     | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
   }?
 att.dimensions.attribute.quantity =
@@ -169,8 +177,13 @@ att.dimensions.attribute.scope =
   }?
 att.written.attributes = att.written.attribute.hand
 att.written.attribute.hand =
-  
-  ## points to a handNote element describing the hand considered responsible for the content of the element concerned.
+  [
+    a:documentation [
+      "points to a "
+      ns1:code [ "<handNote>" ]
+      " element describing the hand considered responsible for the content of the element concerned."
+    ]
+  ]
   attribute hand { xsd:anyURI }?
 att.breaking.attributes = att.breaking.attribute.break
 att.breaking.attribute.break =
@@ -181,8 +194,13 @@ att.breaking.attribute.break =
   }?
 att.cReferencing.attributes = att.cReferencing.attribute.cRef
 att.cReferencing.attribute.cRef =
-  
-  ## (canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a refsDecl element in the TEI header
+  [
+    a:documentation [
+      "(canonical reference) specifies the destination of the pointer by supplying a canonical reference expressed using the scheme defined in a "
+      ns1:code [ "<refsDecl>" ]
+      " element in the TEI header"
+    ]
+  ]
   attribute cRef { xsd:string }?
 att.datable.w3c.attributes =
   att.datable.w3c.attribute.when,
@@ -263,7 +281,7 @@ sch:pattern [
   sch:rule [
     context = "tei:*[@when]"
     "\x{a}" ~
-    "        "
+    "         "
     sch:report [
       test = "@notBefore|@notAfter|@from|@to"
       role = "nonfatal"
@@ -283,7 +301,7 @@ sch:pattern [
   sch:rule [
     context = "tei:*[@from]"
     "\x{a}" ~
-    "        "
+    "         "
     sch:report [
       test = "@notBefore"
       role = "nonfatal"
@@ -303,7 +321,7 @@ sch:pattern [
   sch:rule [
     context = "tei:*[@to]"
     "\x{a}" ~
-    "        "
+    "         "
     sch:report [
       test = "@notAfter"
       role = "nonfatal"
@@ -333,17 +351,17 @@ sch:pattern [
   sch:rule [
     context = "tei:*[@calendar]"
     "\x{a}" ~
-    "            "
+    "         "
     sch:assert [
       test = "string-length(.) gt 0"
-      "\x{a}" ~
-      "@calendar indicates the system or calendar to which the date represented by the content of this element\x{a}" ~
-      "belongs, but this "
+      " @calendar indicates the system or calendar to\x{a}" ~
+      "              which the date represented by the content of this element belongs, but this\x{a}" ~
+      "              "
       sch:name [ ]
       " element has no textual content."
     ]
     "\x{a}" ~
-    "          "
+    "      "
   ]
   "\x{a}" ~
   "   "
@@ -357,13 +375,13 @@ att.datcat.attributes =
 att.datcat.attribute.datcat =
   
   ## contains a PID (persistent identifier) that aligns the given element with the appropriate Data Category (or categories) in ISOcat.
-  attribute ns1:datcat {
+  attribute ns2:datcat {
     list { xsd:anyURI+ }
   }?
 att.datcat.attribute.valueDatcat =
   
   ## contains a PID (persistent identifier) that aligns the content of the given element or the value of the given attribute with the appropriate simple Data Category (or categories) in ISOcat.
-  attribute ns1:valueDatcat {
+  attribute ns2:valueDatcat {
     list { xsd:anyURI+ }
   }?
 att.declarable.attributes = att.declarable.attribute.default
@@ -564,8 +582,16 @@ att.global.attribute.n =
   ## (number) gives a number (or other label) for an element, which is not necessarily unique within the document.
   attribute n { xsd:string }?
 att.global.attribute.xmllang =
-  
-  ## (language) indicates the language of the element content using a tag generated according to BCP 47.
+  [
+    a:documentation [
+      "(language) indicates the language of the element content using a tag generated according to "
+      ns1:a [
+        href = "http://www.rfc-editor.org/rfc/bcp/bcp47.txt"
+        "BCP 47"
+      ]
+      "."
+    ]
+  ]
   attribute xml:lang {
     xsd:language
     | (
@@ -599,8 +625,13 @@ att.handFeatures.attribute.scribe =
   ## gives a name or other identifier for the scribe believed to be responsible for this hand.
   attribute scribe { xsd:Name }?
 att.handFeatures.attribute.scribeRef =
-  
-  ## points to a full description of the scribe concerned, typically supplied by a person element elsewhere in the description.
+  [
+    a:documentation [
+      "points to a full description of the scribe concerned, typically supplied by a "
+      ns1:code [ "<person>" ]
+      " element elsewhere in the description."
+    ]
+  ]
   attribute scribeRef {
     list { xsd:anyURI+ }
   }?
@@ -611,8 +642,13 @@ att.handFeatures.attribute.script =
     list { xsd:Name+ }
   }?
 att.handFeatures.attribute.scriptRef =
-  
-  ## points to a full description of the script or writing style used by this hand, typically supplied by a scriptNote element elsewhere in the description.
+  [
+    a:documentation [
+      "points to a full description of the script or writing style used by this hand, typically supplied by a "
+      ns1:code [ "<scriptNote>" ]
+      " element elsewhere in the description."
+    ]
+  ]
   attribute scriptRef {
     list { xsd:anyURI+ }
   }?
@@ -769,7 +805,7 @@ sch:pattern [
   sch:rule [
     context = "tei:*[@subtype]"
     "\x{a}" ~
-    "        "
+    "         "
     sch:assert [
       test = "@type"
       "The "
@@ -787,8 +823,18 @@ att.pointing.attributes =
   att.pointing.attribute.target,
   att.pointing.attribute.evaluate
 att.pointing.attribute.targetLang =
-  
-  ## specifies the language of the content to be found at the destination referenced by target, using a language tag generated according to BCP 47.
+  [
+    a:documentation [
+      "specifies the language of the content to be found at the destination referenced by "
+      ns1:code [ "@target" ]
+      ", using a language tag generated according to "
+      ns1:a [
+        href = "http://www.rfc-editor.org/rfc/bcp/bcp47.txt"
+        "BCP 47"
+      ]
+      "."
+    ]
+  ]
   attribute targetLang {
     xsd:language
     | (
@@ -803,7 +849,7 @@ sch:pattern [
   sch:rule [
     context = "tei:*[not(self::tei:schemaSpec)][@targetLang]"
     "\x{a}" ~
-    "            "
+    "         "
     sch:assert [
       test = "@target"
       "@targetLang should only be used on "
@@ -811,7 +857,7 @@ sch:pattern [
       " if @target is specified."
     ]
     "\x{a}" ~
-    "          "
+    "      "
   ]
   "\x{a}" ~
   "   "
@@ -881,7 +927,7 @@ sch:pattern [
   sch:rule [
     context = "tei:*[@spanTo]"
     "\x{a}" ~
-    "            "
+    "         "
     sch:assert [
       test =
         "id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]"
@@ -891,10 +937,10 @@ sch:pattern [
       ") must follow the current element "
       sch:name [ ]
       "\x{a}" ~
-      "                  "
+      "         "
     ]
     "\x{a}" ~
-    "          "
+    "      "
   ]
   "\x{a}" ~
   "   "
@@ -919,8 +965,13 @@ att.styleDef.attribute.scheme =
       "other"
   }?
 att.styleDef.attribute.schemeVersion =
-  
-  ## supplies a version number for the style language provided in scheme.
+  [
+    a:documentation [
+      "supplies a version number for the style language provided in "
+      ns1:code [ "@scheme" ]
+      "."
+    ]
+  ]
   attribute schemeVersion {
     xsd:token { pattern = "[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}" }
   }?
@@ -932,7 +983,7 @@ sch:pattern [
   sch:rule [
     context = "tei:*[@schemeVersion]"
     "\x{a}" ~
-    "            "
+    "         "
     sch:assert [
       test = "@scheme and not(@scheme = 'free')"
       "\x{a}" ~
@@ -940,7 +991,7 @@ sch:pattern [
       "            "
     ]
     "\x{a}" ~
-    "          "
+    "      "
   ]
   "\x{a}" ~
   "   "
@@ -1330,7 +1381,7 @@ p =
     macro.paraContent
     >> sch:pattern [
          id =
-           "stephens_letters-p-abstractModel-structure-p-constraint-report-5"
+           "stephens_letters-p-abstractModel-structure-p-constraint-report-4"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1352,7 +1403,7 @@ p =
        ]
     >> sch:pattern [
          id =
-           "stephens_letters-p-abstractModel-structure-l-constraint-report-6"
+           "stephens_letters-p-abstractModel-structure-l-constraint-report-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1509,13 +1560,13 @@ desc =
     macro.limitedContent
     >> sch:pattern [
          id =
-           "stephens_letters-desc-deprecationInfo-only-in-deprecated-constraint-rule-10"
+           "stephens_letters-desc-deprecationInfo-only-in-deprecated-constraint-rule-9"
          "\x{a}" ~
          "            "
          sch:rule [
            context = "tei:desc[ @type eq 'deprecationInfo']"
            "\x{a}" ~
-           "	              "
+           "               "
            sch:assert [
              test = "../@validUntil"
              "Information about a\x{a}" ~
@@ -1640,9 +1691,46 @@ add =
     macro.paraContent,
     att.global.attributes,
     att.transcriptional.attributes,
-    att.placement.attributes,
     att.typed.attributes,
     att.dimensions.attributes,
+    
+    ## specifies where this item is placed.
+    ## Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6] overleaf; 7] above; 8] end; 9] inline; 10] inspace
+    attribute place {
+      list {
+        (
+         ## below the line
+         "below"
+         | 
+           ## at the foot of the page
+           "bottom"
+         | 
+           ## in the margin (left, right, or both)
+           "margin"
+         | 
+           ## at the top of the page
+           "top"
+         | 
+           ## on the opposite, i.e. facing, page
+           "opposite"
+         | 
+           ## on the other side of the leaf
+           "overleaf"
+         | 
+           ## above the line
+           "above"
+         | 
+           ## at the end of e.g. chapter or volume.
+           "end"
+         | 
+           ## within the body of the text.
+           "inline"
+         | 
+           ## in a predefined space, for example left by an earlier scribe.
+           "inspace"
+         | xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" })+
+      }
+    },
     empty
   }
 del =
@@ -1753,6 +1841,7 @@ time =
     (text | model.gLike | model.phrase | model.global)*,
     att.global.attributes,
     att.datable.attributes,
+    att.canonical.attributes,
     att.editLike.attributes,
     att.dimensions.attributes,
     att.typed.attributes,
@@ -1788,7 +1877,7 @@ ptr =
   element ptr {
     empty
     >> sch:pattern [
-         id = "stephens_letters-ptr-ptrAtts-constraint-report-7"
+         id = "stephens_letters-ptr-ptrAtts-constraint-report-6"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1822,7 +1911,7 @@ ref =
   element ref {
     macro.paraContent
     >> sch:pattern [
-         id = "stephens_letters-ref-refAtts-constraint-report-8"
+         id = "stephens_letters-ref-refAtts-constraint-report-7"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1855,19 +1944,19 @@ ref =
   
   ## contains any sequence of items organized as a list. [3.7. Lists]
   element list {
-    ((model.divTop | model.global)*,
+    ((model.divTop | model.global | desc*)*,
      ((item, model.global*)+
       | (label, model.global*, item, model.global*)+),
      (model.divBottom, model.global*)*)
     >> sch:pattern [
          id =
-           "stephens_letters-list-gloss-list-must-have-labels-constraint-rule-11"
+           "stephens_letters-list-gloss-list-must-have-labels-constraint-rule-10"
          "\x{a}" ~
          "            "
          sch:rule [
            context = "tei:list[@type='gloss']"
            "\x{a}" ~
-           "	              "
+           "               "
            sch:assert [
              test = "tei:label"
              'The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element'
@@ -1885,8 +1974,13 @@ ref =
     ## describes the nature of the items in the list.
     ## Suggested values include: 1] gloss; 2] index; 3] instructions; 4] litany; 5] syllogism
     attribute type {
-      
-      ## each list item glosses some term or concept, which is given by a label element preceding the list item.
+      [
+        a:documentation [
+          "each list item glosses some term or concept, which is given by a "
+          ns1:code [ "<label>" ]
+          " element preceding the list item."
+        ]
+      ]
       "gloss"
       | 
         ## each list item is an entry in an index such as the alphabetical topical index at the back of a print volume.
@@ -2059,7 +2153,7 @@ title =
     att.datable.attributes,
     
     ## classifies the title according to some convenient typology.
-    ## Sample values include: 1] main; 2] sub (subordinate) ; 3] alt (alternate) ; 4] short; 5] desc (descriptive) 
+    ## Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] short; 5] desc (descriptive)
     attribute type {
       xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
@@ -2123,7 +2217,10 @@ listBibl =
   
   ## (citation list) contains a list of bibliographic citations of any kind. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
   element listBibl {
-    (model.headLike*, (model.biblLike | model.milestoneLike)+, empty*),
+    (model.headLike*,
+     desc*,
+     (model.biblLike | model.milestoneLike)+,
+     empty*),
     att.global.attributes,
     att.sortable.attributes,
     att.declarable.attributes,
@@ -2137,7 +2234,7 @@ l =
     ((text | model.gLike | model.phrase | model.inter | model.global)*)
     >> sch:pattern [
          id =
-           "stephens_letters-l-abstractModel-structure-l-constraint-report-9"
+           "stephens_letters-l-abstractModel-structure-l-constraint-report-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2185,7 +2282,7 @@ lg =
              test =
                "count(descendant::tei:lg|descendant::tei:l|descendant::tei:gap) > 0"
              "An lg element\x{a}" ~
-             "        must contain at least one child l, lg or gap element."
+             "        must contain at least one child l, lg, or gap element."
            ]
            "\x{a}" ~
            "            "
@@ -2195,7 +2292,7 @@ lg =
        ]
     >> sch:pattern [
          id =
-           "stephens_letters-lg-abstractModel-structure-l-constraint-report-10"
+           "stephens_letters-lg-abstractModel-structure-l-constraint-report-9"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2222,8 +2319,13 @@ lg =
     empty
   }
 teiCorpus =
-  
-  ## contains the whole of a TEI encoded corpus, comprising a single corpus header and one or more TEI elements, each containing a single text header and a text. [4. Default Text Structure 15.1. Varieties of Composite Text]
+  [
+    a:documentation [
+      "contains the whole of a TEI encoded corpus, comprising a single corpus header and one or more "
+      ns1:code [ "<TEI>" ]
+      " elements, each containing a single text header and a text. [4. Default Text Structure 15.1. Varieties of Composite Text]"
+    ]
+  ]
   element teiCorpus {
     (teiHeader,
      ((model.resourceLike+, (TEI | teiCorpus)*)
@@ -2282,7 +2384,7 @@ publicationStmt =
   }
 idno =
   
-  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
+  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [13.3.1. Basic Principles 2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
   element idno {
     (text | model.gLike | idno)*,
     att.global.attributes,
@@ -2293,8 +2395,17 @@ idno =
     ## categorizes the identifier, for example as an ISBN, Social Security number, etc.
     ## Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7] OCLC
     attribute type {
-      
-      ## International Standard Book Number: a 13- or (if assigned prior to 2007) 10-digit identifying number assigned by the publishing industry to a published book or similar item, registered with the International ISBN Agency.
+      [
+        a:documentation [
+          "International Standard Book Number: a 13- or (if assigned prior to 2007) 10-digit identifying number assigned by the publishing industry to a published book or similar item, registered with the "
+          ns1:a [
+            href = "https://www.isbn-international.org"
+            " International ISBN Agency."
+          ]
+          "\x{a}" ~
+          "                  "
+        ]
+      ]
       "ISBN"
       | 
         ## International Standard Serial Number: an eight-digit number to uniquely identify a serial publication.
@@ -2399,8 +2510,13 @@ tagsDecl =
   element tagsDecl {
     rendition*,
     att.global.attributes,
-    
-    ## indicates whether the element types listed exhaustively include all those found within text, or represent only a subset.
+    [
+      a:documentation [
+        "indicates whether the element types listed exhaustively include all those found within "
+        ns1:code [ "<text>" ]
+        ", or represent only a subset."
+      ]
+    ]
     attribute partial { xsd:boolean }?,
     empty
   }
@@ -2417,8 +2533,13 @@ rendition =
     attribute scope {
       xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
-    
-    ## contains a selector or series of selectors specifying the elements to which the contained style description applies, expressed in the language specified in the scheme attribute.
+    [
+      a:documentation [
+        "contains a selector or series of selectors specifying the elements to which the contained style description applies, expressed in the language specified in the "
+        ns1:code [ "@scheme" ]
+        " attribute."
+      ]
+    ]
     attribute selector { xsd:string }?,
     empty
   }
@@ -2470,8 +2591,15 @@ language =
   element language {
     macro.phraseSeq.limited,
     att.global.attributes,
-    
-    ## (identifier) Supplies a language code constructed as defined in BCP 47 which is used to identify the language documented by this element, and which is referenced by the global xml:lang attribute.
+    [
+      a:documentation [
+        "(identifier) Supplies a language code constructed as defined in "
+        ns1:a [ href = "https://tools.ietf.org/html/bcp47" "BCP 47" ]
+        " which is used to identify the language documented by this element, and which is referenced by the global "
+        ns1:code [ "@xml:lang" ]
+        " attribute."
+      ]
+    ]
     attribute ident {
       xsd:language
       | (
@@ -2495,8 +2623,13 @@ keywords =
   element keywords {
     (term+ | \list),
     att.global.attributes,
-    
-    ## identifies the controlled vocabulary within which the set of keywords concerned is defined, for example by a taxonomy element, or by some other resource.
+    [
+      a:documentation [
+        "identifies the controlled vocabulary within which the set of keywords concerned is defined, for example by a "
+        ns1:code [ "<taxonomy>" ]
+        " element, or by some other resource."
+      ]
+    ]
     attribute scheme { xsd:anyURI }?,
     empty
   }
@@ -2527,8 +2660,15 @@ change =
     empty
   }
 TEI =
-  
-  ## (TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resourceLike class. Multiple TEI elements may be combined to form a teiCorpus element. [4. Default Text Structure 15.1. Varieties of Composite Text]
+  [
+    a:documentation [
+      "(TEI document) contains a single TEI-conformant document, combining a single TEI header with one or more members of the model.resourceLike class. Multiple "
+      ns1:code [ "<TEI>" ]
+      " elements may be combined to form a "
+      ns1:code [ "<teiCorpus>" ]
+      " element. [4. Default Text Structure 15.1. Varieties of Composite Text]"
+    ]
+  ]
   element TEI {
     (teiHeader, model.resourceLike+)
     >> sch:ns [ prefix = "tei" uri = "http://www.tei-c.org/ns/1.0" ]
@@ -2585,7 +2725,7 @@ body =
       (model.divBottom, model.global*)*)?)
     >> sch:pattern [
          id =
-           "stephens_letters-div-abstractModel-structure-l-constraint-report-11"
+           "stephens_letters-div-abstractModel-structure-l-constraint-report-10"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2606,7 +2746,7 @@ body =
        ]
     >> sch:pattern [
          id =
-           "stephens_letters-div-abstractModel-structure-p-constraint-report-12"
+           "stephens_letters-div-abstractModel-structure-p-constraint-report-11"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -2754,8 +2894,13 @@ att.datable.custom.attribute.datingPoint =
   ## supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred
   attribute datingPoint { xsd:anyURI }?
 att.datable.custom.attribute.datingMethod =
-  
-  ## supplies a pointer to a calendar element or other means of interpreting the values of the custom dating attributes.
+  [
+    a:documentation [
+      "supplies a pointer to a "
+      ns1:code [ "<calendar>" ]
+      " element or other means of interpreting the values of the custom dating attributes."
+    ]
+  ]
   attribute datingMethod { xsd:anyURI }?
 model.persNamePart = addName | roleName
 model.persNamePart_alternation = addName | roleName
@@ -2966,7 +3111,7 @@ birth =
     att.typed.attribute.subtype,
     
     ## characterizes the element in some sense, using any convenient classification scheme or typology.
-    ## Sample values include: 1] caesarean (caesarean section) ; 2] vaginal (vaginal delivery) ; 3] exNihilo (ex nihilo) ; 4] incorporated; 5] founded; 6] established
+    ## Sample values include: 1] caesarean (caesarean section); 2] vaginal (vaginal delivery); 3] exNihilo (ex nihilo); 4] incorporated; 5] founded; 6] established
     attribute type {
       xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
@@ -2994,9 +3139,10 @@ event =
   
   ## contains data relating to any kind of significant event associated with a person, place, or organization. [13.3.1. Basic Principles]
   element event {
-    (model.headLike*,
+    (idno*,
+     model.headLike*,
      (model.pLike+ | model.labelLike+),
-     (model.noteLike | model.biblLike)*,
+     (model.noteLike | model.biblLike | idno | ptr)*,
      event*),
     att.global.attributes,
     att.datable.attributes,
@@ -3004,8 +3150,13 @@ event =
     att.typed.attributes,
     att.naming.attributes,
     att.sortable.attributes,
-    
-    ## indicates the location of an event by pointing to a place element
+    [
+      a:documentation [
+        "indicates the location of an event by pointing to a "
+        ns1:code [ "<place>" ]
+        " element"
+      ]
+    ]
     attribute where { xsd:anyURI }?,
     empty
   }
@@ -3019,7 +3170,7 @@ listOrg =
   
   ## (list of organizations) contains a list of elements, each of which provides information about an identifiable organization. [13.2.2. Organizational Names]
   element listOrg {
-    (model.headLike*, (org | listOrg)+, empty*),
+    (model.headLike*, desc*, (org | listOrg)+, empty*),
     att.global.attributes,
     att.typed.attributes,
     att.declarable.attributes,
@@ -3030,7 +3181,7 @@ listEvent =
   
   ## (list of events) contains a list of descriptions, each of which provides information about an identifiable event. [13.3.1. Basic Principles]
   element listEvent {
-    (model.headLike*, model.eventLike+, empty*),
+    (model.headLike*, desc*, model.eventLike+, empty*),
     att.global.attributes,
     att.typed.attributes,
     att.declarable.attributes,
@@ -3041,7 +3192,7 @@ listPerson =
   
   ## (list of persons) contains a list of descriptions, each of which provides information about an identifiable person or a group of people, for example the participants in a language interaction, or the people referred to in a historical source. [13.3.2. The Person Element 15.2. Contextual Information 2.4. The Profile Description 15.3.2. Declarable Elements]
   element listPerson {
-    (model.headLike*, (model.personLike | listPerson)+, empty*),
+    (model.headLike*, desc*, (model.personLike | listPerson)+, empty*),
     att.global.attributes,
     att.typed.attributes,
     att.declarable.attributes,
@@ -3052,7 +3203,7 @@ listPlace =
   
   ## (list of places) contains a list of places, optionally followed by a list of relationships (other than containment) defined amongst them. [2.2.7. The Source Description 13.3.4. Places]
   element listPlace {
-    (model.headLike*, (model.placeLike | listPlace)+, empty*),
+    (model.headLike*, desc*, (model.placeLike | listPlace)+, empty*),
     att.global.attributes,
     att.typed.attributes,
     att.declarable.attributes,
@@ -3110,11 +3261,21 @@ occupation =
     attribute type {
       xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
     }?,
-    
-    ## indicates the classification system or taxonomy in use, for example by supplying the identifier of a taxonomy element, or pointing to some other resource.
+    [
+      a:documentation [
+        "indicates the classification system or taxonomy in use, for example by supplying the identifier of a "
+        ns1:code [ "<taxonomy>" ]
+        " element, or pointing to some other resource."
+      ]
+    ]
     attribute scheme { xsd:anyURI }?,
-    
-    ## identifies an occupation code defined within the classification system or taxonomy defined by the scheme attribute.
+    [
+      a:documentation [
+        "identifies an occupation code defined within the classification system or taxonomy defined by the "
+        ns1:code [ "@scheme" ]
+        " attribute."
+      ]
+    ]
     attribute code { xsd:anyURI }?,
     empty
   }
@@ -3129,7 +3290,7 @@ org =
          | model.placeLike
          | model.orgPart
          | model.milestoneLike)*),
-     (model.noteLike | model.biblLike)*,
+     (model.noteLike | model.biblLike | ptr)*,
      model.personLike*),
     att.global.attributes,
     att.typed.attributes,
@@ -3148,7 +3309,7 @@ person =
   
   ## provides information about an identifiable individual, for example a participant in a language interaction, or a person referred to in a historical source. [13.3.2. The Person Element 15.2.2. The Participant Description]
   element person {
-    (model.pLike+ | (model.personPart | model.global)*),
+    (model.pLike+ | (model.personPart | model.global | ptr)*),
     att.global.attributes,
     att.editLike.attributes,
     att.sortable.attributes,
@@ -3180,7 +3341,7 @@ place =
     (model.headLike*,
      (model.pLike*
       | (model.labelLike | model.placeStateLike | model.eventLike)*),
-     (model.noteLike | model.biblLike | idno)*,
+     (model.noteLike | model.biblLike | idno | ptr)*,
      (model.placeLike | listPlace)*),
     att.global.attributes,
     att.typed.attributes,
@@ -3232,14 +3393,24 @@ att.global.facs.attribute.facs =
   }?
 att.global.change.attributes = att.global.change.attribute.change
 att.global.change.attribute.change =
-  
-  ## points to one or more change elements documenting a state or revision campaign to which the element bearing this attribute and its children have been assigned by the encoder.
+  [
+    a:documentation [
+      "points to one or more "
+      ns1:code [ "<change>" ]
+      " elements documenting a state or revision campaign to which the element bearing this attribute and its children have been assigned by the encoder."
+    ]
+  ]
   attribute change {
     list { xsd:anyURI+ }
   }?
 addSpan =
-  
-  ## (added span of text) marks the beginning of a longer sequence of text added by an author, scribe, annotator or corrector (see also add). [11.3.1.4. Additions and Deletions]
+  [
+    a:documentation [
+      "(added span of text) marks the beginning of a longer sequence of text added by an author, scribe, annotator or corrector (see also "
+      ns1:code [ "<add>" ]
+      "). [11.3.1.4. Additions and Deletions]"
+    ]
+  ]
   element addSpan {
     empty
     >> sch:pattern [
@@ -3339,8 +3510,13 @@ delSpan =
     empty
   }
 handNotes =
-  
-  ## contains one or more handNote elements documenting the different hands identified within the source texts. [11.3.2.1. Document Hands]
+  [
+    a:documentation [
+      "contains one or more "
+      ns1:code [ "<handNote>" ]
+      " elements documenting the different hands identified within the source texts. [11.3.2.1. Document Hands]"
+    ]
+  ]
   element handNotes { handNote+, att.global.attributes, empty }
 handShift =
   
@@ -3349,8 +3525,13 @@ handShift =
     empty,
     att.global.attributes,
     att.handFeatures.attributes,
-    
-    ## indicates a handNote element describing the hand concerned.
+    [
+      a:documentation [
+        "indicates a "
+        ns1:code [ "<handNote>" ]
+        " element describing the hand concerned."
+      ]
+    ]
     attribute new { xsd:anyURI }?,
     empty
   }
@@ -3459,7 +3640,7 @@ ab =
     macro.paraContent
     >> sch:pattern [
          id =
-           "stephens_letters-ab-abstractModel-structure-ab-constraint-report-13"
+           "stephens_letters-ab-abstractModel-structure-ab-constraint-report-12"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3481,7 +3662,7 @@ ab =
        ]
     >> sch:pattern [
          id =
-           "stephens_letters-ab-abstractModel-structure-l-constraint-report-14"
+           "stephens_letters-ab-abstractModel-structure-l-constraint-report-13"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -3607,7 +3788,7 @@ msIdentifier =
      empty*)
     >> sch:pattern [
          id =
-           "stephens_letters-msIdentifier-msId_minimal-constraint-report-15"
+           "stephens_letters-msIdentifier-msId_minimal-constraint-report-14"
          "\x{a}" ~
          "            "
          sch:rule [
