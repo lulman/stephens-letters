@@ -4698,11 +4698,9 @@
         
         <div type="letter" xml:id="GS19090922let01" corresp="#GS19090924env01">
           <pb facs="09-22-1909_GS_to_ATS_letter_p1"/>
-          <head type="letterhead">
-            <lb/><placeName ref="#SantaCruz">Santa Cruz, Cal.</placeName>,_______1___</head>
           <opener>
             <handShift new="#GMSHand"/>
-            <dateline><date when="1909-09-22">9/22 9</date></dateline>
+            <lb/><dateline><supplied>Santa Cruz, Cal.,</supplied><date when="1909-09-22">Sept 22 <supplied>1</supplied>909</date></dateline>
             <lb/><salute><persName ref="#MATS">Mother</persName> dear,</salute>
           </opener>
           <p>
@@ -4731,7 +4729,7 @@
             <lb/><seg type="obliqueText" rendition="#ot1">and</seg> all I would not marry him.
             <lb/>Of course he belongs to the <rs>club</rs> here <seg type="obliqueText" rendition="#ot1">and</seg>
             <lb/>the club's favourite drink is <choice><sic>coctail</sic><corr>cocktail</corr></choice>. I've 
-            <lb/>noticed the odor about <choice><sic>everytime</sic><corr>every time</corr></choice> I've 
+            <lb/>noticed the odor about every time I've 
             <lb/>seen him.
           </p>
           <p>
@@ -4814,10 +4812,10 @@
           </ab>
           <ab type="endorsement">
             <handShift new="Unkown"/> 10 9/25<ptr type="noteAnchor" target="MysteriousEndorsements"/>
-            <note resp="ed" xml:id="MysteriousEndorsements">Similar numbers are penciled on several envelopes in the connection.</note>
+            <note resp="ed" xml:id="MysteriousEndorsements">Similar numbers are penciled on several envelopes in the collection.</note>
           </ab>
           <ab>
-            <stamp type="postmark">El Paso, Texas | Sept. 24 | 7:30 AM | 1909 </stamp>
+            <stamp type="postmark">El Paso, Texas | Sept. 24 | 7:<hi rend="underlined">30</hi> AM | 1909 </stamp>
             <stamp type="cancellation">[seven wavy lines]</stamp>
           </ab>
 <!--          <figure rend="link">
