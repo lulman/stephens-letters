@@ -5811,22 +5811,10 @@
         
         <div type="letter" xml:id="JJM19091004let01" corresp="#JJM19091005env01">
           <pb facs="10-04-1909_JJM_to_GS_letter_p1"/>
-          <head type="letterhead">
-            <handShift new="#Stationery"/>
-            <lb/>Form 1 10m 8-09 <lb/>
-            <figure rend="link">
-              <head>Logo of the <orgName ref="#ASC">Alaska Steamship Company</orgName></head>
-              <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs10-04-1909_JJM_to_GS_letter_p1.jpg.jpg?scale=0.3&amp;rgn=60,45,240,240&amp;fmt=png"/>
-              <figDesc>Logo of the <orgName ref="#ASC">Alaska Steamship Company</orgName> Black Ball Line</figDesc>
-            </figure>
-            <lb/><orgName ref="#ASC">Alaska Steamship Company</orgName> 
-            <lb/>_______190___ 
-          </head>
           <opener>
-            <handShift new="#JJMHand"/>
-            <lb/><dateline><date when="1909-10-04">10/4 1909 
+            <lb/><dateline><date when="1909-10-04">10/4 <supplied reason="printed_form">190</supplied>9 
             </date><lb/><time when="05:00:00">5 A.M. </time></dateline>
-            <lb/><lb/><salute>Dear <persName ref="#GMS"><addName type="endearment">Girl</addName></persName></salute>
+            <lb/><salute>Dear <persName ref="#GMS"><addName type="endearment">Girl</addName></persName></salute>
           </opener>
           <p>
             <lb/>well <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
@@ -5846,7 +5834,7 @@
             <persName ref="#GMS"><addName type="endearment"><distinct type="babyTalk">Ittle</distinct> 
               <lb/>girl</addName></persName> with all her travels I don't <distinct type="babyTalk">fink</distinct> 
             So&#x2014;hope not&#x2014; 
-            <lb/>Any way! we are a day ahead of time on the time 
+            <lb/>Any way! we are a day ahead of time or the time 
             <lb/>I Set as we only have a half a cargo It looks bad 
             <lb/>for another trip <del rend="overwritten">f</del>but 
             <choice><sic>ofcorse</sic><corr>of course</corr></choice> Cannot tell 
@@ -5867,7 +5855,7 @@
               engineering crew, and he exhibits at least a neophyte familiarity with technical specifications and boiler operation.
             </note> we have had 
             <lb/>exceedingly fine weather this <choice><sic>Voige</sic><corr>Voyage</corr></choice> 
-            It <choice><sic>didint</sic><corr>didn't</corr></choice> 
+            It <choice><sic>dident</sic><corr>didn't</corr></choice> 
             <lb/>even have Sense enough to rain only once we have 
             <lb/>the Crew: the Cannery Crew from <placeName ref="#Klawock">Klawock</placeName> (this is 
             <lb/>the way it is <placeName ref="#Klawock">Klaw-wock</placeName>) and no Totem
@@ -5906,7 +5894,7 @@
               </figure>
             </note> 
             <seg type="obliqueText" rendition="#ot1">and</seg> that's 
-            <lb/>why<unclear cert="medium">!</unclear> we <choice><sic>was</sic><corr>were</corr></choice> 
+            <lb/>why; we <choice><sic>was</sic><corr>were</corr></choice> 
             in <placeName ref="#Ketchikan">Ketchikan</placeName> about 2 hours coming 
             <lb/>home the <rs ref="#IP"><choice><sic>Pursers</sic><corr>Purser's</corr>
             </choice> Sister</rs> and I went up to the 
@@ -5962,7 +5950,7 @@
             <lb/>you got your <del rend="strikethrough">hare</del><add place="supralinear">hair</add> <choice><sic>Comed</sic>
                 <corr>Combed</corr></choice> 
             <choice><sic>differant</sic><corr>differently</corr></choice> than when you were 
-            <lb/>here! I <distinct type="juvenile">fink</distinct> So and listen 
+            <lb/>here? I <distinct type="juvenile">fink</distinct> So and listen 
             <persName ref="#GMS"><addName type="endearment">dear</addName></persName> did you know that you 
             <lb/><choice><sic>was</sic><corr>were</corr></choice> <distinct type="dialect">agetting</distinct> 
             a <choice><sic>lttle</sic><corr>little</corr></choice> kiss every night about 
@@ -5971,15 +5959,16 @@
             <lb/>take notice tonight <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             at that time and see if you Can Catch me 
             <lb/>at It&#x2014;I wonder <del rend="overwritten">o</del>if you will be So Economical with 
-            <lb/>then when I See you again  <hi rend="underlined">hope not</hi> 
+            <lb/>them when I See you again  <hi rend="underlined">hope not</hi> 
             <distinct type="babyTalk">Sisent</distinct> nice of you I <distinct type="babyTalk">fink</distinct> 
             <lb/>tell me <persName ref="#GMS"><addName type="endearment">dear</addName></persName> 
             <pb facs="10-04-1909_JJM_to_GS_letter_p3"/>
+            <lb/>II
             <lb/>I do not know if I told you about the <name type="ship" ref="#Northwestern">Northwestern</name> 
-            <lb/>or not! Yes <rs type="ship" ref="#Northwestern">She</rs> 
-            Is a big Ship about 3 times<add place="supralinear">more</add> the power 
+            <lb/>or not? Yes <rs type="ship" ref="#Northwestern">She</rs> 
+            Is a big Ship about 3 times <del rend="overstrike">the</del> <add place="supralinear">more</add> power 
             <lb/><del rend="overwritten">of</del>than <name type="ship" ref="#SantaClara">Santa Clara</name>. 
-            <rs type="ship" ref="#Northwestern">She</rs> had about 3000 <choice><sic>hors</sic><corr>horse</corr></choice> 
+            <rs type="ship" ref="#Northwestern">She</rs> has about 3000 <choice><sic>hors</sic><corr>horse</corr></choice> 
             <choice><sic>pow</sic><corr>power</corr></choice> (now do you 
             <lb/>know&#x2014;no&#x2014;well perhaps you Can get a better Idea 
             <lb/>this way Engine room Crews <name type="ship" ref="#Northwestern">Northwestern</name> 25 men 
@@ -6022,12 +6011,12 @@
             <placeName ref="#Georgetown">georgetown</placeName> in the 
             <lb/>Small hours of the morning and <choice><sic>run</sic><corr>ran</corr></choice> off the 
             <choice><sic>tresle</sic><corr>trestle</corr></choice> and turned 
-            <lb/>Completely over 1 killed and 4 Seriously In<del rend="overwritten">g</del>jured 3 of 
+            <lb/><choice><sic>Completly</sic><corr>completely</corr></choice> over 1 killed and 4 Seriously In<del rend="overwritten">g</del>jured 3 of 
             <lb/>them <choice><sic>has</sic><corr>have</corr></choice> died Since we 
             <choice><sic>Cam</sic><corr>Came</corr></choice> away <rs ref="#HH">the driver</rs> is in Jail 
             <lb/>that was my old <choice><sic>Corse</sic><corr>Course</corr></choice> but 
             <hi rend="underlined">no</hi> more <persName ref="#GMS"><addName type="endearment">dear
-              </addName></persName> <hi rend="underline">no more</hi> 
+              </addName></persName> <hi rend="underlined">no more</hi> 
             <lb/>for me!<ptr type="noteAnchor" target="JJM19091004note6"/>
             <note resp="ed" xml:id="JJM19091004note6">
               The <date when="1909-09-23">September 23 issue of </date><title level="j">The Seattle Star</title> 
@@ -6067,15 +6056,14 @@
             <choice><sic>them</sic><corr>the</corr></choice> 
             <lb/>letters by this time <choice><sic>hasent</sic><corr>haven't</corr></choice>, 
             <choice><abbr>U.</abbr><expan>you</expan></choice> and I wonder what you 
-            <lb/>think! yes I do&#x2014;I wonder what <del rend="overwritten">u</del>
-            <persName ref="#ACS">Uncle A</persName> thinks I wonder 
+            <lb/>think? yes I do&#x2014;I wonder what <del rend="overwritten">u</del><persName ref="#ACS">Uncle A</persName> thinks I wonder 
             <lb/>Sometimes what I think! I Suppose you will be 
             <lb/>getting ready for home in a Short time now! will you 
             <lb/>be glad to get home <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             I <distinct type="babyTalk">fink</distinct> So! 
             you have <choice><sic>bin</sic><corr>been</corr></choice> gone from 
-            <lb/>home quite a while <choice><sic>havent</sic><corr>haven't</corr></choice> you? 
-            <lb/>In another year you will be gone 2 months from here! that's the way the time 
+            <lb/>home quite a while <choice><sic>havent</sic><corr>haven't</corr></choice> you? In another year you
+            <lb/>will be gone 2 months from here! that's the way the time 
             <lb/>goes to me well <persName ref="#GMS"><addName type="endearment">honey</addName></persName> 
             I <distinct type="babyTalk">fink</distinct> I had better 
             <choice><sic>sing</sic><corr>sign</corr></choice> off I do 
@@ -6111,27 +6099,19 @@
             <address>
             <addrLine><persName ref="#GMS">Miss. Gladys M. Stephens</persName></addrLine>
             <addrLine>#126 Leon Street</addrLine>
-            <addrLine><placeName ref="#ElPaso">El Paso Texas.</placeName></addrLine>
+            <addrLine><placeName ref="#ElPaso">El Paso</placeName></addrLine>
+            <addrLine><placeName>Texas</placeName>.</addrLine>
             </address>
           </ab>
           <ab>
-            <stamp type="postmark"> <placeName ref="#Seattle">SEATTLE, WASH.</placeName> / 
-              <date when="1909-10-05">OCT 5 / <time>2 - 
-                <gap reason="invisible" unit="characters" quantity="1"/>M</time> / 1909</date> 
-              <figure rend="link">
-                <head>Postmark</head>
-                <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_JJM_to_GS_envelope_with_letter_dated_10-04.jpg.jpg?scale=0.5&amp;rgn=600,250,250,250&amp;fmt=png"></graphic>
-                <figDesc>Postmark for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre</figDesc>
-              </figure></stamp>
+            <stamp type="postmark"> <placeName ref="#Seattle">SEATTLE, WASH.</placeName> | 
+              <date when="1909-10-05">OCT 5 | <time>2 - 
+                <gap reason="invisible" unit="characters" quantity="1"/>M</time> | 1909</date> 
+            </stamp>
           </ab>
           <ab>
             <stamp type="cancellation">
-              World's / Fair / <placeName ref="#Seattle">Seattle</placeName> / <date when="1909">1909</date> 
-              <figure rend="link">
-                <head>Cancellation</head>
-                <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocs10-05-1909_JJM_to_GS_envelope_with_letter_dated_10-04.jpg.jpg?scale=0.5&amp;rgn=825,250,400,225&amp;fmt=png"></graphic>
-                <figDesc>Cancellation for envelope dated 05 October 1909, addressed to Gladys M. Stephens, from James J. McIntyre</figDesc>
-              </figure>
+              World's | Fair | <placeName ref="#Seattle">Seattle</placeName> | <date when="1909">1909</date> 
             </stamp>
           </ab>
 <!--          <figure rend="link">
