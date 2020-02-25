@@ -3771,7 +3771,7 @@
           </p>
           <pb facs="08-08-1909_to_ATS_letter_p4"/>
           <p>
-            <lb/><del rend="overwrite"><hi rend="underline">3</hi></del>4
+            <lb/><del rend="overwritten"><hi rend="underline">3</hi></del>4
             <lb/>He is a cheerful <del rend="overstrike">lyer</del>lier.  I
             <lb/>have not sent any more to the 
             <lb/><persName>Dotens</persName>. Do not worry. I got a 
@@ -4898,7 +4898,7 @@
         <div type="letter" xml:id="GS19091005let01" corresp="#GS19091006env01">
           <pb facs="10-05-1909_GS_to_ATS_letter_p1"/>
           <opener>
-            <lb/><dateline> <address><addrLine>609 N. El Paso St.</addrLine> </address> </dateline> 
+            <lb/><dateline><placeName>609 N. El Paso St.</placeName></dateline> 
             <lb/><salute><rs ref="#JMS">Mother dear, </rs></salute>
           </opener>
           <p> <lb/>Have just  
@@ -4973,7 +4973,7 @@
           <closer>
             <lb/> <salute>Love </salute>
             <lb/> <signed><persName ref="#GMS">Gladys</persName></signed>
-            <lb/> <dateline> <date when="1909-10-05"></date>10/5/09 </dateline>
+            <lb/> <add place="margin"><date when="1909-10-05"></date>10/5/09</add>
           </closer>
         </div>
         <div type="envelope" xml:id="GS19091006env01" corresp="#GS19091005let01">
@@ -4985,24 +4985,17 @@
           </figure>
           <ab type="postalAddress">
             <address>
-              <persName ref="#JMS">Mrs. A. J. Stephens </persName>
+              <addrLine><persName ref="#JMS">Mrs. A. T. Stephens </persName></addrLine>
               <addrLine> 26 Emerson street </addrLine>
               <addrLine> <placeName ref="#Newton">Newton </placeName></addrLine>
               <addrLine> Massachusetts </addrLine>
             </address>
           </ab>
           <ab>
-            <stamp type="postmark"> <placeName ref="#ElPaso">El PASO, TEXAS.</placeName> / <date when="1909-10-06">OCT 6</date> / 4 - PM / 1909 </stamp>
-            <stamp type="cancellation"> <!-- wavy lines --> </stamp>
+            <stamp type="postmark"> <placeName ref="#ElPaso">El PASO, TEXAS.</placeName> | <date when="1909-10-06">OCT 6</date> | 4 - PM | 1909 </stamp>
+            <stamp type="cancellation">Seven wavy lines</stamp>
           </ab>
-<!--          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs07-06-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE / TWO CENTS [Portrait of Washington; perforated horizontally and
-              vertically; Design A139]</figDesc>
-          </figure>
--->       </div>
+       </div>
       </body>
     </text>
   </TEI>
@@ -6176,25 +6169,16 @@
 
         <div type="letter" xml:id="GS19091011let01" corresp="#GS19091011env01">
           <pb facs="10-11-1909_to_GS_letter_p1"/>
-          <head type="letterhead">
-            <figure>
-              <head>Photograph of the Tourist Hotel</head>
-              <figDesc>Photograph of the facade of the Tourist Hotel.</figDesc>
-            </figure>
-            <lb/>1009-1011-1013 PACIFIC AVE. / TEL. MAIN 349 <lb/>Elegantly Furnished / Suites
-            <lb/>RATES, 50 CENTS TO $1.50 / PER DAY <lb/>Tourist Hotel <lb/> D.P. Foley. Proprietor
-            and Manager <lb/> FIRST-CLASS RESTAURANT AND / BARBER SHOP IN CONNECTION
-            <lb/><placeName ref="#Tacoma">Tacoma, Wash.,</placeName>_______190___ </head>
           <opener>
-            <handShift new="#JJM"/>
-            <lb/><dateline><date when="1909-10-11">10/11 9</date></dateline>
+            <lb/><dateline><placeName><supplied reason="printed_form">Tacoma, Wash.,</supplied></placeName>
+              <date when="1909-10-11">10/11 <supplied reason="printed_form">190</supplied>9</date></dateline>
             <lb/><salute>Dear <persName ref="#GMS"><addName type="endearment">girl</addName>
-            </persName>,</salute>
+            </persName></salute>
           </opener>
           <p>
             <lb/>well I missed my boat this a.m. and cannot get away
             <lb/><choice><sic>untill</sic><corr>until</corr></choice> 
-            <subst><del rend="overstrike">10</del><add place="supralinear">11</add></subst> 
+            1<del rend="overwritten">0</del>1 
             So I must write a few lines as <choice><sic>promise</sic><corr>promised</corr></choice>
             <lb/>how I would like to have had you with me last night
             <lb/><rs>mother</rs> and I talked <choice><sic>untill</sic><corr>until</corr></choice>
@@ -6207,57 +6191,56 @@
             <lb/>better I felt and how determined I was to do better
             <lb/>I told her about what you Said about what <unclear cert="unknown" reason="first letter is
               illegible. according to context might be a person's name.">Green</unclear> 
-            <lb/>was to Send me : well Sometimes She was laughing and  
+            <lb/>was to Send me: well Sometimes She was laughing and  
             <lb/>Sometimes crying and <persName ref="#GMS"><addName type="endearment">dear</addName>
             </persName> if you could only have heard
             <lb/>what She Said about you well It could not please you
             <lb/>half as much as me I had to tell her all about you how 
             <lb/>you <choice><sic>comed</sic><corr>combed</corr></choice> 
-            your hair about your eyes well and <unclear cert="medium" reason="final letter illegible">even</unclear>
+            your hair about your eyes well and ever
             <lb/>Sing and <persName ref="#GMS"><addName type="endearment">dear</addName>
             </persName> you may hear from her to thank you I told
-            <lb/>her about you praying for me and to be a little mean, I Said
+            <lb/>her about you praying for me and to be a little mean I Said
             <lb/>I did not know if It was doing any good or not well
             <lb/>you ought to have <choice><sic>herd</sic><corr>heard</corr></choice> 
             what She Said you cannot <choice><sic>emagine</sic><corr>imagine</corr></choice>
             <lb/>how much she thinks of you and how good It makes me
-            <lb/>feel <persName ref="#GMS"><addName type="endearment">honey</addName></persName> <unclear cert="low" reason="final letter illegible">deed</unclear>
-            it does : my <rs>sister</rs> was there and <unclear cert="low" reason="final letter illegible">cons
-            </unclear> the
+            <lb/>feel <persName ref="#GMS"><addName type="endearment">honey</addName></persName> deed
+            it does: my <rs>sister</rs> was there and <choice><sic>cors</sic><corr>of course</corr></choice> the
           </p>
           <pb facs="10-11-1909_to_GS_letter_p2"/>
-          <!-- A roman numeral II is written at the top of the second sheet.-->
           <p>
-            <lb/>girl : Say <persName ref="#GMS"><addName type="endearment">honey</addName></persName> She <choice><sic>certanolly</sic><corr>certainly</corr></choice>  
+            <lb/>II
+            <lb/>girl : Say <persName ref="#GMS"><addName type="endearment">honey</addName></persName> She <choice><sic>certanally</sic><corr>certainly</corr></choice>  
             Is a peach I missed my
             <lb/>boat as I told you before why I took them <choice><sic>two</sic><corr>to</corr></choice>  
             their boat this a.m.
-            <lb/><choice><abbr>yought</abbr><corr>you ought</corr></choice>  to have Saw her In the Car her little arms a round
+            <lb/><choice><abbr>yought</abbr><expan>you ought</expan></choice>  to have Saw her In the Car her little arms a round
             <lb/>my neck all the time and when I kissed her good by she cried
             <lb/>like her little heart was broke and made me <choice><sic>prommise</sic><corr>promise</corr></choice>  to come
             <lb/>over again : O <persName ref="#GMS"><addName type="endearment">dear</addName></persName> how I would like you to know them 
             <lb/>how proud I would be to <choice><sic>heave</sic><corr>have</corr></choice>  the opportunity to take you to
-            <lb/>them and I <hi rend="multiplyUnderlined">do</hi> hope I will have that please—Can I—
+            <lb/>them and I <hi rend="multiplyUnderlined">do</hi> hope I will have that pleasure—Can I—
               <lb/>well <persName ref="#GMS"><addName type="endearment">dear</addName></persName> I only have 35 min for the boat and have a little
             <lb/>way to go will write tomorrow and tell you the Steamboat news
-              <lb/>this has <choice><sic>bin</sic><corr>been</corr></choice> <unclear cert="medium">written</unclear> with a bum pen : you <subst>
-                <del rend="overstrike">remeember</del><add place="supralinear">remember</add></subst> the
-            <lb/>pen I got you at the <choice><sic>Georgean</sic><corr><placeName ref="#Georgian">Georgian</placeName></corr></choice> well I would go farther
-              <lb/>than that If I could have the opportunity again : well <persName ref="#GMS">
+              <lb/>this has <choice><sic>bin</sic><corr>been</corr></choice> <unclear cert="medium">written</unclear> with a bum
+            pen: you reme<del rend="overstrike">e</del>mber the
+            <lb/>pen I got for you at the <choice><sic>Georgan</sic><corr><placeName ref="#Georgian">Georgian</placeName></corr></choice> well I would go farther
+              <lb/>than that If I could have that <choice><sic>oppertunity</sic><corr>opportunity</corr></choice> again! well <persName ref="#GMS">
                 <addName type="endearment">dear</addName></persName>
-            <lb/>So Long x
+            <lb/>So long x
           </p>
-          
             <postscript>
-              <p>I remain <distinct type="babyTalk">"wif"</distinct> heaps and then <choice><abbr>sum</abbr>
+              <p>
+                <lb/>I Remain <distinct type="babyTalk">"wif"</distinct> heaps and then <choice><abbr>sum</abbr>
                 <expan>some</expan></choice>  
-                <lb/>I would like to Say as I feel but <unclear cert="medium">Sesent nice It sis nice</unclear>
+                <lb/>I would like to Say as I feel but <unclear cert="medium">Sesint nice It sis nice</unclear>
                 <lb/>I <unclear cert="medium">fink</unclear> So long—yes—<persName ref="#GMS"><addName type="endearment">
                 Sweet heart</addName></persName>
                </p>
             </postscript>
           
-          <lb/> <signed><persName ref="#JJM">JJ McIntyre</persName></signed>
+          <lb/> <signed><persName ref="#JJM">JJM</persName></signed>
           
         </div>
         <!-- First, the envelope. -->
@@ -6268,18 +6251,8 @@
             <graphic url="./10-11-1909_to_GS_envelope_for_letter_dated_10-11.jpg"></graphic>
             <figDesc>Envelope for letter of 11 October 1909</figDesc>
           </figure>
-          <ab type="returnAddress">
-            <handShift new="#Stationery"/>
-            <address>
-            <addrLine><placeName ref="#Tourist">TOURIST HOTEL</placeName></addrLine>
-            <addrLine><persName>D.P. FOLEY</persName>, PROP'R AND MGR.</addrLine>
-            <addrLine>FIRST CLASS RESTAURANT IN CONNECTION</addrLine>
-            <addrLine>1009, 1011, 1010 PACIFIC AVE.</addrLine>
-            <addrLine><placeName ref="#Tacoma">TACOMA, WASHINGTON</placeName></addrLine>
-            </address>
-          </ab>
-          <ab type="postalAddress">
-            <handShift new="#JJM"/>
+<!--          <ab type="returnAddress"></ab>
+-->          <ab type="postalAddress">
             <address>
             <addrLine><persName ref="#GMS">Miss Gladys M. Stephens</persName></addrLine>
             <addrLine># 126 Leon St</addrLine>
@@ -6288,15 +6261,14 @@
             </address>
           </ab>
           <ab type="endorsement">
-            <handShift new="Unknown"/> 9 31 / 8 <ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsement"> Similar numbers are pencilled under the cancelled postage stamp
+            <handShift new="Unknown"/> 9 31 | 8 <ptr type="noteAnchor" target="Endorsement_on_back"/>
+            <note resp="ed" xml:id="Endorsement_on_back"> Similar numbers are pencilled under the cancelled postage stamp
               on several envelopes. This set of numbers appears on the back of the envelop. The 31 and 8 are circled.
             </note>
           </ab>
           <ab>
-            <stamp type="postmark"> TACOMA, WASH. / OCT 11 / 12 - M / 1909 </stamp>
-            <stamp type="cancellation">U.S. POSTAGE / [Portrait of George Washington; perforated
-              on three edges; upside down; Design A139] / TWO CENTS</stamp>
+            <stamp type="postmark"> TACOMA, WASH. | OCT 11 | 12 - M / 1909 </stamp>
+            <stamp type="cancellation">Seven wavy lines</stamp>
           </ab>
           
         </div>
