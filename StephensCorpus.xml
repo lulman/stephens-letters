@@ -3073,7 +3073,7 @@
                 
                 You can use more than one paragraph (tagged <p> </p>).
               -->
-              <p> ALS. Three loose sheets of cream-colored Hotel Georgian letterhead stationery
+              <p> ALS. Two loose sheets of cream-colored Hotel Georgian letterhead stationery
                 measuring 6 x 9.5 inches. The front side contains a 2.5-inch letterhead, a 6.75-inch
                 body with blue lines spaced at .375-inch intervals, and a .25-inch bottom margin.
                 The back side contains a .75-inch unlined head, with the body lined as on the front
@@ -3307,7 +3307,7 @@
                 You can use more than one paragraph (tagged <p> </p>).
               -->
               <p> ALS. Three loose sheets of cream-colored Hotel Georgian letterhead stationery
-                measuring 6 x 9.5 inches. The front side contains a 2.5-inch letterhead, a 6.75-inch
+                measuring 6 x 9.5 inches, written on the recto side of each sheet. The front side contains a 2.5-inch letterhead, a 6.75-inch
                 body with blue lines spaced at .375-inch intervals, and a .25-inch bottom margin.
                 The back side contains a .75-inch unlined head, with the body lined as on the front
                 side. An oval watermark, variably placed on each sheet and measuring approximately
@@ -3430,10 +3430,10 @@
           </ab>
           <!--Pretty sure this is an endorsement but should double-check with Louie, especially since it technically looks like it's in Gladys' handwriting  -->
           <ab type="endorsement">
-            <handShift new="#GMSHand"/>please do not forward
+            <handShift new="#GMSHand"/>please do <hi rend="underlined">not</hi> forward
           </ab>
           <ab type="endorsement">
-            <handShift new="Unknown"/>96<ptr type="noteAnchor" target="endorsements"/>
+            <handShift new="Unknown"/>9:6<ptr type="noteAnchor" target="endorsements"/>
             <note resp="ed" xml:id="endorsements">Similar numbers are penciled under the cancelled
               postage stamp on several envelopes in the collection.  The second
               number is circled.  The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
@@ -3910,7 +3910,8 @@
                 You can use more than one paragraph (tagged <p> </p>).
               -->
               <p>ALS. Four loose sheets of unlined, cream-colored paper measuring 10.25 x 6.4375 inches. 
-                Each sheet has been folded in half, but not gathered, to create two leaves, each measuring 5.125 inches wide.
+                Each sheet has been folded in half to create two leaves (four pages), each measuring 5.125 inches wide. The two
+                folded sheets have not been gathered.
               </p>
               <accMat corresp="#JM19090814env01">
                 Accompanied by a stamped, cancelled, cream-colored envelope measuring 5.25 x 3.75 inches.
@@ -4105,26 +4106,30 @@
           <ab type="postalAddress">
             <address>
               <addrLine>Miss. <persName>Gladys. M. Stephens</persName>.</addrLine>
-              <delSpan rend="strikethrough" hand="#Unknown"/>
-              <addrLine>San Francisco</addrLine>
+              <addrLine><del rend="strikethrough">San Francisco</del></addrLine>
               <addrLine>California</addrLine>
+              <addrLine>(General Delivery)</addrLine>
             </address>
           </ab>
           <addSpan hand="#Unknown" place="below"/>
-          <ab type="forwardingAddress">
+          <ab type="postalAddress">
             <address>
             <addrLine>LOS ANGELES.</addrLine>
             <addrLine>CAL.</addrLine>
             </address>
           </ab>
           <ab>
-            <stamp type="date">SEP 6 - 1909</stamp>
-            <stamp type="postmark"> SEATTLE, WASH. | AUG 14 | 130 PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE </stamp>
+            <lb/><stamp type="postmark"> SEATTLE, WASH. | AUG 14 | 130 PM | 1909 </stamp>
+            <lb/><stamp type="cancellation"> WORLD'S | FAIR | SEATTLE | 1909</stamp>
           </ab>
           <ab>
-            <lb/>(General Delivery)
+            <stamp type="postmark">SEP 6 - 1909</stamp>
+            <stamp type="postmark">Correct Post Office Address not in City Directo<gap reason="faded"></gap></stamp>
           </ab>
+          <ab type="endorsement">
+            9 15
+          </ab>
+          <ab type="endorsement">6</ab>
         </div>
       </body>
     </text>
