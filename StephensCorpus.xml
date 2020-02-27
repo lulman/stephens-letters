@@ -4116,7 +4116,11 @@
             <address>
             <addrLine></addrLine>
             <addrLine>LOS ANGELES.</addrLine>
-            <addrLine>CAL.</addrLine>
+            <addrLine>CAL.<ptr type="noteAnchor" target="forwarding"/><note resp="ed" xml:id="forwarding">This letter appears
+              to have been forwarded by the Post Office in San Franciso to the Post Office in Los Angeles, resulting in two
+              postal addresses, two postmarks, and two cancellations. We list them here in pairs by presumed chronological arrangement.
+              The relationships between the pencilled endorsements listed below are less clear; we list both without any implied
+              chronological order. The numeral "15" in the first endorsement is circled.</note></addrLine>
             </address>
           </ab>
           <ab>
@@ -4176,9 +4180,9 @@
                 You can use more than one paragraph (tagged <p> </p>).
               -->
               <p> One sheet of tan stationery, measuring 7 x 8.75 inches, with blue lines .25 inch apart, starting 1.875 inches from the top of the page. 
-                The paper is folded in half to create a single gather of two leaves or four pages. The letter begins on the 
-                front page, written horizontally following the lines. On the inner two pages, the paper was turned 90 degress,
-                and the writing runs perpendicular to the lines.  
+                The paper is folded in half to create two leaves or four pages. The letter begins on the 
+                first recto page, written horizontally following the lines. On the inner two pages, the sheet was turned 90 degress and treated 
+                as a single page, with the writing running perpendicular to the lines. The final page is blank.
                 </p>
               <accMat corresp="#CLA19090821env01">
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
@@ -4300,7 +4304,6 @@
             </msIdentifier>
             <msContents>
               <p>
-                <!-- Describe contents briefly. -->
               </p>
             </msContents>
             <physDesc>
@@ -4320,16 +4323,17 @@
                 
                 You can use more than one paragraph (tagged <p> </p>).
               -->
-              <p>  </p>
+              <p> Three sheets of unlined, cream-colored stationery, each folded in half to create two leaves and four pages. The
+                resulting bifolia are not gathered; i.e., each bifolium consists of four sequentially written pages. The bifolia 
+                have been folded in half again for mailing.
+              </p>
               <accMat corresp="#GS19090706env">
-                <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
-                  describe the envelope and enclosure as above, and include an @corresp attribute whose value
-                  is the xml:id of the <div> in the text corresponding to the envelope. -->  
+                Accompanied by a stamped, cancelled, cream-colored envelope measuring 5.25 x 3.75 inches. 
               </accMat>
             </physDesc>
             <additional>
               <adminInfo>
-                <note><!-- Box and folder number from the finding aid (e.g., Box 3, folder 16). --></note>
+                <note>Box 1, Folder 2.</note>
               </adminInfo>
             </additional>
           </msDesc>
@@ -4589,16 +4593,9 @@
             <note resp="ed" xml:id="Endorse21Aug">The endorsement is written in pencil, and the number 24 is circled.</note>
           </ab>
           <ab>
-            <stamp type="date">SEP 6 - 1909</stamp>
-            <stamp type="postmark"> Juneau | Alaska | Aug | 21 | 1909 | 11AM </stamp>
+            <stamp type="postmark">Juneau | Alaska | Aug | 21 | 1909 | 11AM </stamp>
+            <stamp type="postmark">SEP 13 1909</stamp>
           </ab>
- <!--         <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic
-              url="https://images.asc.ohio-state.edu/is/image/englishdocs/08-21-1909_JJM_to_GS_envelope.jpg?scale=0.4&amp;rgn=920,80,180,180&amp;fmt=png"/>
-            <figDesc>U.S. POSTAGE / TWO CENTS [Color-Red and Upside down]</figDesc>
-          </figure>
--->          <!--Chosen to code general delievery as an addressline--> 
         </div>
       </body>
     </text>
