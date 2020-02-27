@@ -4111,24 +4111,23 @@
               <addrLine>(General Delivery)</addrLine>
             </address>
           </ab>
-          <addSpan hand="#Unknown" place="below"/>
+          <addSpan hand="#Unknown" place="margin"/>
           <ab type="postalAddress">
             <address>
+            <addrLine></addrLine>
             <addrLine>LOS ANGELES.</addrLine>
             <addrLine>CAL.</addrLine>
             </address>
           </ab>
           <ab>
-            <lb/><stamp type="postmark"> SEATTLE, WASH. | AUG 14 | 130 PM | 1909 </stamp>
-            <lb/><stamp type="cancellation"> WORLD'S | FAIR | SEATTLE | 1909</stamp>
-          </ab>
-          <ab>
+            <stamp type="postmark"> SEATTLE, WASH. | AUG 14 | 130 PM | 1909 </stamp>
             <stamp type="postmark">SEP 6 - 1909</stamp>
-            <stamp type="postmark">Correct Post Office Address not in City Directo<gap reason="faded"></gap></stamp>
+           </ab>
+          <ab>
+           <stamp type="cancellation"> WORLD'S | FAIR | SEATTLE | 1909</stamp>
+           <stamp type="cancellation">Correct Post Office Address not in City Directo<gap reason="faded"></gap></stamp>
           </ab>
-          <ab type="endorsement">
-            9 15
-          </ab>
+          <ab type="endorsement">9 15</ab>
           <ab type="endorsement">6</ab>
         </div>
       </body>

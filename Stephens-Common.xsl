@@ -538,7 +538,8 @@
       <p><strong>Mailing Address</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab[@type='postalAddress']">
-            <xsl:apply-templates select="tei:ab[@type='postalAddress']"/>
+            <xsl:apply-templates select="tei:ab[@type='postalAddress'][1]"/>
+            <xsl:apply-templates select="tei:ab[@type='postalAddress'][2]"/>   
             </xsl:when>
             <xsl:otherwise>
                N/A
@@ -547,7 +548,10 @@
       <p><strong>Postmark</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab/tei:stamp[@type='postmark']">
-            <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark']"/>
+               <xsl:element name="br"/>
+               <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark'][1]"/>
+               <xsl:element name="br"/>
+               <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark'][2]"/>
             </xsl:when>
             <xsl:otherwise>
                N/A
@@ -556,7 +560,10 @@
       <p><strong>Cancellation</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab/tei:stamp[@type='cancellation']">
-            <xsl:apply-templates select="tei:ab/tei:stamp[@type='cancellation']"/>
+               <xsl:element name="br"/>
+               <xsl:apply-templates select="tei:ab/tei:stamp[@type='cancellation'][1]"/>
+               <xsl:element name="br"/>
+               <xsl:apply-templates select="tei:ab/tei:stamp[@type='cancellation'][2]"/>
             </xsl:when>
             <xsl:otherwise>
                N/A
@@ -565,7 +572,10 @@
       <p><strong>Endorsement</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab[@type='endorsement']">
-            <xsl:apply-templates select="tei:ab[@type='endorsement']"/>
+               <xsl:element name="br"/>
+               <xsl:apply-templates select="tei:ab[@type='endorsement'][1]"/>
+               <xsl:element name="br"/>
+            <xsl:apply-templates select="tei:ab[@type='endorsement'][2]"/>   
             </xsl:when>
             <xsl:otherwise>
                N/A
@@ -573,7 +583,7 @@
           </xsl:choose></p>      
       </div>
    </xsl:template>
-   
+      
    <xsl:template match="tei:div[@type='enclosure']"/>
    
    <xsl:template match="tei:div[@type='letter']">
