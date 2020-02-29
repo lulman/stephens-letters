@@ -512,7 +512,10 @@
          <div class="envelope">
       <strong>Envelope</strong>. <xsl:apply-templates
          select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:accMat"></xsl:apply-templates>
- -->   
+ -->
+      
+<!-- ENVELOPES -->    
+      
       <div class="envelope">
          <xsl:apply-templates
             select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:accMat"></xsl:apply-templates>
@@ -526,7 +529,7 @@
                <strong>Envelope</strong>.
             </xsl:otherwise>
          </xsl:choose>
-      <p><strong>Return Address</strong>: 
+      <p><strong>Return Address(es)</strong>: 
       <xsl:choose>
          <xsl:when test="tei:ab[@type='returnAddress']">
          <xsl:apply-templates select="tei:ab[@type='returnAddress']"/>
@@ -535,47 +538,39 @@
             N/A
          </xsl:otherwise>
       </xsl:choose></p>
-      <p><strong>Mailing Address</strong>: 
-         <xsl:choose>
+      <p><strong>Mailing Address(es)</strong>:
+           <xsl:choose>
             <xsl:when test="tei:ab[@type='postalAddress']">
-            <xsl:apply-templates select="tei:ab[@type='postalAddress'][1]"/>
-            <xsl:apply-templates select="tei:ab[@type='postalAddress'][2]"/>   
-            </xsl:when>
+            <xsl:apply-templates select="tei:ab[@type='postalAddress']"/>
+<!--            <xsl:apply-templates select="tei:ab[@type='postalAddress'][2]"/>   
+-->            </xsl:when>
             <xsl:otherwise>
                N/A
             </xsl:otherwise>
-          </xsl:choose></p>
-      <p><strong>Postmark</strong>: 
+          </xsl:choose>
+      </p>
+      <p><strong>Postmark(s)</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab/tei:stamp[@type='postmark']">
-               <xsl:element name="br"/>
-               <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark'][1]"/>
-               <xsl:element name="br"/>
-               <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark'][2]"/>
+               <xsl:apply-templates select="tei:ab/tei:stamp[@type='postmark']"/>
             </xsl:when>
             <xsl:otherwise>
                N/A
             </xsl:otherwise>
          </xsl:choose></p>      
-      <p><strong>Cancellation</strong>: 
+      <p><strong>Cancellation(s)</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab/tei:stamp[@type='cancellation']">
-               <xsl:element name="br"/>
-               <xsl:apply-templates select="tei:ab/tei:stamp[@type='cancellation'][1]"/>
-               <xsl:element name="br"/>
-               <xsl:apply-templates select="tei:ab/tei:stamp[@type='cancellation'][2]"/>
+               <xsl:apply-templates select="tei:ab/tei:stamp[@type='cancellation']"/>
             </xsl:when>
             <xsl:otherwise>
                N/A
             </xsl:otherwise>
          </xsl:choose></p>      
-      <p><strong>Endorsement</strong>: 
+      <p><strong>Endorsement(s)</strong>: 
          <xsl:choose>
             <xsl:when test="tei:ab[@type='endorsement']">
-               <xsl:element name="br"/>
-               <xsl:apply-templates select="tei:ab[@type='endorsement'][1]"/>
-               <xsl:element name="br"/>
-            <xsl:apply-templates select="tei:ab[@type='endorsement'][2]"/>   
+            <xsl:apply-templates select="tei:ab[@type='endorsement']"/>
             </xsl:when>
             <xsl:otherwise>
                N/A
@@ -583,8 +578,26 @@
           </xsl:choose></p>      
       </div>
    </xsl:template>
+   
+   <xsl:template match="tei:addrLine">
+      <br/><xsl:apply-templates/>
+   </xsl:template>
+   <xsl:template match="tei:ab/tei:stamp[@type='postmark']">
+      <br/><xsl:apply-templates/>
+   </xsl:template>
+   <xsl:template match="tei:ab[@type='endorsement']">
+      <br/><xsl:apply-templates/>
+   </xsl:template>
+   <xsl:template match="tei:ab[@type='cancellation']">
+      <br/><xsl:apply-templates/>
+   </xsl:template>
+   
+   
+   <!-- ENCLOSURES -->
       
    <xsl:template match="tei:div[@type='enclosure']"/>
+   
+<!-- LETTERS -->
    
    <xsl:template match="tei:div[@type='letter']">
       <a class="TOCtarget">
@@ -593,6 +606,7 @@
       <div class="letter">
       <xsl:apply-templates/>
       </div>
+
       <!-- Horizontal rule between body of letter and ms description -->
       <hr style="margin-left:200px;margin-right:200px;"/>
       <p class="msDesc">
@@ -607,12 +621,10 @@
    <xsl:template match="tei:ab/tei:persName">
       <br/><xsl:apply-templates/>
    </xsl:template>
-   <xsl:template match="tei:addrLine">
-      <br/><xsl:apply-templates/>
-   </xsl:template>
    <xsl:template match="tei:div[@type='letter']/tei:head">
       <p><xsl:apply-templates/></p>
    </xsl:template>
+
    <!-- Template rule for editorial divs in back matter -->
 
    <xsl:template match="tei:div[@type='editorial']">

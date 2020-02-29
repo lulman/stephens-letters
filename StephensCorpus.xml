@@ -4268,11 +4268,11 @@
             </address>
           </ab>
           <ab type="endorsement">
-            <handShift new="Unknown"/><lb/>new baby <lb/>by neice <lb/>9&#x2014;F <ptr type="noteAnchor" target="Endorse"/>
+            <handShift new="Unknown"/>new baby | by niece | 9&#x2014;F <ptr type="noteAnchor" target="Endorse"/>
             <note resp="ed" xml:id="Endorse">The penciled number here doesn't seem to match the pattern on the other envelopes since the second digit is a letter rather than a number. This endorsement also includes a description of the contents of the letter.</note>
           </ab>
           <ab>
-            <stamp type="postmark"> <placeName ref="#Sherborn">SHERBORN, MASS.</placeName> / <date when="1909-08-20"></date>AUG 20 | A. M | 1909 </stamp>
+            <stamp type="postmark"> <placeName ref="#Sherborn">SHERBORN, MASS.</placeName> | <date when="1909-08-20"></date>AUG 20 | A. M | 1909 </stamp>
           </ab>
 <!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
@@ -5025,8 +5025,9 @@
               </p>
             </msContents>
             <physDesc>
-              <p> Four loose sheets of cream-colored stationery measuring 10.25 x 6.50 inches. 
-                Sheets are folded but not gathered. There is no watermark. </p>
+              <p>Two sheets of unlined, cream-colored stationery, each folded in half to create two leaves and four pages. The
+                resulting bifolia are not gathered; i.e., each bifolium consists of four sequentially written pages. The bifolia 
+                have been folded in half again for mailing.</p>
               <accMat corresp="JJM19090823env01">
                 Accompanied by a stamped, cancelled, cream-colored envelope measuring 5.25 x 3.75 inches.
                 address.
@@ -5231,11 +5232,11 @@
           <ab>
             <stamp type="postmark"> VALDEZ | AUG | 23 | 10 AM | 1909 | ALASKA </stamp>
             <stamp type="postmark"> LOS ANGELES | <unclear reason="damage">SE.....</unclear> | CAL. </stamp>
-            <stamp type="dateline">SEP 27 1909 </stamp>
-            <stamp type="dateline"> SEP 27 1909 </stamp>
+            <stamp type="postmark">SEP 27 1909 </stamp>
+            <stamp type="postmark"> SEP 27 1909 </stamp>
           </ab>
           <ab type="endorsement">
-            <handShift new="Unknown"/><lb/>9 16<ptr type="noteAnchor" target="Endorse23Aug"/>
+            <handShift new="Unknown"/>9 16<ptr type="noteAnchor" target="Endorse23Aug"/>
             <note resp="ed" xml:id="Endorse23Aug">The endorsement is written in pencil, and the number 16 is circled.</note>
           </ab>
             
