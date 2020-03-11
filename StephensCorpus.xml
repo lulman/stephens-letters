@@ -2987,15 +2987,6 @@
             <graphic url="./07-06-1909_GS_to_ATS_envelope.jpg"></graphic>
             <figDesc>Envelope for letter of 6 July 1909</figDesc>
           </figure>
-          <ab type="returnAddress">
-            <handShift new="#Stationery"/>
-            <address>
-            <addrLine>Hotel Georgian</addrLine>
-            <addrLine>Fourth Avenue</addrLine>
-            <addrLine>Pike &amp; Union</addrLine>
-            <addrLine>Seattle, U. S. A.</addrLine>
-            </address>
-          </ab>
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
             <persName>Mrs. A. T. Stephens</persName>
@@ -3013,7 +3004,7 @@
           </ab>
           <ab>
             <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909 </stamp>
+            <stamp type="cancellation">WORLD'S | FAIR | SEATTLE | 1909</stamp>
           </ab>
 <!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
@@ -3222,15 +3213,6 @@
             <graphic url="./07-10-1909_GS_to_ATS_envelope.jpg"></graphic>
             <figDesc>Envelope for letter of 6 July 1909</figDesc>
           </figure>
-          <ab type="returnAddress">
-            <handShift new="#Stationery"/>
-            <address>
-            <addrLine>Hotel Georgian</addrLine>
-            <addrLine>Fourth Avenue</addrLine>
-            <addrLine>Pike &amp; Union</addrLine>
-            <addrLine>Seattle, U. S. A.</addrLine>
-            </address>
-          </ab>
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
             <address>
@@ -3247,8 +3229,8 @@
               number is circled.  For example, the letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
           </ab>
           <ab>
-            <stamp type="postmark"> SEATTLE, WASH. / JUL 10 / 1030 PM / 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909</stamp>
+            <stamp type="postmark"> SEATTLE, WASH. | JUL 10 | 1030 PM | 1909 </stamp>
+            <stamp type="cancellation">WORLD'S | FAIR | SEATTLE | 1909</stamp>
           </ab>
           <!-- JLM: My graphic URLS always show the entire envelope regardless of how I've asked them to show a specific region.  So annoying.  Happens with the stamp and with the letterhead. -->
 <!--          <figure rend="link">
@@ -3410,15 +3392,6 @@
             <graphic url="./07-14-1909_GS_to_ATS_envelope.jpg"></graphic>
             <figDesc>Envelope for letter of 14 July 1909</figDesc>
           </figure>
-          <ab type="returnAddress">
-            <handShift new="#Stationery"/>
-            <address>
-            <addrLine>Hotel Georgian</addrLine>
-            <addrLine>Fourth Avenue</addrLine>
-            <addrLine>Pike &amp; Union</addrLine>
-            <addrLine>Seattle, U. S. A.</addrLine>
-            </address>
-          </ab>
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
             <address>
@@ -3439,8 +3412,8 @@
               number is circled.  The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
           </ab>
           <ab>
-            <stamp type="postmark"> SEATTLE, WASH. / JUL 14 / 7 - PM / 1909 </stamp>
-            <stamp type="cancellation"> WORLD'S FAIR SEATTLE 1909</stamp>
+            <stamp type="postmark"> SEATTLE, WASH. | JUL 14 | 7 - PM | 1909 </stamp>
+            <stamp type="cancellation">WORLD'S | FAIR | SEATTLE | 1909</stamp>
           </ab>
           <!-- My graphic URLS always show the entire envelope regardless of how I've asked them to show a specific region.  So annoying.  Happens with the stamp and with the letterhead. -->
 <!--          <figure rend="link">
@@ -3482,14 +3455,13 @@
             </msContents>
             
             <physDesc>  
-              <p> One sheet of cream-colored paper measuring 5.5 x 8.11 inches folded in half and written
-                on front and back. The progression of text goes front right, back right, back left, front left. 
-                Contains a hollow font watermark that reads "Saw &amp; Co. / Boston".
+              <p> One sheet of cream-colored paper measuring 5.5 x 8.11 inches folded in half to make a single bifolium of four pages,
+                folded again for mailing. The sheet contains a hollow font watermark that reads "Saw &amp; Co. / Boston."
               </p>
               <accMat corresp="#GS19090706env">
                 Accompanied by a stamped (stamp is upside down), cancelled, cream-colored envelope measuring 
-                2.8 x 4.25 inches. On the left side of the envelope written sideways in an unknown, penciled hand is 
-                the statement "Hold 9-10-09."
+                2.8 x 4.25 inches. On the left side of the envelope, written sideways in an unknown, penciled hand is 
+                the endorsement "Hold 9-10-09."
               </accMat>
             </physDesc>
             <additional>
@@ -3580,8 +3552,7 @@
           </ab>
           <ab>
             <stamp type="postmark"><placeName ref="#ElPaso">El PASO,TEXAS.</placeName> | SEP 6 | 430 PM | 1909 </stamp>
-            <stamp type="cancellation">U.S. POSTAGE | [Portrait of George Washington; perforated
-              on three edges; upside down; Design A139] | TWO CENTS</stamp>
+            <stamp type="cancellation">[Seven wavy lines]</stamp>
           </ab>
           <ab type="endorsement">
             <handShift scribe="Unknown"/>
@@ -3840,15 +3811,6 @@
             <graphic url="./08-08-1909_to_ATS_envelope.jpg"></graphic>
             <figDesc>Envelope for letter of 8 August 1909</figDesc>
           </figure>
-          <ab type="returnAddress">
-            <handShift new="Stationery"/>
-            <address>
-              <addrLine>HOTEL GEORGIAN</addrLine>
-              <addrLine>FOURTH AVENUE</addrLine>
-             <addrLine>Pike &amp; Union</addrLine>
-              <addrLine>SEATTLE, U.S.A.</addrLine>
-            </address>          
-          </ab>
           <ab type="postalAddress">
             <handShift new="#GMSHand"></handShift>
             <persName>Mrs. A.T. Stephens</persName>
@@ -3859,9 +3821,10 @@
           </address>
           </ab>
           <ab>
-            <stamp type="postmark"> Seattle, Washington Aug 8 | 9 - PM | 1909</stamp>
-            <stamp type="cancellation"> World's Fair Seattle</stamp>
+            <stamp type="postmark">SEATTLE, WASH | AUG 8 | 730 PM | 1909</stamp>
+            <stamp type="cancellation">WORLD'S | FAIR | SEATTLE | 1909</stamp>
           </ab>
+          <ab type="endorsement">9 11</ab>
         </div>
       </body>
     </text>
@@ -4323,7 +4286,7 @@
                 
                 You can use more than one paragraph (tagged <p> </p>).
               -->
-              <p> Three sheets of unlined, cream-colored stationery, each folded in half to create two leaves and four pages. The
+              <p>ALS. Three sheets of unlined, cream-colored stationery, each folded in half to create two leaves and four pages. The
                 resulting bifolia are not gathered; i.e., each bifolium consists of four sequentially written pages. The bifolia 
                 have been folded in half again for mailing.
               </p>
@@ -4680,7 +4643,7 @@
                   of a log raft on the Columbia River. The text corrosponding with the image reads "LOG RAFT 
                   COLUMBIA RIVER 8 MILLION FT." The stamp is a red 2 cent Washington stamp and the postmark is
                   from El Paso, Texas. The envelope is addressed in a neat cursive script to "Mrs. A. T. Stephens, 
-                  26 Emerson Street, Newton, Massachusets." There is an additional endorsement on the envelop in a different
+                  26 Emerson Street, Newton, Massachusets." There is an additional endorsement on the envelope in a different
                   hand than the written address of a circled 10, then a 9/25. The 25 is also circled. The envelope
                   is cleanly slit along the right edge.
               </accMat>
@@ -4817,7 +4780,7 @@
           </ab>
           <ab>
             <stamp type="postmark">El Paso, Texas | Sept. 24 | 7:<hi rend="underlined">30</hi> AM | 1909 </stamp>
-            <stamp type="cancellation">[seven wavy lines]</stamp>
+            <stamp type="cancellation">[Seven wavy lines]</stamp>
           </ab>
 <!--          <figure rend="link">
             <head>Two-cent U.S. postage stamp.</head>
@@ -4874,8 +4837,8 @@
                 You can use more than one paragraph (tagged <p> </p>).
               -->
               <p>One sheet of cream-colored, unlined stationery
-                measuring 7 x 5.5 inches, folded in half to create a single gather 
-                of two leaves or four pages.  </p>
+                measuring 7 x 5.5 inches, folded in half to create a single bifolium 
+                of two leaves or four pages. The bifolium has been folded in half for mailing.</p>
               <accMat corresp="#GS19091006env01">
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
                   describe the envelope and enclosure as above, and include an @corresp attribute whose value
@@ -4994,7 +4957,7 @@
           </ab>
           <ab>
             <stamp type="postmark"> <placeName ref="#ElPaso">El PASO, TEXAS.</placeName> | <date when="1909-10-06">OCT 6</date> | 4 - PM | 1909 </stamp>
-            <stamp type="cancellation">Seven wavy lines</stamp>
+            <stamp type="cancellation">[Seven wavy lines]</stamp>
           </ab>
        </div>
       </body>
@@ -5466,7 +5429,7 @@
           </ab>
           <ab type="endorsement">
             <handShift scribe="Unknown"/>
-            <lb/>27.2
+            27.2
           </ab>
         </div>
       </body>
@@ -5519,22 +5482,15 @@
               <p>ALS. Two loose sheets of cream-colored stationary 
                 measuring 5.625 x 9.375 inches. The front side contains a 2.875-inch letterhead, a 6.3375-inch
                 body with blue lines spaced at .3125-inch intervals, and a .0625-inch bottom margin.
-                The back side contains an unlined body.
+                The back side is unlined.
                 The letterhead of the first page contains, in the upper left-hand
-                corner, a 2.5 x 2-inch halftone image of a Post Office
+                corner, a 2.5 x 2-inch halftone image labeled "Post Office."
                 The letterhead of the second page contains, in the upper left-hand corner,
-                a 2.75 x 1.5-inch halftone image of a Forrestry Building
-                <figure rend="link">
-                  <head>Oregon Timber Company</head>
-                  <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=450,900&amp;layer=1&amp;src=is{mediamanager09-27-1909_GS_to_ATS_envelope.jpg.jpg?scale=0.5&amp;rgn=110,38,450,600&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=450,600&amp;text=\vertalt\cf1\qc\fs36\%20Oregon Timber Company&amp;posN=0,.5"/>
-                  <figDesc>
-                    Envelope picture of the Oregon Timber Company
-                  </figDesc>
-                </figure>
+                a 2.75 x 1.5-inch halftone image labeled "Forrestry Building."
               </p>
               <accMat corresp="#GS19090927env">
-                Accompanied by a stamped, cancelled, cream-colored envelope on unknown stationery measuring
-                6 x 3.5-inch.  A 2.5 x 2-inch halftone image of Oregon Timber is printed on the left-hand side
+                Accompanied by a stamped, cancelled, cream-colored envelope measuring
+                6 x 3.5-inch.  A 2.5 x 2-inch halftone image labeled "Oregon Timber" is printed on the left-hand side
                 of the envelope.
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
                   describe the envelope and enclosure as above, and include an @corresp attribute whose value
@@ -5725,14 +5681,14 @@
           <ab type="postalAddress">
             <address>
             <addrLine>Mrs. A. T. Stephens</addrLine>
-            <addrLine>26 Emerson street</addrLine>
+            <addrLine>26 Emerson st.</addrLine>
             <addrLine>Newton</addrLine>
             <addrLine>Massachusetts</addrLine>
             </address>
           </ab>
           <ab>
             <stamp type="postmark">EL PASO, TEXAS | SEP 27 | 4 – PM | 1909</stamp>
-            <stamp type="cancellation">Seven wavy lines</stamp>
+            <stamp type="cancellation">[Seven wavy lines]</stamp>
           </ab>
         </div>
       </body>
@@ -5767,18 +5723,18 @@
             </msContents>
             <physDesc>
               <p>
-                ALS. Two loose sheets of dirty white Alaska Steamship Company letterhead stationery 
+                ALS. Two loose sheets of cream-colored Alaska Steamship Company letterhead stationery 
                 measuring 10.875 inches by 8.5 inches, with light blue horizontal lining on the recto 
                 beginning 2.75 inches from the top and spaced .375 inches apart. Above the 
-                lining, centered at the top of the page, and measuring 4.25 inches by .25 inches is 
-                "Alaska Steamship Company", below which and right-justified is a solid black line 
+                lining, centered at the top of the page, and measuring 4.25 inches by .25 inches is printed 
+                "Alaska Steamship Company," below which and right-justified is a solid black line 
                 interrupted by "190" for the date of composition. Measuring approximately 1 inch 
                 by 1 inch at the top left corner of the recto is the Alaska Steamship Company 
                 logo, reading "Alaska | Steamship Co. | Black Ball | Line" over a black sphere in front 
                 of a staff and flag with a black circle centered on a white background. At the extreme 
-                top left of the recto, in small block text, is "form 1 10m 8-09". A variably and 
+                top left of the recto, in small block text, is "FORM 1 10M 8-09." A variably and 
                 transversally placed watermark is visible on the right side of the recto, reading 
-                "Shawano | Mills". The watermark is variably and horizontally truncated by the 
+                "Shawano | Mills." The watermark is variably and horizontally truncated by the 
                 right edge of the recto through "Shawano", which measures roughly 5 inches 
                 horizontally and would measure 1 inch vertically if the letters were not truncated. 
                 "Mills" measures roughly 3 inches by 1 inch.
@@ -5786,8 +5742,8 @@
               <accMat corresp="#JJM19091005env01">  
                 Envelope. Accompanied by a cream colored envelope measuring 5.4375 inches by 3.125 inches, 
                 postmarked for Seattle, Wash. on Oct 5, 1909. The postmarked time of day is only 
-                partially legible. The cancellation reads "World's | Fair | Seattle | 1909" in a 
-                sected compartment. A comma-like marking in a circle is inscribed in pencil on the 
+                partially legible. The event cancellation reads "World's | Fair | Seattle | 1909" in a 
+                scroll superimposed on seven straight lines. A comma-like marking in a circle is inscribed in pencil on the 
                 bottom quadrant of the back of the envelope, and a "9" followed by a circled "28&#x00BD;" 
                 is written in pencil on the right side of the back of the envelope.
               </accMat>
@@ -6106,7 +6062,7 @@
           </ab>
           <ab>
             <stamp type="cancellation">
-              World's | Fair | <placeName ref="#Seattle">Seattle</placeName> | <date when="1909">1909</date> 
+              WORLD'S | FAIR | <placeName ref="#Seattle">SEATTLE</placeName> | <date when="1909">1909</date> 
             </stamp>
           </ab>
 <!--          <figure rend="link">
@@ -6147,13 +6103,13 @@
             <physDesc>
               
               <p> Two loose sheets of cream-colored Tourist Hotel letterhead stationery measuring 8.33 x 10.88 inches.
-                The front side contains a 2.77-inch letterhead, a 8.1-inch body with blue lines spaced .444-inch intervals. 
+                The front side contains a 2.77-inch letterhead, a 8.1-inch body with blue lines spaced .44-inch intervals. 
                 The letterhead contains, in the upper left-hand corner, a 2.5 x 2 inch
-                halftone image of the hotel facade</p>
+                halftone image of the hotel facade.</p>
               <accMat corresp="#GS19091011env">
                 Accompanied by a stamped, cancelled, cream-colored envelope of Tourist Hotel stationery
                 measuring 6.5 x 3.5 inches. A 2.5 x 2-inch halftone image of the Tourist Hotel facade is printed on the left-hand
-                side of the envelope above the hotel's address</accMat>
+                side of the envelope above the hotel's name and address</accMat>
             </physDesc>
             <additional>
               <adminInfo>
@@ -6269,8 +6225,8 @@
             </note>
           </ab>
           <ab>
-            <stamp type="postmark"> TACOMA, WASH. | OCT 11 | 12 - M / 1909 </stamp>
-            <stamp type="cancellation">Seven wavy lines</stamp>
+            <stamp type="postmark"> TACOMA, WASH. | OCT 11 | 12 - M | 1909 </stamp>
+            <stamp type="cancellation">[Seven wavy lines]</stamp>
           </ab>
           
         </div>

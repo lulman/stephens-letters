@@ -588,7 +588,7 @@
    <xsl:template match="tei:ab[@type='endorsement']">
       <br/><xsl:apply-templates/>
    </xsl:template>
-   <xsl:template match="tei:ab[@type='cancellation']">
+   <xsl:template match="tei:ab/tei:stamp[@type='cancellation']">
       <br/><xsl:apply-templates/>
    </xsl:template>
    
