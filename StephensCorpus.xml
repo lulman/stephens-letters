@@ -3044,8 +3044,12 @@
             <msContents>
               <p>
                 <!-- Describe contents briefly (these notes need to be revised and cast in prose). -->
-                Gladys Stephens describes a multi-day visit to Yellowstone Park where she drove a coach of four horses for 3 days. She mentions her travel companions "the Virginians" and "some Germans."  She describes the exhibits in the Forestry Building at the 1909 Seattle World's Fair. She describes the Forestry Building and comments that the Seattle World's Fair buildings will later be used by Seattle College.  She also remarks on Seattle, which she describes as looking "new" but having a number of 12- and 14-story buildings.
-              </p>
+                Stephens describes a multi-day visit to Yellowstone Park, where she drove a
+                coach of four horses for 3 days. She characterizes her travel companions as "the
+                Virginians" and "some Germans." She describes the Forestry Building and its exhibits
+                at the 1909 Seattle World's Fair and notes that the Seattle World's Fair buildings
+                will later be used by Seattle College. She also remarks on Seattle, which she
+                describes as looking "new" and having a number of 12- and 14-story buildings. </p>
             </msContents>
             <physDesc>
               <!-- 
@@ -3268,8 +3272,11 @@
             <msContents>
               <p>
                 <!-- Describe contents briefly (these notes need to be revised and cast in prose). -->
-                Gladys says that she is not going to Alaska because staterooms for the voyage are in such high demand.  She mentions telephoning the Goulds in Seattle, then talks about her travel companion Mrs. Hughes.  She particularly describes Mrs. Hughes' famous cousins Mrs. Dana Gibson and Mrs. Waldorf Astor as well as Mrs. Hughes' two sons and now-deceased husband.
-              </p>
+                Stephens writes that she will probably not travel to Alaska because staterooms for the
+                voyage are in such high demand. She mentions telephoning the Goulds in Seattle, then
+                describes her travel companion Mrs. Hughes and Mrs. Hughes' famous cousins, Mrs.
+                Dana Gibson and Mrs. Waldorf Astor, as well as Mrs. Hughes' two sons and
+                now-deceased husband.</p>
             </msContents>
             <physDesc>
               <!-- 
@@ -3449,8 +3456,7 @@
             </msIdentifier>
             <msContents>
               <p>
-                Gladys is waiting for mother's (A.T. Stevens) letter, is something wrong? Alaska ring arrived. 
-                Pillow.
+                Awaiting a letter from her mother, Stephens asks whether something is wrong?
               </p>
             </msContents>
             
@@ -3583,10 +3589,10 @@
             </msIdentifier>
             <msContents>
               <p>
-                Gladys tells her mother of the group's return to Seattle; anticipates a visit to
-                a wealthy Texan's ranch; makes ambiguous references to what we would assume is news or gossip 
-                of friends and acquaintances from home; mentions correspondence with a few other individuals; 
-                and brags about being shown around by Uncle Alex and the "plans for next summer" already in the works.
+                Stephens tells her mother of the group's return to Seattle; anticipates a visit to
+                a wealthy Texan's ranch; makes ambiguous references to what we would assume is news of or gossip 
+                about friends and acquaintances from home; mentions correspondence with a few other individuals; 
+                recounts being shown around by Uncle Alex; and mentions plans for a trip to Texas the following summer.
               </p>
             </msContents>
             <physDesc>
@@ -3704,7 +3710,7 @@
           </p>
           <pb facs="08-08-1909_to_ATS_letter_p3"/>
           <p>
-            <lb/><hi rend="underline">3</hi>
+            <lb/><hi rend="underlined">3</hi>
             <lb/>We had a great time last night— 
             <lb/>our last on board. No one turned
             <lb/>in before 12 some not until
@@ -3738,12 +3744,12 @@
           <p>
             <lb/>I did <hi rend="underline">not</hi> send a card to
             <lb/><persName>Will Ward</persName>. I sent
-            <lb/>it to his <hi rend="underline">mother</hi>!
+            <lb/>it to his <hi rend="underlined">mother</hi>!
           </p>
           <pb facs="08-08-1909_to_ATS_letter_p4"/>
           <p>
-            <lb/><del rend="overwritten"><hi rend="underline">3</hi></del>4
-            <lb/>He is a cheerful <del rend="overstrike">lyer</del>lier.  I
+            <lb/><del rend="overwritten"><hi rend="underlined">3</hi></del>4
+            <lb/>He is a cheerful <del rend="overstrike">lyer</del><choice><sic>lier</sic><corr>liar</corr></choice>.  I
             <lb/>have not sent any more to the 
             <lb/><persName>Dotens</persName>. Do not worry. I got a 
             <lb/>letter from <persName>Walt</persName> which I will
@@ -3849,9 +3855,9 @@
               <idno>SPEC.RARE.CMS.327</idno>
             </msIdentifier>
             <msContents>
-              <p>Writing from Seattle, J. J. McIntyre crafted an 8 page love letter to Gladys M. Stevens. 
-                The letter describes certain details about McIntyre's life as a merchant marine, including his annual salary 
-                and his transfer from the Santa Clara to the North Western.
+              <p>Writing from Seattle, McIntyre pens an eight-page love letter to Stephens. 
+                The letter also describes McIntyre's life as a merchant marine, including his annual salary 
+                and his recent transfer from the <name type="ship">Santa Clara</name> to the <name type="ship">North Western</name>.
                 <!-- Describe contents briefly. -->
               </p>
             </msContents>
@@ -4121,7 +4127,7 @@
             </msIdentifier>
             <msContents>
               <p>
-                Writing from Sherborn, Massachusetts, Cora Anderson, Gladys's cousin, tells her aunt about the birth of her new baby.
+                Writing from Sherborn, Massachusetts, Cora Anderson, Gladys Stephens's cousin, tells her aunt about the birth of her new baby.
                 She mentions having received a letter from Gladys while the latter was traveling in Colorado.
               </p>
             </msContents>
@@ -4266,7 +4272,9 @@
               <idno>SPEC.RARE.CMS.327</idno>
             </msIdentifier>
             <msContents>
-              <p>
+              <p>McIntyre pens another long love letter to Stephens, discussing his life aboard ship, the difficulties of their long-distance
+                relationship, and their attitudes toward courtship. He also mentions for the first time a two-year-old girl on the ship
+                named Gladys, with whose family he strikes up an acquaintance.
               </p>
             </msContents>
             <physDesc>
@@ -4525,8 +4533,6 @@
           </p>
           <p>
             <lb/> and
-          </p>
-          <p>
             <lb/> now I will bid you Goodnight
             <lb/> or rather good morning 
           </p>
@@ -4584,20 +4590,13 @@
             </msIdentifier>
             <msContents>
               <p>
-                Writing from El Paso, Gladys evaluates Adelaide's wedding purchases 
-                and fiance, as well as Gladys's experience with head lice, which she 
-                picked up in Mexico. Gladys also explains to her mother that she is 
+                Writing from El Paso, Stephens evaluates Adelaide's wedding purchases 
+                and fiance, and recounts her own experience with head lice, which she 
+                picked up in Mexico. Stephens also explains to her mother that she is 
                 staying in El Paso longer than she originally planned so she can 
                 witness the Taft-Diaz meeting on October 16th, 1909. She briefly 
                 explains the political tension in Mexico between President Diaz, 
-                Vice-President Reyes, and the general populace. Though Gladys is 
-                definitely writing from El Paso, her exact location within the city 
-                is unknown. Her letter is on stationary from the Office of the Treasurer
-                in Santa Cruz, California, but the postmark indicates she mailed the 
-                letter from El Paso. In her letter, she mentions how her Uncle wants
-                her to extend her stay in El Paso, which suggests she might be staying
-                with him, but then she discusses her extensive time spent with Adelaide,
-                which suggests she is staying with her. 
+                Vice-President Reyes, and the general populace. 
               </p>
             </msContents>
             <physDesc>
@@ -4984,7 +4983,9 @@
             </msIdentifier>
             <msContents>
               <p>
-                Guard watch; weather; pictures; Little Gladys
+                Writing during a late watch, McIntyre mentions the rough weather, mentions some pictures he plans to send Stephens, 
+                describes a visit with "little Gladys" and her mother, complains about the difficulty of carrying on a
+                correspondence abord ship, and muses at length about love.
               </p>
             </msContents>
             <physDesc>
@@ -5235,7 +5236,10 @@
             </msIdentifier>
             <msContents>
               <p>
-                Black Ball line; Alaska; passengers; freight.
+                In another long letter, McIntyre describe his ship's cargo and its race with another ship along
+                Alaska's Inside Passage. As he often does in this correspondence, he laments the difficulties of 
+                a long-distance relationship conducted primarily through letters, and he muses about future trips
+                that he and Stephens might take together.
               </p>
             </msContents>
             <physDesc>
@@ -5456,11 +5460,8 @@
               <idno>SPEC.RARE.CMS.327</idno>
             </msIdentifier>
             <msContents>
-              <p>
-               A letter from Gladys M. Stephens to Mrs. A.T. Stephens on the 27th of September, 1909 in which
-               Gladys discusses her various relationships and correspondences, including her plans with Adelaide
-               and a number of family associations back home.
-              </p>
+              <p>Stephens inquires about various family members and
+                friends and discusses Adelaide's wedding preparations.</p>
             </msContents>
             <physDesc>
               <!-- 
@@ -5715,11 +5716,11 @@
               <idno>SPEC.RARE.CMS.327</idno>
             </msIdentifier>
             <msContents>
-              <p>
-                McIntyre relates the ship schedule and route for the S.S. Northwestern and spending time with the Purser's 
-                sister in the Ketchikan area. He discusses pictures received from Gladys, and details specifications of the Northwestern compared 
-                to the Santa Clara. McIntyre recounts two auto accidents in the Seattle area and reflects on their meaning for him.
-              </p>
+              <p> McIntyre discusses the current schedule and route of the <name type="ship">S.S.
+                  Northwestern</name> and details specifications of the <name type="ship"
+                  >Northwestern</name> compared to the <name type="ship">Santa Clara</name>. He also
+                recounts a visit with the Purser's sister in the Ketchikan area and recounts two
+                fatal accidents in the Seattle area, which cause him to relect on his own past.</p>
             </msContents>
             <physDesc>
               <p>
@@ -6096,9 +6097,8 @@
               <idno>SPEC.RARE.CMS.327</idno>
             </msIdentifier>
             <msContents>
-              <p> Letter from James J. McIntyre to Gladys telling how he missed a ship and how he has
-                recently been telling his mother how much he appreciates all of Gladys's help.
-              </p>
+              <p>McIntyre tells Stephens about a visit with his mother and sister, mentioning that
+                he told them how much he appreciates all of Stephens's help. </p>
             </msContents>
             <physDesc>
               
