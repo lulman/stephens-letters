@@ -3439,7 +3439,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>[Gladys M. Stephens to Mrs. A.T. Stevens, 06 September 1909]</title>
+          <title>[Gladys M. Stephens to Mrs. A. T. Stevens, 06 September 1909]</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
@@ -3456,7 +3456,7 @@
             </msIdentifier>
             <msContents>
               <p>
-                Awaiting a letter from her mother, Stephens asks whether something is wrong?
+                Awaiting a letter from her mother, Stephens asks whether something is wrong.
               </p>
             </msContents>
             
@@ -3572,7 +3572,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>[Gladys M. Stephens to Mrs. A.T. Stephens, 08 August 1909]</title>
+          <title>[Gladys M. Stephens to Mrs. A. T. Stephens, 08 August 1909]</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
@@ -4471,7 +4471,8 @@
             <lb/> <choice><sic>diffarante</sic><corr>different</corr></choice> than what I now believe.
           </p>
           <pb facs="08-21-1909_JJM_to_GS_letter_p9"/> 
-          <p>CHAPTER III</p>
+          <p>
+            <lb/>CHAPTER III</p>
           <p>
             <lb/> You asked me if I knew the story 
             <lb/> of the red rose<ptr type="noteAnchor" target="RedR"/><note resp="ed" xml:id="RedR">Text in progress. Limited sources.</note> <said><q>remember how dense
@@ -5444,7 +5445,7 @@
     <teiHeader>
       <fileDesc>
         <titleStmt>
-          <title>[Gladys M. Stephens to Mrs. A.T. Stephens, 27 September, 1909]</title>
+          <title>[Gladys M. Stephens to Mrs. A. T. Stephens, 27 September, 1909]</title>
         </titleStmt>
         <publicationStmt>
           <p>Publication Information</p>
