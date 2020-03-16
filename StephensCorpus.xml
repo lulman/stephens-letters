@@ -2810,7 +2810,7 @@
             <note resp="ed" xml:id="letterhead">Because Gladys Stephens often uses letterhead with a
               form at the top for the dateline, we encode the printed text around her handwriting
               with a &lt;supplied&gt; element, but other printed parts of the letterhead are not
-              encoded. They are described in the manuscript descriptions following the letters and
+              encoded. They are described in the manuscript descriptions following the letters and/or
               can be viewed in the facsimiles.</note>
             <lb/><salute>Dear <rs ref="#MATS">Mama</rs>,</salute>
           </opener>
@@ -2999,8 +2999,10 @@
           <ab type="endorsement">
             <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
             <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
-              postage stamp on several envelopes in the collection. The second
-              number is circled.</note>
+              postage stamp, or elsewhere, on several envelopes in the collection. The second
+              number is circled. The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated
+              between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97,
+              98, and 99, suggesting </note>
           </ab>
           <ab>
             <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
@@ -3122,20 +3124,16 @@
             <lb/>weighs 2400 <choice><abbr>lbs.</abbr><expan>pounds</expan></choice> It was
             <lb/>against the rules, but
             <lb/>the driver let me.<ptr type="noteAnchor" target="Stagecoach"/>
-            <note resp="ed" xml:id="Stagecoach">Gladys most likely drove a 4-horse <q>"Yellowstone
-                Observation Wagon,"</q> which was a type of stagecoach used to take visitors on a
-                <q>"Grand Loop"</q> of Yellowstone Park. Starting in 1884, the Yellowstone Park
+            <note resp="ed" xml:id="Stagecoach">Gladys most likely drove a four-horse "Yellowstone
+                Observation Wagon" used to take visitors on a
+                "Grand Loop" of Yellowstone Park. Starting in 1884, the Yellowstone Park
               Transportation Company operated on a stage coach line that began at the Northern
               Pacific Railroad terminal in Cinnabar, Montana, connected to the hotel at Mammoth Hot
               Springs, and continued throughout the park. In his 1895 volume <title level="m">The Yellowstone Park</title>,
-              Hiram Martin Chittenden of the Army Corps of Engineers describes <q>"tourist
-                transportation"</q> through the park as <q>"mostly by coach, ordinarily with four
-                horses each"</q> (203). He comments that these coaches were a <q>"necessity"</q>
-              because <q>"The points of interest are so scattered"</q> (274).
-              <bibl>
-                <ref target="#NPSYellowstone">Department of the Interior, U.S. National Park Service.</ref>
-                <ref target="#Chittenden">Chittenden, Hiram Martin.</ref>
-              </bibl>
+              Hiram Martin Chittenden of the Army Corps of Engineers describes <q>tourist
+                transportation</q> through the park as <q>mostly by coach, ordinarily with four
+                horses each</q> (203). He comments that these coaches were a <q>necessity</q>
+              because <q>The points of interest are so scattered</q> <bibl>Chttenden <ref>274</ref></bibl>.
               </note> When
             <lb/>we met another coach
             <pb facs="07-10-1909_GS_to_ATS_letter_p2"/>
@@ -3172,8 +3170,20 @@
             <lb/>building is really
             <lb/><choice><sic>mammouth</sic><corr>mammoth</corr></choice>. The columns 
             <lb/>are huge trees.<ptr type="noteAnchor" target="ForestryBld"/>
-            <note resp="ed" xml:id="ForestryBld">The Forestry Building served as a botanical and natural museum after the World's Fair concluded.  It was torn down in 1930, at which point the log columns that Gladys describes had been damaged beyond repair by insects.  The Forestry Building is described in detail on the University of Washington Library's Special Collections web site as being <q>"sponsored by the State of Washington and was intended to showcase the state's forest resources. Architects Charles Saunders and George Lawton created a building that echoed the European style of Howard's buildings but which also incorporated the log-cabin idiom of early pioneer buildings. Featuring enormous unprocessed logs felled in Chehalis (now Gray's Harbor) County, the Forestry Building's grand colonnade and soaring interior spaces evoked the majesty of Washington's seemingly limitless forests and, not coincidentally, implied the great potential wealth they contained."</q>
-              <bibl><ref target="#UWash">University of Washington Library, Special Collections</ref></bibl></note> I got
+            <note resp="ed" xml:id="ForestryBld">The Forestry Building served as a botanical and
+              natural museum after the World's Fair concluded. It was torn down in 1930, at which
+              point the log columns that Gladys describes had been damaged beyond repair by insects.
+              The University of Washington Library's Special Collections Web site notes that the
+              Forestry Building was <q>sponsored by the State of Washington and was intended to
+                showcase the state's forest resources. Architects Charles Saunders and George Lawton
+                created a building that echoed the European style of Howard's buildings but which
+                also incorporated the log-cabin idiom of early pioneer buildings. Featuring enormous
+                unprocessed logs felled in Chehalis (now Gray's Harbor) County, the Forestry
+                Building's grand colonnade and soaring interior spaces evoked the majesty of
+                Washington's seemingly limitless forests and, not coincidentally, implied the great
+                potential wealth they contained.</q>
+              <bibl><ref target="#UWash">University of Washington Library, Special
+                Collections</ref></bibl></note> I got
             <lb/>what I hope will be
             <lb/>a good picture of it.
             <lb/>All the <choice><abbr >b'l'd'g's</abbr><expan>buildings</expan></choice> are fine
@@ -3229,8 +3239,10 @@
           <ab type="endorsement">
             <handShift new="Unknown"/> 95<ptr type="noteAnchor" target="Endorsements1"/>
             <note resp="ed" xml:id="Endorsements1">Similar numbers are pencilled under the cancelled
-              postage stamp on several envelopes in the collection.  The second
-              number is circled.  For example, the letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
+              postage stamp on several envelopes in the collection. The second number is circled.
+              For example, the letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated
+              between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97,
+              98, and 99. </note>
           </ab>
           <ab>
             <stamp type="postmark"> SEATTLE, WASH. | JUL 10 | 1030 PM | 1909 </stamp>
