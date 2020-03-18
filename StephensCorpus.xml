@@ -1530,7 +1530,7 @@
             formatting (e.g., titles). -->
 
           <bibl xml:id="OEDalkali" n="Alkali">
-            <title level="a">alkali.</title> <title level="m">The Oxford English Dictionary Online</title> OED. 
+            <title level="a">Alkali.</title> <title level="m">The Oxford English Dictionary Online</title> OED. 
             September 2011. Web. 1 Nov. 2011.
           </bibl>
           <bibl xml:id="EncyclopaediaEtiquette" n="Holt">Holt, Emily. 
@@ -1538,15 +1538,15 @@
             New York: McClure, 1901. Print.
           </bibl>
           <bibl xml:id="OEDrevolution" n="Revolution">
-            <title level="a">revolution.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
+            <title level="a">Revolution.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
             September 2011. Web. 15 Nov. 2011.
             </bibl>
           <bibl xml:id="OEDrolling" n="Rolling">
-              <title level="a">rolling.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
+              <title level="a">Rolling.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
               September 2011. Web. 15 Nov. 2011.
               </bibl>
               <bibl xml:id="OEDrunning" n="Running">
-                <title level="a">running.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
+                <title level="a">Running.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
                 September 2011. Web. 15 Nov. 2011
           </bibl>
           <bibl xml:id="USLab" n="CPI">
@@ -1564,7 +1564,7 @@
             <title level="m">Boston University Year Book</title>. Ed. The University Council. Series
             4 Vol. 36. Boston, MA: University Offices, 1909. Print.
           </bibl>
-          <bibl xml:id="MEA" n="Marine">S.S. Northwestern. <title level="m">Marine Exchange of
+          <bibl xml:id="MEA" n="SSNorth">S.S. Northwestern. <title level="m">Marine Exchange of
             Alaska</title>. N.p., n.d. Web. 24 Sept. 2011.</bibl>
           <bibl xml:id="Burwell" n="Burwell">Burwell, Michael. <title level="a">The SS <name
             type="ship">Northwestern</name>: The Final Return of 'The Ship that Always Came
@@ -1606,11 +1606,11 @@
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
             Web. 27 Oct. 2011.
           </bibl>
-          <bibl xml:id="Dance" n="Dancing">
+          <bibl xml:id="Dance" n="Encouraging">
             <title level="a">Encouraging Male Participation in Dance.</title> <title level="j">
               Journal of Physical Education, Recreation, and Dance</title>. Web. 12 Nov. 2011.
           </bibl>
-          <bibl xml:id="Chief123" n="ChiefonWatch">
+          <bibl xml:id="Chief123" n="Mariner">
             <title level="m">Mariner's Employment Guide.</title> James Laurence Pelletier: 
             Marine Techniques Publishing, 2007. <title level="m">Google Books</title>. Web. 13 Nov. 2011.
           </bibl>
@@ -1619,11 +1619,11 @@
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
             Web. 27 Oct. 2011.
           </bibl>
-          <bibl xml:id="MarineWatch" n="MaWatch">
+          <bibl xml:id="MarineWatch" n="Nautical">
             <title level="m">Nautical Dictionary.</title> Arthur Young and James Brisbane: 
             Nabu Press, 2011. <title level="m">Google Books</title>. Web. 13 Nov. 2011.
           </bibl>
-          <bibl xml:id="MenLove" n="ML">
+          <bibl xml:id="MenLove" n="Menand">
             <title level="a">Men and Romantic Love: Pinpointing a 20th-Century Change.</title> <title level="j">
               Journal of Social History</title>. Web. 27 Nov. 2011. 
           </bibl>
@@ -1662,8 +1662,8 @@
          <bibl xml:id="GBC" n="GeoBC">
            <title level="m">GeoBC</title>. British Columbia, n.d. Web. 22 Oct. 2011.
          </bibl>
-         <bibl xml:id="TSL" n="TheShipsList">
-           <title level="m">TheShipsList</title>. n.d. Web. 28 Oct. 2011.
+         <bibl xml:id="TSL" n="ShipsList">
+           <title level="m">The Ships List</title>. n.d. Web. 28 Oct. 2011.
          </bibl>
          <bibl xml:id="VI" n="Visitor">
            <title level="a">Visitor Information.</title> <title level="m">City of Klawock</title>. 
@@ -1673,7 +1673,7 @@
             Glyn, Elinor. <title level="m">Three Weeks</title>. Collection of British Authors 3978. Copyright edition. Leipzig: Bernhard
             Tauchnitz, 1907. Print.
           </bibl>
-          <bibl xml:id="AJS" n="Stein Alan">
+          <bibl xml:id="AJS" n="SteinAlan">
             Stein, Alan J. <title level="a">Streetcar crashes at the entrance of Seattle's A-Y-P Exposition, 
             killing one and injuring 55, on September 24, 1909.</title> <title level="m">History Link: The 
             Free Online Encyclopedia of Washington State History</title>. HistoryLink.org, 2007. Web. 30 
@@ -1689,28 +1689,28 @@
           </bibl>
           <bibl xml:id="RS" n="Shannon">Shannon, Robin. <title level="m">Seattle's Historic Hotels</title>. Charleston: 
             Arcadia Publishing, 2010. <title level="m">Google Books</title>. Web. 23 October 2011.</bibl>
-          <bibl xml:id="THL" n="TheHolyLand"> <title level="a"> The Holy Land.</title> <title level="m">Library of 
+          <bibl xml:id="THL" n="HolyLand"> <title level="a"> The Holy Land.</title> <title level="m">Library of 
           Congress Authorities</title>. Web. 15 Nov. 2011.
           </bibl>
-          <bibl xml:id="SR19091001" n="Henry">
+          <bibl xml:id="SR19091001" n="HenryHiser">
             <title level="a">Henry Hiser, of joy riding fame</title>. <title level="j">The Seattle 
             Republican</title> 01 October 1909: 2. <title level="m">Chronicling America (The Library 
             of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
-          <bibl xml:id="MHP" n="Maritime">
+          <bibl xml:id="MHP" n="MaritimeHeritage">
             Maritime Heritage Program, National Park Service. <title level="a">Lightships of the U.S.</title>
             <title level="m">Lighthouse Heritage</title>. National Park Service, 18 Apr. 2002. Web. 10 Nov. 2011.
           </bibl>
-          <bibl xml:id="SSCS" n="Steamer Santa">
+          <bibl xml:id="SSCS" n="SteamerSanta">
             <title level="a">Steamer Santa Clara Sold.</title> <title level="j">Pacific Merchant Marine</title>
             2.21 (6 Nov. 1909): 18. Web. 14 Nov. 2011.
           </bibl>
-          <bibl xml:id="RDLP" n="de la Pedraja">de la Pedraja, René.
+          <bibl xml:id="RDLP" n="DelaPedraja">De la Pedraja, René.
             <title level="a">Ocean Mail Act of 1891 or Merchant Marine Act of 1891.</title><title level="m">
             A Historical Dictionary of the U.S. Merchant Marine and Shipping Industry</title>. Westport, CT: 
             Greenwood P, 1994. 452-53. Print.
           </bibl>
-          <bibl xml:id="TAMM" n="American">
+          <bibl xml:id="TAMM" n="AmericanMerchant">
             <title level="a">The American Merchant Marine.</title><title level="j">The American Marine Engineer</title> 
             10.7 (July 1915): 11. Web. 14 Nov. 2011.
           </bibl>
@@ -1718,37 +1718,37 @@
             <title level="a">Wreck of the Steamship Ohio.</title><title level="j">Pacific Merchant Marine</title> 
             2.17 (4 Sept. 1909): 14-15. Web. 14 Nov. 2011.
           </bibl>
-          <bibl xml:id="SPPOR" n="Steamer Portland">
+          <bibl xml:id="SPPOR" n="SteamerPortland">
             <title level="a">Steamer Portland Placed on Ohio's Run.</title>
             <title level="j">Pacific Merchant Marine</title> 
             2.17 (4 Sept. 1909): 9. Web. 14 Nov. 2011.
           </bibl>
-          <bibl xml:id="SS19090923" n="Two">
+          <bibl xml:id="SS19090923" n="TwoGirls">
             <title level="a">Two Girls Burned and Crushed Beyond Human Resemblance.</title> <title level="j">
               The Seattle Star</title> 23 September 1909: n.pag. <title level="m">Chronicling America (The Library 
               of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
-          <bibl xml:id="Plumes" n="Stein Sarah"> Stein, Sarah Abrevaya.
+          <bibl xml:id="Plumes" n="SteinSarah"> Stein, Sarah Abrevaya.
             <title level="m">Plumes: Ostrich Feathers, Jews, and a Lost World of Global Commerce</title>
             New Haven, CT: Yale University Press, 2008. Print.
           </bibl>
-          <bibl xml:id="Berner" n="Berner Richard C.">
-            <title level="m">Seattle 1900-1920: From Boomtown, Urban Turbulence, to Restoration</title>
+          <bibl xml:id="Berner" n="BernerRichard">
+            Berner, Richard C. <title level="m">Seattle 1900-1920: From Boomtown, Urban Turbulence, to Restoration</title>
             Seattle: Charles Press, 1991. Print.
           </bibl>
-          <bibl xml:id="Mighetto" n="Mighetto Lisa and Marcia Montogmery">
+          <bibl xml:id="Mighetto" n="Mighetto">Mighetto, Lisa and Marcia Montogmery. 
             <title level="m">Hard Drive to the Klondike: Promoting Seattle During the Gold Rush</title>
             Seattle: University of Washington Press, 1955.
           </bibl>
-          <bibl xml:id="Schmid" n="Schmid Calvin F.">
+          <bibl xml:id="Schmid" n="Schmid">Schmid, Calvin F.
             <title level="m">Social Trends in Seattle</title> vol 14.
             Seattle: University of Washington Press, 1944.
           </bibl>
-          <bibl xml:id="MacDonald" n="MacDonald Alexander Norbert">
+          <bibl xml:id="MacDonald" n="MacDonald">MacDonald, Alexander Norbert.
             <title level="u">Seattle's Economic Development, 1880-1910</title>
             PhD. Dissertation, University of Washington, 1959.
           </bibl>
-          <bibl xml:id="LE19091001" n="News">
+          <bibl xml:id="LE19091001" n="Newsof">
             <title level="a">News of Pacific Northwest.</title> <title level="j">The Leavenworth Echo</title> 
             01 October 1909: n.pag. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 
             01 Nov. 2011.
@@ -1761,7 +1761,7 @@
             <title level="a">Taft-Diaz Meeting.</title> <title level="m">Texas State Historical Association</title>. Texas State Historical Association, 
             n.d. Web. 03 Nov. 2011.
           </bibl>
-          <bibl xml:id="WalledCity" n="Smith Robert"> Smith, Robert Ross
+          <bibl xml:id="WalledCity" n="SmithRobert">Smith, Robert Ross.
             <title level="m">Triumph in the Philipines</title>.
             Office of the Chief of Military History, Dept. of the Army. 1963. Web. 15 Nov. 2011.  
           </bibl>
@@ -1769,12 +1769,12 @@
             <title level="a">Employment of Women After Childbirth.</title> <title level="j">
               The British Medical Journal</title> 24 October 1908: 1297. Web. 10 Nov. 2011.
           </bibl>
-          <bibl xml:id="SR1909" n="Employment">
+          <bibl xml:id="SR1909" n="Olian">
             Olian, JoAnne, ed. <title level="m">Everyday Fashions, 1909-1920: As Pictured in Sears Catalogs</title>. 
             Mineola, NY: Dover Publications, 1995. <title level="m">Google Books</title>. Web. 14 Nov. 2011.
           </bibl>
-          <bibl xml:id="NPSYellowstone" n="Tally Ho">
-            <title level="a"><q>"Tally Ho"</q> Stage Coaches.</title> <title level="m">Yellowstone National Park</title>. National Park Service, 
+          <bibl xml:id="NPSYellowstone" n="TallyHo">
+            <title level="a">Tally Ho Stage Coaches.</title> <title level="m">Yellowstone National Park</title>. National Park Service, 
             20 June 1997. Web. 8 Nov. 2011.
           </bibl>
           <bibl xml:id="Chittenden" n="Chittenden">
@@ -1792,21 +1792,21 @@
             <title level="m">Daughters of Canaan: A Saga of Southern Women</title>. 
             Lexington: University of Kentucky Press, 1995. Print.
           </bibl>
-          <bibl xml:id="PSM1916" n="Saving Men">
+          <bibl xml:id="PSM1916" n="SavingMen">
             <title level="a">Saving Men from Scalding Steam in Steamship Engine Rooms.</title> 
             <title level="j">Popular Science Monthly</title> 88 (January-June 1916): 254. 
             <title level="m">Google Books</title>. Web. 22 Nov. 2011.
           </bibl>
-          <bibl xml:id="WonderfulAlaska" n="Trip to Wonderful">
+          <bibl xml:id="WonderfulAlaska" n="Tripto">
             <title level="m">A Trip to Wonderful Alaska</title>. Seattle: The Alaska Steamship Company, 1906. 
             <title level="m">Google Books</title>. Web. 22 Nov. 2011.
           </bibl>
-          <bibl xml:id="DMHPN" n="Lewis Dryden">
+          <bibl xml:id="DMHPN" n="LewisDryden">
             <title level="m">Lewis &amp; Dryden's Marine History of the Pacific Northwest</title>. Ed. E. W. 
             Wright. Portland: The Lewis &amp; Dryden Printing Company, 1895. <title level="m">Google 
             Books</title>. Web. 28 Nov. 2011.
           </bibl>
-          <bibl xml:id="AYB1910" n="Johnson Emory">
+          <bibl xml:id="AYB1910" n="JohnsonEmory">
             Johnson, Emory R. and G. G. Huebner. <title level="a">Merchant Shipping.</title> 
             <title level="m">The American Year Book 1910</title>. Ed. S. N. D. North. New York: 
             D. Appleton and Company, 1911. 522-526. <title level="m">Google Books</title>. Web. 28 Nov. 2011.
@@ -1816,39 +1816,39 @@
             <title level="j">The American Marine Engineer</title> 2.7 (July 1907): 20. 
             <title level="m">Google Books</title>. Web. 28 Nov. 2011.
           </bibl>
-          <bibl xml:id="SMJan1914" n="Tramps Engineer">
+          <bibl xml:id="SMJan1914" n="TrampsEngineer">
             <title level="a">The Tramp's Engineer.</title> <title level="j">The Sailors' Magazine</title>: 
             86.5 (May 1914): 73-74. <title level="m">Google Books</title>. Web. 28 Nov. 2011.
           </bibl>
-          <bibl xml:id="SeafarWom" n="Seafaring Women">
+          <bibl xml:id="SeafarWom" n="SeafaringWomen">
             <title level="m">Seafaring Women: Adventures of Pirate Queens, Female Stowaways, and Sailors' Wives</title>. 
             New York: Random House Trade Paperbacks, 2007. <title level="m">Google Books</title>. Web. 26 Nov.2011.
           </bibl>
-          <bibl xml:id="DLP" n="de la Pedraja">
-            de la Pedraja, René. <title level="m">A Historical Dictionary of the US Merchant Marine and Shipping Industry</title>. 
+          <bibl xml:id="DLP" n="DelaPedraja">
+            De la Pedraja, René. <title level="m">A Historical Dictionary of the US Merchant Marine and Shipping Industry</title>. 
             1st Ed. Westport, CT: Greenwood, 1994. Print.
           </bibl>
-          <bibl xml:id="MaritimeRace" n="Maritime Race">
+          <bibl xml:id="MaritimeRace" n="MaritimeRace">
             <title level="a"> "A Maritime Race" Masculinity and the Racial Division of Labor in British 
             Merchant Ships, 1900-1939.</title> <title level="m">Iron Men, Wooden Women: Gender 
             and Seafaring in the Atlantic World, 1700-1920</title> Ed. Margaret S. Creighton and Lisa 
             Norling. Baltimore: The Johns Hopkins University Press, 1996. Print.
           </bibl>
-          <bibl xml:id="OReillyAYP" n="Shauna O'Reilly">
-            Shauna O'Reilly and Brennan O'Reilly. <title level="m">The Alaska-Yukon-Pacific 
+          <bibl xml:id="OReillyAYP" n="O'Reilly">
+            O'Reilly, Shauna and Brennan O'Reilly. <title level="m">The Alaska-Yukon-Pacific 
             Exposition</title>. Charleston, SC: Arcadia Publishing, 2009. <title level="m">Google Books</title>. 
             Web. 26 Nov.2011.
           </bibl>
           <bibl xml:id="AYPFilm" n="Perlman">
-            Eric Perlman, ed. <title level="m">Alaska Yukon Pacific Exposition: Seattle’s Forgotten 
+            Perlman, Eric ed. <title level="m">Alaska Yukon Pacific Exposition: Seattle’s Forgotten 
             World’s Fair</title>. Seattle, WA: Fidget, 2009. Film.
           </bibl>
-          <bibl xml:id="NorthernPacific" n="General Passenger">
+          <bibl xml:id="NorthernPacific" n="GeneralPassenger">
             General Passenger Department, Northern Pacific Railroad. <title level="m">The Alaska-Yukon-Pacific 
             Exposition : Seattle, June 1-October 16, 1909</title>. St. Paul, MN: General Passenger 
             Department, Northern Pacific Railway. Print.
           </bibl>
-          <bibl xml:id="UnionPacific" n="Historical Overview">
+          <bibl xml:id="UnionPacific" n="HistoricalOverview">
             <title level="a">Historical Overview.</title> <title level="m">Union Pacific</title>. 
             Web. 18 November 2011.
           </bibl>
@@ -1857,7 +1857,7 @@
             in the Pacific Northwest.</title> <title level="j">Columbia Magazine</title> 7.4 (1993-1994): 
             22-30. Web. 16 November 2011.
           </bibl>
-          <bibl xml:id="RRseries" n="Northern Pacific">
+          <bibl xml:id="RRseries" n="NorthernPacific">
             <title level="a">The Northern Pacific Railway's Wonderland.</title> <title level="m">United 
             States Railroad Travel Guides</title>. <title level="m">sharinghistory.com/RRseries</title>. 
             Web. 28 November 2011.
@@ -1872,14 +1872,14 @@
             Northwest.</title> <title level="m">Many Wests: Place, Culture, and Regional 
             Identity</title>. Print.
           </bibl>
-          <bibl xml:id="Chest" n="Chesterfield">
+          <bibl xml:id="Chest" n="Earlof">
             Earl of Chesterfield. <title level="m">Chesterfield’s Art of Letter-Writing Simplified</title>. 
             New York: Dick &amp; Fitzgerald, 1857. <title level="m">U of Pittsburgh Digital Research 
             Library</title>. Web. 20 Nov. 2011.
           </bibl>
-          <bibl xml:id="Nanj" n="Johnson Nan">Johnson, Nan <title level="m">Gender and Rhetorical Space in American Life, 1866-1910</title>. 
+          <bibl xml:id="Nanj" n="JohnsonNan">Johnson, Nan <title level="m">Gender and Rhetorical Space in American Life, 1866-1910</title>. 
           Carbondale: SIU P, 2002. Print. </bibl>
-          <bibl xml:id="Putnam" n="Roberts Helen">
+          <bibl xml:id="Putnam" n="RobertsHelen">
             Roberts, Helen L. <title level="m">Putnam’s Handbook of Etiquette: A Cyclopedia of Social 
             Usage, Giving Manners and Customs of the Twentieth Century</title>. New York: The Knickerbocker 
             Press, 1913. <title level="m">Harvard U: Schlesinger Library of the History of Women in 
@@ -1900,17 +1900,17 @@
             <title level="m">Harvard U: Schlesinger Library of the History of Women in America</title>. 
             Web. 22 Nov. 2011.
           </bibl>
-          <bibl xml:id="Nigel" n="Hall Nigel">
+          <bibl xml:id="Nigel" n="HallNigel">
             Hall, Nigel. <title level="a">The Materiality of Letter Writing: A Nineteenth Century Perspective</title>. 
             <title level="m">Letter Writing as a Social Practice</title>. Eds. David Barton and Nigel Hall. Amsterdam: 
             John Benjamins Publishing Company, 2000. 83-108. Print.
           </bibl>
-          <bibl xml:id="LucilleS" n="Schultz Lucille">
+          <bibl xml:id="LucilleS" n="SchultzLucille">
             Schultz, Lucille M. <title level="a">Letter-Writing Instruction in nineteenth Century Schools 
             in the United States</title>. <title level="m">Letter Writing as a Social Practice</title>. 
             Eds. David Barton and Nigel Hall. Amsterdam: John Benjamins Publishing Company, 2000. 109-125. Print.
           </bibl>
-          <bibl xml:id="WhiteA" n="White Annie">
+          <bibl xml:id="WhiteA" n="WhiteAnnie">
             White, Annie Randall. <title level="m">Twentieth Century Etiquette: An Up-to-Date Book 
             for Polite Society</title>. Philadelphia: Elliott Publishing Company, 1900. Print.
           </bibl>
@@ -2434,37 +2434,50 @@
           </person>
           <person xml:id="Virginians">
             <persName>The Virginians</persName>
-            <note type="biographical">
-              In a letter dated July 14, 1909, Gladys describes travelling with a group of Virginians.  She describes them as "jolly."  The only Virginian described in detail is Mrs. Hughes; she is described as the cousin of Mrs. Dana Gibson and Mrs. Waldorf Astor as well as the cousin of a Mrs. Jordon who has two sons.
+            <note type="biographical"> In a letter dated July 14, 1909, Gladys describes travelling
+              with a group of Virginians. She describes them as "jolly." The only Virginian
+              described in detail is Mrs. Hughes; she is described as the cousin of Mrs. Dana Gibson
+              and Mrs. Waldorf Astor as well as the cousin of a Mrs. Jordon who has two sons.
             </note>
           </person>
           
           <person xml:id="Hughes">
             <persName>Mrs. Hughes</persName>
-            <note type="biographical">
-              In a letter dated July 14, 1909, Gladys describes travelling with a Virginian named Mrs. Hughes.  Mrs. Hughes is described as the cousin of Mrs. Dana Gibson and Mrs. Waldorf Astor as well as the cousin of a Mrs. Jordon who has two sons.
-            </note>
+            <note type="biographical"> In a letter dated July 14, 1909, Gladys describes travelling
+              with a Virginian named Mrs. Hughes. Mrs. Hughes is described as the cousin of Mrs.
+              Dana Gibson and Mrs. Waldorf Astor as well as the cousin of a Mrs. Jordon who has two
+              sons. </note>
           </person>
 
         <person xml:id="MDG">
           <persName>Mrs. Dana Gibson</persName>
-          <note type="biographical">
-            In a letter dated July 14, 1909, Gladys describes travelling with a Virginian named Mrs. Hughes who is the cousin of Mrs. Dana Gibson and Mrs. Waldorf Astor.  Mrs. Dana Gibson is likely a reference to Irene Langhorne, originally of Danville, Virginia.  She married graphic artist Charles Dana Gibson in 1895.  Charles Dana Gibson was the creator of the iconic Gibson Girl sketches.  Popular history suggests that Irene Langhorne (wife of Charles Dana Gibson) and her sister (Nancy Astor nee Langhorne, married to British politician Waldorf Astor) were the inspirations for the Gibson Girl.
-          </note>
+            <note type="biographical"> In a letter dated July 14, 1909, Gladys describes travelling
+              with a Virginian named Mrs. Hughes who is the cousin of Mrs. Dana Gibson and Mrs.
+              Waldorf Astor. Mrs. Dana Gibson is likely a reference to Irene Langhorne, originally
+              of Danville, Virginia. She married graphic artist Charles Dana Gibson in 1895. Charles
+              Dana Gibson was the creator of the iconic Gibson Girl sketches. Popular history
+              suggests that Irene Langhorne (wife of Charles Dana Gibson) and her sister (Nancy
+              Astor nee Langhorne, married to British politician Waldorf Astor) were the
+              inspirations for the Gibson Girl. </note>
         </person>
         
         <person xml:id="MWA">
           <persName>Mrs. Waldorf Astor</persName>
-          <note type="biographical">
-            In a letter dated July 14, 1909, Gladys describes travelling with a Virginian named Mrs. Hughes who is the cousin of Mrs. Dana Gibson and Mrs. Waldorf Astor.  "Mrs. Waldorf Astor" likely refers to Nancy Astor, wife of British Member of Parliament for Plymouth Sutton, Waldorf Astor.  Nancy Astor became the first female Member of Parliament when she succeeded her husband as MP for Plymouth Sutton in 1919; she served until 1945.  Along with her sister, Mrs. Dana Gibson (nee Irene Langhorne), Nancy Astor served as inspiration for the iconic Gibson Girl sketches penned by her brother in law, Charles Dana Gibson.
-          </note>
+            <note type="biographical"> In a letter dated July 14, 1909, Gladys describes travelling
+              with a Virginian named Mrs. Hughes who is the cousin of Mrs. Dana Gibson and Mrs.
+              Waldorf Astor. "Mrs. Waldorf Astor" likely refers to Nancy Astor, wife of British
+              Member of Parliament for Plymouth Sutton, Waldorf Astor. Nancy Astor became the first
+              female Member of Parliament when she succeeded her husband as MP for Plymouth Sutton
+              in 1919; she served until 1945. Along with her sister, Mrs. Dana Gibson (nee Irene
+              Langhorne), Nancy Astor served as inspiration for the iconic Gibson Girl sketches
+              penned by her brother in law, Charles Dana Gibson. </note>
         </person>
           
           <person xml:id="MJ">
             <persName>Mrs. Jordon</persName>
-            <note type="biographical">
-              In a letter dated July 14, 1909, Gladys describes Mrs. Jordon as a cousin of Mrs. Hughes (one of Gladys' travelling companions, a Virginian.)  Mrs. Jordon is described as having two sons and a dead husband.
-            </note>
+            <note type="biographical"> In a letter dated July 14, 1909, Gladys describes Mrs. Jordon
+              as a cousin of Mrs. Hughes (one of Gladys' travelling companions, a Virginian.) Mrs.
+              Jordon is described as having two sons and a dead husband. </note>
           </person>
          <person xml:id="Maud">
            <persName>Maud</persName>
@@ -2782,7 +2795,7 @@
               following text: Rates $1.00 up | Hotel Georgian | European Plan | Seattle, ___ 190__.</p>
               <accMat corresp="#GS19090706env">
                 <!-- Note whether an envelope or enclosure accomplanies the letter --> Accompanied
-                by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
+                by a stamped, canceled, cream-colored envelope of Hotel Georgian stationery
                 measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch halftone image of the Hotel
                 Georgian facade is printed on the left-hand side of the envelope above the hotel's
                 address. </accMat>
@@ -2810,7 +2823,7 @@
             <note resp="ed" xml:id="letterhead">Because Gladys Stephens often uses letterhead with a
               form at the top for the dateline, we encode the printed text around her handwriting
               with a &lt;supplied&gt; element, but other printed parts of the letterhead are not
-              encoded. They are described in the manuscript descriptions following the letters and/or
+              encoded. They are described briefly in the manuscript descriptions following the letters and
               can be viewed in the facsimiles.</note>
             <lb/><salute>Dear <rs ref="#MATS">Mama</rs>,</salute>
           </opener>
@@ -2998,11 +3011,11 @@
           </ab>
           <ab type="endorsement">
             <handShift new="Unknown"/> 94<ptr type="noteAnchor" target="Endorsements"/>
-            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the cancelled
+            <note resp="ed" xml:id="Endorsements">Similar numbers are penciled under the canceled
               postage stamp, or elsewhere, on several envelopes in the collection. The second
               number is circled. The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated
               between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97,
-              98, and 99, suggesting </note>
+              98, and 99, suggesting that they are curatorial notations.</note>
           </ab>
           <ab>
             <stamp type="postmark"> SEATTLE, WASH. | JUL 6 | 9 - PM | 1909 </stamp>
@@ -3080,7 +3093,7 @@
                 corner, a 1.375 x 2.4375-inch halftone image of the Hotel Georgian facade. </p>
               <accMat corresp="#GS19090706env">
                 <!-- Note whether an envelope or enclosure accomplanies the letter --> Accompanied
-                by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
+                by a stamped, canceled, cream-colored envelope of Hotel Georgian stationery
                 measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch halftone image of the Hotel
                 Georgian facade is printed on the left-hand side of the envelope above the hotel's
                 address. The envelope's stamp cancellation reads "WORLD'S FAIR SEATTLE 1909."</accMat>
@@ -3133,7 +3146,7 @@
               Hiram Martin Chittenden of the Army Corps of Engineers describes <q>tourist
                 transportation</q> through the park as <q>mostly by coach, ordinarily with four
                 horses each</q> (203). He comments that these coaches were a <q>necessity</q>
-              because <q>The points of interest are so scattered</q> <bibl>Chttenden <ref>274</ref></bibl>.
+              because <q>The points of interest are so scattered</q> <bibl>Chittenden <ref>274</ref></bibl>.
               </note> When
             <lb/>we met another coach
             <pb facs="07-10-1909_GS_to_ATS_letter_p2"/>
@@ -3181,9 +3194,9 @@
                 unprocessed logs felled in Chehalis (now Gray's Harbor) County, the Forestry
                 Building's grand colonnade and soaring interior spaces evoked the majesty of
                 Washington's seemingly limitless forests and, not coincidentally, implied the great
-                potential wealth they contained.</q>
+                potential wealth they contained</q>
               <bibl><ref target="#UWash">University of Washington Library, Special
-                Collections</ref></bibl></note> I got
+                Collections</ref></bibl>.</note> I got
             <lb/>what I hope will be
             <lb/>a good picture of it.
             <lb/>All the <choice><abbr >b'l'd'g's</abbr><expan>buildings</expan></choice> are fine
@@ -3238,11 +3251,8 @@
           </ab>
           <ab type="endorsement">
             <handShift new="Unknown"/> 95<ptr type="noteAnchor" target="Endorsements1"/>
-            <note resp="ed" xml:id="Endorsements1">Similar numbers are pencilled under the cancelled
-              postage stamp on several envelopes in the collection. The second number is circled.
-              For example, the letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated
-              between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97,
-              98, and 99. </note>
+            <note resp="ed" xml:id="Endorsements1">Similar numbers are penciled under the canceled
+              postage stamp on several envelopes in the collection. The second number is circled.</note>
           </ab>
           <ab>
             <stamp type="postmark"> SEATTLE, WASH. | JUL 10 | 1030 PM | 1909 </stamp>
@@ -3317,7 +3327,7 @@
                 corner, a 1.375 x 2.4375-inch halftone image of the Hotel Georgian facade. </p>
               <accMat corresp="#GS19090706env">
                 <!-- Note whether an envelope or enclosure accomplanies the letter --> <p>Accompanied
-                by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
+                by a stamped, canceled, cream-colored envelope of Hotel Georgian stationery
                 measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch halftone image of the Hotel
                 Georgian facade is printed on the left-hand side of the envelope above the hotel's
                 address. The envelope's stamp cancellation reads "WORLD'S FAIR SEATTLE 1909."</p></accMat>
@@ -3367,7 +3377,7 @@
               British politician Waldorf Astor and later succeeded him as a Member of Parliament;
               she was the first woman to sit in the British House of Commons. Nancy and Irene are
               commonly credited as the source for the iconic Gibson Girl cartoons drawn by Charles
-              Dana Gibson.<bibl><ref target="#Wolfe">Wolfe, Margaret Ripley.</ref></bibl></note> I guess
+              Dana Gibson <bibl><ref target="#Wolfe">Wolfe</ref></bibl>.</note> I guess
             <lb/>I'll try and visit them.
             <lb/>Uncle wants me to visit
             <pb facs="07-14-1909_GS_to_ATS_letter_p2"/>             
@@ -3426,7 +3436,7 @@
           </ab>
           <ab type="endorsement">
             <handShift new="Unknown"/>9:6<ptr type="noteAnchor" target="endorsements"/>
-            <note resp="ed" xml:id="endorsements">Similar numbers are penciled under the cancelled
+            <note resp="ed" xml:id="endorsements">Similar numbers are penciled under the canceled
               postage stamp on several envelopes in the collection.  The second
               number is circled.  The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
           </ab>
@@ -3477,7 +3487,7 @@
                 folded again for mailing. The sheet contains a hollow font watermark that reads "Saw &amp; Co. / Boston."
               </p>
               <accMat corresp="#GS19090706env">
-                Accompanied by a stamped (stamp is upside down), cancelled, cream-colored envelope measuring 
+                Accompanied by a stamped (stamp is upside down), canceled, cream-colored envelope measuring 
                 2.8 x 4.25 inches. On the left side of the envelope, written sideways in an unknown, penciled hand is 
                 the endorsement "Hold 9-10-09."
               </accMat>
@@ -3627,7 +3637,7 @@
                 bounded letterhead.  On subsequent pages, she numbers the pages by hand, again within the boundaries of the 
                 letterhead, and in virtually the same place each time but not always in the same style (some page numbers are followed
                 by periods, some by nothing, and one is underlined).</p>
-              <accMat corresp="#GS19090808env">Accompanied by a stamped, cancelled, cream-colored envelope of Hotel Georgian stationery
+              <accMat corresp="#GS19090808env">Accompanied by a stamped, canceled, cream-colored envelope of Hotel Georgian stationery
                 measuring 6.5 x 3.625 inches. A 1.375 x 2.4375-inch photographed image of the Hotel
                 Georgian facade is printed on the left-hand side of the envelope above the hotel's
                 address.  Incidentally, the image of the hotel on the envelope corresponds with the 
@@ -3895,7 +3905,7 @@
                 folded sheets have not been gathered.
               </p>
               <accMat corresp="#JM19090814env01">
-                Accompanied by a stamped, cancelled, cream-colored envelope measuring 5.25 x 3.75 inches.
+                Accompanied by a stamped, canceled, cream-colored envelope measuring 5.25 x 3.75 inches.
               </accMat>
             </physDesc>
             <additional>
@@ -4100,7 +4110,7 @@
             <addrLine>CAL.<ptr type="noteAnchor" target="forwarding"/><note resp="ed" xml:id="forwarding">This letter appears
               to have been forwarded by the Post Office in San Franciso to the Post Office in Los Angeles, resulting in two
               postal addresses, two postmarks, and two cancellations. We list them here in pairs by presumed chronological arrangement.
-              The relationships between the pencilled endorsements listed below are less clear; we list both without any implied
+              The relationships between the penciled endorsements listed below are less clear; we list both without any implied
               chronological order. The numeral "15" in the first endorsement is circled.</note></addrLine>
             </address>
           </ab>
@@ -4169,7 +4179,7 @@
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
                   describe the envelope and enclosure as above, and include an @corresp attribute whose value
                   is the xml:id of the <div> in the text corresponding to the envelope. -->  
-                Accompanied by a stamped, cancelled, cream-colored envelope
+                Accompanied by a stamped, canceled, cream-colored envelope
                   measuring 3.0625 x 5.375 inches. The envelope is torn on the side.  </accMat>
             </physDesc>
             <additional>
@@ -4311,7 +4321,7 @@
                 have been folded in half again for mailing.
               </p>
               <accMat corresp="#GS19090706env">
-                Accompanied by a stamped, cancelled, cream-colored envelope measuring 5.25 x 3.75 inches. 
+                Accompanied by a stamped, canceled, cream-colored envelope measuring 5.25 x 3.75 inches. 
               </accMat>
             </physDesc>
             <additional>
@@ -4650,7 +4660,7 @@
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
                   describe the envelope and enclosure as above, and include an @corresp attribute whose value
                   is the xml:id of the <div> in the text corresponding to the envelope. --> Accompanied
-                  by a stamped, cancelled, dark cream-colored envelope made from heavy paper and measuring
+                  by a stamped, canceled, dark cream-colored envelope made from heavy paper and measuring
                   5.875 x 3.5 inches.There is a printed black and white image measuring 2.75 x 1.875 inches 
                   of a log raft on the Columbia River. The text corrosponding with the image reads "LOG RAFT 
                   COLUMBIA RIVER 8 MILLION FT." The stamp is a red 2 cent Washington stamp and the postmark is
@@ -4855,7 +4865,7 @@
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
                   describe the envelope and enclosure as above, and include an @corresp attribute whose value
                   is the xml:id of the <div> in the text corresponding to the envelope. -->  
-                Accompanied by a stamped, cancelled, cream-colored envelope
+                Accompanied by a stamped, canceled, cream-colored envelope
                 measuring 3.625 x 2.875 inches. The envelope is slit on the side.
               </accMat>
             </physDesc>
@@ -5006,7 +5016,7 @@
                 resulting bifolia are not gathered; i.e., each bifolium consists of four sequentially written pages. The bifolia 
                 have been folded in half again for mailing.</p>
               <accMat corresp="JJM19090823env01">
-                Accompanied by a stamped, cancelled, cream-colored envelope measuring 5.25 x 3.75 inches.
+                Accompanied by a stamped, canceled, cream-colored envelope measuring 5.25 x 3.75 inches.
                 address.
               </accMat>
             </physDesc>
@@ -5281,7 +5291,7 @@
                 the "ALASKA | STEAMSHIP Co. | BLACK BALL | LINE" 1 inch on all sides.
               </p>
               <accMat corresp="#GS19090913env">
-                Accompanied by a stamped, not-cancelled manilla-colored 6.5 X 3.75 inch envelope, stamped 
+                Accompanied by a stamped, not-canceled manilla-colored 6.5 X 3.75 inch envelope, stamped 
                 <stamp>JUNEAU | SEP | 13 | 1909 | 6 PM | ALASKA</stamp>. The envelope is stamped in the upper-left
                 hand corner "FORM 7 M.P. 20 M 5-09".
               </accMat>
@@ -5503,7 +5513,7 @@
                 a 2.75 x 1.5-inch halftone image labeled "Forrestry Building."
               </p>
               <accMat corresp="#GS19090927env">
-                Accompanied by a stamped, cancelled, cream-colored envelope measuring
+                Accompanied by a stamped, canceled, cream-colored envelope measuring
                 6 x 3.5-inch.  A 2.5 x 2-inch halftone image labeled "Oregon Timber" is printed on the left-hand side
                 of the envelope.
                 <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
@@ -6120,7 +6130,7 @@
                 The letterhead contains, in the upper left-hand corner, a 2.5 x 2 inch
                 halftone image of the hotel facade.</p>
               <accMat corresp="#GS19091011env">
-                Accompanied by a stamped, cancelled, cream-colored envelope of Tourist Hotel stationery
+                Accompanied by a stamped, canceled, cream-colored envelope of Tourist Hotel stationery
                 measuring 6.5 x 3.5 inches. A 2.5 x 2-inch halftone image of the Tourist Hotel facade is printed on the left-hand
                 side of the envelope above the hotel's name and address</accMat>
             </physDesc>
@@ -6233,7 +6243,7 @@
           </ab>
           <ab type="endorsement">
             <handShift new="Unknown"/> 9 31 | 8 <ptr type="noteAnchor" target="Endorsement_on_back"/>
-            <note resp="ed" xml:id="Endorsement_on_back"> Similar numbers are pencilled under the cancelled postage stamp
+            <note resp="ed" xml:id="Endorsement_on_back"> Similar numbers are penciled under the canceled postage stamp
               on several envelopes. This set of numbers appears on the back of the envelop. The 31 and 8 are circled.
             </note>
           </ab>
