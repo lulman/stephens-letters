@@ -3391,7 +3391,11 @@
             <lb/>for $12,000 and pay $25,000
             <lb/>for improvements. The girl
             <lb/>has her money too. Her
-            <lb/>mink coat only cost $600.</rs><ptr type="noteAnchor" target="coatandranch"/><note resp="ed" xml:id="coatandranch">According to the U.S. Bureau of Labor's CPI Inflation Calculator, $600 US in 1913 is roughly equivalent to $13,751 in 2011 dollars.  $25,000 in 1913 was roughly equivalent to $572,952.02 in 2011 dollars.<bibl><ref target="#USLab">CPI Inflation Calculator.</ref></bibl></note>
+            <lb/>mink coat only cost $600.</rs><ptr type="noteAnchor" target="coatandranch"/>
+            <note resp="ed" xml:id="coatandranch">According to the U.S. Bureau of Labor's CPI
+              Inflation Calculator, $600 US in 1913 is roughly equivalent to $13,751 in 2011
+              dollars; $25,000 in 1913 is roughly equivalent to $572,952.02 in 2011 dollars
+                  <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>.</note>
             <lb/>I might do worse than
             <lb/>to visit the family don't
             <lb/>you think. They tried to
@@ -3437,8 +3441,7 @@
           <ab type="endorsement">
             <handShift new="Unknown"/>9:6<ptr type="noteAnchor" target="endorsements"/>
             <note resp="ed" xml:id="endorsements">Similar numbers are penciled under the canceled
-              postage stamp on several envelopes in the collection.  The second
-              number is circled.  The letters from Gladys M. Stephens to Mr. and Mrs. A.T. Stephens dated between 07/06/1909 and 07/30/1909 appear to be sequentially numbered 94, 95, 96, 97, 98, and 99.  </note>
+              postage stamp on several envelopes in the collection. The second number is circled.</note>
           </ab>
           <ab>
             <stamp type="postmark"> SEATTLE, WASH. | JUL 14 | 7 - PM | 1909 </stamp>
@@ -3677,11 +3680,16 @@
             <lb/>official list of the <choice><sic>passangers</sic><corr>passengers</corr></choice>
             <lb/>who sailed from <placeName>Seattle</placeName>. It
             <lb/>was posted by the Purser, and
-            <lb/>he gave it to me.<ptr type="noteAnchor" target="Purser"/><note resp="ed" xml:id="Purser">The Purser on a cruise ship traditionally has several important responsibilities.  
-              They provide customer service to guests; they also handle money on board, for both the ship's crew and its guests— which may have involved buying luxury goods on credit
-              and bringing them aboard.  The Purser also helps guests with paperwork such as customs declarations.  Their duties are similar in definition to the ship's steward.  So, given that a Purser would be in charge of all manners
-              of record-keeping, both personally and financially, for all people on board, it makes sense that Gladys would have obtained this kind of souvenir
-              from the Purser.<bibl><ref> target="#MarineWatch"</ref></bibl></note>
+            <lb/>he gave it to me.<ptr type="noteAnchor" target="Purser"/>
+            <note resp="ed" xml:id="Purser">The Purser on a cruise ship traditionally has several
+              important responsibilities. They provide customer service to guests; they also handle
+              money on board, for both the ship's crew and its guests—which may have involved
+              buying luxury goods on credit and bringing them aboard. The Purser also helps guests
+              with paperwork such as customs declarations. Pursers' duties are similar in definition to
+              the ship's steward. So, given that a Purser would be in charge of all manners of
+              record-keeping, both personally and financially, for all people on board, it makes
+              sense that Gladys would have obtained this kind of souvenir from the
+                  Purser <bibl><ref><title level="m">Nautical Dictionary</title></ref></bibl>.</note>
           </p>
           <p>
             <lb/>I'd like to know what is
@@ -3691,12 +3699,12 @@
             <lb/>them a leather <choice><abbr>A.Y.P.</abbr><expan>Alaska-Yukon-Pacific</expan></choice> card.<ptr type="noteAnchor" target="card"/><note resp="ed" xml:id="card">The "A.Y.P. cards" Gladys
             mentions here are probably postcards from the Alaska-Yukon-Pacific (A.Y.P.) exhibition.  A.Y.P. postcards, a large collection of which
             are housed in Special Collections at the University of Washington Libraries, feature various images from the Alaska-Yukon-Pacific Exposition
-            in Seattle in 1909.  Although the Exposition did employ an official photographer for the event, amateur photographers
+            held in Seattle in 1909.  Although the Exposition did employ an official photographer for the event, amateur photographers
             were permitted to take unlimited photos of the event (with certain restrictions) and so several different individuals
-            and publishers made and sold postcards at the Exposition.  Some of the postcards are in color (and so may have been manipulated) and others 
+            and publishers made and sold postcards at the Exposition.  Some of the postcards are in color and others 
             are in black and white.  It is interesting that Gladys says the card she sends to her aunt from Seattle
             is made of leather; leather postcards were a popular novelty item in the first decade of the twentieth century, but were actually
-            banned by the United States Postal Service in the year 1909- so Gladys may have been one of the last citizens
+            banned by the United States Postal Service in the year 1909, so Gladys may have been one of the last citizens
             to mail one.</note>
             <lb/>I sent her some from <placeName>Alaska</placeName>.
             <lb/>also. Almost every time I
@@ -3713,9 +3721,12 @@
           </p>
           <p>
             <lb/>A <placeName>Texas</placeName> judge who is worth
-            <lb/>3 million <ptr type="noteAnchor" target="million"/><note resp="ed" xml:id="million">According to the U.S. Bureau of Labor, this would be about 1.3 billion dollars today,
-              according to the "relative share of GDP," which is the best of several different calculations to measure an individual's net worth.  This, then, 
-              would suggest that Gladys is in the company of some astoundingly wealthy people at the Hotel Georgian.<bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl></note> was on the ship coming
+            <lb/>3 million <ptr type="noteAnchor" target="million"/>
+            <note resp="ed" xml:id="million">According to the U.S. Bureau of Labor, this would be
+              about 1.3 billion dollars today, according to the "relative share of GDP," which is
+              the best of several different calculations to measure an individual's net worth,
+              suggesting that Gladys is in the company of some astoundingly wealthy people at the
+              Hotel Georgian <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>.</note> was on the ship coming
             <lb/>back with his wife, two daughters
             <lb/>and 2 grandsons.  He owns a ranch
             <lb/>in <placeName>Texas</placeName> which is about 12
@@ -3739,12 +3750,14 @@
             <lb/>2. I did at 12. It seems awfully
             <lb/>funny to be on land again.
             <lb/>They certainly were glad to see
-            <lb/>us here at the hotel.<ptr type="noteAnchor" target="hotel"/><note resp="ed"
-              xml:id="hotel">As is clear from previous letters, and from her comment here that "They certainly were
-            glad to see us here at the hotel," Gladys and apparently the other passengers on the excursion to Alaska
-            stayed at the Hotel Georgian before and after the voyage north, and it is a familiar place to the group. The Hotel Georgian was, in fact, a 
-            new hotel in Seattle when these visitors were staying there, built only one year before in 1908. It had seven floors and 
-            108 rooms.<bibl><ref target="#RS"></ref>r</bibl></note>
+            <lb/>us here at the hotel.<ptr type="noteAnchor" target="hotel"/>
+            <note resp="ed" xml:id="hotel">As is clear from previous letters, and from her comment
+              here that "They certainly were glad to see us here at the hotel," Gladys—and
+              apparently the other passengers on the excursion to Alaska—stayed at the Hotel
+              Georgian before and after the voyage north, and it is a familiar place to the group.
+              The Hotel Georgian was, in fact, a new hotel in Seattle when these visitors were
+              staying there, built only one year before in 1908. It had seven floors and 108
+                  rooms <bibl><ref target="#RS"/>Shannon</bibl>.</note>
           </p>
           <p>
             <lb/>Well you never can tell what
@@ -3985,7 +3998,7 @@
             <lb/>Sails and that means <unclear reason="illegible" cert="high">$</unclear>
             1200 per year<ptr type="noteAnchor" target="TPA"/>
             <note resp="ed" xml:id="TPA">According to the U.S. Bureau of Labor Statistics, $1200 in 1913 
-              would be approximately equivalent to $27,502 in 2011 <bibl><ref target="#USLab">(CPI Inflation Calculator)</ref></bibl></note>
+              would be approximately equivalent to $27,502 in 2011 <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>.</note>
             <lb/>&amp; expenses I didn't mind before
           </p>
           <p>
@@ -4207,9 +4220,11 @@
             <lb/>minds and hands for the last
             <lb/>few weeks that we have left 
             <lb/>almost everyone else out. 
-            <lb/>We have <rs ref="#WGA">a nice baby boy</rs>. <ptr type="noteAnchor" target="BabyWillis"/><note resp="ed" xml:id="BabyWillis">
-              According to Massachusetts birth records, Cora's son Willis Goodwin Anderson was born August 4, 1909, 
-              so at the time this letter was written, he was about two weeks old <bibl><ref target="#MABirthsWGA">Massachusetts Births</ref></bibl></note> A 
+            <lb/>We have <rs ref="#WGA">a nice baby boy</rs>. <ptr type="noteAnchor" target="BabyWillis"/>
+            <note resp="ed" xml:id="BabyWillis"> According to Massachusetts birth records, Cora's
+              son Willis Goodwin Anderson was born August 4, 1909, so at the time this letter was
+              written, he was about two weeks old <bibl><ref target="#MABirthsWGA"><title level="a">Massachusetts
+                  Births</title></ref></bibl></note> A 
             <lb/>good big baby boy, not a little 
             <lb/>teeny weeny; You know I 
             <lb/>wished for a small baby, but 
@@ -4232,8 +4247,8 @@
             <lb/>her and tell her about my baby boy. You must 
             <lb/>have missed her a very great deal. I hope you 
             <lb/>are well. I am not able to do any house work yet. <ptr type="noteAnchor" target="Work"/><note resp="ed" xml:id="Work">
-              According to a 1908 study, the majority of women engaged in house work resumed work ten to fourteen days after childbirth
-              <bibl><ref target="#Childbirth">Employment of Women</ref></bibl></note>
+              According to a 1908 study, the majority of women engaged in housework resumed work ten to fourteen days after childbirth
+              <bibl><ref target="#Childbirth"><title level="a">Employment of Women</title></ref></bibl>.</note>
             <lb/>Must not write any more this time. With love 
             <lb/>I remain
           </p>
@@ -4343,12 +4358,7 @@
           </opener>
           <p>
             <lb/> As I am now standing my last
-            <lb/> watch before arriving at <placeName ref="#Juneau">Juneau</placeName>
-            <ptr type="noteAnchor" target="Watch"/><note resp="ed" xml:id="Watch">
-                Typically a Marine watch is divided into two parts: a afternoon watch (noon-4:00pm)and a late 
-                evening watch (8:00pm-12:00am). Given that at the end of his letter JJM writes that he will 
-                bid Gladys <q>"goodnight"</q> and then immediately switches to <q>"or rather good morning"</q> he was likely on duty
-                for the latter assignment at the time this letter was written. <bibl><ref target="#MarineWatch">Nautical Dictionary</ref></bibl></note> 
+            <lb/> watch before arriving at <placeName ref="#Juneau">Juneau</placeName>          
             <lb/> and I am still a wondering
             <lb/> and lonesome as usual I thought
             <lb/> I would write a <choice><sic>fiew</sic><corr>few</corr></choice>
