@@ -702,6 +702,9 @@
          <br/>
      </p>
    </xsl:template>
+   <xsl:template match="tei:hi[@rend='italic']">
+      <xsl:element name="span"><xsl:attribute name="style">font-style:italic;</xsl:attribute><xsl:apply-templates/></xsl:element>
+   </xsl:template>
    <xsl:template match="tei:name">
       <xsl:apply-templates/>
    </xsl:template>

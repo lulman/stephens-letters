@@ -1656,7 +1656,7 @@
            Library of Congress, n.d. Web. 8 Nov. 2011.
          </bibl>
          <bibl xml:id="Koppy" n="Koppy">Koppy, Ann. <title level="a">The Wreck of the 
-           <hi rend="italics">Santa Clara.</hi></title> <title level="m">The Whole Shebang</title>.  
+           <hi rend="italic">Santa Clara.</hi></title> <title level="m">The Whole Shebang</title>.  
            The Whole Shebang Mag., n.d. Web. 22 Oct. 2011.
          </bibl>
          <bibl xml:id="GBC" n="GeoBC">
@@ -5622,7 +5622,7 @@
               South, West and Southwest, as a means of freeing American consumers from the import
               market dominated by South African production. Considered fashionable, the feathers
               combined with Agro-tourism to make California Ostrich Farms a popular destination
-              during this period <bibl><ref target="#Plumes"><title level="m">Plumes</title></ref></bibl>.</note>
+              during this period <bibl><ref target="#Plumes">Sarah Stein</ref></bibl>.</note>
             <lb/>for her.
           </p>
           <p>
@@ -5843,14 +5843,14 @@
             <lb/>See 5 Ships all the Same tramp Engineer<ptr type="noteAnchor" target="JJM19091004note0"/>
             <note resp="ed" xml:id="JJM19091004note0">
               A tramp engineer has little formal training, learns on the job, and frequently moves from job to job. 
-              In <title level="j">The Engineers' Review</title> volume 16 (1905), I. C. Lloyd defends the tramp 
+              In <title level="j">The Engineers' Review</title>, I. C. Lloyd defends the tramp 
               engineer as competent compared to the the traditional worker allied to one or two jobs, even 
               though the tramp engineer also <q>won't work in a place long enough to get married to the job. 
               They like new scenes and experiences and won't take back talk from anybody</q> <bibl>
               <ref target="#ICL">Lloyd 18</ref></bibl>. The context of McIntyre's statement suggests that 
-              <hi rend="italics">he</hi> is (and has been) the tramp engineer. In his letter to Gladys of 13 August 1909, 
-              he asks the company's superintendent engineer to transfer from the <name type="ship">Santa Clara</name> to the <name type="ship">Northwestern</name>. 
-              Later in the current letter (04 October 1909), he details the number of the <name type="ship">Santa Clara</name>'s 
+              <hi rend="italic">he</hi> is (and has been) the tramp engineer. In his letter to Gladys of 13 August 1909, 
+              he asks the company's superintendent engineer to transfer him from the <name type="ship">Santa Clara</name> to the <name type="ship">Northwestern</name>. 
+              Later in the current letter, he details the number of the <name type="ship">Santa Clara</name>'s 
               engineering crew, and he exhibits at least a neophyte familiarity with technical specifications and boiler operation.
             </note> we have had 
             <lb/>exceedingly fine weather this <choice><sic>Voige</sic><corr>Voyage</corr></choice> 
@@ -5882,8 +5882,8 @@
             <lb/>Village</placeName> is <choice><sic>acrost</sic><corr>across</corr>
             </choice> the <geogFeat>bay</geogFeat> from the Cannery<ptr type="noteAnchor" target="JJM19091004note2"/>
             <note resp="ed" xml:id="JJM19091004note2">
-              <q>[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878.</q> 
-              Until 1920, it remained the only salmon cannery in the state <bibl><ref target="#VI">
+              <q>[T]he first cannery in Alaska was built [in Klawock] by a San Francisco firm in 1878,</q> 
+              and until 1920, it remained the only salmon cannery in the state <bibl><ref target="#VI">
               <title level="a">Visitor Information</title></ref></bibl>. McIntyre may intend for his involvement with what at the time 
               was leading industrialization to impress Gladys, as he later takes a boastful tone when explaining 
               the specifications of the Northwestern in comparison to other ships. <figure rend="link">
@@ -5974,9 +5974,9 @@
             <lb/><name type="ship" ref="#SantaClara">Santa Clara</name> 13&#x2014;and this Soap box
             <ptr type="noteAnchor" target="JJM19091004note4"/><note resp="ed" xml:id="JJM19091004note4">
               Here McIntyre seems to be referring to the boat on which he's currently sailing to catch up 
-              with the Northwestern. The diminutive connotation fits with the boastful tone that he has 
-              assumed to impress Gladys with the size and power of the Northwestern. Interestingly, the 
-              term <hi rend="italics">soap box</hi> hasn't yet entered common usage as a way of designating a smaller, unpowered 
+              with the <name type="ship">Northwestern</name>. The diminutive connotation fits with the boastful tone that he has 
+              assumed to impress Gladys with the size and power of the <name type="ship">Northwestern</name>. Interestingly, the 
+              term <hi rend="italic">soap box</hi> hasn't yet entered common usage as a way of designating a smaller, unpowered 
               or low-power vehicle. It's possible that the "soap box" is a lightboat, which appears in the 
               closer to McIntyre's letter to Gladys of 13 August 1909.
             </note> 8&#x2014;<name type="ship" ref="#Northwestern">Northwestern</name> 6 boilers 
@@ -5990,7 +5990,7 @@
             get badly burnt It will be a wonder!<ptr type="noteAnchor" 
               target="JJM19091004note5"/><note resp="ed" xml:id="JJM19091004note5">
                 <title level="j">The Locomotive</title> reports that on <date when="1909-03-11">11 March 
-                  1909</date>, <q>[a] boiler exploded .&#xA0;.&#xA0;. on the steamer <hi rend="italics">Weitchpec</hi></q> 
+                  1909</date>, <q>[a] boiler exploded .&#xA0;.&#xA0;. on the steamer <hi rend="italic">Weitchpec</hi></q> 
                 and <q>Fireman Elmer Dennis was fatally scalded</q> <bibl><ref target="#Locomotive"><title level="a">March, 1909</title> 
                 171</ref></bibl>. The serious and fatal nature of boiler accidents is clearly conveyed in 
                 the volume's sizeable monthly catalogues. Additionally, a 1916 issue of <title level="j">The 
@@ -6046,7 +6046,7 @@
               corner of E 40th Street and 14th Avenue NE (later University Way). The streetcar crashes 
               into three concession buildings across the street from the main entrance of the 
               Alaska-Yukon-Pacific Exposition. One passenger, Frank Hull of Tacoma, is killed, 
-              and 55 men, women, and children are injured</q> <bibl><ref target="#AJS">Stein</ref></bibl>.
+              and 55 men, women, and children are injured</q> <bibl><ref target="#AJS">Alan Stein</ref></bibl>.
             </note> little 
             <lb/>do we know how Soon we will be blotted out 
             <lb/>of this world the best we Can do is to always be ready 

@@ -780,14 +780,7 @@
       <xsl:apply-templates/>
    </xsl:template>
    <xsl:template match="tei:note/tei:name[@type='ship']">
-      <em>
-         <xsl:apply-templates/>
-      </em>
-   </xsl:template>
-   <xsl:template match="tei:person/tei:name[@type='ship']">
-      <em>
-         <xsl:apply-templates/>
-      </em>
+      <xsl:element name="span"><xsl:attribute name="style">font-style:italic;</xsl:attribute><xsl:apply-templates/></xsl:element>
    </xsl:template>
 
    <!-- Text highlighted in the source document -->
@@ -802,6 +795,10 @@
          <xsl:apply-templates/>
       </sup>
    </xsl:template>
+   <xsl:template match="tei:hi[@rend='italic']">
+      <xsl:element name="span"><xsl:attribute name="style">font-style:italic;</xsl:attribute><xsl:apply-templates/></xsl:element>
+   </xsl:template>
+   
 
    <!-- LINK OR EMBED IMAGES AND OTHER NON-TEXTUAL MATERIALS 
          Revised 7/31/2019: define in indivdual views-->
