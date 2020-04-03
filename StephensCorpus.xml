@@ -723,28 +723,31 @@
                   themselves on display for profit, thereby gaining financially and socially from a system that aimed to 
                   exploit and denigrate them <bibl><ref target="#AYPFilm">Forsen, n.p.</ref></bibl>.
                 </p>
-              <p><hi rend="bold">Seattle, a Rapidly Expanding City</hi>. In 1909 the young Gladys Stephens made her way to Seattle as part of a series of destination 
-                visited in anticipation of the 1909 World Fair, also known as the Alaska Yukon-Pacific Exposition,
-                in Seattle.  But what sort of city was Gladys entering?  We see in her letters mentions of her 
-                life in Seattle and all it entailed, but scant detail is paid to the city itself, its history, 
-                and the peculiar time in which she visited.  Seattle during this period had grown continuously 
-                backed by the latest and last Gold Rush in the United States, the Klondike Gold Rush of 1897-1898 
-                described at length by Lisa Mighetto and Marcia Montgomery in <title level="m">Hard Drive to the Klondike</title>.
-                The Klondike Gold Rush was itself in Alaska, however Seattle’s position in the extreme northwest of the 
-                continental United States and previously developed port on Puget Sound made it invaluable as a transition 
-                point for those moving to Alaska to mine, and those returning with or without gold.  As a result of the 
-                Gold Rush Seattle became a hotbed for a number of industries supporting the influx of males looking to 
-                strike it rich.  This included a burgeoning saloon industry, illegal gambling interests and businessmen 
-                promoting prostitution and later pornography as described by Richard C. Berner in <title level="m">Seattle 1900-1920: From Boomtown
-                  , Urban Turbulence, to Restoration.</title><bibl><ref target="Berner">5</ref></bibl>  Approximately 100,000 miners were attracted by 
-                the Gold Rush, and some 70,000 of them passed through Seattle, nearly doubling the previous population 
-                of the city.<bibl><ref target="Mighetto">17</ref></bibl>  By the end of the next decade the influx of population and gold had led 
-                to a rapid increase in the boundaries of the city itself as wide swaths of land to the south of Elliott 
-                Bay were annexed as well as territory to the extreme north of the city.<bibl><ref target="Schmid">1944</ref></bibl>  By 1910 the 
-                cituy had grown from a population in 1880 of 3,533 to 237,194, an increase far exceeding many other 
-                American cities during the same period. <bibl><ref target="McDonald">1959</ref></bibl>  Into this bustling hotbed of activity the 
-                young Gladys Stephens likely had far more to see and do than is accounted even in her letters.
-              </p>
+              <p><hi rend="bold">Seattle, a Rapidly Expanding City</hi>. In 1909 the young Gladys
+                Stephens made her way to Seattle as part of a series of destinations visited in
+                anticipation of the 1909 World Fair, also known as the Alaska Yukon-Pacific
+                Exposition, in Seattle. But what sort of city was Gladys entering? We see in her
+                letters mentions of her life in Seattle and all it entailed, but scant detail is
+                paid to the city itself, its history, and the peculiar time in which she visited.
+                Seattle during this period had grown continuously, backed by the latest and last
+                Gold Rush in the United States, the Klondike Gold Rush of 1897-1898 described at
+                length by Lisa Mighetto and Marcia Montgomery in <title level="m">Hard Drive to the
+                  Klondike</title>. The Klondike Gold Rush was centered in Alaska, however Seattle’s
+                position in the extreme northwest of the continental United States, and its port on
+                Puget Sound, made it invaluable as a transit point for those moving to Alaska to
+                mine, and those returning with or without gold. As a result of the Gold Rush, Seattle
+                became a hotbed for a number of industries supporting the influx of males looking to
+                strike it rich, including a burgeoning saloon industry, illegal gambling
+                interests, and businessmen promoting prostitution and later pornography <bibl><ref target="Berner">Berner 5</ref></bibl>.
+                Approximately 100,000 miners were attracted by the Gold Rush, and some 70,000 of
+                them passed through Seattle, nearly doubling the previous population of the
+                    city <bibl><ref target="Mighetto">Mighetto and Montgomery 17</ref></bibl>. By the end of the next decade,
+                the influx of population and gold had led to a rapid increase in the boundaries of
+                the city itself as wide swaths of land to the south of Elliott Bay were annexed as
+                well as territory to the extreme north of the city <bibl><ref target="Schmid"
+                    >Schmid</ref></bibl>. By 1910, the city had grown from a population in 1880 of
+                3,533 to 237,194, an increase far exceeding many other American cities during the
+                same period <bibl><ref target="McDonald"> McDonald 1959</ref></bibl>.</p>
               <p>
                 In Seattle Gladys would have found a bevy of men, a boisterous nightlife, and a city in the process of 
                 transforming itself.  Although Seattle continued to be a coal and wood-burning city during this period 
@@ -1778,7 +1781,7 @@
             Berner, Richard C. <title level="m">Seattle 1900-1920: From Boomtown, Urban Turbulence, to Restoration</title>
             Seattle: Charles Press, 1991. Print.
           </bibl>
-          <bibl xml:id="Mighetto" n="Mighetto">Mighetto, Lisa and Marcia Montogmery. 
+          <bibl xml:id="Mighetto" n="Mighetto">Mighetto, Lisa and Marcia Montgomery. 
             <title level="m">Hard Drive to the Klondike: Promoting Seattle During the Gold Rush</title>
             Seattle: University of Washington Press, 1955.
           </bibl>
