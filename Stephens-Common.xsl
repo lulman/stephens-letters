@@ -745,7 +745,7 @@
    </xsl:template>
    <xsl:template match="tei:choice/tei:reg"/>
    <xsl:template match="tei:distinct[@type='babyTalk']">
-      <xsl:apply-templates/> [sic] 
+      <xsl:apply-templates/> [<xsl:element name="span"><xsl:attribute name="style">font-style: italic;</xsl:attribute>sic</xsl:element>] 
    </xsl:template>
 
    <!--MISCELLANEOUS TEXTUAL FEATURES. -->
