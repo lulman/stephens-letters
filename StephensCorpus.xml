@@ -1035,38 +1035,38 @@
                 Sailors' Magazine</title>: <q>[d]on't think that I am grumbling; sure not. Why, a little over three years 
                 ago I saw my wife, and had the good fortune to be in her company for almost the whole of an hour</q> 
                 <bibl><ref target="#SMJan1914">74</ref></bibl>. Regardless, the job was dangerous, and the tramp engineer 
-                would likely be assigned the riskiest manual labor—McIntyre expresses that because the <name type="ship">Northwestern</name>'s 
+                would likely be assigned the riskiest manual labor—McIntyre warns that because the <name type="ship">Northwestern</name>'s 
                 boilers have been acting up, it will be <q>a wonder</q> if no one is seriously injured (04 October 1909).
               </p>              
               <p><hi rend="bold">U.S. Perceptions of Mexico</hi>. Just as tourism between the Mississippi and Pacific shaped and reflected conceptions of America and the American 
-                west, tourism and travel writing constructed a Mexico that validated the definition of the United States as a 
+                west, tourism and travel writing constructed a Mexico that validated a perception of the United States as a 
                 benevolent, civilizing, superior force. Travelogues such as Mary Blake and Margaret Sullivan's 
-                <title type="j">Mexico, Picturesque, Political, Progressive</title>, published in 1888, and T. Philip Terry's 
-                <title type="j">Terry's Guides to Mexico</title>, first published in 1909, defined Mexico and Mexicans as either
-                quaint and exotic or dangerous and degenerate. The travelogues frequently used descriptions of dress,
-                to define Mexican identity. Gladys's descriptions of Mexico reflect the topics and attitudes of 
+                <title level="m">Mexico, Picturesque, Political, Progressive</title> (1888) and T. Philip Terry's 
+                <title level="m">Terry's Guides to Mexico</title> (1909) portrayed Mexico and Mexicans as either
+                quaint and exotic or dangerous and degenerate. The travelogues frequently used descriptions of dress
+                to define Mexican identity. Stephens's descriptions of Mexico reflect the topics and attitudes of 
                 these travelogues. Her observations about Mexican clothing as either exotic costume (when she describes the tight 
                 pants and large hats of Mexican men) or a mark of uncivilized behavior (as in the case of the "peon women" who don't 
                 wear corsets and the children who sometimes don't wear clothing) illustrates the fetishizing and denigrating 
-                catigorization found in late nineteenth- and early twentieth-century travelogues. Such attitudes also reflect the 
-                inherent attitude of superiority in turn-of-the-century philosophies of Manifest Destiny and American expansion.
+                catigorization found in late nineteenth- and early twentieth-century travelogues. Such passages also reflect the 
+                inherent attitude of superiority in turn-of-the-century doctrines of Manifest Destiny and American expansion.
               </p>
               <p>For all that the United States professed a policy of splendid isolation in the late nineteenth and early twentieth 
-                centuries, the United States the government rigorously pursued U.S. economic and political interests in Mexico and 
-                Central and South America, at times supporting revolutionaries and regimes materially, financially, and politically. 
+                centuries, the United States government rigorously pursued U.S. economic and political interests in Mexico, 
+                Central America, and South America, at times supporting revolutionaries and regimes materially, financially, and politically. 
                 This unofficial policy of political support for the United States' commercial interests abroad provided impetus for 
-                the 1909 Taft-Diaz meeting in El Paso and La Ciudad Juarez. On October 16, 1909, President William Taft of the United 
-                States and President Porfirio Diaz of Mexico met to discuss the political and economic relationship between the United 
+                the 1909 Taft-Díaz meeting in El Paso and La Ciudad Juarez. On October 16, 1909, President William Taft of the United 
+                States and President Porfirio Díaz of Mexico met to discuss the political and economic relationship between the United 
                 States and Mexico. Taft was particularly concerned that Diaz would continue his support of the United States' economic 
                 interests in Mexico, as Mexico's civic unrest threatened to disturb the farms and businesses of the United States 
-                within Mexico. In 1909, Diaz's position in Mexico was becoming increasingly unstable; in 1910, the country erupted in 
-                revolution and civil war as multiple factions fought against Diaz and each other. In her letter to her mother dated 
-                September 22, 1909, Gladys Stephens comments on the rising political unrest in Mexico and on her excitement for the 
-                anticipated presidents' meeting. Gladys's presence in El Paso and Mexico approximately one month before Taft and Diaz 
+                within Mexico. In 1909, Díaz's position in Mexico was becoming increasingly unstable; in 1910, the country erupted in 
+                revolution and civil war as multiple factions fought against each other and Diaz's government. In her letter to her mother dated 
+                September 22, 1909, Gladys Stephens comments on the rising political unrest in Mexico and on her excitement 
+                about the upcoming meeting between Díaz and Taft. Stephens's presence in El Paso and Mexico approximately one month before Taft and Díaz 
                 met places her accounts of the political situation in Mexico within the larger context of the relationship between the 
-                United States and Mexico on the eve of the Mexican Revolution. Gladys's comments about the Rurales as necessary to keep 
-                civic order and her statements that the rising civic unrest is directed against the fear of Reyes taking power rather 
-                than Diaz's regime reflect the current favorable attitude of the United States towards Presiden Diaz.             
+                United States and Mexico on the eve of the Mexican Revolution. Her suggestion that the Rurales were necessary to keep 
+                civic order and her statements that the rising civic unrest reflects fear of Reyes taking power rather 
+                than dissatisfaction with Díaz's regime mirrors the contemporary attitude of the United States towards Presiden Díaz.             
               </p>
             </note>
           </notesStmt>
@@ -1593,7 +1593,13 @@
           <!-- Though TEI provides for more fine-grained encoding, we will enter bibliography items
             as we would expect them to be displayed, ecept for noting text that requires special
             formatting (e.g., titles). -->
-
+          <bibl xml:id="Blake" n="Blake"> Blake, Mary Elizabeth, and Margaret Frances. <title
+              level="m">Mexico: Picturesque, Political, Progressive</title>. Lee &amp; Shepard; C.
+            T. Dillingham, 1888.
+          </bibl>
+          <bibl xml:id="Terry" n="Terry">
+            Terry, Thomas Philip. <title level="m">Terry’s Guide to Mexico</title>. NY: Houghton Mifflin, 1909.
+          </bibl>
           <bibl xml:id="OEDalkali" n="Alkali">
             <title level="a">Alkali.</title> <title level="m">The Oxford English Dictionary Online</title> OED. 
             September 2011. Web. 1 Nov. 2011.
