@@ -1601,7 +1601,7 @@
             Terry, Thomas Philip. <title level="m">Terry’s Guide to Mexico</title>. NY: Houghton Mifflin, 1909.
           </bibl>
           <bibl xml:id="OEDalkali" n="Alkali">
-            <title level="a">Alkali.</title> <title level="m">The Oxford English Dictionary Online</title> OED. 
+            <title level="a">Alkali.</title> <title level="m">The Oxford English Dictionary Online</title>. 
             September 2011. Web. 1 Nov. 2011.
           </bibl>
           <bibl xml:id="EncyclopaediaEtiquette" n="Holt">Holt, Emily. 
@@ -1609,15 +1609,15 @@
             New York: McClure, 1901. Print.
           </bibl>
           <bibl xml:id="OEDrevolution" n="Revolution">
-            <title level="a">Revolution.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
+            <title level="a">Revolution.</title> <title level="m">The Oxford English Dictionary Online</title>.
             September 2011. Web. 15 Nov. 2011.
             </bibl>
           <bibl xml:id="OEDrolling" n="Rolling">
-              <title level="a">Rolling.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
+              <title level="a">Rolling.</title> <title level="m">The Oxford English Dictionary Online</title>.
               September 2011. Web. 15 Nov. 2011.
               </bibl>
               <bibl xml:id="OEDrunning" n="Running">
-                <title level="a">Running.</title> <title level="m">The Oxford English Dictionary Online</title> OED.
+                <title level="a">Running.</title> <title level="m">The Oxford English Dictionary Online</title>.
                 September 2011. Web. 15 Nov. 2011
           </bibl>
           <bibl xml:id="USLab" n="CPI">
@@ -1693,10 +1693,9 @@
               level="m">FamilySearch</title>. The Church of Jesus Christ of Latter-day Saints. 2011.
             Web. 27 Oct. 2011.
           </bibl>
-          <bibl xml:id="MarineWatch" n="Nautical">
-            <title level="m">Nautical Dictionary.</title> Arthur Young and James Brisbane: 
-            Nabu Press, 2011. <title level="m">Google Books</title>. Web. 13 Nov. 2011.
-          </bibl>
+          <bibl xml:id="MarineWatch" n="Young"> Young, Arthur, and James Brisbane. <title level="m"
+              >Nautical Dictionary.</title> London: Longman, Green, Longman, Roberts, &amp; Green:
+            1863. <title level="m">Google Books</title>. Web. 13 Nov. 2011. </bibl>
           <bibl xml:id="MenLove" n="Stearns">
             Stearns, Peter N., and Mark Knapp. <title level="a">Men and Romantic Love: Pinpointing a 20th-Century Change.</title> <title level="j">
               Journal of Social History</title>. Web. 27 Nov. 2011. 
@@ -1718,11 +1717,11 @@
          </bibl>
          <bibl xml:id="NYT1" n="North Pacific">
            <title level="a">The North Pacific Steamship Company Chartered.</title> <title
-             level="m">New York Times</title> 07 March 1869: n. pag. Web. 22 Oct. 2011.
+             level="m">New York Times</title> 07 March 1869: n.p. Web. 22 Oct. 2011.
          </bibl>
          <bibl xml:id="NYT2" n="Deserted">
            <title level="a">Deserted Totems of Alaska: Traditional Symbols of Tribal Power Yield to 
-           the White Man's Progress.</title> <title level="m">New York Times</title> 02 October 1927: n. pag.  
+           the White Man's Progress.</title> <title level="m">New York Times</title> 02 October 1927: n.p.  
            <title level="m">Proquest Historical Newspapers</title>. Web. 28 Oct. 2011.
          </bibl>
          <bibl xml:id="MexCS" n="Merrill">Merrill, Tim L. and Ramon Miro eds. 
@@ -1767,7 +1766,7 @@
           Congress Authorities</title>. Web. 15 Nov. 2011.
           </bibl>
           <bibl xml:id="SR19091001" n="HenryHiser">
-            <title level="a">Henry Hiser, of joy riding fame</title>. <title level="j">The Seattle 
+            <title level="a">Henry Hiser, of joy riding fame.</title> <title level="j">The Seattle 
             Republican</title> 01 October 1909: 2. <title level="m">Chronicling America (The Library 
             of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
@@ -1799,36 +1798,36 @@
           </bibl>
           <bibl xml:id="SS19090923" n="TwoGirls">
             <title level="a">Two Girls Burned and Crushed Beyond Human Resemblance.</title> <title level="j">
-              The Seattle Star</title> 23 September 1909: n.pag. <title level="m">Chronicling America (The Library 
+              The Seattle Star</title> 23 September 1909: n.p. <title level="m">Chronicling America (The Library 
               of Congress)</title>. Web. 1 Nov. 2011.
           </bibl>
           <bibl xml:id="Plumes" n="SteinSarah"> Stein, Sarah Abrevaya.
-            <title level="m">Plumes: Ostrich Feathers, Jews, and a Lost World of Global Commerce</title>
+            <title level="m">Plumes: Ostrich Feathers, Jews, and a Lost World of Global Commerce</title>.
             New Haven, CT: Yale University Press, 2008. Print.
           </bibl>
           <bibl xml:id="Berner" n="BernerRichard">
-            Berner, Richard C. <title level="m">Seattle 1900-1920: From Boomtown, Urban Turbulence, to Restoration</title>
+            Berner, Richard C. <title level="m">Seattle 1900-1920: From Boomtown, Urban Turbulence, to Restoration</title>.
             Seattle: Charles Press, 1991. Print.
           </bibl>
           <bibl xml:id="Mighetto" n="Mighetto">Mighetto, Lisa and Marcia Montgomery. 
-            <title level="m">Hard Drive to the Klondike: Promoting Seattle During the Gold Rush</title>
+            <title level="m">Hard Drive to the Klondike: Promoting Seattle During the Gold Rush</title>.
             Seattle: University of Washington Press, 1955.
           </bibl>
           <bibl xml:id="Schmid" n="Schmid">Schmid, Calvin F.
-            <title level="m">Social Trends in Seattle</title> vol 14.
+            <title level="m">Social Trends in Seattle</title>. Vol. 14.
             Seattle: University of Washington Press, 1944.
           </bibl>
           <bibl xml:id="MacDonald" n="MacDonald">MacDonald, Alexander Norbert.
-            <title level="u">Seattle's Economic Development, 1880-1910</title>
+            <title level="u">Seattle's Economic Development, 1880-1910.</title>
             PhD. Dissertation, University of Washington, 1959.
           </bibl>
           <bibl xml:id="LE19091001" n="Newsof">
-            <title level="a">News of Pacific Northwest.</title> <title level="j">The Leavenworth Echo</title> 
-            01 October 1909: n.pag. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 
+            <title level="a">News of Pacific Northwest.</title> <title level="j">The Leavenworth Echo</title>. 
+            01 October 1909: n.p. <title level="m">Chronicling America (The Library of Congress)</title>. Web. 
             01 Nov. 2011.
           </bibl>
           <bibl xml:id="Locomotive" n="March">
-            <title level="a">March, 1909</title>. <title level="j">The Locomotive</title> 27 (1909): 169-171. 
+            <title level="a">March, 1909.</title> <title level="j">The Locomotive</title> 27 (1909): 169-171. 
             <title level="m">Google Books</title>. Web. 01 Nov. 2011.
           </bibl>
           <bibl xml:id="TexasHist" n="Taft">
@@ -1891,16 +1890,12 @@
             <title level="m">Google Books</title>. Web. 28 Nov. 2011.
           </bibl>
           <bibl xml:id="SMJan1914" n="TrampsEngineer">
-            <title level="a">The Tramp's Engineer.</title> <title level="j">The Sailors' Magazine</title>: 
+            <title level="a">The Tramp's Engineer.</title> <title level="j">The Sailors' Magazine</title> 
             86.5 (May 1914): 73-74. <title level="m">Google Books</title>. Web. 28 Nov. 2011.
           </bibl>
           <bibl xml:id="SeafarWom" n="Cordingly">Cordingly, David.
             <title level="m">Seafaring Women: Adventures of Pirate Queens, Female Stowaways, and Sailors' Wives</title>. 
             New York: Random House Trade Paperbacks, 2007. <title level="m">Google Books</title>. Web. 26 Nov.2011.
-          </bibl>
-          <bibl xml:id="DLP" n="DelaPedraja">
-            De la Pedraja, René. <title level="m">A Historical Dictionary of the US Merchant Marine and Shipping Industry</title>. 
-            1st Ed. Westport, CT: Greenwood, 1994. Print.
           </bibl>
           <bibl xml:id="MaritimeRace" n="MaritimeRace">
             <title level="a"> 'A Maritime Race': Masculinity and the Racial Division of Labor in British 
@@ -1918,7 +1913,7 @@
             World’s Fair</title>. Seattle, WA: Fidget, 2009. Film.
           </bibl>
           <bibl xml:id="NorthernPacific" n="GeneralPassenger">
-            General Passenger Department, Northern Pacific Railroad. <title level="m">The Alaska-Yukon-Pacific 
+            <title level="a">General Passenger Department, Northern Pacific Railroad.</title> <title level="m">The Alaska-Yukon-Pacific 
             Exposition : Seattle, June 1-October 16, 1909</title>. St. Paul, MN: General Passenger 
             Department, Northern Pacific Railway. Print.
           </bibl>
@@ -1937,22 +1932,22 @@
             Web. 28 November 2011.
           </bibl>
           <bibl xml:id="MS" n="Shaffer">
-            Shaffer, Marguerite S. <title level="a">"See America First": Re-Envisioning Nation 
+            Shaffer, Marguerite S. <title level="a">'See America First': Re-Envisioning Nation 
             and Region through Western Tourism.</title> <title level="j">Pacific Historical 
             Review</title> 65.4 (1996): 559-581. Web. 18 November 2011.
           </bibl>
           <bibl xml:id="JF" n="Findlay">
             Findlay, John M. <title level="a">A Fishy Proposition: Regional Identity in the Pacific 
             Northwest.</title> <title level="m">Many Wests: Place, Culture, and Regional 
-            Identity</title>. Print.
+            Identity</title>. UP of Kansas, 1997. Print.
           </bibl>
           <bibl xml:id="Chest" n="Chester">
             Chesterfield, Earl of. <title level="m">Chesterfield’s Art of Letter-Writing Simplified</title>. 
             New York: Dick &amp; Fitzgerald, 1857. <title level="m">U of Pittsburgh Digital Research 
             Library</title>. Web. 20 Nov. 2011.
           </bibl>
-          <bibl xml:id="Nanj" n="JohnsonNan">Johnson, Nan <title level="m">Gender and Rhetorical Space in American Life, 1866-1910</title>. 
-          Carbondale: SIU P, 2002. Print. </bibl>
+          <bibl xml:id="Nanj" n="JohnsonNan">Johnson, Nan. <title level="m">Gender and Rhetorical Space in American Life, 1866-1910</title>. 
+          Carbondale: SIUP, 2002. Print. </bibl>
           <bibl xml:id="Putnam" n="RobertsHelen">
             Roberts, Helen L. <title level="m">Putnam’s Handbook of Etiquette: A Cyclopedia of Social 
             Usage, Giving Manners and Customs of the Twentieth Century</title>. New York: The Knickerbocker 
@@ -1975,13 +1970,13 @@
             Web. 22 Nov. 2011.
           </bibl>
           <bibl xml:id="Nigel" n="HallNigel">
-            Hall, Nigel. <title level="a">The Materiality of Letter Writing: A Nineteenth Century Perspective</title>. 
+            Hall, Nigel. <title level="a">The Materiality of Letter Writing: A Nineteenth Century Perspective.</title> 
             <title level="m">Letter Writing as a Social Practice</title>. Eds. David Barton and Nigel Hall. Amsterdam: 
             John Benjamins Publishing Company, 2000. 83-108. Print.
           </bibl>
           <bibl xml:id="LucilleS" n="SchultzLucille">
-            Schultz, Lucille M. <title level="a">Letter-Writing Instruction in nineteenth Century Schools 
-            in the United States</title>. <title level="m">Letter Writing as a Social Practice</title>. 
+            Schultz, Lucille M. <title level="a">Letter-Writing Instruction in Nineteenth Century Schools 
+            in the United States.</title> <title level="m">Letter Writing as a Social Practice</title>. 
             Eds. David Barton and Nigel Hall. Amsterdam: John Benjamins Publishing Company, 2000. 109-125. Print.
           </bibl>
           <bibl xml:id="WhiteA" n="WhiteAnnie">
@@ -1994,7 +1989,7 @@
             Press, 1998. Print.</bibl>
           <bibl xml:id="Kings" n="Kingsland">
             Kingsland, Mrs. Burton. <title level="m">The Book of Good Manners: “Etiquette for 
-            All Occasions”</title>. New York: Doubleday, Page and Company, 1903. Print.
+            All Occasions.”</title> New York: Doubleday, Page and Company, 1903. Print.
           </bibl>
           <bibl xml:id="Leonard" n="Leonard">
             Leonard, Priscilla. <title level="a">The Laws of Letter Writing.</title> <title
