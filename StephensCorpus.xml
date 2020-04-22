@@ -2224,10 +2224,10 @@
             <!-- Add definition of special student (52-53). -->
           </person>
           <person xml:id="JJM">
-            <persName>McIntyre, James J.</persName>
-            <note type="biographical">James J. McIntyre is a crewmember on the S.S. Northwestern. 
+            <persName>McIntyre, James J</persName>
+            <note type="biographical">James J. McIntyre is a crewmember on the <name type="ship">S.S. Northwestern</name>. 
             He is enamoured with Gladys Stephens and writes to her often between the summer of 1909 and 
-            the fall of 1909 (and probably later). It's likely that McIntyre was a tramp enginner, a low-ranking 
+            the fall of 1909 (and probably later). It is likely that McIntyre was a tramp enginner, a low-ranking 
             crewman who switches jobs frequently and has little formal training. Between his letters of 13 August 
             1909 and 04 October 1909, McIntyre transfers from the <name type="ship">Santa Clara</name> to the 
             <name type="ship">Northwestern</name>, and in the latter letter, he indicates that in one calendar 
@@ -2256,94 +2256,104 @@
             <residence when="1920" source="#Census1920GSM">Newton, MA</residence>
           </person>
           <person xml:id="AMM">
-            <persName>Macphearson, Adelaide M.</persName>
-            <note>Gladys writes several letters to her mother about Adelaide's preparations for her wedding, including October 5, 1909. In Gladys' September 27, 1909 letter to Mrs. A.T. Stephens she mentions that Adelaide has taken up dress 
-              making and has all her attention turned to "the West"</note>
+            <persName>Macphearson, Adelaide M</persName>
+            <note type="biographical">Gladys Stephens writes several letters to her mother about Adelaide's
+              preparations for her wedding. In her September 27, 1909
+              letter to her mother, she mentions that Adelaide has taken up dress making and
+              has all her attention turned to "the West."</note>
           </person>
           <person xml:id="Wards"><persName>the Wards</persName>
-          <note>The Wards are a family that includes both Will Ward and Jack Ward.  Gladys writes in her September 27, 1909
+            <note type="biographical">The Wards are a family that includes both Will Ward and Jack Ward.  Gladys writes in her September 27, 1909
           letter to Mrs. A.T. Stephens wondering who is in the Ward's Portland house.</note>
           </person>
           <person><persName>Ward, Will</persName></person>
           <person xml:id="JW"><persName>Ward, Will</persName>
-          <note>Gladys remarks on his marriage in her September 27, 1909 letter to Mrs A.T. Stephens and asks
+            <note type="biographical">Gladys remarks on his marriage in her September 27, 1909 letter to Mrs A.T. Stephens and asks
             where Jack Ward is living.</note>
           </person>
           <person xml:id="AD"><persName>Dunne, Alice</persName>
-          <note>Gladys remarks in her September 27, 1909 letter to Mrs. A.T. Stephens that Alice would have a 
+            <note type="biographical">Gladys remarks in her September 27, 1909 letter to Mrs. A.T. Stephens that Alice would have a 
           way of tiring Mrs. Stephens out.</note>
           </person>
-          <person xml:id="Ivalor"><persName>Ivaloo</persName>
-          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that she had just written to Ivaloo.</note>
+          <person xml:id="Ivalor"><persName>Ivalor</persName>
+            <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys Stephens notes that she had just written to Ivalor.</note>
           </person>
           <person xml:id="Maynard"><persName>Maynard</persName>
-          <note>In Gladys' September 27, 1909 letter to Mrs. A.T. Stephens she asks if Mrs. Stephens has heard anything of Maynard
-          and notes that he'd be there sometime.</note>
+            <note type="biographical">In her September 27, 1909 letter to her mother, Gladys Stephens
+              asks whether Mrs. Stephens has heard anything of Maynard.</note>
           </person>
           <person xml:id="MrsD"><persName>Mrs. Duff</persName>
-          <note>Gladys notes in her September 27, 1909 letter to Mrs. A.T. Stephens that she send a card from Mexico to Mrs. Duff</note>
+            <note type="biographical">Gladys Stephens notes in her September 27, 1909 letter to Mrs. A.T.
+              Stephens that she sent a card from Mexico to Mrs. Duff.</note>
           </person>
           <person xml:id="MissC"><persName>Miss Campbell</persName>
-          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that Miss Campbell is still switching along.</note>
+            <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
+              Stephens notes that Miss Campbell is still <q>switching along.</q></note>
           </person>
           <person xml:id="Roswel"><persName>Roswel</persName>
-          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes she hasn't heard from Roswel lately.</note>
+            <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
+              Stephens notes she hasn't heard from Roswel lately.</note>
           </person>
           <person xml:id="Jays"><persName>the Jays</persName>
           <note>Gladys mentions that the Jays supplied her with the address for Rosinel a night after mailing him a note in her
           September 27, 1909 letter to Mrs. A.T. Stephens.</note>
           </person>
           <person xml:id="Thomases"><persName>the Thomases</persName>
-          <note>In Gladys' September 27, 1909 letter to Mrs. A.T. Stephens she asks how the Thomases are.</note>
+            <note type="biographical">In Gladys' September 27, 1909 letter to Mrs. A.T. Stephens she asks how the Thomases are.</note>
           </person>
           <person xml:id="Florence"><persName>Florence</persName>
-          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys asks how Florence is carrying sail.</note>
+            <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
+              Stephens asks how Florence is <q>carrying sail.</q></note>
           </person>
           <person xml:id="Philys"><persName>Philys</persName>
-          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that she never heard from Philys.</note>
+            <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
+              Stephens notes that she never heard from Philys.</note>
           </person>
           <person xml:id="MN"><persName>Nims, Mabel</persName>
-          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys notes that the last letter she wrote to Mabel Nims
-          was so long ago that she's forgotten when it was.</note>
+            <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
+              Stephens notes that the last letter she wrote to Mabel Nims was so long ago that she's
+              forgotten when it was.</note>
           </person>
           <person xml:id="MaQs"><persName>the MaQs</persName>
-          <note>In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys asks if Mrs. Stephens has heard from the MacQ's
-          lately, and wonders what the madam think now.</note>
+            <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
+              Stephens asks if Mrs. Stephens has heard from the MacQ's lately, and wonders what the
+              madam think now.</note>
           </person>
           <person><persName>Walt</persName></person>
           <person><persName>Rich. Mrs.</persName></person>
           <person><persName>the Dotens</persName></person> 
-          <person xml:id="LGS"><persName>little Gladys</persName>
-          <note> Little Gladys appears to be a young girl on the S.S. Northwestern and of whom J.J.McIntyre seems to be fond. 
+          <person xml:id="LGS"><persName>Little Gladys</persName>
+            <note type="biographical"> Little Gladys appears to be a young girl on the S.S. Northwestern, of whom James McIntyre seems to be fond. 
           </note>
           </person>
           <person xml:id="Burns"><persName>Burns</persName>
-          <note>Extensive information is not available regarding the identity of Burns, but J.J. McIntyre's letters indicate that McIntyre respects 
-           Burns and McIntyre even quotes him in an 8/23/1909 letter to Gladys Stephens. </note></person>
+          <note type="biographical">Extensive information is not available regarding the identity of Burns, but James McIntyre's letters indicate that McIntyre respects 
+           Burns and McIntyre even quotes him in an 8/23/1909 letter to Gladys Stephens.</note>
+          </person>
           <person xml:id="Scotchman"><persName>the Scotchman</persName>
-          <note>The identity of the Scotchman is unknown. However, he may be Adelaide's fiance, as evidenced 
-          by the correspondance between Gladys Stephens and J.J. McIntyre in the late summer and early autumn of 1909.</note>
+            <note type="biographical">The identity of the Scotchman is unknown. However, he may be Adelaide's fiance, as evidenced 
+          by the correspondance between Gladys Stephens and James McIntyre in the late summer and early autumn of 1909.</note>
           </person>
-          <person xml:id="MsM"><persName>J.J. McIntyre's father</persName>
-          <note>In his 8/23/1909 letter to Gladys Stephens, J.J. McIntyre thanks Gladys for inquiring about his father and
-            reports that his father is doing <q>nicely</q>.</note>
+          <person xml:id="MsM"><persName>James McIntyre's father</persName>
+            <note type="biographical">In his 8/23/1909 letter to Gladys Stephens, James McIntyre thanks Gladys Stephens for inquiring about his father and
+            reports that his father is doing <q>nicely.</q></note>
           </person>
-          <person xml:id="MrM"><persName>J.J. McIntyre's mother</persName>
-          <note>In his 8/23/1909 letter to Gladys Stephens, J.J. McIntyre expresses his eagerness to tell his mother about his 
+          <person xml:id="MrM"><persName>James McIntyre's mother</persName>
+            <note type="biographical">In his 8/23/1909 letter to Gladys Stephens, James McIntyre expresses his eagerness to tell his mother about his 
             mother <q>all about</q> Gladys.</note>
           </person>
           <person xml:id="MrJ">
-            <persName>Jones, Mr.</persName>
-            <note type="biographical">James J. McIntyre's letter on 8-13-1909 mentions Mr. Jones as an acquaintance of Gladys's from 
+            <persName>Jones, Mr</persName>
+            <note type="biographical">James McIntyre's letter on 8-13-1909 mentions Mr. Jones as an acquaintance of Gladys's from 
             back home.</note>
           </person>
           <person xml:id="THM">
             <persName>"the man"</persName>
-            <note type="biographical">Adelaide's fiance. Gladys never refers to 
+            <note type="biographical">Adelaide's fiance. Gladys Stephens never refers to 
               him by name, but tells her mother about his income ($50 per week) 
               and drinking habits (<q>the man</q> prefers a good cocktail at his club)
               in her letter postmarked September 24, 1909. He may also be known as 
-              <q>the Scotchman.</q> In his letter to Gladys Stephens of 23 August 1909, James J. McIntyre 
+              <q>the Scotchman.</q> In his letter to Gladys Stephens of 23 August 1909, James McIntyre 
               asks about "the Scotchman" and wonders whether this man is <q>brooke.</q> If the
               Scotchman is indeed Adelaide's fiance, this question could be a joke about recent 
               wedding costs.</note>
@@ -2355,7 +2365,9 @@
               <placeName source="#Census1910CA">Canada</placeName>
             </birth>
             <residence when="1910" source="#Census1910CA">Sherborn, Middlesex, Massachusetts</residence>
-          <note type="biographical">Cora writes to Mrs. A.T. Stephens, her aunt, on August 19, 1909, to tell her about the birth of her son. She also inquires about Gladys Stephens' travels.</note>
+            <note type="biographical">Cora writes to Mrs. A.T. Stephens, her aunt, on August 19,
+              1909, to tell her about the birth of her son. She also inquires about Gladys Stephens's
+              travels.</note>
           </person>
           <person xml:id="WDA">
             <persName source="#Census1910WDA">Anderson, Willis D.</persName>
@@ -2369,10 +2381,12 @@
           <person xml:id="WGA">
             <persName source="#MABirthsWGA">Anderson, Willis Goodwin</persName>
               <birth>
-                <date when="1909-08-04" source="#MABirthsWGA">Aug. 4</date>
+                <date when="1909-08-04" source="#MABirthsWGA">Aug. 4, 1909</date>
                 <placeName source="#MABirthsWGA">Sherborn</placeName>
               </birth>
-            <note type="biographical">Willis Goodwin Anderson is Cora Anderson's son, both in August of 1909. Cora writes to Mrs. A. T. Stephens on August 19, 1909 to tell her about Willis' birth, although his name is not mentioned in the letter..</note>
+            <note type="biographical">Willis Goodwin Anderson is Cora Anderson's son, born in August
+              of 1909. Cora writes to Mrs. A. T. Stephens on August 19, 1909 to tell her about
+              Willis' birth, although his name is not mentioned in the letter..</note>
           </person>
           <person xml:id="GA">
             <persName source="#Census1910WDA">Anderson, Gladys</persName>
@@ -2386,16 +2400,16 @@
             <note type="biographical">In her letter to her mother on October 5, 1909, Gladys mentions that she has written to Pauline but still needs to mail the letter.</note>
           </person>
           <person xml:id="MrH">
-            <persName>Holland, Mr.</persName>
-            <note type="biographical">JJM's letter to GMS on 8-13-1909 repeatedly mentions Mr. Holland as someone who 
+            <persName>Holland, Mr</persName>
+            <note type="biographical">Jame McIntyre's letter to Gladys Stephens on 8-13-1909 repeatedly mentions Mr. Holland as someone who 
             served as a kind of guide to Gladys while she was in Portland.</note>
           </person>
           <person xml:id="PrD">
-            <persName>Diaz, Jose de la Cruz Porfirio</persName>
+            <persName>Díaz, Jose de la Cruz Porfirio</persName>
             <note type="biographical">In her letter to her mother postmarked
               September 24, 1909, Gladys discusses the political tension in 
               Mexico due to Pres. Diaz' advanced age and the upcoming election. 
-              Gladys spells "Díaz" as "Dias." President Diaz was exiled from 
+              Gladys spells "Díaz" as "Dias." President Díaz was exiled from 
               Mexico in 1911, not long after the start of the Mexican Revolution 
               in 1910, the year following Gladys's visit.
             </note>
@@ -2471,8 +2485,8 @@
             <persName>Hiser, Henry</persName>
             <note type="biographical">
               After a night of drinking, Henry Hiser crashed an automobile carrying approximately seven 
-              passengers and fled the scene <bibl><ref target="#SS19090923"><title level="a">Two Girls Burned and Crushed 
-              Beyond Human Resemblance</title></ref></bibl>. James J. McIntyre refers to this accident in his letter 
+              passengers and fled the scene (<bibl><ref target="#SS19090923"><title level="a">Two Girls Burned and Crushed 
+              Beyond Human Resemblance</title></ref></bibl>). James J. McIntyre refers to this accident in his letter 
               to Gladys M. Stephens of 04 October 1909, and insists that he has moved on from such a lifestyle.
             </note>
           </person>
@@ -2488,9 +2502,9 @@
           <person xml:id="ML">
             <persName>Mrs. L</persName>
             <note type="biographical">
-              A Mutual friend of Gladys and her mother, Mrs. L lives in El Paso presumably near Gladys.
-              In one letter 1909-09-06, ATS has made a pillow and sent it to Gladys to give to Mrs. L.
-              In another letter (27 September 1909), Gladys comments to her mother that she is teaching Mrs. L. to make 
+              A Mutual friend of Gladys Stephens and her mother, Mrs. L. lives in El Paso, presumably near Gladys.
+              In her letter of September 6, 1909, Mrs. Stephens mentions making a pillow and sending it to Gladys to give to Mrs. L.
+              In another letter (27 September 1909), Gladys tells her mother that she is teaching Mrs. L. to make 
               Boston Baked Beans.
             </note>
           </person>
@@ -2505,7 +2519,7 @@
           
           <person xml:id="Hughes">
             <persName>Mrs. Hughes</persName>
-            <note type="biographical"> In a letter dated July 14, 1909, Gladys describes travelling
+            <note type="biographical"> In a letter dated July 14, 1909, Gladys Stephens describes travelling
               with a Virginian named Mrs. Hughes. Mrs. Hughes is described as the cousin of Mrs.
               Dana Gibson and Mrs. Waldorf Astor as well as the cousin of a Mrs. Jordon who has two
               sons. </note>
@@ -2513,19 +2527,19 @@
 
         <person xml:id="MDG">
           <persName>Mrs. Dana Gibson</persName>
-            <note type="biographical"> In a letter dated July 14, 1909, Gladys describes travelling
-              with a Virginian named Mrs. Hughes who is the cousin of Mrs. Dana Gibson and Mrs.
+            <note type="biographical"> In a letter dated July 14, 1909, Gladys Stephens describes traveling
+              with a Virginian named Mrs. Hughes, who is the cousin of Mrs. Dana Gibson and Mrs.
               Waldorf Astor. Mrs. Dana Gibson is likely a reference to Irene Langhorne, originally
               of Danville, Virginia. She married graphic artist Charles Dana Gibson in 1895. Charles
               Dana Gibson was the creator of the iconic Gibson Girl sketches. Popular history
               suggests that Irene Langhorne (wife of Charles Dana Gibson) and her sister (Nancy
-              Astor nee Langhorne, married to British politician Waldorf Astor) were the
+              Astor née Langhorne, married to British politician Waldorf Astor) were the
               inspirations for the Gibson Girl. </note>
         </person>
         
         <person xml:id="MWA">
           <persName>Mrs. Waldorf Astor</persName>
-            <note type="biographical"> In a letter dated July 14, 1909, Gladys describes travelling
+            <note type="biographical"> In a letter dated July 14, 1909, Gladys Stephens describes travelling
               with a Virginian named Mrs. Hughes who is the cousin of Mrs. Dana Gibson and Mrs.
               Waldorf Astor. "Mrs. Waldorf Astor" likely refers to Nancy Astor, wife of British
               Member of Parliament for Plymouth Sutton, Waldorf Astor. Nancy Astor became the first
@@ -2537,13 +2551,14 @@
           
           <person xml:id="MJ">
             <persName>Mrs. Jordon</persName>
-            <note type="biographical"> In a letter dated July 14, 1909, Gladys describes Mrs. Jordon
-              as a cousin of Mrs. Hughes (one of Gladys' travelling companions, a Virginian.) Mrs.
+            <note type="biographical"> In a letter dated July 14, 1909, Gladys Stephens describes Mrs. Jordon
+              as a cousin of Mrs. Hughes (one of Gladys' travelling companions, a Virginian). Mrs.
               Jordon is described as having two sons and a dead husband. </note>
           </person>
          <person xml:id="Maud">
            <persName>Maud</persName>
-           <note type="biographical"> In a letter dated September 13, 1909, J Macyntire describes travelling with a person from Montana named Maud.</note>
+            <note type="biographical">In a letter dated September 13, 1909, James Macyntire describes
+              travelling with a person from Montana named Maud.</note>
          </person>
           
       </listPerson>
