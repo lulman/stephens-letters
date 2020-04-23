@@ -569,7 +569,7 @@
          <xsl:sort select="tei:orgName[1]"/>
          <p>
             <strong><xsl:value-of select="tei:orgName"/></strong>:
-            <xsl:apply-templates select="tei:desc"/>
+            <xsl:apply-templates select="tei:state/tei:desc"/>
          </p>
       </xsl:for-each>
    </xsl:template>
