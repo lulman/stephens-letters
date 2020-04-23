@@ -2234,13 +2234,14 @@
             year he has worked on five different ships.</note>
           </person>
           <person xml:id="ACS">
-            <persName>Stephens, Alex C.</persName>
-            <note type="biographical">In the letter dated August 8, 1909, Gladys 
+            <persName>Stephens, Alex C</persName>
+            <note type="biographical">In her letter dated August 8, 1909, Gladys 
               mentions her "Uncle Alex" a number of times.  It is apparent that he is facilitating
               social connections for her in Texas, prior to her arrival, so we can assume he lives in El Paso.</note>
           </person>
           <person xml:id="ATS">
             <persName source="#Census1920GSM">Stephens, Albert T.</persName>
+            <note type="biographical">Gladys Stephens's father.</note>
             <birth>
               <date when="1856" source="#Census1920GSM">est. 1856</date>
               <placeName source="#Census1920GSM">Canada</placeName>
@@ -2249,8 +2250,9 @@
           </person>
           <person xml:id="JMS">
             <persName source="#Census1920GSM">Stephens, Jennie M. (Mrs. Albert T. Stephens)</persName>
+            <note type="biographical">Gladys Stephens's mother.</note>
             <birth>
-              <date when="1862" source="#Census1920GSM">est. 1862</date>
+              <date when="1862" source="#Census1920GSM">ca. 1862</date>
               <placeName source="#Census1920GSM">Canada</placeName>
             </birth>
             <residence when="1920" source="#Census1920GSM">Newton, MA</residence>
@@ -2262,13 +2264,12 @@
               letter to her mother, she mentions that Adelaide has taken up dress making and
               has all her attention turned to "the West."</note>
           </person>
-          <person xml:id="Wards"><persName>the Wards</persName>
+          <person xml:id="Wards"><persName>Wards</persName>
             <note type="biographical">The Wards are a family that includes both Will Ward and Jack Ward.  Gladys writes in her September 27, 1909
           letter to Mrs. A.T. Stephens wondering who is in the Ward's Portland house.</note>
           </person>
-          <person><persName>Ward, Will</persName></person>
           <person xml:id="JW"><persName>Ward, Will</persName>
-            <note type="biographical">Gladys remarks on his marriage in her September 27, 1909 letter to Mrs A.T. Stephens and asks
+            <note type="biographical">Gladys remarks on Will Ward's marriage in her September 27, 1909 letter to Mrs A.T. Stephens and asks
             where Jack Ward is living.</note>
           </person>
           <person xml:id="AD"><persName>Dunne, Alice</persName>
@@ -2282,11 +2283,11 @@
             <note type="biographical">In her September 27, 1909 letter to her mother, Gladys Stephens
               asks whether Mrs. Stephens has heard anything of Maynard.</note>
           </person>
-          <person xml:id="MrsD"><persName>Mrs. Duff</persName>
+          <person xml:id="MrsD"><persName>Duff, Mrs</persName>
             <note type="biographical">Gladys Stephens notes in her September 27, 1909 letter to Mrs. A.T.
               Stephens that she sent a card from Mexico to Mrs. Duff.</note>
           </person>
-          <person xml:id="MissC"><persName>Miss Campbell</persName>
+          <person xml:id="MissC"><persName>Campbell, Miss</persName>
             <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
               Stephens notes that Miss Campbell is still <q>switching along.</q></note>
           </person>
@@ -2294,53 +2295,58 @@
             <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
               Stephens notes she hasn't heard from Roswel lately.</note>
           </person>
-          <person xml:id="Jays"><persName>the Jays</persName>
-          <note>Gladys mentions that the Jays supplied her with the address for Rosinel a night after mailing him a note in her
+          <person xml:id="Jays"><persName>Jays</persName>
+          <note type="biographical">Gladys mentions that the Jays supplied her with the address for Roswel a night after mailing him a note in her
           September 27, 1909 letter to Mrs. A.T. Stephens.</note>
           </person>
-          <person xml:id="Thomases"><persName>the Thomases</persName>
+          <person xml:id="Thomases"><persName>Thomases</persName>
             <note type="biographical">In Gladys' September 27, 1909 letter to Mrs. A.T. Stephens she asks how the Thomases are.</note>
           </person>
           <person xml:id="Florence"><persName>Florence</persName>
             <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
               Stephens asks how Florence is <q>carrying sail.</q></note>
           </person>
-          <person xml:id="Philys"><persName>Philys</persName>
-            <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
-              Stephens notes that she never heard from Philys.</note>
+          <person xml:id="Philys"><persName>Philip</persName>
+            <note type="biographical">In her September 27, 1909 letter to her mother, Gladys
+              Stephens notes that she never heard from Philip.</note>
           </person>
           <person xml:id="MN"><persName>Nims, Mabel</persName>
             <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
               Stephens notes that the last letter she wrote to Mabel Nims was so long ago that she's
               forgotten when it was.</note>
           </person>
-          <person xml:id="MaQs"><persName>the MaQs</persName>
+          <person xml:id="MaQs"><persName>MaQs</persName>
             <note type="biographical">In her September 27, 1909 letter to Mrs. A.T. Stephens, Gladys
-              Stephens asks if Mrs. Stephens has heard from the MacQ's lately, and wonders what the
-              madam think now.</note>
+              Stephens asks if Mrs. Stephens has heard from the MacQ's lately, and wonders what <q>the
+              madam think now.</q></note>
           </person>
-          <person><persName>Walt</persName></person>
-          <person><persName>Rich. Mrs.</persName></person>
-          <person><persName>the Dotens</persName></person> 
+          <person><persName>Rich, Mrs</persName>
+            <note type="biographical">In her August 8, 1909 letter to her mother, Gladys Stephens 
+              remarks that she fails <q>to see the point of Mrs. Rich's joke.</q></note>
+          </person>
+          <person><persName>Dotens</persName>
+            <note type="biographical">In her letter of 8 August 1909, Gladys Stephens mentions corresponding with the Dotens.</note>
+          </person> 
           <person xml:id="LGS"><persName>Little Gladys</persName>
-            <note type="biographical"> Little Gladys appears to be a young girl on the S.S. Northwestern, of whom James McIntyre seems to be fond. 
+            <note type="biographical"> Little Gladys appears to be a young girl on the <name type="ship">S.S. Northwestern</name>, of whom James McIntyre seems to be fond. 
           </note>
           </person>
           <person xml:id="Burns"><persName>Burns</persName>
-          <note type="biographical">Extensive information is not available regarding the identity of Burns, but James McIntyre's letters indicate that McIntyre respects 
-           Burns and McIntyre even quotes him in an 8/23/1909 letter to Gladys Stephens.</note>
+          <note type="biographical">James McIntyre's letters indicate that McIntyre respects 
+           Burns, and McIntyre even quotes him in a letter of 8/23/1909 to Gladys Stephens.</note>
           </person>
-          <person xml:id="Scotchman"><persName>the Scotchman</persName>
-            <note type="biographical">The identity of the Scotchman is unknown. However, he may be Adelaide's fiance, as evidenced 
+          <person xml:id="Scotchman"><persName>Scotchman</persName>
+            <note type="biographical">"The Scotchman" may be Adelaide's fiance, as evidenced 
           by the correspondance between Gladys Stephens and James McIntyre in the late summer and early autumn of 1909.</note>
           </person>
-          <person xml:id="MsM"><persName>James McIntyre's father</persName>
+          <person xml:id="MsM"><persName>McIntyre [James McIntyre's father]</persName>
             <note type="biographical">In his 8/23/1909 letter to Gladys Stephens, James McIntyre thanks Gladys Stephens for inquiring about his father and
             reports that his father is doing <q>nicely.</q></note>
           </person>
-          <person xml:id="MrM"><persName>James McIntyre's mother</persName>
-            <note type="biographical">In his 8/23/1909 letter to Gladys Stephens, James McIntyre expresses his eagerness to tell his mother about his 
-            mother <q>all about</q> Gladys.</note>
+          <person xml:id="MrM"><persName>McIntyre [James McIntyre's mother]</persName>
+            <note type="biographical">In his 8/23/1909 letter to Gladys Stephens, James McIntyre
+              expresses his eagerness to tell his mother <q>all about</q>
+              Gladys.</note>
           </person>
           <person xml:id="MrJ">
             <persName>Jones, Mr</persName>
@@ -2348,9 +2354,9 @@
             back home.</note>
           </person>
           <person xml:id="THM">
-            <persName>"the man"</persName>
-            <note type="biographical">Adelaide's fiance. Gladys Stephens never refers to 
-              him by name, but tells her mother about his income ($50 per week) 
+            <persName>Adelaide MacPhearson's fiance ("the man")</persName>
+            <note type="biographical">Gladys Stephens never refers to Adelaide's fiance
+              by name, but tells her mother about his income ($50 per week) 
               and drinking habits (<q>the man</q> prefers a good cocktail at his club)
               in her letter postmarked September 24, 1909. He may also be known as 
               <q>the Scotchman.</q> In his letter to Gladys Stephens of 23 August 1909, James McIntyre 
@@ -2397,7 +2403,8 @@
           </person>
           <person xml:id="Pauline">
             <persName>Pauline</persName>
-            <note type="biographical">In her letter to her mother on October 5, 1909, Gladys mentions that she has written to Pauline but still needs to mail the letter.</note>
+            <note type="biographical">In her letter to her mother of October 5, 1909, Gladys Stephens
+              mentions that she has written to Pauline but still needs to mail the letter.</note>
           </person>
           <person xml:id="MrH">
             <persName>Holland, Mr</persName>
@@ -2440,8 +2447,8 @@
               Steamship Company's headquarters in Seattle argues for the plausibility of Irene Palmer 
               hitching a ride to spend time with her brother and to see the landscape of the Pacific 
               Northwest 
-              <bibl><ref target="#Census1900IP">United States Census, 1900</ref>; 
-              <ref target="#Census1910IP">United States Census, 1910</ref></bibl>.
+              (<bibl><ref target="#Census1900IP">United States Census, 1900</ref>; 
+              <ref target="#Census1910IP">United States Census, 1910</ref></bibl>).
             </note>
           </person>
           <person xml:id="HEP">
@@ -2454,16 +2461,16 @@
             <residence when="1920" source="#Census1920HEP">Pierce County, WA</residence>
             <residence when="1930" source="#Census1930HEP">Richmond, NY</residence>
             <note type="biographical">
-              In his letter to Gladys Stephens of 04 October 1909, James J. McIntyre speaks of spending 
-              time with the S.S. Northwestern's purser's sister, whom he identifies as Irene Palmer. 
+              In his letter to Gladys Stephens of 04 October 1909, James J. McIntyre mentions spending 
+              time with the <name type="ship">S.S. Northwestern's</name> purser's sister, whom he identifies as Irene Palmer. 
               Though McIntyre never mentions the purser by name, the 1900 U.S. Census shows that Irene 
               Palmer lived with two older brothers: Gilbert S. and Herbert E. Palmer. The 1910 Census 
               indicates that Gilbert S. Palmer was still a member of the family household, while Herbert 
               E. Palmer is not listed, suggesting that the purser of whom Macintyre speaks is Herbert E. 
               Palmer. In fact, a Herbert E. Palmer corresponding with the relevant genealogical data 
               does not appear at all on the 1910 Census, but this is not surprising if we consider that 
-              the itinerant nature of his duties on the Northwestern could have prevented his being 
-              recorded for the 1910 Census. It's likely that he didn't die during this gap, as a Herbert 
+              the itinerant nature of his duties on the <name type="ship">Northwestern</name> could have prevented his being 
+              recorded for the 1910 Census. It is likely that he didn't die during this gap, as a Herbert 
               E. Palmer matching the relevant genealogical data is recorded in the 1920 Census. At this 
               point, he had married Mary Palmer, a first generation Bohemian-American whose parents 
               emigrated from Bohemia, and the two lived in Pierce County, WA, which includes the greater 
@@ -2474,11 +2481,11 @@
               the head of the Palmer household, Gustavus Palmer, was born in Maine. Herbert's mother, 
               Minnie T. Palmer, was born in Massachusetts, and didn't marry Gustavus until 1882, 
               approximately 6 years after Herbert's birth 
-              <bibl><ref target="#Census1900HEP">United States Census, 1900</ref>; 
+              (<bibl><ref target="#Census1900HEP">United States Census, 1900</ref>; 
               <ref target="#Census1900MTP">United States Census, 1900</ref>; <ref target="#Census1910IP">
               United States Census, 1910</ref>; <ref target="#Census1920MP">United States Census, 1920</ref>; 
               <ref target="#Census1920HEP">United States Census, 1920</ref>;<ref target="#Census1930HEP">
-              United States Census, 1930</ref></bibl>.
+              United States Census, 1930</ref></bibl>).
             </note>
           </person>
           <person xml:id="HH">
@@ -2494,13 +2501,13 @@
             <persName>Smith, Berenice</persName>
             <note type="biographical">
               A Mutual friend of Gladys and her mother, Berenice Smith is mentioned as being a person that Gladys
-              might get to check in on her mother if she doesn't write back on 06 September 1909. So Berenice Smith presumably
-              lives in Newton near ATS.
+              might get to check in on her mother if she doesn't write back on 06 September 1909. Presumably, Berenice Smith
+              lived in Newton near the Stephens family.
             </note>
           </person>
          
           <person xml:id="ML">
-            <persName>Mrs. L</persName>
+            <persName>L, Mrs</persName>
             <note type="biographical">
               A Mutual friend of Gladys Stephens and her mother, Mrs. L. lives in El Paso, presumably near Gladys.
               In her letter of September 6, 1909, Mrs. Stephens mentions making a pillow and sending it to Gladys to give to Mrs. L.
@@ -2509,8 +2516,8 @@
             </note>
           </person>
           <person xml:id="Virginians">
-            <persName>The Virginians</persName>
-            <note type="biographical"> In a letter dated July 14, 1909, Gladys describes travelling
+            <persName>Virginians</persName>
+            <note type="biographical"> In a letter dated July 14, 1909, Gladys describes traveling
               with a group of Virginians. She describes them as "jolly." The only Virginian
               described in detail is Mrs. Hughes; she is described as the cousin of Mrs. Dana Gibson
               and Mrs. Waldorf Astor as well as the cousin of a Mrs. Jordon who has two sons.
@@ -2518,7 +2525,7 @@
           </person>
           
           <person xml:id="Hughes">
-            <persName>Mrs. Hughes</persName>
+            <persName>Hughes, Mrs</persName>
             <note type="biographical"> In a letter dated July 14, 1909, Gladys Stephens describes travelling
               with a Virginian named Mrs. Hughes. Mrs. Hughes is described as the cousin of Mrs.
               Dana Gibson and Mrs. Waldorf Astor as well as the cousin of a Mrs. Jordon who has two
@@ -2526,7 +2533,7 @@
           </person>
 
         <person xml:id="MDG">
-          <persName>Mrs. Dana Gibson</persName>
+          <persName>Gibson, Mrs. Dana</persName>
             <note type="biographical"> In a letter dated July 14, 1909, Gladys Stephens describes traveling
               with a Virginian named Mrs. Hughes, who is the cousin of Mrs. Dana Gibson and Mrs.
               Waldorf Astor. Mrs. Dana Gibson is likely a reference to Irene Langhorne, originally
@@ -2538,7 +2545,7 @@
         </person>
         
         <person xml:id="MWA">
-          <persName>Mrs. Waldorf Astor</persName>
+          <persName>Astor, Mrs. Waldorf</persName>
             <note type="biographical"> In a letter dated July 14, 1909, Gladys Stephens describes travelling
               with a Virginian named Mrs. Hughes who is the cousin of Mrs. Dana Gibson and Mrs.
               Waldorf Astor. "Mrs. Waldorf Astor" likely refers to Nancy Astor, wife of British
@@ -2550,7 +2557,7 @@
         </person>
           
           <person xml:id="MJ">
-            <persName>Mrs. Jordon</persName>
+            <persName>Jordon, Mrs</persName>
             <note type="biographical"> In a letter dated July 14, 1909, Gladys Stephens describes Mrs. Jordon
               as a cousin of Mrs. Hughes (one of Gladys' travelling companions, a Virginian). Mrs.
               Jordon is described as having two sons and a dead husband. </note>
