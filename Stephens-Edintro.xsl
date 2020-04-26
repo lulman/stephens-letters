@@ -613,7 +613,7 @@
             <xsl:if test="tei:region[@type='city']">; <xsl:value-of select="tei:region[@type='city']"/></xsl:if>
             <xsl:if test="tei:location/tei:geo"> (Lat/Long: 
                <xsl:value-of select="tei:location/tei:geo"/>)</xsl:if>. 
-            <xsl:value-of select="tei:desc"/>
+            <xsl:apply-templates select="tei:desc"/>
          </p>
       </xsl:for-each>
    </xsl:template>
