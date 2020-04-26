@@ -666,6 +666,7 @@
    </xsl:template>
 
    <!-- Format miscellaneous elements -->
+   <xsl:template match="tei:del"><span class="cancel"><xsl:apply-templates/></span></xsl:template>
    <xsl:template match="tei:lb"><br/></xsl:template>
    <xsl:template match="tei:fileDesc/tei:titleStmt/tei:title/tei:lb">
       <br/><xsl:apply-templates/>
@@ -711,7 +712,7 @@
       <xsl:apply-templates/>
    </xsl:template>
    <xsl:template match="tei:name[@type='ship']">
-      <i><xsl:apply-templates/></i>
+      <xsl:element name="span"><xsl:attribute name="style">font-style:italic;</xsl:attribute><xsl:apply-templates/></xsl:element>
    </xsl:template>
    <xsl:template match="tei:foreign">
       <i>

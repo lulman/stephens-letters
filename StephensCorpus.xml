@@ -1077,8 +1077,7 @@
           <!-- Lewis Ulman's places entries begin here. -->
           <place type="city" xml:id="Seattle" source="#TGN">
             <placeName>Seattle</placeName>
-            <desc>Gladys Stephens attends the 1909 Seattle World's Fair and 
-              James J. McIntyre is in Seattle in early October 1909.</desc>
+            <desc>Gladys Stephens describes Seattle at some length in her letters to her mother of July and August 1909.</desc>
             <country>USA</country>
             <region type="state">Washington</region>
             <region type="county">King</region>
@@ -1110,10 +1109,9 @@
             <country>USA</country>
             <region type="state">Washington</region>
             <region type="city">Seattle</region>            
-            <desc>The Hotel Georgian was built in 1908 and had seven floors and 108 rooms.
-            It was demolished in 1971. Gladys stayed at the Hotel Georgian during her visit to Seattle in August of 1909.  It 
-            seems that she made repeated visits to the Georgian both before and after her excursion to
-            Alaska. </desc>
+            <desc>Gladys Stephens stayed at the Hotel Georgian during her visits to Seattle in
+              August of 1909, before and after her excursion to Alaska. The Hotel Georgian was
+              built in 1908 and had seven floors and 108 rooms. It was demolished in 1971.</desc>
           </place>
           <place type="college" xml:id="SeattleCollege">
             <placeName>University of Washington</placeName>
@@ -1125,9 +1123,8 @@
             </location>
             <region type="state">Washington</region>
             <region type="city">Seattle</region>
-            <desc>In her letter dated July 10, 1909, Gladys Stephens mentions that the buildings at
-              the 1909 Seattle World's Fair will be used later by Seattle College. By this, she
-              almost certainly means the University of Washington, on whose grounds the
+            <desc>In her letter of July 10, 1909, Gladys Stephens mentions that the buildings at
+              the 1909 Seattle World's Fair will be used later by Seattle College (the University of Washington), on whose grounds the
               Alaska-Yukon-Pacific Exposition (aka the 1909 Seattle World's Fair) was built.</desc>
           </place>
           <place type="building" xml:id="ForestryBuilding" source="#TGN">
@@ -1142,12 +1139,11 @@
               </address>
               <geo>47.655191 -122.305191</geo>
             </location>
-            <desc>In her letter dated July 10, 1909, Gladys Stephens describes the Forestry Building at the 1909 Seattle World's Fair.</desc>
+            <desc>In her letter of July 10, 1909, Gladys Stephens describes the Forestry Building at the 1909 Alaska-Yukon-Pacific Exposition.</desc>
           </place>
           <place type="hotel" xml:id="Tourist" source="#TGN">
             <placeName>Tourist Hotel</placeName>
-            <desc>James J. McIntyre stayed at the Tourist Hotel on Oct. 11 1909. According to the stationary it was run 
-              by D.P. Foley</desc>
+            <desc>James McIntyre stayed at the Tourist Hotel on Oct. 11 1909.</desc>
             <country>USA</country>
             <region type="state">Washington</region>
             <region type="city">Tacoma</region>
@@ -1161,8 +1157,7 @@
             
           <place type="city" xml:id="Boston" source="#TGN">
             <placeName>Boston</placeName>
-            <desc>Gladys Stephens mentions a correspondence occurring in Boston in her Sept. 27, 1909 lettter to
-            Mrs. A.T. Stephens.  She also mentions making Boston Baked Beans in the same lettter.</desc>
+            <desc>Gladys Stephens's hometown of Newton, MA is a suburb of Boston. She mentions corresponding with friends in Boston in her Sept. 27, 1909 lettter.</desc>
             <country>USA</country>
             <region type="state">Massachusetts</region>
             <location>
@@ -1180,20 +1175,21 @@
           </place>
           <place type="nation" xml:id="Japan" source ="#TGN">
             <placeName>Japan</placeName>
-            <desc>James J. McIntyre mentions Japan to Gladys on Sept 13 1909.</desc>
+            <desc>In his letter of 13 September, 1909, James McIntyre promises Gladys Stephens that
+              "we will have the trip of your life Some day and we'll be to China &amp; Japan and on down
+              to Manila."</desc>
             <location>
              <geo>36.0000 138.0000</geo> 
             </location>
           </place>
           <place type="nation" xml:id="Mexico" source="#TGN">
             <placeName>Mexico</placeName>
-            <desc>Gladys Stephens reminisces about her time in Mexico.</desc>
-            <desc>In her letter dated August 8, 1909, Gladys tells her mother
+            <desc>In her letter dated August 8, 1909, Gladys Stephens tells her mother
             about plans for an upcoming excursion to Mexico. She reports to 
             her mother in her Sept. 22, 1909 letter that while in Mexico she 
             caught head lice. She also comments on the rising political tensions
-            between President Diaz and the general populace, and discusses the 
-            upcoming 1909 meeting between Presidents Taft and Diaz. In her Sept. 27, 1909 letter Gladys describes her
+            between President Díaz and the general populace, and discusses the 
+            upcoming 1909 meeting between Presidents Taft and Díaz. In her Sept. 27, 1909 letter Gladys describes her
             state following her return from Mexico.</desc>
             <location>
               <geo>23.0000 -102.0000</geo>
@@ -1201,14 +1197,18 @@
           </place>
           <place type="nation" xml:id="China" source="#TGN">
             <placeName>China</placeName>
-            <desc>James J. McIntyre mentions this to Gladys in a letter on Sept. 13 1909.</desc>
+            <desc>In his letter of 13 September, 1909, James McIntyre promises Gladys Stephens that
+              "we will have the trip of your life Some day and we'll be to China &amp; Japan and on down
+              to Manila."</desc>
             <location>
               <geo>35.0000 105.0000</geo>
             </location>
           </place>
           <place type="city" xml:id="Manila" source="#TGN">
             <placeName>Manila</placeName>
-            <desc>James J. McIntyre mentions this to Gladys Stephens in a letter on Sept. 13 1909</desc>
+            <desc>In his letter of 13 September, 1909, James McIntyre promises Gladys Stephens that
+              "we will have the trip of your life Some day and we'll be to China &amp; Japan and on down
+              to Manila."</desc>
             <country>Philippines</country>
             <location>
               <geo>14.6167 120.9667</geo>
@@ -1216,33 +1216,25 @@
           </place>
           <place type="city" xml:id="Portland" source="#TGN">
             <placeName>Portland</placeName>
-            <desc>Gladys Stephens mentions as a site of a known house to Mrs. A.T. Stephens on Sept. 27, 1909. 
-              James J. McIntyre also talks about it as one of Gladys's destinations in his letter to her on 8-13-1909.</desc>
+            <desc>In his letter to Gladys Stephens of 13 August 1909, James McIntyre mentions
+              Portland as one of Gladys's destinations.</desc>
             <country>USA</country>
             <region type="state">Maine</region>
             <location>
               <geo>43.6500 -70.2500</geo>
             </location>
           </place>
-          <place type="state" xml:id="Maine" source="#TGN">
-            <placeName>Maine</placeName>
-            <desc>Gladys Stephens notes an acquaintance residing in Maine</desc>
-            <country>USA</country>
-            <location>
-              <geo>45.0000 -69.0000</geo>
-            </location>
-          </place>
           <place type="state" xml:id="California" source="#TGN">
             <placeName>California</placeName>
-            <desc>Gladys has visited California recently and describes her visit in her Sept. 27 letter
-            to Mrs. A.T. Stephens.</desc>
+            <desc>Gladys Stephens mentions that she will travel from Seattle to El Paso, TX by way of California. Canceled addresses
+            on letters from James McIntyre suggest that she passed through Los Angeles at some point in her journey.</desc>
             <country>USA</country>
             <location>
               <geo>37.0000 -119.0000</geo>
             </location>
           </place>
           <place type="state" xml:id="Texas" source="#TGN"><placeName>Texas</placeName>
-            <desc>In her letter dated August 8, 1909, Gladys mentions meeting a wealthy
+            <desc>In her letter dated August 8, 1909, Gladys Stephens mentions meeting a wealthy
             judge who owns a large ranch in Texas.  It is also clear that this judge is an 
             acquaintance of Gladys's Uncle Alex.  She has been invited to visit them, although
             the exact location of their ranch within the state of Texas is not specified.</desc>
@@ -1264,7 +1256,7 @@
           </place>
           <place type="city" xml:id="Klawock" source="#TGN">
             <placeName>Klawock</placeName>
-            <desc>The Northwestern picks up a cannery crew in Klawock.</desc>
+            <desc>The <name type="ship">Northwestern</name> picks up a cannery crew in Klawock.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <region type="county">Prince of Wales-Outer Ketchikan</region>
@@ -1274,7 +1266,7 @@
           </place>
           <place type="village" xml:id="Tuxekan" source="#TGN">
             <placeName>Tuxekan</placeName>
-            <desc>James J. McIntyre writes to Gladys about the totems of Tuxekan, a Tlingit village.</desc>
+            <desc>In his letter of 4 October 1909, James McIntyre writes to Gladys Stephens about the totems of Tuxekan, a Tlingit village.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <region type="county">Prince of Wales-Outer Ketchikan</region>
@@ -1285,7 +1277,7 @@
           </place>
           <place type="city" xml:id="Ketchikan" source="#TGN">
             <placeName>Ketchikan</placeName>
-            <desc>James J. McIntyre stops briefly in Ketchikan and spends some time with Irene Palmer.</desc>
+            <desc>In his letter of 4 October 1909, James McIntyre discusses a visit to Ketchikan with Irene Palmer, sister of the ship's purser.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <region type="county">Ketchikan Gateway</region>
@@ -1295,8 +1287,8 @@
           </place>
           <place type="neighborhood" xml:id="Georgetown" source="#TGN">
             <placeName>Georgetown</placeName>
-            <desc>James J. McIntyre recounts an accident involving an 
-            automobile coming from the Georgetown neighborhood.</desc>
+            <desc>In his letter of 4 October 1909, James McIntyre recounts an accident involving an 
+            automobile coming from the Georgetown neighborhood of Seattle.</desc>
             <country>USA</country>
             <region type="state">Washington</region>
             <region type="county">King</region>
@@ -1307,9 +1299,11 @@
           </place>
           <place type="fairgrounds" xml:id="AYPE">
             <placeName>Alaska-Yukon-Pacific Exposition</placeName>
-            <desc>In his letter of 04 October 1909, James J. McIntyre recounts an accident 
-            involving an electric street car derailing at the entrance to the Alaska-Yukon 
-            Pacific Exposition, which later became the campus for the University of Washington.</desc>
+            <desc>Both James McIntyre and Gladys Stephens write about the Alaska-Yukon-Pacific
+              Exposition held in Seattle, Washington in 1909. Stephens describes a visit to the
+              exposition in her letter to her mother of 6 July 1909, and in his letter of 04 October
+              1909, McIntyre recounts an accident involving an electric street car derailing at the
+              entrance to the exposition.</desc>
             <country>USA</country>
             <region type="state">Washington</region>
             <region type="county">King</region>
@@ -1320,7 +1314,7 @@
           </place>
           <place type="city" xml:id="Newton" source="#TGN">
             <placeName>Newton</placeName>
-            <desc>Mrs. A. T. Stephens lives in Newton.</desc>
+            <desc>Gladys Stephens's family lives in Newton, MA, a suburb of Boston.</desc>
             <country>USA</country>
             <region type="state">Massachusetts</region>
             <region type="county">Middlesex</region>
@@ -1330,7 +1324,7 @@
           </place>
           <place type="city" xml:id="Sherborn" source="#TGN">
             <placeName>Sherborn</placeName>
-            <desc>Cora L. Anderson writes to Mrs. A.T. Stephens from Sherborn.</desc>
+            <desc>On 19 August 1909, Cora L. Anderson, Gladys Stephens's aunt, writes to Stephens's mother from Sherborn.</desc>
             <country>USA</country>
             <region type="state">Massachusetts</region>
             <region type="county">Middlesex</region>
@@ -1340,7 +1334,7 @@
           </place>
           <place type="state" xml:id="Colorado" source="#TGN">
             <placeName>Colorado</placeName>
-            <desc>Cora mentions that Gladys sent her a letter from Colorado</desc>
+            <desc>In her letter of 19 August 1909, Cora Anderson, Gladys Stephens's aunt, mentions that Gladys sent her a letter from Colorado.</desc>
             <country>United State</country>
             <location>
               <geo>39.0000 -105.0000</geo>
@@ -1349,7 +1343,7 @@
           </place>
           <place type="state" xml:id="Montana">
             <placeName>Montana</placeName>
-          <desc>James J. McIntyre mentions some passengers are from here.</desc>
+          <desc>In his letter of 13 September 1909, James McIntyre mentions that some passengers on the <name type="ship">Northwestern</name> are from Montana.</desc>
           <country>USA</country>
             <location>
               <geo>47.0000 -110.0000</geo>
@@ -1357,7 +1351,7 @@
           </place>
           <place type="city" xml:id="SanDiego" source="#TGN">
             <placeName>San Diego</placeName>
-            <desc>Gladys sends her mother a picture taken in San Diego.</desc>
+            <desc>In her letter of 5 October 1909, Gladys mentions having earlier sent her mother a picture taken in San Diego.</desc>
             <country>USA</country>
             <region type="state">California</region>
             <region type="county">San Diego</region>
@@ -1367,8 +1361,8 @@
           </place>
           <place type="city" xml:id="SanFrancisco" source="#TGN">
             <placeName>San Francisco</placeName>
-            <desc>James J. McIntyre addresses his 8-13-1909 letter to Gladys Stephens in San Francisco, 
-              and the letter mentions it as the next location on her trip.</desc>
+            <desc>James McIntyre addresses his letter of 13 August 1909 to Gladys Stephens in San Francisco, 
+              and the letter mentions San Francisco as the next location on her trip.</desc>
             <country>United States</country>
             <region type="state">California</region>
             <region type="county">San Francisco</region>
@@ -1378,7 +1372,7 @@
           </place>
           <place type="city" xml:id="LosAngeles" source="#TGN">
             <placeName>Los Angeles</placeName>
-            <desc>Gladys spends some time in Los Angeles before leaving to El Paso.</desc>
+            <desc>In her letter of 8 August 1909, Gladys Stephens asks her mother to "Address next letters to Los Angeles General Delivery."</desc>
             <country>USA</country>
             <region type="state">California</region>
             <location>
@@ -1388,7 +1382,7 @@
           </place>
             <place type="city" xml:id="Valdez" source="#TGN">
             <placeName>Valdez</placeName>
-            <desc>James J. McIntyre mentions that he will travel to Valdez in his 8-23-1909 letter to Gladys Stephens.</desc>
+            <desc>In his 23 August 1909 letter to Gladys Stephens, James McIntyre mentions that he will travel to Valdez.</desc>
               <country>USA</country>
               <region type="state">Alaska</region>
               <location>
@@ -1397,7 +1391,7 @@
             </place>
           <place type="cape" xml:id="CapeSt.Elias" source="#TGN">
             <placeName>Cape St. Elias</placeName>
-            <desc>In his 8-23-1909 letter to Gladys Stephens, James J. McIntyre mentions that he and his crew are looking for Cape St. Elias.</desc>
+            <desc>In his 23 August 1909 letter to Gladys Stephens, James McIntyre mentions that he and his crew are looking for Cape St. Elias.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <location>
@@ -1407,7 +1401,7 @@
           
           <place type="city" xml:id="Juneau" source="#TGN">
             <placeName>Juneau</placeName>
-            <desc>In his 8-23-1909 letter to Gladys Stephens, James J. McIntyre mentions that he will shortly be arriving in Juneau.</desc>
+            <desc>In his 23 August 1909 letter to Gladys Stephens, James McIntyre mentions that he will shortly be arriving in Juneau.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <location>
@@ -1416,7 +1410,7 @@
        
           <place type="bay" xml:id="Taku" source="#TGN">
             <geogName>Taku</geogName>
-            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James McIntyre refers to stopping in Taku, AK.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <location>
@@ -1426,7 +1420,7 @@
        
           <place type="city" xml:id="Skagway" source="#TGN">
             <geogName>Skagway</geogName>
-            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James McIntyre refers to stopping in Skagway, AK.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <location>
@@ -1435,7 +1429,7 @@
           </place>
           <place type="bay" xml:id="Chilkoot" source="#TGN">
             <geogName>Chilkoot</geogName>
-            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James McIntyre refers to stopping in Chilkoot, AK.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <location>
@@ -1444,7 +1438,7 @@
           </place>
           <place type="creek" xml:id="Gypsum" source="#TGN">
             <geogName>Gypsum</geogName>
-            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James McIntyre refers to stopping in Gypsum, AK.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <location>
@@ -1454,7 +1448,7 @@
    
           <place type="city" xml:id="Tacoma" source="#TGN">
             <geogName>Tacoma</geogName>
-            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James McIntyre refers to stopping in Tacoma, WA.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <!-- Tacoma, Alaska? not Washington? -->
@@ -1464,7 +1458,7 @@
           </place>
           <place type="city" xml:id="Sitka" source="#TGN">
             <geogName>Sitka</geogName>
-            <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
+            <desc>In his letter of 13 September 1909, James McIntyre refers to stopping in Sitka, AK.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <location>
@@ -1481,10 +1475,8 @@
               <geo>44.4620852 -110.6424411</geo>
             </location>
             <desc>In her letters of July 6 and 10, 1909, Stephens refers to a three-day trip through
-            Yellowstone National Park on her way to Seattle.</desc>
-            <desc>In her letter dated August 8, 1909, Gladys Stephens mentions having sent postcards 
-              from Yellowstone to her Aunt, which she likely purchased on her three-day excursion
-              prior to returning to Seattle.</desc>
+            Yellowstone National Park on her way to Seattle, and in her letter of August 8, 1909, Gladys Stephens mentions having sent postcards 
+              from Yellowstone to her Aunt.</desc>
           </place>
           <place type="city" xml:id="StLouis" source="#TGN">
             <placeName>Saint Louis</placeName>
@@ -1493,15 +1485,8 @@
             <location>
               <geo>38.6167 -90.1833</geo>
             </location>
-          </place>
-          <place type="city" xml:id="Rome" source="#TGN">
-            <placeName>Rome</placeName>
-            <country>Italy</country>
-            <location>
-              <geo>41.9000 12.4833</geo>
-            </location>
-            <desc>Mentioned in the sense of the saying "all roads lead to Rome" in the 9-27 letter from Gladys to
-            A.T. Stephens</desc>
+            <desc>In her letter of 6 July 1909 to her mother, Gladys Stephens mentions that one of her fellow travelers said that
+              the Alaska-Yukon-Pacific Exposition "is much superior to the St. Louis [World's Fair]."</desc>
           </place>
         </listPlace>
         
@@ -1544,10 +1529,10 @@
             to the Alaska-Pacific Navigation Company</q> (this is also when it was renamed the Santa Clara). 
             The Alaska-Pacific Navigation Company then sold it to the Northwestern Steamship Company, 
             which then merged with the Alaska Steamship Company. McIntyre was transferred from 
-            the Santa Clara to the Northwestern in August 1909, and by November 6, 1909, 
+            the <name type="ship">Santa Clara</name> to the <name type="ship">Northwestern</name> in August 1909, and by November 6, 1909, 
             the Santa Clara had been sold again, this time to the North Pacific Steamship Company of 
             San Francisco. The article in the <title level="j">Pacific Merchant Marine</title> also offers a specific description of 
-            the ship: <q>The Santa Clara is a wooden steamship, with modern 
+            the ship: <q>The <name type="ship">Santa Clara</name> is a wooden steamship, with modern 
             equipments, including the wireless telegraph, and is regarded as a good sailor. 
             She has comfortable passenger accommodations, and is a good cargo carrier. 
             She is 223 feet long, has a 38-foot beam, and a depth of 24-1 feet. 
@@ -1573,7 +1558,7 @@
             <orgName>Alaska Steamship Company</orgName>
             <state type="company">
               <desc>
-                James J. McIntyre sails on and uses stationery from the <name type="ship">S.S. Northwestern</name>, which was 
+                James McIntyre sails on and uses stationery from the <name type="ship">S.S. Northwestern</name>, which was 
                 acquired by the Alaska Steamship Company when it merged with the Northwest (Northern) 
                 Steamship Company in 1909. Based in Seattle, the Alaska Steamship Company was founded 
                 in 1895 and disbanded in 1971.
@@ -2220,7 +2205,7 @@
           </person>
           <person xml:id="JJM">
             <persName>McIntyre, James J</persName>
-            <note type="biographical">James J. McIntyre is a crewmember on the <name type="ship">S.S. Northwestern</name>. 
+            <note type="biographical">James McIntyre is a crewmember on the <name type="ship">S.S. Northwestern</name>. 
             He is enamoured with Gladys Stephens and writes to her often between the summer of 1909 and 
             the fall of 1909 (and probably later). It is likely that McIntyre was a tramp enginner, a low-ranking 
             crewman who switches jobs frequently and has little formal training. Between his letters of 13 August 
@@ -2430,7 +2415,7 @@
             </birth>
             <residence when="1910" source="#Census1910IP">Tacoma, WA</residence>
             <note type="biographical">
-              In his letter to Gladys Stephens of 04 October 1909, James J. McIntyre identifies 
+              In his letter to Gladys Stephens of 04 October 1909, James McIntyre identifies 
               Irene Palmer as the sister of the Purser on the S.S. Northwestern, and indicates 
               that she is 17 years old at the time of the letter. The 1900 U.S. Census records 
               that an Irene Palmer was born in September 1892 in Anderson Island, Washington, 
@@ -2456,7 +2441,7 @@
             <residence when="1920" source="#Census1920HEP">Pierce County, WA</residence>
             <residence when="1930" source="#Census1930HEP">Richmond, NY</residence>
             <note type="biographical">
-              In his letter to Gladys Stephens of 04 October 1909, James J. McIntyre mentions spending 
+              In his letter to Gladys Stephens of 04 October 1909, James McIntyre mentions spending 
               time with the <name type="ship">S.S. Northwestern's</name> purser's sister, whom he identifies as Irene Palmer. 
               Though McIntyre never mentions the purser by name, the 1900 U.S. Census shows that Irene 
               Palmer lived with two older brothers: Gilbert S. and Herbert E. Palmer. The 1910 Census 
@@ -2488,7 +2473,7 @@
             <note type="biographical">
               After a night of drinking, Henry Hiser crashed an automobile carrying approximately seven 
               passengers and fled the scene (<bibl><ref target="#SS19090923"><title level="a">Two Girls Burned and Crushed 
-              Beyond Human Resemblance</title></ref></bibl>). James J. McIntyre refers to this accident in his letter 
+              Beyond Human Resemblance</title></ref></bibl>). James McIntyre refers to this accident in his letter 
               to Gladys M. Stephens of 04 October 1909, and insists that he has moved on from such a lifestyle.
             </note>
           </person>
