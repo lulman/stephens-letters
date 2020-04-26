@@ -607,8 +607,10 @@
             <xsl:if test="tei:geogName[2]"> (<xsl:value-of select="tei:geogName[2]"/>)</xsl:if>
             <xsl:if test="tei:placeName[1]"><strong><xsl:value-of select="tei:placeName[1]"/></strong></xsl:if>
             <xsl:if test="tei:placeName[2]"> (<xsl:value-of select="tei:placeName[2]"/>)</xsl:if>.
-            <xsl:value-of select="tei:country"/> 
-            <xsl:if test="tei:region">; <xsl:value-of select="tei:region"/></xsl:if>
+            <xsl:if test="tei:country"><xsl:value-of select="tei:country"/> </xsl:if>
+            <xsl:if test="tei:region[@type='state']">; <xsl:value-of select="tei:region[@type='state']"/></xsl:if>
+            <xsl:if test="tei:region[@type='county']">; <xsl:value-of select="tei:region[@type='county']"/> county</xsl:if>
+            <xsl:if test="tei:region[@type='city']">; <xsl:value-of select="tei:region[@type='city']"/></xsl:if>
             <xsl:if test="tei:location/tei:geo"> (Lat/Long: 
                <xsl:value-of select="tei:location/tei:geo"/>)</xsl:if>. 
             <xsl:value-of select="tei:desc"/>

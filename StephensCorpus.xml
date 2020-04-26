@@ -1079,7 +1079,7 @@
             <placeName>Seattle</placeName>
             <desc>Gladys Stephens attends the 1909 Seattle World's Fair and 
               James J. McIntyre is in Seattle in early October 1909.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Washington</region>
             <region type="county">King</region>
             <location>
@@ -1092,7 +1092,7 @@
           <place type="sound" xml:id="Puget" source="#TGN">
             <geogName>Puget Sound</geogName>
             <desc>In her letter of 9 July 1909, Gladys Stephens anticipates visiting Puget Sound.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Washington</region>
             <location>
               <geo>47.8333 -122.4333</geo>
@@ -1107,6 +1107,9 @@
            </address>
               <geo>47.610098 -122.336197</geo>
             </location>
+            <country>USA</country>
+            <region type="state">Washington</region>
+            <region type="city">Seattle</region>            
             <desc>The Hotel Georgian was built in 1908 and had seven floors and 108 rooms.
             It was demolished in 1971. Gladys stayed at the Hotel Georgian during her visit to Seattle in August of 1909.  It 
             seems that she made repeated visits to the Georgian both before and after her excursion to
@@ -1120,6 +1123,8 @@
               </address>
               <geo>47.653016 -122.304955</geo>
             </location>
+            <region type="state">Washington</region>
+            <region type="city">Seattle</region>
             <desc>In her letter dated July 10, 1909, Gladys Stephens mentions that the buildings at
               the 1909 Seattle World's Fair will be used later by Seattle College. By this, she
               almost certainly means the University of Washington, on whose grounds the
@@ -1127,6 +1132,9 @@
           </place>
           <place type="building" xml:id="ForestryBuilding" source="#TGN">
             <placeName>Forestry Building</placeName>
+            <country>USA</country>
+            <region type="state">Washington</region>
+            <region type="city">Seattle</region>
             <location>
               <address>
                 <addrLine>Boundary Rd.</addrLine>
@@ -1140,21 +1148,22 @@
             <placeName>Tourist Hotel</placeName>
             <desc>James J. McIntyre stayed at the Tourist Hotel on Oct. 11 1909. According to the stationary it was run 
               by D.P. Foley</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Washington</region>
+            <region type="city">Tacoma</region>
             <location> <address>           
             <addrLine>1009, 1011, 1010 Pacific Ave.</addrLine>            
             <addrLine>Tacoma, WA</addrLine>
             </address>
             <geo>47.254679, -122.438915</geo>
             </location>
-              </place>
+          </place>
             
           <place type="city" xml:id="Boston" source="#TGN">
             <placeName>Boston</placeName>
             <desc>Gladys Stephens mentions a correspondence occurring in Boston in her Sept. 27, 1909 lettter to
             Mrs. A.T. Stephens.  She also mentions making Boston Baked Beans in the same lettter.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Massachusetts</region>
             <location>
               <geo>42.3500 -71.0500</geo>
@@ -1172,7 +1181,6 @@
           <place type="nation" xml:id="Japan" source ="#TGN">
             <placeName>Japan</placeName>
             <desc>James J. McIntyre mentions Japan to Gladys on Sept 13 1909.</desc>
-            <country>Japan</country>
             <location>
              <geo>36.0000 138.0000</geo> 
             </location>
@@ -1187,7 +1195,6 @@
             between President Diaz and the general populace, and discusses the 
             upcoming 1909 meeting between Presidents Taft and Diaz. In her Sept. 27, 1909 letter Gladys describes her
             state following her return from Mexico.</desc>
-            <country>Mexico</country>
             <location>
               <geo>23.0000 -102.0000</geo>
             </location>
@@ -1195,7 +1202,6 @@
           <place type="nation" xml:id="China" source="#TGN">
             <placeName>China</placeName>
             <desc>James J. McIntyre mentions this to Gladys in a letter on Sept. 13 1909.</desc>
-            <country>China</country>
             <location>
               <geo>35.0000 105.0000</geo>
             </location>
@@ -1212,17 +1218,16 @@
             <placeName>Portland</placeName>
             <desc>Gladys Stephens mentions as a site of a known house to Mrs. A.T. Stephens on Sept. 27, 1909. 
               James J. McIntyre also talks about it as one of Gladys's destinations in his letter to her on 8-13-1909.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Maine</region>
             <location>
               <geo>43.6500 -70.2500</geo>
             </location>
           </place>
-          <place type="city" xml:id="Maine" source="#TGN">
+          <place type="state" xml:id="Maine" source="#TGN">
             <placeName>Maine</placeName>
             <desc>Gladys Stephens notes an acquaintance residing in Maine</desc>
-            <country>United States</country>
-            <region type="state">Maine</region>
+            <country>USA</country>
             <location>
               <geo>45.0000 -69.0000</geo>
             </location>
@@ -1231,8 +1236,7 @@
             <placeName>California</placeName>
             <desc>Gladys has visited California recently and describes her visit in her Sept. 27 letter
             to Mrs. A.T. Stephens.</desc>
-            <country>United State</country>
-            <region type="state">California</region>
+            <country>USA</country>
             <location>
               <geo>37.0000 -119.0000</geo>
             </location>
@@ -1292,7 +1296,7 @@
           <place type="neighborhood" xml:id="Georgetown" source="#TGN">
             <placeName>Georgetown</placeName>
             <desc>James J. McIntyre recounts an accident involving an 
-            automobile coming from Georgetown.</desc>
+            automobile coming from the Georgetown neighborhood.</desc>
             <country>USA</country>
             <region type="state">Washington</region>
             <region type="county">King</region>
@@ -1302,7 +1306,7 @@
             </location>
           </place>
           <place type="fairgrounds" xml:id="AYPE">
-            <placeName>Alaska-Yukon Pacific Exposition</placeName>
+            <placeName>Alaska-Yukon-Pacific Exposition</placeName>
             <desc>In his letter of 04 October 1909, James J. McIntyre recounts an accident 
             involving an electric street car derailing at the entrance to the Alaska-Yukon 
             Pacific Exposition, which later became the campus for the University of Washington.</desc>
@@ -1338,7 +1342,6 @@
             <placeName>Colorado</placeName>
             <desc>Cora mentions that Gladys sent her a letter from Colorado</desc>
             <country>United State</country>
-            <region type="state">Colorado</region>
             <location>
               <geo>39.0000 -105.0000</geo>
             </location>
@@ -1376,7 +1379,7 @@
           <place type="city" xml:id="LosAngeles" source="#TGN">
             <placeName>Los Angeles</placeName>
             <desc>Gladys spends some time in Los Angeles before leaving to El Paso.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">California</region>
             <location>
               <geo>34.0308 -118.1437</geo>
@@ -1386,7 +1389,7 @@
             <place type="city" xml:id="Valdez" source="#TGN">
             <placeName>Valdez</placeName>
             <desc>James J. McIntyre mentions that he will travel to Valdez in his 8-23-1909 letter to Gladys Stephens.</desc>
-              <country>United States</country>
+              <country>USA</country>
               <region type="state">Alaska</region>
               <location>
                 <geo>61.0751 -146.2054</geo>
@@ -1395,7 +1398,7 @@
           <place type="cape" xml:id="CapeSt.Elias" source="#TGN">
             <placeName>Cape St. Elias</placeName>
             <desc>In his 8-23-1909 letter to Gladys Stephens, James J. McIntyre mentions that he and his crew are looking for Cape St. Elias.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Alaska</region>
             <location>
               <geo>59.4827 -144.3511</geo>
@@ -1405,7 +1408,7 @@
           <place type="city" xml:id="Juneau" source="#TGN">
             <placeName>Juneau</placeName>
             <desc>In his 8-23-1909 letter to Gladys Stephens, James J. McIntyre mentions that he will shortly be arriving in Juneau.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Alaska</region>
             <location>
               <geo>58.1807 -134.2511</geo></location>
@@ -1414,7 +1417,7 @@
           <place type="bay" xml:id="Taku" source="#TGN">
             <geogName>Taku</geogName>
             <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Alaska</region>
             <location>
               <geo>58.0667 -134.0167</geo>
@@ -1424,7 +1427,7 @@
           <place type="city" xml:id="Skagway" source="#TGN">
             <geogName>Skagway</geogName>
             <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Alaska</region>
             <location>
               <geo>59.4500 -135.3000</geo>
@@ -1433,7 +1436,7 @@
           <place type="bay" xml:id="Chilkoot" source="#TGN">
             <geogName>Chilkoot</geogName>
             <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Alaska</region>
             <location>
               <geo>59.2167 -135.4333</geo>
@@ -1442,7 +1445,7 @@
           <place type="creek" xml:id="Gypsum" source="#TGN">
             <geogName>Gypsum</geogName>
             <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Alaska</region>
             <location>
               <geo>57.9333 -135.1000</geo>
@@ -1452,7 +1455,7 @@
           <place type="city" xml:id="Tacoma" source="#TGN">
             <geogName>Tacoma</geogName>
             <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Alaska</region>
             <!-- Tacoma, Alaska? not Washington? -->
             <location>
@@ -1462,7 +1465,7 @@
           <place type="city" xml:id="Sitka" source="#TGN">
             <geogName>Sitka</geogName>
             <desc>In his letter of 13 September 1909, James J. McIntyre refers to stopping here.</desc>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Alaska</region>
             <location>
               <geo>57.0500 -135.3167</geo>
@@ -1470,7 +1473,7 @@
           </place>
           <place type="nationalPark" xml:id="Yellowstone" source="#TGN">
             <placeName>Yellowstone National Park</placeName>
-            <country>United States</country>
+            <country>USA</country>
             <region>Wyoming</region>
             <region>Montana</region>
             <region>Idaho</region>
@@ -1485,7 +1488,7 @@
           </place>
           <place type="city" xml:id="StLouis" source="#TGN">
             <placeName>Saint Louis</placeName>
-            <country>United States</country>
+            <country>USA</country>
             <region type="state">Missouri</region>
             <location>
               <geo>38.6167 -90.1833</geo>
@@ -1499,14 +1502,6 @@
             </location>
             <desc>Mentioned in the sense of the saying "all roads lead to Rome" in the 9-27 letter from Gladys to
             A.T. Stephens</desc>
-          </place>
-          <place type="city" xml:id="MexicoCity" source="#TGN">
-            <placeName xml:lang="spa">Ciudad de México</placeName>
-            <placeName xml:lang="eng">Mexico City</placeName>
-            <country>Mexico</country>
-            <location>
-              <geo>19.4342 -99.1386</geo>
-            </location>
           </place>
         </listPlace>
         
