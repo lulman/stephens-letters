@@ -342,14 +342,20 @@
                <p class="aboutView"><a href="#View">About this view.</a></p>
                <div class="container">
                   <p class="font-size-label">Font Size <button id="up">+</button> <button id="down">-</button></p>
-                  <!--<p id="font-size"></p>-->
-<!--                  <p><button>Switch between Cox's original pencilled text and overwritten and altered inked text.</button></p>
-
-                  <p>
-                     <span class="pencil">Pencil text displayed.</span>
-                      <span class="ink inktoggle">Ink changes displayed.</span>
+                  <p style="font-size:smaller">
+                     <strong>Edited by</strong><br/>
+                     Robert Eugene Conaster<br/>
+                     Jonathan H. Holmes<br/>
+                     William C. Kurlinkus<br/>
+                     Jonathan Paul Leidheiser-Stoddard<br/>
+                     C. Marie Meza<br/>
+                     Victoria M. Munoz<br/>
+                     Ashley Cole Owens<br/>
+                     Evan B. Thomas<br/>
+                     Marion Aikens Wolfe<br/>
+                     H. Lewis Ulman<br/>
+                     Rachel M. Waymel<br/>
                   </p>
--->                                                     
                   <!-- Start NINES Widget -->
                   <form method="get"
                      style="font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:normal;line-height:1.231;color:#000000;"
