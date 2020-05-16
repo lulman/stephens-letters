@@ -490,9 +490,7 @@
       <xsl:apply-templates/>
    </xsl:template>
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability">
-      <p>
              <xsl:apply-templates/>
-      </p>
 <!--      <p>
          <em>
             <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
@@ -506,9 +504,7 @@
       <hr style="border: 2px solid crimson;"/>
       <h2 id="projectDescription">Project Description</h2>
       <hr/>
-      <p>
-         <xsl:apply-templates/>
-      </p>
+          <xsl:apply-templates/>
    </xsl:template>
    
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt">
@@ -538,10 +534,9 @@
          </xsl:for-each>.
          </p>
       </xsl:for-each>
-      <p>
          <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
             select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
-      </p>      
+     
       
    </xsl:template>
    
@@ -623,15 +618,13 @@
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:revisionDesc">
       <hr style="border: 2px solid crimson;"/>
       <h2>License</h2>
-      <p>
-            <xsl:value-of
+             <xsl:value-of
                select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"
                disable-output-escaping="yes"/>
-         </p>
       <hr style="border: 2px solid crimson;"/>
       <a id="revision"/>
-         <h2 id="revision">Revision History</h2>
-      <table width="90%">
+         <h2>Revision History</h2>
+      <table style="width:90%">
          <tr>
             <td>
                <h3>Date</h3>
@@ -647,11 +640,11 @@
             </td>
          </tr>
          <xsl:for-each select="tei:change">
-            <tr class="revTable" valign="top">
-               <td nowrap="nowrap">
+            <tr class="revTable" style="vertical-align:top">
+               <td style="white-space: nowrap">
                   <xsl:value-of select="@when"/>
                </td>
-               <td nowrap="nowrap">
+               <td style="white-space: nowrap">
                   <xsl:value-of select="tei:roleName"/>
                </td>
 <!--               <td nowrap="nowrap">
@@ -663,7 +656,7 @@
             </tr>
          </xsl:for-each>
       </table>
-      <p><lb/></p>
+      <p> </p>
    </xsl:template>
 
    <!-- Format miscellaneous elements -->
@@ -685,8 +678,6 @@
       </p>
    </xsl:template>
    <xsl:template match="tei:q[@rend='block']">
-      <br/>
-      <br/>
       <div class="blockquote">
          <xsl:apply-templates/>
          <br/>
@@ -694,7 +685,6 @@
       </div>
    </xsl:template>
    <xsl:template match="tei:quote[@rend='blockquote']">
-      <br/>
       <div class="blockquote">
          <xsl:apply-templates/>
          <br/>
@@ -776,10 +766,10 @@
          <xsl:attribute name="HREF">
             <xsl:value-of select="tei:graphic/@url"/>
          </xsl:attribute>
-         <xsl:attribute name="alt">
+<!--         <xsl:attribute name="alt">
             <xsl:value-of select="tei:figDesc"/>
          </xsl:attribute>
-         <xsl:attribute name="target">blank</xsl:attribute>
+-->         <xsl:attribute name="target">blank</xsl:attribute>
          <xsl:value-of select="tei:head"/>
       </a></xsl:template>
    <xsl:template match="tei:figure[@rend='embed']">
