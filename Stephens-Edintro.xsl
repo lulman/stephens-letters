@@ -159,9 +159,9 @@
                            <li><a href="./stephens_appendices_msimages.html">Images of the MS Pages</a></li>
                            <li><a href="./stephens_appendices_maps.html">Maps</a></li>
                            <li><a href="./stephens_letters.html#worksCited">Works Cited</a></li>
-                           <li><a href="./stephens_letters.html#peoplementioned">People Mentioned</a></li>
+                           <li><a href="./stephens_letters.html#PeopleMentioned">People Mentioned</a></li>
                            <li><a href="./stephens_letters.html#organizationsMentioned">Organizations Mentioned</a></li>
-                           <li><a href="./stephens_letters.html#placesmentioned">Places Mentioned</a></li>
+                           <li><a href="./stephens_letters.html#PlacesMentioned">Places Mentioned</a></li>
                            <li><a href="./stephens_letters.html#revision">Revision History</a></li>
                            <li><a href="./stephens_appendices_acknowledgements.html">Acknowledgements</a></li>
                            <li><a href="./stephens_appendices_editors.html">About the Editors</a></li>
@@ -436,7 +436,7 @@
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl"/>
             <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:refsDecl"/>
       <hr style="border: 2px solid crimson;"/>
-      <a id="WorksCited"/>
+      <a id="worksCited"/>
             <h2>List of Works Cited</h2>
       <hr/>
             <xsl:apply-templates
