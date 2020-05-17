@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" 
     xmlns:tei="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xd"
+    exclude-result-prefixes="xd tei"
     version="2.0">
     <xd:doc scope="stylesheet">
         <xd:desc>
@@ -162,22 +162,24 @@
                     select="@facs"/>.jpg</xsl:attribute>
                 <xsl:attribute name="target">top</xsl:attribute>
                 <img class="pageview">
+                    <xsl:attribute name="alt">Facsimile of source manuscript.</xsl:attribute>
                     <xsl:attribute name="src"><xsl:value-of
                             select="@facs"/>_small.jpg</xsl:attribute>
                     <xsl:attribute name="width">400</xsl:attribute>
-                </img>
+                </img>              
             </a>
         </div>
     </xsl:template>
     
     <xsl:template match="tei:lb">
         <br/>
+<!--        
         <a>
             <xsl:attribute name="name">
                 <xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>
             </xsl:attribute>
         </a>
-        <xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
+-->        <xsl:number count="tei:lb" format="0001" level="any" from="tei:div[@type='letter']"/>&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;
     </xsl:template>
     <xsl:template match="tei:fileDesc/tei:titleStmt/tei:title/tei:lb">
         <br/><xsl:apply-templates/>
@@ -204,10 +206,11 @@
         <xsl:attribute name="HREF">
             <xsl:value-of select="tei:graphic/@url"/>
         </xsl:attribute>
+<!--        
         <xsl:attribute name="alt">
             <xsl:value-of select="tei:figDesc"/>
         </xsl:attribute>
-        <xsl:attribute name="target">blank</xsl:attribute>
+-->        <xsl:attribute name="target">blank</xsl:attribute>
         <xsl:value-of select="tei:head"/>
     </a>]. </xsl:template>
     

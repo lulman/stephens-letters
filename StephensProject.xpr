@@ -566,6 +566,7 @@
             <file name="Stephens-Diplomatic.xsl"/>
             <file name="Stephens-Reading.xsl"/>
             <file name="Stephens-Standardized.xsl"/>
+            <file name="stephens_diplomatic.html"/>
         </folder>
         <folder path="."/>
     </projectTree>
