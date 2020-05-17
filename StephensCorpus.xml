@@ -2965,7 +2965,7 @@
             <pb facs="07-06-1909_GS_to_ATS_letter_p4"/>
             <lb/>those in the inner circle.
             <lb/>The place is laid out in
-            <lb/>this way <supplied>See Figure 1.</supplied>
+            <lb/>this way <supplied>See Figure 1.</supplied></p>
             <!-- How to encode the labels "Entrance" and "etc." on the diagram? -->
             <figure rend="embed">               
               <head>Figure 1. Layout of the fairgrounds.</head>
@@ -2973,6 +2973,7 @@
                 url="./images-fairgrounds-layout.png"/>
               <figDesc>A freehand sketch of the layout of the fairgrounds.</figDesc>
             </figure>
+          <p>
             <lb/>The amusement street
             <lb/>is called pay streak—a
             <lb/>mining term. 

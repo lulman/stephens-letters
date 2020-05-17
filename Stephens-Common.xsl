@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-   xmlns:tei="http://www.tei-c.org/ns/1.0" version="2.0">
+<xsl:stylesheet xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+   version="2.0" exclude-result-prefixes="tei">
+   <xsl:output method="html" version="5.0" encoding="UTF-8" indent="yes"/>
    <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet">
       <xd:desc>
          <xd:p><xd:b>Created on:</xd:b> Feb 19, 2010</xd:p>
@@ -65,7 +66,7 @@
             </script>
 -->            
             <!-- CALL VARIABLES (Needed here?) -->  
-            <style type="text/css">
+            <style>
                <xsl:value-of select="$maintextRule"/>
                <xsl:value-of select="$navBarRule"/>
                <xsl:value-of select="$bodyRule"/>
@@ -140,7 +141,7 @@
                
                <!-- BEGIN titleBar -->    
                <div id="titleBar">
-                  <p align="center"><span class="projectTitle"><xsl:apply-templates
+                  <p style="text-align: center"><span class="projectTitle"><xsl:apply-templates
                      select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/></p>
                   <!-- Horizontal rule beneath page title -->
                   <hr style="border: 2px solid crimson;"/>
@@ -378,7 +379,7 @@
                </div> <!-- End div class "container" -->
             </div> <!-- End div id "View Menu" -->
             
-<!--            <p align="center">
+            <!--            <p style="text-align: center">
                <span class="ProjectTitle">
                   <xsl:apply-templates
                      select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/>
@@ -434,7 +435,7 @@
                <xsl:choose>
                   <xsl:when test="position()>=100">
                      <p class="hang35"><a>
-                        <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
+                        <xsl:attribute name="id">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
                         <xsl:number count="//tei:TEI//tei:note[@resp='ed']" level="any"
                         />.&#xA0;<xsl:apply-templates/>
@@ -447,7 +448,7 @@
                   </xsl:when>
                   <xsl:when test="position()>=10">
                      <p class="hang25"><a>
-                        <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
+                        <xsl:attribute name="id">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
                         <xsl:number count="//tei:TEI//tei:note[@resp='ed']" level="any"
                         />.&#xA0;<xsl:apply-templates/>
@@ -460,7 +461,7 @@
                   </xsl:when>
                   <xsl:otherwise>
                      <p class="hang15"><a>
-                           <xsl:attribute name="name">n<xsl:value-of select="@xml:id"/></xsl:attribute>
+                           <xsl:attribute name="id">n<xsl:value-of select="@xml:id"/></xsl:attribute>
                         </a>
                         <xsl:number count="//tei:TEI//tei:note[@resp='ed']" level="any"/>.&#xA0;<xsl:apply-templates/>
                         <a>
@@ -478,19 +479,19 @@
                <h2 style="text-align:center;">
                   About this View of the Letters
                </h2>
-               <p><a name="view"/><xsl:value-of select="$aboutView"/></p>
+               <p><a id="view"/><xsl:value-of select="$aboutView"/></p>
             <hr/>
             <!-- Insert link to home page, creation date, and licensing statement.-->
-            <p align="left">
+               <p style="text-align: left">
                <a href="#top"
                   target="self">Top of Page</a>
                <br/>
                <br/>
-               <emph>Created: <xsl:apply-templates
+               Created: <xsl:apply-templates
                      select="//tei:teiCorpus/tei:teiHeader/tei:profileDesc/tei:creation/tei:date"
-                  /></emph>
+                  />
             </p>
-            <p align="center">
+               <p style="text-align: center">
                <xsl:value-of
                   select="//tei:teiCorpus/tei:teiHeader/tei:availability/tei:p[@id='CreativeCommons']"
                   disable-output-escaping="yes"/>
@@ -607,7 +608,7 @@
    
    <xsl:template match="tei:div[@type='letter']">
       <a class="TOCtarget">
-         <xsl:attribute name="name"><xsl:value-of select="@xml:id"/></xsl:attribute>
+         <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
       </a>
       <div class="letter">
       <xsl:apply-templates/>
@@ -637,7 +638,7 @@
       <hr/>
       <br/>
       <a>
-         <xsl:attribute name="name">
+         <xsl:attribute name="id">
             <xsl:value-of select="@xml:id"/>
          </xsl:attribute>
       </a>
@@ -700,7 +701,7 @@
 
    <xsl:template match="tei:TEI//tei:ptr[@type='noteAnchor']">
       <a>
-         <xsl:attribute name="name">p<xsl:value-of select="@target"></xsl:value-of>
+         <xsl:attribute name="id">p<xsl:value-of select="@target"></xsl:value-of>
          </xsl:attribute>
          <xsl:attribute name="class">notePointer</xsl:attribute>
       </a>
