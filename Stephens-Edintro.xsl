@@ -14,7 +14,7 @@
       
    <xsl:variable name="bodyRule">
       body {
-      font-family: 'Fanwood Text',georgia, serif;
+      font-family: Times, Times New Roman, serif;
       font-size: 1em;
       width: 800px;
       margin-left: 50px;
@@ -116,9 +116,6 @@
                <xsl:value-of select="$bodyRule"/>
             </style>
             
-            <!-- DECLARE FONTS-->
-            <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet'/>
-            <link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet'/>
             
          </head>
          

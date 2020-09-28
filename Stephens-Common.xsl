@@ -72,9 +72,6 @@
                <xsl:value-of select="$bodyRule"/>
             </style>
             
-            <!-- DECLARE FONTS -->
-            <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'/>
-            <link href='http://fonts.googleapis.com/css?family=Fanwood+Text' rel='stylesheet' type='text/css'/>
                    
          </head>
          
