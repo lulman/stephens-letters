@@ -729,10 +729,10 @@
          <xsl:value-of select="@unit"/>)</em>] </xsl:template>
 
    <!-- Editorial emendations -->
-   <xsl:template match="tei:supplied"> [<i>
-         <xsl:apply-templates/>
-      </i>] </xsl:template>
-
+   <xsl:template match="tei:supplied">[<xsl:element name="span">
+      <xsl:attribute name="style" >font-style:italic;</xsl:attribute><xsl:apply-templates/></xsl:element>]
+   </xsl:template>
+   
    <!-- Additions by the author or another hand. -->
    <!-- Note: handling defined in stylesheet for each "view." -->
    
