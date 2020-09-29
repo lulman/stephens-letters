@@ -476,7 +476,7 @@
                <h2 style="text-align:center;">
                   About this View of the Letters
                </h2>
-               <p><a id="view"/><xsl:value-of select="$aboutView"/></p>
+               <p><a id="View"/><xsl:value-of select="$aboutView"/></p>
             <hr/>
             <!-- Insert link to home page, creation date, and licensing statement.-->
                <p style="text-align: left">
