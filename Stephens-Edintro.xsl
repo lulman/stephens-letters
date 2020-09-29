@@ -134,7 +134,7 @@
                            <li><a href="./stephens_letters.html#west">Tourism and Commerce</a></li>
                         </ul>
                      </li>
-                     <li class="link"><a class="main"  href="./stephens_letters.html#projectDescription">Editorial Introduction</a>
+                     <li class="link"><a class="main"  href="">Editorial Introduction</a>
                         <ul class="sub">
                            <li><a href="./stephens_letters.html#projectDescription">Project Description</a></li>
                            <li><a href="./stephens_letters.html#source">The Source Document</a></li>
@@ -152,7 +152,7 @@
                      <li class="link"><a class="main"  href="">Appendices</a>
                         <ul class="sub">
                            <li><a href="./stephens_appendices_markup.html">Markup Guidelines</a></li>
-                           <li><a href="./stephens_appendices_hand.html">Guide to Stephens's Hand</a></li>
+                           <li><a href="./stephens_appendices_hand.html">Stephens's Hand</a></li>
                            <li><a href="./stephens_appendices_msimages.html">Images of the MS Pages</a></li>
                            <li><a href="./stephens_appendices_maps.html">Maps</a></li>
                            <li><a href="./stephens_letters.html#worksCited">Works Cited</a></li>
@@ -531,10 +531,13 @@
          </xsl:for-each>.
          </p>
       </xsl:for-each>
+      <xsl:value-of
+         select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"
+         disable-output-escaping="yes"/>      
+<!--         
          <xsl:value-of select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:pubPlace"/>, <xsl:value-of
             select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:date"/>
-     
-      
+-->          
    </xsl:template>
    
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:encodingDesc/tei:editorialDecl">
@@ -613,11 +616,6 @@
 
    <!-- Format information about the revision history of your document. -->
    <xsl:template match="/tei:teiCorpus/tei:teiHeader/tei:revisionDesc">
-      <hr style="border: 2px solid crimson;"/>
-      <h2>License</h2>
-             <xsl:value-of
-               select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:p[@xml:id='CreativeCommons']"
-               disable-output-escaping="yes"/>
       <hr style="border: 2px solid crimson;"/>
       <a id="revision"/>
          <h2>Revision History</h2>
