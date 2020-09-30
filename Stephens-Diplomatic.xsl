@@ -22,12 +22,12 @@
         abbreviations are reported as they appear in the manuscript. All material added by the
         editor is surrounded by square brackets: uncertain readings are followed by a question mark,
         errors in the manuscript are indicated by sic, and text supplied by the editors for clarity
-        is set in italics. Text highlighted by Hawthorne with an underscore is underscored. Text
-        canceled by Hawthorne is presented in a red, strikethrough font. Uncertain readings are
-        enclosed in square brackets and followed by a question mark. Text added by Hawthorne between
+        is set in italics. Text highlighted by a correspondent with an underscore is underscored. Text
+        canceled by a correspondent is presented in a red, strikethrough font. Uncertain readings are
+        enclosed in square brackets and followed by a question mark. Text added by a correspondent between
         lines is preceded by an arrow indicating whether the addition is above or below the line and
         followed by an arrow indicating the return to the line (&#x2191; &#x2193;); text added in
-        the margins is preceded and followed by a vertical bar (&#x007C;). Text added by Hawthorne
+        the margins is preceded and followed by a vertical bar (&#x007C;). Text added by a correspondent
         in the margins is surrounded by "pipe" characters (|) at the point in the main text that it
         appears to follow. Links to external materials are colored and underlined.</xsl:variable>
     <xsl:variable name="bodyRule">
