@@ -386,7 +386,7 @@
                   <!--<p id="font-size"></p>-->
                   <p style="font-size:smaller">
                      <strong>Edited by</strong><br/>
-                     Robert Eugene Conaster<br/>
+                     Robert Eugene Conatser<br/>
                      Jonathan H. Holmes<br/>
                      William C. Kurlinkus<br/>
                      Jonathan Paul Leidheiser-Stoddard<br/>

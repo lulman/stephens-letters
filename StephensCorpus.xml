@@ -8,7 +8,7 @@
         <title>Selected Letters from the Ivan S. Gilbert Collection of <lb/>Stephens Family Travel 
         Letters and Ephemera</title>
         
-        <editor><persName ref="#REC">Robert Eugene Conaster</persName></editor>
+        <editor><persName ref="#REC">Robert Eugene Conatser</persName></editor>
         <editor><persName ref="#JHH">Jonathan H. Holmes</persName></editor>
         <editor><persName ref="#WCK">William C. Kurlinkus</persName></editor>
         <editor><persName ref="#JPLS">Jonathan Paul Leidheiser-Stoddard</persName></editor>
@@ -29,7 +29,7 @@
         
         <respStmt>
           <resp>Creation of initial machine-readable transcript: </resp>
-          <persName ref="#REC">Robert Eugene Conaster</persName>
+          <persName ref="#REC">Robert Eugene Conatser</persName>
           <persName ref="#JHH">Jonathan H. Holmes</persName>
           <persName ref="#WCK">William C. Kurlinkus</persName>
           <persName ref="#JPLS">Jonathan Paul Leidheiser-Stoddard</persName>
@@ -44,7 +44,7 @@
         
         <respStmt>
           <resp>Conversion to TEI.2-conformant markup: </resp>
-          <persName ref="#REC">Robert Eugene Conaster</persName>
+          <persName ref="#REC">Robert Eugene Conatser</persName>
           <persName ref="#JHH">Jonathan H. Holmes</persName>
           <persName ref="#WCK">William C. Kurlinkus</persName>
           <persName ref="#JPLS">Jonathan Paul Leidheiser-Stoddard</persName>
