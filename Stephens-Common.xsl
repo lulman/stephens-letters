@@ -481,7 +481,7 @@
             <!-- Insert link to home page, creation date, and licensing statement.-->
                <p style="text-align: left">
                <a href="#top"
-                  target="self">Top of Page</a>
+                  target="_self">Top of Page</a>
                <br/>
                <br/>
                Created: <xsl:apply-templates
