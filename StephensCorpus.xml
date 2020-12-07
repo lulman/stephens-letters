@@ -4250,7 +4250,7 @@
               -->
               <p> One sheet of tan stationery, measuring 7 x 8.75 inches, with blue lines .25 inch apart, starting 1.875 inches from the top of the page. 
                 The paper is folded in half to create two leaves or four pages. The letter begins on the 
-                first recto page, written horizontally following the lines. On the inner two pages, the sheet was turned 90 degress and treated 
+                first recto page, written horizontally following the lines. On the inner two pages, the sheet was turned 90 degrees and treated 
                 as a single page, with the writing running perpendicular to the lines. The final page is blank.
                 </p>
               <accMat corresp="#CLA19090821env01">
@@ -4509,7 +4509,7 @@
             <lb/> as it were or to a party or dance <ptr type="noteAnchor" target="DA"/><note resp="ed" xml:id="DA">
               Since the French Revolution in the late 1700's, male theatre dancers were considered effeminate.
               Though McIntyre is referring to dance as a social practice with his friends, we can see how the dominant culture would have found dancing
-              in general as a gender specific female acivity. When men participated, it was alongside women through ballroom dancing. We 
+              in general as a gender specific female activity. When men participated, it was alongside women through ballroom dancing. We 
               do not know if he  attended these gatherings with only his male friends or if women would join their group, but in the following 
               lines of McIntyre's letter, he mentions that his mother would have long talks with him about being a <q>better boy</q>. He seems to be 
               referring to the idea that he would get into trouble after coming home from a party or dance 
@@ -4526,7 +4526,7 @@
             <lb/> <choice><sic>ashaimed</sic><corr>ashamed</corr></choice> of <said><q>But honey I have</q></said>
             <!--the markup rules say to specificy between vocalized or signed, but I don't think it applies here--> 
             <lb/> but did not realize it <choice><sic>untill</sic><corr>until</corr></choice> I met
-            <lb/> you honey what a differene between
+            <lb/> you honey what a <choice><sic>differance</sic><corr>difference</corr></choice> between
             <lb/> a mothers affections &amp; love and the
             <lb/> one girl or the only boy which we
             <lb/> are bound to meet some day I do not
@@ -4737,10 +4737,10 @@
                   is the xml:id of the <div> in the text corresponding to the envelope. --> Accompanied
                   by a stamped, canceled, dark cream-colored envelope made from heavy paper and measuring
                   5.875 x 3.5 inches.There is a printed black and white image measuring 2.75 x 1.875 inches 
-                  of a log raft on the Columbia River. The text corrosponding with the image reads "LOG RAFT 
+                  of a log raft on the Columbia River. The text corresponding with the image reads "LOG RAFT 
                   COLUMBIA RIVER 8 MILLION FT." The stamp is a red 2 cent Washington stamp and the postmark is
                   from El Paso, Texas. The envelope is addressed in a neat cursive script to "Mrs. A. T. Stephens, 
-                  26 Emerson Street, Newton, Massachusets." There is an additional endorsement on the envelope in a different
+                  26 Emerson Street, Newton, Massachusetts." There is an additional endorsement on the envelope in a different
                   hand than the written address of a circled 10, then a 9/25. The 25 is also circled. The envelope
                   is cleanly slit along the right edge.
               </accMat>
@@ -5095,7 +5095,7 @@
               <p>
                 Writing during a late watch, McIntyre mentions the rough weather, mentions some pictures he plans to send Stephens, 
                 describes a visit with "little Gladys" and her mother, complains about the difficulty of carrying on a
-                correspondence abord ship, and muses at length about love.
+                correspondence aboard ship, and muses at length about love.
               </p>
             </msContents>
             <physDesc>
@@ -5376,7 +5376,7 @@
               
               <p> ALS. Two loose sheets of cream-colored Alaska Steamship Company letterhead stationary 
                 measuring 8 X 10.75 inches. The front side contains a 2.75 inch letterhead, a body with
-                blue lines spaced at 0.375 inch intervals, and a 0.375 inh bottom margin. The letterhead 
+                blue lines spaced at 0.375 inch intervals, and a 0.375 inch bottom margin. The letterhead 
                 is stamped "FORM 1 10M 8-09" and a 2.75 inch line, followed by "190" and another 0.25
                 inch line. The letterhead contains, in the upper-left hand corner, a half-tone logo for
                 the "ALASKA | STEAMSHIP Co. | BLACK BALL | LINE" 1 inch on all sides.
@@ -5455,7 +5455,7 @@
             <lb/>the trip of your life Some day <seg type="obliqueText" rendition="#otl">and</seg> we'll be to <placeName ref="#China">China</placeName>
             <lb/>&amp; <placeName ref="#Japan">Japan</placeName> and on down to <placeName ref="#Manila">Manila</placeName>; <placeName ref="#Manila">Manila</placeName> is a very
             <lb/>Interesting place the old walled City for Instance
-            <lb/>I have Some <sic>Souveniers</sic> <corr>souvenirs</corr> from there or did have
+            <lb/>I have Some <choice><sic>Souveniers</sic><corr>souvenirs</corr></choice> from there or did have
             <lb/>any way but most every one that Comes to the
             <lb/>house takes Something away and Sometimes I
             <lb/>do not like It for some of the things has a
@@ -5599,7 +5599,7 @@
                 The letterhead of the first page contains, in the upper left-hand
                 corner, a 2.5 x 2-inch halftone image labeled "Post Office."
                 The letterhead of the second page contains, in the upper left-hand corner,
-                a 2.75 x 1.5-inch halftone image labeled "Forrestry Building."
+                a 2.75 x 1.5-inch halftone image labeled "Forestry Building."
               </p>
               <accMat corresp="#GS19090927env">
                 Accompanied by a stamped, canceled, cream-colored envelope measuring
@@ -5683,7 +5683,7 @@
                 <expan>California</expan></choice>
             </placeName>for ostrich plumes <ptr type="noteAnchor" target="OstrichPlumes"></ptr>
             <note resp="ed" xml:id="OstrichPlumes">Between 1883 and 1912, production of Ostrich
-              feathers was signficantly ramped up in the United States, particularly the American
+              feathers was significantly ramped up in the United States, particularly the American
               South, West and Southwest, as a means of freeing American consumers from the import
               market dominated by South African production. Considered fashionable, the feathers
               combined with Agro-tourism to make California Ostrich Farms a popular destination
@@ -5832,7 +5832,7 @@
                   Northwestern</name> and details specifications of the <name type="ship"
                   >Northwestern</name> compared to the <name type="ship">Santa Clara</name>. He also
                 recounts a visit with the Purser's sister in the Ketchikan area and recounts two
-                fatal accidents in the Seattle area, which cause him to relect on his own past.</p>
+                fatal accidents in the Seattle area, which cause him to reflect on his own past.</p>
             </msContents>
             <physDesc>
               <p>
@@ -6095,7 +6095,7 @@
               and <q>drank until he was almost beastly drunk and then started over a dangerous road to the city at 
               a speed of a mile a minute</q> <bibl><ref target="#SR19091001"><title level="a">Henry Hiser</title></ref></bibl>. McIntyre 
               seems to admit here that he used to practice a similar lifestyle. In his letter to Gladys of 13 August 
-              1909, he expresses his committment to abstaining from drinking and the repugnance of the idea 
+              1909, he expresses his commitment to abstaining from drinking and the repugnance of the idea 
               of Gladys spending time with the drinking <q>Class.</q>
             </note> <choice><sic>they</sic><corr>there</corr></choice> was also a 
             <add place="supralinear">Street</add> Car Accident at the <placeName ref="#AYPE">fair grounds</placeName> 

@@ -453,7 +453,7 @@
             <p><a id="view"/>Text on this page is derived from the
                edition's XML source document, StephensCorpus.xml, transformed with the Stephens-Edintro.xsl stylesheet.</p>
             <hr/>
-            <p>&#x2192; <a href="stephens_reading.html">Link to the text of the journal</a>.
+            <p>&#x2192; <a href="stephens_reading.html">Link to the text of the letters</a>.
             </p>
          </xsl:element> <!-- END maintext -->
          <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
