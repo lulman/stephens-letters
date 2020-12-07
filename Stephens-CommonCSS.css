@@ -391,6 +391,15 @@ margin-top: -180px;
 height: 180px;
 visibility: hidden;	
 }
+
+/*This code should be applied to links, not headings!*/
+a#worksCited {
+display: inline-block;
+content: " ";
+margin-top: -180px;
+height: 180px;
+visibility: hidden;	    
+}
 sup.noteAnchor {
   font-size:.85em;
   font-weight: bold;
