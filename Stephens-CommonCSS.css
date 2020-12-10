@@ -346,6 +346,7 @@ height: 150px;
 visibility: hidden;
 }
 
+
 /* space before links to letters in TOC */
 .TOCtarget:before {
 display: block;
@@ -367,14 +368,6 @@ a:link {
   text-decoration: none;
 }
 
-p.hang15 a:before, p.hang25 a:before, p.hang35 a:before {
-display: inline-block;
-content: " ";
-margin-top: -180px;
-height: 180px;
-visibility: hidden;	
-}
-
 p.aboutView {
   margin-top:10px;
   margin-bottom:0px;
@@ -384,7 +377,15 @@ p.aboutView {
     margin-left:25px;
 }
 
-a.notePointer:before {
+a.notePointer {
+display: inline-block;
+content: "";
+margin-top: -180px;
+height: 180px;
+visibility: hidden;	
+}
+
+p.hang15 > a[id^="n"], p.hang25 > a[id^="n"] {
 display: inline-block;
 content: " ";
 margin-top: -180px;
@@ -392,14 +393,16 @@ height: 180px;
 visibility: hidden;	
 }
 
-/*This code should be applied to links, not headings!*/
-a#worksCited {
+#worksCited, #PeopleMentioned, #PlacesMentioned, #edition, #source {
 display: inline-block;
 content: " ";
 margin-top: -180px;
 height: 180px;
 visibility: hidden;	    
 }
+
+/*End of link fix*/
+
 sup.noteAnchor {
   font-size:.85em;
   font-weight: bold;
