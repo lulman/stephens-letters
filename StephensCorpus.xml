@@ -3525,139 +3525,6 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="WCK_GMS2MAT_1909-09-06" n="1909-09-06">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>[Gladys M. Stephens to Mrs. A. T. Stevens, 06 September 1909]</title>
-        </titleStmt>
-        <publicationStmt>
-          <p>Publication Information</p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc corresp="#GS19090706let01">
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
-                1834-1949 1909-1917</collection>
-              <idno>SPEC.RARE.CMS.327</idno>
-            </msIdentifier>
-            <msContents>
-              <p>
-                Awaiting a letter from her mother, Stephens asks whether something is wrong.
-              </p>
-            </msContents>
-            
-            <physDesc>  
-              <p> One sheet of cream-colored paper measuring 5.5 x 8.11 inches folded in half to make a single bifolium of four pages,
-                folded again for mailing. The sheet contains a hollow font watermark that reads "Saw &amp; Co. / Boston."
-              </p>
-              <accMat corresp="#GS19090706env">
-                Accompanied by a stamped (stamp is upside down), canceled, cream-colored envelope measuring 
-                2.8 x 4.25 inches. On the left side of the envelope, written sideways in an unknown, penciled hand is 
-                the endorsement "Hold 9-10-09."
-              </accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <note>Box 3, Folder 16</note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    <text>
-      <body>
-        
-        <div type="letter" xml:id="GS19090906let1" corresp="GS19090906env01">
-          <pb facs="09-06-1909_GS_to_ATS_letter_p1"/>
-          <opener>
-            <handShift new="#GMSHand"/>
-            <lb/><salute><rs ref="#MATS"><addName type="endearment">Mother dear</addName></rs></salute>
-          </opener>
-          <p>
-            <lb/>What is
-            <lb/>the trouble, are you
-            <lb/>sick? I looked and
-            <lb/>looked for a letter
-            <lb/>today, but none
-            <lb/>came. I declare
-            <lb/>if I don't get
-            <lb/>one tomorrow I
-            <pb facs="09-06-1909_GS_to_ATS_letter_p3"/>
-            <lb/>will send a
-            <lb/>telegram to
-            <lb/>to <persName ref="#BS">Berenice Smith.</persName> 
-            <lb/>It is pretty warm
-            <lb/>here now, yet
-            <lb/>there was a big
-            <lb/>rain last night.
-          </p>
-          <p>
-            <lb/>My Alaska
-            <lb/>ring came here
-            <pb facs="09-06-1909_GS_to_ATS_letter_p2"/>
-            <lb/>the <date when="1909-08-23">23 of Aug.</date> I
-            <lb/>got it this
-            <lb/>morning. It is
-            <lb/>a beauty.
-          </p>
-          <p>
-            <lb/>Oh about the
-            <lb/>pillow. <persName ref="#ML">Mrs. L. </persName> was 
-            <lb/>much pleased
-            <lb/>with it and thought
-            <lb/>it handsome and
-            <lb/>it is in the
-            <lb/>parlour.
-          <pb facs="09-06-1909_GS_to_ATS_letter_p4"/>
-          </p>
-          <p>
-            <lb/>I do hope that
-            <lb/>I'll get a letter
-            <lb/>tomorrow.
-          </p>
-          <closer>
-            <lb/><salute>Heaps of love,</salute>
-            <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
-            <lb/><dateline><date when="1909-09-07">9/6/'09</date></dateline>
-          </closer>
-        </div>  
-        <div type="envelope" xml:id="GS19090906env01" 
-          corresp="#GS19090906">
-          <pb facs="09-06-1909_GS_to_ATS_envelope"/>
-          <figure rend="link">
-            <head><emph>Envelope</emph></head>
-            <graphic url="./09-06-1909_GS_to_ATS_envelope.jpg"></graphic>
-            <figDesc>Envelope for letter of 06 September 1909</figDesc>
-          </figure>
-          <ab type="postalAddress">
-            <handShift new="#GMSHand"/>
-            <address>
-          <addrLine><persName ref="#ATS">Mrs. A.T. Stevens</persName></addrLine>
-          <addrLine>26 Emerson street</addrLine>
-          <addrLine><placeName ref="#Newton">Newton</placeName></addrLine>
-          <addrLine>Massachusetts</addrLine>  
-          </address>
-          </ab>
-          <ab>
-            <handShift new="Unknown"/> Hold 9-10-09
-          </ab>
-          <ab>
-            <stamp type="postmark"><placeName ref="#ElPaso">El PASO,TEXAS.</placeName> | SEP 6 | 430 PM | 1909 </stamp>
-            <stamp type="cancellation">[Seven wavy lines]</stamp>
-          </ab>
-          <ab type="endorsement">
-            <handShift scribe="Unknown"/>
-            Hold 9–10–09
-          </ab>
-        </div>      
-      </body>
-    </text>
-  </TEI>
   <TEI xml:id="ACO_GMS2MATS_1909-08-08" n="1909-08-08">
     <teiHeader>
       <fileDesc>
@@ -4667,6 +4534,618 @@
       </body>
     </text>
   </TEI>
+  <TEI xml:id="VMM_JJM2GSS_1909-08-23" n="1909-08-23">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>[James J. McIntyre to Gladys M. Stephens, 23 August 1909]</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc corresp="#GS19090706let01">
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
+                1834-1949 1909-1917</collection>
+              <idno>SPEC.RARE.CMS.327</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                Writing during a late watch, McIntyre mentions the rough weather, mentions some pictures he plans to send Stephens, 
+                describes a visit with "little Gladys" and her mother, complains about the difficulty of carrying on a
+                correspondence aboard ship, and muses at length about love.
+              </p>
+            </msContents>
+            <physDesc>
+              <p>Two sheets of unlined, cream-colored stationery, each folded in half to create two leaves and four pages. The
+                resulting bifolia are not gathered; i.e., each bifolium consists of four sequentially written pages. The bifolia 
+                have been folded in half again for mailing.</p>
+              <accMat corresp="JJM19090823env01">
+                Accompanied by a stamped, canceled, cream-colored envelope measuring 5.25 x 3.75 inches.
+                address.
+              </accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <note>Box 1, folder 2</note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        
+        <div type="letter" xml:id="JJM19090823let01" corresp="JJM19090823env01">
+          <pb facs="08-23-1909_JJM_to_GS_letter_p1"/>
+          <opener>
+            <handShift new="JJMHand"/>
+            <lb/><dateline><date when="1909-08-23"><seg type="obliqueText" rendition="#ot1">8/23/09</seg></date></dateline>
+            <lb/><salute>Dear <persName ref="#GMS"><addName type="nickname">little Girl</addName></persName></salute>
+          </opener>
+          <p> 
+            <lb/>once more I am writing on the last
+            <lb/>watch before arriving in port and in 
+            <lb/>the wee hours of the morning I promised
+            <lb/>my self to let you down easy this 
+            <lb/>time and not write so much but it
+            <lb/>promises to be a long watch for
+            <lb/>we are running<ptr type="noteAnchor" target="running"/><note resp="ed" xml:id="running">The action of sailing before the wind <bibl><ref
+              target="#OEDrunning">"Running"</ref></bibl>.</note> dead slow looking
+            <lb/>for a prominent <geogFeat>Cape</geogFeat>! <placeName ref="#CapeSt.Elias">Cape St
+              <lb/>Elias</placeName> by name. and a watch under
+            <lb/>a slow Bell is always a long one
+            <lb/>for me. I was just <hi rend="underlined">up stairs</hi>
+            <lb/>and it is a nasty rainy night
+            <lb/>and the ship is <choice><sic><unclear reason="illegible" cert="medium">roaling</unclear></sic><corr>rolling</corr></choice><ptr type="noteAnchor" target="rolling"/>
+            <note resp="ed" xml:id="rolling">The swaying or rocking of a vessel from side to
+              side <bibl><ref target="#OEDrolling">"Rolling"</ref></bibl>.</note> heavy. you 
+            <lb/>should ought to see my pose in 
+            <lb/>writing this <subst><del rend="overtyped"><unclear reason="illegible" cert="high">a</unclear></del><add place="supralinear">the</add></subst> Kangaroo is not in it.
+            <pb facs="08-23-1909_JJM_to_GS_letter_p2"/>
+            <lb/>I wonder how you would <choice><sic>fell</sic><corr>feel</corr></choice>
+            <lb/>better I hope. we are agoing
+            <lb/>to <placeName ref="#Valdez"><choice><sic>Valdese</sic><corr>Valdese</corr></choice></placeName> first the mail has to be
+            <lb/>delivered at a certain time and we
+            <lb/>are behind but what's the odds no
+            <lb/>mail for me and a dozen or two
+            <lb/>letters would be very nice to me but
+            <lb/>nothing doing <choice><sic>untill</sic><corr>until</corr></choice> <placeName ref="#Seattle">Seattle</placeName> again!
+            <lb/>I started to read a <choice><sic>storey</sic><corr>story</corr></choice> last night
+            <lb/>called <title ref="#TheHolyCity" level="m">the Holy City</title> and It promises
+            <lb/>to be good. A few lines which I gave
+            <lb/>special attention to were these</p>
+          <p><lb/><q>what is Love</q></p>
+          <p><lb/>A certain boy and a certain girl <choice><sic>aggreed</sic><corr>agreed</corr></choice>
+            <lb/>to go <del rend="overstrike" cert="high">to go</del> to the same place in the same
+            <lb/>boat and they both <hi rend="underlined">pulled together</hi> So
+            <lb/>what's the odds where they came from?
+            <lb/>do <hi rend="underlined">you</hi> <choice><sic>aggee</sic><corr>agree</corr></choice> with them.
+            <pb facs="08-23-1909_JJM_to_GS_letter_p3"/>
+            <lb/>one <choice><sic>off</sic><corr>of</corr></choice> the many things that
+            <lb/>you will be told is this <persName ref="#GMS"><addName type="endearment">honey</addName></persName> <said>He's
+              <lb/>only a seafaring man.</said> and <hi rend="underlined">I</hi> will
+            <lb/><choice><sic>will</sic><corr></corr></choice> admit that their <choice><abbr type="suspension">Rep.</abbr><expan cert="high">reputation</expan></choice>is none
+            <lb/>too good<ptr type="noteAnchor" target="SailorsRep"/><note resp="ed" xml:id="SailorsRep">Numerous contemporary sources describe sailors' reputation for crudeness and womanizing. 
+              The warning that a sailor has a wife in every port was often repeated during this period <bibl><ref target="#SeafarWom"><title level="m">Seafaring Women</title> xiii</ref></bibl>.</note> but that comes more from 
+            <lb/>the sailor class on war ships and
+            <lb/>sailing vessels and all <choice><sic>deap</sic><corr>deep</corr></choice> water crafts
+            <lb/>mostly foreigner's and <persName ref="#GMS"><addName type="endearment">dear</addName></persName> I hope <choice><sic>too</sic><corr>to</corr></choice>
+            <lb/>be through with this in the near
+            <lb/>future hence them long 2 years if
+            <lb/>you can call that near future.
+            <lb/>and again <rs ref="#Burns">Burns</rs> says <said direct="false">a man's
+              <lb/>a man for all <del rend="overwritten">a</del>O that <q>and that</q></said>!
+            <lb/>By the way how is <rs ref="#Scotchman">the Scotchman</rs>
+            <lb/>getting along not "broke" I hope I
+            <lb/>must laugh when I think of the
+            <lb/>looks on <persName ref="#ACS"><addName type="nickname">uncle <hi rend="underline">A's</hi></addName></persName> face the day you
+            <pb facs="08-23-1909_JJM_to_GS_letter_p4"/>
+            <lb/>were In the Engine room I didn't
+            <lb/>think you noticed. but you afterwards
+            <lb/>spoke about it no harm for me
+            <lb/>you asked about <rs ref="#MrM">my father</rs> he was
+            <lb/>doing nicely when I <choice><sic>lift</sic><corr>left</corr></choice> <hi rend="underlined">thank</hi>
+            you <persName ref="#GMS"><addName type="nickname">neddy</addName></persName></p>
+          <p>
+            <lb/>we arrived in <placeName ref="#Juneau">Juneau</placeName> @ 11 <hi rend="underlined">40</hi> and left 12 <hi rend="underlined">45</hi>
+            <lb/>So did not have a chance to see about <name type="ship" ref="#Santa_Clara">Santa
+              <lb/>Clara's</name> pictures but may next time I
+            <lb/>will not forget them any way when
+            <lb/>I have the time to get up town
+            <lb/>I have no pictures of my self but
+            <lb/>will have some some day and send
+            <lb/>you one If you wish and don't
+            <lb/>forget that I have only the postal
+            <lb/>which by the way is in use every
+            <lb/>day <persName ref="#GMS"><addName type="endearment">honey</addName></persName> and many thanks for
+            <lb/>that pleasure but the original is
+            <lb/>what I wish to see above all else!
+            <pb facs="08-23-1909_JJM_to_GS_letter_p5"/>
+            <lb/>Never satisfied am I <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
+            <lb/>but hope to be some day live in
+            <lb/>hopes and — I know <distinct type="babyTalk">sisint</distinct>
+            <lb/>nice to be so selfish but it would
+            <lb/>be <distinct type="babyTalk">ossle</distinct> nice to see you tonight or any
+            <lb/>other time the sooner the quicker
+            <lb/>It is now 3 a.m. and still <term ref="#running">running</term>
+            <lb/>slow. I suppose you are having a nice
+            <lb/>quiet sleep long ere this I hope so
+            <lb/>I also hope you are having a nice time
+            <lb/>and have saw lots of interesting places
+            <lb/>&amp; people it certainly is a lovely place
+            <lb/>I do not know if <choice><sic>they</sic><corr>there</corr></choice> is a boat north
+            <lb/>of us or not but am taking a chance
+            <lb/>any way it makes me seem closer
+            <lb/>to you anyway to be writing
+            <pb facs="08-23-1909_JJM_to_GS_letter_p6"/>
+            <lb/>away and at the same time going
+            <lb/>farther &amp; farther away take notice
+            <lb/>I am always looking out for my own
+            <lb/>pleasure when at the same time I may
+            <lb/>be trying your patience severely
+            <lb/>hope not <persName ref="#GMS"><addName type="endearment">honey</addName></persName> deed I do</p>
+          <lb/><p>I had a great romp with <rs ref="#LGS">little
+            <lb/> Gladys</rs> tonight her mother fetched
+            <lb/>her to my window (I have a room
+            <lb/>same as the chiefs on <name ref="#Santa_Clara">Santa Clara</name> only
+            <lb/>the door opens in engine room instead
+            <lb/>of deck) and she hollered for uncle that's
+            <lb/>what she calls me and I took her
+            <lb/>in side gave her an Orange dow<supplied reason="omitted">n</supplied>
+            <lb/>to the engine room and she was not
+            <lb/>a bit afraid and It was a pleasure
+            <lb/><choice><sic>two</sic><corr>to</corr></choice> have only a wee <rs ref="LGS">Gladys</rs>
+            <pb facs="08-23-1909_JJM_to_GS_letter_p7"/>
+            <lb/>to talk to and I said lots
+            <lb/>of things to her about —O well—
+            <lb/>well she laughed and seemed to
+            <lb/>enjoy it any way although
+            <lb/>could not understand
+          </p>
+          <lb/><p>I almost believe <persName ref="#GMS"><addName type="endearment">honey</addName></persName> that I 
+            <lb/>could carry you the same if
+            <lb/>the opportunity could be and your
+            <lb/>permission <hi rend="underlined">do you</hi>
+            <lb/>I often wonder If you give
+            <lb/>me  little thought when alone
+            <lb/>at night after a day of pleasure
+            <lb/>of pleasure (—I hope) remember
+            <lb/><persName ref="#GMS"><addName type="endearment">dear</addName></persName> I am going over the same
+            <lb/>old rout<supplied reason="omitted">e</supplied> nothing new and
+            <lb/>nothing to do but think which
+            <pb facs="08-23-1909_JJM_to_GS_letter_p8"/>
+            <lb/>is not altogether unpleasant for
+            <lb/><persName ref="#GMS"><addName type="nickname">neddy</addName></persName> they are always of you how
+            <lb/>glad I will be to get back to <placeName ref="#Seattle">Seattle</placeName>
+            <lb/>to get my letters so much seems to
+            <lb/>depend on them how I wished I
+            <lb/>knew what your <rs ref="#MATS">mother</rs> said
+            <lb/>for I want to tell my <rs ref="MsM">mother</rs>
+            <lb/>all about you on my return
+            <lb/>but nothing to do but wait and
+            <lb/>wish for the best is they <persName ref="#GMS"><addName type="endearment">dear</addName></persName>
+            <lb/>I forgot to tell you I gave up
+            <lb/>my room in <placeName ref="#Seattle">Seattle</placeName> also my friend
+            <lb/>or at least he was supposed to be
+            <lb/>They have just whistled down from
+            <lb/>the bridge for 5 more Revolutions<ptr type="noteAnchor" target="revolution"/>
+            <note resp="ed" xml:id="revolution">Whenever the Commander-in-Chief of a ship desired to
+              increase speed, the crew would cause the engines of the vessel to increase their
+              revolutions <bibl><ref target="#OEDrevolution">
+                "Revolution"</ref></bibl>.</note>
+            <lb/>So <choice><sic>they</sic><corr>there</corr></choice> will be something doing in
+            <lb/>a short time and the time is 3 <hi rend="underlined">40</hi> and
+            <lb/>I must write up my log so once more
+            <lb/><persName ref="#GMS"><addName type="nickname">little girl</addName></persName> I will bid you good night</p>
+          <closer> 
+            <lb/><salute><distinct type="babyTalk">wif a heap of love</distinct> X </salute>
+            <signed><persName ref="#JJM">J.J.Mc</persName></signed>
+          </closer>
+        </div>
+        <div type="envelope" xml:id="JJM19090823env01">
+          <pb facs="08-23-1909_JJM_to_GS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./08-23-1909_JJM_to_GS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 23 August 1909</figDesc>
+          </figure>
+          <ab type="postalAddress">
+            <handShift new="#JJMHand"/>
+            <address>
+              <addrLine><persName>Miss. Gladys. M. Stephens</persName></addrLine>
+              <addrLine><del rend="strikethrough" hand="#Unknown"><placeName ref="LosAngeles">Los Angeles.</placeName></del></addrLine>
+              <addrLine>California</addrLine>
+              <addrLine>(General Delivery)</addrLine>
+            </address>
+            <handShift new="#Unknown"/>
+            <address>
+              <addrLine> 126 Leon St</addrLine>
+              <addrLine><placeName ref="El Paso">El Paso Tex</placeName></addrLine>
+            </address>
+          </ab>
+          <ab>
+            <stamp type="postmark"> VALDEZ | AUG | 23 | 10 AM | 1909 | ALASKA </stamp>
+            <stamp type="postmark"> LOS ANGELES | <unclear reason="damage">SE.....</unclear> | CAL. </stamp>
+            <stamp type="postmark">SEP 27 1909 </stamp>
+            <stamp type="postmark"> SEP 27 1909 </stamp>
+          </ab>
+          <ab type="endorsement">
+            <handShift new="Unknown"/>9 16<ptr type="noteAnchor" target="Endorse23Aug"/>
+            <note resp="ed" xml:id="Endorse23Aug">The endorsement is written in pencil, and the number 16 is circled.</note>
+          </ab>
+          
+          <!--          <figure rend="link">
+            <head>Two-cent U.S. postage stamp.</head>
+            <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=460,480&amp;layer=1&amp;src=is{mediamanager08-23-1909_JJM_to_GS_envelope.jpg.jpg?scale=0.2&amp;rgn=0,0,460,320&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=460,320&amp;text=\vertalt\cf1\qc\fs15\%20Caption&amp;posN=0,.5"/>
+            <figDesc>
+              U.S. POSTAGE / TWO CENTS [Portrait of William Seward; perforated horizontally and  vertically; U.S. #370] Upside down 
+            </figDesc>
+          </figure>
+-->        </div>
+      </body>
+    </text>
+  </TEI>  
+  <TEI xml:id="WCK_GMS2MAT_1909-09-06" n="1909-09-06">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>[Gladys M. Stephens to Mrs. A. T. Stevens, 06 September 1909]</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc corresp="#GS19090706let01">
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
+                1834-1949 1909-1917</collection>
+              <idno>SPEC.RARE.CMS.327</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                Awaiting a letter from her mother, Stephens asks whether something is wrong.
+              </p>
+            </msContents>
+            
+            <physDesc>  
+              <p> One sheet of cream-colored paper measuring 5.5 x 8.11 inches folded in half to make a single bifolium of four pages,
+                folded again for mailing. The sheet contains a hollow font watermark that reads "Saw &amp; Co. / Boston."
+              </p>
+              <accMat corresp="#GS19090706env">
+                Accompanied by a stamped (stamp is upside down), canceled, cream-colored envelope measuring 
+                2.8 x 4.25 inches. On the left side of the envelope, written sideways in an unknown, penciled hand is 
+                the endorsement "Hold 9-10-09."
+              </accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <note>Box 3, Folder 16</note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        
+        <div type="letter" xml:id="GS19090906let1" corresp="GS19090906env01">
+          <pb facs="09-06-1909_GS_to_ATS_letter_p1"/>
+          <opener>
+            <handShift new="#GMSHand"/>
+            <lb/><salute><rs ref="#MATS"><addName type="endearment">Mother dear</addName></rs></salute>
+          </opener>
+          <p>
+            <lb/>What is
+            <lb/>the trouble, are you
+            <lb/>sick? I looked and
+            <lb/>looked for a letter
+            <lb/>today, but none
+            <lb/>came. I declare
+            <lb/>if I don't get
+            <lb/>one tomorrow I
+            <pb facs="09-06-1909_GS_to_ATS_letter_p3"/>
+            <lb/>will send a
+            <lb/>telegram to
+            <lb/>to <persName ref="#BS">Berenice Smith.</persName> 
+            <lb/>It is pretty warm
+            <lb/>here now, yet
+            <lb/>there was a big
+            <lb/>rain last night.
+          </p>
+          <p>
+            <lb/>My Alaska
+            <lb/>ring came here
+            <pb facs="09-06-1909_GS_to_ATS_letter_p2"/>
+            <lb/>the <date when="1909-08-23">23 of Aug.</date> I
+            <lb/>got it this
+            <lb/>morning. It is
+            <lb/>a beauty.
+          </p>
+          <p>
+            <lb/>Oh about the
+            <lb/>pillow. <persName ref="#ML">Mrs. L. </persName> was 
+            <lb/>much pleased
+            <lb/>with it and thought
+            <lb/>it handsome and
+            <lb/>it is in the
+            <lb/>parlour.
+            <pb facs="09-06-1909_GS_to_ATS_letter_p4"/>
+          </p>
+          <p>
+            <lb/>I do hope that
+            <lb/>I'll get a letter
+            <lb/>tomorrow.
+          </p>
+          <closer>
+            <lb/><salute>Heaps of love,</salute>
+            <lb/><signed><persName ref="#GMS">Gladys</persName></signed>
+            <lb/><dateline><date when="1909-09-07">9/6/'09</date></dateline>
+          </closer>
+        </div>  
+        <div type="envelope" xml:id="GS19090906env01" 
+          corresp="#GS19090906">
+          <pb facs="09-06-1909_GS_to_ATS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./09-06-1909_GS_to_ATS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 06 September 1909</figDesc>
+          </figure>
+          <ab type="postalAddress">
+            <handShift new="#GMSHand"/>
+            <address>
+              <addrLine><persName ref="#ATS">Mrs. A.T. Stevens</persName></addrLine>
+              <addrLine>26 Emerson street</addrLine>
+              <addrLine><placeName ref="#Newton">Newton</placeName></addrLine>
+              <addrLine>Massachusetts</addrLine>  
+            </address>
+          </ab>
+          <ab>
+            <handShift new="Unknown"/> Hold 9-10-09
+          </ab>
+          <ab>
+            <stamp type="postmark"><placeName ref="#ElPaso">El PASO,TEXAS.</placeName> | SEP 6 | 430 PM | 1909 </stamp>
+            <stamp type="cancellation">[Seven wavy lines]</stamp>
+          </ab>
+          <ab type="endorsement">
+            <handShift scribe="Unknown"/>
+            Hold 9–10–09
+          </ab>
+        </div>      
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="EBT_HHM2GMS1909-09-13" n="1909-09-13">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>[James J. McIntyre to Gladys M. Stephens, 13 September 1909]</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc corresp="#JJM19090913let01">
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
+                1834-1949 1909-1917</collection>
+              <idno>SPEC.RARE.CMS.327</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                In another long letter, McIntyre describe his ship's cargo and its race with another ship along
+                Alaska's Inside Passage. As he often does in this correspondence, he laments the difficulties of 
+                a long-distance relationship conducted primarily through letters, and he muses about future trips
+                that he and Stephens might take together.
+              </p>
+            </msContents>
+            <physDesc>
+              <!-- 
+                TAKE NOTE: Your entire header should answer the following questions about your 
+                source document. At this point in your header, you should discuss anything in 
+                this list not mentioned elsewhere in the header.
+                
+                1. What is the document (letter, will, etc.)?
+                2. What does it say about itself (titles, descriptive notes, etc.)?
+                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+                4. How is it put together (folded sheets, binding, etc.)?
+                5. What is it made of (paper, vellum, etc.)?
+                6. What is its size (i.e., physical dimensions)?
+                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+                8. How is it related to other versions (original, copy, print history)?
+                
+                You can use more than one paragraph (tagged <p> </p>).
+              -->
+              
+              <p> ALS. Two loose sheets of cream-colored Alaska Steamship Company letterhead stationary 
+                measuring 8 X 10.75 inches. The front side contains a 2.75 inch letterhead, a body with
+                blue lines spaced at 0.375 inch intervals, and a 0.375 inch bottom margin. The letterhead 
+                is stamped "FORM 1 10M 8-09" and a 2.75 inch line, followed by "190" and another 0.25
+                inch line. The letterhead contains, in the upper-left hand corner, a half-tone logo for
+                the "ALASKA | STEAMSHIP Co. | BLACK BALL | LINE" 1 inch on all sides.
+              </p>
+              <accMat corresp="#GS19090913env">
+                Accompanied by a stamped, not-canceled manilla-colored 6.5 X 3.75 inch envelope, stamped 
+                <stamp>JUNEAU | SEP | 13 | 1909 | 6 PM | ALASKA</stamp>. The envelope is stamped in the upper-left
+                hand corner "FORM 7 M.P. 20 M 5-09".
+              </accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <note> Box 1, folder 2. </note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        
+        <div type="letter" xml:id="JJM19090913let01" corresp="JJM19090913env01">
+          <pb facs="09-13-1909_JJM_to_GS_letter_p1"/>
+          <opener>
+            <lb/><dateline><date when="1909-09-13">9/13 – 2 Bells <supplied reason="printed">190</supplied>9</date></dateline>
+            <lb/><salute>Dear <persName ref="#GMS">Girl</persName></salute>
+          </opener>  
+          <p>  
+            <lb/>well we arrived &amp; <choice><sic>deaparted</sic><corr>departed</corr></choice> from <placeName ref="#Ketchikan">Ketchikan</placeName> all OK and
+            <lb/>will be in <placeName ref="#Taku">Taku</placeName> (you were there" about 6<hi rend="underlined">30</hi> and should 
+            <lb/>be in <placeName ref="#Juneau">Juneau</placeName> 9<hi rend="underlined">30</hi> <add place="supralinear">this</add> a.m and leave for <placeName ref="#Skagway">Skagway</placeName> by 11<hi rend="underlined">00</hi>
+            <lb/>then we go to <placeName ref="#Chilkoot">Chilkoot</placeName> for 3000 Cases of Salmon
+            <lb/>and then to <placeName ref="#Gypsum">Gypsum</placeName> you remember the last place
+            <lb/>it is the place that we were agoing to Stop at after leaving
+            <lb/><placeName ref="#Sitka">Sitka</placeName> but for Some reason did not, from <placeName ref="#Gypsum">Gypsum</placeName>
+            <lb/>to <placeName ref="#Ketchikan">Ketchikan</placeName> to Bellingham and then <placeName ref="#Tacoma">Tacoma</placeName> and me
+            <lb/>wither? we are having no end of fun this trip they was a
+            <lb/>boat left <placeName ref="#Seattle">Seattle</placeName> the Same time we did and we have <choice><sic>bin</sic><corr>been</corr></choice> racing
+            <lb/>all the way up this <choice><sic>Companys</sic><corr>Company's</corr></choice> boat too a freight boat
+            <lb/>we have <choice><sic>accomadations</sic><corr>accomodations</corr></choice> for about >5 <choice><sic>passangers</sic><corr>passengers</corr></choice> on this one
+            <lb/>and a fine <choice><sic>passanger</sic><corr>passenger</corr></choice> list we have this time a nice large
+            <lb/>healthy looking bunch but very quiet I have not
+            <lb/><choice><sic>bin</sic><corr>been</corr></choice> able to get any of them to talk to me they seem afraid
+            <lb/>they are all <placeName ref="#Montana">Montana</placeName> and are agoing to <placeName ref="#Skagway">Skagway</placeName>
+            <lb/>well we beat to <placeName ref="#Ketchikan">Ketchikan</placeName> about 3/4 of a hour but they
+            <lb/>had no Cargo for there So left ahead of us but they
+            <lb/>met <name ref="#Dolphin">S.S. Dolphin</name> and had to change Pilots So we
+            <lb/>caught up with them and at it again we were
+          </p>
+          <pb facs="09-13-1909_JJM_to_GS_letter_p2"/>
+          <p>
+            <lb/>Side by each for about 3 hours and they turned off
+            <lb/>and went another way they go direct to <placeName ref="#Skaguay">Skag</placeName> and is
+            <lb/>45 or 50 miles farther than the way we are agoing but
+            <lb/>we make 3 Stops So I do not know how we will
+            <lb/>make out but are doing our best the worst of it is I
+            <lb/>was aboard of <name ref="#SantaAnna">S.S. Santa Anna</name> Sailing night and was
+            <lb/>Joshing the <persName ref="#End">Chief</persName> about the old freight boat he was on and
+            <lb/>if they beat us to <placeName ref="#Skaguay">Skag</placeName> I will never hear the last of it
+            <lb/>he is the <persName ref="#End">Chief</persName> from <name ref="#Ohio">S.S. Ohio</name> and as I said before an "auld
+            <lb/>acquaintance of mine; well honey I've <choice><sic>bin</sic><corr>been</corr></choice> <choice><sic>afther</sic><corr>after</corr></choice> sending that postal
+            <lb/>Carrier down to see how the knife is getting along? Yes I heard the
+            <lb/>name of one of the <choice><sic>passangers</sic><corr>passengers</corr></choice> who <choice><sic>Seames</sic><corr>seems</corr></choice> to be a little bolder
+            <lb/>than the rest and her name is <persName ref="#Maud">Maud</persName> 126 head of Cattle 
+            <lb/>and 3 Mules and they all Seem to be enjoying the trip and getting
+            <lb/>along nicely! well we are getting along better than I thought;
+            <lb/>we have a "Stand By" now So will Say <choice><sic>dood by</sic></choice> for a little while
+            <lb/>Hello — well brother Snow <seg type="obliqueText" rendition="#otl">and</seg> I made the dock all right and
+            <lb/>we will be away in a Short time; well <choice><sic>ittle</sic></choice> girl I have
+            <lb/><choice><sic>bin</sic><corr>been</corr></choice> wondering how you are enjoying your Trip and how
+            <lb/>you will like <placeName ref="#Mexico">Mexico</placeName> you will <choice><sic>undoubtily</sic><corr>undoubtedly</corr></choice> See Some
+            <lb/>very interesting places <choice><sic>doon</sic><corr>down</corr></choice> there, I hope So any
+            <lb/>way; but <choice><sic>nezer</sic><corr>never</corr></choice> mind dear If every <distinct type="babyTalk">Sing</distinct> goes all
+            <lb/>I wish (I don't want much do I honey) we will have
+            <lb/>the trip of your life Some day <seg type="obliqueText" rendition="#otl">and</seg> we'll be to <placeName ref="#China">China</placeName>
+            <lb/>&amp; <placeName ref="#Japan">Japan</placeName> and on down to <placeName ref="#Manila">Manila</placeName>; <placeName ref="#Manila">Manila</placeName> is a very
+            <lb/>Interesting place the old walled City for Instance
+            <lb/>I have Some <choice><sic>Souveniers</sic><corr>souvenirs</corr></choice> from there or did have
+            <lb/>any way but most every one that Comes to the
+            <lb/>house takes Something away and Sometimes I
+            <lb/>do not like It for some of the things has a
+            <lb/>history that is Interesting for me anyway
+          </p>
+          <pb facs="09-13-1909_JJM_to_GS_letter_p3"/>
+          <p>
+            <lb/><date when="1909-09-13">9/13/5 bells <supplied>190</supplied>0</date>
+            <lb/>and how I would like to see you on going
+            <lb/>in Some of the Silk and <choice><sic>Curiou</sic><corr>curio=</corr></choice> Shops you would
+            <lb/><choice><sic>Certainlly</sic><corr>certainly</corr></choice> do Some talking with those brown eyes
+            <lb/>I know: "what <hi rend="underlined">U</hi>  <distinct type="babyTalk">fink</distinct>" how I would like to
+            <lb/>see you this morning or tonight <sic>ore</sic> <corr>or</corr> any time and
+            <lb/>all times; I wished you knew how I have felt
+            <lb/>since I got your last letters every thing looks brighter
+            <lb/>and I am as happy as a kid you call me big boy
+            <lb/>well Sometimes I hardly think I <add place="inline"></add> that But I
+            <lb/>Suppose we will be old long enough So we
+            <lb/>might as well be kids as long as possible and
+            <lb/>there is only one little Cloud and that is I cannot See
+            <lb/>you as often as I wish; But "<choice><sic>Patince</sic><corr>patience</corr></choice>" It may not
+            <lb/><choice><sic>allways</sic><corr>always</corr></choice> be this way I don't <distinct type="babyTalk">fink</distinct> so any way do you
+            <lb/>(<hi>NO</hi>) you needn't answer that honey Those about
+            <lb/>that #110 did you make it while resting up at <placeName ref="#El Paso">El Paso</placeName>
+            <lb/>Hope So well your last letters was in <placeName ref="#Ketchikan">Ketchikan</placeName> only
+            <lb/>about 3 hours lucky <choice><sic>wasent</sic><corr>wasn't</corr></choice> I but dont Know how
+            <lb/>long this one will be in <placeName ref="#Juneau">Juneau</placeName> when the Postman
+            <lb/>Comes along with Some of these letters dear you will
+            <lb/>be looking out for the if expressman to see if my trunk
+            <lb/>is coming next I'm afraid
+          </p>
+          <pb facs="09-13-1909_JJM_to_GS_letter_p4"/>
+          <p>
+            <lb/>I was thinking last night after going to bed
+            <lb/>if I have the pleasure of <del>meeting</del> <add place="infralinear">seeing</add> you again in the
+            <lb/>Depot if our faces will be as long as last time
+            <lb/>I <choice><sic>dosent</sic><corr>don't</corr></choice> <distinct type="babyTalk">fink</distinct> so do you honey <unclear cert="medium">diss</unclear> not? I wonder how
+            <lb/>this fellow knew how I was a going to feel?
+            <quote type="block">
+              <lg>
+                <lb/><l>" 'Tell her, till I see</l>
+                <lb/><l>Those eyes, I do not live—that Rome to me</l>
+                <lb/><l>Is hatefull—tell her—oh!—I know not what—</l>
+                <lb/><l>That ever thought and feeling, space and spot,</l>
+                <lb/><l>Is like an ugly dream where she is not;</l>
+                <lb/><l>All persons plagues; all living wearysome;</l>
+                <lb/> <l>All talking empty . . .</l>
+              </lg><ptr type="noteAnchor" target="thatRome"/><note
+                xml:id="thatRome" resp="ed">Quotation from Elanor Glyn's novel <title level="m">Three Weeks</title>, set in Rome and Venice 
+                <bibl><ref target="#threeWeeks">Glyn 178</ref></bibl>.</note>
+            </quote>
+            <lb/>There Goes the <choice><sic>whussle</sic><corr>whistle</corr></choice> and So long for a <choice><sic>ittle</sic><corr>little</corr></choice> <choice><sic>minnit</sic><corr>minute</corr></choice>
+            <lb/>well dear I hope you get Some letters before you go to Mexico
+            <lb/>City or You will not know what to think has happened
+            <lb/>to me! But when you get back to <placeName ref="#El Paso">El Paso</placeName> or home <choice><sic>than</sic><corr>then</corr></choice>
+            <lb/>they will not be So much delay and I also hope that I
+            <lb/>will have "heaps" of letters when I get back the 22nd or 23rd
+            <lb/>well dear <choice><sic>ittle</sic><corr>little</corr></choice> I must Say So long and will write again
+            <lb/>from <placeName ref="#Skagway">Skagway</placeName> give my very best regards to <persName ref="#ACS">uncle alex</persName>
+            <lb/>and Love to <sic>ned</sic> I Remain The Same
+          </p>
+          <closer>
+            <lb/><salute>"<unclear cert="medium">say</unclear>" heaps &amp; heaps of love</salute>
+            <lb/><add place="margin">good day x x
+              <lb/>the Pleiades x</add>
+            <lb/><del rend="erased">J</del><persName ref="#JJM">JJM</persName>
+          </closer>
+        </div>
+        <div type="envelope" xml:id="JJM19090913env01">
+          <pb facs="09-13-1909_JJM_to_GS_envelope"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./09-13-1909_JJM_to_GS_envelope.jpg"></graphic>
+            <figDesc>Envelope for letter of 12 September 1909</figDesc>
+          </figure>
+          <ab type="postalAddress">
+            <address>
+              <addrLine>Miss. Gladys M. Stephens</addrLine>
+              <addrLine>#126 Leon Street</addrLine>
+              <addrLine>El Paso</addrLine>
+              <addrLine>Texas</addrLine>
+            </address> 
+          </ab>
+          <ab>
+            <stamp type="postmark"> <placeName ref="#Juneau">JUNEAU</placeName> | 
+              <date when="1909-09-13">SEP | 13 | 1909 | <time>6 PM</time> | </date> ALASKA </stamp>
+          </ab>
+          <ab type="endorsement">
+            <handShift scribe="Unknown"/>
+            27.2
+          </ab>
+        </div>
+      </body>
+    </text>
+  </TEI>
   <TEI xml:id="RMW_GMS2AJS_1909-09-22" n="1909-09-22">
     <teiHeader>
       <fileDesc>
@@ -4901,656 +5380,9 @@
       </body>
     </text>
   </TEI>
-  <TEI xml:id="MAW_GMS2MATS_1909-10-05" n="1909-10-05">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>[Gladys M. Stephens to Mrs. A. T. Stephens, 05 October 1909]</title>
-        </titleStmt>
-        <publicationStmt>
-          <p>Publication Information</p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc corresp="#GS19091005let01">
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
-                1834-1949 1909-1917</collection>
-              <idno>SPEC.RARE.CMS.327</idno>
-            </msIdentifier>
-            <msContents>
-              <p>
-                <!-- Describe contents briefly. -->
-                Writing from El Paso, Stephens mentions some social engagements, 
-                tells her mother about Adelaide's shopping for her wedding, and asks 
-                about pictures she sent previously, which were taken in San Diego. 
-              </p>
-            </msContents>
-            <physDesc>
-              <!-- 
-                TAKE NOTE: Your entire header should answer the following questions about your 
-                source document. At this point in your header, you should discuss anything in 
-                this list not mentioned elsewhere in the header.
-                
-                1. What is the document (letter, will, etc.)?
-                2. What does it say about itself (titles, descriptive notes, etc.)?
-                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
-                4. How is it put together (folded sheets, binding, etc.)?
-                5. What is it made of (paper, vellum, etc.)?
-                6. What is its size (i.e., physical dimensions)?
-                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
-                8. How is it related to other versions (original, copy, print history)?
-                
-                You can use more than one paragraph (tagged <p> </p>).
-              -->
-              <p>One sheet of cream-colored, unlined stationery
-                measuring 7 x 5.5 inches, folded in half to create a single bifolium 
-                of two leaves or four pages. The bifolium has been folded in half for mailing.</p>
-              <accMat corresp="#GS19091006env01">
-                <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
-                  describe the envelope and enclosure as above, and include an @corresp attribute whose value
-                  is the xml:id of the <div> in the text corresponding to the envelope. -->  
-                Accompanied by a stamped, canceled, cream-colored envelope
-                measuring 3.625 x 2.875 inches. The envelope is slit on the side.
-              </accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <note><!-- Box and folder number from the finding aid (e.g., Box 3, folder 16). --></note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    <text>
-      <body>
-        
-        <div type="letter" xml:id="GS19091005let01" corresp="#GS19091006env01">
-          <pb facs="10-05-1909_GS_to_ATS_letter_p1"/>
-          <opener>
-            <lb/><dateline><placeName>609 N. El Paso St.</placeName></dateline> 
-            <lb/><salute><rs ref="#JMS">Mother dear, </rs></salute>
-          </opener>
-          <p> <lb/>Have just  
-            <lb/>returned from a 
-            <lb/>birthday luncheon 
-            <lb/><seg type="obliqueText" rendition="#ot1">and</seg> this evening 
-            <lb/>I am going out to 
-            <lb/>dinner at another 
-            <lb/>house. 
-          </p>
-          <p> <lb/>It is as warm 
-            <lb/>today as a July 
-            <lb/>day at home. It 
-            <lb/>will be cool this 
-            <pb facs="10-05-1909_GS_to_ATS_letter_p2"/>
-            <lb/>evening however. 
-          </p>
-          <p> <lb/>I am as well as 
-            <lb/>ever. </p>
-          <p> <lb/> <persName ref="#AMM">Adelaide</persName> is 
-            <lb/>getting along  
-            <lb/>finely with her  
-            <lb/>shopping. Her 
-            <lb/>evening hat will  
-            <lb/>cost $52.95. <ptr type="noteAnchor" target="hat"/><note resp="ed" xml:id="hat">According to the U.S. Bureau of Labor, $52.95 in 1913 
-              would be roughly equivalent to $1,213.51 in 2011 <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>. 
-              This is a sizable sum considering that, as mentioned in Stephens's September 24 letter, 
-              Adelaide's fiancé made $50 a week. By comparison, hats advertised in a 1909 Sears Roebuck 
-              catalog ranged in price from $2.38 to $13.50 <bibl><ref target="#SR1909">Olian 1</ref></bibl>.</note>How's that?
-            <lb/>Everything else 
-            <lb/>accordingly.
-          </p>
-          <p>
-            <lb/>I am wondering
-            <lb/>what you think
-            <lb/>of the pictures. 
-            <pb facs="10-05-1909_GS_to_ATS_letter_p3"/> 
-            <lb/>They were taken 
-            <lb/>in <placeName ref="#SanDiego">San Diego </placeName>
-            <lb/><seg type="obliqueText" rendition="#ot1">and</seg> that dress 
-            <lb/>was all I could 
-            <lb/>wear. There was 
-            <lb/>no primping for 
-            <lb/>those pictures I 
-            <lb/>can tell you. 
-          </p>
-          <p>
-            <lb/>Got your card 
-            <lb/>yesterday. </p>
-          <p> <lb/>Were you 
-            <lb/>surprised about 
-            <lb/>the pictures? We 
-            <pb facs="10-05-1909_GS_to_ATS_letter_p4"/>
-            <lb/>wanted you to  
-            <lb/>be. 
-          </p>
-          <p> <lb/>Here they're all 
-            <lb/>talking about 
-            <lb/>my <hi rend="underlined">return </hi>&#x2014;<seg type="obliqueText" rendition="#ot1">and</seg> 
-            <lb/>I haven't left yet. 
-            <lb/>What do you think 
-            <lb/>of that? 
-          </p>
-          <p> <lb/>Just wrote to  
-            <lb/><persName ref="#Pauline">Pauline</persName>. Will 
-            <lb/>mail it when I 
-            <lb/>get time. 
-          </p>
-          <p>
-            <lb/>Hope you are well 
-          </p>
-          <closer>
-            <lb/> <salute>Love </salute>
-            <lb/> <signed><persName ref="#GMS">Gladys</persName></signed>
-            <lb/> <add place="margin"><date when="1909-10-05"></date>10/5/09</add>
-          </closer>
-        </div>
-        <div type="envelope" xml:id="GS19091006env01" corresp="#GS19091005let01">
-          <pb facs="10-06-1909_GS_to_ATS_envelope_for_letter_dated_10-05"/>
-          <figure rend="link">
-            <head><emph>Envelope</emph></head>
-            <graphic url="./10-06-1909_GS_to_ATS_envelope_for_letter_dated_10-05.jpg"></graphic>
-            <figDesc>Envelope for letter of 5 October 1909</figDesc>
-          </figure>
-          <ab type="postalAddress">
-            <address>
-              <addrLine><persName ref="#JMS">Mrs. A. T. Stephens </persName></addrLine>
-              <addrLine> 26 Emerson street </addrLine>
-              <addrLine> <placeName ref="#Newton">Newton </placeName></addrLine>
-              <addrLine> Massachusetts </addrLine>
-            </address>
-          </ab>
-          <ab>
-            <stamp type="postmark"> <placeName ref="#ElPaso">El PASO, TEXAS.</placeName> | <date when="1909-10-06">OCT 6</date> | 4 - PM | 1909 </stamp>
-            <stamp type="cancellation">[Seven wavy lines]</stamp>
-          </ab>
-       </div>
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="VMM_JJM2GSS_1909-08-23" n="1909-08-23">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>[James J. McIntyre to Gladys M. Stephens, 23 August 1909]</title>
-        </titleStmt>
-        <publicationStmt>
-          <p>Publication Information</p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc corresp="#GS19090706let01">
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
-                1834-1949 1909-1917</collection>
-              <idno>SPEC.RARE.CMS.327</idno>
-            </msIdentifier>
-            <msContents>
-              <p>
-                Writing during a late watch, McIntyre mentions the rough weather, mentions some pictures he plans to send Stephens, 
-                describes a visit with "little Gladys" and her mother, complains about the difficulty of carrying on a
-                correspondence aboard ship, and muses at length about love.
-              </p>
-            </msContents>
-            <physDesc>
-              <p>Two sheets of unlined, cream-colored stationery, each folded in half to create two leaves and four pages. The
-                resulting bifolia are not gathered; i.e., each bifolium consists of four sequentially written pages. The bifolia 
-                have been folded in half again for mailing.</p>
-              <accMat corresp="JJM19090823env01">
-                Accompanied by a stamped, canceled, cream-colored envelope measuring 5.25 x 3.75 inches.
-                address.
-              </accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <note>Box 1, folder 2</note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    <text>
-      <body>
-      
-        <div type="letter" xml:id="JJM19090823let01" corresp="JJM19090823env01">
-          <pb facs="08-23-1909_JJM_to_GS_letter_p1"/>
-          <opener>
-            <handShift new="JJMHand"/>
-            <lb/><dateline><date when="1909-08-23"><seg type="obliqueText" rendition="#ot1">8/23/09</seg></date></dateline>
-            <lb/><salute>Dear <persName ref="#GMS"><addName type="nickname">little Girl</addName></persName></salute>
-          </opener>
-          <p> 
-            <lb/>once more I am writing on the last
-            <lb/>watch before arriving in port and in 
-            <lb/>the wee hours of the morning I promised
-            <lb/>my self to let you down easy this 
-            <lb/>time and not write so much but it
-            <lb/>promises to be a long watch for
-            <lb/>we are running<ptr type="noteAnchor" target="running"/><note resp="ed" xml:id="running">The action of sailing before the wind <bibl><ref
-                  target="#OEDrunning">"Running"</ref></bibl>.</note> dead slow looking
-            <lb/>for a prominent <geogFeat>Cape</geogFeat>! <placeName ref="#CapeSt.Elias">Cape St
-            <lb/>Elias</placeName> by name. and a watch under
-            <lb/>a slow Bell is always a long one
-            <lb/>for me. I was just <hi rend="underlined">up stairs</hi>
-            <lb/>and it is a nasty rainy night
-            <lb/>and the ship is <choice><sic><unclear reason="illegible" cert="medium">roaling</unclear></sic><corr>rolling</corr></choice><ptr type="noteAnchor" target="rolling"/>
-            <note resp="ed" xml:id="rolling">The swaying or rocking of a vessel from side to
-                  side <bibl><ref target="#OEDrolling">"Rolling"</ref></bibl>.</note> heavy. you 
-            <lb/>should ought to see my pose in 
-            <lb/>writing this <subst><del rend="overtyped"><unclear reason="illegible" cert="high">a</unclear></del><add place="supralinear">the</add></subst> Kangaroo is not in it.
-            <pb facs="08-23-1909_JJM_to_GS_letter_p2"/>
-            <lb/>I wonder how you would <choice><sic>fell</sic><corr>feel</corr></choice>
-            <lb/>better I hope. we are agoing
-            <lb/>to <placeName ref="#Valdez"><choice><sic>Valdese</sic><corr>Valdese</corr></choice></placeName> first the mail has to be
-            <lb/>delivered at a certain time and we
-            <lb/>are behind but what's the odds no
-            <lb/>mail for me and a dozen or two
-            <lb/>letters would be very nice to me but
-            <lb/>nothing doing <choice><sic>untill</sic><corr>until</corr></choice> <placeName ref="#Seattle">Seattle</placeName> again!
-            <lb/>I started to read a <choice><sic>storey</sic><corr>story</corr></choice> last night
-            <lb/>called <title ref="#TheHolyCity" level="m">the Holy City</title> and It promises
-            <lb/>to be good. A few lines which I gave
-            <lb/>special attention to were these</p>
-          <p><lb/><q>what is Love</q></p>
-          <p><lb/>A certain boy and a certain girl <choice><sic>aggreed</sic><corr>agreed</corr></choice>
-            <lb/>to go <del rend="overstrike" cert="high">to go</del> to the same place in the same
-            <lb/>boat and they both <hi rend="underlined">pulled together</hi> So
-            <lb/>what's the odds where they came from?
-            <lb/>do <hi rend="underlined">you</hi> <choice><sic>aggee</sic><corr>agree</corr></choice> with them.
-            <pb facs="08-23-1909_JJM_to_GS_letter_p3"/>
-            <lb/>one <choice><sic>off</sic><corr>of</corr></choice> the many things that
-            <lb/>you will be told is this <persName ref="#GMS"><addName type="endearment">honey</addName></persName> <said>He's
-              <lb/>only a seafaring man.</said> and <hi rend="underlined">I</hi> will
-            <lb/><choice><sic>will</sic><corr></corr></choice> admit that their <choice><abbr type="suspension">Rep.</abbr><expan cert="high">reputation</expan></choice>is none
-            <lb/>too good<ptr type="noteAnchor" target="SailorsRep"/><note resp="ed" xml:id="SailorsRep">Numerous contemporary sources describe sailors' reputation for crudeness and womanizing. 
-              The warning that a sailor has a wife in every port was often repeated during this period <bibl><ref target="#SeafarWom"><title level="m">Seafaring Women</title> xiii</ref></bibl>.</note> but that comes more from 
-            <lb/>the sailor class on war ships and
-            <lb/>sailing vessels and all <choice><sic>deap</sic><corr>deep</corr></choice> water crafts
-            <lb/>mostly foreigner's and <persName ref="#GMS"><addName type="endearment">dear</addName></persName> I hope <choice><sic>too</sic><corr>to</corr></choice>
-            <lb/>be through with this in the near
-            <lb/>future hence them long 2 years if
-            <lb/>you can call that near future.
-            <lb/>and again <rs ref="#Burns">Burns</rs> says <said direct="false">a man's
-              <lb/>a man for all <del rend="overwritten">a</del>O that <q>and that</q></said>!
-            <lb/>By the way how is <rs ref="#Scotchman">the Scotchman</rs>
-            <lb/>getting along not "broke" I hope I
-            <lb/>must laugh when I think of the
-            <lb/>looks on <persName ref="#ACS"><addName type="nickname">uncle <hi rend="underline">A's</hi></addName></persName> face the day you
-            <pb facs="08-23-1909_JJM_to_GS_letter_p4"/>
-            <lb/>were In the Engine room I didn't
-            <lb/>think you noticed. but you afterwards
-            <lb/>spoke about it no harm for me
-            <lb/>you asked about <rs ref="#MrM">my father</rs> he was
-            <lb/>doing nicely when I <choice><sic>lift</sic><corr>left</corr></choice> <hi rend="underlined">thank</hi>
-            you <persName ref="#GMS"><addName type="nickname">neddy</addName></persName></p>
-          <p>
-            <lb/>we arrived in <placeName ref="#Juneau">Juneau</placeName> @ 11 <hi rend="underlined">40</hi> and left 12 <hi rend="underlined">45</hi>
-            <lb/>So did not have a chance to see about <name type="ship" ref="#Santa_Clara">Santa
-              <lb/>Clara's</name> pictures but may next time I
-            <lb/>will not forget them any way when
-            <lb/>I have the time to get up town
-            <lb/>I have no pictures of my self but
-            <lb/>will have some some day and send
-            <lb/>you one If you wish and don't
-            <lb/>forget that I have only the postal
-            <lb/>which by the way is in use every
-            <lb/>day <persName ref="#GMS"><addName type="endearment">honey</addName></persName> and many thanks for
-            <lb/>that pleasure but the original is
-            <lb/>what I wish to see above all else!
-            <pb facs="08-23-1909_JJM_to_GS_letter_p5"/>
-            <lb/>Never satisfied am I <persName ref="#GMS"><addName type="endearment">honey</addName></persName>
-            <lb/>but hope to be some day live in
-            <lb/>hopes and — I know <distinct type="babyTalk">sisint</distinct>
-            <lb/>nice to be so selfish but it would
-            <lb/>be <distinct type="babyTalk">ossle</distinct> nice to see you tonight or any
-            <lb/>other time the sooner the quicker
-            <lb/>It is now 3 a.m. and still <term ref="#running">running</term>
-            <lb/>slow. I suppose you are having a nice
-            <lb/>quiet sleep long ere this I hope so
-            <lb/>I also hope you are having a nice time
-            <lb/>and have saw lots of interesting places
-            <lb/>&amp; people it certainly is a lovely place
-            <lb/>I do not know if <choice><sic>they</sic><corr>there</corr></choice> is a boat north
-            <lb/>of us or not but am taking a chance
-            <lb/>any way it makes me seem closer
-            <lb/>to you anyway to be writing
-            <pb facs="08-23-1909_JJM_to_GS_letter_p6"/>
-            <lb/>away and at the same time going
-            <lb/>farther &amp; farther away take notice
-            <lb/>I am always looking out for my own
-            <lb/>pleasure when at the same time I may
-            <lb/>be trying your patience severely
-            <lb/>hope not <persName ref="#GMS"><addName type="endearment">honey</addName></persName> deed I do</p>
-            <lb/><p>I had a great romp with <rs ref="#LGS">little
-            <lb/> Gladys</rs> tonight her mother fetched
-            <lb/>her to my window (I have a room
-            <lb/>same as the chiefs on <name ref="#Santa_Clara">Santa Clara</name> only
-            <lb/>the door opens in engine room instead
-            <lb/>of deck) and she hollered for uncle that's
-            <lb/>what she calls me and I took her
-            <lb/>in side gave her an Orange dow<supplied reason="omitted">n</supplied>
-            <lb/>to the engine room and she was not
-            <lb/>a bit afraid and It was a pleasure
-            <lb/><choice><sic>two</sic><corr>to</corr></choice> have only a wee <rs ref="LGS">Gladys</rs>
-            <pb facs="08-23-1909_JJM_to_GS_letter_p7"/>
-            <lb/>to talk to and I said lots
-            <lb/>of things to her about —O well—
-            <lb/>well she laughed and seemed to
-            <lb/>enjoy it any way although
-            <lb/>could not understand
-            </p>
-            <lb/><p>I almost believe <persName ref="#GMS"><addName type="endearment">honey</addName></persName> that I 
-            <lb/>could carry you the same if
-            <lb/>the opportunity could be and your
-            <lb/>permission <hi rend="underlined">do you</hi>
-            <lb/>I often wonder If you give
-            <lb/>me  little thought when alone
-            <lb/>at night after a day of pleasure
-            <lb/>of pleasure (—I hope) remember
-            <lb/><persName ref="#GMS"><addName type="endearment">dear</addName></persName> I am going over the same
-            <lb/>old rout<supplied reason="omitted">e</supplied> nothing new and
-            <lb/>nothing to do but think which
-            <pb facs="08-23-1909_JJM_to_GS_letter_p8"/>
-            <lb/>is not altogether unpleasant for
-            <lb/><persName ref="#GMS"><addName type="nickname">neddy</addName></persName> they are always of you how
-            <lb/>glad I will be to get back to <placeName ref="#Seattle">Seattle</placeName>
-            <lb/>to get my letters so much seems to
-            <lb/>depend on them how I wished I
-            <lb/>knew what your <rs ref="#MATS">mother</rs> said
-            <lb/>for I want to tell my <rs ref="MsM">mother</rs>
-            <lb/>all about you on my return
-            <lb/>but nothing to do but wait and
-            <lb/>wish for the best is they <persName ref="#GMS"><addName type="endearment">dear</addName></persName>
-            <lb/>I forgot to tell you I gave up
-            <lb/>my room in <placeName ref="#Seattle">Seattle</placeName> also my friend
-            <lb/>or at least he was supposed to be
-            <lb/>They have just whistled down from
-              <lb/>the bridge for 5 more Revolutions<ptr type="noteAnchor" target="revolution"/>
-            <note resp="ed" xml:id="revolution">Whenever the Commander-in-Chief of a ship desired to
-              increase speed, the crew would cause the engines of the vessel to increase their
-                  revolutions <bibl><ref target="#OEDrevolution">
-              "Revolution"</ref></bibl>.</note>
-            <lb/>So <choice><sic>they</sic><corr>there</corr></choice> will be something doing in
-            <lb/>a short time and the time is 3 <hi rend="underlined">40</hi> and
-            <lb/>I must write up my log so once more
-              <lb/><persName ref="#GMS"><addName type="nickname">little girl</addName></persName> I will bid you good night</p>
-          <closer> 
-            <lb/><salute><distinct type="babyTalk">wif a heap of love</distinct> X </salute>
-            <signed><persName ref="#JJM">J.J.Mc</persName></signed>
-          </closer>
-        </div>
-        <div type="envelope" xml:id="JJM19090823env01">
-          <pb facs="08-23-1909_JJM_to_GS_envelope"/>
-          <figure rend="link">
-            <head><emph>Envelope</emph></head>
-            <graphic url="./08-23-1909_JJM_to_GS_envelope.jpg"></graphic>
-            <figDesc>Envelope for letter of 23 August 1909</figDesc>
-          </figure>
-          <ab type="postalAddress">
-            <handShift new="#JJMHand"/>
-            <address>
-            <addrLine><persName>Miss. Gladys. M. Stephens</persName></addrLine>
-            <addrLine><del rend="strikethrough" hand="#Unknown"><placeName ref="LosAngeles">Los Angeles.</placeName></del></addrLine>
-            <addrLine>California</addrLine>
-            <addrLine>(General Delivery)</addrLine>
-            </address>
-            <handShift new="#Unknown"/>
-            <address>
-              <addrLine> 126 Leon St</addrLine>
-              <addrLine><placeName ref="El Paso">El Paso Tex</placeName></addrLine>
-            </address>
-          </ab>
-          <ab>
-            <stamp type="postmark"> VALDEZ | AUG | 23 | 10 AM | 1909 | ALASKA </stamp>
-            <stamp type="postmark"> LOS ANGELES | <unclear reason="damage">SE.....</unclear> | CAL. </stamp>
-            <stamp type="postmark">SEP 27 1909 </stamp>
-            <stamp type="postmark"> SEP 27 1909 </stamp>
-          </ab>
-          <ab type="endorsement">
-            <handShift new="Unknown"/>9 16<ptr type="noteAnchor" target="Endorse23Aug"/>
-            <note resp="ed" xml:id="Endorse23Aug">The endorsement is written in pencil, and the number 16 is circled.</note>
-          </ab>
-            
-<!--          <figure rend="link">
-            <head>Two-cent U.S. postage stamp.</head>
-            <graphic url="https://images.asc.ohio-state.edu/is/image/englishdocsr?layer=0&amp;size=460,480&amp;layer=1&amp;src=is{mediamanager08-23-1909_JJM_to_GS_envelope.jpg.jpg?scale=0.2&amp;rgn=0,0,460,320&amp;fmt=png}&amp;posN=0,-.25&amp;layer=2&amp;size=460,320&amp;text=\vertalt\cf1\qc\fs15\%20Caption&amp;posN=0,.5"/>
-            <figDesc>
-              U.S. POSTAGE / TWO CENTS [Portrait of William Seward; perforated horizontally and  vertically; U.S. #370] Upside down 
-            </figDesc>
-          </figure>
--->        </div>
-      </body>
-    </text>
-  </TEI>
-  <TEI xml:id="EBT_HHM2GMS1909-09-13" n="1909-09-13">
-    <teiHeader>
-      <fileDesc>
-        <titleStmt>
-          <title>[James J. McIntyre to Gladys M. Stephens, 13 September 1909]</title>
-        </titleStmt>
-        <publicationStmt>
-          <p>Publication Information</p>
-        </publicationStmt>
-        <sourceDesc>
-          <msDesc corresp="#JJM19090913let01">
-            <msIdentifier>
-              <country>USA</country>
-              <settlement>Columbus, OH</settlement>
-              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
-              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
-                1834-1949 1909-1917</collection>
-              <idno>SPEC.RARE.CMS.327</idno>
-            </msIdentifier>
-            <msContents>
-              <p>
-                In another long letter, McIntyre describe his ship's cargo and its race with another ship along
-                Alaska's Inside Passage. As he often does in this correspondence, he laments the difficulties of 
-                a long-distance relationship conducted primarily through letters, and he muses about future trips
-                that he and Stephens might take together.
-              </p>
-            </msContents>
-            <physDesc>
-              <!-- 
-                TAKE NOTE: Your entire header should answer the following questions about your 
-                source document. At this point in your header, you should discuss anything in 
-                this list not mentioned elsewhere in the header.
-                
-                1. What is the document (letter, will, etc.)?
-                2. What does it say about itself (titles, descriptive notes, etc.)?
-                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
-                4. How is it put together (folded sheets, binding, etc.)?
-                5. What is it made of (paper, vellum, etc.)?
-                6. What is its size (i.e., physical dimensions)?
-                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
-                8. How is it related to other versions (original, copy, print history)?
-                
-                You can use more than one paragraph (tagged <p> </p>).
-              -->
-              
-              <p> ALS. Two loose sheets of cream-colored Alaska Steamship Company letterhead stationary 
-                measuring 8 X 10.75 inches. The front side contains a 2.75 inch letterhead, a body with
-                blue lines spaced at 0.375 inch intervals, and a 0.375 inch bottom margin. The letterhead 
-                is stamped "FORM 1 10M 8-09" and a 2.75 inch line, followed by "190" and another 0.25
-                inch line. The letterhead contains, in the upper-left hand corner, a half-tone logo for
-                the "ALASKA | STEAMSHIP Co. | BLACK BALL | LINE" 1 inch on all sides.
-              </p>
-              <accMat corresp="#GS19090913env">
-                Accompanied by a stamped, not-canceled manilla-colored 6.5 X 3.75 inch envelope, stamped 
-                <stamp>JUNEAU | SEP | 13 | 1909 | 6 PM | ALASKA</stamp>. The envelope is stamped in the upper-left
-                hand corner "FORM 7 M.P. 20 M 5-09".
-              </accMat>
-            </physDesc>
-            <additional>
-              <adminInfo>
-                <note> Box 1, folder 2. </note>
-              </adminInfo>
-            </additional>
-          </msDesc>
-        </sourceDesc>
-      </fileDesc>
-    </teiHeader>
-    <text>
-      <body>
-        
-        <div type="letter" xml:id="JJM19090913let01" corresp="JJM19090913env01">
-          <pb facs="09-13-1909_JJM_to_GS_letter_p1"/>
-          <opener>
-            <lb/><dateline><date when="1909-09-13">9/13 – 2 Bells <supplied reason="printed">190</supplied>9</date></dateline>
-            <lb/><salute>Dear <persName ref="#GMS">Girl</persName></salute>
-          </opener>  
-          <p>  
-            <lb/>well we arrived &amp; <choice><sic>deaparted</sic><corr>departed</corr></choice> from <placeName ref="#Ketchikan">Ketchikan</placeName> all OK and
-            <lb/>will be in <placeName ref="#Taku">Taku</placeName> (you were there" about 6<hi rend="underlined">30</hi> and should 
-            <lb/>be in <placeName ref="#Juneau">Juneau</placeName> 9<hi rend="underlined">30</hi> <add place="supralinear">this</add> a.m and leave for <placeName ref="#Skagway">Skagway</placeName> by 11<hi rend="underlined">00</hi>
-            <lb/>then we go to <placeName ref="#Chilkoot">Chilkoot</placeName> for 3000 Cases of Salmon
-            <lb/>and then to <placeName ref="#Gypsum">Gypsum</placeName> you remember the last place
-            <lb/>it is the place that we were agoing to Stop at after leaving
-            <lb/><placeName ref="#Sitka">Sitka</placeName> but for Some reason did not, from <placeName ref="#Gypsum">Gypsum</placeName>
-            <lb/>to <placeName ref="#Ketchikan">Ketchikan</placeName> to Bellingham and then <placeName ref="#Tacoma">Tacoma</placeName> and me
-            <lb/>wither? we are having no end of fun this trip they was a
-            <lb/>boat left <placeName ref="#Seattle">Seattle</placeName> the Same time we did and we have <choice><sic>bin</sic><corr>been</corr></choice> racing
-            <lb/>all the way up this <choice><sic>Companys</sic><corr>Company's</corr></choice> boat too a freight boat
-            <lb/>we have <choice><sic>accomadations</sic><corr>accomodations</corr></choice> for about >5 <choice><sic>passangers</sic><corr>passengers</corr></choice> on this one
-            <lb/>and a fine <choice><sic>passanger</sic><corr>passenger</corr></choice> list we have this time a nice large
-            <lb/>healthy looking bunch but very quiet I have not
-            <lb/><choice><sic>bin</sic><corr>been</corr></choice> able to get any of them to talk to me they seem afraid
-            <lb/>they are all <placeName ref="#Montana">Montana</placeName> and are agoing to <placeName ref="#Skagway">Skagway</placeName>
-            <lb/>well we beat to <placeName ref="#Ketchikan">Ketchikan</placeName> about 3/4 of a hour but they
-            <lb/>had no Cargo for there So left ahead of us but they
-            <lb/>met <name ref="#Dolphin">S.S. Dolphin</name> and had to change Pilots So we
-            <lb/>caught up with them and at it again we were
-          </p>
-          <pb facs="09-13-1909_JJM_to_GS_letter_p2"/>
-          <p>
-            <lb/>Side by each for about 3 hours and they turned off
-            <lb/>and went another way they go direct to <placeName ref="#Skaguay">Skag</placeName> and is
-            <lb/>45 or 50 miles farther than the way we are agoing but
-            <lb/>we make 3 Stops So I do not know how we will
-            <lb/>make out but are doing our best the worst of it is I
-            <lb/>was aboard of <name ref="#SantaAnna">S.S. Santa Anna</name> Sailing night and was
-            <lb/>Joshing the <persName ref="#End">Chief</persName> about the old freight boat he was on and
-            <lb/>if they beat us to <placeName ref="#Skaguay">Skag</placeName> I will never hear the last of it
-            <lb/>he is the <persName ref="#End">Chief</persName> from <name ref="#Ohio">S.S. Ohio</name> and as I said before an "auld
-            <lb/>acquaintance of mine; well honey I've <choice><sic>bin</sic><corr>been</corr></choice> <choice><sic>afther</sic><corr>after</corr></choice> sending that postal
-            <lb/>Carrier down to see how the knife is getting along? Yes I heard the
-            <lb/>name of one of the <choice><sic>passangers</sic><corr>passengers</corr></choice> who <choice><sic>Seames</sic><corr>seems</corr></choice> to be a little bolder
-            <lb/>than the rest and her name is <persName ref="#Maud">Maud</persName> 126 head of Cattle 
-            <lb/>and 3 Mules and they all Seem to be enjoying the trip and getting
-            <lb/>along nicely! well we are getting along better than I thought;
-            <lb/>we have a "Stand By" now So will Say <choice><sic>dood by</sic></choice> for a little while
-            <lb/>Hello — well brother Snow <seg type="obliqueText" rendition="#otl">and</seg> I made the dock all right and
-            <lb/>we will be away in a Short time; well <choice><sic>ittle</sic></choice> girl I have
-            <lb/><choice><sic>bin</sic><corr>been</corr></choice> wondering how you are enjoying your Trip and how
-            <lb/>you will like <placeName ref="#Mexico">Mexico</placeName> you will <choice><sic>undoubtily</sic><corr>undoubtedly</corr></choice> See Some
-            <lb/>very interesting places <choice><sic>doon</sic><corr>down</corr></choice> there, I hope So any
-            <lb/>way; but <choice><sic>nezer</sic><corr>never</corr></choice> mind dear If every <distinct type="babyTalk">Sing</distinct> goes all
-            <lb/>I wish (I don't want much do I honey) we will have
-            <lb/>the trip of your life Some day <seg type="obliqueText" rendition="#otl">and</seg> we'll be to <placeName ref="#China">China</placeName>
-            <lb/>&amp; <placeName ref="#Japan">Japan</placeName> and on down to <placeName ref="#Manila">Manila</placeName>; <placeName ref="#Manila">Manila</placeName> is a very
-            <lb/>Interesting place the old walled City for Instance
-            <lb/>I have Some <choice><sic>Souveniers</sic><corr>souvenirs</corr></choice> from there or did have
-            <lb/>any way but most every one that Comes to the
-            <lb/>house takes Something away and Sometimes I
-            <lb/>do not like It for some of the things has a
-            <lb/>history that is Interesting for me anyway
-          </p>
-          <pb facs="09-13-1909_JJM_to_GS_letter_p3"/>
-          <p>
-            <lb/><date when="1909-09-13">9/13/5 bells <supplied>190</supplied>0</date>
-            <lb/>and how I would like to see you on going
-            <lb/>in Some of the Silk and <choice><sic>Curiou</sic><corr>curio=</corr></choice> Shops you would
-            <lb/><choice><sic>Certainlly</sic><corr>certainly</corr></choice> do Some talking with those brown eyes
-            <lb/>I know: "what <hi rend="underlined">U</hi>  <distinct type="babyTalk">fink</distinct>" how I would like to
-            <lb/>see you this morning or tonight <sic>ore</sic> <corr>or</corr> any time and
-            <lb/>all times; I wished you knew how I have felt
-            <lb/>since I got your last letters every thing looks brighter
-            <lb/>and I am as happy as a kid you call me big boy
-            <lb/>well Sometimes I hardly think I <add place="inline"></add> that But I
-            <lb/>Suppose we will be old long enough So we
-            <lb/>might as well be kids as long as possible and
-            <lb/>there is only one little Cloud and that is I cannot See
-            <lb/>you as often as I wish; But "<choice><sic>Patince</sic><corr>patience</corr></choice>" It may not
-            <lb/><choice><sic>allways</sic><corr>always</corr></choice> be this way I don't <distinct type="babyTalk">fink</distinct> so any way do you
-            <lb/>(<hi>NO</hi>) you needn't answer that honey Those about
-            <lb/>that #110 did you make it while resting up at <placeName ref="#El Paso">El Paso</placeName>
-            <lb/>Hope So well your last letters was in <placeName ref="#Ketchikan">Ketchikan</placeName> only
-            <lb/>about 3 hours lucky <choice><sic>wasent</sic><corr>wasn't</corr></choice> I but dont Know how
-            <lb/>long this one will be in <placeName ref="#Juneau">Juneau</placeName> when the Postman
-            <lb/>Comes along with Some of these letters dear you will
-            <lb/>be looking out for the if expressman to see if my trunk
-            <lb/>is coming next I'm afraid
-          </p>
-          <pb facs="09-13-1909_JJM_to_GS_letter_p4"/>
-          <p>
-            <lb/>I was thinking last night after going to bed
-            <lb/>if I have the pleasure of <del>meeting</del> <add place="infralinear">seeing</add> you again in the
-            <lb/>Depot if our faces will be as long as last time
-            <lb/>I <choice><sic>dosent</sic><corr>don't</corr></choice> <distinct type="babyTalk">fink</distinct> so do you honey <unclear cert="medium">diss</unclear> not? I wonder how
-            <lb/>this fellow knew how I was a going to feel?
-            <quote type="block">
-            <lg>
-             <lb/><l>" 'Tell her, till I see</l>
-             <lb/><l>Those eyes, I do not live—that Rome to me</l>
-             <lb/><l>Is hatefull—tell her—oh!—I know not what—</l>
-             <lb/><l>That ever thought and feeling, space and spot,</l>
-             <lb/><l>Is like an ugly dream where she is not;</l>
-             <lb/><l>All persons plagues; all living wearysome;</l>
-             <lb/> <l>All talking empty . . .</l>
-            </lg><ptr type="noteAnchor" target="thatRome"/><note
-              xml:id="thatRome" resp="ed">Quotation from Elanor Glyn's novel <title level="m">Three Weeks</title>, set in Rome and Venice 
-              <bibl><ref target="#threeWeeks">Glyn 178</ref></bibl>.</note>
-            </quote>
-            <lb/>There Goes the <choice><sic>whussle</sic><corr>whistle</corr></choice> and So long for a <choice><sic>ittle</sic><corr>little</corr></choice> <choice><sic>minnit</sic><corr>minute</corr></choice>
-            <lb/>well dear I hope you get Some letters before you go to Mexico
-            <lb/>City or You will not know what to think has happened
-            <lb/>to me! But when you get back to <placeName ref="#El Paso">El Paso</placeName> or home <choice><sic>than</sic><corr>then</corr></choice>
-            <lb/>they will not be So much delay and I also hope that I
-            <lb/>will have "heaps" of letters when I get back the 22nd or 23rd
-            <lb/>well dear <choice><sic>ittle</sic><corr>little</corr></choice> I must Say So long and will write again
-            <lb/>from <placeName ref="#Skagway">Skagway</placeName> give my very best regards to <persName ref="#ACS">uncle alex</persName>
-            <lb/>and Love to <sic>ned</sic> I Remain The Same
-          </p>
-          <closer>
-            <lb/><salute>"<unclear cert="medium">say</unclear>" heaps &amp; heaps of love</salute>
-              <lb/><add place="margin">good day x x
-              <lb/>the Pleiades x</add>
-            <lb/><del rend="erased">J</del><persName ref="#JJM">JJM</persName>
-          </closer>
-        </div>
-        <div type="envelope" xml:id="JJM19090913env01">
-          <pb facs="09-13-1909_JJM_to_GS_envelope"/>
-          <figure rend="link">
-            <head><emph>Envelope</emph></head>
-            <graphic url="./09-13-1909_JJM_to_GS_envelope.jpg"></graphic>
-            <figDesc>Envelope for letter of 12 September 1909</figDesc>
-          </figure>
-          <ab type="postalAddress">
-            <address>
-            <addrLine>Miss. Gladys M. Stephens</addrLine>
-            <addrLine>#126 Leon Street</addrLine>
-            <addrLine>El Paso</addrLine>
-            <addrLine>Texas</addrLine>
-          </address> 
-          </ab>
-          <ab>
-            <stamp type="postmark"> <placeName ref="#Juneau">JUNEAU</placeName> | 
-              <date when="1909-09-13">SEP | 13 | 1909 | <time>6 PM</time> | </date> ALASKA </stamp>
-          </ab>
-          <ab type="endorsement">
-            <handShift scribe="Unknown"/>
-            27.2
-          </ab>
-        </div>
-      </body>
-    </text>
-  </TEI>
+  
+  
+  
   
   <TEI xml:id="JPL_GMS2MATS_1909_09_27" n="1909-09-27">
     <teiHeader>
@@ -6186,6 +6018,177 @@
               vertically; Design A139]</figDesc>
           </figure>
 -->        </div>
+      </body>
+    </text>
+  </TEI>
+  <TEI xml:id="MAW_GMS2MATS_1909-10-05" n="1909-10-05">
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title>[Gladys M. Stephens to Mrs. A. T. Stephens, 05 October 1909]</title>
+        </titleStmt>
+        <publicationStmt>
+          <p>Publication Information</p>
+        </publicationStmt>
+        <sourceDesc>
+          <msDesc corresp="#GS19091005let01">
+            <msIdentifier>
+              <country>USA</country>
+              <settlement>Columbus, OH</settlement>
+              <repository>Rare Books and Manuscripts, The Ohio State University</repository>
+              <collection>Dr. Ivan S. Gilbert collection of Stephens family travel letters,
+                1834-1949 1909-1917</collection>
+              <idno>SPEC.RARE.CMS.327</idno>
+            </msIdentifier>
+            <msContents>
+              <p>
+                <!-- Describe contents briefly. -->
+                Writing from El Paso, Stephens mentions some social engagements, 
+                tells her mother about Adelaide's shopping for her wedding, and asks 
+                about pictures she sent previously, which were taken in San Diego. 
+              </p>
+            </msContents>
+            <physDesc>
+              <!-- 
+                TAKE NOTE: Your entire header should answer the following questions about your 
+                source document. At this point in your header, you should discuss anything in 
+                this list not mentioned elsewhere in the header.
+                
+                1. What is the document (letter, will, etc.)?
+                2. What does it say about itself (titles, descriptive notes, etc.)?
+                3. What does it contain (no. of pages/sheets, enclosures, etc.)?
+                4. How is it put together (folded sheets, binding, etc.)?
+                5. What is it made of (paper, vellum, etc.)?
+                6. What is its size (i.e., physical dimensions)?
+                7. How is it packaged/contained (binding, envelope, folder, box, etc.)?
+                8. How is it related to other versions (original, copy, print history)?
+                
+                You can use more than one paragraph (tagged <p> </p>).
+              -->
+              <p>One sheet of cream-colored, unlined stationery
+                measuring 7 x 5.5 inches, folded in half to create a single bifolium 
+                of two leaves or four pages. The bifolium has been folded in half for mailing.</p>
+              <accMat corresp="#GS19091006env01">
+                <!-- Note whether an envelope or enclosure accomplanies the letter. If so,
+                  describe the envelope and enclosure as above, and include an @corresp attribute whose value
+                  is the xml:id of the <div> in the text corresponding to the envelope. -->  
+                Accompanied by a stamped, canceled, cream-colored envelope
+                measuring 3.625 x 2.875 inches. The envelope is slit on the side.
+              </accMat>
+            </physDesc>
+            <additional>
+              <adminInfo>
+                <note><!-- Box and folder number from the finding aid (e.g., Box 3, folder 16). --></note>
+              </adminInfo>
+            </additional>
+          </msDesc>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body>
+        
+        <div type="letter" xml:id="GS19091005let01" corresp="#GS19091006env01">
+          <pb facs="10-05-1909_GS_to_ATS_letter_p1"/>
+          <opener>
+            <lb/><dateline><placeName>609 N. El Paso St.</placeName></dateline> 
+            <lb/><salute><rs ref="#JMS">Mother dear, </rs></salute>
+          </opener>
+          <p> <lb/>Have just  
+            <lb/>returned from a 
+            <lb/>birthday luncheon 
+            <lb/><seg type="obliqueText" rendition="#ot1">and</seg> this evening 
+            <lb/>I am going out to 
+            <lb/>dinner at another 
+            <lb/>house. 
+          </p>
+          <p> <lb/>It is as warm 
+            <lb/>today as a July 
+            <lb/>day at home. It 
+            <lb/>will be cool this 
+            <pb facs="10-05-1909_GS_to_ATS_letter_p2"/>
+            <lb/>evening however. 
+          </p>
+          <p> <lb/>I am as well as 
+            <lb/>ever. </p>
+          <p> <lb/> <persName ref="#AMM">Adelaide</persName> is 
+            <lb/>getting along  
+            <lb/>finely with her  
+            <lb/>shopping. Her 
+            <lb/>evening hat will  
+            <lb/>cost $52.95. <ptr type="noteAnchor" target="hat"/><note resp="ed" xml:id="hat">According to the U.S. Bureau of Labor, $52.95 in 1913 
+              would be roughly equivalent to $1,213.51 in 2011 <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>. 
+              This is a sizable sum considering that, as mentioned in Stephens's September 24 letter, 
+              Adelaide's fiancé made $50 a week. By comparison, hats advertised in a 1909 Sears Roebuck 
+              catalog ranged in price from $2.38 to $13.50 <bibl><ref target="#SR1909">Olian 1</ref></bibl>.</note>How's that?
+            <lb/>Everything else 
+            <lb/>accordingly.
+          </p>
+          <p>
+            <lb/>I am wondering
+            <lb/>what you think
+            <lb/>of the pictures. 
+            <pb facs="10-05-1909_GS_to_ATS_letter_p3"/> 
+            <lb/>They were taken 
+            <lb/>in <placeName ref="#SanDiego">San Diego </placeName>
+            <lb/><seg type="obliqueText" rendition="#ot1">and</seg> that dress 
+            <lb/>was all I could 
+            <lb/>wear. There was 
+            <lb/>no primping for 
+            <lb/>those pictures I 
+            <lb/>can tell you. 
+          </p>
+          <p>
+            <lb/>Got your card 
+            <lb/>yesterday. </p>
+          <p> <lb/>Were you 
+            <lb/>surprised about 
+            <lb/>the pictures? We 
+            <pb facs="10-05-1909_GS_to_ATS_letter_p4"/>
+            <lb/>wanted you to  
+            <lb/>be. 
+          </p>
+          <p> <lb/>Here they're all 
+            <lb/>talking about 
+            <lb/>my <hi rend="underlined">return </hi>&#x2014;<seg type="obliqueText" rendition="#ot1">and</seg> 
+            <lb/>I haven't left yet. 
+            <lb/>What do you think 
+            <lb/>of that? 
+          </p>
+          <p> <lb/>Just wrote to  
+            <lb/><persName ref="#Pauline">Pauline</persName>. Will 
+            <lb/>mail it when I 
+            <lb/>get time. 
+          </p>
+          <p>
+            <lb/>Hope you are well 
+          </p>
+          <closer>
+            <lb/> <salute>Love </salute>
+            <lb/> <signed><persName ref="#GMS">Gladys</persName></signed>
+            <lb/> <add place="margin"><date when="1909-10-05"></date>10/5/09</add>
+          </closer>
+        </div>
+        <div type="envelope" xml:id="GS19091006env01" corresp="#GS19091005let01">
+          <pb facs="10-06-1909_GS_to_ATS_envelope_for_letter_dated_10-05"/>
+          <figure rend="link">
+            <head><emph>Envelope</emph></head>
+            <graphic url="./10-06-1909_GS_to_ATS_envelope_for_letter_dated_10-05.jpg"></graphic>
+            <figDesc>Envelope for letter of 5 October 1909</figDesc>
+          </figure>
+          <ab type="postalAddress">
+            <address>
+              <addrLine><persName ref="#JMS">Mrs. A. T. Stephens </persName></addrLine>
+              <addrLine> 26 Emerson street </addrLine>
+              <addrLine> <placeName ref="#Newton">Newton </placeName></addrLine>
+              <addrLine> Massachusetts </addrLine>
+            </address>
+          </ab>
+          <ab>
+            <stamp type="postmark"> <placeName ref="#ElPaso">El PASO, TEXAS.</placeName> | <date when="1909-10-06">OCT 6</date> | 4 - PM | 1909 </stamp>
+            <stamp type="cancellation">[Seven wavy lines]</stamp>
+          </ab>
+        </div>
       </body>
     </text>
   </TEI>

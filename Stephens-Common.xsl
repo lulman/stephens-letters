@@ -425,7 +425,7 @@
             </xsl:for-each>
 -->            
             <!-- Insert, count, encode by cardinal position, and link the explanatory annotations. -->
-            <xsl:element name="div"><!--<xsl:attribute name="class">contents-notes</xsl:attribute>-->
+         <xsl:element name="div"><!--<xsl:attribute name="class">contents-notes</xsl:attribute>-->
            <h1>Explanatory Annotations</h1>
                <hr/>
             <xsl:for-each select="//tei:TEI//tei:note[@resp='ed']">
