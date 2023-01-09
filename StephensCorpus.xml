@@ -1084,7 +1084,7 @@
             <location>
               <geo>47.6000 -122.3167</geo>
             </location>
-            <event type="fair" when="1909">
+            <event type="fair" when="1909" ref="#AYP">
               <label>1909 Seattle World's Fair</label>
             </event>
           </place>
@@ -1979,11 +1979,16 @@
           </bibl>  
         </listBibl>
         
-        <listEvent>
+<!--  NOT USED IN THIS EDITION
+      The Alaska-Yukon-Pacific Exposition is more of a setting for many of Gladys Stevens' letters
+      rather than an isolated "event," and the Louisiana Purchase Exposition comes up in a passing reference in
+      one of her letters.
+          
+          <listEvent>
           <event when="1904" notBefore="1904-04-30" notAfter="1904-12-01" where="#StLouis" xml:id="LPE">
             <label>Louisiana Purchase Exposition</label>
             <desc>In her letter of 6 July 1909, Stephens relates a traveling companion's
-              comparison between the Alaska-Yukon-Pacific Exposition and the Louisian Purchase
+              comparison between the Alaska-Yukon-Pacific Exposition and the Louisiana Purchase
               Exposition held in St. Louis in 1904.</desc>
           </event>
           <event when="1909" notBefore="1909-06-01" notAfter="1909-10-16" where="#Seattle" xml:id="AYP">
@@ -2003,7 +2008,7 @@
             <bibl><ref target="#TexasHist">Taft-Diaz Meeting</ref></bibl>
           </event>
         </listEvent>
-      
+-->      
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
