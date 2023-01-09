@@ -1742,7 +1742,7 @@
           </bibl>
           <bibl xml:id="RS" n="Shannon">Shannon, Robin. <title level="m">Seattle's Historic Hotels</title>. Charleston: 
             Arcadia Publishing, 2010. <title level="m">Google Books</title>. Web. 23 October 2011.</bibl>
-          <bibl xml:id="THL" n="HolyLand"> <title level="a"> The Holy Land.</title> <title level="m">Library of 
+          <bibl xml:id="THL" n="HolyLand"> <title level="a">The Holy Land.</title> <title level="m">Library of 
           Congress Authorities</title>. Web. 15 Nov. 2011.
           </bibl>
           <bibl xml:id="SR19091001" n="HenryHiser">
@@ -2248,7 +2248,7 @@
             <note type="biographical">The Wards are a family that includes both Will Ward and Jack Ward.  Gladys writes in her September 27, 1909
           letter to Mrs. A.T. Stephens wondering who is in the Ward's Portland house.</note>
           </person>
-          <person xml:id="JW"><persName>Ward, Will</persName>
+          <person xml:id="WW"><persName>Ward, Will</persName>
             <note type="biographical">Gladys remarks on Will Ward's marriage in her September 27, 1909 letter to Mrs A.T. Stephens and asks
             where Jack Ward is living.</note>
           </person>
@@ -2300,11 +2300,11 @@
               Stephens asks if Mrs. Stephens has heard from the MacQ's lately, and wonders what <q>the
               madam think now.</q></note>
           </person>
-          <person><persName>Rich, Mrs</persName>
+          <person xml:id="Rich"><persName>Rich, Mrs</persName>
             <note type="biographical">In her August 8, 1909 letter to her mother, Gladys Stephens 
               remarks that she fails <q>to see the point of Mrs. Rich's joke.</q></note>
           </person>
-          <person><persName>Dotens</persName>
+          <person xml:id="Dotens"><persName>Dotens</persName>
             <note type="biographical">In her letter of 8 August 1909, Gladys Stephens mentions corresponding with the Dotens.</note>
           </person> 
           <person xml:id="LGS"><persName>Little Gladys</persName>
@@ -3028,7 +3028,7 @@
             <lb/>wrote <persName>Miss Childs</persName> a
             <lb/>steamer letter, one to
             <lb/><persName>Gus</persName>, I think I wrote
-            <lb/>one to <persName>Roswel</persName>, and a
+            <lb/>one to <persName ref="#Roswel">Roswel</persName>, and a
             <lb/>dozen lines to <persName>Nat</persName>
             <lb/>telling him that I
             <lb/>was having a dandy
@@ -3067,7 +3067,7 @@
           </figure>
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
-            <persName>Mrs. A. T. Stephens</persName>
+            <persName ref="#JMS">Mrs. A. T. Stephens</persName>
             <address>
             <addrLine>26 Emerson street</addrLine>
             <addrLine>Newton</addrLine>
@@ -3596,7 +3596,7 @@
           <opener>
             <handShift new="GMSHand"/>
             <lb/><dateline><supplied reason="printed form"><placeName>Seattle</placeName></supplied> <date when="1909-08-08">8/8/'09</date></dateline>
-            <lb/><salute><persName>Mother dear</persName></salute>,
+            <lb/><salute><persName ref="#JMS">Mother dear</persName></salute>,
           </opener>
           <p>
             <lb/>We arrived in <placeName>Seattle</placeName>
@@ -3663,7 +3663,7 @@
             <lb/>and 2 grandsons.  He owns a ranch
             <lb/>in <placeName>Texas</placeName> which is about 12
             <lb/>miles square. They have invited
-            <lb/>me to visit them, and <persName>Uncle
+            <lb/>me to visit them, and <persName ref="#ACS">Uncle
             <lb/>Alex</persName> wants me <choice><sic>too</sic><corr>to</corr></choice>. He may
             <lb/>have a business motive. I
             <lb/>will likely stop there for 2 or 3
@@ -3699,18 +3699,18 @@
             <lb/>limit.
           </p>
           <p>
-            <lb/>So you like the <persName>Thomases</persName>?
-            <lb/>What's that about <persName>Berenice</persName>? Do
+            <lb/>So you like the <persName ref="#Thomases">Thomases</persName>?
+            <lb/>What's that about <persName ref="#BS">Berenice</persName>? Do
             <lb/>you believe it?         
           </p>
           <p>
-            <lb/>I fail to see the point of <persName>Mrs.           
+            <lb/>I fail to see the point of <persName ref="#Rich">Mrs.           
             <lb/>Rich's</persName> joke.  So the tree didn't
             <lb/>bloom.
           </p>
           <p>
             <lb/>I did <hi rend="underline">not</hi> send a card to
-            <lb/><persName>Will Ward</persName>. I sent
+            <lb/><persName ref="#WW">Will Ward</persName>. I sent
             <lb/>it to his <hi rend="underlined">mother</hi>!
           </p>
           <pb facs="08-08-1909_to_ATS_letter_p4"/>
@@ -3718,7 +3718,7 @@
             <lb/><del rend="overwritten"><hi rend="underlined">3</hi></del>4
             <lb/>He is a cheerful <del rend="overstrike">lyer</del><choice><sic>lier</sic><corr>liar</corr></choice>.  I
             <lb/>have not sent any more to the 
-            <lb/><persName>Dotens</persName>. Do not worry. I got a 
+            <lb/><persName ref="#Dotens">Dotens</persName>. Do not worry. I got a 
             <lb/>letter from <persName>Walt</persName> which I will
             <lb/>enclose. In it he acknowledges
             <lb/> <hi rend="underlined">one letter</hi>.
@@ -3732,7 +3732,7 @@
           <p>
             <lb/>I got your five letters this
             <lb/>morning, and one from <persName>Walt</persName>,
-            <lb/>and one from <persName>Adelaide</persName>. I'm not
+            <lb/>and one from <persName ref="#AMM">Adelaide</persName>. I'm not
             <lb/>sure whe<del rend="overstrike">a</del>ther Adelaide is going 
             <lb/>to <placeName ref="#Mexico">Mexico</placeName> or not.
           </p>
@@ -3740,7 +3740,7 @@
             <lb/>The <placeName>Mexican</placeName> trip is all planned
             <lb/>and I start home immediately
             <lb/>on getting back. I'll be about
-            <lb/>one week late. <persName><choice><abbr>U.A.</abbr><expan>Uncle Alex</expan></choice></persName> has the day
+            <lb/>one week late. <persName ref="#ACS"><choice><abbr>U.A.</abbr><expan>Uncle Alex</expan></choice></persName> has the day
             <lb/>set for us to start to <placeName>Mexico</placeName> and
             <lb/>all plans <unclear reason="underline or random mark at end of page?"><hi rend="underlined">O.K.</hi></unclear>
           </p>
@@ -3786,7 +3786,7 @@
           </figure>
           <ab type="postalAddress">
             <handShift new="#GMSHand"></handShift>
-            <persName>Mrs. A.T. Stephens</persName>
+            <persName ref="#JMS">Mrs. A.T. Stephens</persName>
             <address>
             <addrLine>26 Emerson street</addrLine>
             <addrLine>Newton</addrLine>
@@ -4041,7 +4041,7 @@
           </figure>
           <ab type="postalAddress">
             <address>
-              <addrLine>Miss. <persName>Gladys. M. Stephens</persName>.</addrLine>
+              <addrLine>Miss. <persName ref="#GMS">Gladys. M. Stephens</persName>.</addrLine>
               <addrLine><del rend="strikethrough">San Francisco</del></addrLine>
               <addrLine>California</addrLine>
               <addrLine>(General Delivery)</addrLine>
@@ -4758,7 +4758,7 @@
           <ab type="postalAddress">
             <handShift new="#JJMHand"/>
             <address>
-              <addrLine><persName>Miss. Gladys. M. Stephens</persName></addrLine>
+              <addrLine><persName ref="#GMS">Miss. Gladys. M. Stephens</persName></addrLine>
               <addrLine><del rend="strikethrough" hand="#Unknown"><placeName ref="LosAngeles">Los Angeles.</placeName></del></addrLine>
               <addrLine>California</addrLine>
               <addrLine>(General Delivery)</addrLine>
@@ -5354,7 +5354,7 @@
           </figure>
           <ab type="postalAddress">
             <handShift new="#GMSHand"/>
-            <persName>Mrs. A. T. Stephens</persName>
+            <persName ref="#JMS">Mrs. A. T. Stephens</persName>
             <address>
               <addrLine>26 Emerson street</addrLine>
               <addrLine>Newton</addrLine>
