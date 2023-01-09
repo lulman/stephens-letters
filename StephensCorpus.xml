@@ -2882,7 +2882,7 @@
         <div type="letter" xml:id="GS19090706let01" corresp="#GS19090706env01">
           <pb facs="07-06-1909_GS_to_ATS_letter_p1"/>
           <opener>
-            <lb/><dateline><supplied reason="printed form"><placeName>Seattle,</placeName></supplied> 
+            <lb/><dateline><supplied reason="printed form"><placeName ref="#Seattle">Seattle,</placeName></supplied> 
               <date when="1909-07-06">7/6 <supplied reason="printed form">190</supplied>9</date></dateline><ptr type="noteAnchor" target="letterhead"/>
             <note resp="ed" xml:id="letterhead">Because Gladys Stephens often uses letterhead with a
               form at the top for the dateline, we encode the printed text around her handwriting
@@ -2894,7 +2894,7 @@
           <p>
             <lb/>I have made my 
             <!-- Is "Exposition Grounds" a place, a referring string, or an event? -->
-            <lb/>first trip to the <placeName>Exposition 
+            <lb/>first trip to the <placeName ref="#AYP">Exposition 
               <lb/>Grounds</placeName>. They are simply
             <lb/>dreams of beauty. Such 
             <lb/>flowers—and such 
@@ -3182,7 +3182,7 @@
         <div type="letter" xml:id="GS19090710let01" corresp="#GS19090710env01">
           <pb facs="07-10-1909_GS_to_ATS_letter_p1"/>
           <opener>
-            <lb/><dateline><supplied reason="printed form"><placeName>Seattle,</placeName></supplied> 
+            <lb/><dateline><supplied reason="printed form"><placeName ref="#Seattle">Seattle,</placeName></supplied> 
               <date when="1909-07-06">7/10/ <supplied reason="printed form">190</supplied>9</date></dateline>
             <lb/><salute>Dear <persName ref="#ATS">Pa</persName>,</salute>
           </opener>
@@ -3595,11 +3595,11 @@
           <pb facs="08-08-1909_to_ATS_letter_p1"/>
           <opener>
             <handShift new="GMSHand"/>
-            <lb/><dateline><supplied reason="printed form"><placeName>Seattle</placeName></supplied> <date when="1909-08-08">8/8/'09</date></dateline>
+            <lb/><dateline><supplied reason="printed form"><placeName ref="#Seattle">Seattle</placeName></supplied> <date when="1909-08-08">8/8/'09</date></dateline>
             <lb/><salute><persName ref="#JMS">Mother dear</persName></salute>,
           </opener>
           <p>
-            <lb/>We arrived in <placeName>Seattle</placeName>
+            <lb/>We arrived in <placeName ref="#Seattle">Seattle</placeName>
             <lb/>at 7.30 this morning.  It was
             <lb/>rather rough last night, but
             <lb/>it was just from the wind.
@@ -3610,7 +3610,7 @@
           <p>
             <lb/>As a souvenir I have the
             <lb/>official list of the <choice><sic>passangers</sic><corr>passengers</corr></choice>
-            <lb/>who sailed from <placeName>Seattle</placeName>. It
+            <lb/>who sailed from <placeName ref="#Seattle">Seattle</placeName>. It
             <lb/>was posted by the Purser, and
             <lb/>he gave it to me.<ptr type="noteAnchor" target="Purser"/>
             <note resp="ed" xml:id="Purser">The Purser on a cruise ship traditionally has several
@@ -3626,7 +3626,7 @@
           <p>
             <lb/>I'd like to know what is
             <lb/>the matter with <rs>auntie</rs>. I
-            <lb/>sent her cards from <placeName>Yellowstone</placeName>
+            <lb/>sent her cards from <placeName ref="#Yellowstone">Yellowstone</placeName>
             <lb/>and some from here — among 
             <lb/>them a leather <choice><abbr>A.Y.P.</abbr><expan>Alaska-Yukon-Pacific</expan></choice> card.<ptr type="noteAnchor" target="card"/><note resp="ed" xml:id="card">The "A.Y.P. cards" Gladys
             mentions here are probably postcards from the Alaska-Yukon-Pacific (A.Y.P.) exhibition.  A.Y.P. postcards, a large collection of which
@@ -3652,7 +3652,7 @@
             <lb/>tanned also.
           </p>
           <p>
-            <lb/>A <placeName>Texas</placeName> judge who is worth
+            <lb/>A <placeName ref="#Texas">Texas</placeName> judge who is worth
             <lb/>3 million <ptr type="noteAnchor" target="million"/>
             <note resp="ed" xml:id="million">According to the U.S. Bureau of Labor, this would be
               about 1.3 billion dollars today, according to the "relative share of GDP," which is
@@ -3661,7 +3661,7 @@
               Hotel Georgian <bibl><ref target="#USLab">CPI Inflation Calculator</ref></bibl>.</note> was on the ship coming
             <lb/>back with his wife, two daughters
             <lb/>and 2 grandsons.  He owns a ranch
-            <lb/>in <placeName>Texas</placeName> which is about 12
+            <lb/>in <placeName ref="#Texas">Texas</placeName> which is about 12
             <lb/>miles square. They have invited
             <lb/>me to visit them, and <persName ref="#ACS">Uncle
             <lb/>Alex</persName> wants me <choice><sic>too</sic><corr>to</corr></choice>. He may
@@ -3737,11 +3737,11 @@
             <lb/>to <placeName ref="#Mexico">Mexico</placeName> or not.
           </p>
           <p>
-            <lb/>The <placeName>Mexican</placeName> trip is all planned
+            <lb/>The <placeName ref="#Mexico">Mexican</placeName> trip is all planned
             <lb/>and I start home immediately
             <lb/>on getting back. I'll be about
             <lb/>one week late. <persName ref="#ACS"><choice><abbr>U.A.</abbr><expan>Uncle Alex</expan></choice></persName> has the day
-            <lb/>set for us to start to <placeName>Mexico</placeName> and
+            <lb/>set for us to start to <placeName ref="#Mexico">Mexico</placeName> and
             <lb/>all plans <unclear reason="underline or random mark at end of page?"><hi rend="underlined">O.K.</hi></unclear>
           </p>
           <pb facs="08-08-1909_to_ATS_letter_p5"/>
@@ -3767,7 +3767,7 @@
          <postscript rendition="#ot1">
            <p>
             <lb/>Address next letters to
-            <lb/><del rend="overstrike">San</del> <placeName>Los Angeles</placeName>
+            <lb/><del rend="overstrike">San</del> <placeName ref="#LosAngeles">Los Angeles</placeName>
             <lb/>General Delivery</p>
          </postscript>
          <postscript>
@@ -4759,14 +4759,14 @@
             <handShift new="#JJMHand"/>
             <address>
               <addrLine><persName ref="#GMS">Miss. Gladys. M. Stephens</persName></addrLine>
-              <addrLine><del rend="strikethrough" hand="#Unknown"><placeName ref="LosAngeles">Los Angeles.</placeName></del></addrLine>
+              <addrLine><del rend="strikethrough" hand="#Unknown"><placeName ref="#LosAngeles">Los Angeles.</placeName></del></addrLine>
               <addrLine>California</addrLine>
               <addrLine>(General Delivery)</addrLine>
             </address>
             <handShift new="#Unknown"/>
             <address>
               <addrLine> 126 Leon St</addrLine>
-              <addrLine><placeName ref="El Paso">El Paso Tex</placeName></addrLine>
+              <addrLine><placeName ref="#ElPaso">El Paso Tex</placeName></addrLine>
             </address>
           </ab>
           <ab>
@@ -5996,7 +5996,7 @@
             <addrLine><persName ref="#GMS">Miss. Gladys M. Stephens</persName></addrLine>
             <addrLine>#126 Leon Street</addrLine>
             <addrLine><placeName ref="#ElPaso">El Paso</placeName></addrLine>
-            <addrLine><placeName>Texas</placeName>.</addrLine>
+            <addrLine><placeName ref="#Texas">Texas</placeName>.</addrLine>
             </address>
           </ab>
           <ab>
@@ -6243,7 +6243,7 @@
         <div type="letter" xml:id="GS19091011let01" corresp="#GS19091011env01">
           <pb facs="10-11-1909_to_GS_letter_p1"/>
           <opener>
-            <lb/><dateline><placeName><supplied reason="printed_form">Tacoma, Wash.,</supplied></placeName>
+            <lb/><dateline><placeName ref="#Tacoma"><supplied reason="printed_form">Tacoma, Wash.,</supplied></placeName>
               <date when="1909-10-11">10/11 <supplied reason="printed_form">190</supplied>9</date></dateline>
             <lb/><salute>Dear <persName ref="#GMS"><addName type="endearment">girl</addName>
             </persName></salute>
