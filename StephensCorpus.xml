@@ -780,32 +780,32 @@
                 History</title> records that "[t]he most important event of [1889] was the
                 organization .&#xA0;.&#xA0;. of the 
                 Puget Sound and Alaska Steamship Company" <bibl><ref target="#DMHPN">363</ref></bibl>, for which 
-                James J. McIntyre sails and works on the <name type="ship">Santa Clara</name> and 
-                <name type="ship">Northwestern</name>, among other ships, in 1909.
+                James J. McIntyre sails and works on the <name type="ship" ref="#SantaClara">Santa Clara</name> and 
+                <name type="ship" ref="#Northwestern">Northwestern</name>, among other ships, in 1909.
               </p>
               <p> Within the selected letters presented here, McIntyre never explicitly mentions the
                 potential dangers of his work, but the wreck of the <name type="ship">S.S.
                   Ohio</name> informs some of his remarks about various ships. In his September 13
-                letter, he mentions an acquaintance who was the "Chief from the <name type="ship"
+                letter, he mentions an acquaintance who was the "Chief from the <name type="ship" ref="#Ohio"
                   >S.S. Ohio</name>." We do not know if McIntyre ever served on the <name
                   type="ship">Ohio</name>, but it had just wrecked on a reef off the coast of Alaska
                 a few weeks earlier, killing five people <bibl><ref target="#WSO">"Wreck of the
                     Steamship Ohio" 14</ref></bibl>. McIntyre himself would have been involved with
                 getting some of the surviving passengers to their original destination, had he not
-                transferred from the <name type="ship">Santa Clara</name> to the <name type="ship"
+                transferred from the <name type="ship" ref="#SantaClara">Santa Clara</name> to the <name type="ship" ref="#Northwestern"
                   >Northwestern</name> when he did. His August 13 letter describes the transfer, the
-                  <name type="ship">Ohio</name> wrecked on August 26, and the <name type="ship"
+                  <name type="ship" ref="#Ohio">Ohio</name> wrecked on August 26, and the <name type="ship" ref="#SantaClara"
                   >Santa Clara</name> left port with passengers from the Ohio on August 30
                     <bibl><ref target="#SPPOR">"Steamer Portland"</ref></bibl>. The contemporary
-                account even mentions that the <name type="ship">Santa Clara's</name> next stop would be in Juneau to pick up
+                account even mentions that the <name type="ship" ref="#SantaClara">Santa Clara's</name> next stop would be in Juneau to pick up
                 survivors from another shipwreck, that of the steamer <name type="ship">Humboldt</name>. </p>
               <p>
-                The contemporary article that mentions the <name type="ship">Santa Clara</name> also holds interest for a reader of McIntyre's letters because it sheds 
-                some light on the activities of the ships on which he served. Before the <name type="ship">Santa Clara</name> had been dispatched to help out the 
-                survivors of the <name type="ship">Ohio</name>, it had been "idle for three months" <bibl><ref target="#SPPOR">"Steamer Portland"</ref></bibl>. Thus, 
-                when McIntyre refers to the <name type="ship">Santa Clara</name> as a "mail boat" in his August 13 letter, we can infer that it was not actively engaged 
-                in shipping mail when he wrote the letter. The <name type="ship">Santa Clara</name> may have had a contract with the Post Office at the time, but its idleness 
-                helps explain why McIntyre ends that same letter with the word "lightboat." If the <name type="ship">Santa Clara</name> were serving as a lightboat, or lightship, 
+                The contemporary article that mentions the <name type="ship" ref="#SantaClara">Santa Clara</name> also holds interest for a reader of McIntyre's letters because it sheds 
+                some light on the activities of the ships on which he served. Before the <name type="ship" ref="#SantaClara">Santa Clara</name> had been dispatched to help out the 
+                survivors of the <name type="ship" ref="#Ohio">Ohio</name>, it had been "idle for three months" <bibl><ref target="#SPPOR">"Steamer Portland"</ref></bibl>. Thus, 
+                when McIntyre refers to the <name type="ship" ref="#SantaClara">Santa Clara</name> as a "mail boat" in his August 13 letter, we can infer that it was not actively engaged 
+                in shipping mail when he wrote the letter. The <name type="ship" ref="#SantaClara">Santa Clara</name> may have had a contract with the Post Office at the time, but its idleness 
+                helps explain why McIntyre ends that same letter with the word "lightboat." If the <name type="ship" ref="#SantaClara">Santa Clara</name> were serving as a lightboat, or lightship, 
                 during those months of inactivity, then it was helping to keep the coast safe by operating as a kind of lighthouse upon the water. 
                 Such an operation must have been subsidized by the government, but it begs questions about how much money the crew and the steamship company 
                 made for such services. These circumstances also highlight the numerous purposes of the merchant marine during this time. The state of U. S. 
@@ -829,7 +829,7 @@
                 than <q>the Thousand Islands of the St. Lawrence,</q> and that <q>the voyage to the North is more instructive 
                 than a tour of the Old World and the scenery which the tourist beholds surpasses the Alps of Switzerland 
                 in its mighty and rugged grandeur.</q> McIntyre hikes to the lower and upper waterfalls of the Ketchikan 
-                River with Irene Palmer, the sister of the <name type="ship">Northwestern</name>'s purser, and Gladys 
+                River with Irene Palmer, the sister of the <name type="ship" ref="#Northwestern">Northwestern</name>'s purser, and Gladys 
                 Stephens, and he writes to Gladys of the forthcoming totem park at Klawock. Alaskan Indian culture was quickly 
                 becoming a featured tourist attraction, driven by a perceived enervation of traditional cultures and the 
                 preservation efforts to counteract that enervation which, ironically, was a product of American intrusion. 
@@ -941,13 +941,13 @@
                 themselves were apparently only moderately enticing—of the fifty-three mail routes that the Post Office sought bids for, 
                 they received only eleven proposals <bibl><ref target="#RDLP">De La Pedraja 452</ref></bibl>. Nonetheless, by the turn of the century, private companies in the 
                 merchant marine were shipping mail across both the Atlantic and the Pacific. Thus, when McIntyre refers to the 
-                <name type="ship">Santa Clara</name> as a "mail boat" in his letter of August 13, he underscores one of the primary functions of the merchant marine 
+                <name type="ship" ref="#SantaClara">Santa Clara</name> as a "mail boat" in his letter of August 13, he underscores one of the primary functions of the merchant marine 
                 at the time.
               </p>
               <p><hi rend="bold">Social Status of Maritime Workers</hi>. Of interest to diverse
                 readers will be the curious love affair between James J. McIntyre and Gladys
                 Stephens. In fact, upon reading McIntyre's letters, one must wonder how James
-                McIntyre, a crew member on the <name type="ship">S.S. Northwestern</name> and Gladys
+                McIntyre, a crew member on the <name type="ship" ref="#Northwestern">S.S. Northwestern</name> and Gladys
                 Stephens, a lady of some means and social mobility, could ever have met and fallen
                 in love. McIntyre’s correspondence with Stephens does not provide much information
                 regarding how the two met or indeed, how their very different lives ever crossed
@@ -1035,7 +1035,7 @@
                 Sailors' Magazine</title>: <q>[d]on't think that I am grumbling; sure not. Why, a little over three years 
                 ago I saw my wife, and had the good fortune to be in her company for almost the whole of an hour</q> 
                 <bibl><ref target="#SMJan1914">74</ref></bibl>. Regardless, the job was dangerous, and the tramp engineer 
-                would likely be assigned the riskiest manual labor—McIntyre warns that because the <name type="ship">Northwestern</name>'s 
+                would likely be assigned the riskiest manual labor—McIntyre warns that because the <name type="ship" ref="#Northwestern">Northwestern</name>'s 
                 boilers have been acting up, it will be <q>a wonder</q> if no one is seriously injured (04 October 1909).
               </p>              
               <p><hi rend="bold">U.S. Perceptions of Mexico</hi>. Just as tourism between the Mississippi and Pacific shaped and reflected conceptions of America and the American 
@@ -1256,7 +1256,7 @@
           </place>
           <place type="city" xml:id="Klawock" source="#TGN">
             <placeName>Klawock</placeName>
-            <desc>The <name type="ship">Northwestern</name> picks up a cannery crew in Klawock.</desc>
+            <desc>The <name type="ship" ref="#Northwestern">Northwestern</name> picks up a cannery crew in Klawock.</desc>
             <country>USA</country>
             <region type="state">Alaska</region>
             <region type="county">Prince of Wales-Outer Ketchikan</region>
@@ -1343,7 +1343,7 @@
           </place>
           <place type="state" xml:id="Montana">
             <placeName>Montana</placeName>
-          <desc>In his letter of 13 September 1909, James McIntyre mentions that some passengers on the <name type="ship">Northwestern</name> are from Montana.</desc>
+          <desc>In his letter of 13 September 1909, James McIntyre mentions that some passengers on the <name type="ship" ref="#Northwestern">Northwestern</name> are from Montana.</desc>
           <country>USA</country>
             <location>
               <geo>47.0000 -110.0000</geo>
@@ -1490,10 +1490,12 @@
           </place>
         </listPlace>
         
-        <list type="gloss">
+<!--    NOT USED IN THIS EDITION
+          
+          <list type="gloss">
           <head>Glossary</head>
-          <!-- Lewis Ulman's glossary entries begin here. -->
-          <!-- Here's an example from another edition. -->
+          <!-\- Lewis Ulman's glossary entries begin here. -\->
+          <!-\- Here's an example from another edition. -\->
           <item xml:id="Mate">
             <term>Mate</term>
             <gloss>Mates on merchant ships would take command in the captain's stead in the absence
@@ -1501,7 +1503,7 @@
             <bibl><ref target="#Falconers">Falconer's</ref></bibl>
           </item>
         </list>
-        
+-->        
         <list>
           <head>List of Ships Mentioned in Stephens Family Letters</head>
           <!-- Lewis Ulman's ship entries begin here. -->
@@ -1529,10 +1531,10 @@
             to the Alaska-Pacific Navigation Company</q> (this is also when it was renamed the Santa Clara). 
             The Alaska-Pacific Navigation Company then sold it to the Northwestern Steamship Company, 
             which then merged with the Alaska Steamship Company. McIntyre was transferred from 
-            the <name type="ship">Santa Clara</name> to the <name type="ship">Northwestern</name> in August 1909, and by November 6, 1909, 
+            the <name type="ship" ref="#SantaClara">Santa Clara</name> to the <name type="ship" ref="#Northwestern">Northwestern</name> in August 1909, and by November 6, 1909, 
             the Santa Clara had been sold again, this time to the North Pacific Steamship Company of 
             San Francisco. The article in the <title level="j">Pacific Merchant Marine</title> also offers a specific description of 
-            the ship: <q>The <name type="ship">Santa Clara</name> is a wooden steamship, with modern 
+            the ship: <q>The <name type="ship" ref="#SantaClara">Santa Clara</name> is a wooden steamship, with modern 
             equipments, including the wireless telegraph, and is regarded as a good sailor. 
             She has comfortable passenger accommodations, and is a good cargo carrier. 
             She is 223 feet long, has a 38-foot beam, and a depth of 24-1 feet. 
@@ -1558,7 +1560,7 @@
             <orgName>Alaska Steamship Company</orgName>
             <state type="company">
               <desc>
-                James McIntyre sails on and uses stationery from the <name type="ship">S.S. Northwestern</name>, which was 
+                James McIntyre sails on and uses stationery from the <name type="ship" ref="#Northwestern">S.S. Northwestern</name>, which was 
                 acquired by the Alaska Steamship Company when it merged with the Northwest (Northern) 
                 Steamship Company in 1909. Based in Seattle, the Alaska Steamship Company was founded 
                 in 1895 and disbanded in 1971.
@@ -1621,7 +1623,7 @@
           <bibl xml:id="MEA" n="SSNorth">S.S. Northwestern. <title level="m">Marine Exchange of
             Alaska</title>. N.p., n.d. Web. 24 Sept. 2011.</bibl>
           <bibl xml:id="Burwell" n="Burwell">Burwell, Michael. <title level="a">The SS <name
-            type="ship">Northwestern</name>: The Final Return of 'The Ship that Always Came
+            type="ship" ref="#Northwestern">Northwestern</name>: The Final Return of 'The Ship that Always Came
             Back'.</title> <title level="m">Alaska at War, 1941–1945: The Forgotten War
             Remembered</title>. Ed. Fern Chandonnet. Fairbanks: U of Alaska P, 2008. Print. 219–226.
           </bibl>
@@ -2205,12 +2207,12 @@
           </person>
           <person xml:id="JJM">
             <persName>McIntyre, James J</persName>
-            <note type="biographical">James McIntyre is a crew member on the <name type="ship">S.S. Northwestern</name>. 
+            <note type="biographical">James McIntyre is a crew member on the <name type="ship" ref="#Northwestern">S.S. Northwestern</name>. 
             He is enamoured with Gladys Stephens and writes to her often between the summer of 1909 and 
             the fall of 1909 (and probably later). It is likely that McIntyre was a tramp engineer, a low-ranking 
             crewman who switches jobs frequently and has little formal training. Between his letters of 13 August 
-            1909 and 04 October 1909, McIntyre transfers from the <name type="ship">Santa Clara</name> to the 
-            <name type="ship">Northwestern</name>, and in the latter letter, he indicates that in one calendar 
+            1909 and 04 October 1909, McIntyre transfers from the <name type="ship" ref="#SantaClara">Santa Clara</name> to the 
+            <name type="ship" ref="#Northwestern">Northwestern</name>, and in the latter letter, he indicates that in one calendar 
             year he has worked on five different ships.</note>
           </person>
           <person xml:id="ACS">
@@ -2308,7 +2310,7 @@
             <note type="biographical">In her letter of 8 August 1909, Gladys Stephens mentions corresponding with the Dotens.</note>
           </person> 
           <person xml:id="LGS"><persName>Little Gladys</persName>
-            <note type="biographical"> Little Gladys appears to be a young girl on the <name type="ship">S.S. Northwestern</name>, of whom James McIntyre seems to be fond. 
+            <note type="biographical"> Little Gladys appears to be a young girl on the <name type="ship" ref="#Northwestern">S.S. Northwestern</name>, of whom James McIntyre seems to be fond. 
           </note>
           </person>
           <person xml:id="Burns"><persName>Burns</persName>
@@ -2442,14 +2444,14 @@
             <residence when="1930" source="#Census1930HEP">Richmond, NY</residence>
             <note type="biographical">
               In his letter to Gladys Stephens of 04 October 1909, James McIntyre mentions spending 
-              time with the <name type="ship">S.S. Northwestern's</name> purser's sister, whom he identifies as Irene Palmer. 
+              time with the <name type="ship" ref="#Northwestern">S.S. Northwestern's</name> purser's sister, whom he identifies as Irene Palmer. 
               Though McIntyre never mentions the purser by name, the 1900 U.S. Census shows that Irene 
               Palmer lived with two older brothers: Gilbert S. and Herbert E. Palmer. The 1910 Census 
               indicates that Gilbert S. Palmer was still a member of the family household, while Herbert 
               E. Palmer is not listed, suggesting that the purser of whom Macintyre speaks is Herbert E. 
               Palmer. In fact, a Herbert E. Palmer corresponding with the relevant genealogical data 
               does not appear at all on the 1910 Census, but this is not surprising if we consider that 
-              the itinerant nature of his duties on the <name type="ship">Northwestern</name> could have prevented his being 
+              the itinerant nature of his duties on the <name type="ship" ref="#Northwestern">Northwestern</name> could have prevented his being 
               recorded for the 1910 Census. It is likely that he didn't die during this gap, as a Herbert 
               E. Palmer matching the relevant genealogical data is recorded in the 1920 Census. At this 
               point, he had married Mary Palmer, a first generation Bohemian-American whose parents 
@@ -3824,7 +3826,7 @@
             <msContents>
               <p>Writing from Seattle, McIntyre pens an eight-page love letter to Stephens. 
                 The letter also describes McIntyre's life as a merchant marine, including his annual salary 
-                and his recent transfer from the <name type="ship">Santa Clara</name> to the <name type="ship">North Western</name>.
+                and his recent transfer from the <name type="ship" ref="#SantaClara">Santa Clara</name> to the <name type="ship" ref="#Northwestern">North Western</name>.
                 <!-- Describe contents briefly. -->
               </p>
             </msContents>
@@ -5660,9 +5662,9 @@
               <idno>SPEC.RARE.CMS.327</idno>
             </msIdentifier>
             <msContents>
-              <p> McIntyre discusses the current schedule and route of the <name type="ship">S.S.
-                  Northwestern</name> and details specifications of the <name type="ship"
-                  >Northwestern</name> compared to the <name type="ship">Santa Clara</name>. He also
+              <p> McIntyre discusses the current schedule and route of the <name type="ship" ref="#Northwestern">S.S.
+                  Northwestern</name> and details specifications of the <name type="ship" ref="#Northwestern"
+                  >Northwestern</name> compared to the <name type="ship" ref="#SantaClara">Santa Clara</name>. He also
                 recounts a visit with the Purser's sister in the Ketchikan area and recounts two
                 fatal accidents in the Seattle area, which cause him to reflect on his own past.</p>
             </msContents>
@@ -5746,8 +5748,8 @@
               They like new scenes and experiences and won't take back talk from anybody</q> <bibl>
               <ref target="#ICL">Lloyd 18</ref></bibl>. The context of McIntyre's statement suggests that 
               <hi rend="italic">he</hi> is (and has been) the tramp engineer. In his letter to Gladys of 13 August 1909, 
-              he asks the company's superintendent engineer to transfer him from the <name type="ship">Santa Clara</name> to the <name type="ship">Northwestern</name>. 
-              Later in the current letter, he details the number of the <name type="ship">Santa Clara</name>'s 
+              he asks the company's superintendent engineer to transfer him from the <name type="ship" ref="#SantaClara">Santa Clara</name> to the <name type="ship" ref="#Northwestern">Northwestern</name>. 
+              Later in the current letter, he details the number of the <name type="ship" ref="#SantaClara">Santa Clara</name>'s 
               engineering crew, and he exhibits at least a neophyte familiarity with technical specifications and boiler operation.
             </note> we have had 
             <lb/>exceedingly fine weather this <choice><sic>Voige</sic><corr>Voyage</corr></choice> 
@@ -5871,8 +5873,8 @@
             <lb/><name type="ship" ref="#SantaClara">Santa Clara</name> 13&#x2014;and this Soap box
             <ptr type="noteAnchor" target="JJM19091004note4"/><note resp="ed" xml:id="JJM19091004note4">
               Here McIntyre seems to be referring to the boat on which he's currently sailing to catch up 
-              with the <name type="ship">Northwestern</name>. The diminutive connotation fits with the boastful tone that he has 
-              assumed to impress Gladys with the size and power of the <name type="ship">Northwestern</name>. Interestingly, the 
+              with the <name type="ship" ref="#Northwestern">Northwestern</name>. The diminutive connotation fits with the boastful tone that he has 
+              assumed to impress Gladys with the size and power of the <name type="ship" ref="#Northwestern">Northwestern</name>. Interestingly, the 
               term <hi rend="italic">soap box</hi> hasn't yet entered common usage as a way of designating a smaller, unpowered 
               or low-power vehicle. It's possible that the "soap box" is a lightboat, which appears in the 
               closer to McIntyre's letter to Gladys of 13 August 1909.
