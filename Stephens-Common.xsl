@@ -93,8 +93,12 @@
                      <li class="link"><a class="main"  href="">Editorial Introduction</a>
                         <ul class="sub">
                            <li><a href="./stephens_letters.html#projectDescription">Project Description</a></li>
-                           <li><a href="./stephens_letters.html#source">The Source Document</a></li>
+                           <li><a href="./stephens_letters.html#source">The Source Documents</a></li>
                            <li><a href="./stephens_letters.html#edition">The Electronic Edition</a></li>
+                           <li><a href="./stephens_letters.html#worksCited">Works Cited</a></li>
+                           <li><a href="./stephens_letters.html#PeopleMentioned">People Mentioned</a></li>
+                           <li><a href="./stephens_letters.html#organizationsMentioned">Organizations Mentioned</a></li>
+                           <li><a href="./stephens_letters.html#PlacesMentioned">Places Mentioned</a></li>
                            <li><a href="./stephens_letters.html#revision">Revision History</a></li>
                         </ul>
                      </li>
@@ -111,11 +115,6 @@
                            <li><a href="./stephens_appendices_hand.html">Stephens's Hand</a></li>
                            <li><a href="./stephens_appendices_msimages.html">Images of the MS Pages</a></li>
                            <li><a href="./stephens_appendices_maps.html">Maps</a></li>
-                           <li><a href="./stephens_letters.html#worksCited">Works Cited</a></li>
-                           <li><a href="./stephens_letters.html#PeopleMentioned">People Mentioned</a></li>
-                           <li><a href="./stephens_letters.html#organizationsMentioned">Organizations Mentioned</a></li>
-                           <li><a href="./stephens_letters.html#PlacesMentioned">Places Mentioned</a></li>
-                           <li><a href="./stephens_letters.html#revision">Revision History</a></li>
                            <li><a href="./stephens_appendices_acknowledgements.html">Acknowledgements</a></li>
                            <li><a href="./stephens_appendices_editors.html">About the Editors</a></li>
                         </ul>
@@ -138,8 +137,8 @@
                
                <!-- BEGIN titleBar -->    
                <div id="titleBar">
-                  <p style="text-align: center"><span class="projectTitle"><xsl:apply-templates
-                     select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:title"/></span><br/></p>
+                  <p style="text-align: center"><span class="projectTitle">Selected Letters from the Ivan S. Gilbert Collection of<br/>
+                     Stephens Family Travel Letters and Ephemera</span><br/></p>
                   <!-- Horizontal rule beneath page title -->
                   <hr style="border: 2px solid crimson;"/>
                </div> <!-- END titleBar -->
